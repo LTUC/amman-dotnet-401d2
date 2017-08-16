@@ -1,6 +1,6 @@
 # Code 401: ASP.NET Core
-This *private* repo is a work in progress. You may extract the contents of the `/lecture` & `/labs` folder in this repo to use in your course as necessary. The `Instructor_Lecture-Notes` is designed to hold specific class related notes
-that should not be public facing. 
+This *private* repo is a work in progress. You may extract the contents of the `/Public` & `/Labs` folder in this repo to use in your course as necessary. The `Lectures` is designed to hold specific class related notes
+that should *not* be public facing. 
 
 This Code 401 Facilitator's Guide includes an overview of what each day's topic will cover.
 ----
