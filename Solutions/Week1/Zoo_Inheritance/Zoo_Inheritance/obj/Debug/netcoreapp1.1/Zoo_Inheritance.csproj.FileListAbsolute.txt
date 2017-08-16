@@ -1,0 +1,9 @@
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\bin\Debug\netcoreapp1.1\Zoo_Inheritance.deps.json
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\bin\Debug\netcoreapp1.1\Zoo_Inheritance.runtimeconfig.json
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\bin\Debug\netcoreapp1.1\Zoo_Inheritance.runtimeconfig.dev.json
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\bin\Debug\netcoreapp1.1\Zoo_Inheritance.dll
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\bin\Debug\netcoreapp1.1\Zoo_Inheritance.pdb
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\obj\Debug\netcoreapp1.1\Zoo_Inheritance.csprojResolveAssemblyReference.cache
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\obj\Debug\netcoreapp1.1\Zoo_Inheritance.AssemblyInfo.cs
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\obj\Debug\netcoreapp1.1\Zoo_Inheritance.dll
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\Zoo_Inheritance\Zoo_Inheritance\obj\Debug\netcoreapp1.1\Zoo_Inheritance.pdb

@@ -1,0 +1,9 @@
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\bin\Debug\netcoreapp1.1\Hangman.deps.json
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\bin\Debug\netcoreapp1.1\Hangman.runtimeconfig.json
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\bin\Debug\netcoreapp1.1\Hangman.runtimeconfig.dev.json
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\bin\Debug\netcoreapp1.1\Hangman.dll
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\bin\Debug\netcoreapp1.1\Hangman.pdb
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\obj\Debug\netcoreapp1.1\Hangman.csprojResolveAssemblyReference.cache
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\obj\Debug\netcoreapp1.1\Hangman.AssemblyInfo.cs
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\obj\Debug\netcoreapp1.1\Hangman.dll
+C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\Hangman\Hangman\obj\Debug\netcoreapp1.1\Hangman.pdb
