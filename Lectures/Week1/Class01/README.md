@@ -26,14 +26,17 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 
 **C# Basics**
 * What is C#
-	* Where did it come from?
+  * Where did it come from?
 	* Currently on C# 7
-		*Updates to the language are always in the works to make it better
+		* Updates to the language are always in the works to make it better
+* What is .NET
+* What is ASP.NET
+	
 * Why do we use it?
-	*Statically Typed
-		*vs Dynamically Typed
+	* Statically Typed
+		* vs Dynamically Typed
 	* Object Orented
-	*Microsoft Platform
+	* Microsoft Platform
 * Introduction to Visual Studio 2017 Community
 	* How to create a console applicaiton
 	* Disect the contents of a standard console applicaiton
@@ -154,7 +157,7 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 			* Show the `Convert.To()` method to allow conversions 
 				```csharp
 				Console.WriteLine("How old are you?");
-				int answer = Convert.ToInt32(Console.ReadLine());				
+				int answer = Convert.ToInt32(Console.ReadLine());			
 				```
             * Day 2 is when we talk about error handling, so don't get to far into this. just mention to be careful with conversions
 
