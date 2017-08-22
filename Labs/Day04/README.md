@@ -24,3 +24,12 @@
 	- How long did it take you to complete this assignment?
 	- What did you struggle with? Why? How did you solve?
 	- What did you learn during this assignment?
+    - What resources did you utilize for this assingment?
+
+## Rubric
+- 2pts: override and virtual methods properly used
+- 2pts: Application runs without any errors
+- 2pts: Diagram created and labeled to show inherited and abstracted classes
+- 2pts: Readme included with answers to questions
+- 1pts: Class structure is comprehensible
+- 1pts: At least 3 different layers of inheritance

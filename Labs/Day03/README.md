@@ -25,3 +25,12 @@ game that will meet all of the requiements described in the user story above.
 	- How long did it take you to complete this assignment?
 	- What did you struggle with? Why? How did you solve?
 	- What did you learn during this assignment?
+    - What resources did you utilize for this assingment?
+
+## Rubric
+- 3pts:Application runs without any errors
+- 2pt: System.IO // CRUD file manipulation
+- 2pt: Output user response with game progress
+- 2pt: Readme included with answers to questions
+- 1pt: Simple user interface
+

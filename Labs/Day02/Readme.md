@@ -26,3 +26,11 @@
 	- What did you struggle with? Why? How did you solve?
 	- What did you learn during this assignment?
     - What code changes did you make? Why?
+    - What resources did you utilize for this assingment?
+
+## Rubric
+- 3pts: Application runs without any errors
+- 2pts: Try/Catch/Finally implementation
+- 2pts: Input validation
+- 2pt: Throw and custom error message
+- 1pt: Readme included with answers to questions

@@ -23,7 +23,7 @@
     - Selective statements
  
 ## Stretch Goals
-- Track number of correct/incorrect questions 
+- +1 Track number of correct/incorrect questions 
   - Show the user the number of correct/incorrect to user after quiz is over
 
 ## ReadMe
@@ -32,3 +32,11 @@
 	- What did you struggle with? Why? How did you solve?
 	- What were you confident in? Why?
 	- What did you learn during this assignment?
+    - What resources did you utilize for this assingment?
+
+## Rubric
+- 3pts: Application runs without any errors
+- 2pts: Request user input and output response
+- 2pts: min 2 methods not `Main()`
+- 2pt: Iterative/Selective statemetns - logical code flow
+- 1pt: Readme included with answers to questions

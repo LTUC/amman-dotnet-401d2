@@ -20,3 +20,12 @@
 	- How long did it take you to complete this assignment?
 	- What did you struggle with? Why? How did you solve?
 	- What did you learn during this assignment?
+    - What resources did you utilize for this assingment?
+
+## Rubric
+- 4pts: All 4 OOPs principles implemented
+- 2pts: Diagram created and labeled to show relationships
+- 1pts: Application runs without any errors
+- 1pts: Readme included with answers to questions
+- 1pts: Class structure is comprehensible
+- 1pts: Comments within the code labeling OOPs locations
