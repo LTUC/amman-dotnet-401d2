@@ -16,7 +16,7 @@
 
 
 # Lecture Outline
-**Exception Handling**
+## **Exception Handling**
 * Why do we need it?
   * Ask students about their experience from the previous day's lab assignments. 
   * What kind of errors did they receive?
@@ -52,16 +52,75 @@
 		} 
 	```
 
+    ```csharp
+    catch (Exception e)
+    {
+        //Do something with e here
+    }
+    ```
+
+    ```csharp
+    catch (WebException ex)
+    {
+       //code specifically for a WebException
+    }
+    ```
+
+    #### Finally
+    - Examples of the Finally statement
+    - The finally statement executes regardless if the catch was hit or not
+    ```csharp
+    public static void Main()
+    {
+        int[] array1 = {0, 0};
+        int[] array2 = {0, 0};
+
+        try
+        {
+            Array.Copy(array1, array2, -1);
+        }
+        catch (ArgumentOutOfRangeException e)
+        {
+            Console.WriteLine("Error: {0}", e);
+        }
+        finally
+        {
+            Console.WriteLine("This statement is always executed.");
+        }
+    }
+    ```
+
+## **Setting Up a Debugger:**
+- Why do you need a debugger
+- How do you set up a debugger?
+- How do you use a debugger?
+  - Step through
+  - Step over
+  - Step into
+
+1. Open up the project from Day one,
+2. Attach the debugger
+3. Use the step through/over/into actions to demonstrate what you need it for
+4. "change" the values of the variables within the debugger to show flexibility
+
 
 # Resources
 
-
 # Assignments
-
 
 ## Readings
 
+### Blog posts
+1. [Debugging your C# applicaiton](https://weblogs.asp.net/imranbaloch/aspnet-vnext-debugging-mvc-source)
+### Official docs
+1. [How to use the try/catch block to catch exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions)
+1. [How to explicitly throw exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-explicitly-throw-exceptions)
+1. [How to use finally blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-finally-blocks)
+1. [Best Practices](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/best-practices-for-exceptions)
+
 ## Lab
+Day02- About Me Quiz w/ Exception Handling
 
 ## Coding Challenge
+Reverse String challenge
  

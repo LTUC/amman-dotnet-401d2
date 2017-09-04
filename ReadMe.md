@@ -61,11 +61,13 @@ This Code 401 Facilitator's Guide includes an overview of what each day's topic 
 
 * class 30 Advanced Dependency Injection
 
+## Razor Pages
+* class 31 Razor Pages
+
 ## Security & Performance
-* class 31 File Upload / File Download
-* class 32 SSL / HTTPS
-* class 33 Multi-Threading
-* class 34 OWASP
+* class 32 File Upload/Download
+* class 33 SSL/HTTPS
+* class 34 MultiThreading
 
 
 ## Web Services 
