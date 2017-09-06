@@ -12,7 +12,6 @@
 ## Lecture Outline
 
 
-
 ### **Introduction to Classes**
    1. **What is a Class?**
       1. A class is a 'blueprint' it defines the data and behavior of a type. 
@@ -56,7 +55,7 @@
         - ***Because objects that are based on classes are referred to by reference, classes are known as reference types***
 
    1. What are constructors?
-      1. Constructors take in different arguments
+      1. A constructor is defined like a method, except that the method name and return type are reduced to the name of the enclosing type:
       1. Constructors enable the programmer to set default values, limit instantiation, and write code that is flexible and easy to read.
       1. **Default Constructors**
          - if you don't provide a constructor, one is automatically made for you that sets the member variables to their default values
@@ -77,7 +76,30 @@
             }
             ```
 
-    1. What are properties?
+    1. Object Initializers
+
+```csharp
+public class Bunny
+{
+  public string Name;
+  public bool LikesCarrots;
+  public bool LikesHumans;
+
+  public Bunny () {}
+  public Bunny (string n) { Name = n; }
+}
+
+
+// Using object initializers, you can instantiate Bunny objects as follows:
+// Note parameterless constructors can omit empty parentheses
+Bunny b1 = new Bunny { Name="Bo", LikesCarrots=true, LikesHumans=false };
+Bunny b2 = new Bunny ("Bo")     { LikesCarrots=true, LikesHumans=false };
+
+```
+
+   1. What are properties?
+        1. Properties look like fields from the outside, but internally they contain logic, like methods do.
+        1. A property is declared like a field, but with a get/set block added
         1. A `get` property accessor is used to return the property value, and a `set` property accessor is used to assign a new value.
         2. The value keyword is used to define the value being assigned by the `set` accessor.
         3. Properties can be read-write (they have both a `get` and a `set` accessor), read-only (they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). Write-only properties are rare and are most commonly used to restrict access to sensitive data.

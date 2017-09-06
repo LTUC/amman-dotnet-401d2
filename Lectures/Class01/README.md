@@ -36,7 +36,14 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 	* Statically Typed
 		* vs Dynamically Typed
 	* Object Orented
-	* Microsoft Platform
+
+* Microsoft Platform:
+  * C# depends on a runtime equipped with a host of features such as automatic memory management and exception handling. The design of C# closely maps to the design of Microsoft’s Common Language Runtime (CLR), which provides these runtime features (although C# is technically independent of the CLR).
+  * The CLR is the runtime for executing managed code. C# is one of several managed languages that get compiled into managed code. Managed code is packaged into an assembly, in the form of either an executable file (an .exe) or a library (a .dll), along with type information, or metadata.
+  * Managed code is represented in intermediate language or IL. When the CLR loads an assembly, it converts the IL into the native code of the machine, such as x86. This conversion is done by the CLR’s JIT (just-in-time) compiler. An assembly retains almost all of the original source language constructs, which makes it easy to inspect and even generate code dynamically.
+  * CLR is in charge of taking the managed code, compiling it into machine code and then executing it. On top of that, runtime provides several important services such as automatic memory management, security boundaries, type safety etc.
+
+
 * Introduction to Visual Studio 2017 Community
 	* How to create a console applicaiton
 	* Disect the contents of a standard console applicaiton
