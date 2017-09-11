@@ -24,6 +24,15 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 * TA Introductions
 * Instructor & Assistant Instructor Introductions
 
+1. Overview of the class
+   - Syllabus
+   - Bonus weekly Discussions
+   - Lecture Hours/Lab Hours
+   - 1:1 in week 3. 
+   - My office hours
+   - Expectations of self research (15 min rule)
+   - 5 min Lightning Talks
+
 **C# Basics**
 * What is C#
   * Where did it come from?
@@ -167,6 +176,21 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 				int answer = Convert.ToInt32(Console.ReadLine());			
 				```
             * Day 2 is when we talk about error handling, so don't get to far into this. just mention to be careful with conversions
+
+### Error Handling:
+   - What do you do if you encounter an error (whiteboard // draw it)
+   - 15 min rule
+   - Take a deep breath, step away, break it down
+   - documentation
+   - look at the lecture
+   - Online Research
+   - ask a TA
+   - Ask the instructor
+
+
+### How to ask a question:
+
+   - How do you ask a question?
 
 # Resources
 
