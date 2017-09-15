@@ -13,6 +13,88 @@ a well as inhearitance and hierarchy of classes.
 
 ### OOP principles pt 2
 
+**More on Properties**
+1. The value keyword is used to define the value being assigned by the `set` accessor.
+2. Properties can be read-write (they have both a `get` and a `set` accessor), read-only (they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). Write-only properties are rare and are most commonly used to restrict access to sensitive data.
+    
+      ```csharp
+        class Person
+        {
+            private string name;  // the name field (called a 'backing store' note how it is private)
+            public string Name    // the Name property
+            {
+                get
+                {
+                    return name;
+                }
+                set
+                {
+                    name = value;
+                }
+            }
+        }
+
+        Person person = new Person();
+        person.Name = "Joe";  // the set accessor is invoked here                
+
+        System.Console.Write(person.Name);  // the get accessor is invoked here
+      ```
+
+
+  1. Logic can exist in the Get/Set accessors. 
+         - This is OK
+        ```csharp
+            public class Date
+            {
+                private int month = 7;  // Backing store
+
+                public int Month
+                {
+                    get
+                    {
+                        return month;
+                    }
+                    set
+                    {
+                        if ((value > 0) && (value < 13))
+                        {
+                            month = value;
+                        }
+                    }
+                }
+            }
+            ```
+
+      - So is this:
+
+        ```csharp
+        class Employee
+        {
+            private string name;
+            public string Name
+            {
+                get
+                {
+                    return name != null ? name : "NA";
+                }
+            }
+        }
+        ```
+
+        ***This is NOT good practice:***
+
+        ```csharp
+        private int number;
+        public int Number
+        {
+            get
+            {
+                return number++;   // Don't do this
+            }
+        }
+        ```
+
+
 **Encapsulation**
 - Encapsulation means to encapsulate logic (into classes)
   - hide the secure or unwatned data to user. 
@@ -72,10 +154,11 @@ class TV
 }
 ```
 
-**Polymorphism:**
-    1.Taking it one step further, "What if we need to change the behavior of the methods in the base class?"
-      1. Answer: Virtual and override methods. 
-          - Virtual Methods: a derived class can `override` the method with it's own implementation
+**Polymorphism:** <br />
+  - Taking it one step further, "What if we need to change the behavior of the methods in the base class?"
+  - Answer: Virtual and override methods.
+    - Virtual Methods: a derived class can `override` the method with it's own implementation
+
 ```csharp
 public class Shape
 {

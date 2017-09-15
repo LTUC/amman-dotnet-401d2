@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -7041,19 +7041,37 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\amanda\\Desktop\\CodeFellows\\dotnet401\\Week1\\LabAssignments\\Zoo_Inheritance\\Zoo_Inheritance\\Zoo_Inheritance.csproj",
+      "projectUniqueName": "C:\\Users\\amanda\\Source\\Repos\\code-401-dotnet-guide\\Solutions\\Week1\\Zoo_Inheritance\\Zoo_Inheritance\\Zoo_Inheritance.csproj",
       "projectName": "Zoo_Inheritance",
-      "projectPath": "C:\\Users\\amanda\\Desktop\\CodeFellows\\dotnet401\\Week1\\LabAssignments\\Zoo_Inheritance\\Zoo_Inheritance\\Zoo_Inheritance.csproj",
-      "outputPath": "C:\\Users\\amanda\\Desktop\\CodeFellows\\dotnet401\\Week1\\LabAssignments\\Zoo_Inheritance\\Zoo_Inheritance\\obj\\",
+      "projectPath": "C:\\Users\\amanda\\Source\\Repos\\code-401-dotnet-guide\\Solutions\\Week1\\Zoo_Inheritance\\Zoo_Inheritance\\Zoo_Inheritance.csproj",
+      "packagesPath": "C:\\Users\\amanda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\amanda\\Source\\Repos\\code-401-dotnet-guide\\Solutions\\Week1\\Zoo_Inheritance\\Zoo_Inheritance\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\amanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
