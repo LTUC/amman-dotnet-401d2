@@ -8,6 +8,7 @@
  
 ## Lecture Outline
 
+
 - Review Collections
   - Create a collection
   - Add data to the collection
