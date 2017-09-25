@@ -9,17 +9,34 @@
 - submit a link to your PR in canvas
 
 ## Directions
-This is the first of a 4 part applicaiton build out. You will be creating a
-web appliction for a student enrollment center. Using everything you've learned so far
-and query strings and controllers build out at least 2 controllers with each controller containing at least 3 actions.
-The application needs to have a page to register students, and another page to view all 
-students who have registered so far. Use attribute routing to clean up the URLS, 
-and have at least one custom URL in each controller. Be sure to have a default controller set 
-in the configuration.
+You will be creating a web appliction for a student enrollment center. 
+
+1. Using everything you've learned so far about controllers, MVC, and Core - build out:
+   1. Start out with a new Empty web application
+      1. Add appropriate NuGet packages
+      1. Add proper Middleware and Services
+      1. Set up the routing template <br />
+      1. Set up Controller folder structure
+      
+**Create** <br />
+*Note: Do NOT add a Controller class when adding controllers, only add a "Class"*
+   1. Home Controller
+   1. Students Controller
+   1. Error Page Controller.
+2. Home and Student Controller should have at least 2 actions each.
+3. Error controller can only have 1 (at least)
+4. Add Custon/Attribute routing to the Error page and one of the Student Actions.
+
+### Contents of the Application
+- The application needs to have a page to register students
+- another page to view all students who have registered so far.
+- One of the Student Actions should take in 2 parameters --> Output manipulated data to the browser (i.e. Name & Age, Name & Class Level, etc...  )
+- Be sure to have a default controller set in the configuration.
+
+*For now, just output text to the browser, we will build onto views on day 12*
 
 **Note**: We are only practing using controllers in this lab assignment. 
 there is no need to create views or models just yet. 
-
 
 ## ReadMe
 - Your readme should include the following information:

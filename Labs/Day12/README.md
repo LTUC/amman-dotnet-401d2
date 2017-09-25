@@ -3,14 +3,29 @@
 
 ## To Submit this Assignment
 - fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab10-amanda`
+- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab12-amanda`
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
 
 ## Directions
-- Building off from your projet from Day 11, Add a view to the controllers/actions you created. 
-- Use Tag helpers and Razor syntax to build out the registration form and student display page with HTML/CSS to structure the page. 
+-Recreate your project from Day 11 & add views to the controllers/actions
+
+**Create** <br />
+- Views Folder
+- Folder within Views for each Controller
+- .cshtml page for each action specified
+
+
+### Requirements
+- Create a View Model Folder with a Student class to hold specific student properties
+- Show an example of the different ways to pass data to the views
+  - ViewData[]
+  - ViewBag[]
+  - ViewModel
+  - only @Model
+  - Model as an IEnumerable
+- Add some Css/HTML to each of your views
 
 ## ReadMe
 - Your readme should include the following information:
@@ -19,9 +34,12 @@
 	- What did you learn during this assignment?
     - What resources did you utilize for this assingment?
 
+## Stretch
+- (+2) Add Data persistance through an external file
+
 ## Rubric
 - 2pts: Application runs without any errors
-- 2pts: Controllers link to views
-- 3pts: All views created with use of Tag Helpers
+- 2pts: Controller Actions proper syntax and link to views
+- 2pts: All 5 different ways to pass data are shown 
 - 2pts: Razor Syntax properly used
-- 1pts: Readme included with answers to questions
+- 2pts: Readme included with answers to questions

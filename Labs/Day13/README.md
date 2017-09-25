@@ -12,13 +12,9 @@
 Building off of your project from the previous 2 classes, Add a Model to your MVC application.
 This model should hold the basic properties of the information you are trying to capture.
 
-To 'save' this data, instead of using an external text file, save the data entered through an
-in-memory collection of objects using Model Binding. Include input validation in all fields as well. 
-
-Update your applicaiton as neccesary so that the Model, View, and Controller layout 
-is properly configured.
-
-If you have time, make changes to your app to improve functionality as you see fit.
+- Add Taghelpers/HTML/CSS to your site to make it more client ready.
+- Add at least one Model named Register, with basic properties of what a student registration should consist of
+- Create an initial Migration
 
 ## ReadMe
 - Your readme should include the following information:
@@ -28,8 +24,8 @@ If you have time, make changes to your app to improve functionality as you see f
     - What resources did you utilize for this assingment?
 
 ## Rubric
-- 2pts: Application runs without any errors
-- 3pts: Models created with Properites and input validation
-- 2pts: Model Binding for in memory data persistance
-- 2pts: correct MVC linked configuration
+- 2pts: All three MVC components are present (build off from prev assignments)
+- 3pts: Models created with Properites
+- 2pts Taghelpers are present and used properly
+- 2pts Intial Migration
 - 1pts: Readme included with answers to questions

@@ -3,6 +3,7 @@
 ## Learning Objectives
 1. The student will create and implement interfaces within an applicaiton
 2. The student will understand how to implement a linked list
+3. 
 
 ## Lecture Outline
    

@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\amanda\\Desktop\\CodeFellows\\dotnet401\\Week2\\LabAssignments\\Interfaces\\Interfaces\\Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\amanda\\Source\\Repos\\code-401-dotnet-guide\\Solutions\\Week2\\Interfaces\\Interfaces\\Interfaces.csproj",
       "projectName": "Interfaces",
-      "projectPath": "C:\\Users\\amanda\\Desktop\\CodeFellows\\dotnet401\\Week2\\LabAssignments\\Interfaces\\Interfaces\\Interfaces.csproj",
+      "projectPath": "C:\\Users\\amanda\\Source\\Repos\\code-401-dotnet-guide\\Solutions\\Week2\\Interfaces\\Interfaces\\Interfaces.csproj",
       "packagesPath": "C:\\Users\\amanda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amanda\\Desktop\\CodeFellows\\dotnet401\\Week2\\LabAssignments\\Interfaces\\Interfaces\\obj\\",
+      "outputPath": "C:\\Users\\amanda\\Source\\Repos\\code-401-dotnet-guide\\Solutions\\Week2\\Interfaces\\Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amanda\\AppData\\Roaming\\NuGet\\NuGet.Config",

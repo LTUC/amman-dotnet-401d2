@@ -80,7 +80,18 @@
          var filteredNames = names.Where (n => n.Length >= 4); 
         ```
 
+        ```csharp
+        var bookAuthorCollection = from b in books
+                           select new { Book: b,
+                                        Author: b.Authors[0]
+                                      };
+    
+        foreach (var x in bookAuthorCollection)
+            Console.WriteLine("Book title - {0}, First author {1}", 
+                                 x.Book.Title, x.Author.FirstName);
+        ```
 
+- We want bookAuthorCollection ot hold information only about the book and author when extracing data
     1. .Where is an example of an extension method.
        1. 
 

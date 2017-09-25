@@ -8,12 +8,20 @@
 - submit a pull request to this repository
 - submit a link to your PR in canvas
 
+
 ## Directions
 Provided is a JSON file that contains a data set of location information for properties in Manhatten.
 - Read in the file and answer the questions below
-- Use LINQ queries and Lambda statements to find the answers. 
+- Use LINQ queries and Lambda statements (when appropriate) to find the answers. 
 
+## Setup
+- Add the data.json file to your solution root folder
+- Explore the NuGet packages and install NewtonSoftJson
+- Do some self research (prev. labs count too) and find out how to read in JSON file (hint: JsonConvert.DeserializedOject is *part* of it)
+- You will need to break up each section of the JSON file up into different classes, use your resources - ask the TA's if your stuck.
+- 
 #### Questions
+Each query builds off of the next. 
 1. Output all of the neighborhoods in this data list
 2. Filter out all the neighborhoods that do not have any names
 3. Remove the Duplicates
@@ -25,10 +33,10 @@ Provided is a JSON file that contains a data set of location information for pro
 	- How long did it take you to complete this assignment?
 	- What did you struggle with? Why? How did you solve?
 	- What did you learn during this assignment?
-    - What resources did you utilize for this assingment?
+    - What resources did you utilize for this assignment?
 
 ## Rubric
-- 3pts: Application runs without any errors
-- 4pts: Questions are answered
+- 2pts: Application runs without any errors
+- 5pts: Questions are answered
 - 2pts: Readme included with answers to questions
 - 1pt: Code meets industry standard requirements
