@@ -11,7 +11,7 @@
 ## Directions
 You will be creating a web appliction for a student enrollment center. 
 
-1. Using everything you've learned so far about controllers, MVC, and Core - build out:
+1. Using everything you've learned so far about controllers, MVC, and Core - build out a Student Enrollment Site.
    1. Start out with a new Empty web application
       1. Add appropriate NuGet packages
       1. Add proper Middleware and Services

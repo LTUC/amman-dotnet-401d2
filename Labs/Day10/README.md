@@ -22,7 +22,7 @@
     - What resources did you utilize for this assingment?
   
 
-- ## Rubric
+## Rubric
 - 3pts: Application runs without any errors
 - 3pts: Custom Error page for Development & Production
 - 3pts: Deploy to Azure
