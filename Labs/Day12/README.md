@@ -9,7 +9,7 @@
 - submit a link to your PR in canvas
 
 ## Directions
--Recreate your project from Day 11 & add views to the controllers/actions
+-Using the same requirements from Lab 11, Recreate your project from Day 11 & add views to the controllers/actions
 
 **Create** <br />
 - Views Folder
@@ -18,14 +18,17 @@
 
 
 ### Requirements
-- Create a View Model Folder with a Student class to hold specific student properties
 - Show an example of the different ways to pass data to the views
   - ViewData[]
   - ViewBag[]
-  - ViewModel
+  - Use a ViewModel
   - only @Model
-  - Model as an IEnumerable
+  - Model as an IList<T\>
 - Add some Css/HTML to each of your views
+- Use basic C# to display your information
+- Save your data into an external file, and retrieve that data and output it to the View. (Hint: you can do that data access through the controller action)
+- Have more than one Index output to the same View
+
 
 ## ReadMe
 - Your readme should include the following information:
@@ -34,11 +37,12 @@
 	- What did you learn during this assignment?
     - What resources did you utilize for this assingment?
 
-## Stretch
-- (+2) Add Data persistance through an external file
+## Stretch (+2)
+   - Add a Layout to your view
+   - Create Partial views
 
 ## Rubric
-- 2pts: Application runs without any errors
+- 2pts: Website runs without any errors
 - 2pts: Controller Actions proper syntax and link to views
 - 2pts: All 5 different ways to pass data are shown 
 - 2pts: Razor Syntax properly used

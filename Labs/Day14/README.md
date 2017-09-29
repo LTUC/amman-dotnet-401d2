@@ -15,11 +15,6 @@ Building off of your project from the previous 3 classes:
 - Add Validation in your model for user input
 - Adjust HTML/CSS as needed to make this app "Client Ready"
 
-## Stretch
-- +2 Read [this](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search) tutorial.
-  - review the section about 1/2 way down that says "Adding Search by Genre"
-  - Read through this tutorial section and add a custom search ViewModel and functionality in your application for students to be searched by Course.
-
 ## ReadMe
 - Your readme should include the following information:
 	- How long did it take you to complete this assignment?
@@ -30,6 +25,6 @@ Building off of your project from the previous 3 classes:
 ## Rubric
 - 2pts: All three MVC components are present (build off from prev assignments)
 - 3pts: Models created with Properites
-- 2pts Taghelpers are present and used properly
-- 2pts Intial Migration
+- 2pts Model properties have validation
+- 2pts Update Database/migration
 - 1pts: Readme included with answers to questions
