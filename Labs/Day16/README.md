@@ -13,10 +13,15 @@
 In this series, we will be building an infrastructure for a Travel packing site.
 The applicaiton should assist users in helping them decide what they should pack
 when going on vacation. Within the application, the user can select destinations and 
-a list of reccomended items will display what they should pack. 
-Use the "Code First" migration approach and create a database to model data persistance.
-Include a class that will 'seed the database' for default data when there is no information in the database.
+a list of reccomended items will display what they should pack. For Today, just create a 
+Destinations class that has at least 4 properties in it. 
 
+## Setup
+- Create a Model, View, Controller
+- Destinations Model class with at least 4 properties
+- Have an interface
+- Have a Repository with "dummy" data
+- Implement Dependency Injection on of the Controllers with the Repository and Interface.
 
 ## ReadMe
 - Your readme should include the following information:
@@ -27,7 +32,7 @@ Include a class that will 'seed the database' for default data when there is no 
 
 ## Rubric
 - 2pts: Application runs without any errors
-- 2pts: Create database w/ seeded information
-- 2pts: Add initial migration
-- 3pts: MVC components properly configured
+- 3pts: Dependency Injection properly resolves
+- 2pts: Repository and Interface properly implemented 
+- 2pts: MVC components properly configured
 - 1pts: Readme included with answers to questions

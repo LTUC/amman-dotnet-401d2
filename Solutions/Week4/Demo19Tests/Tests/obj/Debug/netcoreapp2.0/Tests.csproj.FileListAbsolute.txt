@@ -1,0 +1,4 @@
+C:\Users\amanda\Source\Repos\Demo19Tests\Tests\obj\Debug\netcoreapp2.0\Tests.csproj.CoreCompileInputs.cache
+C:\Users\amanda\Source\Repos\Demo19Tests\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfoInputs.cache
+C:\Users\amanda\Source\Repos\Demo19Tests\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfo.cs
+C:\Users\amanda\Source\Repos\Demo19Tests\Tests\obj\Debug\netcoreapp2.0\Tests.csprojResolveAssemblyReference.cache

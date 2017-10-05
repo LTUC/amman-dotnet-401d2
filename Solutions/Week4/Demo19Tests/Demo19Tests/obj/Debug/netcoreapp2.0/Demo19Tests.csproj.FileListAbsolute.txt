@@ -1,0 +1,11 @@
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\obj\Debug\netcoreapp2.0\Demo19Tests.csproj.CoreCompileInputs.cache
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\obj\Debug\netcoreapp2.0\Demo19Tests.AssemblyInfoInputs.cache
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\obj\Debug\netcoreapp2.0\Demo19Tests.AssemblyInfo.cs
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\bin\Debug\netcoreapp2.0\Demo19Tests.deps.json
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\bin\Debug\netcoreapp2.0\Demo19Tests.runtimeconfig.json
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\bin\Debug\netcoreapp2.0\Demo19Tests.runtimeconfig.dev.json
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\bin\Debug\netcoreapp2.0\Demo19Tests.dll
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\bin\Debug\netcoreapp2.0\Demo19Tests.pdb
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\obj\Debug\netcoreapp2.0\Demo19Tests.dll
+c:\users\amanda\Source\Repos\Demo19Tests\Demo19Tests\obj\Debug\netcoreapp2.0\Demo19Tests.pdb
+C:\Users\amanda\Source\Repos\Demo19Tests\Demo19Tests\obj\Debug\netcoreapp2.0\Demo19Tests.csprojResolveAssemblyReference.cache
