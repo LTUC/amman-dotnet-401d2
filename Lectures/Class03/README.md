@@ -1,28 +1,17 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 03
 
 ## Overview
-* Introduce students to Arrays. They may/should already have an idea of what arrays are from 201 and 301. This will be a refresher that is specific to c#.
-* They will be using arrays to read lines in from an external file.
-* Primarily this lecture focuses on reading and writing to an external file. They will be using the System.IO library to achieve this.
-* They will be checking if a file exists in a location, create the file if needed, read in the lines (in an array), manipulate/do something with the data, and send/save it back to the file.
-* Introduce the 'using' statements. Describe what the using statements do and that they are used for more than in file manipulation. It can also used in DB calls.  The most important part about 'using' statements is that they close the connection when the action is complete.
-* This lab will be a bit more advanced than the previous days. At this point they should be comfortable with user input and response. They will be creating a word guess game that saves all possible words to an external location and randomly selects one of those words to be guessed. 
-
+* This day introduces external libraries that you can use within your code. We introduce the System.IO Library. 
+* The students will be introduced into Concurrency. The basics of Multi-threading, Async/Await, and Parallel programming.
 
 ## Learning Objectives
-
 1. The Student will be able to successfully Create, Read, and Update a text file using the System.IO library
-1. Student will create an array and use an array to read lines from an external text file application
-1. Students will know and understand the purpose of the using statements when opening up a file.
-
+1. The students will implement concurrency into their programs to show performance improvement.
+1. Students will know and understand the purpose of the using statements when connecting to an external location.
 
 ## Lecture Outline
 
-1. Review what we know so far...
-   1. Methods
-   1. Error Handling
-   1. If statements
-   1. User Validation
+### System.IO
 
 1. Let's talk about file manipulation...
    1. What is File Manipulation
@@ -133,8 +122,10 @@
     }
     ```
 
+### Concurrency
+
+
 ## Readings
-1. [Single Dimensional Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays)
 1. [File and Stream I/O](https://docs.microsoft.com/en-us/dotnet/standard/io/index)
 1. [Write to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-write-text-to-a-file)
 1. [Read to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file)
