@@ -2,19 +2,16 @@
 =====================================
 
 ## Overview 
-* This week focuses on the fundamentals of the C# language. The assumption coming into this course is the students have never coded in C# before, and this is their first exposure. 
-We will go over the general basics of a console app, what methods are, as well as iteration statements, selection statements, and user input.
-
-* A lot of the iteration and selection statements should be review for them from 201 and 301 from JavaScript. We may only need to slightly tweak their syntax for C#.
-This will likely give the students some confidence on the first day that they do already know more than they think they do.
-
-* Students will be writing code on the first day, so it is important for them to have their tools installed and ready to go. 
-We will go over in class a walkthrough on how to start a new project. Live Code demo in class will take place so that students can get immediate exposure.
+* First day of Class! Spend the first part of class doing kickoff with the students
+* Spend no more than an hour with students reviewing the pre-work. Do a review about what they should have learned and applied to their lab 
+that they were instructed to create. 
+ 
 
 ## Learning Objectives
-* The student will be able to successfully identify and create methods and their components within a console application. 
-* The student will be able to successfully identify and create selection statements and iteration statements to solve a problem.
 * The student will successfully request user input and output a response to the console.
+* The student will implement try-catch statements as a form of exception handling within their code.
+* Set-up a debugger within Visual Studio 2017
+* Understand and be comfortable with debugging through code to identify potential bugs and errors. 
 
 # Lecture Outline
 
@@ -26,12 +23,10 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 
 1. Overview of the class
    - Syllabus
-   - Bonus weekly Discussions
    - Lecture Hours/Lab Hours
    - 1:1 in week 3. 
    - My office hours
-   - Expectations of self research (15 min rule)
-   - 5 min Lightning Talks
+   - Expectations of asking for assistance (15 min rule)
 
 **C# Basics**
 * What is C#
@@ -40,10 +35,13 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 		* Updates to the language are always in the works to make it better
 * What is .NET
 * What is ASP.NET
+* What is ASP.NET Core
 	
 * Why do we use it?
 	* Statically Typed
-		* vs Dynamically Typed
+		- Type checking occurs at compile time (C#)
+	* Dynamically Typed
+		- Type checking occurs at Run time (JS)
 	* Object Orented
 
 * Microsoft Platform:
@@ -177,6 +175,90 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 				```
             * Day 2 is when we talk about error handling, so don't get to far into this. just mention to be careful with conversions
 
+
+
+## **Exception Handling**
+* Why do we need it?
+  * Ask students about their experience from the previous day's lab assignments. 
+  * What kind of errors did they receive?
+  * How did they handle them?
+  * Introduce Try/catch/finally statements
+     #### Try
+	 ```csharp
+		string number = "twenty";
+		try
+		{
+			int twenty = Convert.ToInt32(number); //Error
+		}
+	```
+       - *If an exception is thrown, the common language runtime (CLR) looks for a `catch` block to handle the exception* 
+       - *if there is no catch block, the CLR throws an unhandled error, and stops execution of th program*
+       - *To not have a `catch` block is not reccomended. You **are** allowed to have an empty `catch` block or a `catch` block without an argument.*
+	
+	#### Catch
+	- Here is an example of a catch statement:
+	```csharp
+	catch(InvalidCastException e)
+	{
+		Console.WriteLine(e);
+		//You can also handle the exception however you choose to here
+	}
+	```
+      - `throw` rethrows the exception or you can throw your own exception
+	 ```csharp
+		catch (InvalidCastException e)   
+		{  
+		 // Perform some action here, and then throw a new exception.  
+		 throw new YourCustomException("Put your error message here.", e);  
+		} 
+	```
+
+    ```csharp
+    catch (Exception e)
+    {
+        //Do something with e here
+    }
+    ```
+
+    ```csharp
+    catch (WebException ex)
+    {
+       //code specifically for a WebException
+    }
+    ```
+
+    #### Finally
+    - Examples of the Finally statement
+    - The finally statement executes regardless if the catch was hit or not
+    ```csharp
+    public static void Main()
+    {
+        int[] array1 = {0, 0};
+        int[] array2 = {0, 0};
+
+        try
+        {
+            Array.Copy(array1, array2, -1);
+        }
+        catch (ArgumentOutOfRangeException e)
+        {
+            Console.WriteLine("Error: {0}", e);
+        }
+        finally
+        {
+            Console.WriteLine("This statement is always executed.");
+        }
+    }
+    ```
+
+## **Setting Up a Debugger:**
+- Why do you need a debugger
+- How do you set up a debugger?
+- How do you use a debugger?
+  - Step through
+  - Step over
+  - Step into
+
 ### Error Handling:
    - What do you do if you encounter an error (whiteboard // draw it)
    - 15 min rule
@@ -191,25 +273,28 @@ We will go over in class a walkthrough on how to start a new project. Live Code 
 ### How to ask a question:
 
    - How do you ask a question?
+		- What Have you done (summarize in 1-2 sentances)
+		- What *specific* error are you encountering
+		- Where have you looked to find a solution for the error?
+			- Example: MS Documentaion, "Bing" the error?
 
 # Resources
 
-* C# 5 In a nutshell - C# basics
 * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/index)
 
 # Assignments
 
 
 ## Readings
+- C# 7.0 in a Nutshell - pg. 158 - 166 (start @ “try Statements and Exceptions)
+	- Try/Catch & Exceptions excerpt from assigned book (introduction)
+- [Try/Catch Blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions)
+- [Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/exception-handling-statements)
 
-* [Selection Statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/selection-statements)
-* [Iteration Statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/iteration-statements)
-* [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
-* [Namespace](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)
 
 ## Lab
 
-[Lab 01 - About Me](https://www.google.com "Lab 01 - AboutMe")
+[Lab 01 - About Me]("Lab 01 - AboutMe")
 
 ## Coding Challenge
 
