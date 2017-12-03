@@ -2,125 +2,59 @@
 =====================================
 
 ## Overview
-* The students likely encountered some errors during their first program that they created on day 1. There may have been user input errors or data manipulation issues. During the code review, or even the beginning of the actual lecture, ask the students what sort of issues they encountered, and work with them to become familiar with error and exception handling.
-* When introducing error and exception handling, we will primarily be focusing on the try/catch/finally statements. This is what is most commonly used, and what the students will be implementing in their application from the previous day and just about all code moving forward.
-* The best way to show or demonstrate the try/catch/finally is to do so in a live code demo. Pull up your code from the first lab, and add in your try/catch/finally statements to compare/contrast the differences.
-* We will also be introducing debugging into this lesson. This can go hand-in-hand with the exception handling. This can be approached by an additional way to catch/find errors in the code that are not throwing an exception.
-* As with the try/catch/finally statements, the debugging can be demonstrated through a live session. Demonstrate how to setup the debugger, what 'step over' 'step into' and 'step through' mean. 
+* Today is solely focusing on how students should be approaching the setup and presentation of their assignments. 
+* Use XUnit when unit testing within C#. 
+* The documentation portion shows an example of what the readme documentation should look like, as well as comments within code.
 
 
 ## Learning Objectives
-* The student will implement try-catch statements as a form of exception handling within their code.
-* The student will setup a debugger within Visual Studio 2017
-* The student will understand and be comfortable with debugging through code to identify potential bugs and errors. 
-
+* Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach. 
+* The students will understand and implement code coverage within their programs when testing
+* Students will include intuitive comments within their code
+* Students will setup readme documentation for each assignment given a specific format
 
 # Lecture Outline
-## **Exception Handling**
-* Why do we need it?
-  * Ask students about their experience from the previous day's lab assignments. 
-  * What kind of errors did they receive?
-  * How did they handle them?
-  * Introduce Try/catch/finally statements
-     #### Try
-	 ```csharp
-		string number = "twenty";
-		try
-		{
-			int twenty = Convert.ToInt32(number); //Error
-		}
-	```
-       - *If an exception is thrown, the common language runtime (CLR) looks for a `catch` block to handle the exception* 
-       - *if there is no catch block, the CLR throws an unhandled error, and stops execution of th program*
-       - *To not have a `catch` block is not reccomended. You **are** allowed to have an empty `catch` block or a `catch` block without an argument.*
-	
-	#### Catch
-	- Here is an example of a catch statement:
-	```csharp
-	catch(InvalidCastException e)
-	{
-		Console.WriteLine(e);
-		//You can also handle the exception however you choose to here
-	}
-	```
-      - `throw` rethrows the exception or you can throw your own exception
-	 ```csharp
-		catch (InvalidCastException e)   
-		{  
-		 // Perform some action here, and then throw a new exception.  
-		 throw new YourCustomException("Put your error message here.", e);  
-		} 
-	```
 
-    ```csharp
-    catch (Exception e)
-    {
-        //Do something with e here
-    }
-    ```
+## Unit Tests TDD
 
-    ```csharp
-    catch (WebException ex)
-    {
-       //code specifically for a WebException
-    }
-    ```
+### What are Unit tests?
+	- Used to verify your code is working as expected
+	- Defend your position - Used as a justification
+	- Code Coverage - aim at 90%. 
 
-    #### Finally
-    - Examples of the Finally statement
-    - The finally statement executes regardless if the catch was hit or not
-    ```csharp
-    public static void Main()
-    {
-        int[] array1 = {0, 0};
-        int[] array2 = {0, 0};
+### Demo
+	- Code Challenge: FizzBuzz
+		- recreate using the TDD approach
+		- Show how to install NuGet packages and add XUnit
 
-        try
-        {
-            Array.Copy(array1, array2, -1);
-        }
-        catch (ArgumentOutOfRangeException e)
-        {
-            Console.WriteLine("Error: {0}", e);
-        }
-        finally
-        {
-            Console.WriteLine("This statement is always executed.");
-        }
-    }
-    ```
+## Documentation
+	- What is it?
 
-## **Setting Up a Debugger:**
-- Why do you need a debugger
-- How do you set up a debugger?
-- How do you use a debugger?
-  - Step through
-  - Step over
-  - Step into
-
-1. Open up the project from Day one,
-2. Attach the debugger
-3. Use the step through/over/into actions to demonstrate what you need it for
-4. "change" the values of the variables within the debugger to show flexibility
-
+### What is Documentation?
+	- Why do we use it?
+	- What are the different types?
+		- Comments
+		- README in github
+	- How do we Create it?
+		- Example of Readme
+		- Example of Comments
 
 # Resources
 
 # Assignments
 
 ## Readings
-
-### Blog posts
-1. [Debugging your C# applicaiton](https://weblogs.asp.net/imranbaloch/aspnet-vnext-debugging-mvc-source)
-### Official docs
-1. [How to use the try/catch block to catch exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions)
-1. [How to explicitly throw exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-explicitly-throw-exceptions)
-1. [How to use finally blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-finally-blocks)
-1. [Best Practices](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/best-practices-for-exceptions)
+- [XUnit Documentation](http://xunit.github.io/#documentation)
+- [Art of Readme](https://github.com/noffle/art-of-readme)
+- [ReadMe Best Practices](https://github.com/jehna/readme-best-practices)
 
 ## Lab
-Day02- About Me Quiz w/ Exception Handling
+- (2) Code Katas
+	- Supermarket Challenge
+	- War Card Game Challenge
+
+- Stretch Goal - Additonal Katas
 
 ## Coding Challenge
-Reverse String challenge
+- Reverse String challenge
  
