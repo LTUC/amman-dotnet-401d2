@@ -9,6 +9,7 @@ a well as inhearitance and hierarchy of classes.
 ## Learning Objectives
 1. The Student will be introduced to the Object Oriented Pillars and know how and when to identify and apply them in code.
 1. The student will understand how stack and heap fit into memory management, and the basic concepts of garbage collection
+
 ## Lecture Outline
 
 ### OOP principles pt 2
@@ -110,11 +111,11 @@ a well as inhearitance and hierarchy of classes.
     2. **Public**
        - member function or variable declared as public can be accessed from outside the class. it means you can access public members from anywhere
     3. **Internal**
-       - The member functions and variables which are declared as Internal only can be accessible inside the same namespace. You cannot access these members outside the namespace where these are declared.
+       - The member functions and variables which are declared as Internal only can be accessible inside the same assembly.
     1. **Protected**
        - The Protected members can only be accessible from its child class or in same class. It is best when you are using inheritance in your project.
     1. **Protected Internal**
-       - It can be accessible within the assembly where it is declared or in derived class of other assembly
+       - It is accessible from the current assembly or from types that are derived from the containing class
 
 
 **Demo**
@@ -145,11 +146,30 @@ class Program {
 ```csharp
 class TV
 {
-    private void Machine(){Console.WriteLine("I'm the TC")};
-    private void TVColor(){Console.WriteLine()};
-    public void TVKeys(){Console.WriteLine(//KEYS - accessible to public)};
-    public void Remote(){Console.WriteLine(//remote - accessible to public)};
-    public void TVScreen(){Console.WriteLine(public - accesible)};
+    private void Machine()
+	{
+		Console.WriteLine("I'm the TC")
+	};
+
+    private void TVColor()
+	{
+		Console.WriteLine()
+	};
+
+    public void TVKeys()
+	{
+		Console.WriteLine(//KEYS - accessible to public)
+	};
+
+    public void Remote()
+	{
+		Console.WriteLine(//remote - accessible to public)
+	};
+
+    public void TVScreen()
+	{
+		Console.WriteLine(public - accesible)
+	};
 
 }
 ```
@@ -217,7 +237,15 @@ public class Circle: Shape
     public new void CrayonColor(){//logic}
 }
 ```
+# Assignments
 
 ## Readings
 
+## Lab
+- Create CodeFellows (students and staff)
+
 ## Code Challenge 5
+- Most occurances in an array
+
+## Weekend Assignment
+- Concurrency

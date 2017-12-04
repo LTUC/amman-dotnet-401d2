@@ -228,14 +228,16 @@ Bunny b2 = new Bunny ("Bo")     { LikesCarrots=true, LikesHumans=false };
 ***Demo***:
 - Go back to the party applicaiton and add in abstract, virtual, override, and sealed classes and keywords
 
+# Assignments
+
 ## Readings
 - [Inheritance](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance)
 - [Abstract](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
 - [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
 - [Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
 
+## Lab
+- Build a Zoo
+
 ## Code Challenge 4
-1. Complete [this tutorial](https://www.codecademy.com/courses/big-o/0/1) on the Big O notation.
-1. Complete all 15 lessons within this tutorial. 
-1. This coding challenge will be due the night before class 6.
-1. Submit a screenshot of the coding academy lesson overview with the checkmarks next to each completed lesson.
+1. Acronym Generator
