@@ -29,6 +29,21 @@
       1. 
 
 1. **System I.O Library**
+
+- The `File` class is a built in class library inside C#. You can get all types of information about the file from this object.
+- Directory is similiar. 
+
+#### Stream
+- A stream is a sort of pipeline or channel of bytes flowing through your program.
+- A stream is an object, and like all objects streams have data and methods. the methods allow you to performa actions such as opening, closing, and flushing (clearing) the stream. 
+
+- Most streams flow in only one direction. Each strem is either an input or output stream. 
+- You may even open several streams at once to read a file (input stream), seperate the data from valid/invalid (2 output streams), 
+
+1. *StreamReader* - Text input from a file
+2. *StreamWriter* - text output to a file
+3. *FileStream* -  used alone for bytes with either StreamReader and StreamWriter for text. used for either input or output to a file. 
+ 
    1. Create an external text file
       1. Declare where your file will be created
          ```csharp 
@@ -121,9 +136,6 @@
         System.Console.WriteLine(s);
     }
     ```
-
-### Concurrency
-
 
 ## Readings
 1. [File and Stream I/O](https://docs.microsoft.com/en-us/dotnet/standard/io/index)
