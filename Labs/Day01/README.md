@@ -14,7 +14,7 @@
 - Create an "About Me" quiz in a console application with VS2017
 - Your solution should include the following:
     - Main method
-	- external methods
+	- external methods- (at least 3 non-void return types)
 	- 5 different questions
     - Track number of correct/incorrect questions 
       - Show the user the number of correct/incorrect to user after quiz is over
