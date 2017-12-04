@@ -153,5 +153,3 @@ She would like to alternate each of these plants within 5 columns and 5 rows.
 If you have time, using the same number of colums and rows as above, create another garden for Josie Cat that has alternating rows
 - The 1st/3rd/5th row are of Carrots
 - The 2nd/4th row are of tomatos.
-
-Duration of this Code challenge: 90 minutes

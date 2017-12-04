@@ -3,38 +3,41 @@
 
 ## To Submit this Assignment
 - fork this repository
-- write all of your code in a directory named `lab01-`; + `<your name>` **e.g.** `lab01-amanda`
+- create a new branch named `lab01-`; + `<your name>` **e.g.** `lab01-amanda`
+- write your code
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
 - Include a Readme.md (contents described below)
 
 ## Directions
-- Create an "About Me" quiz in Visual Studio, using a console application
+- Create an "About Me" quiz in a console application with VS2017
 - Your solution should include the following:
-    - Main method + at *least* 2 other methods
-      - minimum 1 method with a non-void return type
-      - minimum 1 method with a void return type (excluding Main())
-    - Minimum 2 different variables with different data types
-    - Request user input
-    - Receive user response 
-    - Provide responses back to console based 
-    - Iterative statements
-    - Selective statements
+    - Main method
+	- external methods
+	- 5 different questions
     - Track number of correct/incorrect questions 
       - Show the user the number of correct/incorrect to user after quiz is over
+	- Exception Handling (try/catch/finally/throw)
 
 ## ReadMe
-- Your readme should include the following information:
-	- How long did it take you to complete this assignment?
-	- What did you struggle with? Why? How did you solve?
-	- What were you confident in? Why?
-	- What did you learn during this assignment?
-    - What resources did you utilize for this assingment?
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+<br />
+Your job is to
+
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they use it
+4. tell them any other relevant details
+<br />
+
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+
+<br /> <br /> Refer to the sample-README in the class repo for an example. 
+- [Reference](https://github.com/noffle/art-of-readme)
 
 ## Rubric
-- 3pts: Application runs without any errors
-- 2pts: Request user input and output response
-- 2pts: min 2 methods not `Main()`
-- 2pt: Iterative/Selective statemetns - logical code flow
-- 1pt: Readme included with answers to questions
+- 7pts: Program meets all requirements described in Lab directions
+- 3pts: Code meets industry standards
+
+- **Readme.md is required for each submission. Missing readme documents will result in a 0**

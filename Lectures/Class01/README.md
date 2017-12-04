@@ -356,7 +356,6 @@ private static void MethodC()
 - [Try/Catch Blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions)
 - [Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/exception-handling-statements)
 
-
 ## Lab
 
 [Lab 01 - About Me]("Lab 01 - AboutMe")
