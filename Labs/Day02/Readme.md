@@ -25,12 +25,14 @@ The player that runs out of cards loses.
 3. **Stretch** - [String Calculator](https://github.com/xpeppers/string-calculator-kata)
 	- Complete this Kata in C# in a Visual Studio Console application
 
-### To Submit this Assignment
+## To Submit this Assignment
 - fork this repository
-- write all of your code in a directory named `lab#-`; + `<your name>` **e.g.** `lab02-amanda`
+- create a new branch named `lab01-`; + `<your name>` **e.g.** `lab01-amanda`
+- write your code
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
+- Include a Readme.md (contents described below)
 
 ## ReadMe
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
