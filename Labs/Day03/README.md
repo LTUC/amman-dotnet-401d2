@@ -1,9 +1,9 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 3 : Word Guess Game
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 3 : System.IO - Word Guess Game
 =====================================
 
-## To Submit this Assignment
+### To Submit this Assignment
 - fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab03-amanda`
+- write all of your code in a directory named `lab#-`; + `<your name>` **e.g.** `lab02-amanda`
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
@@ -25,25 +25,31 @@ game that will meet all of the requiements described in the user story above.
  
 
 ## ReadMe
-- Your readme should include the following information:
-	- How long did it take you to complete this assignment?
-	- What did you struggle with? Why? How did you solve?
-	- What did you learn during this assignment?
-    - What resources did you utilize for this assingment?
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+<br />
+Your job is to
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they use it
+4. tell them any other relevant details
+<br />
 
-## Components
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. 
+Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+
+<br /> Refer to the sample-README in the class repo for an example. 
+- [Reference](https://github.com/noffle/art-of-readme)
+
+
+## Program Components
 - The program (should) contain the following
     - Methods for each action (Home navigation, View words in the text file, add a word to the text file, Remove words from a text file, exit the game, start a new game)
     - When playing a game, you should bring in all the words that exist in the text file, and *randomly* select one of the words to output to the conole for the user to guess
     - You should have a record the letters they have attempted so far
-    - If they guess a correct letter, display that letter in the console for them to refer back to whebn making guesses (i.e. C _ T S )
-    - Errors should be handled through try/catch statements
+    - If they guess a correct letter, display that letter in the console for them to refer back to when making guesses (i.e. C _ T S )
+    - Errors should be handled through Exception handling
     - You may use any shortcuts or 'helper' methods in this project. Do not create external classes to accomplish this task.
 
 ## Rubric
-- 3pts: Application runs without any errors
-- 2pt: System.IO // CRUD file manipulation
-- 2pt: Output user response with game progress
-- 2pt: Readme included with answers to questions
-- 1pt: Simple user interface
-
+- 7pts: Program meets all requirements described in Lab directions
+- 3pts: Code meets industry standards
