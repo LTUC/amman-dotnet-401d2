@@ -1,5 +1,5 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Lab 2 
-## About Me Quiz w/ Exception Handling
+## Unit Testing & Documentation
 
 
 ### Directions
