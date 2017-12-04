@@ -195,7 +195,7 @@ that they were instructed to create.
        - *if there is no catch block, the CLR throws an unhandled error, and stops execution of th program*
        - *To not have a `catch` block is not reccomended. You **are** allowed to have an empty `catch` block or a `catch` block without an argument.*
 	
-	#### Catch
+#### Catch
 	- Here is an example of a catch statement:
 	```csharp
 	catch(InvalidCastException e)
@@ -227,7 +227,7 @@ that they were instructed to create.
     }
     ```
 
-    #### Finally
+#### Finally
     - Examples of the Finally statement
     - The finally statement executes regardless if the catch was hit or not
     ```csharp
@@ -250,6 +250,71 @@ that they were instructed to create.
         }
     }
     ```
+#### Callstack
+- What is the Callstack?
+- Exception Handling outside of methods
+
+```
+Main() calls MethodA() <br />
+MethodA() calls MethodB() <br />
+MethodB() calls MethodC() <br />
+MethodC() throws an exception -> No catch in MethodC(); <br />
+Looks in MethodB() -> No catch in B either <br />
+Looks in MethodA() -> No catch found <br />
+Looks in Main() -> No catch <br />
+Program Terminates. 
+
+```
+
+#### throw
+- What is a throw?
+- You can only throw an exception object or descendent from an exception.
+- When you write a method that catches an exception, your method doe snot have to handle it. You can let the calling method handle the exception. 
+
+```csharp
+static void Main()
+{
+	try{
+		WriteLine("Trying in Main() Method");
+		MethodA();
+	} catch(Exception ae)
+	{
+		WriteLine($"Caught in Main() Method  -- {ae.Message}");
+	}
+
+	WriteLine("Main() MEthod is done");
+}
+
+private static void MethodA()
+{
+	try{
+	WriteLine("In Method A");
+	MethodB();
+	
+	}catch{
+		WriteLine("Caugh in MethodA");
+		throw;
+	}
+}
+
+private static void MethodB()
+{
+	try{
+	WriteLine("In Method B");
+	MethodB();
+	
+	}catch{
+		WriteLine("Caugh in MethodB");
+		throw;
+	}
+}
+
+private static void MethodC()
+{
+		WriteLine("Caugh in MethodC");
+		throw(new Exception("This is from Method C");
+}
+```
 
 ## **Setting Up a Debugger:**
 - Why do you need a debugger
