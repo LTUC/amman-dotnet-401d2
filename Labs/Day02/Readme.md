@@ -3,16 +3,27 @@
 
 
 ### Directions
-- Using your lab from Day One
-	- Modify it so it includes exception handling
-      - Try
-      - catch (at least 1)
-      - finally
-      - throw
-      - custom error message
-      - input validation
-    - Modify your code from day one
-      - Is there anything you want to change to improve your code?
+- Complete the following Code Katas with unit tests
+
+1. [Supermarket Pricing](http://codekata.com/kata/kata01-supermarket-pricing/)
+		- Complete the kata in a markdown file named supermarket-kata.md. 
+
+2. [War Card Game](https://www.wikiwand.com/en/War_(card_game))
+```
+The rules of this card game are quite simple.
+
+There are two players.
+The cards are all dealt equally to each player.
+Each round, player 1 lays a card down face up at the same time that player 2 lays a card down face up. Whoever has the highest value card, wins both round and takes both cards.
+The winning cards are added to the bottom of the winners deck.
+Aces are high.
+If both cards are of equal value, then the winner is decided upon by the highest suit. The suits ranks in order of ascending value are spades, clubs, diamonds, and hearts.
+The player that runs out of cards loses.
+```
+- complete this Kata in a C# Visual Studio Console Application
+
+3. **Stretch** - [String Calculator](https://github.com/xpeppers/string-calculator-kata)
+	- Complete this Kata in C# in a Visual Studio Console application
 
 ### To Submit this Assignment
 - fork this repository
@@ -22,19 +33,26 @@
 - submit a link to your PR in canvas
 
 ## ReadMe
-- Your readme should include the following information:
-	- How long did it take you to complete this assignment?
-	- What did you struggle with? Why? How did you solve?
-	- What did you learn during this assignment?
-    - What code changes did you make? Why?
-    - What resources did you utilize for this assingment?
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+<br />
+Your job is to
 
-### Rubric
-- 3pts: Application runs without any errors
-- 2pts: Try/Catch/Finally implementation
-- 2pts: Input validation
-- 2pt: Throw and custom error message
-- 1pt: Readme included with answers to questions
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they use it
+4. tell them any other relevant details
+<br />
+
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+
+<br /> <br /> Refer to the sample-README in the class repo for an example. 
+- [Reference](https://github.com/noffle/art-of-readme)
+
+## Rubric
+- 7pts: Program meets all requirements described in Lab directions
+- 3pts: Code meets industry standards
+
+- **Readme.md and Tests are required for each submission. Missing readme documents and tests will result in a best score of 2/10**
 
 # Code Challenge 02
 Implement your your string reversal method
