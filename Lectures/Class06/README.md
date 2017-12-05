@@ -94,7 +94,13 @@
    
 ## Code Challenge 06
 Implement a singly linked list
-- Using your "data-structures" repository created in class  2
+- Add First
+- Add Last
+- Add Before
+- Add After
+- Remove
+
+-Using your "data-structures" repository created in class  2
   - add a folder and label it `Linked Lists`
   - add the code on a branch from this challenge into this repo
   - Describe your approach in the strings folder readme document

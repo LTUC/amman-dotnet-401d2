@@ -248,5 +248,5 @@ public class Circle: Shape
 - Most occurances in an array
 
 ## Weekend Assignment
-[Two Fighters, One Winner](https://www.codewars.com/kata/two-fighters-one-winner)
-[Chess Knight](https://www.codewars.com/kata/chess-fun-number-3-chess-knight)
+- [Two Fighters, One Winner](https://www.codewars.com/kata/two-fighters-one-winner)
+- [Chess Knight](https://www.codewars.com/kata/chess-fun-number-3-chess-knight)
