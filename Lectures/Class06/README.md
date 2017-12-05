@@ -1,4 +1,4 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Class 06
+# ![cf](http://i.imgur.com/7v5ASc8.png) Class 06 Interfaces
 
 ## Learning Objectives
 1. The student will create and implement interfaces within an applicaiton
@@ -76,6 +76,9 @@
 - A class or struct can implement multiple interfaces. A class can inherit a base class and also implement one or more interfaces.
    
 
+## Demo
+- Build out a class structure
+
 
 ### Linked Lists
   1. What is a linked list?
@@ -100,7 +103,7 @@ Implement a singly linked list
 - Add After
 - Remove
 
--Using your "data-structures" repository created in class  2
+-Using your "data-structures" repository
   - add a folder and label it `Linked Lists`
   - add the code on a branch from this challenge into this repo
   - Describe your approach in the strings folder readme document

@@ -2,13 +2,10 @@
 =====================================
 
 ## Learning Objectives
-
 1. Studetns will be able to succesfully write LINQ queries against a collection to extract data
 1. Students will understand the use of a Lambda statement and how to join them with LINQ queries
  
 ## Lecture Outline
-
-
 - Review Collections
   - Create a collection
   - Add data to the collection
@@ -17,7 +14,6 @@
 1. What is an easier way to iterate through a collection?
 
 ### What Is LINQ?
-
 - Language Integrated Query
 
 1. Imperative vs Declarative
@@ -93,13 +89,10 @@
 
 - We want bookAuthorCollection ot hold information only about the book and author when extracing data
     1. .Where is an example of an extension method.
-       1. 
 
 1. Delegates
    1. What are they
    1. Examples
-
-
 
 1. Sub Queries
 1. LINQ to Objects

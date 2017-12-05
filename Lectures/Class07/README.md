@@ -381,7 +381,7 @@ You use a `yield break` statement to end an iteration
 
      
 ## Coding Challenge
-Implement a singly linked list
+Find the middle of a linked list
 - Find Middle of Linked List
 
 -Using your "data-structures" repository
