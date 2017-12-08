@@ -115,16 +115,6 @@ return View();
 	3. Disadvantes: No intellisense or compilation protection.
 
 
-#### Layout
-
-??
-
-#### Tag Helpers
-
-	1. Tag helpers make it easy to add server-side behavior to existing HTML tags, avoiding the need to use custom code or helpers within views. 
-	2. Tag helpers are applied as attributes to HTML elements, which are ignored by editors who are not familiar with them. 
-
-
 ```csharp
 <form method="post" action="/Home/Create">
     <div class="form-group">

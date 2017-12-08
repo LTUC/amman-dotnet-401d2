@@ -23,7 +23,7 @@
 3! = 3 * 2! = 3 * 2* 2 * 0! = 3 * 2* 1* 1
 ```
 
-Code fo ra non recursive approach:
+Code for a non recursive approach:
 
 ```csharp
 public long Factorial(int n)
@@ -37,7 +37,6 @@ public long Factorial(int n)
     }
     return value;
 }
-
 ```
 
 Recursive approach:
@@ -54,7 +53,6 @@ public long Factorial(int n)
         return 1;
     return n * Factorial(n - 1);
 }
-
 ```
 
 - First, if the input value is equal to zero, the algorithm will return 1.

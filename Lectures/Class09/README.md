@@ -2,7 +2,8 @@
 =====================================
 
 ## Learning Objectives
-1. Students 
+1. Students will understand the concept and importance behind software design patterns
+2. Students will be able to successfully implement and create their own Factory Design pattern
 
 ## Lecture Outline
 1. The student will be introduced to different design patterns. 
