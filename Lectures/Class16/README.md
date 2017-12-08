@@ -2,7 +2,27 @@
 
 ## Introduction to Web APIs
 
+## What is a WEB API
+
+## REST
+
+#### HTTP Verbs
+1. GET
+2. POST
+3. PUT
+4. DELETE
+
 ## Get/POST
+
+### Demo
+- Create a new empty project. 
+- Add MVC Services in Startup
+- Create GET Action
+- Talk about Route Tokens
+- model Binding
+- Route constraints
+- Create POST action
+- Set up a database and DBContext to store data from API
 
 # Assignments
 

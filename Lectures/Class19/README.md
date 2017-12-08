@@ -2,6 +2,19 @@
 
 ## Review
 
+## Project Week Requirements
+
+### What is an MVP?
+
+### User Stories
+	- Components of a User Story
+	- Feature Tasks
+	- Acceptance Tests
+
+### Wireframing
+
+### Deployment
+
 # Assignments
 
 ## Readings

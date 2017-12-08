@@ -2,6 +2,14 @@
 
 ## Web APIs PUT/DELETE
 
+### Put
+- What does Put do?
+
+### Delete
+- What does Delete do?
+
+## Demo
+
 # Assignments
 
 ## Readings

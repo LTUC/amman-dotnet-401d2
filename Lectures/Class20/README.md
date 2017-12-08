@@ -2,7 +2,5 @@
 
 ## Project Week Kickoff
 
-## User Stories
-	- Feature Tasks
-	- Acceptance Tests
+## Weekend Assignment
 

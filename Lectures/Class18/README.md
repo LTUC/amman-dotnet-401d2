@@ -2,6 +2,13 @@
 
 ## Double Resource
 
+- Add a second resource to the Demo. 
+- Update the database and ind. songs to include the playlist resource
+
+### Demo
+- Add Playlists to the Songs Demo. 
+- Create new controller and apply a second resource (Have the class build this with you, great way to test the class's knowldege :) )
+
 # Assignments
 
 ## Readings
