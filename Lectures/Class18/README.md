@@ -1,14 +1,13 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Lecture 14 : Dependency Injection
+# ![cf](http://i.imgur.com/7v5ASc8.png) Lab 18 : Web APIs Pt. 3
 
-## Dependency Injection
-
+## Double Resource
 
 # Assignments
 
 ## Readings
-     
+
 ## Coding Challenge
-Implement a stack using Linked Lists <br />
+Given a string, determine if it has all unique characters
 
 -Using your "data-structures" repository
   - add a folder and label it `Linked Lists`

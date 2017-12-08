@@ -1,14 +1,14 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Lecture 14 : Dependency Injection
+# ![cf](http://i.imgur.com/7v5ASc8.png) Lab 19 : Review
 
-## Dependency Injection
-
+## Review
 
 # Assignments
 
 ## Readings
-     
+
 ## Coding Challenge
-Implement a stack using Linked Lists <br />
+
+Implement a cirucular Linked List
 
 -Using your "data-structures" repository
   - add a folder and label it `Linked Lists`

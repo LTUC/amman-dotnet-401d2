@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 11 : Intro to Controllers
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 11 : MVC Core (Controllers & Views)
 =====================================
 
 ### Setup

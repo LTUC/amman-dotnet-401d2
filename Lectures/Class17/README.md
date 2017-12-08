@@ -1,15 +1,14 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Lecture 14 : Dependency Injection
+# ![cf](http://i.imgur.com/7v5ASc8.png) Lab 17 : Web APIs Pt. 2
 
-## Dependency Injection
-
+## Web APIs PUT/DELETE
 
 # Assignments
 
 ## Readings
-     
-## Coding Challenge
-Implement a stack using Linked Lists <br />
 
+## Coding Challenge
+
+- recursive factory
 -Using your "data-structures" repository
   - add a folder and label it `Linked Lists`
   - add the code on a branch from this challenge into this repo
