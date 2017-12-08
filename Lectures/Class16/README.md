@@ -18,7 +18,7 @@
 - Create a new empty project. 
 - Add MVC Services in Startup
 - Create GET Action
-- Talk about Route Tokens
+- Talk about attribute routing
 - model Binding
 - Route constraints
 - Create POST action
@@ -27,6 +27,8 @@
 # Assignments
 
 ## Readings
+- [Web APIs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
+- 
 
 ## Coding Challenge
 

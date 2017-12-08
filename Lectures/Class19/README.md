@@ -18,6 +18,7 @@
 # Assignments
 
 ## Readings
+- Discuss anything that we reviewed that really stuck out to you? What has been the most interesting? What has been the most challenging?
 
 ## Coding Challenge
 

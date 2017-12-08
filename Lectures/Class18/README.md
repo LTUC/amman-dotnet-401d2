@@ -12,6 +12,7 @@
 # Assignments
 
 ## Readings
+- [Building Web APIs with ASP.NET Core 2.0](https://www.youtube.com/watch?v=aIkpVzqLuhA) (~60 min youtube video)
 
 ## Coding Challenge
 Given a string, determine if it has all unique characters

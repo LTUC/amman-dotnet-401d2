@@ -13,6 +13,7 @@
 # Assignments
 
 ## Readings
+- Do some API research further. write about what you observed in class or learned on your own
 
 ## Coding Challenge
 
