@@ -27,7 +27,7 @@ The player that runs out of cards loses.
 
 ## To Submit this Assignment
 - fork this repository
-- create a new branch named `lab01-`; + `<your name>` **e.g.** `lab01-amanda`
+- create a new branch named `lab02-`; + `<your name>` **e.g.** `lab02-amanda`
 - write your code
 - push to your repository
 - submit a pull request to this repository
