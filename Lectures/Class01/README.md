@@ -179,7 +179,7 @@ that they were instructed to create.
 
 ## **Exception Handling**
 * Why do we need it?
-  * Ask students about their experience from the previous day's lab assignments. 
+  * Ask students about their experience from the prework's lab assignments. 
   * What kind of errors did they receive?
   * How did they handle them?
   * Introduce Try/catch/finally statements
@@ -316,6 +316,10 @@ private static void MethodC()
 }
 ```
 
+
+1. The solo "throw" just hands it off up the call stack
+2. If no catch is found...it just moves its way down the callstack until it either hits the last point or finds a catch statment.
+
 ## **Setting Up a Debugger:**
 - Why do you need a debugger
 - How do you set up a debugger?
@@ -324,7 +328,7 @@ private static void MethodC()
   - Step over
   - Step into
 
-### Error Handling:
+### Error Handling while during Lab:
    - What do you do if you encounter an error (whiteboard // draw it)
    - 15 min rule
    - Take a deep breath, step away, break it down
