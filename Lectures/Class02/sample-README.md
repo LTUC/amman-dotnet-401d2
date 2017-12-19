@@ -1,6 +1,6 @@
 # Project Name
 
-**Author**: Your Name(s) Goes Here
+**Author**: Your Name(s) Goes Here <br />
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
@@ -22,7 +22,7 @@
 ------------------------------ EXAMPLE OF README ---------------------------------------- <br />
 # Calculator
 
-**Author**: Amanda Iverson
+**Author**: Amanda Iverson <br />
 **Version**: 1.0.0
 
 ## Overview
@@ -52,7 +52,6 @@ Calculator Finished
 ```
 
 ## Architecture
-This application is created using ASP.NET Core 2.0 Console applicaitons. 
+This application is created using ASP.NET Core 2.0 Console applicaitons. <br />
 *Language*: C# <br />
-*Type of Applicaiton*: Console Application
-<!-- Provide a detailed description of he application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+*Type of Applicaiton*: Console Application <br />
