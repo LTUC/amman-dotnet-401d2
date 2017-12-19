@@ -27,6 +27,20 @@
 		- recreate using the TDD approach
 		- Show how to install NuGet packages and add XUnit
 
+#### Demo Steps:
+1. What are Unit Tests?
+	- Why do we need them?
+1. Display this RED/GREEN/REFACTOR article in class: General Code Kata reasoning [here](http://www.peterprovost.org/blog/2012/05/02/kata-the-only-way-to-learn-tdd/)
+1. What does Red/Green/Refactor mean?
+	- When you are in red, the only thing you can do is "Make the test pass"
+	- When you are in green you have two choices - Refactor, or write a new test
+
+1. Create a new test solution in Visual Studio.
+1. Install the xUnit NuGet package on Demo solution (Confirm the xunit versions are the same on the test solution and original solution)
+1. Break down what exactly we are testing. (Do a visual or PsuedoCode, if number is divisible by 3, return "Fizz", if 5, return "Buzz", if both "FizzBuzz" else if neither, return number.)
+
+
+
 ## Documentation
 	- What is it?
 

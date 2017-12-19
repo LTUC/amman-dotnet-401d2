@@ -18,23 +18,19 @@
 	- 5 different questions
     - Track number of correct/incorrect questions 
       - Show the user the number of correct/incorrect to user after quiz is over
-	- Exception Handling (try/catch/finally/throw)
+	- Exception Handling (try/catch/finally)
+	- Are you able to incorprate a `throw` somehow? 
 
 ## ReadMe
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
+Provide setup documentation 
 
-1. tell them what it is (with context)
-2. show them what it looks like in action
-3. show them how they use it
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-<br /> <br /> Refer to the sample-README in the class repo for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+- **Comment your code.**
+- Provide a readme that includes clear directions on setting up this program.
+- Questions to Consider: 
+	1. What programs do I need installed?
+	1. What are the step by step directions?
+	1. How do I run the program?
+	1. How do I know the program worked successfully?
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions
