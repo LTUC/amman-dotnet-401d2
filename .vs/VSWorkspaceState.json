@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Labs",
     "\\Labs\\Day01",
     "\\Labs\\Day02",
+    "\\Lectures",
+    "\\Lectures\\Class01",
+    "\\Lectures\\Class02",
     "\\Projects"
   ],
-  "SelectedNode": "\\Labs\\Day02\\Readme.md",
+  "SelectedNode": "\\Lectures\\Class02\\ReadMe.md",
   "PreviewInSolutionExplorer": false
 }

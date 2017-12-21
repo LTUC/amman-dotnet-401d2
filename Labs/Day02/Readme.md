@@ -22,8 +22,12 @@ The player that runs out of cards loses.
 ```
 - complete this Kata in a C# Visual Studio Console Application
 
-3. **Stretch** - [String Calculator](https://github.com/xpeppers/string-calculator-kata)
-	- Complete this Kata in C# in a Visual Studio Console application
+3. **Stretch(3pts each)** 
+	- [String Calculator](https://github.com/xpeppers/string-calculator-kata)
+		- Complete this Kata in C# in a Visual Studio Console application
+	- [Anagrams](http://codekata.com/kata/kata06-anagrams/)
+		- Complete this Kata in C# in a Visual Studio Console application
+
 
 ## To Submit this Assignment
 - fork this repository
