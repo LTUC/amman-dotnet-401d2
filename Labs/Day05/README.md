@@ -25,7 +25,7 @@
 	- Clearly define the access level of each of the classes
 - include your diagram in your Readme.md documentation
 - Code out each of these classes and methods into Visual Studio. 
-- Not all methods should be void (think asbout how your will test)
+- Not all methods should be void (think about how you will test)
 - Console.WriteLine is acceptable to prove output to the console. 
 
 ## ReadMe

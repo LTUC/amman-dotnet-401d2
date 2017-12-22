@@ -103,8 +103,9 @@ Bunny b2 = new Bunny ("Bo")     { LikesCarrots=true, LikesHumans=false };
         1. A `get` property accessor is used to return the property value, and a `set` property accessor is used to assign a new value.
         2. The value keyword is used to define the value being assigned by the `set` accessor.
         3. Properties can be read-write (they have both a `get` and a `set` accessor), read-only (they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). Write-only properties are rare and are most commonly used to restrict access to sensitive data.
-    
-        ```csharp
+		4. A backing field is just a field that is used by properties when you want to modify or use that private field data.  In other words, a property is just a reference to another private variable. 
+       
+	   ```csharp
         class Person
         {
             private string name;  // the name field (called a 'backing store' note how it is private)
@@ -179,6 +180,14 @@ Bunny b2 = new Bunny ("Bo")     { LikesCarrots=true, LikesHumans=false };
             }
         }
         ```
+
+	1. Auto-Implemented Properties 
+		1. Auto implemeted Properties are used with just trivial properties 
+		2. C# 6.0 Came out with a way to initialize auto impl. properites
+
+	```csharp
+		public string FirstName { get; set; } = "Jane";
+	```
 
    1. OOPs Principles Pt.1 
       1. Inheritance
