@@ -17,7 +17,16 @@
 - Create a class model using all 4 OOPs principles. 
 - Be sure to include a drawn out diagram showing the relationship between your classes
 - Comment within your code where each OOPs principle is being used
-- Create methods in each class, No logic code is required other than `Console.WriteLine` when nececsary.
+- Create a diagram that visually shows the class structure of Code Fellows
+	- Clearly label which classes are abstract
+	- Clearly label which methods are abstract
+	- Clearly label which methods are virtual
+	- Clearly label which methods are overridden 
+	- Clearly define the access level of each of the classes
+- include your diagram in your Readme.md documentation
+- Code out each of these classes and methods into Visual Studio. 
+- Not all methods should be void (think asbout how your will test)
+- Console.WriteLine is acceptable to prove output to the console. 
 
 ## ReadMe
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
@@ -39,4 +48,4 @@ Since so many developers' eyes will find their way to your README before anythin
 - 7pts: Program meets all requirements described in Lab directions
 - 3pts: Code meets industry standards
 
-- **Readme.md required for submission. Missing readme document will result in a best score of 2/10**
+- **Readme.md and unit tests required for submission. Missing readme document will result in a best score of 2/10**
