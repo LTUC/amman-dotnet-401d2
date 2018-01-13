@@ -25,6 +25,25 @@
 Run/Test the app. see the changes in the Database
 
 
+#Demo Steps
+1. Setup Startup class with MVC
+2. Add Model Views Controller Folders
+3. Add Student Class
+4. Create Data folder - NEW CONTENT
+5. Add DBContext class
+6. Add Dependency Injection to Startup class
+7. Add New services
+8. Add json configuration file
+9. Update Database
+10. See SQL Object Explorer and see DB
+11. Add DI to HomeController
+12. Create view for home
+13. Add Form
+14. Show Select Tag
+15. Transfer Student model from View to Model
+16. Save data into database
+17. Use Static files in ConfigureServices
+
 ### Adding new field // Updating Migration
 1. Add a new field to the Movies Model
 2. Updte the [BIND] n the create and edit actions

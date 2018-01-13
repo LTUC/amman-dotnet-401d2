@@ -23,25 +23,26 @@
       1. LINQ statement
 
    1. What is a 'query'?
+   - A query is an expression that, when enumerated, transforms sequences with query operators. 
+   - The standard query operators are implemented as *extension methods*, so we can call 'Where' directly onto names
 
    1. Query Expresssions 
     ```csharp
+	   string[] names = { "Tom", "Dick", "Harry" };
+
     IEnumerable<string> filteredNames = from n in names
                                         where n.Contains ("a")
                                         select n;
-    ```
-      - A query is an expression that, when enumerated, transforms sequences with query operators. 
-      - The standard query operators are implemented as extension methods, so we can call 'Where' directly onto names
-        ```csharp
-        string[] names = { "Tom", "Dick", "Harry" };
-        IEnumerable<string> filteredNames = System.Linq.Enumerable.Where
-                                            (names, n => n.Length >= 4);
-        foreach (string n in filteredNames)
-          Console.WriteLine (n);
 
-        Dick
-        Harry
-        ```
+ 
+    IEnumerable<string> filteredNames = System.Linq.Enumerable.Where
+                                        (names, n => n.Length >= 4);
+    foreach (string n in filteredNames)
+        Console.WriteLine (n);
+
+    Dick
+    Harry
+```
 
 
 1. Lambda Statements
@@ -66,7 +67,7 @@
 
     Console.WriteLine();
     foreach (string name in finalQuery)
-      Console.Write (name + "|");        // JAY|MARY|HARRY|
+      Console.Write (name + "|");        // JAY|MARY|HARRYkk|
 
     ```
 
@@ -90,9 +91,6 @@
 - We want bookAuthorCollection ot hold information only about the book and author when extracing data
     1. .Where is an example of an extension method.
 
-1. Delegates
-   1. What are they
-   1. Examples
 
 1. Sub Queries
 1. LINQ to Objects

@@ -17,8 +17,8 @@ Provided is a JSON file that contains a data set of location information for pro
 ## Setup
 - Add the data.json file to your solution root folder
 - Explore the NuGet packages and install NewtonSoftJson
-- Do some self research (prev. labs count too) and find out how to read in JSON file (hint: JsonConvert.DeserializedOject is *part* of it)
-- You will need to break up each section of the JSON file up into different classes, use your resources - ask the TA's if your stuck.
+- Do some self research and find out how to read in JSON file (hint: JsonConvert.DeserializedOject is *part* of it)
+- You will need to break up each section of the JSON file up into different classes, use your resources - ask the TA's if your stuck. (Maybe find a converter of some sort??)
 - 
 #### Questions
 Each query builds off of the next. 
@@ -29,14 +29,24 @@ Each query builds off of the next.
 5. Rewrite at least one of these questions only using a LINQ query (without lambda statement)
 
 ## ReadMe
-- Your readme should include the following information:
-	- How long did it take you to complete this assignment?
-	- What did you struggle with? Why? How did you solve?
-	- What did you learn during this assignment?
-    - What resources did you utilize for this assignment?
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+<br />
+Your job is to
+
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they use it
+4. tell them any other relevant details
+<br />
+
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+
+<br /> <br /> Refer to the sample-README in the class repo for an example. 
+- [Reference](https://github.com/noffle/art-of-readme)
 
 ## Rubric
-- 2pts: Application runs without any errors
-- 5pts: Questions are answered
-- 2pts: Readme included with answers to questions
-- 1pt: Code meets industry standard requirements
+- 7pts: Program meets all requirements described in Lab directions
+- 3pts: Code meets industry standards
+
+- **Readme.md required for submission. Missing readme document and tests will result in a best score of 2/10**
+

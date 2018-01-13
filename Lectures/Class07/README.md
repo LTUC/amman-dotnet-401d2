@@ -79,12 +79,15 @@
 
 ### Collections
 
-There are two ways to crate and manage a group of related objects
+There are two ways to create and manage a group of related objects
     1. Create an array of objects
     2. creating a collection of objects
 
 1. What is a collection?
-   1. Collections provide a more flexible way to work with groups of objects. Unlike arrays, the group of objects you work with can grow and shrink dynamically as the needs of the application change. For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key.
+   1. Collections provide a more flexible way to work with groups of objects. Unlike arrays, 
+   the group of objects you work with can grow and shrink dynamically as the needs of the application change. 
+   For some collections, you can assign a key to any object that you put into the collection so that you can quickly 
+   retrieve the object by using the key.
 A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
 
 2. If your collection contains elements of only one data type, you can use a Generic. 
@@ -110,7 +113,7 @@ A collection is a class, so you must declare an instance of the class before you
 
         ```
 
-        -using a `foreach` loop to iterate through a list once items have been added
+        - using a `foreach` loop to iterate through a list once items have been added
 
         ```csharp
         var princes = new List<string>{"Eric", "Charming", "Aladdin"};
@@ -205,7 +208,7 @@ A collection is a class, so you must declare an instance of the class before you
 
         ```
 
-#### ***Demo** - Let's create own own Generic Collection (List< T>):*
+#### ***Demo** - Let's create own own Generic Collection (List<T>):*
 
 ```csharp
 
@@ -300,7 +303,7 @@ class NumberList<Y> : IEnumerable<T>
 
 ```
 
--By adding the implementation of IEnumerable, it allows your program to support the 'new' syntax.
+- By adding the implementation of IEnumerable, it allows your program to support the 'new' syntax.
 - As the other example before this shows, it is not necesarily required, but good practice
 - When you build the above example, when you imeplemt the interface, have VS auto implement it for you.
 - Because the interface of IEnumerable requires the non-generic GetEnumerator, VS will auto add what is missing. Here is the after result:

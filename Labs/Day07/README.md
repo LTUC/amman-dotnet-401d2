@@ -39,4 +39,4 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 - 7pts: Program meets all requirements described in Lab directions
 - 3pts: Code meets industry standards
 
-- **Readme.md required for submission. Missing readme document will result in a best score of 2/10**
+- **Readme.md required for submission. Missing readme document and tests will result in a best score of 2/10**

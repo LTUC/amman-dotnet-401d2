@@ -70,8 +70,39 @@ public long Factorial(int n)
 
 
 #### Fibonacci Numbers
+Review the Fibonocci Numbers.
+<br />
+<br />
+1. Non recusion:
 
+```csharp
+public long Fib(int n)
+{
+    if (n < 2)
+        return n;
+    long[] f = new long[n+1];
+    f[0] = 0;
+    f[1] = 1;
+    
+    for (int i = 2; i <= n; i++)
+    {
+        f[i] = f[i - 1] + f[i - 2];
+    }
+    return f[n];
+}
+```
 
+2. Recursion
+
+```chsarp
+
+public long Fib(int n)
+{
+    if (n == 0 || n == 1)
+        return n;
+    return Fib(n - 2) + Fib(n - 1);
+}
+```
 
 # Assignments
 

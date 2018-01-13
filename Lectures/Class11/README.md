@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 11 : MVC Core (Controllers & Views)
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 11 : MVC Core
 =====================================
 
 ### Setup
@@ -225,6 +225,16 @@ return View();
 	3. Return View(MyStudents.ToList())
 	4. Go to View -> Modify declarative statement at top to this: `@model IList<ControllersAndRouting.ViewModels.Student>`
 	5. Foreach loop can now be used to power through the list of students `@foreach(var s in Model)`
+
+
+## Models
+1. What is a Model?
+    - The model in an MVC application represents the state of the application and any buisness logic or operations that should be performed by it. 
+    - Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the applicaiton. 
+    - strongly typed views will typically use ViewModel types specifically designed to contain data to dispaly on that view. The controller will create and populate these viewmodels from the model. 
+
+2. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
+
 
 
 # Assignments

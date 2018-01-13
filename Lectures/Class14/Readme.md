@@ -2,6 +2,13 @@
 
 ## Dependency Injection
 
+## Demo -
+1. Show how to Delete an item from the database
+2. How to update an item from the database
+3. Introduce _Layouts in Views
+4. Dev Essentials account
+5. How to publish an applicaiton onto Azure
+
 
 # Assignments
 
