@@ -1,35 +1,66 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Lab 21
-## Role Authentication
+![cf](http://i.imgur.com/7v5ASc8.png) Week 6 Lab : Build you Portfolio
+=====================================
 
-
-### Directions
-1. Provided is a code base from Class 16-19.
-   1. Within the existing code base, add role authentication to the existing site.
-   1. Build out an administration panel that will manage user accounts and user roles.
-      1. Have at least 2 role types
-      1. Have the ability to edit and delete users from roles
-      1. The admin panel should only be accessible by an admin
-
-### ReadMe
-- Your readme should include the following information:
-	- How long did it take you to complete this assignment?
-	- What did you struggle with? Why? How did you solve?
-	- What did you learn during this assignment?
-    - What resources did you utilize for this assignment?
-    
-
-### To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab18-amanda`
+## To Submit this Assignment
+- fork this repository (on day 26)
+- create a new branch **For each lab** named `Week6DayX-`; + `<your name>` **e.g.** `Week6Day1-amanda`
+- write your code
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
+- Include a Readme.md (contents described below)
+
+## Directions
+This lab will span over the course of 4 days. You will be building out your portfolio to showcase your projects
+and experience. At the end of the week, your final submission should contain the project completed as a whole, along with a deployment
+link to Azure. 
+<br /> <br />
+
+** Everyday's lab is dependant upon what we completed in class. Check back every day for the updated assignment.**
+
+### Day 1
+- Build out the beginning of your Portfolio site, using Razor Pages architecture
+- Create the Models required for your site. This includes
+	- Main subject class
+	- interface
+	- Database Seed (with initial data)
+	- DbContext
+	- Services
+- Home Page
+	- Index.cshtml
+- Stylesheet
+- Make sure your Startup.cs class is properly configured
+- Deploy to Azure. Provide your link in your Readme. (Name it something intuitive like AmandaIversonPortfolio.azurewebsites.net)
+
+### Day 2
+TBD
 
 
-### Rubric
-- 2pts: Application runs without any errors
-- 2pts: At least 2 different roles
-- 2pts: Edit/Delete functions 
-- 2pts: Role authorization sucecsfully authenticates
-- 1pts: Readme included with answers to questions
+### Day 3
+TBD
 
+### Day 4
+TBD
+
+
+## ReadMe
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+<br />
+Your job is to
+
+1. tell them what it is (with context)
+2. show them what it looks like in action
+3. show them how they use it
+4. tell them any other relevant details
+<br />
+
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+
+<br /> <br /> Refer to the sample-README in the class repo for an example. 
+- [Reference](https://github.com/noffle/art-of-readme)
+
+## Rubric
+- 7pts: Program meets all requirements described in Lab directions
+- 3pts: Code meets industry standards
+
+- **Readme.md required for submission. Missing readme document and tests will result in a best score of 2/10**

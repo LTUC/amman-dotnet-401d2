@@ -61,6 +61,23 @@ Rules of HTTP are important and we can take advantage of everything else that th
 ### Demo
 - Create a new empty project. 
 - Add MVC Services in Startup
+- Add Controllers Folder
+- Create new API Controller/Class
+----------
+- Derive Controller from ControllerBase
+- Cerate each of the actions by hand, 
+- Bring up `Attribute Routing` (Attribute Routes serve a purpose)
+- Constrain which http mehtods/verbs that you want those action methods to handle
+- Route template/pattern that shoudl match the URI for any req that makes it to the action method
+- create Get route
+- Create Put route
+- Create Post
+- Create Delete
+
+<br />
+
+**Make sure to go over the key terms and how they integrate into the application**
+
 - Create GET Action
 - Talk about attribute routing
 - model Binding
