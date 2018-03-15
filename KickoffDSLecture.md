@@ -22,5 +22,5 @@ We have the process fully documented for you:
 1. Submit a PR to your repo with a note who you worked with as a comment. 
 
 ## Rules
-1. Each student is ** required** to turn in their own version of the assignment (no group submissions) 
+1. Each student is **required** to turn in their own version of the assignment (no group submissions) 
 1. If you or your partner are unavailable, speak with your instructor about resubmission and/or new group. 
