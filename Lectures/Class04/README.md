@@ -12,7 +12,7 @@
 ## Lecture Outline
 
 
-### **Introduction to Classes**
+### Introduction to Classes
    1. **What is a Class?**
       1. A class is a 'blueprint' it defines the data and behavior of a type. 
       1. non-static classes can be used to create objects or instances which can be assigned to variables.
