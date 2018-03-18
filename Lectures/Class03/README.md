@@ -19,7 +19,8 @@
    1. How would we access an external file?
       1. What is System.IO
          1.  System IO is a namespace ( ***what is a namespace again?***)
-         that allows reading and writing to to files and a data streams along with basic file and directory support
+         that allows reading and writing to to files and a data streams 
+		 along with basic file and directory support
       1. [System.IO](https://msdn.microsoft.com/en-us/library/system.io(v=vs.110).aspx) classes
 
       1. Set the path in a string: 

@@ -1,21 +1,9 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Class 01: Intro to C#
 =====================================
 
-## Overview 
-* First day of Class! Spend the first part of class doing kickoff with the students
-* Spend no more than an hour with students reviewing the pre-work. Do a review about what they should have learned and applied to their lab 
-that they were instructed to create. 
- 
-
-## Learning Objectives
-* The student will successfully request user input and output a response to the console.
-* The student will implement try-catch statements as a form of exception handling within their code.
-* Set-up a debugger within Visual Studio 2017
-* Understand and be comfortable with debugging through code to identify potential bugs and errors. 
-
 # Lecture Outline
 
-**Kickoff**
+### Kickoff
 * Welcome to Code 401
 * Student Introductions
 * TA Introductions
@@ -24,11 +12,11 @@ that they were instructed to create.
 1. Overview of the class
    - Syllabus
    - Lecture Hours/Lab Hours
-   - 1:1 in week 3. 
-   - My office hours
+   - 1:1 in week 3 & 7
+   - Booking time with instructor (youcanbookme email)
    - Expectations of asking for assistance (15 min rule)
 
-**C# Basics**
+### C# Basics
 * What is C#
   * Where did it come from?
 	* Currently on C# 7
@@ -44,290 +32,148 @@ that they were instructed to create.
 		- Type checking occurs at Run time (JS)
 	* Object Orented
 
-* Microsoft Platform:
-  * C# depends on a runtime equipped with a host of features such as automatic memory management and exception handling. The design of C# closely maps to the design of Microsoft’s Common Language Runtime (CLR), which provides these runtime features (although C# is technically independent of the CLR).
-  * The CLR is the runtime for executing managed code. C# is one of several managed languages that get compiled into managed code. Managed code is packaged into an assembly, in the form of either an executable file (an .exe) or a library (a .dll), along with type information, or metadata.
-  * Managed code is represented in intermediate language or IL. When the CLR loads an assembly, it converts the IL into the native code of the machine, such as x86. This conversion is done by the CLR’s JIT (just-in-time) compiler. An assembly retains almost all of the original source language constructs, which makes it easy to inspect and even generate code dynamically.
-  * CLR is in charge of taking the managed code, compiling it into machine code and then executing it. On top of that, runtime provides several important services such as automatic memory management, security boundaries, type safety etc.
+### Microsoft Platform:
+  * C# depends on a runtime equipped with a host of features such as automatic memory management and exception handling. 
+  The design of C# closely maps to the design of Microsoft’s Common Language Runtime (CLR), which provides these runtime 
+  features (although C# is technically independent of the CLR).
+  * The CLR is the runtime for executing managed code. C# is one of several managed languages that get compiled into managed code. 
+  Managed code is packaged into an assembly, in the form of either an executable file (an .exe) or a library (a .dll), 
+  along with type information, or metadata.
+  * Managed code is represented in intermediate language or IL. When the CLR loads an assembly, it converts the IL into the 
+  native code of the machine, such as x86. This conversion is done by the CLR’s JIT (just-in-time) compiler. An assembly retains 
+  almost all of the original source language constructs, which makes it easy to inspect and even generate code dynamically.
+  * CLR is in charge of taking the managed code, compiling it into machine code and then executing it. 
+  On top of that, runtime provides several important services such as automatic memory management, security boundaries, 
+  type safety etc.
 
+## Exception Handling
 
-* Introduction to Visual Studio 2017 Community
-	* How to create a console applicaiton
-	* Disect the contents of a standard console applicaiton
-		* Namespace
-		* Methods
-          * arguments // parameters
-          ```csharp
+## What is Exception Handling
 
-			public static void Main()
-			{
-				Greeting("Amanda");
-			}
-			
+When an application or a program encounters a problem/error, the C# CLR has the ability to package up that error and put into something called an Exception.
 
-			public static string Greeting(string name)
-			{
-				string greeting = $"Hello, my name is {name} ";
-				
-				return greeting;
-			}
+Typically, when an exception gets thrown, the rest of that method does not get run, instead the catch block is triggered, and the finally block (if present) finsihes out the 
+execution of the program. 
+The C# language comes with many built in exceptions, but you are not bound to those exception, you actually have the ability to create your own Exceptions by deriving the 
+custom class from the `Exception` class if you wish. For now, let's just look at the built in exceptions. 
 
-			public static void Goodbye(string message)
-			{
-				Console.WriteLine("Goodbye");
-				//No return required because it's a void
-			}
-			```
-		* **iteration statements**
-          * For Loop
-            ```csharp
-				for (int i = 1; i <= 5; i++)
-				{
-					Console.WriteLine(i);
-				}
-			```
-          * Foreach Loop
-            ```csharp
-				int[] fibarray = new int[] { 0, 1, 1, 2, 3, 5, 8, 13 };
-				foreach (int element in fibarray)
-				{
-					System.Console.WriteLine(element);
-				}
-			```
-          * While Loop
-            ```csharp
-				int n = 1;
-				while (n < 6) 
-				{
-					Console.WriteLine("Current value of n is {0}", n);
-					n++;
-				}
-			```
-          * Do While Loop
-            ```csharp
-				int x = 0;
-				do 
-				{
-					Console.WriteLine(x);
-					x++;
-				} while (x < 5);
-			```
-			   
-			
-		* **selective statements**
-          * If Statements
-             ```csharp
-				bool condition = true;
+## try
 
-				if (condition)
-				{
-					Console.WriteLine("The variable is set to true.");
-				}
-				else
-				{
-					Console.WriteLine("The variable is set to false.");
-				}
-			```
-          * If-Else statemetns
-            ```csharp
-			if (condition)  
-			{  
-				then-statement;  
-			}  
-			else  
-			{  
-				else-statement;  
-			}  			
-			```
-          * Switch
-            ```csharp
-			int caseSwitch = 1;
-      
-				  switch (caseSwitch)
-				  {
-					  case 1:
-						  Console.WriteLine("Case 1");
-						  break;
-					  case 2:
-						  Console.WriteLine("Case 2");
-						  break;
-					  default:
-						  Console.WriteLine("Default case");
-						  break;
-				  }			
-			```
-		* variables and different data types
-			* how to declare them
-	* Ask/Recieve User Input
-		* `Console.Writeline()` - Write out a question
-          ```csharp
-			Console.WriteLine("Hello, How are you?");
-			```
-		* `Console.ReadLine()` - Read user input
-			* put answer in a string variable
-             ```csharp
-			string answer = Console.ReadLine();
-			```
-			* Show the `Convert.To()` method to allow conversions 
-				```csharp
-				Console.WriteLine("How old are you?");
-				int answer = Convert.ToInt32(Console.ReadLine());			
-				```
-            * Day 2 is when we talk about error handling, so don't get to far into this. just mention to be careful with conversions
+ A `try` is a code block that is executed under the preparation that an error may potentially be thrown. Each try should be accompanied by a 
+ `catch` . 
 
+If there is no catch, and an exception is thrown, the CLR throws an unhandled error and stops the execution of the program. 
+Generally, it is not reccomended to not have a catch block, although you can have an empty catch block or a catch block without an exception. 
 
+Here is an example of what a `try` block woukd look like:
 
-## **Exception Handling**
-* Why do we need it?
-  * Ask students about their experience from the prework's lab assignments. 
-  * What kind of errors did they receive?
-  * How did they handle them?
-  * Introduce Try/catch/finally statements
-     #### Try
-
-	 ```csharp
+```csharp
 		string number = "twenty";
 		try
 		{
 			int twenty = Convert.ToInt32(number); //Error
 		}
-	```
-       - *If an exception is thrown, the common language runtime (CLR) looks for a `catch` block to handle the exception* 
-       - *if there is no catch block, the CLR throws an unhandled error, and stops execution of th program*
-       - *To not have a `catch` block is not reccomended. You **are** allowed to have an empty `catch` block or a `catch` block without an argument.*
-	
-#### Catch
-	- Here is an example of a catch statement:
-	```csharp
-	catch(InvalidCastException e)
-	{
-		Console.WriteLine(e);
-		//You can also handle the exception however you choose to here
-	}
-	```
-      - `throw` rethrows the exception or you can throw your own exception
-	 ```csharp
-		catch (InvalidCastException e)   
-		{  
-		 // Perform some action here, and then throw a new exception.  
-		 throw new YourCustomException("Put your error message here.", e);  
-		} 
-	```
-
-    ```csharp
-    catch (Exception e)
-    {
-        //Do something with e here
-    }
-    ```
-
-    ```csharp
-    catch (WebException ex)
-    {
-       //code specifically for a WebException
-    }
-    ```
-
-#### Finally
-    - Examples of the Finally statement
-    - The finally statement executes regardless if the catch was hit or not
-    ```csharp
-    public static void Main()
-    {
-        int[] array1 = {0, 0};
-        int[] array2 = {0, 0};
-
-        try
-        {
-            Array.Copy(array1, array2, -1);
-        }
-        catch (ArgumentOutOfRangeException e)
-        {
-            Console.WriteLine("Error: {0}", e);
-        }
-        finally
-        {
-            Console.WriteLine("This statement is always executed.");
-        }
-    }
-    ```
-#### Callstack
-- What is the Callstack?
-- Exception Handling outside of methods
-
-```
-Main() calls MethodA() <br />
-MethodA() calls MethodB() <br />
-MethodB() calls MethodC() <br />
-MethodC() throws an exception -> No catch in MethodC(); <br />
-Looks in MethodB() -> No catch in B either <br />
-Looks in MethodA() -> No catch found <br />
-Looks in Main() -> No catch <br />
-Program Terminates. 
-
+		catch(FormatException e)
+		{
+			Console.WriteLine("{number} is not an integer");
+		}
 ```
 
-#### throw
-- What is a throw?
-- You can only throw an exception object or descendent from an exception.
-- When you write a method that catches an exception, your method doe snot have to handle it. You can let the calling method handle the exception. 
+## catch
+
+A catch block actually catches the error and then handles it. Like in the `try` example above, You *must* have a catch block after each try, or the CLR will thrown
+an error and stop the execution of the program.
+
+A cool thing about catch blocks is that you are not required to only have one....you can have as many `catch` blocks as you. The catch blocks are run from top to bottom and executes
+the first valid/applicable catch block it finds. 
+
+If you are unsure of what type of exception will be thrown, there is a very general exception called `Exception` that you can use. If you choose to use
+this exception class as your choice in your `catch` block, make sure it is the very last catch block because that block will always run if an exception is caught. 
+By having it at the bottom, this allows for a more valid/approraite exception to potentially be run instead. 
+
+Here is an example:
 
 ```csharp
-static void Main()
-{
-	try{
-		WriteLine("Trying in Main() Method");
-		MethodA();
-	} catch(Exception ae)
-	{
-		WriteLine($"Caught in Main() Method  -- {ae.Message}");
-	}
 
-	WriteLine("Main() MEthod is done");
-}
+	try
+        {
+            int num1 = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
 
-private static void MethodA()
-{
-	try{
-	WriteLine("In Method A");
-	MethodB();
-	
-	}catch{
-		WriteLine("Caugh in MethodA");
-		throw;
-	}
-}
+            int result = num1 / num2;
 
-private static void MethodB()
-{
-	try{
-	WriteLine("In Method B");
-	MethodB();
-	
-	}catch{
-		WriteLine("Caugh in MethodB");
-		throw;
-	}
-}
+            Console.WriteLine("{0} / {1} = {2}", num1, num2, result);
+        }
+        catch(DivideByZeroException ex)
+        {
+            Console.Write("Cannot divide by zero. Please try again.");
+        }
+        catch(InvalidOperationException ex)
+        {
+            Console.Write("Not a valid number. Please try again.");
+        }
+        catch(FormatException  ex)
+        {
+            Console.Write("Not a valid number. Please try again.");
+        }
 
-private static void MethodC()
-{
-		WriteLine("Caugh in MethodC");
-		throw(new Exception("This is from Method C");
-}
 ```
 
+## finally
 
-1. The solo "throw" just hands it off up the call stack
-2. If no catch is found...it just moves its way down the callstack until it either hits the last point or finds a catch statment.
+Finally blocks are structured to be placed right after a try/catch block. The finally will always be executed whether or not an exception is thrown. 
+The finally block is generally used for cleaning up code, disposing unmanaged objects, etc...
 
-## **Setting Up a Debugger:**
-- Why do you need a debugger
-- How do you set up a debugger?
-- How do you use a debugger?
-  - Step through
-  - Step over
-  - Step into
+```csharp
+    int zero = 0;    
+    
+    try
+    {
+        int result = 5/zero;  // this will throw an exception       
+            
+    }
+    catch(Exception ex)
+    {
+        Console.WriteLine("Inside catch block. Exception: {0}", ex.Message );
+    }
+    finally
+    {
+        Console.WriteLine("Inside finally block.");
+
+    }
+
+```
+
+## throw
+
+a `throw` allows you to force an exception to be thrown. This can be done in either a `catch` block or a regular code block.
+The advantages to this is if you have a custom exception that you would like to throw in replacement to the exception that was caught, or
+you want an exception to be thrown, given a certain condition being met. 
+
+
+```csharp
+    if (original == null)
+    {
+        throw new System.ArgumentException("Parameter cannot be null", "original");
+    }
+
+```
+When your method throws an exception, that method is not required to handle it. If it chooses, it can just pass it back up the callstack and let the preceeding methods
+handle it. The exception will keep moving up the callstack until it either finds a catch statement OR reaches the last point. 
+
+
+## Different types of Exceptions:
+
+1. **NotImpelemtedException** - Indicates that a method has not yet been implemented. 
+1. **IndexOutOfRangeException** - Indicates that an index outside the range of a collection has been referenced
+1. **InvalidCastException** -  Indicates that a cast has been attempted on the incorrect object type
+1. **FormatException** - Text was not in the coorect format when converting it to something else.
+1. **NotSupportedException** - An action was attemtped that was not supported.
+1. **NullReferenceException** - Reference type was null, instead of an object
+1. **StackOverflowException** - Indicates that there is no more room left on the callstack. 
+1. **DivideByZeroException** - You can't divide by zero....
+1. **ArgumentNullException** - A required non-null argument provided was null.
+1. **ArguementOutOfRangeException** - Arguement contained a value that was out of range then what it was expecting. 
 
 ### Error Handling while during Lab:
    - What do you do if you encounter an error (whiteboard // draw it)
@@ -339,32 +185,24 @@ private static void MethodC()
    - ask a TA
    - Ask the instructor
 
-
-### How to ask a question:
-
-   - How do you ask a question?
-		- What Have you done (summarize in 1-2 sentances)
-		- What *specific* error are you encountering
-		- Where have you looked to find a solution for the error?
-			- Example: MS Documentaion, "Bing" the error?
-
-# Resources
-
-* [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/index)
-
 # Assignments
 
-
 ## Readings
+
+### Exception Handling
 - C# 7.0 in a Nutshell - pg. 158 - 166 (start @ “try Statements and Exceptions)
 	- Try/Catch & Exceptions excerpt from assigned book (introduction)
 - [Try/Catch Blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions)
 - [Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/exception-handling-statements)
 
-## Lab
+### Big O
+Use these resources to understand Big O and apply them to your data structures
+- [Understanding Big O](http://computationaltales.blogspot.com/2011/04/understanding-big-o-notation-and.html)
+- [Beginners Guide to Big O](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
+- [Season 1, Episode 6, "A friendly intro to Big O Notation" ](https://www.codenewbie.org/basecs)
 
-[Lab 01 - About Me]("Lab 01 - AboutMe")
+## Lab
+[Lab01: Exception Handling](https://github.com/codefellows-seattle-dotnet-401d3/Lab01-Exception-Handling)
 
 ## Coding Challenge
-
-* FizzBuzz Game
+- Refer to the Class 01 Code Challenge assignment in Canvas
