@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenges",
-    "\\Labs\\Day05",
-    "\\Labs\\Day11",
+    "\\Curriculum",
+    "\\Curriculum\\Class01",
     "\\Lectures",
-    "\\Lectures\\Class29",
-    "\\Lectures\\Class30",
-    "\\Lectures\\Class33",
-    "\\Lectures\\Class34",
-    "\\Lectures\\Class35"
+    "\\Lectures\\Class01",
+    "\\Lectures\\Class01\\DemoCode\\ExceptionExample",
+    "\\Lectures\\Class01\\DemoCode\\ExceptionExample\\ExceptionExample",
+    "\\Solutions\\Week1"
   ],
-  "SelectedNode": "\\Challenges\\Challenge4.md",
   "PreviewInSolutionExplorer": false
 }
