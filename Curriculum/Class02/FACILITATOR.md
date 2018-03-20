@@ -20,6 +20,7 @@
  2. Introduction to TDD and Unit Testing
 	- Lecture Notes [here]("../Resources/UnitTests.md")
  3. Demo
+ 4. You will need to place the `sample-readme.md` file in the class repo so that students have access to it. 
 
 ## What changed from yesterday? 
 - They should be comfortable with the langauge at this point at a beginner's level. Today we introduce Testing, the expectation moving 
