@@ -20,7 +20,7 @@
 - Proper Structure
 
 ## Example Readme
-- [Sample Readme]("sample-README.md")
+- [Sample Readme]("/sample-README.md")
 
 ## Readings
 - [XUnit Documentation](http://xunit.github.io/#documentation)

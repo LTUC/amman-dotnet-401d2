@@ -3,10 +3,12 @@
     "",
     "\\Curriculum",
     "\\Curriculum\\Class01",
-    "\\Curriculum\\Class01\\DemoCode",
     "\\Curriculum\\Class01\\DemoCode\\ExceptionExample",
-    "\\Lectures"
+    "\\Lectures",
+    "\\Lectures\\Class02\\DemoCode\\UnitTestDemo",
+    "\\Lectures\\Class02\\DemoCode\\UnitTestDemo\\XUnitTestProject1",
+    "\\Lectures\\Class02\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class01\\DemoCode\\ExceptionExample\\ExceptionExample.sln",
+  "SelectedNode": "\\Lectures",
   "PreviewInSolutionExplorer": false
 }
