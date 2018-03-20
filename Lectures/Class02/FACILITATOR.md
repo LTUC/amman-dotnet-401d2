@@ -1,10 +1,29 @@
-# Class 02
+# Class 02 Unit Testing
+
+## Overview
+* Today is solely focusing on how students should be approaching the setup and presentation of their assignments. 
+* Use XUnit when unit testing within C#. 
+* The documentation portion shows an example of what the readme documentation should look like, as well as comments within code.
+
+
+## Learning Objectives
+* Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach. 
+* The students will understand and implement code coverage within their programs when testing
+* Students will include intuitive comments within their code
+* Students will setup readme documentation for each assignment given a specific format
+
 
 ## How do I prep for today?
  Review what the most current XUnit version. Make sure it is compatible with your framework. 
 
+ 1. Code Review on "About Me Quiz" / Code Challenge
+ 2. Introduction to TDD and Unit Testing
+	- Lecture Notes [here]("../Resources/UnitTests.md")
+ 3. Demo
+
 ## What changed from yesterday? 
-- n/a
+- They should be comfortable with the langauge at this point at a beginner's level. Today we introduce Testing, the expectation moving 
+forward is that they implement testing into their code everyday.
 
 ## What might students struggle with today? 
 - Students may struggle with the concept of Test Driven Development.
@@ -13,14 +32,7 @@
 - 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-
+N/A
 
 ## General comments
-- Code Katas should not be a brand new concept to the students. it looks like this is something that 
-they went over in 301 from their coding challenges. 
-
-- The First kata in the lab assignment is only supposed to be a markup/psuedo code write up. The whole point of that kata
-is to help students practice taking sormething abstract like pricing produce and break it down to smaller parts. What kind of edge cases
-can they come up with? What kind of 'sales' do they encounter while at the store...essentially - what does the checkout machine 'do' when 
-they are checking out? I like to refer to this as an example of sitting with a PM and a client in a req meeting. It is the developers job
-to start understanding the domain and ask appropriate questions and get as many facts as they can before they code. this is a goood practiee for that. 
+N/A
