@@ -3,11 +3,10 @@
     "",
     "\\Curriculum",
     "\\Curriculum\\Class01",
-    "\\Lectures",
-    "\\Lectures\\Class01",
-    "\\Lectures\\Class01\\DemoCode\\ExceptionExample",
-    "\\Lectures\\Class01\\DemoCode\\ExceptionExample\\ExceptionExample",
-    "\\Solutions\\Week1"
+    "\\Curriculum\\Class01\\DemoCode",
+    "\\Curriculum\\Class01\\DemoCode\\ExceptionExample",
+    "\\Lectures"
   ],
+  "SelectedNode": "\\Curriculum\\Class01\\DemoCode\\ExceptionExample\\ExceptionExample.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -24,3 +24,20 @@ We have the process fully documented for you:
 ## Rules
 1. Each student is **required** to turn in their own version of the assignment (no group submissions) 
 1. If you or your partner are unavailable, speak with your instructor about resubmission and/or new group. 
+
+
+## Big O
+Big O is the calculation of efficiency of time and space when an algorithm runs
+
+### Different Types
+1. Big O-Mega
+	- Best case efficiency
+2. Big Theta
+	- Average case efficiencey
+3. Big O
+	- worst case
+
+	We will mostly be focusing on Big O in this class. We want you to determine both the time and the space efficiency for the worst case of each algorithm.
+
+	We focus on worst case because if you plan for worst case, you will build a more efficient algorithm keeping the worst case in mind. 
+
