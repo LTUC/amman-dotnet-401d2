@@ -79,7 +79,6 @@ Since so many developers' eyes will find their way to your README before anythin
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-
 	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
 	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
