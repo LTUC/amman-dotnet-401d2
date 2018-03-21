@@ -76,6 +76,7 @@ Since so many developers' eyes will find their way to your README before anythin
 
 - 3pts: Code meets industry standards
 	- These points are only awardable if you score at minimum a 5/7 on above criteria
+
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
 
