@@ -3,12 +3,14 @@
     "",
     "\\Curriculum",
     "\\Curriculum\\Class01",
-    "\\Curriculum\\Class01\\DemoCode\\ExceptionExample",
-    "\\Lectures",
-    "\\Lectures\\Class02\\DemoCode\\UnitTestDemo",
-    "\\Lectures\\Class02\\DemoCode\\UnitTestDemo\\XUnitTestProject1",
-    "\\Lectures\\Class02\\Resources"
+    "\\Curriculum\\Class02\\DemoCode",
+    "\\Curriculum\\Class02\\DemoCode\\UnitTestDemo",
+    "\\Curriculum\\Class02\\DemoCode\\UnitTestDemo\\XUnitTestProject1",
+    "\\Curriculum\\Class03",
+    "\\Curriculum\\Class03\\DemoCode",
+    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo",
+    "\\Labs"
   ],
-  "SelectedNode": "\\Lectures",
+  "SelectedNode": "\\Curriculum\\Class03\\DemoCode\\SystemIODemo\\SystemIODemo.sln",
   "PreviewInSolutionExplorer": false
 }
