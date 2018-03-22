@@ -27,6 +27,7 @@ if the user says no -> terminate the program
 
 ## Program Components
 Create a game board that looks like this:
+
 ```
 |1||2||3|
 |4||5||6|
