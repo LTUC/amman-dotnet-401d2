@@ -44,7 +44,7 @@ A winning board may look like this (O Wins!):
 Remember that Tic-Tac-Toe is a 2 player game, so be sure to "switch" between players. Make it known to the user that
 their turn is over and it's time for the next players turn. You will have both play on the same board. 
 
- Here are a couple of ideas for different classes that you can have:
+ Here are a couple of ideas for different classes that you can have. You are not required to have these classes, but it may be a good start for guidance...
 - Game Board (this should construct the board after every turn with it's new state)
 - Player (This will hold the players information such as name or marker, in addition to any actions that user may take)
 
