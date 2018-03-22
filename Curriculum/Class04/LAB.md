@@ -37,45 +37,6 @@ play and then replace that position with either an `X` or an `O`.
 
 A winning board may look like this (O Wins!):
 
-|X||X![cf](http://i.imgur.com/7v5ASc8.png) Lab 4: Tic-Tac-Toe
-=====================================
-
-## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab04-`; + `<your name>` **e.g.** `lab04-amanda`
-- write your code
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
-- Include a Readme.md (contents described below)
-
-## Directions
-In a new Console Applicaiton within Visual Studio, create a Tic-Tac-Toe game. 
-
-Create your program to follow the traditional Tic-Tac-Toe rules. This includes (but not limited to...):
-This game will allow for 2 players to play side by side (on the same screen/board) and alternate
-between selecting their positions on the board. 
-
-A winner is determined when either Player 1 or Player 2 has succesfully placed 3 of their markers either in a row
-horizontally or vertically. 
-
-When the game is over, ask the user if they want to play again. 
-
-If the user says yes -> start a new game
-if the user says no -> terminate the program
-
-## Program Components
-Create a game board that looks like this:
-```
-|1||2||3|
-|4||5||6|
-|7||8||9|
-```
-The numbers in each of the squares will indicate the position number. Prompt the user to select which position they wish to 
-play and then replace that position with either an `X` or an `O`.
-
-A winning board may look like this (O Wins!):
-
 ```
 |X||X||O|
 |4||O||X|
