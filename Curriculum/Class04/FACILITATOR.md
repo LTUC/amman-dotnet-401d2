@@ -1,7 +1,9 @@
 # Class 04
 
 ## How do I prep for today?
-- Review all four OOP principles. Focus primarily on the first two (Inheritance & Abstraction)
+Introduce the concept of Classes and Object Oriented Programming
+1. Classes.md
+2. Properties.md
 
 ## What changed from yesterday? 
 - nothing. We are switiching gears to OOP principles. 
