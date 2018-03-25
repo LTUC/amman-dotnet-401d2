@@ -1,9 +1,0 @@
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp1.1\AboutMeQuiz.deps.json
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp1.1\AboutMeQuiz.runtimeconfig.json
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp1.1\AboutMeQuiz.runtimeconfig.dev.json
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp1.1\AboutMeQuiz.dll
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp1.1\AboutMeQuiz.pdb
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp1.1\AboutMeQuiz.csprojResolveAssemblyReference.cache
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp1.1\AboutMeQuiz.AssemblyInfo.cs
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp1.1\AboutMeQuiz.dll
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week1\LabAssignments\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp1.1\AboutMeQuiz.pdb

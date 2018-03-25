@@ -1,9 +1,0 @@
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\bin\Debug\netcoreapp1.1\Interfaces.deps.json
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\bin\Debug\netcoreapp1.1\Interfaces.runtimeconfig.json
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\bin\Debug\netcoreapp1.1\Interfaces.runtimeconfig.dev.json
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\bin\Debug\netcoreapp1.1\Interfaces.dll
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\bin\Debug\netcoreapp1.1\Interfaces.pdb
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\obj\Debug\netcoreapp1.1\Interfaces.csprojResolveAssemblyReference.cache
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\obj\Debug\netcoreapp1.1\Interfaces.AssemblyInfo.cs
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\obj\Debug\netcoreapp1.1\Interfaces.dll
-C:\Users\amanda\Desktop\CodeFellows\dotnet401\Week2\LabAssignments\Interfaces\Interfaces\obj\Debug\netcoreapp1.1\Interfaces.pdb
