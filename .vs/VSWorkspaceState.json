@@ -2,15 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01",
-    "\\Curriculum\\Class02\\DemoCode",
-    "\\Curriculum\\Class02\\DemoCode\\UnitTestDemo",
-    "\\Curriculum\\Class02\\DemoCode\\UnitTestDemo\\XUnitTestProject1",
-    "\\Curriculum\\Class03",
-    "\\Curriculum\\Class03\\DemoCode",
     "\\Curriculum\\Class03\\DemoCode\\SystemIODemo",
-    "\\Labs"
+    "\\Curriculum\\Class03\\Resources",
+    "\\Curriculum\\Class04\\DemoCode",
+    "\\Labs\\Day04",
+    "\\Lectures\\Class05"
   ],
-  "SelectedNode": "\\Curriculum\\Class03\\DemoCode\\SystemIODemo\\SystemIODemo.sln",
+  "SelectedNode": "\\Curriculum\\Class05",
   "PreviewInSolutionExplorer": false
 }
