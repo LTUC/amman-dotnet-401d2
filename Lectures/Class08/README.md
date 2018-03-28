@@ -27,7 +27,8 @@
    - The standard query operators are implemented as *extension methods*, so we can call 'Where' directly onto names
 
    1. Query Expresssions 
-    ```csharp
+   
+```csharp
 	   string[] names = { "Tom", "Dick", "Harry" };
 
     IEnumerable<string> filteredNames = from n in names
@@ -47,12 +48,12 @@
 
 1. Lambda Statements
 
-    ```csharp
+```csharp
     n => n.Length >= 4
-    ```
+```
 
 
-    ```csharp
+```csharp
     IEnumerable<string> filtered = names.Where(n => n.Contains ("a"));
     IEnumerable<string> sorted = filtered.OrderBy(n => n.Length);
     IEnumerable<string> finalQuery = sorted.Select(n => n.ToUpper());
@@ -69,15 +70,16 @@
     foreach (string name in finalQuery)
       Console.Write (name + "|");        // JAY|MARY|HARRYkk|
 
-    ```
+ ```
 
    1. Anonymous Objects 
    1. Anonymous Types
-      - ```csharp 
-         var filteredNames = names.Where (n => n.Length >= 4); 
-        ```
+  
+```csharp 
+   var filteredNames = names.Where (n => n.Length >= 4); 
+ ```
 
-        ```csharp
+```csharp
         var bookAuthorCollection = from b in books
                            select new { Book: b,
                                         Author: b.Authors[0]
@@ -86,7 +88,7 @@
         foreach (var x in bookAuthorCollection)
             Console.WriteLine("Book title - {0}, First author {1}", 
                                  x.Book.Title, x.Author.FirstName);
-        ```
+```
 
 - We want bookAuthorCollection ot hold information only about the book and author when extracing data
     1. .Where is an example of an extension method.
