@@ -1,34 +1,32 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7 : Collections
+D![cf](http://i.imgur.com/7v5ASc8.png) Lab 8 : LINQ in Manhatten
 =====================================
 
 ## To Submit this Assignment
 - fork this repository
-- create a new branch named `lab07-`; + `<your name>` **e.g.** `lab07-amanda`
-- write your code
+- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab08-amanda`
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
-- Include a Readme.md (contents described below)
+
 
 ## Directions
-Create a custom generic collection named `Deck<T>`.
-Your Generic collection should hold Cards. (You will need to create a custom Card class) <br />
-Create an Enum to hold the different card suites (Hearts, Diamonds, Spades, Clubs)
-The methods within your Deck<T> class should contain at minimum:
-1. Add
-2. Remove
-3. Shuffle
-	- The shuffle logic will randomize the index of each of the items in the generic Deck<T> object
+Provided is a JSON file that contains a data set of location information for properties in Manhatten.
+- Read in the file and answer the questions below
+- Use LINQ queries and Lambda statements (when appropriate) to find the answers. 
 
-Your `Program.cs` Main method should demonstrate:
-1. the instantiation of the generic collection. 
-2. the instantiation of at least 15 cards with values
-3. Adding and removing cards frm the Deck<T>
-4. Proof that the shuffling method workds 
-	- Have a method in your `Program` class named `Deal` that brings in the Deck. ouput the cards, shuffle, then output the cards again. 
-5. Use a Foreach loop on your created Deck, and output each of the cards to the console. 
+## Setup
+- Add the data.json file to your solution root folder
+- Explore the NuGet packages and install NewtonSoftJson
+- Do some self research and find out how to read in JSON file (hint: JsonConvert.DeserializedOject is *part* of it)
+- You will need to break up each section of the JSON file up into different classes, use your resources - ask the TA's if your stuck. (Maybe find a converter of some sort??)
 
-Unit tests are still required. 
+#### Questions
+Each query builds off of the next. 
+1. Output all of the neighborhoods in this data list
+2. Filter out all the neighborhoods that do not have any names
+3. Remove the Duplicates
+4. Rewrite the queries from above, and consolidate all into one single query.
+5. Rewrite at least one of these questions only using a LINQ query (without lambda statement)
 
 ## ReadMe
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
@@ -39,14 +37,12 @@ Your job is to
 2. show them what it looks like in action
 3. show them how they use it
 4. tell them any other relevant details
-
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> <br /> Refer to the sample-README in the class repo for an example. 
 - [Reference](https://github.com/noffle/art-of-readme)
-
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions
@@ -58,7 +54,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	4       | Program runs/compiles, but throws exceptions during execution |
 	2       | Missing tests // tests are not passing // not enough valid tests |
 	2       | Missing Readme Document // Readme Document does not meet standards |
-	0       | Program does not compile/run. Build Errors. |
+	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
 - 3pts: Code meets industry standards
@@ -70,3 +66,5 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
+
+
