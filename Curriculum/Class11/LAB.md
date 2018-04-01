@@ -32,7 +32,7 @@ Your MVC Web Application should contain the following:
 1. A model class that contains the following properties(these are the headers of the csv file):
 
 	```csharp
-	 public int Year { get; set; }
+	 	public int Year { get; set; }
 		public string Honor { get; set; }
 		public string Name { get; set; }
 		public string Country { get; set; }
@@ -42,8 +42,7 @@ Your MVC Web Application should contain the following:
 		public string Category { get; set; }
 		public string Context { get; set; }
 	```
-1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can 
-be used within the program. <br />
+1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commmas, this should be a good start to how to parse out your data. <br />
 
 	Here is my code. Feel free to use it, but if you do **comment every single line** and make sure you know what is going on. 
 	This code lives in my `TimePerson.cs` model. 
