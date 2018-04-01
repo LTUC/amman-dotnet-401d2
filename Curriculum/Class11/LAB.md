@@ -1,4 +1,4 @@
-D![cf](http://i.imgur.com/7v5ASc8.png) Lab 11: My First MVC App
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 11: My First MVC App
 =====================================
 
 ## To Submit this Assignment
@@ -33,7 +33,6 @@ Your MVC Web Application should contain the following:
  public int Year { get; set; }
         public string Honor { get; set; }
         public string Name { get; set; }
-
         public string Country { get; set; }
         public int Birth_Year { get; set; }
         public int DeathYear { get; set; }
@@ -52,17 +51,13 @@ This code lives in my `TimePerson.cs` file.
         public List<TimePerson> GetPersons(int begYear, int endYear)
         {
             List<TimePerson> people = new List<TimePerson>();
-            
             string path = Environment.CurrentDirectory;
-
             string newPath = Path.GetFullPath(Path.Combine(path, @"wwwroot\personOfTheYear.csv"));
-
             string[] myFile = File.ReadAllLines(newPath);
 
             for (int i = 1; i < myFile.Length; i++)
             {
                 string[] fields = myFile[i].Split(',');
-
                 people.Add(new TimePerson
                 {
                     Year = Convert.ToInt32(fields[0]),
@@ -74,20 +69,13 @@ This code lives in my `TimePerson.cs` file.
                     Title = fields[6],
                     Category = fields[7],
                     Context = fields[8],
-
                 });
-
             }
-            
+           
          List<TimePerson> listofPeople = people.Where(p => (p.Year >= begYear) && (p.Year <= endYear)).ToList();
-
-
-  
-            return listofPeople;
-
+         return listofPeople;
         }
 ```
-
 1. Include HTML/CSS in your final product.This is required.
 1. ENable use of Static Files in your website and create a stylesheet and incorprate some creativity into your application. 
 
