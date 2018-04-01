@@ -16,18 +16,20 @@
 Today you will be creating your first ASP.NET Core MVC web application. Provided is a csv file of all the "Time" Persons of the year from 1927 - present. 
 Create a web app that will allow a user to put in a span of 2 different years, and a list of all the winners will be returned. 
 
-An example of the functionality of your site can be found [here](https://lab11.azurewebsites.net/)
+An example of the **functionality** of your site can be found [here](https://lab11.azurewebsites.net/).
 
 ## Website Components
 Your MVC Web Application should contain the following:
 
-1. Add the MVC Middleware and include template routing
-1. A home controller, with 3 actions (2 Index, and 1 Results)
+1. Add the MVC Middleware and include template routing (the route must be explicitly defined)
+1. Only 1 controller. The home controller, with 3 actions (2 Index, and 1 Results)
 	1. Remember the difference between HTTPGET and HTTPPOST
+	1. Upon posting back to the server, call the `Results` action to redirect to the results view. 
 1. Views to generate the home page and search results
 	1. Use a form tag to accept user input
 	1. Use Tag Helpers to help transfer data from the view to the controller
-1. Include HTML/CSS in your final product.This is required.
+1. Include HTML/CSS in your final product.This is required. 
+	1. It doesn't have to be fancy, but make it look nice.
 1. Enable use of Static Files in your website and create a stylesheet and incorprate some creativity into your application. 
 1. A model class that contains the following properties(these are the headers of the csv file):
 
