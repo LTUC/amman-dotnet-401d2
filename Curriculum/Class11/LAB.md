@@ -46,7 +46,7 @@ Your MVC Web Application should contain the following:
 be used within the program. <br />
 
 	Here is my code. Feel free to use it, but if you do **comment every single line** and make sure you know what is going on. 
-	This code lives in my `TimePerson.cs` file. 
+	This code lives in my `TimePerson.cs` model. 
 
 	```csharp
 
