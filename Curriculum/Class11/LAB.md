@@ -102,8 +102,9 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
-	5       | Program runs/compiles, Program contains logic/process errors|
-	4       | Program runs/compiles, but throws exceptions during execution |
+	5       | Program meets all of the  functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
+	4       | Program meets most of the funcationality requirements descibed above // Program runs/compiles, but throws exceptions during execution |
+	
 	2       | Missing tests // tests are not passing // not enough valid tests |
 	2       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
