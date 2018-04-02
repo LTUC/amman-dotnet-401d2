@@ -11,20 +11,13 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: MVC Part 2
 
 ## Directions
 
-1. Read and complete the following [Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
-	1. Get Started
-	1. Add a Controller
-	1. Add a view
-	1. Add a Model
-	1. Work with SQL Server Local DB
-	1. Controller Methods and views
-	1. Add search
-	1. Add a new field
-	1. Add Validation
-	1. Examine the Details and Delete Methods
-
-1. Add Css and html to your copmleted Movie Library site. Restructure your `HomeController` to be more customized to your creativity.
-
+You are responsible for creating a student enrollment system for a school for the school administration. Here are the requirements.
+1. Students can only be registerd for one class at a time. 
+1. the administration should be able to view all the students enrolled in a specific course. 
+1. View all students enrolled all at once and the class they are registered for
+1. Remove specific students
+1. Seach for specific students
+1. Edit a student's profile
 
 
 ## ReadMe

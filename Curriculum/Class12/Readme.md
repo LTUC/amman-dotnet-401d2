@@ -5,5 +5,4 @@
 # Assignments
 
 ## Readings
-1. []()
-2. []()
+1. [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/)

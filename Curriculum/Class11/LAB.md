@@ -28,7 +28,7 @@ Your MVC Web Application should contain the following:
 1. Views to generate the home page and search results
 	1. Use a form tag to accept user input
 	1. Use Tag Helpers to help transfer data from the view to the controller
-1. Include HTML/CSS in your final product.This is required. 
+1. Include HTML/CSS in your final product. **This is required.** 
 	1. It doesn't have to be fancy, but make it look nice.
 1. Enable use of Static Files in your website and create a stylesheet and incorprate some creativity into your application. 
 1. A model class that contains the following properties(these are the headers of the csv file):
@@ -103,8 +103,8 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the funcationality requirements descibed above // Program runs/compiles, but throws exceptions during execution |
-	
+	4       | Program meets most of the functionality requirements descibed above // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
 	2       | Missing tests // tests are not passing // not enough valid tests |
 	2       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
