@@ -1,4 +1,4 @@
-D![cf](http://i.imgur.com/7v5ASc8.png) Lab 18: Consume the API
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 18: Consume the API
 =====================================
 
 ## To Submit this Assignment
