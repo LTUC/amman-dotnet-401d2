@@ -10,7 +10,7 @@ Be careful, some may be tricky!
 Here a screenshot of the inital launch of the application. 
 The game is command line based, so all you have to do is type right into your command line. 
 
-![LabOneImaeg](Lab1Image.png)
+![LabOneImaeg](Lab1Image.PNG)
 
 ## How do you use it
 Follow these instructions to start playing the game. 
