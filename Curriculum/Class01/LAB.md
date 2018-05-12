@@ -43,7 +43,25 @@ Provide setup documentation
 	1. How do I know the program worked successfully?
 
 ## Rubric
-
 - 7pts: Program meets all requirements described in Lab directions
+
+	Points  | Reasoning | 
+	 ------------ | :-----------: | 
+	7       | Program runs as expected, no exceptions during execution |
+	5       | Program meets all of the  functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
+	4       | Program meets most of the functionality requirements descibed above // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	2       | Missing Readme Document // Readme Document does not meet standards |
+	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
+	0       | No Submission |
+
 - 3pts: Code meets industry standards
-- **Readme.md required for submission. Missing readme document will result in a best score of 2/10**
+	- These points are only awardable if you score at minimum a 4/7 on above criteria
+
+	Points  | Reasoning | 
+	 ------------ | :-----------: | 
+	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
+	0       | No Submission or incomplete submission |
+
