@@ -34,7 +34,7 @@ Depost money into your Account.
 Required Data: The Monetary value you would like to deposit
 
 Possible Errors:
-"Invalid Deposit" - You did not provide a valid amount to withdraw. This could be due to the following:
+- "Invalid Deposit" - You did not provide a valid amount to withdraw. This could be due to the following:
 	1. The monetary amount you entered is not a valid number
 	2. The monetary amount you entered is equal or less than zero.
 
