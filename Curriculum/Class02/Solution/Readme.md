@@ -1,6 +1,6 @@
 # Bank ATM Teller
 
-**Author**: Your Name(s) Goes Here
+**Author**: Amanda Iverson <br />
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
@@ -34,9 +34,9 @@ Depost money into your Account.
 Required Data: The Monetary value you would like to deposit
 
 Possible Errors:
-1. "Invalid Deposit" - You did not provide a valid amount to withdraw. This could be due to the following:
-	 1. The monetary amount you entered is not a valid number
-	 2. The monetary amount you entered is equal or less than zero.
+"Invalid Deposit" - You did not provide a valid amount to withdraw. This could be due to the following:
+	1. The monetary amount you entered is not a valid number
+	2. The monetary amount you entered is equal or less than zero.
 
 ### View Balance
 Returns the balance of the account.
