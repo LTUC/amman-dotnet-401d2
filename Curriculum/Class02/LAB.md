@@ -23,11 +23,10 @@
 		- View Balance
 		- Withdraw Money
 		- Add Money (not standard, but for this exercise it will be....)
-	- Exception Handling (try/catch/finally)
-	- Keep asking the user to choose a transaction until they choose to 'exit' the application
+=	- Keep asking the user to choose a transaction until they choose to 'exit' the application
 - A few things to keep in mind:
 	- Make sure the user can't go below a zero balance
-	- You cannot unit test console outputs. 
+	- You cannot unit test console outputs or readlines. 
 	- Make sure your methods are just returning values and not reading input from the console. 
 
 - **Stay within scope of the what we have learned so far in the class.**
@@ -37,6 +36,7 @@
 ### Unit Tests
 1. Provide unit tests for your ATM.
 2. For every method/action (that does not require user input), there should be a passing valid input, and a passing invalid input.
+3. HAve at least 3 tests for every non-void method.
 3. **A failing test, is not a valid test** - even if the failure is expected. 
 
 ### Stretch
@@ -61,7 +61,26 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 
 ## Rubric
-
 - 7pts: Program meets all requirements described in Lab directions
+
+	Points  | Reasoning | 
+	 ------------ | :-----------: | 
+	7       | Program runs as expected, no exceptions during execution |
+	5       | Program meets all of the  functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
+	4       | Program meets most of the functionality requirements descibed above // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	2       | Missing tests // tests are not passing // not enough valid tests |
+	2       | Missing Readme Document // Readme Document does not meet standards |
+	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
+	0       | No Submission |
+
 - 3pts: Code meets industry standards
-- **Readme.md AND tests required for submission. Missing readme document and tests will result in a best score of 2/10**
+	- These points are only awardable if you score at minimum a 4/7 on above criteria
+
+	Points  | Reasoning | 
+	 ------------ | :-----------: | 
+	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
+	0       | No Submission or incomplete submission |
+
