@@ -1,4 +1,4 @@
-# Class 01 Intro to C# and Exception Handling
+f# Class 01 Intro to C# and Exception Handling
 
 ## Overview 
 * First day of Class! Spend the first part of class doing kickoff with the students

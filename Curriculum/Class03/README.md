@@ -1,6 +1,9 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 03
 
 ## Lecture Outline
+* The student will be introduced and implement the FileStream
+* The student will know how to Create, Read, Update, and Delete file using the FileStream
+* The studetn will know how to properly open and close a file from an external location
 
 ### System IO Library
  - What is it

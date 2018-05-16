@@ -1,5 +1,10 @@
 # Class 03
 
+## Learning Objectives
+* The student will be introduced and implement the FileStream
+* The student will know how to Create, Read, Update, and Delete file using the FileStream
+* The studetn will know how to properly open and close a file from an external location
+
 ## How do I prep for today?
 Review lecture notes, past youtube lecture videos. become familiar with System.IO
 
