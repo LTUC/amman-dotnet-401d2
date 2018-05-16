@@ -2,7 +2,7 @@
 
 ## How do I prep for today?
 Review the OOP Principles from the previous Class.
-1. Introduce Interfaces
+1. Introduce Interfaces [Notes Here]()
 
 Use the provided Demo code as a baseline of what to code out during class.
 
