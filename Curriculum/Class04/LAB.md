@@ -32,6 +32,7 @@ Create a game board that looks like this:
 |1||2||3|
 |4||5||6|
 |7||8||9|
+
 ```
 The numbers in each of the squares will indicate the position number. Prompt the user to select which position they wish to 
 play and then replace that position with either an `X` or an `O`.

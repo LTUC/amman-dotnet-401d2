@@ -13,7 +13,7 @@
 
 
 ### Properties
-- Properties are similar to variables. they can be referred to as fields as well.
+- Properties are similar to variables
 - Backing stores -> What does that mean?
 
 ### Constructors
@@ -38,7 +38,7 @@
 	- You don't have to read the whole chapter, use it as a reference for additional resources
 
 ## Lab
-[Lab04 - Classes](https://github.com/codefellows-seattle-dotnet-401d3/Lab04-Classes)
+[Lab04 - Classes]()
 
 ## Code Challenge
 - Refer to the code challenge assignment located in Canvas

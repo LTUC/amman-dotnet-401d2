@@ -125,7 +125,7 @@ Use these resources to understand Big O and apply them to your data structures
 - [Season 1, Episode 6, "A friendly intro to Big O Notation" ](https://www.codenewbie.org/basecs)
 
 ## Lab
-[Lab01: Exception Handling](linkToLabRepo)
+[Lab01: Exception Handling]()
 
 ## Coding Challenge
 - Refer to the Class 01 Code Challenge assignment in Canvas

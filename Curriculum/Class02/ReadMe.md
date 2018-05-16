@@ -35,7 +35,7 @@
 - [ReadMe Best Practices](https://github.com/jehna/readme-best-practices)
 
 ## Lab
-[Lab 02-Unit Testing](https://github.com/codefellows-seattle-dotnet-401d3/Lab02-Unit-Testing)
+[Lab 02-Unit Testing]()
 
 ## Coding Challenge
 - Refer to the code challenge assignment located in Canvas

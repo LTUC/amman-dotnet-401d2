@@ -31,7 +31,7 @@
 1. [Read to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file)
 
 ## Lab
-[Lab03 System IO](https://github.com/codefellows-seattle-dotnet-401d3/Lab03-File-Manipulation)
+[Lab03 System IO]()
 
 
 ## Code Challenge 03
