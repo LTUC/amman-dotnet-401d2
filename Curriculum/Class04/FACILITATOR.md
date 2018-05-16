@@ -1,7 +1,8 @@
 # Class 04
 
 ## How do I prep for today?
-Introduce the concept of Classes and Object Oriented Programming
+Introduce the concept of Classes and Object Oriented Programming.
+A document outline for each of these sections is located in the Resources Folder
 1. Intro to OOP
 1. Classes.md
 1. Structs (optional lecture)
