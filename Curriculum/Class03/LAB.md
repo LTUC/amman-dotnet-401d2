@@ -14,11 +14,11 @@
 
 **Read ALL of the directions carefully before you begin....**
 
-The directions below mock a scenario that an actual client may request. It is your job, as a developer, to interpret these directions and 
+The directions below mock a scenario of a request from a client. It is your job, as a developer, to interpret these directions and 
 create a program based on what is stated below.
 
 Josie Cat has requested that a "Word Guess Game" be built. The main idea of the game is she must guess what a mystery word is by inputting 
-either (1) letter or a sequence of letters at a time (at most, 2). The game should save all of her guesses (both correct and incorrect) throughout each session of the game,
+ (1) letter at a time.  The game should save all of her guesses (both correct and incorrect) throughout each session of the game,
 along with the ability to show her how many letters out of the word she has guessed correctly. 
 
 Each time a new game session starts, the mystery word chosen should come from an external text file that randomly selects one of the words listed. 
@@ -30,14 +30,25 @@ game that will meet all of the requiements described in the user story above.
 
 ## Program Components
 - The program (should) contain the following
-    - Methods for each action (Home navigation, View words in the external file, add a word to the external file, Remove words from a text file, exit the game, start a new game)
-    - When playing a game, *randomly* select one of the words to output to the console for the user to guess
+    - Methods for each action (suggestions: Home navigation, View words in the external file, add a word to the external file, Remove words from a text file, exit the game, start a new game)
+    - When playing a game, *randomly* select one of the words to output to the console for the user to guess (Use the `Random` class)
     - You should have a record of the letters they have attempted so far
     - If they guess a correct letter, display that letter in the console for them to refer back to when making guesses (i.e. C _ T S )
+	- Your program does not need to be case sensitive. 
     - Errors should be handled through Exception handling
     - You may use any shortcuts or 'helper' methods in this project. Do not create external classes to accomplish this task. Stay within scope, you may use the the methods/classes listed below if desired.
 	- Once the game is completed, the user should be presented with the option to "Play again" (a new random word is generated), or "Exit" (the program terminates)
-	- the user should only be allowed to guess, **at most**, 2 letters at a time. Do not make it so that they can input the whole alphabet and get the answer. 
+	- the user should only be allowed to guess only 1 letter at a time. Do not make it so that they can input the whole alphabet and get the answer. 
+
+
+## Tests
+Be sure to test the following functionality:
+1. Create a file
+2. Read a file
+3. update a file
+4. Delete a fie
+5. letter can be properly guessed
+
 
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the Contains() method. 

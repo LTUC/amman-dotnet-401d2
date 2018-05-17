@@ -20,9 +20,9 @@
 	- 5 different questions
 	- Exception Handling (try/catch/finally)
 	- Are you able to incorprate a `throw` somehow? 
-
-- **Stay within scope of the what we have learned so far in the class.**
-	- if we have not officially learned the concept you are trying to implement, then don't use it. 
+	
+Stay within scope of this project. Please only use concepts and resources that we have covered so far in previous labs/lectures/assigned prework. 
+If you are unsure if it is within scope, please ask a TA or instructor.
 
 
 ### Stretch
