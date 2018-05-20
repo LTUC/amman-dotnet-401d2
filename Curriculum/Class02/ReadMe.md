@@ -7,7 +7,6 @@
 * Students will include intuitive comments within their code
 * Students will setup readme documentation for each assignment given a specific format
 
-
 # Assignments
 
 ## Unit Testing

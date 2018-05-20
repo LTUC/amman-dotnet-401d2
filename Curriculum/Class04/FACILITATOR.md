@@ -8,6 +8,8 @@ A document outline for each of these sections is located in the Resources Folder
 1. Structs (optional lecture)
 1. Properties.md
 
+The Lab will require some knowledge on multi-dimensional arrays and potentially Jagged Arrays. 
+
 ## What changed from yesterday? 
 - nothing. We are switiching gears to OOP principles. 
 
@@ -20,4 +22,4 @@ A document outline for each of these sections is located in the Resources Folder
 
 ## General comments
 - Through the week we have been alluding to the concept of classes but never actually talked about them..now we get to. 
-you may be able to start the conversation of the class out by reviewing what they know already about classes.
+You may be able to start the conversation of the class out by reviewing what they know already about classes.
