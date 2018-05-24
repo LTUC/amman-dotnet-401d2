@@ -1,4 +1,4 @@
-D![cf](http://i.imgur.com/7v5ASc8.png) Lab 8 : LINQ in Manhatten
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 8 : LINQ in Manhatten
 =====================================
 
 ## To Submit this Assignment
