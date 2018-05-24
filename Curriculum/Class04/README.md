@@ -26,8 +26,6 @@
 - What does static mean?
 - When do we use it?
 
-
-
 # Assignments
 
 ## Readings
@@ -39,6 +37,3 @@
 
 ## Lab
 [Lab04 - Classes]()
-
-## Code Challenge
-- Refer to the code challenge assignment located in Canvas
