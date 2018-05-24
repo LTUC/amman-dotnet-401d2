@@ -24,19 +24,19 @@
 		2. Label the abstract classes and concrete classes
 		3. Label the access modifiers for each of the classes
 		4. Label where you are using Polymorphism in your program. Where are the virtual and abstract methods defined, and where are they being overridden?
+- Your program class should instantiate each of the concrete animals to prove the functionality. 
 
 
-## Components
+## Program Specifications
 - Have at least 3 different abstract classes
 - Have at least 3 layers of inheritance
-- Have at least 4 abstract methods (make sure you override them)
-- Have at least 4 virtual methods (make sure you override them)
+- Have at least 2 abstract methods (make sure you override them)
+- Have at least 2 abstract Properties (make sure you override them)
+- Have at least 2 virtual methods (make sure you override them)
+- Have at least 2 virtual properties (make sure you override them)
 
 - Your (digital) drawing of your zoo diagram should be clearly labeled of which classes
 
-Your readme is extremely important in this lab because it will be a guide for us to know exactly what you did where and how. Define for me, in your readme, the
-definitions of each of the OOP principles (in your own words), and provide a **couple** examples (you do not have to write all occurances out) where you are practing each of the OOP principles. 
-Your program class should instantiate each of the concrete animals to prove that the functionality for each of the animals is as desired. 
 
 ## Example
 Please refer to the included diagram and code base as an example of the expectation. 
@@ -45,24 +45,15 @@ Please refer to the included diagram and code base as an example of the expectat
 Refer to Part 2 (Day 6) for required tests
 
 ## ReadMe
-
-#### A Readme is a requirement. No Readme = No Grade. 
+**A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
-
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+Your readme is extremely important in this lab because it will be a guide for us to know exactly what you did where and how. 
+Define for me, in your readme, the following:
+1. An introduction to the project
+1. Create your own technical documentation. Breakdown and define each of the OOP principles in your own words.
+1. Provide under each OOP definition a couple (you do not have to define all) of examples of how you 
+are applying this into your project
 
 
 ## Rubric

@@ -1,9 +1,9 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7 : Collections
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 09 : 
 =====================================
 
 ## To Submit this Assignment
 - fork this repository
-- create a new branch named `lab07-`; + `<your name>` **e.g.** `lab07-amanda`
+- create a new branch named `lab05-`; + `<your name>` **e.g.** `lab09-amanda`
 - write your code
 - push to your repository
 - submit a pull request to this repository
@@ -11,24 +11,8 @@
 - Include a Readme.md (contents described below)
 
 ## Directions
-Create a custom generic collection named `Deck<T>`.
-Your Generic collection should hold Cards. (You will need to create a custom Card class) <br />
-Create an Enum to hold the different card suites (Hearts, Diamonds, Spades, Clubs)
-The methods within your Deck<T> class should contain at minimum:
-1. Add
-2. Remove
-3. Shuffle
-	- The shuffle logic will randomize the index of each of the items in the generic Deck<T> object
 
-Your `Program.cs` Main method should demonstrate:
-1. the instantiation of the generic collection. 
-2. the instantiation of at least 15 cards with values
-3. Adding and removing cards frm the Deck<T>
-4. Proof that the shuffling method workds 
-	- Have a method in your `Program` class named `Deal` that brings in the Deck. ouput the cards, shuffle, then output the cards again. 
-5. Use a Foreach loop on your created Deck, and output each of the cards to the console. 
-
-Unit tests are still required. 
+## Specs
 
 ## ReadMe
 

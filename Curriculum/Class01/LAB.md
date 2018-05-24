@@ -12,12 +12,14 @@
 - Include a Readme.md (contents described below)
 
 ## Directions
+- Create an "About Me" quiz that has at least 5 different questions. 
+- Each question should be something fun, unique, or interesting about yourself
 
-- Create an "About Me" quiz in a console application with VS2017
+## Program Specifications
 - Your solution should include the following:
     - Main method
 	- external methods- (at least 3 non-void return types)
-	- 5 different questions
+		- Have different return types!
 	- Exception Handling (try/catch/finally)
 	- Are you able to incorprate a `throw` somehow? 
 	

@@ -25,7 +25,7 @@ When the game is over, ask the user if they want to play again.
 If the user says yes -> start a new game
 if the user says no -> terminate the program
 
-## Program Components
+## Program Specifications
 Create a game board that looks like this:
 
 ```
