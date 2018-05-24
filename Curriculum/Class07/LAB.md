@@ -32,7 +32,7 @@ Unit tests are still required.
 
 ## ReadMe
 
-**A Readme is a requirement. No Readme == No Grade.** <br />
+**A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
@@ -49,7 +49,6 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
 - [Reference](https://github.com/noffle/art-of-readme)
-
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
