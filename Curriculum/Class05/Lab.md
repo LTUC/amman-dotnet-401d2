@@ -15,10 +15,10 @@
 - Using all 4 of the Object Oriented Principles (OOPs): 
 		- Build out the hierarchical class structure of a zoo within Visual Studio and a digital diagram. 
 		- There should be at least 3 layers of inheritance with at least 6 different types of animals. 
-	- Prove that the OOP principles are being used by returning strings as neccesary to prove that a methods were propertly implemented or inherited.
+	- Prove that the OOP principles are being used by returning strings as neccesary to prove that a 
+	methods were propertly implemented or inherited.
 		- Examples include: `Eat()` `Sleep()` `Sound()` etc... 
 		- You are allowed to use these example methods, along with others not listed
-	- Be sure to include a diagram with your solution of how your zoo is mapped out. 
 	- Include the following labels:
 		1. Label the parent and derived classes
 		2. Label the abstract classes and concrete classes
@@ -30,12 +30,13 @@
 ## Program Specifications
 - Have at least 3 different abstract classes
 - Have at least 3 layers of inheritance
+- Have at least 6 concrete animals
 - Have at least 2 abstract methods (make sure you override them)
 - Have at least 2 abstract Properties (make sure you override them)
 - Have at least 2 virtual methods (make sure you override them)
 - Have at least 2 virtual properties (make sure you override them)
 
-- Your (digital) drawing of your zoo diagram should be clearly labeled of which classes
+- Your (digital) drawing of your zoo diagram should be clearly labeled
 
 
 ## Example
@@ -48,9 +49,10 @@ Refer to Part 2 (Day 6) for required tests
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 
-Your readme is extremely important in this lab because it will be a guide for us to know exactly what you did where and how. 
-Define for me, in your readme, the following:
+Your readme is ***extremely important*** in this lab because it will be a guide for us to know 
+exactly what you did where and how. Define for me, in your readme, the following:
 1. An introduction to the project
+1. Your digital drawing of your zoo
 1. Create your own technical documentation. Breakdown and define each of the OOP principles in your own words.
 1. Provide under each OOP definition a couple (you do not have to define all) of examples of how you 
 are applying this into your project
