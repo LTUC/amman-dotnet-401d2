@@ -19,3 +19,4 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+[Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))

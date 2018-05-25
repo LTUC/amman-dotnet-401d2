@@ -22,5 +22,6 @@ Some ideas for how you might want to teach:
 - [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes){:target="_blank"} 
 - [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors){:target="_blank"} 
 - [Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties){:target="_blank"} 
+- [Garbage Collection Fundamentals](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals){:target="_blank"}
 - C# in a Nutshell - Chapter 3
 	- You don't have to read the whole chapter, use it as a reference for additional resources
