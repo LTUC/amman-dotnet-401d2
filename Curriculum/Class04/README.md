@@ -25,15 +25,3 @@
 ### Keyword Static
 - What does static mean?
 - When do we use it?
-
-# Assignments
-
-## Readings
-- [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
-- [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
-- [Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
-- C# in a Nutshell - Chapter 3
-	- You don't have to read the whole chapter, use it as a reference for additional resources
-
-## Lab
-[Lab04 - Classes]()

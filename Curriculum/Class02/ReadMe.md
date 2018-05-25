@@ -27,15 +27,4 @@
 
 ## Example Readme
 - [Sample Readme]("/sample-README.md")
-
-## Readings
-- [XUnit Documentation](http://xunit.github.io/#documentation)
-- [Art of Readme](https://github.com/noffle/art-of-readme)
-- [ReadMe Best Practices](https://github.com/jehna/readme-best-practices)
-
-## Lab
-[Lab 02-Unit Testing]()
-
-## Coding Challenge
-- Refer to the code challenge assignment located in Canvas
  

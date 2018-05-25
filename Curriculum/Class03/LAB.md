@@ -52,9 +52,9 @@ Be sure to test the following functionality:
 
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the Contains() method. 
-	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx)
+	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
 2. To ramdonly pick a number between 0 -> N, use the Random Class.
-	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx)
+	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
 
 
 ## Tests
@@ -84,7 +84,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
 
 ## Rubric

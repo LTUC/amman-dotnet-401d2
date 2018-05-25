@@ -19,3 +19,8 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes){:target="_blank"} 
+- [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors){:target="_blank"} 
+- [Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties){:target="_blank"} 
+- C# in a Nutshell - Chapter 3
+	- You don't have to read the whole chapter, use it as a reference for additional resources

@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+![cf](http://i.imgur.com/7v5ASc8.png) Class 02: Readings
 
 ## Submission Requirements
 
@@ -19,3 +19,6 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+1. [XUnit Documentation](http://xunit.github.io/#documentation){:target="_blank"} 
+2. [Art of Readme](https://github.com/noffle/art-of-readme){:target="_blank"} 
+3. [ReadMe Best Practices](https://github.com/jehna/readme-best-practices){:target="_blank"} 

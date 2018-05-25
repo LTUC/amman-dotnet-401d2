@@ -19,3 +19,6 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [Interfaces](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/){:target="_blank"} 
+- [Back to Basics](https://simpleprogrammer.com/back-to-basics-what-is-an-interface/){:target="_blank"} 
+- [Interfaces #2](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface){:target="_blank"} 

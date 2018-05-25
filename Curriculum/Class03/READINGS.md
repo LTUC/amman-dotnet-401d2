@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+![cf](http://i.imgur.com/7v5ASc8.png) Class 03: Readings
 
 ## Submission Requirements
 
@@ -19,3 +19,6 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+1. [File and Stream I/O](https://docs.microsoft.com/en-us/dotnet/standard/io/index){:target="_blank"} 
+1. [Write to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-write-text-to-a-file){:target="_blank"} 
+1. [Read to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file){:target="_blank"} 

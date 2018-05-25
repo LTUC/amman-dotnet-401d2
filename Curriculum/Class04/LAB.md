@@ -60,8 +60,8 @@ If you are unsure if it is within scope, please ask a TA or instructor.
 ## Additional Resources
 Review/research these resources to assist you in the construction of your program:
 
-- [Two Dimensional Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays)
-- [Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
+- [Two Dimensional Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays){:target="_blank"} 
+- [Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays){:target="_blank"} 
 
 ## Tests
 Have tests written for the following functionality:
@@ -88,7 +88,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
