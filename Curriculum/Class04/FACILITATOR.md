@@ -1,4 +1,4 @@
-# Class 04
+# Class 04 : Classes and Objects
 
 ## How do I prep for today?
 Introduce the concept of Classes and Object Oriented Programming.

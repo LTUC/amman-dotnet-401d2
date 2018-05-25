@@ -2,12 +2,11 @@
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab04-`; + `<your name>` **e.g.** `lab04-amanda`
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
 - write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- submit a link to your Repo in canvas
 - Include a Readme.md (contents described below)
 
 ## Directions
@@ -66,7 +65,7 @@ Review/research these resources to assist you in the construction of your progra
 ## Tests
 Have tests written for the following functionality:
 1. Given a gameboard, Test for winners (at least 3)
-2. Test that there is a switch in players
+2. Test that there is a switch in players between turns
 3. Confirm that the position the player inputs coorolates to the correct index of the array
 4. One other "unique" test of your own
 

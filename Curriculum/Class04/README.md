@@ -1,4 +1,4 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Class 04 Classes
+# ![cf](http://i.imgur.com/7v5ASc8.png) Class 04 Classes & Objects
 
 # Lecture
 

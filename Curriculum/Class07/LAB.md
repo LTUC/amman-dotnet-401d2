@@ -2,12 +2,11 @@
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab07-`; + `<your name>` **e.g.** `lab07-amanda`
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
 - write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- submit a link to your Repo in canvas
 - Include a Readme.md (contents described below)
 
 ## Directions
@@ -28,7 +27,13 @@ Your `Program.cs` Main method should demonstrate:
 	- Have a method in your `Program` class named `Deal` that brings in the Deck. ouput the cards, shuffle, then output the cards again. 
 5. Use a Foreach loop on your created Deck, and output each of the cards to the console. 
 
-Unit tests are still required. 
+## Tests
+Your tests should cover the following functionality:
+1. Add a card to your deck
+1. Getter/Setters of your properties from your `Card` class
+1. Remove a card from your deck that exists
+1. Remove a card from your deck that does not exist
+1. Cards can be shuffled
 
 ## ReadMe
 

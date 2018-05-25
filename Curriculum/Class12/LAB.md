@@ -2,11 +2,12 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: MVC Part 2
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab12-amanda`
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- submit a link to your Repo in canvas
+- Include a Readme.md (contents described below)
 
 
 ## Directions
@@ -24,6 +25,9 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: MVC Part 2
 	1. Examine the Details and Delete Methods
 
 1. Add Css and html to your copmleted Movie Library site. Restructure your `HomeController` to be more customized to your creativity.
+
+## Tests
+No tests are required for this lab. 
 
 ## ReadMe
 

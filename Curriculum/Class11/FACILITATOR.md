@@ -1,4 +1,4 @@
-# Class 11
+# Class 11 : Intro to MVC and Core
 
 ## How do I prep for today?
 

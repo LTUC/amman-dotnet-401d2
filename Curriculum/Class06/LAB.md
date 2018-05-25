@@ -2,16 +2,15 @@
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab01-`; + `<your name>` **e.g.** `lab06-amanda`
+- Create a new branch off of your Lab 5 repo on your personal GitHub account
 - write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- Merge your branches
+- submit a link to your Repo in canvas
 - Include a Readme.md (contents described below)
 
 ## Directions
-Building off of your lab05, add interfaces to both the diagram and the codebase. 
+- This is part 2 of a 2 part assignment. 
 1. Create a minimum of 2 interfaces.
 	- Each interface created should be implemented by more than one class.
 	- Have at least one class implement more than one interface
@@ -23,7 +22,7 @@ Test the site for the following functionality
 1. Prove that the classes that implement the interface actually implement it
 2. Prove inheritance
 3. Prove Polymorphism
-	- Prove methos have been overwritten
+	- Prove methods have been overridden
 	- Prove that one of your concrete animals `is an` Animal
 
 ## ReadMe
@@ -31,7 +30,7 @@ Test the site for the following functionality
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 
-Add the following to your current readme:
+Add the following to your current readme from Lab 5/Part 1:
 1. Define what an interface is in your own words
 1. Describe what your interfaces are, where are they being implemented, and why. Provide Examples.
 1. Updated diagram with your interfaces mapped out. 

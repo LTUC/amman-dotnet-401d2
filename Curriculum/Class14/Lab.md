@@ -1,3 +1,11 @@
+## To Submit this Assignment
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- write your code
+- push to your repository
+- submit a link to your Repo in canvas
+- Include a Readme.md (contents described below)
+
 ## ReadMe
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 

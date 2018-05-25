@@ -2,11 +2,12 @@
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab08-amanda`
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- submit a link to your Repo in canvas
+- Include a Readme.md (contents described below)
 
 
 ## Directions
@@ -81,7 +82,6 @@ Your MVC Web Application should contain the following:
 	```
 
 ## ReadMe
-
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
 

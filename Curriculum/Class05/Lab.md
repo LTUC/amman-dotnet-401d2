@@ -2,12 +2,11 @@
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab05-`; + `<your name>` **e.g.** `lab05-amanda`
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
 - write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- submit a link to your Repo in canvas
 - Include a Readme.md (contents described below)
 
 ## Directions
@@ -46,7 +45,8 @@ You do not need to label your animals anything more complicated than (Mammel, Re
 Please refer to the included diagram and code base as an example of the expectation. 
 
 ## Test
-Refer to Part 2 (Day 6) for required tests
+1. Test that each of your animals exhibit the appropriate behavior given to them from a base class.
+
 
 ## ReadMe
 **A Readme is a requirement. No Readme == No Grade.** <br />
