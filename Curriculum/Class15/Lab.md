@@ -1,30 +1,3 @@
-D![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: MVC Part 2
-=====================================
-
-## To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab12-amanda`
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
-
-
-## Directions
-
-1. Read and complete the following [Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x){:target="_blank"} 
-	1. Get Started
-	1. Add a Controller
-	1. Add a view
-	1. Add a Model
-	1. Work with SQL Server Local DB
-	1. Controller Methods and views
-	1. Add search
-	1. Add a new field
-	1. Add Validation
-	1. Examine the Details and Delete Methods
-
-1. Add Css and html to your copmleted Movie Library site. Restructure your `HomeController` to be more customized to your creativity.
-
 ## ReadMe
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 

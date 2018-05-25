@@ -16,7 +16,7 @@
 Today you will be creating your first ASP.NET Core MVC web application. Provided is a csv file of all the "Time" Persons of the year from 1927 - present. 
 Create a web app that will allow a user to put in a span of 2 different years, and a list of all the winners will be returned. 
 
-An example of the **functionality** of your site can be found [here](https://lab11.azurewebsites.net/).
+An example of the **functionality** of your site can be found [here](https://lab11.azurewebsites.net/){:target="_blank"} .
 
 ## Website Components
 Your MVC Web Application should contain the following:
@@ -98,7 +98,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
