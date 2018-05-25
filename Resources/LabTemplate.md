@@ -1,14 +1,14 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Labs : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
 =====================================
 
 ## To Submit this Assignment
-- fork this repository
-- create a new branch named `lab05-`; + `<your name>` **e.g.** `lab09-amanda`
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
 - write your code
 - push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+- submit a link to your Repo in canvas
 - Include a Readme.md (contents described below)
+
 ## Directions
 
 ## Specs

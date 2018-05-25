@@ -10,8 +10,11 @@ Review the OOP Principles more in depth:
 Included in the DemoCode is an example of a diagram that you can draw with the class as you 
 go over the OOP prinicples. There is also the codebase when converting the diagram to Visual Studio. 
 
+
 ### Code Implementation
 Introduce Linked Lists. Describe/draw out their functionality and usage. 
+
+Refer to Implementation.md for weekend student assignment
 
 ## What changed from yesterday? 
 N/A
