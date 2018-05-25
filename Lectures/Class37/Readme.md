@@ -30,6 +30,7 @@ the ystill won't  be able to access the secret key)
 	- 3 ^3 mod 7 = 6
 4. g = 3, p =7
 
+
 ### EXAMPLE:
 Alice and Bob
 1. Alice picks `g` and `p` (g = 3, p = 7) and sends a letter with them to Bob
@@ -45,7 +46,7 @@ Alice and Bob
 8. Alice recieves Bob's letter with number 5
 9. She then computes the `numberBobSent^secretAlice mod p` (5^2 mod 7 = 4)
 
-10. Bob receives Alice’s letter and does the same: `numberAliceSentsecretBob mod p`, in this case 25 mod 7 = 4.
+10. Bob receives Aliceâ€™s letter and does the same: `numberAliceSentsecretBob mod p`, in this case 25 mod 7 = 4.
 
 11. The shared secret is 4
 12. Whoever reads this letter can read `p`, `g`,`numberBobSent`, `numberaliceSent` however, they don't know the shared secret or bob and alice's ind. secret keys
