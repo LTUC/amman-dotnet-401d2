@@ -18,6 +18,7 @@ Some ideas for how you might want to teach:
 - Build a map of the information
 - Construct a fill-in-the-blank worksheet for the topic
 
+
 ## Readings
 
 ### Exception Handling
