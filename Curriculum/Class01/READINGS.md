@@ -22,10 +22,11 @@ Some ideas for how you might want to teach:
 ## Readings
 
 ### Exception Handling
-- C# 7.0 in a Nutshell - pg. 158 - 166 (start @ “try Statements and Exceptions)
+- C# 7.0 in a Nutshell - pg. 158 - 166 (start @ â€œtry Statements and Exceptions)
 	- Try/Catch & Exceptions excerpt from assigned book (introduction)
 - [Try/Catch Blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions){:target="_blank"} 
 - [Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/exception-handling-statements){:target="_blank"} 
+
 
 ### Big O
 Use these resources to understand Big O and apply them to your data structures
