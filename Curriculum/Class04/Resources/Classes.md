@@ -9,6 +9,8 @@ A class is a blueprint for a specific type or category of object. This means tha
 properties, methods, and general behavior. 
 
 ## Nested Classes
+Nested classes are a posiblility. typically Nested classes are used to help restrict and scope classes.
+Public nested classes are not recomended. You should only use them when declaring private nested classes. 
 
 
 ### What is an Object?
