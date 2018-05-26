@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+![cf](http://i.imgur.com/7v5ASc8.png) Class 10: Readings
 
 ## Submission Requirements
 
@@ -19,3 +19,4 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [Daily Design pattern](https://www.exceptionnotfound.net/introducing-the-daily-design-pattern/)

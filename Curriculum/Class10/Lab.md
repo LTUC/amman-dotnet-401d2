@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 10 : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab10-Factory Method Design Pattern
 =====================================
 
 ## To Submit this Assignment
@@ -9,31 +9,18 @@
 - submit a link to your Repo in canvas
 - Include a Readme.md (contents described below)
 
-## Directions
-
-## Specs
-
-## Tests
-
-## ReadMe
-
-**A Readme is a requirement. No Readme == No Grade.** <br /> 
-Here are the requirements for a valid readme: <br />
-
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
-
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+## Directions 
+- Create a new Console Application within Visual Studio 2017.
+- Create a program that uses the Factory Method Design Pattern 
+- This program should consist of a document/resume creation factory.
+- You are creating types of **Documents** that make up a **Resume** or **Report**, that conists of different **Pages** such as **Cover Letter**, **References**, **Work History**, **Summary Page** etc...
+- Identify the following. **In your readme** (hint: i bolded some of the important keywords)
+    1. Product --
+    2. Concrete Product (Concrete classes of the product) - 
+    3. Creator --
+    4. Concrete Creator (concrete objects from the creator) - 
+- In your Program.cs file should clearly show through Console.WriteLines() that your program is functioning as requried.   
+  
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
@@ -57,3 +44,4 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
+

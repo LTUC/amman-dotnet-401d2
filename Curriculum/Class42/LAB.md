@@ -22,7 +22,6 @@
   
 
 ## Rubric
-* No Tests required for this lab*
 - 7pts: Program meets all requirements described in Lab directions
 
 	Points  | Reasoning | 
