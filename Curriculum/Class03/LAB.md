@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 3 : Word Guess Game
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 03: Word Guess Game
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -65,7 +65,7 @@ Test that your app has the following functionality:
 1. Test that you can retrieve all words from the file
 1. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />

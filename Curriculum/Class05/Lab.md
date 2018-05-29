@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 5 : I Built A Zoo!
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 05: I Built A Zoo!
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 - This is part 1 of a 2 part assignment. 
@@ -48,7 +48,7 @@ Please refer to the included diagram and code base as an example of the expectat
 1. Test that each of your animals exhibit the appropriate behavior given to them from a base class.
 
 
-## ReadMe
+## README
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 

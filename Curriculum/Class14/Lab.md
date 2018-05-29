@@ -1,14 +1,23 @@
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 14: 
+=====================================
+
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
-## ReadMe
+## Directions
 
-**A Readme is a requirement. No Readme == No Grade.** <br /> 
+## Specs
+
+## Tests
+
+## README
+
+**A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
@@ -25,6 +34,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
 - [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.

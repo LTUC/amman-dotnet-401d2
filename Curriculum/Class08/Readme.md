@@ -1,9 +1,9 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7 : LINQ
+![cf](http://i.imgur.com/7v5ASc8.png) Class 08: LINQ
 =====================================
 
 ## Learning Objectives
-1. Studetns will be able to succesfully write LINQ queries against a collection to extract data
-1. Students will understand the use of a Lambda statement and how to join them with LINQ queries
+1. Studetns will be able to succesfully write LINQ queries against a collection to extract data.
+1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
  
 ## Lecture Outline
 - Review Collections

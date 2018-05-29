@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 8 : LINQ in Manhatten
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 8: LINQ in Manhatten
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 
 ## Directions
@@ -29,7 +29,7 @@ Each query builds off of the next.
 4. Rewrite the queries from above, and consolidate all into one single query.
 5. Rewrite at least one of these questions only using a LINQ query (without lambda statement)
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />

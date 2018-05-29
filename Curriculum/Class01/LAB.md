@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 1 : About Me Quiz
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 01: About Me Quiz
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 - Create an "About Me" quiz that has at least 5 different questions. 
@@ -30,7 +30,7 @@ If you are unsure if it is within scope, please ask a TA or instructor.
 - Track number of correct/incorrect questions 
       - Show the user the number of correct/incorrect to user after quiz is over
 
-## ReadMe
+## README
 
 Provide setup documentation 
 

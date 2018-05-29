@@ -5,7 +5,6 @@
 2. Review the Resources folder with the Collections.md file
 3. Get Familiar with IEnumerable and IEnumerator
 
-
 ## What changed from yesterday? 
 Nothing.
 

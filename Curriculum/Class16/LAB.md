@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Labs : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -15,7 +15,7 @@
 
 ## Tests
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
@@ -33,7 +33,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
 
 ## Rubric

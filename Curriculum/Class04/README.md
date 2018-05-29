@@ -1,6 +1,9 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Class 04 Classes & Objects
+![cf](http://i.imgur.com/7v5ASc8.png) Class 04: Classes and Objects
+=====================================
 
-# Lecture
+## Learning Objectives
+
+## Lecture Outline
 
 ### Object-Oriented Programming
 - What is Object Oriented Programming?
@@ -10,7 +13,6 @@
 
 ### Objects
 - What is the difference between a class and an object??
-
 
 ### Properties
 - Properties are similar to variables

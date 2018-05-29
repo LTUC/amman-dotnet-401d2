@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 4: Tic-Tac-Toe
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 04: Tic-Tac-Toe
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 In a new Console Applicaiton within Visual Studio, create a Tic-Tac-Toe game. 
@@ -69,7 +69,7 @@ Have tests written for the following functionality:
 3. Confirm that the position the player inputs coorolates to the correct index of the array
 4. One other "unique" test of your own
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />

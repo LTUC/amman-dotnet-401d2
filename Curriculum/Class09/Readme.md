@@ -1,9 +1,9 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 09 : Recursion
+![cf](http://i.imgur.com/7v5ASc8.png) Class 09: Recursion
 =====================================
 
 ## Learning Objectives
-1. Students will know how to implement recursion
-1. Students will know and understand the bounds and limitations of recursion
+1. Students will know how to implement recursion.
+2. Students will know and understand the bounds and limitations of recursion.
 
 ## Lecture Outline
 
