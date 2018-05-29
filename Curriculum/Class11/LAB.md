@@ -7,8 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
-
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -81,7 +80,7 @@ Your MVC Web Application should contain the following:
 		}
 	```
 
-## ReadMe
+## README
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
 

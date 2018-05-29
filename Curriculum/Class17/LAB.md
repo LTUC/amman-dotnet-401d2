@@ -7,7 +7,7 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 17: API - Double Resources
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -34,7 +34,7 @@ The following actions must also be true:
 
 Unit tests are required for this lab.
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />

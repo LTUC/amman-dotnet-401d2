@@ -8,7 +8,7 @@
 - push to your repository
 - submit a pull request to this repository
 - submit a link to your PR in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -39,7 +39,7 @@ Your milestons for Day 1 are as follows:
 1. Within Porfolio service, make a connection to the database to implement standard CRUD operations on other
 Portfolio objects
 
-## ReadMe
+## README
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 <br />
 Your job is to

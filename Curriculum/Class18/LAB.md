@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 **read all the directions (including the Readme section), in it's entirety before completing** <br />
@@ -52,7 +52,7 @@ Upon Completion, the following should be true:
 
 
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />

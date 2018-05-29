@@ -7,8 +7,7 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 13: Student Enrollment
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
-
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -38,7 +37,7 @@ The workflow of the website should be:
 1. Add HTML and CSS to the site to make it 'client ready'
 
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />

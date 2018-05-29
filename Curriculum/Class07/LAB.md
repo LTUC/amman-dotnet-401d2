@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7 : Collections
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 7: Collections
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 Create a custom generic collection named `Deck<T>`.
@@ -35,7 +35,7 @@ Your tests should cover the following functionality:
 1. Remove a card from your deck that does not exist
 1. Cards can be shuffled
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />

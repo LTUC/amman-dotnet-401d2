@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 2: Unit Testing
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 02: Unit Testing
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 
@@ -41,7 +41,7 @@
 
 - Record each transaction the user records and when they exit, provide a receipt for every transaction they conducted. 
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />

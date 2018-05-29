@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 6 : Interfaces
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 6: Interfaces
 =====================================
 
 ## To Submit this Assignment
@@ -7,7 +7,7 @@
 - push to your repository
 - Merge your branches
 - submit a link to your Repo in canvas
-- Include a Readme.md (contents described below)
+- Include a `README.md` (contents described below)
 
 ## Directions
 - This is part 2 of a 2 part assignment. 
@@ -25,7 +25,7 @@ Test the site for the following functionality
 	- Prove methods have been overridden
 	- Prove that one of your concrete animals `is an` Animal
 
-## ReadMe
+## README
 
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
