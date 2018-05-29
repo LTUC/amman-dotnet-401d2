@@ -1,13 +1,11 @@
-Claims and custom claims
+# Class 27
 
-What are they?
+## How do I prep for today?
 
-Claims
-Claims Idenetity
-Claims Principles
+## What changed from yesterday? 
 
-Add each to a cookie
-Validator and renew every 5 refreshes
+## What might students struggle with today?  
 
+## What bugs, issues, or surprises have come up in the past for this class?
 
-WHy use Cookie Authentication?
+## General comments
