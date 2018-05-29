@@ -1,15 +1,15 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7 : Collections
+![cf](http://i.imgur.com/7v5ASc8.png) Class 07: Collections
 =====================================
 
-## Overview:
-1. Review the coding challenge from the previous day, this will directly tie into today's lecture.
-2. We will go over both generic and non-generic, but they will be implementing their own generic collection as their lab assignment. 
-
 ## Learning Objectives
-1.The student will understand and implement their own enums into their programs and classes.
-1. The student will be able to identify and implement their own generic collection.
- 
+1. The student will understand and implement their own enums into their programs and classes.
+2. The student will be able to identify and implement their own generic collection.
+
 ## Lecture Outline
+
+#### Overview:
+1. Review the coding challenge from the previous day, this will directly tie into today's lecture.
+2. We will go over both generic and non-generic, but they will be implementing their own generic collection as their lab assignment.
 
 ### Enums
 
