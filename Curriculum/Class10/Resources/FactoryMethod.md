@@ -18,7 +18,6 @@
                 Console.WriteLine(top);
             }
         }
-
         public void Bake()
         {
             Console.WriteLine("Baking the Pizza");

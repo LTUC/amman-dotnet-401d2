@@ -7,7 +7,6 @@ What this means is something that will essentially stop the recursion
 from going further and allow the stack to start popping off the other calls. 
 
 
-
 #### Factorial Example
 1. The Factorial of N is written N! (pronounced "N Factorial")
 ```csharp
