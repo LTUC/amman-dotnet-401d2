@@ -13,18 +13,17 @@ your work and see what you are capable of.
  
 ## What is the process?
 We have the process fully documented for you:
-1. Pair up with your assigned partner (they may be cross-stacked)
-1. Read/evaluate the whiteboard challenge for the day located in Canvas (Show Canvas assignments)
+1. Pair up with your assigned partner
+1. Read/evaluate the whiteboard challenge for the day located in Canvas
 1. Go to the whiteboard, and start following the [Workflow Document](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/Whiteboard_Workflow)
 1. Use the [pseudocode](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Pseudocode) guide to learn and understand the requirements when writing pseudocode. 
 1. Code out your challenge in an IDE (independently)
-1. Add both the coded out challenge and the whiteboard to your github repository as specified in the submission instructions of each challenge (Show example folder hierarchy)
+1. Add both the coded out challenge and the whiteboard to your github repository as specified in the submission instructions of each challenge
 1. Submit a PR to your repo with a note who you worked with as a comment. 
 
 ## Rules
 1. Each student is **required** to turn in their own version of the assignment (no group submissions) 
 1. If you or your partner are unavailable, speak with your instructor about resubmission and/or new group. 
-
 
 ## Big O
 Big O is the calculation of efficiency of time and space when an algorithm runs

@@ -9,6 +9,13 @@
 
 ## Lecture Outline
 
+## NOTES
+<!--Place any pre-lecture notes here . Examples include
+1. Class Expectations
+2. Syllabus 
+3. Career Coaching/DSA 
+4. misc..-->
+
 ### Welcome to 401: Advanced Software Development in ASP.NET MVC Core
 Welcome to Class! Please be sure read through the syllabus and get comfortable with both Visual Studio and Canvas.
 Introduce yourself to your classmates, and come to class ready to learn!
@@ -27,7 +34,7 @@ Introduce yourself to your classmates, and come to class ready to learn!
 		- Type checking occurs at compile time (C#)
 	* Dynamically Typed
 		- Type checking occurs at Run time (JS)
-	* Object Orented
+	* Object Oriented
 
 ### Microsoft Platform:
   * C# depends on a runtime equipped with a host of features such as automatic memory management and exception handling. 
