@@ -1,10 +1,59 @@
 # Garbage Collection
 
 ## Value Types
-A data type is a value type. 
+A data type is a value type.
+1. Value types hold the data within its own memory allocation. 
+1. Examples include `int`s, `float`,`double`, `long`
+1. Enums are examples of value Types
+1. Value types only live on the stack. 
+1. A Struct is an example of a value type 
+1. It is a copy, and can be changed/manipulated as want without it affecting anything else.
+1. Created at compile time, and stored in stack memory. GC cannot access the stack.
 
 ## Reference Types 
-A reference type is something that has a reference
+A reference type is something that has a reference (address) to the object but not the object itself.
+1. Because it only contains a reference, assigning a reference var to another var rather than the data itself doesn't copy the data.
+Instead it creates a second reference, pointing to the same location on the heap.
+1. reference types contains a pointer to another memory location that holds the real data.
+1. Mostly strings and objects
+1. arrays are reference types
+1. Indexers, Interfaces are ref types.
+1. Class is an example of a reference type
+1. Ref types vars are stored in the HEAP.
+1. Placed on the stack as a pointer and refers to a memory address in the heap. 
+
+```csharp
+int[] myArray = new int[10];
+```
+
+The space required for the 10 integers that make up the array is allocated on the HEAP
+
+## Example/Anology
+Digital Newspaper(reference type) vs Printed Newspaper (Value Type)
+
+## Stack/Heap
+Both are stored on computers RAM
+    1. What is the Stack?
+       1. Imagine it like a stack of shoe boxes 
+       1. Keeps track of what is being executed in the code
+	   1. Variables allocated to the stack are stored directly to the memory, making it very fast for access.
+	   1. Allocated at compile time
+       1. Holds value types
+       1. Self-maintaining -takes care of it's own memory management
+	   1. static memory allocation
+    1. What is the heap?
+	   1. Dynamic memory allocation 
+	   1. have their memory allocated at runtime. Accessing is a bit slower than on the stack.
+	   1. heap size is only limited by the size of virutal memory.
+	   1. No dependencies on one another and can always be randomly accessed. 
+       1. Imagine it like a bucket with a lot of 'things' in it
+       1. Keeps track of objects / reference types / *sometimes* Value Types
+       1. Relies on Garbage collection (GC) for memory management
+       1. Reference Types usually go to the heap
+
+You can use the stack if you know exactly how much data you need to allocate before 
+compile time and it is not too big. You can use heap if you don't know exactly how much 
+data you will need at runtime or if you need to allocate a lot of data
 
 ## GC Generations
    1. When you declare a variable in a 
@@ -25,7 +74,7 @@ are either short-lived or long-lived.
 2. Objects don't typically live past the first gen since
 they are no longer in use (out of scope) by the time the next
 garbage collection occurs
-3. Gen 0 is quick to colelct because it's association with the heap is small.
+3. Gen 0 is quick to collect because it's association with the heap is small.
 
 #### Generation Second(1)
 1. In Gen 1, objects have a second chance space
@@ -60,18 +109,3 @@ time for programs that have run for a long time or operate over large amounts of
 	2. the memory that is used by allocated objects on the managed heap surpasses an acceptable
 	threshold. This threshold is continuously adjusted as the process runs.
 	3. The `GC.Collect` method is called.
-
-## Stack/Heap
-    1. What is the Stack?
-       1. Imagine it like a stack of shoe boxes 
-       1. Keeps track of what is being executed in the code
-       1. Holds value types
-       1. Self-maintaining -takes care of it's own memory management
-    1. What is the heap?
-       1. Imagine it like a bucket with a lot of 'things' in it
-       1. Keeps track of objects / reference types / *sometimes* Value Types
-       1. Relies on Garbage collection (GC) for memory management
-       1. Reference Types usually go to the heap
-
-
-## Application/Demo

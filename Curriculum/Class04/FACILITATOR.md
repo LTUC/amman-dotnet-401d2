@@ -3,10 +3,11 @@
 ## How do I prep for today?
 Introduce the concept of Classes and Object Oriented Programming.
 A document outline for each of these sections is located in the Resources Folder
-1. Intro to OOP
 1. Classes.md
-1. Structs (optional lecture)
 1. Properties.md
+1. Value Types vs Reference Types
+1. Stack // Heap
+1. Garbage Collection Fundamentals
 
 The Lab will require some knowledge on multi-dimensional arrays and potentially Jagged Arrays. 
 

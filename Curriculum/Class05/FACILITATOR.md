@@ -1,7 +1,7 @@
 # Class 05
 
 ## How do I prep for today?
-Review the OOP Principles more in depth:
+1. Introduce OOP
 1. Inheritance 
 2. Abstraction
 3. Polymorphism
