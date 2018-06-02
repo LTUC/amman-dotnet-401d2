@@ -2,7 +2,7 @@
 
 ## Structure
 
-Create a `Data-Structures-and-Algorithms` repository in our personal GitHub. <br />
+Create a `Data-Structures-and-Algorithms` repository in your personal GitHub. <br />
 The `Data_Structures_And_Algorithms` folder contained in this directory can be used as a guildeline. 
 Format it as described below: 
 
@@ -55,3 +55,6 @@ Each Readme should contain the following:
 1. Your `README` should contain a table of context that displays all of the challenges and Implementations completed so far. 
 1. Line Item should be the Name of the challenge, or implementation and link to the respective `README`.
 
+## Submisison
+
+Submit a link to your Github DSA repository. This is your opportunity to confirm your setup is aligning with the requirements.
