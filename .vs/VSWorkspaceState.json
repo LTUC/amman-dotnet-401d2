@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01",
-    "\\Curriculum\\Class02",
+    "\\Curriculum\\Class01\\Solution",
+    "\\Curriculum\\Class02\\Resources",
     "\\Curriculum\\Class03",
     "\\Curriculum\\Class04",
-    "\\Curriculum\\Class12",
-    "\\Curriculum\\Class17"
+    "\\Curriculum\\Class04\\Resources",
+    "\\Curriculum\\Class07\\DemoCode",
+    "\\Curriculum\\Class09\\Resources",
+    "\\Curriculum\\Class42"
   ],
-  "SelectedNode": "\\Curriculum\\Class04\\LAB.md",
+  "SelectedNode": "\\Curriculum\\Class03\\Resources",
   "PreviewInSolutionExplorer": false
 }

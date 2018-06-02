@@ -1,6 +1,12 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Lab 10 : Recursion
 =====================================
 
+## Base Case
+Every recursive call must contain what we call a "Base Case".
+What this means is something that will essentially stop the recursion 
+from going further and allow the stack to start popping off the other calls. 
+
+
 
 #### Factorial Example
 1. The Factorial of N is written N! (pronounced "N Factorial")
@@ -10,7 +16,6 @@
 2! = 2 * 1! = 2
 3! = 3 * 2! = 3 * 2* 2 * 0! = 3 * 2* 1* 1
 ```
-
 Code for a non recursive approach:
 
 ```csharp
@@ -42,6 +47,7 @@ public long Factorial(int n)
     return n * Factorial(n - 1);
 }
 ```
+
 
 - First, if the input value is equal to zero, the algorithm will return 1.
 - If the input is not zero, the algorithm returns the number n times the factoiral of n-1.
