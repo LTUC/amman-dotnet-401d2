@@ -7,8 +7,6 @@ namespace Lab01_AboutMe
         public static short correct = 0;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             //Question 1
             if (AskColor()) correct++;
 

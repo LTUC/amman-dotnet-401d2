@@ -1,4 +1,4 @@
-# Class 15
+# Class 15: 
 
 ## How do I prep for today?
 

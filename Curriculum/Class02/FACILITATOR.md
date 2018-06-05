@@ -5,7 +5,6 @@
 * Use XUnit when unit testing within C#. 
 * The documentation portion shows an example of what the readme documentation should look like, as well as comments within code.
 
-
 ## Learning Objectives
 * Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach. 
 * The students will understand and implement code coverage within their programs when testing

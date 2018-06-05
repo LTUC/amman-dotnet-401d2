@@ -1,4 +1,4 @@
-# Class 10
+# Class 10: Design Pattern
 
 ## How do I prep for today?
 

@@ -18,8 +18,7 @@
     - Main method
 	- external methods- (at least 3 non-void return types)
 		- Have different return types!
-	- Exception Handling (try/catch/finally)
-	- Are you able to incorprate a `throw` somehow? 
+
 	
 Stay within scope of this project. Please only use concepts and resources that we have covered so far in previous labs/lectures/assigned prework. 
 If you are unsure if it is within scope, please ask a TA or instructor.
@@ -37,10 +36,9 @@ Provide setup documentation
 - **Comment your code.**
 - Provide a readme that includes clear directions on setting up this program.
 - Questions to Consider: 
-	1. What programs do I need installed?
-	1. What are the step by step directions?
+	1. What is the purpose of the program?
 	1. How do I run the program?
-	1. How do I know the program worked successfully?
+	1. What does the program look like? (visual)
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions
