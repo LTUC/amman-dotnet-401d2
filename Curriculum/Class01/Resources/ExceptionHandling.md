@@ -2,7 +2,8 @@
 
 ## What is Exception Handling
 
-When an application or a program encounters a problem/error, the C# CLR has the ability to package up that error and put into something called an Exception.
+When an application or a program encounters a problem/error, the C# CLR has the ability to package up that error 
+and put into something called an Exception.
 
 Typically, when an exception gets thrown, the rest of that method does not get run, instead the catch block is triggered, and the finally block (if present) finsihes out the 
 execution of the program. 
@@ -24,7 +25,8 @@ custom class from the `Exception` class if you wish. For now, let's just look at
 
 ### Try
 
- A `try` is a code block that is executed under the preparation that an error may potentially be thrown. Each try should be accompanied by a 
+ A `try` is a code block that is executed under the preparation that an error may potentially be thrown. 
+ Each try should be accompanied by a 
  `catch` . 
 
 If there is no catch, and an exception is thrown, the CLR throws an unhandled error and stops the execution of the program. 

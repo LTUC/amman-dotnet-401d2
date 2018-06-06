@@ -29,11 +29,11 @@
 ## Program Specifications
 - Have at least 3 different abstract classes
 - Have at least 3 layers of inheritance
-- Have at least 6 concrete animals
+- Have at least 5 concrete animals
 - Have at least 2 abstract methods (make sure you override them)
 - Have at least 2 abstract Properties (make sure you override them)
-- Have at least 2 virtual methods (make sure you override them)
-- Have at least 2 virtual properties (make sure you override them)
+- Have at least 2 virtual methods (make sure you override at least one of them)
+- Have at least 2 virtual properties (make sure you override at least one of them)
 
 - Your (digital) drawing of your zoo diagram should be clearly labeled
 <br />

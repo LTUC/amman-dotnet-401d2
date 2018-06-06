@@ -26,15 +26,15 @@ namespace ExceptionExample
         static void Main(string[] args)
         {
             //Main calls Method A
-            try
-            {
+            //try
+            //{
                 Console.WriteLine("Trying in Main");
                 MethodA();
-            }
-            catch (Exception ae)
-            {
-                Console.WriteLine($"Caught in Main Method {ae.Message}");
-            }
+            //}
+            //catch (Exception ae)
+            //{
+            //    Console.WriteLine($"Caught in Main Method {ae.Message}");
+            //}
 
             Console.WriteLine("Main() Method is done");
 

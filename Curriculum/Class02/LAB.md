@@ -22,6 +22,7 @@
 		- Withdraw Money
 		- Add Money (not standard, but for this exercise it will be....)
 =	- Keep asking the user to choose a transaction until they choose to 'exit' the application
+	- Exception Handling. Implement `try`, `catch`, `finally` and a `throw` within your program.
 - A few things to keep in mind:
 	- Make sure the user can't go below a zero balance
 	- You cannot unit test console outputs or readlines. 
@@ -33,7 +34,8 @@
 
 ### Unit Tests
 1. Provide unit tests for your ATM.
-2. For every method/action (that does not require user input), there should be a passing valid input, and a passing invalid input.
+2. For every method/action (that does not require user input),
+there should be a passing valid input, and a passing invalid input.
 3. Have at least 2 tests for every non-void method.
 3. **A failing test, is not a valid test** - even if the failure is expected. 
 

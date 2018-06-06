@@ -14,7 +14,7 @@
 
  1. Writing a file
  2. Reading a file
- 3. Craeting a file
+ 3. Creating a file
  4. Deleting a file
 
 
