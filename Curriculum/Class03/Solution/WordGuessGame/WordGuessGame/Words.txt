@@ -1,8 +1,6 @@
 Cat
-Dog
 Coffee
 Puppy
 Kitties
-Library
-Coke
-Ketchup
+Dot Net
+

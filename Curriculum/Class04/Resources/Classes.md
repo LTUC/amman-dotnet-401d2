@@ -5,7 +5,8 @@ Object oriented programming is mimicking real world objects in code.
 Everything in C# is essentaily a class, and we can instantiate objects from classes that we can manage at a smaller level. 
 
 ## What are Classes?
-A class is a blueprint for a specific type or category of object. This means that the class will outline what exactly each object will have in regards to 
+A class is a blueprint for a specific type or category of object. 
+This means that the class will outline what exactly each object will have in regards to 
 properties, methods, and general behavior. 
 
 ## Nested Classes
@@ -28,7 +29,8 @@ Public nested classes are not recomended. You should only use them when declarin
         Customer belle = new Customer();
         Customer kitty = belle;
 ```
-The above example creates two object references that both refer to the same object. You *can* create an object reference and assigning it to an existing object 
+The above example creates two object references that both refer to the same object. 
+You *can* create an object reference and assigning it to an existing object 
 
 - ***Because objects that are based on classes are referred to by reference, classes are known as reference types***
 
@@ -84,7 +86,8 @@ The above example creates two object references that both refer to the same obje
 ```
 
 ### The static keyword
-If something is marked static, it means that it belongs to the class as a whole, not the individual objects. It is shared across all instances. 
+If something is marked static, it means that it belongs to the class as a whole, not the individual objects. 
+It is shared across all instances. 
 If you change something in the class that is static, it will affect all instances of the class.
 
 

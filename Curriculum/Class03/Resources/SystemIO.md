@@ -113,7 +113,8 @@ Let's look at the stream a little closer....
 perform actions such as opening, closing, and flushing (clearing) the stream. 
 
 - Most streams flow in only one direction. Each stream is either an input or output stream. 
-- You may even open several streams at once to read a file (input stream), seperate the data from valid/invalid (2 output streams), 
+- You may even open several streams at once to read a file (input stream), seperate the 
+data from valid/invalid (2 output streams), 
 
 1. *StreamReader* - Text input from a file
 2. *StreamWriter* - text output to a file
