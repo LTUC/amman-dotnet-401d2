@@ -7,7 +7,7 @@ Within your `Data_Structures and Algorithms` repo:
 3. Inside the DSA readme doc, add on the your table of contents a link to the readme of your newly created DS. 
 
 ## Directions
-Review what a liked list is [HERE](Resources/LinkedList){Target:_blank}
+Review what a liked list is [HERE](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class05/Resources/LinkedList){Target:_blank}
 
 Implement a Singly linked list. Your `LinkList` should meet the following criteria:
 
