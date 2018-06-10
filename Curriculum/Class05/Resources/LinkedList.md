@@ -47,7 +47,7 @@ case, it's `Node1`.
 ![Singly Linked List](assets/LinkedList3.PNG)
 
 
-4. At this point in the program. We now "techincally" have `newNode` at the beginning of the linked list, but we are not done yet. 
+4. At this point in the program we now "techincally" have `newNode` at the beginning of the linked list, but we are not done yet. 
 We now have to re-assign where Head is pointing too. Since `node1` is no longer the first node in the list, we want to re-assign `Head` to
 point at `newNode`. 
 
@@ -71,6 +71,11 @@ Here is the C# code for an `Add` method on a Linked list
 		}
 ```
 
+#### Big O
+Regardless of the number of Nodes that this linked list has, it will always be a O(1) because it takes the same
+amount of time to add a new node to the beginning of the list. 
+
 ### Traversal
+
 
 ### Print Out Nodes

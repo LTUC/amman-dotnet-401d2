@@ -7,6 +7,7 @@ Within your `Data_Structures and Algorithms` repo:
 3. Inside the DSA readme doc, add on the your table of contents a link to the readme of your newly created DS. 
 
 ## Directions
+Review what a liked list is [HERE](Resources/LinkedList){Target:_blank}
 
 Implement a Singly linked list. Your `LinkList` should meet the following criteria:
 
@@ -22,7 +23,7 @@ Implement a Singly linked list. Your `LinkList` should meet the following criter
 Upon completion, your Linked List should contain the following:
 1. `Node` class,
 2. `LinkedList` class
-	- This is where your `Add()`, `Print()`, and `Find()` will live 
+	- This is where your methods such as `Add()` and `Find()` will live 
 3. `Program` Class.
 	- This is where your `Main()` method will live
 	- Instantiate your `LinkList`
