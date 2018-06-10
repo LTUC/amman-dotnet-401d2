@@ -36,22 +36,22 @@ new node, without losing the reference to the next node in the list.
 Here are the required steps to add a new node with an O(1) efficiency.
 
 1. Set Current = Head. This will gaurantee us that we are starting from the very beginning. 
-1. We can then instantiate the new node that we are adding. The values passed in as arguements into the `Add()` method
+2. We can then instantiate the new node that we are adding. The values passed in as arguements into the `Add()` method
 will define what the value of the Node will be. 
 
 ![Singly Linked List](assets/LinkedList2.PNG)
 
-1. `newNode.Next` by default is set to `null`. We want to set the new node `Next` property to the Head Node.
+3. `newNode.Next` by default is set to `null`. We want to set the new node `Next` property to the Head Node.
 Because `Head` is just a reference type, we will be assigining it to the same allocation in memory as the node it is pointing too. In this
 case, it's `Node1`. 
 ![Singly Linked List](assets/LinkedList3.PNG)
 
 
-1. At this point in the program. We now "techincally" have `newNode` at the beginning of the linked list, but we are not done yet. 
+4. At this point in the program. We now "techincally" have `newNode` at the beginning of the linked list, but we are not done yet. 
 We now have to re-assign where Head is pointing too. Since `node1` is no longer the first node in the list, we want to re-assign `Head` to
 point at `newNode`. 
 
-1. While we are at it, let's just re-assign current as well to make sure should any further operation start at the new true start of the
+5. While we are at it, let's just re-assign current as well to make sure should any further operation start at the new true start of the
 linked list. 
 
 ![Singly Linked List](assets/LinkedList4.PNG)
