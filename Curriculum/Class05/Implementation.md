@@ -32,7 +32,7 @@ Test the following conditions:
 1. Adding a Node
 1. Finding a Node that exists
 1. Find a Node that does not exist
-1. Output all values in a Linked List. 
+
 
 ## ReadMe
 
