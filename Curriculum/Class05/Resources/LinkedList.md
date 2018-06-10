@@ -48,13 +48,28 @@ case, it's `Node1`.
 
 
 1. At this point in the program. We now "techincally" have `newNode` at the beginning of the linked list, but we are not done yet. 
-We now have to re-assign where Head is pointing too. Since `node1` is no longer the first node in the list, we want to re-assign it to
+We now have to re-assign where Head is pointing too. Since `node1` is no longer the first node in the list, we want to re-assign `Head` to
 point at `newNode`. 
 
 1. While we are at it, let's just re-assign current as well to make sure should any further operation start at the new true start of the
 linked list. 
 
 ![Singly Linked List](assets/LinkedList4.PNG)
+
+
+#### Code
+
+Here is the C# code for an `Add` method on a Linked list
+
+```csharp
+		public void Add(Node newNode)
+		{
+			Current = Head;
+			newNode.Next = Head;
+			Head = newNode;
+			Current = Head;
+		}
+```
 
 ### Traversal
 
