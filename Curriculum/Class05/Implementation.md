@@ -8,20 +8,23 @@ Within your `Data_Structures and Algorithms` repo:
 
 ## Directions
 
-Implement a Singly linked list. Your `LinkList` should meet the following criteria:
+Implement a Singly linked list. Your `LinkList` should provide the following functionality
 
 1. O(1) - .Add(Node node) - adds a node to the front of the linked list
 2. O(n) - .Find(value) - Finds a specific value in the linked list
 3. O(n) - .Print() - Prints out all of the values in the linked list
+4. O(n) - .AddLast(Node node) - Adds a node to the end of a linked list
+5. O(n) - .AddBefore(Node newNode, Node existingNode) - Adds a specific node before an existing node.
+6. O(n) - .AddAfter(Node newNode, Node existingNode) - Adds a specific node after an existing node.
 
 ## Specs
 Upon completion, your Linked List should contain the following:
 1. `Node` class,
 2. `LinkedList` class
-	- This is where your `Add()`, `Print()`, and `Find()` will live 
+	- This is where all of your methods(i.e. `Add()`, `Find()`, etc..) will live 
 3. `Program` Class.
 	- This is where your `Main()` method will live
-	- Instantiate your `LinkList`
+	- Instantiate your `LinkedList`
 	- Add Nodes
 	- Find a Node
 	- Output all of the values
@@ -32,7 +35,6 @@ Test the following conditions:
 1. Adding a Node
 1. Finding a Node that exists
 1. Find a Node that does not exist
-1. Output all values in a Linked List. 
 
 ## ReadMe
 
