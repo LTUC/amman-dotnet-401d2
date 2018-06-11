@@ -14,8 +14,9 @@ Implement a Singly linked list. Your `LinkList` should meet the following criter
 1. O(1) - .Add(Node node) - adds a node to the front of the linked list
 2. O(n) - .Find(value) - Finds a specific value in the linked list
 3. O(n) - .Print() - Prints out all of the values in the linked list
-
-
+4. O(n) - .AddBefore(Node newNode, node Node) - Adds a node before an existing node.
+5. O(n) - .AddAfter(Node newNode, Node existingNode) - Adds a node after an existing node
+6. O(n) - .AddLast(Node node) - Adds a node to the end of a linked list.
 ## Specs
 Upon completion, your Linked List should contain the following:
 1. `Node` class,
