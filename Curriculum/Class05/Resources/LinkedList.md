@@ -186,6 +186,32 @@ And now we have a complete link list with the newly added node exacty where we w
 ![Singly Linked List](assets/LLInsert5.PNG)
 
 
+##### Code
+
+Here is the C# Code for an `AddBefore` method in a linked list
+
+```csharp
+
+		public void AddBefore(Node newNode, Node existingNode)
+		{
+			Current = Head;
+
+			while (Current.Next != null)
+			{
+				if (Current.Next.Value == existingNode.Value)
+				{
+					newNode.Next = existingNode;
+					Current.Next = newNode;
+					return;
+				}
+
+				Current = Current.Next;
+			}
+		}
+```
+
+
+
 ##### Big O
 The time efficiency of this transaction would be O(n) because we could be inserting the new node, worse case scenario, at the end. 
 with N being the number of nodes possible, we would therefore have O(n) time efficiency.
