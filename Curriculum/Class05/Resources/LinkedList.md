@@ -136,3 +136,27 @@ it up to whoever asked for this method to run to do additional checking to make 
 
 ### Print Out Nodes
 
+Printing out all of the nodes in a Linked List is very similar to what we did in the `Find()` method. This is because
+we are leveraging our `Current` node and a `while` loop to traverse through the existing linked list. 
+
+Here is the C# code for a method to print out all of the nodes in a linked list:
+
+```csharp
+		public void Print()
+		{
+			Current = Head;
+
+			while (Current.Next != null)
+			{
+				Console.Write($"{Current.Value} --> ");
+				Current = Current.Next;
+			}
+
+			Console.Write($"{Current.Value} --> NULL");
+		}
+```
+
+Much like in the `Find`, we are createing a while loop to check and make sure we are not at the end of a linked list. Right
+before the while loop restarts, we move `Current` to equal the next node in the list. 
+
+Once we hit the end, we write out the last node, and then show that it is pointing to null. 
