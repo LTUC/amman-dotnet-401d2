@@ -25,56 +25,6 @@ This is what a Singly Linked List looks like
 
 ![Singly Linked List](assets/LinkedList1.PNG)
 
-### Adding a Node
-
-Order of operations is extremely important when it comes to working with a Linked List.
-What I mean by this is you must be careful that all references to each link/node is properly assigned. 
-
-An example can be with adding a node to a linked list.
-If we want to add a node with an `O(1)` efficiency, we have to replace the current `Head` of the linked list with the
-new node, without losing the reference to the next node in the list. 
-
-Here are the required steps to add a new node with an O(1) efficiency.
-
-1. Set `Current = Head`. This will guarantee us that we are starting from the very beginning. 
-2. We can then instantiate the new node that we are adding. The values passed in as arguments into the `Add()` method
-will define what the value of the Node will be. 
-
-![Singly Linked List](assets/LinkedList2.PNG)
-
-3. `newNode.Next` by default is set to `null`. We want to set `newNode.Next` property to the same location that the `Head` node is pointing towards.
-Because `Head` is just a reference type, we will be assigning it to the same allocation in memory as the node it is pointing too. In this
-case, it's `Node1`. 
-![Singly Linked List](assets/LinkedList3.PNG)
-
-
-4. At this point in the program we now "technically" have `newNode` at the beginning of the linked list, but we are not done yet. 
-We now have to re-assign where `Head` is pointing too. Since `node1` is no longer the first node in the list, we want to re-assign `Head` to
-point at `newNode`. 
-
-5. While we are at it, let's just re-assign current as well to make sure should any further operation start at the new true start of the
-linked list. 
-
-![Singly Linked List](assets/LinkedList4.PNG)
-
-
-#### Code
-
-Here is the C# code for an `Add` method on a Linked list
-
-```csharp
-		public void Add(Node newNode)
-		{
-			Current = Head;
-			newNode.Next = Head;
-			Head = newNode;
-			Current = Head;
-		}
-```
-
-#### Big O
-Regardless of the number of Nodes that this linked list has, it will always be a O(1) because it takes the same
-amount of time to add a new node to the beginning of the list. 
 
 ### Traversal
 
@@ -137,6 +87,109 @@ it up to whoever asked for this method to run to do additional checking to make 
 #### Big O
 The Big O for a `Find` would be O(n). This is because, at it's worse case, the node we are looking for will be 
 the very last node in the linked list. n represents the number of nodes in the linked list. 
+
+
+### Adding a Node
+
+#### Adding O(1)
+
+Order of operations is extremely important when it comes to working with a Linked List.
+What I mean by this is you must be careful that all references to each link/node is properly assigned. 
+
+An example can be with adding a node to a linked list.
+If we want to add a node with an `O(1)` efficiency, we have to replace the current `Head` of the linked list with the
+new node, without losing the reference to the next node in the list. 
+
+Here are the required steps to add a new node with an O(1) efficiency.
+
+1. Set `Current = Head`. This will guarantee us that we are starting from the very beginning. 
+2. We can then instantiate the new node that we are adding. The values passed in as arguments into the `Add()` method
+will define what the value of the Node will be. 
+
+![Singly Linked List](assets/LinkedList2.PNG)
+
+3. `newNode.Next` by default is set to `null`. We want to set `newNode.Next` property to the same location that the `Head` node is pointing towards.
+Because `Head` is just a reference type, we will be assigning it to the same allocation in memory as the node it is pointing too. In this
+case, it's `Node1`. 
+![Singly Linked List](assets/LinkedList3.PNG)
+
+
+4. At this point in the program we now "technically" have `newNode` at the beginning of the linked list, but we are not done yet. 
+We now have to re-assign where `Head` is pointing too. Since `node1` is no longer the first node in the list, we want to re-assign `Head` to
+point at `newNode`. 
+
+5. While we are at it, let's just re-assign current as well to make sure should any further operation start at the new true start of the
+linked list. 
+
+![Singly Linked List](assets/LinkedList4.PNG)
+
+
+#### Code
+
+Here is the C# code for an `Add` method on a Linked list
+
+```csharp
+		public void Add(Node newNode)
+		{
+			Current = Head;
+			newNode.Next = Head;
+			Head = newNode;
+			Current = Head;
+		}
+```
+
+##### Big O
+Regardless of the number of Nodes that this linked list has, it will always be a O(1) because it takes the same
+amount of time to add a new node to the beginning of the list. 
+
+
+#### Adding a Node O(n)
+Adding a node to the middle of a linked list is a bit different than adding to the beginning. This is because we are working with
+more nodes and have to re-allocate to make room for the new node. 
+
+1. Let's start out with a basic Singly Linked List:
+
+![Singly Linked List](assets/LLInsert1.PNG)
+
+2. Now let's create a new node (node6). We will set the value of `node6` to be 16. The `Next` will be null
+because we haven't yet attached it into the linked list.
+
+![Singly Linked List](assets/LLInsert2.PNG)
+
+
+3. Now let's start the adding. We can do an `AddBefore` method or an `AddAfter`. For this documentation, we will do
+an `AddBefore`. The `AddAfter` is extremely similar...see if you can figure it out on your own!
+
+Our AddBefore method that we will demonstrate will insert `node6` before `node4`. 
+
+We already learned how to traverse earlier, and that is exactly what we want to do now. We will traverse while 
+the next node is not null. Before moving `Current` to the next node, we want check if the value of the next node
+is equal to the value we are supposed to be watching for (the value of the existing node we are inserting before).
+If it is, we want to set the new node (`node6`).Next equal to the existing node.  
+
+![Singly Linked List](assets/LLInsert3.PNG)
+
+The Linked List image above is in the following state:
+1. Current is pointing to `node3`.
+2. `node3.Next` property is equal to `node4`.
+3. Since this is the node we want to insert before, we can now set our `node6.Next` property also to `node4`. We do this at the time
+the node is found to prevent setting `node6.Next` to a node that may not exist. 
+4. *Uh-Oh*, now both `node3` and `node6` are pointing to the same next node. `node6` is not quite fully apart of the linked list. 
+5. Next, we have to adjust `node3.Next` to point to the newly created node, `node6`. Since we still have `Current` pointing to `node3` this will 
+be a straighforward transaction. We just simply tell `Current` (because it is pointint to the same 
+memory location as `node3`) to change it's `Next` to point to the new node (`node6`).
+
+![Singly Linked List](assets/LLInsert4.PNG)
+
+And now we have a complete link list with the newly added node exacty where we wanted it. 
+
+![Singly Linked List](assets/LLInsert5.PNG)
+
+
+##### Big O
+The time efficiency of this transaction would be O(n) because we could be inserting the new node, worse case scenario, at the end. 
+with N being the number of nodes possible, we would therefore have O(n) time efficiency.
+
 
 
 ### Print Out Nodes
