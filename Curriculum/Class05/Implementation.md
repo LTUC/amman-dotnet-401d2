@@ -16,7 +16,6 @@ Implement a Singly linked list. Your `LinkList` should meet the following criter
 3. O(n) - .Print() - Prints out all of the values in the linked list
 
 
-
 ## Specs
 Upon completion, your Linked List should contain the following:
 1. `Node` class,
@@ -30,7 +29,6 @@ Upon completion, your Linked List should contain the following:
 	- Output all of the values
 
 ## Tests
-
 Test the following conditions:
 1. Adding a Node
 1. Finding a Node that exists
