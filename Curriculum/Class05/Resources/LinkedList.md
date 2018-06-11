@@ -77,5 +77,61 @@ amount of time to add a new node to the beginning of the list.
 
 ### Traversal
 
+When traversing a linked list, you are not able to use a `foreach` or `for` loop. We depend on the `Next` value
+in each node to guide us where the next reference is pointing. The `Next` property is exceptionally important because 
+it will lead us where the next Node is and allow us to extract the data appropriatly. 
+
+The best way to approach a traversal is through the use of a `while()` loop. This allows us to continually check
+that the `Next` node in the list is not null. If we accidentally end up trying to traverse on a node that is `null`, 
+a `NullReferenceException` gets thrown and our program will crash/end. 
+
+When traversing through a linked list, the `Current` node is the most helpful. The `Current` will tell us 
+where exactly in the linked list we are and will allow us to move/traverse forward until we hit the end. 
+
+#### Exmample
+Let's put a use case on our traversal. We want to `Find` the first node that contains a specific value. 
+
+The C# code for a `Find` is as so:
+
+```csharp
+		public Node Find(int value)
+		{
+			Current = Head;
+
+			while (Current.Next != null)
+			{
+				if (Current.Value == value)
+				{
+					return Current;
+				}
+				Current = Current.Next;
+			}
+
+			return Current.Value == value ? Current : null;
+		}
+```
+
+Let's talk out what exactly is happening:
+1. we are first resetting `Current` to the `Head` to guarantee we are starting from the beginning.
+2. We create a `while` loop. this loop will only run if the `Next` value of the node that `Current` is pointing too
+does not have a `null` value in the `Next` property. This also means we can guarantee that we are not looking at the last 
+node in a linked list if the while loop is running. 
+
+3. Once we are in the while loop, we are checking if the the value of the current node is equal to the value we are looking for. 
+Given the logic, if that condition is true, it will then return the node that `Current` is pointing towards and our operation is complete.
+
+4. If the `Current` node does not contain the value we are looking for, we then have to move Current to the next node that is 
+being referenced. Again, because the condition of this while loop is to only run if we are not at the last node, we can safely 
+traverse to the next node without fear of getting a `NullReferenceException`. 
+
+5. At this point, the while loop is re-evaluated. Step 4 will continue until `Current` reaches the end of hte linked list.
+Once this condition becomes true, the while loop breaks and we now know that we are at the end. 
+Once we hit the end, we then make a check to see if value of the node that `Current` is pointing towards is the value we are lookking for,
+if it is, it will return the Current node, else it will return null. 
+
+Notice that the return type for this method is `Node`. `null` is a valid value for a node, so if we end up returning null, we are leaving
+it up to whoever asked for this method to run to do additional checkign to make sure that they are able to handle a null node. 
+
+
 
 ### Print Out Nodes
