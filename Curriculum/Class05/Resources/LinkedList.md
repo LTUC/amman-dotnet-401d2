@@ -132,6 +132,9 @@ If it is, it will return the Current node, else it will return null.
 Notice that the return type for this method is `Node`. `null` is a valid value for a node, so if we end up returning null, we are leaving
 it up to whoever asked for this method to run to do additional checking to make sure that they can handle a null node. 
 
+#### Big O
+The Big O for a `Find` would be O(n). This is because, at it's worse case, the node we are looking for will be 
+the very last node in the linked list. n represents the number of nodes in the linked list. 
 
 
 ### Print Out Nodes
@@ -160,3 +163,13 @@ Much like in the `Find`, we are createing a while loop to check and make sure we
 before the while loop restarts, we move `Current` to equal the next node in the list. 
 
 Once we hit the end, we write out the last node, and then show that it is pointing to null. 
+
+## Constructors in your Code
+
+When constructing your code, a few things to keep in mind. 
+1. When making your `Node` class, you will need a `Node` Constructor. 
+The purpose of this constructor is to guarantee that we will always have a value in the node
+once it is instantiated.
+
+2. When making a Linked List, you will want a constructor to make sure that you instantiate your Linked List you
+will have at least one node. This first node is what your `Head` and `Current` will point too. 
