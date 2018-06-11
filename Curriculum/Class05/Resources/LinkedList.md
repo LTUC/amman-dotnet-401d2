@@ -145,7 +145,7 @@ amount of time to add a new node to the beginning of the list.
 
 #### Adding a Node O(n)
 Adding a node to the middle of a linked list is a bit different than adding to the beginning. This is because we are working with
-more nodes and have to re-allocate to make room for the new node. 
+more nodes and must re-allocate to make room for the new node. 
 
 1. Let's start out with a basic Singly Linked List:
 
@@ -176,12 +176,12 @@ The Linked List image above is in the following state:
 the node is found to prevent setting `node6.Next` to a node that may not exist. 
 4. *Uh-Oh*, now both `node3` and `node6` are pointing to the same next node. `node6` is not quite fully apart of the linked list. 
 5. Next, we have to adjust `node3.Next` to point to the newly created node, `node6`. Since we still have `Current` pointing to `node3` this will 
-be a straighforward transaction. We just simply tell `Current` (because it is pointint to the same 
+be a straightforward transaction. We just simply tell `Current` (because it is pointing to the same 
 memory location as `node3`) to change it's `Next` to point to the new node (`node6`).
 
 ![Singly Linked List](assets/LLInsert4.PNG)
 
-And now we have a complete link list with the newly added node exacty where we wanted it. 
+And now we have a complete link list with the newly added node exactly where we wanted it. 
 
 ![Singly Linked List](assets/LLInsert5.PNG)
 
@@ -213,7 +213,7 @@ Here is the C# Code for an `AddBefore` method in a linked list
 
 
 ##### Big O
-The time efficiency of this transaction would be O(n) because we could be inserting the new node, worse case scenario, at the end. 
+The time efficiency of this transaction would be O(n) because we could be inserting the new node, worst case scenario, at the end. 
 with N being the number of nodes possible, we would therefore have O(n) time efficiency.
 
 
@@ -223,7 +223,7 @@ with N being the number of nodes possible, we would therefore have O(n) time eff
 Printing out all of the nodes in a Linked List is very similar to what we did in the `Find()` method. This is because
 we are leveraging our `Current` node and a `while` loop to traverse through the existing linked list. 
 
-Here is the C# code for a method to print out all of the nodes in a linked list:
+Here is the C# code for a method to print out all the nodes in a linked list:
 
 ```csharp
 		public void Print()
@@ -240,7 +240,7 @@ Here is the C# code for a method to print out all of the nodes in a linked list:
 		}
 ```
 
-Much like in the `Find`, we are createing a while loop to check and make sure we are not at the end of a linked list. Right
+Much like in the `Find`, we are creating a while loop to check and make sure we are not at the end of a linked list. Right
 before the while loop restarts, we move `Current` to equal the next node in the list. 
 
 Once we hit the end, we write out the last node, and then show that it is pointing to null. 
@@ -253,4 +253,4 @@ The purpose of this constructor is to guarantee that we will always have a value
 once it is instantiated.
 
 2. When making a Linked List, you will want a constructor to make sure that you instantiate your Linked List you
-will have at least one node. This first node is what your `Head` and `Current` will point too. 
+will have at least one node. This first node is what your `Head` and `Current` will point too.
