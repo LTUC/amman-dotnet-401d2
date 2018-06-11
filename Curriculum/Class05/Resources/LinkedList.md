@@ -4,6 +4,8 @@
 A Linked List is a sequence of `Nodes` that are connected/linked to each other. The most defining feature
 of a linked List is that each `Node` references the next `Node` in the link. 
 
+There are two types of Linked List - Singly and Doubly. We will be implementing a Singly Linked List in this implementation.
+
 ## Terminology:
 1. *Linked List* - A data structure that contains nodes that links/points to the next node in the list. 
 1. *Singly* - Singly refers to the number of references the node has. A `Singly` linked list means that there is only one reference,
