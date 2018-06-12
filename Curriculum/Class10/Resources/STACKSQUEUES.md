@@ -15,5 +15,8 @@ This means that the first item in the stack, will be the last item out.
 
 This is what a stack looks like: 
 
+![StackExample](assets/stack1.PNG)
+
+
 
 ## What is a Queue

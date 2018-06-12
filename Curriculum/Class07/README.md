@@ -14,16 +14,18 @@
 ### Enums
 
 1. What are enums?
-   1. Enumeration types ("also called enums"), provide an efficient way to define a set of named integral constants that may be assigned to a variable. 
+   1. Enumeration types ("also called enums"), provide an 
+   efficient way to define a set of named integral constants that may be assigned 
+   to a variable. 
 
-        ```csharp
+   ```csharp
             enum Days 
             { 
                 Sunday,
                 Monday, 
                 Tuesday, 
                 Wednesday, 
-                ]Thursday, 
+                Thursday, 
                 Friday, 
                 Saturday 
             };
@@ -43,9 +45,7 @@
                 Nov, 
                 Dec 
             }; 
-
-
-        ```
+   ```
         - Count starts at 0, if you do not specify a value. 
         - default type of enum is int, but you can specify alt with a :type (such as byte);
 
