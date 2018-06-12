@@ -245,7 +245,7 @@ before the while loop restarts, we move `Current` to equal the next node in the 
 
 Once we hit the end, we write out the last node, and then show that it is pointing to null. 
 
-## Constructors in your Code
+## Constructors in your classes
 
 When constructing your code, a few things to keep in mind. 
 1. When making your `Node` class, you will need a `Node` Constructor. 
