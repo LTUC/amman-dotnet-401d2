@@ -10,7 +10,7 @@ Common terminology for a stack is
 2. *Pop* - Nodes or items that are removed from the stack are *popped*
 3. *Top* - This is the top of the stack.
 4. *Peek* - When you `Peek` you will view the `Top` node in the stack. If the stack is empty,
-and you don't `Peek', you will recieve a `NullReferenceException`. 
+and you don't `Peek`, you will recieve a `NullReferenceException`. 
 
 Stacks follow these concepts:
 1. **FILO** concept: **F**irst **I**n **L**ast **O**ut.
@@ -19,10 +19,7 @@ This means that the first item in the stack, will be the last item out.
 2. LIFO concept: **L**ast **I**n **F**irst **O**ut
 This means that the last item in the stack, will be the first item out. 
 
-This is what a stack looks like: 
-
-![StackExample](assets/stack1.PNG)
-
+This is what a stack looks like:
 
 ### Push O(1)
 
