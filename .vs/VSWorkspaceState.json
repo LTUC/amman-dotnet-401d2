@@ -2,13 +2,19 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01\\Solution\\Lab01-AboutMe\\Lab01-AboutMe",
-    "\\Curriculum\\Class04\\Resources",
     "\\Curriculum\\Class05",
-    "\\Curriculum\\Class05\\DemoCode",
     "\\Curriculum\\Class05\\DemoCode\\OOP_Examples",
-    "\\Curriculum\\Class05\\Resources"
+    "\\Curriculum\\Class05\\DemoCode\\OOP_Examples\\OOP_Examples\\Classes",
+    "\\Curriculum\\Class05\\Resources\\assets",
+    "\\Curriculum\\Class05\\Solution",
+    "\\Curriculum\\Class06",
+    "\\Curriculum\\Class06\\DemoCode",
+    "\\Curriculum\\Class07",
+    "\\Curriculum\\Class07\\DemoCode",
+    "\\Curriculum\\Class07\\Resources",
+    "\\Curriculum\\Class10",
+    "\\Curriculum\\Class10\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class05\\Resources\\OOPPrinciples.md",
+  "SelectedNode": "\\Curriculum\\Class07\\README.md",
   "PreviewInSolutionExplorer": false
 }
