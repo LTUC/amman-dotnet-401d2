@@ -8,9 +8,42 @@ Within your `Data_Structures and Algorithms` repo:
 
 ## Directions
 
+Review what a liked list is [HERE](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class10/Resources/STACKSQUEUES){:target="_blank"}
+
+Implement a Stack and a Queue. Your `Stack` should meet the following criteria:
+
+1. O(1) - .Push(Node node) - Add a node to the stack
+2. O(1) - .Pop() - removes and return the top node of the stack
+3. O(1) - .Peek() - returns the top node of the stack.
+
+Your `Queue` should meet the following criteria:
+
+1. O(1) - .Enqueue(Node node) - Add a node to the queue
+2. O(1) - .Dequeue() - removes and return the front node of the queue
+3. O(1) - .Peek() - returns the front node of the queue.
+
 ## Specs
 
+Upon completion, your Linked List should contain the following:
+1. `Node` class,
+2. `Stack` class
+	- This is where your methods such as `Push()`, `Pop` and `Peek()` will live 
+3.  `Queue` class
+	 - This is where your `Enqueue`, `Dequeue`, and `Peek` will live
+3. `Program` Class.
+	- This is where your `Main()` method will live
+	- Instantiate your `Stack` and `Queue`
+	- Add Nodes to each
+	- Output a few of the nodes
+
 ## Tests
+Test the following conditions:
+1. Pushing a node onto your stack
+2. Popping a node off your stack
+3. Peeking at the top node of your stack
+4. Enqueue a node into your queue
+5. Dequeue a node off of your queue
+6. Peek at the front of your queue.
 
 
 ## ReadMe
