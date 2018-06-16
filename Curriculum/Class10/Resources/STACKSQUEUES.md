@@ -32,6 +32,7 @@ When adding a node, you essentially want to `Push` it into the stack
 and then re-assign the `Top` to newly added node. 
 
 Let's walk through the steps:
+
 1. First, you should have the node that you want to add. Here is an example of a Node that we want to add to the stack.
 
 ![Singly Linked List](assets/pushStack1.PNG)
