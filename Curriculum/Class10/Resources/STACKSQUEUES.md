@@ -150,8 +150,12 @@ Let's walk through the process of adding a node to a queue:
 
 ![Singly Linked List](assets/Enqueue1.PNG)
 
-1. The first thing we have to do assign the new node, `Node6`'s `Next` property to point to the same node that `Rear` points to. 
-This means that we will be pointing `Node6.Next` to be `Node5`.
+1. First, we should change the `Next` property of `Node5` to point to the node
+we are adding. In our case with the visual below, we will be re-assigning `Node5.Next` to `Node6`.
+
+The only way we have access to `Node5` is through our reference type `Rear`. Following the rules of refernece types,
+this means that we have to change `Rear.Next` to `Node6`. 
+
 
 ![Singly Linked List](assets/Enqueue2.PNG)
 
@@ -170,8 +174,8 @@ Here is the C# Code for the `Enqueue` method:
 ```csharp
 public void Enqueue(Node node)
 {
-	node.Next = Rear;
-	Rear = node.Next;
+	Rear.Next = node;
+	Rear = node;
 }
 ```
 
@@ -207,7 +211,7 @@ later and clean up.
 Here is the C# Code for the `Dequeue` method:
 
 ```csharp
-public Node Dequeue(Node node)
+public Node Dequeue()
 {
 	Node temp = Front;
 	Front = Front.Next;
