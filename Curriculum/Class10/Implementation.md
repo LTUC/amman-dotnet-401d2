@@ -8,7 +8,7 @@ Within your `Data_Structures and Algorithms` repo:
 
 ## Directions
 
-Review what a liked list is [HERE](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class10/Resources/STACKSQUEUES){:target="_blank"}
+Review what a Stack and Queue is [HERE](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class10/Resources/STACKSQUEUES){:target="_blank"}
 
 Implement a Stack and a Queue. Your `Stack` should meet the following criteria:
 
