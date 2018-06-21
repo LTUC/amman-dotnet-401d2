@@ -23,7 +23,7 @@ As a team, decide on a git workflow you will use. Once you have chosen the workf
 ## Create your VSTS account
 Create an account on VSTS and use this tool to manage your team throughout the week. 
 
-- [Visual Studio Team Services](https://visualstudio.microsoft.com/vso/)
+- [Visual Studio Team Services](https://visualstudio.microsoft.com/vso/){:target="_blank"} 
 
 #### Submitting Your Work
 **Only one person needs to submit this assignment for the group to receive credit**
