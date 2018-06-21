@@ -14,7 +14,7 @@ project's software requirements.
 
 Name your doc `Requirements.md` and be sure to include all of the required information, in detail. 
 
-The requirements for your software requirements doc can be found [HERE](SoftwareReq){:target="_blank"} 
+The requirements for your software requirements doc can be found [HERE](SoftwareReqs){:target="_blank"} 
 
 #### Submitting Your Work
 **This is a group submission. Only one person must submit for group credit**
