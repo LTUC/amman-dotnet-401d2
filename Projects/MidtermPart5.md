@@ -1,4 +1,4 @@
-# User Storiesf
+# User Stories
 
 Create at least 15 user stories in VSTS, 
 divided amongst your two applications. 
