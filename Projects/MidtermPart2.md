@@ -9,7 +9,7 @@ At this point, you should have an idea as to what's possible to create given a n
 Project Requirements are outlined [HERE]().
 
 
-## Group Project: Pitch Ideas¶
+## Group Project: Pitch IdeasÂ¶
 It is now time to begin preparations for your Group Project. You've been given groups, so the first step for group projects is to pitch ideas.
 
 ## Tasks
@@ -40,4 +40,4 @@ Please have your top choice listed first, and second choice listed last.
 2. Front End Web App Purpose
 3. API Purpose
 4. 3rd party api integration? if so, what?
-5. Minimum MVP definition
+5. Minimum MVP definition 
