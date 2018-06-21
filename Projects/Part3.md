@@ -12,7 +12,7 @@ Each group should select a team member to host the project repository.
 This member should create a new repository and add the other team members 
 as collaborators, so that everyone has the right to manage the repository.
 
-Alternatively, you may create a GitHub ìOrganizationî, add team members as members of the organization, and create the repository there.
+Alternatively, you may create a GitHub ‚ÄúOrganization‚Äù, add team members as members of the organization, and create the repository there.
 
 As a team, decide on a git workflow you will use. Once you have chosen the workflow you will use, document this workflow using the GitHub wiki feature. Your chosen workflow should have at least:
 - The ability to implement your work in isolated branches and to merge these after review
@@ -28,3 +28,4 @@ Create an account on VSTS and use this tool to manage your team throughout the w
 #### Submitting Your Work
 **Only one person needs to submit this assignment for the group to receive credit**
 In the text area, write the name of your project and provide a link to the repository you have created.
+ 
