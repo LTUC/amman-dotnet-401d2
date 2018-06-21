@@ -16,6 +16,10 @@ Name your doc `Requirements.md` and be sure to include all of the required infor
 
 The requirements for your software requirements doc can be found [HERE](SoftwareReqs){:target="_blank"} 
 
+Inside your Class Repository, in the Resources Folder, lives 2 "official" Software Requirements docs. You 
+are not required to create a multipage doc, just one page is enough, but should you want example and instpiration, they are there 
+for your reference.
+
 #### Submitting Your Work
 **This is a group submission. Only one person must submit for group credit**
 If you have created wireframes online, please submit a link to them (in progress is fine, they need not be complete yet).
