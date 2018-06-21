@@ -37,7 +37,9 @@ The workflow of the website should be:
 1. Add HTML and CSS to the site to make it 'client ready'
 
 ### Deploy
-Deploy to Azure
+Deploy to Azure.
+
+Provide a deployment link in your Readme.
 
 ### Tests
 1. Create a Student
@@ -52,6 +54,7 @@ Deploy to Azure
 
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
+
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 <br />
@@ -92,3 +95,5 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	0       | No Submission or incomplete submission |
 
 
+10pts - Unit Testing
+10pts - Deployment to Azure
