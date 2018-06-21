@@ -23,7 +23,7 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: MVC Part 2
 	1. Add Validation
 	1. Examine the Details and Delete Methods
 
-1. Add Css and html to your copmleted Movie Library site. Restructure your `HomeController` to be more customized to your creativity.
+1. Add Css and html to your completed Movie Library site. Restructure your `HomeController` to be more customized to your creativity.
 
 ## Tests
 No tests are required for this lab. 

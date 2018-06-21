@@ -2,12 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class05",
-    "\\Curriculum\\Class05\\DemoCode\\OOP_Examples\\OOP_Examples\\Classes",
-    "\\Curriculum\\Class05\\Solution",
-    "\\Curriculum\\Class10",
-    "\\Data_Structures_and_Algorithms"
+    "\\Curriculum\\Class11",
+    "\\Curriculum\\Class11\\Resources",
+    "\\Curriculum\\Class12",
+    "\\Data_Structures_and_Algorithms\\assets",
+    "\\Data_Structures_and_Algorithms\\Challenges",
+    "\\Data_Structures_and_Algorithms\\Data_Structures",
+    "\\Lectures",
+    "\\Lectures\\Class11",
+    "\\Lectures\\Class12"
   ],
-  "SelectedNode": "\\Curriculum\\Class05\\Solution",
+  "SelectedNode": "\\Curriculum\\Class12\\LAB.md",
   "PreviewInSolutionExplorer": false
 }
