@@ -1,4 +1,4 @@
-D![cf](http://i.imgur.com/7v5ASc8.png) Lab 13: Student Enrollment
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 13: Student Enrollment
 =====================================
 
 ## To Submit this Assignment
@@ -36,6 +36,17 @@ The workflow of the website should be:
 
 1. Add HTML and CSS to the site to make it 'client ready'
 
+### Deploy
+Deploy to Azure
+
+### Tests
+1. Create a Student
+2. Craete a Course
+3. Update a Student
+4. Update a Course
+5. Delete a Course
+6. Delete a Student
+7. Getters and Setters for all model properties
 
 ## README
 
