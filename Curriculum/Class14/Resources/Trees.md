@@ -15,10 +15,10 @@ and then dive into specifics of the different types.
 3. *Right Child* - The node that is positioned to the right of the root
 1. *Edge* - The edge in a tree is the link between two nodes
 1. *Leaf* - A leaf is the node that does not contain either a left child or a right child node. 
-
+1. *Height* - The height of a tree is determined by the number of edges from the root to the bottommost node. 
 This is what a tree looks like:
 
-![DepthFirst Traversal](assets/BinaryTree.PNG)
+![DepthFirst Traversal](assets/BinaryTree1.PNG)
 
 
 
@@ -81,7 +81,7 @@ public void PreOrder(Node node)
 }
 ```
 
-1. PreOrder means that the `root` has to be looked at first (because that is what preorder does. )
+1. PreOrder means that the `root` has to be looked at first. 
 The first thing we do is look at the root....in our case, we will just ouput that
 to the console. When we call `PreOrder` for the first time, the `root`, NodeA, will be added to the callstack. 
 
@@ -114,14 +114,17 @@ It's important to note a few things that are about to happen.
 
 ![PreOrder1](assets/DepthTraversal4.PNG)
 
-5. The Code block will now pick up where it left off when we were in the `NodeB` frame. Since it already looked for `node.LeftChild`, it will now look for `node.RightChild`.
+5. The Code block will now pick up where it left off when we were in the `NodeB` frame. 
+Since it already looked for `node.LeftChild`, it will now look for `node.RightChild`.
 
 ![PreOrder1](assets/DepthTraversal5.PNG)
 
-6. `NodeE` will output to the console. Since `NodeE` is a leaf, it will coplete the method code block, and pop `NodeE` off of the call stack and makes it's way back up to `NodeB`. 
+6. `NodeE` will output to the console. Since `NodeE` is a leaf, it will complete the method code 
+block, and pop `NodeE` off of the call stack and makes it's way back up to `NodeB`. 
 ![PreOrder1](assets/DepthTraversal6.PNG)
 
-7. In the call frame, `NodeB` has already checked for `node.LeftChild`, and `node.RightChild`, the code block will complete and pop off `NodeB` from the callstack, and leave `NodeA` as athe root. 
+7. In the call frame, `NodeB` has already checked for `node.LeftChild`, and `node.RightChild`, 
+the code block will complete and pop off `NodeB` from the callstack, and leave `NodeA` as the root. 
 ![PreOrder1](assets/DepthTraversal7.PNG)
 
 8. Following the same pattern as we did with the other nodes, `NodeA`'s callstack frame will pick up where it left off, and check out `Node.RightChild`. 
@@ -164,7 +167,9 @@ public void PreOrder(Node node)
         PreOrder(node.RightChild);
     }
 }
+```
 
+```csharp
 public void InOrder(Node node)
 {
     if(node.LeftChild != null)
@@ -179,7 +184,9 @@ public void InOrder(Node node)
         InOrder(node.RightChild);
     }
 }
+```
 
+```csharp
 
 public void PostOrder(Node node)
 {
