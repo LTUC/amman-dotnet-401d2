@@ -11,7 +11,7 @@ Why should we care about your product?
 - OUT - What will your product not do. 
   - These should be features that you will make 
 very clear from the beginning that you will not do during development.
-<br /> **HINT:** Pick your battles wisely. This should onliy be 1 or 2 things. 
+<br /> **HINT:** Pick your battles wisely. This should only be 1 or 2 things. 
 
 ### MVP
 What will your MVP be. What is your expected minimum end product?
