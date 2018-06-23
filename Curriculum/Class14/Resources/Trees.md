@@ -224,22 +224,68 @@ the process:
 
 1. First, Let's take a look at a tree that we can conduct a Breadth First traversal on:
 
-![DepthFirst Traversal](assets/Breadth1.PNG)
+![DepthFirst Traversal](assets/depthTraversal.PNG)
 
 
 2. Let's start by putting the root Node into the queue (`Queue.Enqueue(root`)
 
-![DepthFirst Traversal](assets/Breadth2.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal2.PNG)
 
-3. Now that we have one node in our queue, let's `Dequeue` the node, and `Enqueue` both 
+
+3. Now that we have one node in our queue, let's `Dequeue`.
+
+![DepthFirst Traversal](assets/BreadthTraversal3.PNG)
+
+ 
+4. Since we have completed the `Dequeue` action on the the root node, we can now `Enqueue` both 
 it's `root.LeftChild` and it's `root.rightChild`. 
 
-![DepthFirst Traversal](assets/Breadth3.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal4.PNG)
 
-4. We will repoeat this process until we have traversed the whole tree in it's entirety. 
+4. We will repeat this process  with the next node in the front of the queue.
 
-![DepthFirst Traversal](assets/Breadth4.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal5.PNG)
 
+5. With `NodeB`, we can then `Enqueue` the two children node. 
+
+![DepthFirst Traversal](assets/BreadthTraversal6.PNG)
+
+6. `Dequeue` the front of the queue
+![DepthFirst Traversal](assets/BreadthTraversal7.PNG)
+
+7. `Enqueue` the children...
+![DepthFirst Traversal](assets/BreadthTraversal8.PNG)
+
+8. Keep `Dequeue`ing, and only `Enqueue` if the `node.LeftChild` or `node.RightChild` is not null. 
+![DepthFirst Traversal](assets/BreadthTraversal9.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal10.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal11.PNG)
+
+
+Here is the C# code, utulizing a built in queue, to 
+implement a Breadth First traversal.
+
+```csharp
+public void BreadthFirst(Node root)
+{
+    Queue<Node> breadth = new Queue<Node>();
+	breadth.Enqueue(root);
+		
+	while (breadth.TryPeek(out root))
+	{
+	    Node front = breadth.Dequeue();
+		Console.Write(front.Value);
+		if (front.LeftChild != null)
+		{
+			breadth.Enqueue(front.LeftChild);
+		}
+		if (front.RightChild != null)
+		{
+			breadth.Enqueue(front.RightChild);
+		}
+	}
+}
+```
 
 
 ## Binary Trees
@@ -250,99 +296,60 @@ to just `ints`, but can extend out to other numeric types such as `decimal`, `do
 There is not a specific sorting order for a binary tree. When adding a node to a binary tree,
 you are not restricted on the node's location. 
 
-Here is an example of a binary tree:
+Here is what a binary tree looks like: 
 
-
-
-
-The height of this tree is 2. The height of the tree is determined 
-by the number of edges that start at the root, and go down to the last leaf. 
+![Binary Tree](assets/BinaryTree2.PNG)
 
 ### Adding a node
 
 When adding a node to a binary tree, we will leveraage the use of the breadth first traversal. 
 
 During the traversal, we will find the first node that does not have a left or right child node, and insert
-the new node in it's place. 
+the new node in it's place.  Because there is no structure to where nodes are "supposed to go" in a binary tree,
+it really doesn't matter where the new node gets placed.
 
-Here is the code for adding a Node:
+In the event you would like to have a node placed in a specific locaion, you would reference not only the new
+node that is going to get created, but also the node you would like to new node to be attached to. 
 
-```csharp
-public void Add(Node root, int value)
-{
-    queue.Enqueue(root);
-    while(queue.Peek != null)
-    {
-       Node node = queue.Dequeue();
-       
-       if(node.Left != null)
-       {
-            queue.Enqueue(node);
-       } else {
-            node.Left = new Node(value);
-            
-        }
+### Big O
+The Big O of an insertion an searching in a Binary tree will always be O(n).
 
-       if(node.Right != null)
-       {
-            queue.Enqueue(node);
-       } else {
-            node.Right = new Node(value);
-            
-        }
-    }
-}
-```
-
-
-### Finding a node
-
-When finding a node within a Binary Tree, you want to conduct 
-a traversal that will allow you to visit all of the nodes in the binary tree
-until the desired node is found. 
-
-In these situations, any of the traversals that we have reviewed so far will work 
-when attempting to find a node. 
-
-Here is a coding example of a PreOrder traversal that is searching for a specific node:
-
-```csharp
-public Node Find(Node node, int value)
-{
-    if(node.value == value)
-    {
-        return node; 
-    }
-
-    if(node.LeftChild != null)
-    {
-        PreOrder(node.LeftChild);
-    }
-
-    if(node.RightChild != null)
-    {
-        PreOrder(node.RightChild);
-    }
-}
-```
-
-#### Big O
-The Big O of a find in regular Binary Tree is O(n). 
-This means that in the worst case scenario, the node that is currently trying to be found 
-either does not exist in the tree, or is the very last node to be traversed. 
+This is because there is no structure or organizaiton to a Binary Tree. This means that worst case 
+scenario, we will have to search the whole tree for the node we need to add or find. 
 
 ## Binary Search Trees
-A binary search tree
+A binary search tree is a type of tree that does have structure attached to it. In a binary search tree, 
+the tree is organized in a manner where all numbers that are smaller than the root are placed to the left,
+and all numbers that are larger than the root are placed to the right. 
+
+Here is an example of a Binary Search Tree:
+
+![BST](assets/BST1.PNG)
+
+### Searching a BST
+Searching a BST can be done quickly, because all you do is compare the node you are searching for
+against each root of the tree. Dependent on the value being larger or smaller, will determine 
+the direction on which you will traverse. 
+
+Here is an example:
+
+1. Let's say we are searching for the node that contains 60. First thing we do is compare 60 against the root:
+
+2. We can see that 60 is less than 100, so we will go left.
+
+3. We then compare 60 against the next root, 50.
+4. We know that 60 is greater than 50, so we will go right.
+5. Next, we compare 60 against 75. We know that 75 is greater than 60, so we go left. 
+6. Finally, we compare 60 against 60. These numbers are exactly the same which tells us we found our node. We then return our node back to the user. 
 
 
-### Adding a node
+### Big O
+The Big O of a Binary Search Tree for insertion and search is O(log n). 
 
-
-//Big O
-
-### Finding a node 
-
-// Big O
+This means that we are always able to reduce 
+the number of searches we do of a logrithmic value each time because of how the tree is structured. 
+Each traversal we do in a Binary Search Tree helps us eliminate the branches of the opposite direction
+we traverse. 
 
 
 
