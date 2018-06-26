@@ -19,5 +19,5 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
-- [Unit Testing](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs)
-- [Testing Controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-2.1)
+- [Unit Testing](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs){:target="_blank"} 
+- [Testing Controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-2.1){:target="_blank"} 

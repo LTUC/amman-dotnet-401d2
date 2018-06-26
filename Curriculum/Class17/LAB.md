@@ -13,8 +13,18 @@ D![cf](http://i.imgur.com/7v5ASc8.png) Lab 17: API - Double Resources
 
 Starting from an **empty MVC template**, Create an API that allows a user to Create individual ToDo tasks, and put them in a ToDoList. <br /><br/>
 
-Don't forget to enable MVC and setup your Dependency Injection and DbContext for your database. (to encourage muscle memory, please try and do as much as you can before referring to external resources)
+1. Watch this video with Daniel Roth [Here](https://binged.it/2v2AXFe){:target="_blank"}  (~60 min)
+1. Read the tutorial located [Here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api){:target="_blank"} 
 
+Using both of the resources above, create an API in .NET Core that conducts the standard HTTP verbs (Get,Put,Post,Delete) for a "To-Do" list.
+
+Your "To-Do" list will consist of indivudal tasks that can be saved into the database and extracted as needed. You should also have the ability to 
+get all of the tasks by a simple get request. 
+<br />
+
+*Use Postman (in addition to unit tests) to test your endpoints.* 
+
+**Use a sql database instead of an in-memory database that is referenced in the tutorial**
 
 ### Application Components
 You application should contiain the following *at minimum*:
@@ -32,7 +42,19 @@ The following actions must also be true:
 1. when accessing the Get action on `\api\ToDoList\{id}`, it should output the individual ToDo list AND the individual tasks associated with it
 1. If you choose to delete a ToDoList, it should delete the list AND all of the associated ToDos associated
 
-Unit tests are required for this lab.
+### Tests
+
+Test the following functionality:
+1. Create a ToDO item
+2. Read a TODO Item
+3. Update a ToDo item
+4. Delete a ToDo Item
+5. Create a List
+6. Read a List
+7. Update a List
+8. Delete a list
+9. Add Items to a List
+10. Remove items from a list
 
 ## README
 
