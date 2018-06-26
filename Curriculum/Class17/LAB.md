@@ -26,6 +26,8 @@ get all of the tasks by a simple get request.
 
 **Use a sql database instead of an in-memory database that is referenced in the tutorial**
 
+**Deploy your API to Azure, provide a published link in your readme.**
+
 ### Application Components
 You application should contiain the following *at minimum*:
 1. 2 Controllers with CRUD endpoints (You may use an empty API controller template for this if you wish)
@@ -74,7 +76,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+- [Reference](https://github.com/noffle/art-of-readme) {:target="_blank"} 
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
