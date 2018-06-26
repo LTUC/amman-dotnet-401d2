@@ -96,4 +96,4 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 
 10pts - Unit Testing
-10pts - Deployment to Azure
+10pts - Deployment to Azure - Application MUST be deployed to receive any points
