@@ -6,7 +6,7 @@ At this point, you should have an idea as to what's possible to create given a n
 
 ## Ideas
 
-Project Requirements are outlined [HERE](ProjectReqs.md).
+Project Requirements are outlined [HERE](ProjReqs.md){:target="_blank"}.
 
 
 ## Group Project: Pitch Ideas¶
