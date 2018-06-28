@@ -11,12 +11,9 @@
 
 ## Directions
 **read all the directions (including the Readme section), in it's entirety before completing** <br />
-Get creative, and surf the Bing.<br />
-You will create an MVC CRUD web application that will consume a web api. Your web api can be obtained from the following:
 
-1. Find your own 3rd party API (try and find one that does not require auth)
-1. Use your ToDO List/ToDo task API that you created in lab 16 & 17
-	- You *must* deploy this API onto your azure account. 
+You will create an MVC CRUD web application that will consume the api that you created in lab 17:
+  - You *must* deploy this API onto your azure account. 
 
 using  `HttpClient` class, consume the external API using the following example as a baseline. 
 
@@ -24,10 +21,10 @@ using  `HttpClient` class, consume the external API using the following example 
 	using (var client = new HttpClient())
 	{
 		// add the appropriate properties on top of the client base address.
-		client.BaseAddress = new Uri("http://www.zillow.com/webservice/");
+		client.BaseAddress = new Uri("http://myapisite.com/");
 
 		//the .Result is important for us to extract the result of the response from the call
-		var response = client.GetAsync("GetDeepComps.htm?zws-id=X1-ZWz18nvm8jm80b_1is62&zpid=48749425&count=5").Result;
+		var response = client.GetAsync("/api/Songs/").Result;
 
 		if (response.EnsureSuccessStatusCode().IsSuccessStatusCode)
 		{
@@ -43,12 +40,10 @@ Deploy your application to Azure. Provide your deployed link in your readme.
 ### Application Components
 Upon Completion, the following should be true:
 
-1. Front-end interface where the user can navigate around the site.
-	- CRUD operations
-1. Database to hold the data from your web application. 
-	- Have a way for a user to save data, potentially dependent on the response from the API
+1. Front-end interface where the user can navigate around and see different tasks and lists.
 1. Your API and your web application must compliment each other
 	- You must responsibly and intuitively integrate the api in with web application.  
+1. Your API must have a database. your full MVC CRUD web app does not have to have a database. 
 
 
 
@@ -73,6 +68,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 - [Reference](https://github.com/noffle/art-of-readme)
 
 ## Rubric
+**No tests are required for your Full CRUD MVC app**
 - 7pts: Program meets all requirements described in Lab directions.
 
 	Points  | Reasoning | 
