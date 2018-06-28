@@ -1,4 +1,4 @@
-D![cf](http://i.imgur.com/7v5ASc8.png) Lab 17: API - Double Resources
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 17: Create an API
 =====================================
 
 ## To Submit this Assignment
