@@ -9,6 +9,7 @@
 ## Lecture Outline
 1. API Tests
 2. User Secrets
+3. CSS Layouts
 2. Project Requiremetns
    - Project Requirements
    - User Stories
