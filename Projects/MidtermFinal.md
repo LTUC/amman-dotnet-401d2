@@ -7,7 +7,7 @@ Both of yoru final midterm GitHub projects should contain the following:
 This is the code of your project. Inlcude the .sln file and source folders
 
 Your project that is created should follow all of the required guidelines described 
-[HERE](ProjReqs.md)
+[HERE](ProjReqs.md){:target="_blank"} 
 ## Tests
 Write Tests. 
 
@@ -39,5 +39,5 @@ contain information such as
 1. Examples and code snippets of requests/responses
 
 Here are some options:
-1. Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1) (strongly preferred)
+1. Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1){:target="_blank"}  (strongly preferred)
 2. Create your custom documenation

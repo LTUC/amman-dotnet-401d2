@@ -47,7 +47,7 @@ API if you want. This may add some value to your project.
    - No Views Required
    - At least 2 Endpoints in each Controller
 4. Documenation:
-   - Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1) for your custom API Documentation.
+   - Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1){:target="_blank"}  for your custom API Documentation.
 
 
 ### Shared Functionality
