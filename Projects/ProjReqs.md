@@ -49,6 +49,7 @@ API if you want. This may add some value to your project.
 
 
 ### Shared Functionality
+Each project should have....
 1. Database
   - SQL Server
   - SQL Server Database

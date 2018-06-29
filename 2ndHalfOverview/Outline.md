@@ -26,8 +26,8 @@
 - CHECK - IN
 
 ### Friday 
-1. OAUTH
 
+1. Peer Review
 1. Goals and Reflections
 
 
@@ -36,24 +36,30 @@
 ## Week 7
 
 ### Monday
-1. SendGrid
+1. OAUTH
 
 1. Goals and Reflections
 
 
 ### Tuesday
-1. Authorize.NET
+1. SendGrid
+
 
 ### Wednesday
-1. Razor Pages
+1. Authorize.NET
+
 
 1. Goals and Reflections
 
 
 ### Thursday
 SCSS and Front End Development with Brian
+CHECK-IN
+
 
 ### Friday 
+1. Peer Review
+
 Career Coaching
 
 <hr />
@@ -61,28 +67,36 @@ Career Coaching
 ## Week 8
 
 ### Monday
-1. Azure Blob Storage
+1. Razor Pages
+
 
 1. Goals and Reflections
 
 
 ### Tuesday
+1. Azure Blob Storage
+
+
+### Wednesday
 1. How HTTP Works
 2. OWASP
 
-### Wednesday
-1. Azure Functions
 
 1. Goals and Reflections
 
 
 
 ### Thursday
-??????
+1. Azure Functions
+
+CHECK-IN
+PEER REVIEW
+
 
 
 ### Friday 
 Career Coaching
+1. Peer Review
 
 1. Goals and Reflections
 
