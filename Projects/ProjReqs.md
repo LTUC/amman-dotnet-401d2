@@ -1,6 +1,6 @@
 # Midterm Project - Week 5
 
-Welcome to your midterm project!
+Welcome to your midterm project! 
 
 ## Requirements
 
