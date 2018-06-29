@@ -8,6 +8,7 @@ This is the code of your project. Inlcude the .sln file and source folders
 
 Your project that is created should follow all of the required guidelines described 
 [HERE](ProjReqs.md){:target="_blank"} 
+
 ## Tests
 Write Tests. 
 
@@ -29,6 +30,7 @@ Your readme should contain the following:
 ## Software Requirements Doc
 1. The Software Reqs doc can live in the Web App Repo. 
 This should be the same reqs doc that you completed. 
+This should be named `Requirements.md`
 
 ## Documentation (API Only)
 The API Team should have ***clear and concise*** documenation on the API endpoints. This should 
