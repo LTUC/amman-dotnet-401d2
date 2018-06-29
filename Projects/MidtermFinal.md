@@ -2,7 +2,6 @@
 
 Both of yoru final midterm GitHub projects should contain the following:
 
-
 ## Source Code
 This is the code of your project. Inlcude the .sln file and source folders
 
@@ -24,6 +23,7 @@ Your readme should contain the following:
 1. Database Schema (clean digital drawing)
 1. WireFrames. 
 1. DB Schema breakdown/explanation
+1. Tools you used (VSTS, Visual Studio, Swagger, etc...)
 1. Contributors
 1. MIT License
 
