@@ -16,6 +16,7 @@ API if you want. This may add some value to your project.
 	- Why do you have it?
 	- Where is the request being sent?
 	- What is the request expected response?
+    - Use Summary Comments!
 
 1. Written in C#
 3. Use the MVC Architechural pattern
@@ -37,6 +38,7 @@ API if you want. This may add some value to your project.
 	- Why do you have it?
 	- Where is the request being sent?
 	- What is the request expected response?
+    - Use Summary Comments!
 
 2. Written in C#
 3. MVC architechural pattern
