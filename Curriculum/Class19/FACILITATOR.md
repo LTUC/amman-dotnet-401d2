@@ -1,4 +1,4 @@
-# Class 19
+# Class 19:
 
 ## How do I prep for today?
 

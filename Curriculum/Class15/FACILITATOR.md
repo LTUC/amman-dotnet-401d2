@@ -1,6 +1,7 @@
-# Class 15: 
+# Class 15: Career Coaching 1
 
 ## How do I prep for today?
+Career Coaching Materials.
 
 ## What changed from yesterday? 
 
