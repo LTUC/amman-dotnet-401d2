@@ -83,4 +83,4 @@ Invite the following:
 
 1. Go to the Sprints view - and move the task to "Done"
 
-1. Push to GitHub (final step of project)
+1. Push to GitHub (final step of project)[LINK HERE](https://help.github.com/articles/changing-a-remote-s-url/)
