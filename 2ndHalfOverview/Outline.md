@@ -115,6 +115,7 @@ DUE - End of Week 8 Sunday at midnight
 
 ### Wednesday
 1. Design Patterns Pt 2
+2. ML.NET
 
 ### Thursday
 1. OSS - Contribution

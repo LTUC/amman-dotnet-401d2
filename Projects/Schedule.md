@@ -36,4 +36,3 @@
 - Standup: 10:00am
 - Full Code Freeze: 10:00am
 - Presentations: TBD
-
