@@ -44,7 +44,6 @@ Invite the following:
 
 5. Under each sprint, move the tasks for each user story from "todo" to "in progress" to "done" appropriately.
 
-
 5. When you are ready to start working on a User Story
    - Open up the user story that you want to start working on...
    - Select a specific task you are going to work on first
