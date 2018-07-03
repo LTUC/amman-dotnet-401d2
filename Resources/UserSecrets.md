@@ -1,8 +1,10 @@
-# How to add User Secretes to .Net Core through Visual Studio
+# How to add User Secrets to .NET Core through Visual Studio
 
 What is User secrets? User secrets is a secure way of storing prive user information
 such as API keys, client secrets, and connection strings. Essentially anything that you 
 don't want others to know about when using your code base. 
+
+The user secrets is not uploaded to any source control. This ensures your keys do in fact stay "secret" to your local machine. 
 
 ## Enabling User Secrets
 
@@ -10,8 +12,8 @@ Your first step is to enable User Secrets in your project. To do this, follow th
 1. Right click on your project
 2. Select "Manage User Secrets"
 
- This will open up a secrets.Json file in your Visual studio. Yours will be empty, but
-all it is, is a JSOn key/value pair file. This should mimic your `appsettings.json` file.
+This will open up a secrets.Json file in your Visual studio. Yours will be empty, but
+all it is, is a JSON key/value pair file. This should mimic your `appsettings.json` file.
 
 ```
 {
