@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab : Setup your Ecom Store
 =====================================
 
 ## To Submit this Assignment

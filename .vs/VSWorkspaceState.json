@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\2ndHalfOverview",
     "\\Curriculum",
-    "\\Curriculum\\Class05",
-    "\\Curriculum\\Class06",
-    "\\Curriculum\\Class11",
-    "\\Curriculum\\Class16",
-    "\\Curriculum\\Class17",
-    "\\Curriculum\\Class18",
-    "\\Curriculum\\Class19",
-    "\\Projects"
+    "\\Curriculum\\Class08\\Resources",
+    "\\Curriculum\\Class09\\Resources",
+    "\\Curriculum\\Class10\\Resources",
+    "\\Curriculum\\Class26"
   ],
-  "SelectedNode": "\\Projects\\Schedule.md",
+  "SelectedNode": "\\Curriculum\\Class26\\LAB.md",
   "PreviewInSolutionExplorer": false
 }

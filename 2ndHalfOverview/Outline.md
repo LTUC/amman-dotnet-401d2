@@ -3,30 +3,37 @@
 ## Week 6
 
 ### Monday
-1. Introduction to Identity
-    - Setup and Creation
-    - Interfaces integration
+
+1. Setup of VSTS
+1. Interfaces integration
 
 1. Goals and Reflections
 
+#### Root User Stories
+1. As a Developer, I want to build out the skeleton of an MVC site
+2. As a Developer, I want to use Sql Server as my database
+3. As a Developer, I want to deploy my 
 
 ### Tuesday
+1. Introduction to Identity
+Enable Identity
 1. Login/Register
-2. Claims
+
 
 ### Wednesday
-1. Policies
-
+2. Claims
 1. Goals and Reflections
 
 
 ### Thursday
-1. View Components
+George
+1. Policies
+
 
 - CHECK - IN
 
 ### Friday 
-
+1. View Components
 1. Peer Review
 1. Goals and Reflections
 
