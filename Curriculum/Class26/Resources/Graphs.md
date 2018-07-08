@@ -236,7 +236,7 @@ Look at the code below to take a closer look at what is actually happening.
 This is the code for a breadth first traversal:
 
 ```csharp
-public List<Node> BreadFirst(Node root)
+public List<Node> BreadthFirst(Node root)
 {
     List<Node> order = new List<Node>();
     Queue<Node> breadth = new Queue<Node>();
