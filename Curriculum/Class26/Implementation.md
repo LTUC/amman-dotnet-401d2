@@ -8,7 +8,7 @@ Within your `Data_Structures and Algorithms` repo:
 
 ## Directions
 
-Review what Graphs are [HERE](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class14/Resources/Graphs){:target="_blank"}
+Review what Graphs are [HERE](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class26/Resources/Graphs){:target="_blank"}
 
 After you have reviewed, implement your own Graph, ***as an adjacency list*** that implements the following:
    1. AddEdge()
