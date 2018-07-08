@@ -19,6 +19,8 @@ After you have reviewed, implement your own Graph, ***as an adjacency list*** th
       - returns a collection of nodes connected to the given node
    4. Size()
       - returns the total number of nodes in the graph
+   5. BreadthFirst()
+      - Takes in a root node, and returns a collection of all the nodes visited in order
 
 
 ## Specs
@@ -40,6 +42,7 @@ In your main method:
 1. Implement `Graph`. 
 2. Add vertices to your `Graph`.
 3. Call each of the methods you created with `Console.WriteLines()` of what is going on
+4. Conduct a `BreadthFirst` traversal
 
 ## ReadMe
 
