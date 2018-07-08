@@ -96,7 +96,7 @@ and potentially end up back at itself.
 
 Here is an example of 2 acyclic graphs:
 
-![Acyclic](assets/acyclic.PNG)
+![Acyclic](assets/Acyclic.PNG)
 
 An acyclic connected graph is what we know as a **tree**. 
 
