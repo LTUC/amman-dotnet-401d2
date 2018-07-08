@@ -330,3 +330,17 @@ children (`Node B` and `Node D`). Since `Node B` is first, we notice that it has
 9. `Node F` gets popped off the stack since it has no children. 
 10. All three of the children of `Node D` have been visited so it also gets `Pop`'d off the stack
 10. Finally, `Node A` gets popped off the stack to complete the algorithm.
+
+## Real World uses of Graphs
+Graphs are extermely popular when it comes to it's uses. Here are just
+a few examples of graphs in use:
+
+1. GPS and Mapping
+2. Driving Directions
+2. Social Networks
+3. Airline Traffic 
+4. Netflix uses graphs for suggestions of products
+
+There is a lot to graphs, and a lot you can do with them. Let this be document
+be used as an introduction to graphs. There is a lot more to them then described, so start
+exploring, and have fun with them!
