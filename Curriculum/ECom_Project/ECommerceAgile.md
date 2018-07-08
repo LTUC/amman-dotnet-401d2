@@ -1,14 +1,19 @@
-# Dev Showcase
-
-
-## Goals and Reflections
+# Goals and Reflections
 Goals and reflections will take place every Monday/Wednesday/Friday
 
 The point of these goals/reflections is to work with your partner group
 and 'recap' what you completed the past couple days and set goals for what 
 you are hoping to achieve by the next Dev Showcase
 
-These reflections are done individually.
+### Goals
+
+Each Goal should contain:
+1. What user stories are going to be completed
+1. What is your ETA on each user story
+
+These goals are done individually in your team discussion board
+
+### Reflections 
 
 Each reflection should contain:
 
@@ -20,22 +25,11 @@ Each reflection should contain:
 	- If your actual was under - what do you think helped
 	- If your actual was over - why?
 
-Each Goal should contain:
-1. What user stories are going to be completed
-1. What is your ETA on each user story
 
-Recieve feedback from peers about the implementation. 
+These reflections are done individually.
 
 
-## Check-ins
 
-Thursday of Week 6 and 7 you will check-in what you have. 
-The expectation that every check-in will contain the following:
-
-1. Documentation (comments, readme, changeLog...)
-2. Deployed link to azure
-2. Updated README with current progress
-4. User story breakdown (who did what and why)
 
 
 ## Peer Review
@@ -48,5 +42,3 @@ but your partner did.
 	- How would you have done it differently?
 	- Suggestions for refactoring/optimizations
 	- Something that you learned
-
-	- How to give Constructive feedback

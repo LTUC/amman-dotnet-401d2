@@ -4,7 +4,7 @@
 
 ### Monday
 
-1. Setup of VSTS
+1. Setup of VSTS (due Tuesday at 11:59pm)
 1. Interfaces integration
 
 1. Goals
