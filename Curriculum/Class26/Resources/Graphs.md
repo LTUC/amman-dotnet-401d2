@@ -1,26 +1,26 @@
 # Graphs
 
 A graph is a non-linear data structure that can be looked at 
-as a a collection of points made up of `vertices` (or `nodes`) potentally being 
+as a a collection of points made up of `vertices` (or `nodes`) potentially being 
 connected by line segments named `edges`.
 
 Here is some common terminology used when working with Graphs"
 
-1. *Vertices* -  A vertice, also called a `Node`, is a data object that can have either zero or more adjacent elements. 
+1. *Vertices* -  A vertices, also called a `Node`, is a data object that can have either zero or more adjacent elements. 
 1. *Edge* - the connection between two `Nodes`. 
-3. *Neighbor* - nodes located next to the given vertice
+3. *Neighbor* - nodes located next to the given vertices
 4. *Degree* - The number of edges connected to a `Vertex`
 
 ## Directed vs Undirected
 
 ### Undirected Graphs
 An `Undirected Graph` is a graph where each edge is undirected or bi-directional. 
-This means that the undirected graph does not move in any particular direction.
+This means that the undirected graph does not move in any direction.
 
 For example, in the graph below, Node `C` is connected to `Node A`, `Node E` and `Node B`. 
 There are no "directions" given to point to specific vertices. The connection is bi-directional. 
 
-![UndirectedGraph](assets/UndirectedGraph.PNG)
+![Undirected Graph](assets/UndirectedGraph.PNG)
 
 The undirected graph we are looking at has 6 vertices and 7 undirected edges. 
 
@@ -32,7 +32,7 @@ Edges = {(a,c),(a,d),(b,c),(b,f),(c,e),(d,e),(e,f)}
 ### Directed Graphs (Digraph)
 
 A `Directed Graph` also called a `Digraph` is a graph
-who has every edge directed. 
+where every edge is directed. 
 
 Unlike an undirected graph, a `Digraph` has direction. Each node is directed
 at another node with a specific requirement of what node should be referenced next. 
@@ -51,7 +51,7 @@ Edges = {(a,c),(b,c),(b,f),(c,e),(d,a),(d,e)(e,c)(e,f)}
 ## Complete vs Connected vs Disconnected
 There are many different types of graphs. This depends on how connected the graphs are to other node/vertices.
 
-The three different types are completed, connected, and disoconnected. 
+The three different types are completed, connected, and disconnected. 
 
 ### Complete Graphs
 A complete graph is when all nodes are connected to all other nodes. 
@@ -59,8 +59,8 @@ A complete graph is when all nodes are connected to all other nodes.
 ![CompleteGraph](assets/CompleteGraph.PNG)
 
 Take a close look at each of the vertices in the graph above. Do you notice that 
-each vertice is actually connected to every other node on the graph? That is what makes 
-ita complete graph.
+each vertex is actually connected to every other node on the graph? That is what makes 
+it a complete graph.
 
 
 ### Connected
@@ -87,14 +87,14 @@ in a graph data structure.
 
 ## Acyclic vs Cyclic
 In addition to Undirected and Directed graphs, we also have
-acylic and cylic graphs. 
+acyclic and cyclic graphs. 
 
 ### Acyclic Graph
 An acyclic graph is a graph without cycles. 
-A cycle is when a node is able to be traversed through
+A cycle is when a node can be traversed through
 and potentially end up back at itself. 
 
-Here is an example of 2 acylic graphs:
+Here is an example of 2 acyclic graphs:
 
 ![Acyclic](assets/acyclic.PNG)
 
@@ -122,8 +122,8 @@ We will represent the following graph as both an Adjacency Matrix and an Adjacen
 
 
 ### Adjacency Matrix
-An Adjacency matrix is representeted through a 2 dimensional array.
-If there are *n* vertices, then we are looking at an *n x n* boolean matrix
+An Adjacency matrix is represented through a 2-dimensional array.
+If there are *n* vertices, then we are looking at an *n x n* Boolean matrix
  
 Each Row and column represents each vertex of the data structure. 
 The elements of both the column and the row must add up to 1 if there 
@@ -156,32 +156,32 @@ An adjacency list is the most common way to represent graphs. An
 adjacency list is a collection of linked lists or array that lists all
 of the other vertices that are connected. 
 
-Adjacency lists make it easy to view if one vertice connects to another. 
+Adjacency lists make it easy to view if one vertices connects to another. 
 
 This is what an Adjacency List looks like:
 
 ![Adjacency List](assets/AdjList.PNG)
 
 Looking at the original graph that we are representing, we can see that `Vertex A` has an edge to both `Vertex C` and `Vertex D`. 
-As a result, we will place both `Vertex C` and `Vertex D` in the adjaceny list. Just from observation, 
+As a result, we will place both `Vertex C` and `Vertex D` in the adjacency list. Just from observation, 
 we can see that we will only place the vertices that are connected in the list. 
 If there is no connection between the vertices, they are not listed. 
 
 
-Thinking about how we will implement this in code? Well, let's take a look at what the visual is telling us.
+Thinking about how we will implement this in code? Well, let's look at what the visual is telling us.
 
 1. We can visually see that we are working with a collection of some sort. The visual is depicting a *Linked List*, but you could easily
 make it an *array of arrays* if you'd like. 
-2. Each index or node (depending on the data structure you choose to represent the adjacency list) will be a vertice within the graph.
-3. Everytime you ***add an edge***, you will find the appropriate vertice in the data structure and add it to the appropriate location. 
+2. Each index or node (depending on the data structure you choose to represent the adjacency list) will be a vertex within the graph.
+3. Every time you ***add an edge***, you will find the appropriate vertices in the data structure and add it to the appropriate location. 
 
 ## Weighted Graphs
-A weighted graph is a graph with numbers assigned to it's edges. 
+A weighted graph is a graph with numbers assigned to its edges. 
 These numbers are called weights. This is what a weighted graph looks like:
 
 ![Weighted Graph](assets/weightGraph.PNG)
 
-When representing a weighted graph in a matrix,  you set the element in the 2D array
+When representing a weighted graph in a matrix, you set the element in the 2D array
 to represent the actual weight between the two paths. If there is not a connection between
 the two vertices, you can put a `0`, although it is known for some people to put the infinity sign instead.
 
@@ -189,44 +189,44 @@ Using the graph from above, here is an example of what a `weight matrix` would l
 
 ![Weighted Matrix](assets/weightMatrix.PNG)
 
-Within adjacency lists, you must include *both* the wight and the name of the adjacent vertex. 
+Within adjacency lists, you must include *both* the weight and the name of the adjacent vertex. 
 
 Here is an example of what this may look like:
 
 ![Weighted List](assets/weightList.PNG)
 
-Do you notice the differences and similiarites of a weighted adjacency list vs an unweighted? A great way
-to represent the {vertice,weight} connection is through some sort of key/value pair data structure. 
+Do you notice the differences and similarities of a weighted adjacency list vs an unweighted? A great way
+to represent the {vertices, weight} connection is through some sort of key/value pair data structure. 
 
 ## Traversals
 You will be required to traverse through a graph. The traversals
-itself are similar to those of trees. Below is a breakdown of how you would
+itself are like those of trees. Below is a breakdown of how you would
 traverse a graph.
 
 ### Breadth First
 In a breadth first traversal, you are starting at a specific vertex/node. This node must be specified when
-calling the `BreadthFirst()` method. The breadth-first traversal of a graph is similar to that of a tree, with the exception
-that graphs can have cycles. When a graph has cycles and we are trying to traverse, this leaves the possibilty 
+calling the `BreadthFirst()` method. The breadth-first traversal of a graph is like that of a tree, with the exception
+that graphs can have cycles. When a graph has cycles and we are trying to traverse, this leaves the possibility 
 to be in an infinite loop....this is bad. To prevent such behavior, we need to have some sort of flag
-that specifies if we have already visited that verticie. Upon each visit, we just set the "visited" flag from `false` to `true`. 
+that specifies if we have already visited that vertices. Upon each visit, we just set the "visited" flag from `false` to `true`. 
 
 As a refresher of what breadth first actually means here it is:
-Breadth first traversal is when you visit all of the nodes that are closest to the root as possible. From there you traverse
-outwards, level by level, until you have vistied all of the vertices/nodes. 
+Breadth first traversal is when you visit all the nodes that are closest to the root as possible. From there you traverse
+outwards, level by level, until you have visited all the vertices/nodes. 
 
 Here is what the algorithm breadth first traversal looks like:
 1. `Enqueue` the declared start node into the Queue. 
 2. Create a loop that will run while the node still has nodes present.
 3. `Dequeue` the first node from the queue
-4. if the `Dequeue`'d node has unvisited child nodes, mark the unvisited chilren as visited and re-insert them back into
+4. if the `Dequeue`'d node has unvisited child nodes, mark the unvisited children as visited and re-insert them back into
 the queue. 
 
-Let's take a look at a visual for a breadth first:
+Let's look at a visual for a breadth first:
 
 ![BreadthFirst](assets/BreadthFirst.PNG)
 
 The visual above shows the levels in which the nodes will be added to the queue. 
-You can see that since the root node is `A`,it will look the nodes that are only 1 away from the root. This is
+You can see that since the root node is `A`, it will look the nodes that are only 1 away from the root. This is
  `C`,`E`, & `B`.
 
 Next it will look at the nodes that are 2 away from the root, this is `F`, `G`, & `D`. 
@@ -267,9 +267,9 @@ Here is a breakdown of what is going on:
 2. The first thing we want to do is `Enqueue` the root
 3. Next, we enter a while loop. We want this loop to keep running until there are no more nodes in our queue. 
 4. Once we are in the while loop, we want to `Dequeue` the front node and then check to see if it has any children.
-5. if there is children of the node we are currently looking at, we want to mark each one as "visited". By marking
+5. if there are children of the node we are currently looking at, we want to mark each one as "visited". By marking
 each child node as visited, this will help us know that we have already seen that node before, and won't accidently push us into 
-an infinite loop if the graph was cyclic. In addition to marking each child node as visited, we want to place any of it's children that have not yet been visited
+an infinite loop if the graph was cyclic. In addition to marking each child node as visited, we want to place any of its children that have not yet been visited
 into the queue. 
 6.  The process will complete until the queue is empty.
 7.  Once the while loop breaks, we can then return the `order` list. This order list
@@ -292,7 +292,7 @@ The algorithm for a depth first traversal is as follows:
 2. Start a while loop while the stack is not empty
 3. `Peek` at the top node in the stack
 4. If the top node has unvisited children, mark the top node as visited, and then
-`Push` any unvisted children bsck into the stack. 
+`Push` any unvisited children back into the stack. 
 5. If the top node does not have any unvisited children, `Pop` that node off the stack
 6. repeat until the stack is empty. 
 
@@ -304,7 +304,7 @@ We will conduct a depth-first traversal on this graph:
 ![DepthFirst](assets/Depth1.PNG)
 
 1. The first thing that we are going to do is look at the root. Following
-the algorithm we descibed above, we want to take a look at all of `Node A`'s 
+the algorithm we described above, we want to look at all of `Node A`'s 
 children (`Node B` and `Node D`). Since `Node B` is first, we notice that it has not yet been visited, it then gets 
 `Pushed` into the stack. 
 2. Before looking at the rest of `Node A`'s children, we will look at the children of `Node B`. and start visiting children that haven't yet been visited.
@@ -329,4 +329,4 @@ children (`Node B` and `Node D`). Since `Node B` is first, we notice that it has
 
 9. `Node F` gets popped off the stack since it has no children. 
 10. All three of the children of `Node D` have been visited so it also gets `Pop`'d off the stack
-10. Finally, `Node A` gets popped off the stack to complete the algorithm. 
+10. Finally, `Node A` gets popped off the stack to complete the algorithm.
