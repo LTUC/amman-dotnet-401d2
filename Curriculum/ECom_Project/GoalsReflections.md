@@ -1,9 +1,9 @@
 # Goals and Reflections
 Goals and reflections will take place every Monday/Wednesday/Friday
 
-The point of these goals/reflections is to work with your partner group
+The point of these goals/reflections is to work with your partner
 and 'recap' what you completed the past couple days and set goals for what 
-you are hoping to achieve by the next Dev Showcase
+you are hoping to achieve by the next goal/reflection day
 
 ### Goals
 
@@ -28,11 +28,7 @@ Each reflection should contain:
 
 These reflections are done individually.
 
-
-
-
-
-## Peer Review
+# Peer Review
 1. Pick one or two user stories that you did not implement into the project, 
 but your partner did. 
 2. Look at how your partner implemented that feature.
