@@ -28,7 +28,9 @@ Each reflection should contain:
 
 These reflections are done individually.
 
+
 # Peer Review
+Peer reviews are done at the end of each week
 1. Pick one or two user stories that you did not implement into the project, 
 but your partner did. 
 2. Look at how your partner implemented that feature.
