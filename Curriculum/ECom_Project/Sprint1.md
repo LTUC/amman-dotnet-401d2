@@ -18,6 +18,8 @@ The instructional staff will review your current master branch in VSTS and evalu
 ## Workflow
 **For each** user story given for each milestone, you must follow the following process:
 
+**Use the VSTS Cheat Sheet as a reference on how to do each requirement**
+
 1. Create a new user story/work item for each provided user story.  
 2. Add tasks to your user story (have at least 2, but no more than 4)
 3. Approve the user story that you just created
@@ -39,7 +41,6 @@ The instructional staff will review your current master branch in VSTS and evalu
 4. As a Developer, I would like to utulize Dependency Injection when setting up my Data layer so that I can
 easily switch between production and development environments. 
 5. As a Developer, i would like to have 10 products in my database on intial launch of my site. 
-
 
 ### Milestone 2
 
@@ -83,8 +84,8 @@ easily switch between production and development environments.
 4. Admin Dashboard - 
    - Only accessible by users who hold the role of admin
    - Manage Inventory (Full CRUD)
-5. Inventory Page
-   - Shows all products in inventory
+5. Shopping Page
+   - Shows all products in inventory for users to browse
 6. Product Landing Page
    - Displays individual information about each product
 
