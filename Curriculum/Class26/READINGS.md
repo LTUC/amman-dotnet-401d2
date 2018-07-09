@@ -19,3 +19,4 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+1. What went well during project week? What didn't go well? Share with your class!

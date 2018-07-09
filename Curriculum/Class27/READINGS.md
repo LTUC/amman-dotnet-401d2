@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+![cf](http://i.imgur.com/7v5ASc8.png) Class 27: Readings
 
 ## Submission Requirements
 
@@ -19,3 +19,4 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x) {:target="_blank"} 

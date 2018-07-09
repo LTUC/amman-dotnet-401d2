@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+![cf](http://i.imgur.com/7v5ASc8.png) Class 28: Readings
 
 ## Submission Requirements
 
@@ -19,3 +19,5 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+1. [Claims-Based auth](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.1){:target="_blank"} 
+2. [Intro to Claims](https://andrewlock.net/introduction-to-authentication-with-asp-net-core/){:target="_blank"} 
