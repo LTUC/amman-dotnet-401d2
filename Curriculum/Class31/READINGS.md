@@ -19,3 +19,6 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+
+1. [Intro to View Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1){:target="_blank"} 
+1. [View Components](https://blog.mariusschulz.com/2015/11/26/view-components-in-asp-net-mvc-6){:target="_blank"}
