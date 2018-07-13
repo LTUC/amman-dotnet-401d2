@@ -35,12 +35,13 @@ The instructional staff will review your current master branch in VSTS and evalu
 ### Milestone 1:
 
 #### Sprint 1 User Stories Part 1
-1. As a Developer, I want to build out the skeleton of an MVC site with a HomeController
-2. As a Developer, I want to use Sql Server as my database
+1. As a Developer, I want to build out the skeleton of an MVC site with a Home Controller
+2. As a Developer, I want to use SQL Server as my database
 3. As a Developer, I want to deploy both my database and web app to Azure
-4. As a Developer, I would like to utulize Dependency Injection when setting up my Data layer so that I can
+4. As a Developer, I would like to utilize Dependency Injection when setting up my Data layer so that I can
 easily switch between production and development environments. 
-5. As a Developer, i would like to have 10 products in my database on intial launch of my site. 
+5. As a Developer, I would like to have 10 products in my database on initial launch of my site. 
+
 
 ### Milestone 2
 

@@ -74,8 +74,10 @@ Enable Identity
    - Create an Account
 4. Admin Panel - Only accessible by users who hold the role of Admin
    - Manage Inventory (Full CRUD)
-5. Profile Page
-    - View user specific information
+5. Shopping Page
+   - Shows all products for sale in the inventory
+6. Product Landing Page
+   - Show individual information about each product
 
 ### Shared
 - All pages should have CSS/HTML
@@ -93,9 +95,21 @@ Deployed and Functional: 10pts
 Total: 100pts
 
 ### Friday 
-1. View Components
 1. Peer Review
 1. Goals and Reflections
+
+#### Goals and Reflections
+(See Dev Showcase)
+
+#### Peer Reviews
+
+<hr />
+
+## Week 7
+
+### Monday
+1. View Components
+
 
 #### Sprint 2 User Stories Part 1
 // Add items to a Basket
@@ -108,22 +122,14 @@ Total: 100pts
 #### Goals and Reflections
 (See Dev Showcase)
 
-#### Peer Reviews
-
-<hr />
-
-## Week 7
-
-### Monday
+### Tuesday
 1. OAUTH
 
 #### Sprint 2 User Stories Part 2
 1. As a User, I would like to use at least 2 3rd party providers to login to my site
 
-#### Goals and Reflections
-(See Dev Showcase)
 
-### Tuesday
+### Wednesday
 1. SendGrid
 
 #### Sprint 2 User Stories Part 3
@@ -132,14 +138,9 @@ Total: 100pts
 3. // Create Checkout page from Basket page to complete order
 4. Create Receipt page of order confirmation of all items purchased
 
-### Wednesday
-1. Authorize.NET
 
-#### Sprint 2 User Stories Part 4
-1. As a user, I would like to use AUth.NET as my automoatic payment processing system
-2. AS a user, I would like a fake Credit card to be used for every transaction that occurs in my site. 
-3. As a user, I want to view all my previously submitted orders and items. 
-4. As an admin, I wnat to be able ato see all orders that have been submitted from the admin dashboard
+
+
  
 #### Goals and Reflections
 (See Dev Showcase)
@@ -166,6 +167,15 @@ Career Coaching
 ## Week 8
 
 ### Monday
+1. Authorize.NET
+
+#### Sprint 3 User Stories Part 1
+1. As a user, I would like to use AUth.NET as my automoatic payment processing system
+2. AS a user, I would like a fake Credit card to be used for every transaction that occurs in my site. 
+3. As a user, I want to view all my previously submitted orders and items. 
+4. As an admin, I wnat to be able ato see all orders that have been submitted from the admin dashboard
+
+### Tuesday
 1. Razor Pages
 
 #### Sprint 3 User Stories Part 1
@@ -176,14 +186,14 @@ Career Coaching
 (See Dev Showcase)
 
 
-### Tuesday
+### Wednesday
 1. Azure Blob Storage
 
 #### Sprint 3 User Stories Part 2
 1. AS a developer, I would like to utulize Azure Blob Storage to hold the images of my products
 
 
-### Wednesday
+### Thursday
 1. How HTTP Works
 2. OWASP
 
@@ -192,11 +202,6 @@ Career Coaching
 
 #### Goals and Reflections
 (See Dev Showcase)
-
-
-
-### Thursday
-1. Azure Functions
 
 
 #### Sprint 3 User Stories Part 4
@@ -211,7 +216,6 @@ Career Coaching
 
 #### Reflections
 (See Dev Showcase)
-
 
 DUE - End of Week 8 Sunday at midnight
 
