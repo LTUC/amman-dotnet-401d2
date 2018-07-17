@@ -19,3 +19,4 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [SCSS](https://docs.microsoft.com/en-us/aspnet/core/client-side/less-sass-fa?view=aspnetcore-2.1){:target="_blank"}
