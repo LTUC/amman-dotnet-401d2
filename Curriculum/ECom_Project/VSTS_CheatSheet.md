@@ -1,4 +1,4 @@
-# VSTS CheatSheep
+# VSTS Cheat Sheet
 
 The documentation on how to work with VSTS is located [HERE](https://docs.microsoft.com/en-us/vsts/git/share-your-code-in-git-vs-2017?view=vsts){:target="_blank"} 
 
