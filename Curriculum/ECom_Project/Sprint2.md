@@ -38,10 +38,11 @@ The instructional staff will review your current master branch in VSTS and evalu
 ### Milestone 1:
 
 #### Sprint 2 User Stories Part 1
+1. (Developer 1 & 2) As a user, I would like a basket to hold the products i wish to purchase. 
 1. (Developer 1) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
 2. (Developer 2) As a user, I would like to see the current items in my basket while browsing the site. 
 3. (Developer 1) As a user, I would like to have a designated basket page that will allow me to modify the items in my basket
-4. (Developer 2) As a user, i would like to quicky navgate to my basket from the home page. 
+4. (Developer 2) As a user, i would like to quickely navigate to my basket from the home page. 
 
 
 ### Milestone 2

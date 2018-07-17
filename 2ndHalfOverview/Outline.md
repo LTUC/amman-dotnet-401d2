@@ -112,12 +112,10 @@ Total: 100pts
 
 
 #### Sprint 2 User Stories Part 1
-// Add items to a Basket
-
-// View Basket from at least 2 pages of the site
-
-// View Basket page of all products added
-
+1. As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
+2. As a user, I would like to see the current items in my basket while browsing the site. 
+3. As a user, I would like to have a designated basket page that will allow me to view all the items in my basket. 
+4. As a user, i would like to quicky navgate to my basket from the home page. 
 
 #### Goals and Reflections
 (See Dev Showcase)
