@@ -48,7 +48,7 @@ The instructional staff will review your current master branch in VSTS and evalu
 ### Milestone 2
 
 #### Sprint 2 User Stories Part 2
-TBD
+TBD 
 
 ### Milestone 3
 
