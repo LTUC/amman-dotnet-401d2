@@ -48,29 +48,47 @@ The instructional staff will review your current master branch in VSTS and evalu
 ### Milestone 2
 
 #### Sprint 2 User Stories Part 2
-TBD 
+1. (Developer 1 and 2) As a user, I would like at least 2 OAUTH options of 3rd party tools to signin into or register for the ecommerce site. 
+2. (Developer 1) As a user, I would like to capture the user's email and save it after they have chosen OAUTH authentication 
+3. (Developer 2) As a user, i would like the icons of the 3rd party OAUTH options to display on the login page.
 
 ### Milestone 3
 
 #### Sprint 2 User Stories Part 3
- TBD
-
-
-### Milestone 4
-
-#### Sprint 2 User Stories Part 4
-TBD
+1. (Developer 1) As a user, i would like to complete my order through a checkout page on the site. 
+2. (Developer 1) As a user, i would like to be directed to an "order summary" page after completion of checkout. 
+3. (Developer 2) As a developer, I would like to use IEmailSender as my interface when configuraing meail functionality. 
+4. (Developer 2) AS a user, I would like an email confirmation to be sent to me after i have registered for an account on the site.
+5. (Developer 2 ) As a user, I would like a receipt of my purchases to be emailed to me after completing the checkout process.
 
 
 ## Checkin
 
-### Milestones - End of Sprint 1
-TBD
+Upon completion of this sprint, Your Ecommerc site should contain the following:
+1. Home Page
+2. Login PAge
+3. Registration Page
+4. At least 1 Shopping page to view all products
+5. Product landing pages for each product
+6. Admin Dashboard
+7. Product Page for CRUD operations
+8. Basket Page
+9. Checkout PAge
+10. Order Confirmation Page
 
 
 ### Shared
-TBD
-
+- CSS/HTML
+- Deployed to Azure
+- Your readme should contain the following:
+- Readme should contain the following:
+  - What is the product you are selling?
+  - What claims are you capturing? Why?
+  - What Policies are you enforcing? Why?
+  - What OAUTH providers did you choose
+  - Structure/Database Schema for your store DB (not identity)
+  - Explanation of your DB Schema (mostly interested in your basket/order tables)
+  - Link to your deployed website
 Total: TBD pts
 
 ### Rubric (per page)

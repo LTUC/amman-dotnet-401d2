@@ -19,3 +19,5 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [OAUTH MSFT Docs](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1){:target="_blank"}
+- [OAUTH](https://www.jerriepelser.com/blog/authenticate-oauth-aspnet-core-2){:target="_blank"}
