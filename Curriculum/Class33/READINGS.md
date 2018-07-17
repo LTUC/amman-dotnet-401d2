@@ -19,3 +19,4 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email){:target="_blank"}
