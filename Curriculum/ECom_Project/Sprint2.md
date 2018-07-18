@@ -13,6 +13,7 @@ As a team, you will submit the following into Canvas as a text entry:
     - What you did well
     - What you will do differently next sprint
 4. Do you need anything from the instructional staff?
+5. What do you want re-graded from sprint 1. (**Be Explicit**)
 
 The instructional staff will review your current master branch in VSTS and evaluate you accordingly.
 
@@ -65,18 +66,32 @@ The instructional staff will review your current master branch in VSTS and evalu
 
 ## Checkin
 
-Upon completion of this sprint, Your Ecommerc site should contain the following:
+Upon completion of this sprint, Your Ecommerce site should contain the following:
 1. Home Page
-2. Login PAge
+   - Introduction to your site
+   - Anonymous accessibility
+2. Login Page
+   - Login to an existing account
+   - Anonymous accessibility
+   - Option to login with at least two 3rd party service providers (OAUTH)
 3. Registration Page
-4. At least 1 Shopping page to view all products
-5. Product landing pages for each product
-6. Admin Dashboard
-7. Product Page for CRUD operations
-8. Basket Page
-9. Checkout PAge
-10. Order Confirmation Page
-
+   - Create an account
+4. Admin Dashboard - 
+   - Only accessible by users who hold the role of admin
+   - Manage Inventory (Full CRUD)
+5. Shopping Page
+   - Shows all products in inventory for users to browse
+6. Product Landing Page
+   - Displays individual information about each product
+7. Basket Page
+   - View all items in the basket. Allow ability to edit/remove the item.
+8. Checkout page
+   - Must be logged in/Authorized
+   - Capture user information about their order (NO Personal Identifiable information please)
+   - Transfer products from their "basket" to an "Order"
+9. Recipt/Order Confirmation Page
+   - Must be logged in/Authorized
+   - Summary of the order that the user just completed. 
 
 ### Shared
 - CSS/HTML
@@ -90,9 +105,26 @@ Upon completion of this sprint, Your Ecommerc site should contain the following:
   - Structure/Database Schema for your store DB (not identity)
   - Explanation of your DB Schema (mostly interested in your basket/order tables)
   - Link to your deployed website
-Total: TBD pts
+  
 
-### Rubric (per page)
+### Graded Requirements:
+Grades are distributed separately per student:
+
+1. View Component (Mini basket on at least 2 different pages) - 10pts
+2. OAUTH - at least two 3rd party service providers - 10pts
+3. SendGrid email integration on registration and order confirmation - 10pts
+4. Basket Page shows all current products in basket && each product landing page has an "Add to Basket" button - 10pts
+5. Checkout Page/Process exists (capture order information and then include order confirmation page) - 10pts
+6. HTML/CSS both polished from Sprint 1 and exists in new sprint 2 pages - 10pts
+7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
+9. Each Partner participated in a fair share of the work - 30 pts
+    - i.e. One partner did not only do front end while the other only did back end
+    - User stories are approx. distributed evenly between both students (roughtly, does not have to be exact)
+  
+
+Total: 100 pts
+
+### Rubric (Per requirement)
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
 
