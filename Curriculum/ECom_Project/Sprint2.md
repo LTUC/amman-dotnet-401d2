@@ -122,6 +122,10 @@ Grades are distributed separately per student:
     - User stories are approx. distributed evenly between both students (roughtly, does not have to be exact)
   
 
+**If you are missing all or part of your readme documentation,  you will lose an additional 20%**. 
+- The readme is important becasue it helps the instructional team grade your site. it is their guide/map
+to your configuration and settings of your web application. 
+
 Total: 100 pts
 
 ### Rubric (Per requirement)
