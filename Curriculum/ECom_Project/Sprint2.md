@@ -48,6 +48,7 @@ The instructional staff will review your current master branch in VSTS and evalu
 ### Milestone 2
 
 #### Sprint 2 User Stories Part 2
+1. (Developer 1) As a user, i would like my ecommerce site to support the use of external service providers to allow me to register and log into my ecommerce site. 
 1. (Developer 1 and 2) As a user, I would like at least 2 OAUTH options of 3rd party tools to signin into or register for the ecommerce site. 
 2. (Developer 1) As a user, I would like to capture the user's email and save it after they have chosen OAUTH authentication 
 3. (Developer 2) As a user, i would like the icons of the 3rd party OAUTH options to display on the login page.
