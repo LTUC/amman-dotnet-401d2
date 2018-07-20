@@ -19,3 +19,6 @@ Some ideas for how you might want to teach:
 - Construct a fill-in-the-blank worksheet for the topic
 
 ## Readings
+- [How to read Technical Documenation as fast as possible](https://www.linkedin.com/pulse/20140730081025-316694350-how-to-read-technical-docs-in-the-minimum-time-possible/){:target="_blank"} 
+- [Auth.NET](https://developer.authorize.net/){:target="_blank"} 
+- [Auth.NET Testing Guide](https://developer.authorize.net/hello_world/testing_guide/){:target="_blank"}
