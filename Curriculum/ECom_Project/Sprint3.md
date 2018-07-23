@@ -60,7 +60,7 @@ The instructional staff will review your current master branch in VSTS and evalu
     
 ### Milestone 4
 1. (Developer 1 & 2) As a developer, I want to be really happy that I am finally done with this project!
-
+    - Final submission onlly contains polish and final bug fixes (if any)
 
 
 ## Checkin
