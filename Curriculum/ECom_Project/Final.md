@@ -1,5 +1,14 @@
 # Final Ecommerce
+This is your final submisison for your Ecommerce site.
+your Final Ecommerce site must be transferred to GH with your
+history of commits. See below on how to do this.
 
+There will be no resubmits available for this Project. Keep an
+eye on the due and close date. These are final. 
+
+Focus on your product presentation for this phase. Make sure
+everything works as expected and there are no exeptions
+or broken pages. 
 
 ## Additional Content
 
