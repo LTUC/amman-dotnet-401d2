@@ -35,7 +35,7 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
 9. Recipt/Order Confirmation Page
    - Must be logged in/Authorized
    - Summary of the order that the user just completed. 
-10. Vulnerability report present in Repo
+10. Vulnerability report present in Repo ([Directions Here](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/VulnerabilityReport){:target="_blank"})
 
 ### Shared
 - CSS/HTML
@@ -52,4 +52,3 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
   - Link to your deployed website
   
 
-##
