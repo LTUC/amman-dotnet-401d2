@@ -1,5 +1,19 @@
 # Final Ecommerce
 
+## Directiosn for Deployment:
+
+
+## Additional Content
+
+In addition to the previous sprints, Please create a 
+Vulnerability report: [Directions Here](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/VulnerabilityReport){:target="_blank"}
+
+
+## VSTS to Github:
+
+
+
+## Final Submission
 Upon completion of this Project, Your Ecommerce site should contain the following:
 1. Home Page
    - Introduction to your site
@@ -35,7 +49,7 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
 9. Recipt/Order Confirmation Page
    - Must be logged in/Authorized
    - Summary of the order that the user just completed. 
-10. Vulnerability report present in Repo ([Directions Here](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/VulnerabilityReport){:target="_blank"})
+10. Vulnerability report present in Repo 
 
 ### Shared
 - CSS/HTML
