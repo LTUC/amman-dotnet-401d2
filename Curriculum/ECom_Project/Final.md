@@ -48,11 +48,16 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
 9. Recipt/Order Confirmation Page
    - Must be logged in/Authorized
    - Summary of the order that the user just completed. 
-10. Vulnerability report present in Repo 
+10. Personal Profile Page
+    - Shows user's last 5 orders (this can be either a separate razor page or a View component)
+    - Displays user information
+11. Vulnerability report present in Repo 
 
 ### Shared
 - CSS/HTML
-  - This should be polished. Make it look nice. 
+  - This should be polished. Make it look nice. ALL pages should
+  have client/ready CSS.  
+- Exception and error handling. Make sure errors appear when incorrect data is submitted
 - Deployed to Azure
 - Your readme should contain the following:
 - Readme should contain the following:
@@ -65,5 +70,6 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
   - Link to your vulnerability report
   - Link to your deployed website
   - Vulnerability Report
+  - Name of Contributors
   
 
