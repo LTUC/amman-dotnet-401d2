@@ -3,13 +3,14 @@
     "",
     "\\2ndHalfOverview",
     "\\Curriculum",
-    "\\Curriculum\\Class11",
-    "\\Curriculum\\Class12",
     "\\Curriculum\\Class26",
-    "\\Curriculum\\Class27",
-    "\\Curriculum\\Class36",
-    "\\Resources"
+    "\\Curriculum\\Class26\\Resources",
+    "\\Curriculum\\Class38\\Resources",
+    "\\Lectures\\Class35",
+    "\\Lectures\\Class36",
+    "\\Lectures\\Class37",
+    "\\Lectures\\Class39"
   ],
-  "SelectedNode": "\\Curriculum\\Class36\\FACILITATOR.md",
+  "SelectedNode": "\\Curriculum\\Class26\\Resources\\Graphs.md",
   "PreviewInSolutionExplorer": false
 }

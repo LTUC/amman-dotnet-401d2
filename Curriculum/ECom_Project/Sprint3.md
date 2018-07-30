@@ -54,11 +54,6 @@ The instructional staff will review your current master branch in VSTS and evalu
 
 ### Milestone 3
 
-#### Sprint 3 User Stories Part 3
-1. (Developer 1 & 2) As a user, I would like a report that outlines security vulnerabilities
-    - (See guidance for outlines and requirements for this user story). 
-    
-### Milestone 4
 1. (Developer 1 & 2) As a developer, I want to be really happy that I am finally done with this project!
     - Final submission will only contain polish and final bug fixes (if any)
 
@@ -124,7 +119,6 @@ Grades are distributed separately per student:
 2. Admin Page that shows last 20 orders - 10pts
 3. Personal profile page for logged in users - 10pts
 4. Order history page for each logged in  - 10pts
-5. Vulnerability report markdown located in Repo - 10pts
 6. HTML/CSS both polished from Sprint 1 and exists in new sprint 2 pages - 10pts
 7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
 9. Each Partner participated in a fair share of the work - 30 pts
@@ -136,7 +130,7 @@ Grades are distributed separately per student:
 - The readme is important becasue it helps the instructional team grade your site. it is their guide/map
 to your configuration and settings of your web application. 
 
-Total: 100 pts
+Total: 90 pts
 
 ### Rubric (Per requirement)
 ## Rubric
