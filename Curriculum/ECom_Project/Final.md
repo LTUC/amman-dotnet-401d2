@@ -1,7 +1,5 @@
 # Final Ecommerce
 
-## Directiosn for Deployment:
-
 
 ## Additional Content
 
@@ -11,6 +9,7 @@ Vulnerability report: [Directions Here](https://codefellows.github.io/code-401-d
 
 ## VSTS to Github:
 
+(Directions coming soon....)
 
 
 ## Final Submission
@@ -53,6 +52,7 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
 
 ### Shared
 - CSS/HTML
+  - This should be polished. Make it look nice. 
 - Deployed to Azure
 - Your readme should contain the following:
 - Readme should contain the following:
@@ -64,5 +64,6 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
   - Explanation of your DB Schema (mostly interested in your basket/order tables)
   - Link to your vulnerability report
   - Link to your deployed website
+  - Vulnerability Report
   
 
