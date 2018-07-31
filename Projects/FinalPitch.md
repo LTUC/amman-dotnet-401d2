@@ -44,7 +44,5 @@ Please have your top choice listed first, and second choice listed last.
 <u>Name of Project</u>
 1. What problem or pain point does it solve?
    a. Keep it high level without going into too much detail. 
-2. Front End Web App Purpose
-3. API Purpose
-4. 3rd party api integration? if so, what?
-5. Minimum MVP definition 
+2. Why is it interesting?
+3. Minimim MVP defined.
