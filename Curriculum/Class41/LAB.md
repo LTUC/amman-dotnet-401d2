@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 41: MVC 5
 =====================================
 
 ## To Submit this Assignment
@@ -11,9 +11,14 @@
 
 ## Directions
 
-## Specs
+Complete all of the stpes located in this tutorial 
+
+(Getting started all the way through adding Validation)
+[MVC 5 Tutorial](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started){:target="_blank"}
 
 ## Tests
+
+Tests are not required for this lab.
 
 ## README
 
