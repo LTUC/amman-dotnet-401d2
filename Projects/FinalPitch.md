@@ -11,7 +11,9 @@ Think up ideas of what you want to create. This can be anything within the .NET 
 Take a look at ASP.NET as a whole, Azure Congitive Services, projects that solve a problem,
 or something that just "sounds cool". 
 
-## Group Project: Pitch Ideas¶
+Project Requirements located [HERE](FinalReqs.md){:target="_blank"}.
+
+## Group Project: Pitch Ideas
 It is now time to begin preparations for your Group Project. 
 You've been given groups, so the first step for group projects is to pitch ideas.
 
