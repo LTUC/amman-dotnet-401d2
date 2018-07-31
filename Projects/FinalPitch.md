@@ -17,7 +17,6 @@ Project Requirements located [HERE](FinalReqs.md){:target="_blank"}.
 It is now time to begin preparations for your Group Project. 
 You've been given groups, so the first step for group projects is to pitch ideas.
 
-
 ## Tasks
 As a group, arrange a 30-60 minute time when you can all be in the same place. 
 Lab time is ideal for this.
