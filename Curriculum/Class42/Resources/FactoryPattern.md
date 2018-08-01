@@ -1,8 +1,88 @@
 # Factory Method Design Pattern
 
-## What is it
+## Introduction
 
-## Why do we use it
+### What is it
+The factory pattern is catagorized as a Creational Pattern.
+
+The concept behind the factory pattern is the creation of objects without exposing the creation logic.
+We utulize an interface to create an object, and let the subclasses decide which class to instantiate. 
+The creation is only done when it's required.
+
+There are 4 parts to a factory pattern:
+
+1. ***Product*** - this is an interface or abstract class for creating the objects
+2. ***Concrete Product*** - class which implements the product interface
+3. ***Creator*** - abstract class and declares the factory method, which returns an object of type *Product*
+4. ***Concrete Creator*** - The class that implemetns the Creator class adn overrides the factory method to return an instance of 
+the Concrete Product. 
+
+
+### Visual
+
+Draw out for the students the UML diagram of the factory design pattern.
+
+Provide a couple of examples:
+
+#### Vehicle Factory
+1. Product - (interface) Drive
+2. Concrete Product - Scooter, Bike
+3. Creator - Vehichle Factory (GetVehichle)
+4. Concrete Creator - Concrete Vehichle Factory (gets a scooter or bike etc...)
+
+
+#### Sandwich Factory
+1. Product - Ingrediants
+2. Concrete Product - Lettuce, Tomato, Cheese, turkey, ham
+3. Creator - Sandwich
+4. Concrete Creator - Club Sandwich, Extreme Sandwich, PBJ Sandwich
+
+
+#### Game Factory
+1. Product - IRoom
+2. Concrete Product - Magic Room
+3. Creator - Maze Game
+4. Concrete Creator - Magic Maze Room
+
+
+### Template Code:
+
+Here is the template code for a factory:
+
+```csharp
+
+interface Product
+{
+ 
+}
+ 
+class ConcreteProductA : Product
+{
+}
+ 
+class ConcreteProductB : Product
+{
+}
+ 
+abstract class Creator
+{
+ public abstract Product FactoryMethod(string type);
+}
+ 
+class ConcreteCreator : Creator
+{
+ public override Product FactoryMethod(string type)
+ {
+ switch (type)
+ {
+ case "A": return new ConcreteProductA();
+ case "B": return new ConcreteProductB();
+ default: throw new ArgumentException("Invalid type", "type");
+ }
+ }
+}
+
+````
 
 ## Demo
 1. Create a pizzaStore class
@@ -36,10 +116,11 @@
 
 ```
 
-	1. Create other pizza classes to inherit from pizzsa
+1. Create other pizza classes to inherit from pizzsa
 		1. Cheese
 		1. Pepperoni
 		1. Supreme
+
 1. Create a method that allows the ordering of pizza within the PizzaStore class
 
 
@@ -144,13 +225,14 @@ We can now craete diffetent factories for diffenet types of stores. For example:
 ### Framework for the pizza store
 Since we can have more than one pizza store, we should make the pizzastore abstract. and then change the line to
 
-<br /> `pizza = createPizza(type)` in the orderPizza method
 
-<br />
+`pizza = createPizza(type)` in the orderPizza method
+
 
 Next, create an abstract method:
 
 //this is our factory 
+
 `abstract Pizza createPizza(string type)`
 
 

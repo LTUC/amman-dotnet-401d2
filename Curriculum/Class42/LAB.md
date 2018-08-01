@@ -21,9 +21,8 @@
     4. Concrete Creator (concrete objects from the creator) - 
 - In your Program.cs file should clearly show through Console.WriteLines() that your program is functioning as requried.
 
-## Specs
-
 ## Tests
+No Tests are required. 
 
 ## README
 
