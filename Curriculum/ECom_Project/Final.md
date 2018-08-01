@@ -18,8 +18,10 @@ Vulnerability report: [Directions Here](https://codefellows.github.io/code-401-d
 
 ## VSTS to Github:
 
-(Directions coming soon....)
+Following the directions located [HERE](https://help.github.com/articles/changing-a-remote-s-url/){:target="_blank"} Redirect your URL from VSTS To Github.
+You will likely have to create a repository first before redirecting. 
 
+**NOTE**: Refer to the Switching Remote URLs from SSH to HTTPS
 
 ## Final Submission
 Upon completion of this Project, Your Ecommerce site should contain the following:
@@ -64,21 +66,45 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
 
 ### Shared
 - CSS/HTML
-  - This should be polished. Make it look nice. ALL pages should
-  have client/ready CSS.  
+  - This should be polished. Make it look nice. ALL pages should have client/ready CSS.  
 - Exception and error handling. Make sure errors appear when incorrect data is submitted
 - Deployed to Azure
 - Your readme should contain the following:
 - Readme should contain the following:
+  - Introduction to your ecommerce site
   - What is the product you are selling?
   - What claims are you capturing? Why?
   - What policies are you enforcing? Why?
   - What OAUTH providers did you choose
   - Structure/Database Schema for your store DB (not identity)
   - Explanation of your DB Schema (mostly interested in your basket/order tables)
-  - Link to your vulnerability report
   - Link to your deployed website
-  - Vulnerability Report
+  - Link and reference to your vulnerability report (should be a separate file in your repo)
   - Name of Contributors
   
 
+### Submit
+Submit into Canvas a link to your GH repo. 
+
+## Rubric
+- 105pts: Program meets all requirements described in Lab directions.
+
+	Points  | Reasoning | 
+	 ------------ | :-----------: | 
+	105       | Program runs as expected, no exceptions during execution |
+	75       | Program meets all of the  functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
+	60       | Program meets most of the functionality requirements descibed above  // Program runs/compiles, but throws exceptions during execution |
+	45       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	30       | Missing Readme Document // Readme Document does not meet standards |
+	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
+	0       | No Submission |
+
+- 45pts: Code meets industry standards
+	- These points are only awardable if you score at minimum a 75/105 on above criteria
+
+	Points  | Reasoning | 
+	 ------------ | :-----------: | 
+	45       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
+	30       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	15       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
+	0       | No Submission or incomplete submission |
