@@ -1,5 +1,12 @@
 # Group Project: Begin Wireframes & Software Requirements
 
+## User Stories
+User stories are extremely important. it gives us, as developers, guidance about what
+tasks we shoudl be working on and allows us to visually see what our client wants. 
+
+Follow the User story requirements found [HERE](UserStories){:target="_blank"}
+
+
 ## Wireframes
 It is now time to begin preparations for your Group Project. 
 The next step for group projects is to begin to generate wireframes for 
