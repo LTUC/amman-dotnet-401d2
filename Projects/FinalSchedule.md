@@ -6,7 +6,7 @@
 
 **Milestones**
 - Deployed to Azure
-- Base Skeleton plannedo ut
+- Base Skeleton of site/proejct created
 
 ### Tuesday:
 - Standup: 10:00am
