@@ -32,7 +32,7 @@
 - Code
 - HTML/CSS
 - Tests (~90%)
-- Documenation
+- Documentation
 
 
 ### Friday
