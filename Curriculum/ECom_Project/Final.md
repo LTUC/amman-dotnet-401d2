@@ -87,24 +87,5 @@ Upon completion of this Project, Your Ecommerce site should contain the followin
 Submit into Canvas a link to your GH repo. 
 
 ## Rubric
-- 105pts: Program meets all requirements described in Lab directions.
-
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	105       | Program runs as expected, no exceptions during execution |
-	75       | Program meets all of the  functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
-	60       | Program meets most of the functionality requirements descibed above  // Program runs/compiles, but throws exceptions during execution |
-	45       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	30       | Missing Readme Document // Readme Document does not meet standards |
-	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
-	0       | No Submission |
-
-- 45pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 75/105 on above criteria
-
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	45       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	30       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
-	15       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
-	0       | No Submission or incomplete submission |
+- 150 pts. 
+- View Rubric in Canvas Assignment. 
