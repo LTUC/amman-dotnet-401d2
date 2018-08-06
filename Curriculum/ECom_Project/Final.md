@@ -88,4 +88,4 @@ Submit into Canvas a link to your GH repo.
 
 ## Rubric
 - 150 pts. 
-- View Rubric in Canvas Assignment. 
+- View Rubric in Canvas Assignment
