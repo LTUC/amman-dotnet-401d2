@@ -16,18 +16,22 @@ a lot to review on top of everything else that is being taught this day. So just
 You do not have to go over each generation in depth, if you think it is too much to digest. 
 	1. Garbage Collection Fundamentals (in GarbageCollection.md)
 
-The Lab will require some knowledge on multi-dimensional arrays and potentially Jagged Arrays. 
 
 ## What changed from yesterday? 
-- nothing. We are switiching gears to OOP principles. 
+- N/A. Today is the first day of "Classs". Many questions that may have
+come up through the week should now be answered, or at least slightly answered
 
 ## What might students struggle with today? 
 - Properties are a hard concept for many to grasp. Usually the response is ("why not just use variables and fields") 
-- Constructors are a bit confusing as well, they want to call and use them like methods. Just enforce constructors as an object requirement. 
+- Constructors are a bit confusing as well, they want to call and use them like methods. Just enforce constructors as an object requirements used to "construct" the 
+object they are requesting. 
 - Value Types and Reference types can be difficult to grasp along with the Stack and Heap.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- n/a
+- The Lab will require some knowledge on multi-dimensional arrays and potentially Jagged Arrays. 
+
+in the prework, students were instructed to practice their use of 2D and jagged arrays.
+if they have questions about this, make sure that they refer back to theri previous resources. 
 
 ## General comments
 - Through the week we have been alluding to the concept of classes but never actually talked about them..now we get to. 

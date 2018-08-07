@@ -12,3 +12,5 @@ This Code 401 Facilitator's Guide includes an overview of what each day's topic 
 * **Minor Fixes:** (Grammar, Error correction, etc.) Clone a fork of the repository locally, and, upon pushing your changes to your fork, submit a Pull Request for peer review.
 
 *Issues and Pull Requests are currently reviewed weekly*
+
+

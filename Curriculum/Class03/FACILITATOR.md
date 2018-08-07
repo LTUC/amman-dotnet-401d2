@@ -21,16 +21,18 @@ The biggest challenge that they get is file location and accessing it. This can 
 encourage the studetns to have the file located on the root of their project. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- Studetns find this lab to be exceptionally difficult. I found that i have had to extend the deadline on the lab
-because they get too hung upo n the overall problem domain. They usually have fun with the lab, but it is 
-usually a challenge for them to put everything they  have learned thus far into one full application. 
+- Students find this lab to be exceptionally difficult. I found that i have had to extend the deadline on the lab
+because they get too hung up on the overall problem domain. They usually have fun with the lab, but it is 
+usually a challenge for them to put everything they have learned thus far into one full application. 
 
 This is a great lab to help them practice their debugging skills. Here are some tips:
 1. Make sure they are using breakpoints
-1. When asking a question, they can't just say "it does'nt work".Determine "what" doesn't work. Have them break
+1. When asking a question, they can't just say "it doesn't work". Determine "what" doesn't work. Have them break
 down the specific method, and code line that isn't giving them what they want. This is difficult for most students. 
+1. When planning out their program, students can use this opportunity on "how" to approach the problem. What needs to 
+created first, then how do you build out from there?
 
 ## General comments
 - This is a great lecture to incorporate the exception handling into. pull together evertything from the past 2 days into the lecture
-and show the students how everything works together. This is their first big project, and they really get a chance to practice the fundamentals before
+and show the students how everything works together. This is their first big project, and can be equivelant to a "test" and they really get a chance to practice the fundamentals before
 moving into Classes and OOP on days 4 and 5. 
