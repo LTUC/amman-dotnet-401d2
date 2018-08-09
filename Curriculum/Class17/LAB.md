@@ -11,52 +11,12 @@
 
 ## Directions
 
-Starting from an **empty MVC template**, Create an API that allows a user to Create individual ToDo tasks, and put them in a ToDoList. <br /><br/>
-
-1. Watch this video with Daniel Roth [Here](https://binged.it/2v2AXFe){:target="_blank"}  (~60 min)
-1. Read the tutorial located [Here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api){:target="_blank"} 
-
-Using both of the resources above, create an API in .NET Core that conducts the standard HTTP verbs (Get,Put,Post,Delete) for a "To-Do" list.
-
-Your "To-Do" list will consist of indivudal tasks that can be saved into the database and extracted as needed. You should also have the ability to 
-get all of the tasks by a simple get request. 
-<br />
-
-*Use Postman (in addition to unit tests) to test your endpoints.* 
-
-**Use a sql database instead of an in-memory database that is referenced in the tutorial**
-
-**Deploy your API to Azure, provide a published link in your readme.**
 
 ### Application Components
-You application should contiain the following *at minimum*:
-1. 2 Controllers with CRUD endpoints (You may use an empty API controller template for this if you wish)
-1. 2 Models (ToDo and ToDoList)
-1. 2 database tables (one database table for each model)
 
-We can make the assumption that a ToDo can **only be a part of one ToDoList**
-
-The following actions must also be true:
-
-1. when accessing the Get action on `\api\ToDo`, it should output all the individual ToDos
-1. when accessing the Get action on `\api\ToDo\{id}`, it should output the details of the individual tToDo AND the ToDoList it is a part of.
-1. when accessing the Get action on `\api\ToDoList`, it should output all the ToDoLists
-1. when accessing the Get action on `\api\ToDoList\{id}`, it should output the individual ToDo list AND the individual tasks associated with it
-1. If you choose to delete a ToDoList, it should delete the list AND all of the associated ToDos associated
 
 ### Tests
 
-Test the following functionality:
-1. Create a ToDO item
-2. Read a TODO Item
-3. Update a ToDo item
-4. Delete a ToDo Item
-5. Create a List
-6. Read a List
-7. Update a List
-8. Delete a list
-9. Add Items to a List
-10. Remove items from a list
 
 ## README
 

@@ -11,9 +11,22 @@
 
 ## Directions
 
+Solve 3 the following code challenge with recursion.
+
+1. Reverse a String
+2. write a method to generate a string of n asterisks. 
+Then write a recursive function to generate triangles 
+pointing different directions
+(head, tail, middle)
+3. Traverse a Linked List using recursion
+4. Determine if a string is a palindrome
+5. Pascals Triangle
+
 ## Specs
+TBD
 
 ## Tests
+TBD
 
 ## README
 

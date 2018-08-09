@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 19: Using your API 
 =====================================
 
 ## To Submit this Assignment
@@ -10,10 +10,44 @@
 - Include a `README.md` (contents described below)
 
 ## Directions
+**read all the directions (including the Readme section), in it's entirety before completing** <br />
+Get creative, and surf the Bing.<br />
+You will create an **empty** MVC web application that will consume a the deployed API that you created for lab 17.
+  - You *must* deploy this API onto your azure account. 
+
+using  `HttpClient` class, consume the external API using the following example as a baseline. 
+
+```csharp
+	using (var client = new HttpClient())
+	{
+		// add the appropriate properties on top of the client base address.
+		client.BaseAddress = new Uri("http://mysite.com");
+
+		//the .Result is important for us to extract the result of the response from the call
+		var response = client.GetAsync("/api/route/id").Result;
+
+		if (response.EnsureSuccessStatusCode().IsSuccessStatusCode)
+		{
+			var stringResult = await response.Content.ReadAsStringAsync();
+		}
+	}
+
+```
+
+Deploy your application to Azure. Provide your deployed link in your readme. 
+<br />
+
 
 ## Specs
+Upon Completion, the following should be true:
+
+1. Front-end interface where the user can navigate and display the ToDo items and lists from your API
+1. Your MVC APP does not need a database.
+1. Your API and your web application must compliment each other
+	- You must responsibly and intuitively integrate the api in with web application.  
 
 ## Tests
+No Tests required
 
 ## README
 

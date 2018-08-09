@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 18: Using your API 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 18: Create an API
 =====================================
 
 ## To Submit this Assignment
@@ -10,48 +10,57 @@
 - Include a `README.md` (contents described below)
 
 ## Directions
-**read all the directions (including the Readme section), in it's entirety before completing** <br />
-Get creative, and surf the Bing.<br />
-You will create an **empty** MVC web application that will consume a the deployed API that you created for lab 17.
-  - You *must* deploy this API onto your azure account. 
 
-using  `HttpClient` class, consume the external API using the following example as a baseline. 
+Starting from an **empty MVC template**, Create an API that allows a user to Create individual ToDo tasks, and put them in a ToDoList. <br /><br/>
 
-```csharp
-	using (var client = new HttpClient())
-	{
-		// add the appropriate properties on top of the client base address.
-		client.BaseAddress = new Uri("http://mysite.com");
+1. Watch this video with Daniel Roth [Here](https://binged.it/2v2AXFe){:target="_blank"}  (~60 min)
+1. Read the tutorial located [Here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api){:target="_blank"} 
 
-		//the .Result is important for us to extract the result of the response from the call
-		var response = client.GetAsync("/api/route/id").Result;
+Using both of the resources above, create an API in .NET Core that conducts the standard HTTP verbs (Get,Put,Post,Delete) for a "To-Do" list.
 
-		if (response.EnsureSuccessStatusCode().IsSuccessStatusCode)
-		{
-			var stringResult = await response.Content.ReadAsStringAsync();
-		}
-	}
-
-```
-
-Deploy your application to Azure. Provide your deployed link in your readme. 
+Your "To-Do" list will consist of indivudal tasks that can be saved into the database and extracted as needed. You should also have the ability to 
+get all of the tasks by a simple get request. 
 <br />
 
+*Use Postman (in addition to unit tests) to test your endpoints.* 
 
-## Specs
-Upon Completion, the following should be true:
+**Use a sql database instead of an in-memory database that is referenced in the tutorial**
 
-1. Front-end interface where the user can navigate and display the ToDo items and lists from your API
-1. Your MVC APP does not need a database.
-1. Your API and your web application must compliment each other
-	- You must responsibly and intuitively integrate the api in with web application.  
+**Deploy your API to Azure, provide a published link in your readme.**
 
-## Tests
-No Tests required
+### Application Components
+You application should contiain the following *at minimum*:
+1. 2 Controllers with CRUD endpoints (You may use an empty API controller template for this if you wish)
+1. 2 Models (ToDo and ToDoList)
+1. 2 database tables (one database table for each model)
+
+We can make the assumption that a ToDo can **only be a part of one ToDoList**
+
+The following actions must also be true:
+
+1. when accessing the Get action on `\api\ToDo`, it should output all the individual ToDos
+1. when accessing the Get action on `\api\ToDo\{id}`, it should output the details of the individual tToDo AND the ToDoList it is a part of.
+1. when accessing the Get action on `\api\ToDoList`, it should output all the ToDoLists
+1. when accessing the Get action on `\api\ToDoList\{id}`, it should output the individual ToDo list AND the individual tasks associated with it
+1. If you choose to delete a ToDoList, it should delete the list AND all of the associated ToDos associated
+
+### Tests
+
+Test the following functionality:
+1. Create a ToDO item
+2. Read a TODO Item
+3. Update a ToDo item
+4. Delete a ToDo Item
+5. Create a List
+6. Read a List
+7. Update a List
+8. Delete a list
+9. Add Items to a List
+10. Remove items from a list
 
 ## README
 
-**A Readme is a requirement. No Readme == No Grade.** <br />
+**A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
@@ -67,8 +76,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
-
+- [Reference](https://github.com/noffle/art-of-readme) {:target="_blank"} 
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
@@ -92,3 +100,5 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
+
+
