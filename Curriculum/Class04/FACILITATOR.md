@@ -22,7 +22,8 @@ You do not have to go over each generation in depth, if you think it is too much
 come up through the week should now be answered, or at least slightly answered
 
 ## What might students struggle with today? 
-- Properties are a hard concept for many to grasp. Usually the response is ("why not just use variables and fields") 
+- Properties are a hard concept for many to grasp. Usually the response is 
+("why not just use variables and fields") 
 - Constructors are a bit confusing as well, they want to call and use them like methods. Just enforce constructors as an object requirements used to "construct" the 
 object they are requesting. 
 - Value Types and Reference types can be difficult to grasp along with the Stack and Heap.
@@ -31,7 +32,10 @@ object they are requesting.
 - The Lab will require some knowledge on multi-dimensional arrays and potentially Jagged Arrays. 
 
 in the prework, students were instructed to practice their use of 2D and jagged arrays.
-if they have questions about this, make sure that they refer back to theri previous resources. 
+if they have questions about this, make sure that they refer back to the previous resources. 
+
+The Lab contains starter code. This will give them a look of what a console app with many classes could potentially look like.
+Provide this for them after the lecture and before they begin the lab
 
 ## General comments
 - Through the week we have been alluding to the concept of classes but never actually talked about them..now we get to. 

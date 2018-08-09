@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\2ndHalfOverview",
     "\\Curriculum",
     "\\Curriculum\\Class01",
     "\\Curriculum\\Class02",
@@ -9,9 +8,8 @@
     "\\Curriculum\\Class04",
     "\\Curriculum\\Class05",
     "\\Curriculum\\Class06",
-    "\\Curriculum\\Class07",
-    "\\Curriculum\\Class08"
+    "\\Curriculum\\Class07"
   ],
-  "SelectedNode": "\\Curriculum\\Class08\\READINGS.md",
+  "SelectedNode": "\\Curriculum\\README.MD",
   "PreviewInSolutionExplorer": false
 }

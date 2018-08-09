@@ -4,29 +4,27 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
+- Download the starter code of Tic Tac Toe from the class repo
 - write your code
 - push to your repository
 - submit a link to your Repo in canvas
 - Include a `README.md` (contents described below)
 
 ## Directions
-In a new Console Applicaiton within Visual Studio, create a Tic-Tac-Toe game. 
+Building off of your starter code provided from the class repo, complete the `Game` class. 
 
-Create your program to follow the traditional Tic-Tac-Toe rules. This includes 
-(but not limited to...):
-This game will allow for 2 players to play side by side (on the same screen/board) and alternate
-between selecting their positions on the board. 
+The two sections to focus on are:
 
-A winner is determined when either Player 1 or Player 2 has succesfully placed 3 of their 
-markers either in a row diagonally horizontally or vertically. 
+- `Play()` : Build out game logic
+- `CheckForWinner()`: Complete winner logic
 
-When the game is over, ask the user if they want to play again. 
+Look for the `TODO` comments within the `Game` Class for 
+your tasks to complete. 
 
-If the user says yes -> start a new game
-if the user says no -> terminate the program
 
-## Program Specifications
-Create a game board that looks like this:
+
+## Guidance
+A Game board, to a user, looks like this:
 
 ```
 |1||2||3|
@@ -50,8 +48,7 @@ Make it known to the user that
 their turn is over and it's time for the next players turn. You will have both play on 
 the same board. 
 
- Here are a couple of ideas for different classes that you can have. You are not required to 
- have these classes, but it may be a good start for guidance...
+ Here is an outline for different classes that you have:
 - Game Board (this should construct/display the board after every turn with it's new state)
 - Player (This will hold the players information such as name or marker, in addition to any 
 actions that user may take)
