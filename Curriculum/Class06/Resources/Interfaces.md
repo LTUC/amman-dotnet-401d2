@@ -1,10 +1,10 @@
 # Interfaces
 
 Interfaces tell a class what it can do. This means that when you visually see an interface **implemented** onto 
-a class, that means that the class you are looking at has an obligation to fullfill the requirements listed in the
+a class, that means that the class you are looking at has an obligation to fulfill the requirements listed in the
 interface. 
 
-The obligation that the class has extends out to all of the properties and methods that the interface defines. When implemetning
+The obligation that the class has extends out to all of the properties and methods that the interface defines. When implementing
 an interface, the class must, no exceptions, implement each of those items defined in the interface. If you choose not too...the 
 compiler will error and you will be unable to continue. 
 
@@ -12,11 +12,11 @@ compiler will error and you will be unable to continue.
 ## Why use an interface?
 
 Interfaces are traditionally used on more than one class, or better yet, have the ability to be used on more than one class. Interfaces
-tell a class what it can do, versus inheriteance, which tells a class what it has. 
+tell a class what it can do, versus inheritance, which tells a class what it has. 
 
-Traditionally, you use interfaces to allow functionality on a class on external compents that depend on the methods being called within the interface.
+Traditionally, you use interfaces to allow functionality on a class on external components that depend on the methods being called within the interface.
 
-Most commonly, in the development world, when working across teams, your team will recieve an interface that must be implemented in your code. 
+Most commonly, in the development world, when working across teams, your team will receive an interface that must be implemented in your code. 
 The interface defines what exactly this other team is expecting, and it is your job to define the functionality for each of those methods and properties. 
 
 1. why do you need them?
@@ -53,7 +53,7 @@ The interface defines what exactly this other team is expecting, and it is your 
 - A new reference is created using the variable ICatAttack.
 - This reference can point to an instance of **any class that implements ICatAttack**
 
-1. You can create a new object and assign it straightto an interface reference variable:
+1. You can create a new object and assign it straight to an interface reference variable:
 
 ```csharp
 	IKittyCat = kitcat = new Kitty();
@@ -87,10 +87,10 @@ Imagine you also have a `Person` class. This `Person` class has the ability to d
 Because driving is really just a general action we don't/shouldn't have specific methods in the `Person` class that instructs them how to drive, instead we should 
 just have a method/action that takes in a parameter requiring something that is drivable. 
 
-We accomoplish this by creating an interface named `IDrive`. This specific interface will include methods such as `Start()`, `Brake()`, `Stop()` etc...
-We will require any class that implements `IDrive` to incldue this functionality so that when a Person wants to drive a car, they can just call the Car.Start() method to start the automobile.
+We accomplish this by creating an interface named `IDrive`. This specific interface will include methods such as `Start()`, `Brake()`, `Stop()` etc...
+We will require any class that implements `IDrive` to include this functionality so that when a Person wants to drive a car, they can just call the Car.Start() method to start the automobile.
 The person no longer has to guess if the automobile they are trying to drive has the correct functionality. It can be assumed that it has exactly what it needs to because
 of the obligation and contract that interfaces have with the classes they are implemented into. 
 
-The alternative to this is to force the person have a specific DriveCar method that takes in (Car Car), which means if we have a boat that is drivabe,
+The alternative to this is to force the person have a specific DriveCar method that takes in (Car Car), which means if we have a boat that is drivable,
 we would have to create another method that is called DriveBoat that takes in a (Boat boat).

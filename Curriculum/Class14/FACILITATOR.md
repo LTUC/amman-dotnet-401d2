@@ -1,7 +1,7 @@
 # Class 14: Azure Deployment
 
 ## How do I prep for today?
-Become familiar with Azure Portal and how to deploy an applicaiton and a database to
+Become familiar with Azure Portal and how to deploy an application and a database to
 Azure. 
 
 Resources:
