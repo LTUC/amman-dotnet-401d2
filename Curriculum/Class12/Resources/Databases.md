@@ -15,10 +15,8 @@
 
 
 ## Representation
-
 We can represent a relational database through a database schema. 
-
-
+	
 ### Database Schema
 
 ![Exmample of a Database Schema]()

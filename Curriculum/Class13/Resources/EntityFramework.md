@@ -7,7 +7,6 @@
 3. What is a Code First Migration
 
 
-
 ## Review MVC Lifecycle
 
 
