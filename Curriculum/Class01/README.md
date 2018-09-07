@@ -42,7 +42,7 @@ Introduce yourself to your classmates, and come to class ready to learn!
   features (although C# is technically independent of the CLR).
   * The CLR is the runtime for executing managed code. C# is one of several managed languages that get compiled into managed code. 
   Managed code is packaged into an assembly, in the form of either an executable file (an .exe) or a library (a .dll), 
-  along with type information, or metadata.
+  along with type information, or meta-data.
   * Managed code is represented in intermediate language or IL. When the CLR loads an assembly, it converts the IL into the 
   native code of the machine, such as x86. This conversion is done by the CLR’s JIT (just-in-time) compiler. An assembly retains 
   almost all of the original source language constructs, which makes it easy to inspect and even generate code dynamically.
@@ -88,13 +88,13 @@ There are many different types of exceptions included in the C# language. Here i
 1. **NotImpelemtedException** - Indicates that a method has not yet been implemented. 
 1. **IndexOutOfRangeException** - Indicates that an index outside the range of a collection has been referenced
 1. **InvalidCastException** -  Indicates that a cast has been attempted on the incorrect object type
-1. **FormatException** - Text was not in the coorect format when converting it to something else.
-1. **NotSupportedException** - An action was attemtped that was not supported.
+1. **FormatException** - Text was not in the correct format when converting it to something else.
+1. **NotSupportedException** - An action was attempted that was not supported.
 1. **NullReferenceException** - Reference type was null, instead of an object
-1. **StackOverflowException** - Indicates that there is no more room left on the callstack. 
+1. **StackOverflowException** - Indicates that there is no more room left on the call stack. 
 1. **DivideByZeroException** - You can't divide by zero....
 1. **ArgumentNullException** - A required non-null argument provided was null.
-1. **ArguementOutOfRangeException** - Arguement contained a value that was out of range then what it was expecting. 
+1. **ArguementOutOfRangeException** - Argument contained a value that was out of range then what it was expecting. 
 
 
 ### Debugging

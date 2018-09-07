@@ -94,11 +94,20 @@ Breaking down polymorphism...poly means many. morphism means to change. Putting 
 solidifies the ability to change certain methods and properties as needed or required. 
 
 Polymorphism usually targets methods specifically. There are 3 different types of methods:
-1. concrete
-2. abstract
-3. virtual
+1. concrete - cannot be overridden, contains functionality for the class
+2. abstract - just a method signature, and required to override
+3. virtual - optional to override
 
-The rules with each: 
+In addition to being able to override behavior from base classes....Polymorphism also allows us the ability to 
+see if a class `is a` another type. For example, Is a cat an Animal? If Cat is derived from Animal, then the answer is yes. 
 
 
 ## Encapsulation
+
+Encapsulation is C#'s way of access control. This allows us to determine what external classes have access to specific methods
+and properties. 
+
+Encapsulation breaks down to 3 most common access modifiers:
+1. Public - Everyone has access to it
+2. Private - only the class it is located in has access to it
+3. Protected - only the class itself and it's derived classes have access

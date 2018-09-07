@@ -13,15 +13,11 @@ namespace Lab04_TicTacToe.Classes
 		public string Marker { get; set; }
 
 		/// <summary>
-		/// Flag to determine if the user is up for play
+		/// Flag to determine if it is the user's turn
 		/// </summary>
 		public bool IsTurn { get; set; }
 
-		/// <summary>
-		/// Retrieve the position on the gam board from the user
-		/// </summary>
-		/// <param name="board">the current state of the game board</param>
-		/// <returns>Position reference from gameboard</returns>
+
 		public Position GetPosition(Board board)
 		{
 			Position desiredCoordinate = null;
@@ -30,17 +26,12 @@ namespace Lab04_TicTacToe.Classes
 				Console.WriteLine("Please select a location");
 				Int32.TryParse(Console.ReadLine(), out int position);
 				desiredCoordinate = PositionForNumber(position);
-				//if (desiredCoordinate != null) return desiredCoordinate;
 			}
 			return desiredCoordinate;
 
 		}
 
-		/// <summary>
-		/// Each position coorolates with a specific index of the gameboard
-		/// </summary>
-		/// <param name="position">the position that the user has selected</param>
-		/// <returns>chosen positions index of the gameboard</returns>
+
 		public static Position PositionForNumber(int position)
 		{
 			switch (position)
@@ -59,10 +50,7 @@ namespace Lab04_TicTacToe.Classes
 			}
 		}
 
-		/// <summary>
-		/// Player's ability to make a move in the game
-		/// </summary>
-		/// <param name="board">Gameboard</param>
+	
 		public void TakeTurn(Board board)
 		{
 			IsTurn = true;

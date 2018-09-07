@@ -32,7 +32,7 @@ Big O is the calculation of efficiency of time and space when an algorithm runs
 1. Big O-Mega
 	- Best case efficiency
 2. Big Theta
-	- Average case efficiencey
+	- Average case efficiency
 3. Big O
 	- worst case
 

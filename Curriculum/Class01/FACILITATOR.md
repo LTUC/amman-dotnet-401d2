@@ -18,7 +18,7 @@ that they were instructed to create.
 - Look in the resources folder to find the topics that should be covered in this lecture The topics that should be covered are:
 
 1. Introduction to C# and ASP.NET (30 min)
-2. Different types in the langauge (30 min)
+2. Different types in the language (30 min)
 	- Types Lecture located [here]("../Resources/Types.md")
 3. Exception Handling (90 min) 
 	- Lecture outline [here]("../Resources/ExceptionHandling.md")
@@ -31,8 +31,8 @@ that they were instructed to create.
 
 ## What might students struggle with today
 - students often pick up `Try/Catch/Finally` pretty quickly. Often they have a hard time understanding `throw` statements.
-- This may also be the student's first exposure to a statically typed langauge, so be prepared for some questions regarding the differences
-between JavaScript and C# (or any OOP langauge).
+- This may also be the student's first exposure to a statically typed language, so be prepared for some questions regarding the differences
+between JavaScript and C# (or any OOP language).
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 This can be a long day, there is a lot to cover to get them rolling and most of this content is brand new. 

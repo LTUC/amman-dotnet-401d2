@@ -1,6 +1,7 @@
 # Class 05
 
 ## How do I prep for today?
+
 1. Introduce OOP
 1. Inheritance 
 2. Abstraction
@@ -8,7 +9,7 @@
 4. Encapsulation
 
 Included in the DemoCode is an example of a diagram that you can draw with the class as you 
-go over the OOP prinicples. There is also the codebase when converting the diagram to Visual Studio. 
+go over the OOP principles. There is also the codebase when converting the diagram to Visual Studio. 
 
 
 ### Code Implementation
@@ -20,12 +21,12 @@ Refer to Implementation.md for weekend student assignment
 N/A
 
 ## What might students struggle with today? 
-- The actual reasoning and implemenation behind the OOP principles usually go prettty smoothly. I have found 
+- The actual reasoning and implementation behind the OOP principles usually go pretty smoothly. I have found 
 breaking it down by each principle and showing how it looks in both the diagram and the VS code helps concrete the idea/concept.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 - n/a
 
 ## General comments
-This is a pretty fun day, and a great opporutnity for the students to engage. I usually encourage class participation
-during thid day as we "build out" our parties. 
+This is a pretty fun day, and a great opportunity for the students to engage. I usually encourage class participation
+during this day as we "build out" our parties. 

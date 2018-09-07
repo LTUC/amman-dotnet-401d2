@@ -17,7 +17,7 @@ The *O* stands for Output
 
 ### Writing a File
 There will be times, where we will need to write to an external file. This can be done
-by using the SystemIO.File.WriteAllText() method. This Method takes in 2 arguements
+by using the SystemIO.File.WriteAllText() method. This Method takes in 2 arguments
 first being the file path, and the second the string/information to write. 
 
 ```csharp
@@ -25,7 +25,7 @@ string myInfo = "I want to write all of this to a file";
 File.WriteAllText("/path/to/file.txt", myInfo);
 ```
 
-You can also send an arary to the `File.WriteAllLines()` method to write from an araay.
+You can also send an array to the `File.WriteAllLines()` method to write from an array.
 When you write from an array, each index is it's own line. 
 
 ```csharp
@@ -40,15 +40,15 @@ File.WriteAllText("/path/to/file.txt",myArray);
 ### Reading a File
 
 If you want to read contents of a file into a program, you can use the `File.ReadAllText()` method.
-This method takes in just one arguement, the file that you wish to consuem. 
+This method takes in just one argument, the file that you wish to consume. 
 
 ```csharp
 string myFile = File.ReadAllText("/path/to/file.txt");
 
 ```
 
-If you want to read all the contents of a file into an arary, you can do so with 
-the `File.ReadAllLines()` method. This also only takes in one arguement, the file that you wish to consume. 
+If you want to read all the contents of a file into an array, you can do so with 
+the `File.ReadAllLines()` method. This also only takes in one argument, the file that you wish to consume. 
 
 ```csharp
 string[] myFile = File.ReadAllLines("/path/to/file.txt");
@@ -113,7 +113,7 @@ Let's look at the stream a little closer....
 perform actions such as opening, closing, and flushing (clearing) the stream. 
 
 - Most streams flow in only one direction. Each stream is either an input or output stream. 
-- You may even open several streams at once to read a file (input stream), seperate the 
+- You may even open several streams at once to read a file (input stream), separate the 
 data from valid/invalid (2 output streams), 
 
 1. *StreamReader* - Text input from a file
@@ -200,7 +200,7 @@ used for either input or output to a file.
 1. **Arrays & Reading File Contents**
    1. Why do we need to use arrays?
    1. `Split()` your file
-       1. Read by lihe vs splitting by a deliminator
+       1. Read by line vs splitting by a deliminator
           1. ``char[] delimiterChars = { ' ', ',', '.', ':', '\t' };``
           
                 ```csharp
@@ -221,7 +221,7 @@ used for either input or output to a file.
 There are alternative options then to write to text based files. Within the File Class, you have the ability to write to a binary file. 
 When the content is in binary format, you will be unable to open it up in a text editor and comprehend the data. 
 
-The advantages of binary files is that they take up less space then text based files and the file is is not readable by humans, allowing your data
+The advantages of binary files is that they take up less space then text based files and the file is not readable by humans, allowing your data
  to be semi-protected. 
 
 ### Writing a file
@@ -245,7 +245,7 @@ We must remember to close the writer when you are completed.
 
 ### Reading a file
 
-When reading in a binary file, you have the abiliyt to use many "Read...." methods. 
+When reading in a binary file, you have the ability to use many "Read...." methods. 
 Below we are reading in a string or an int. 
 
 We must remember to close the reader when completed. 

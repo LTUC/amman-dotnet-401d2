@@ -41,7 +41,7 @@ user secret ID line added in the propertyGroup section.
 <UserSecretsId>ID goes here</UserSecretsId>
 ```
 
-This is how indivudual secret files are found and associated with projects
+This is how individual secret files are found and associated with projects
 You are going to have to add one more line to the csproj file in the same ItemGroup 
 as your AspNetCore
 

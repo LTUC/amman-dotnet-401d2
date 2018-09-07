@@ -8,10 +8,11 @@ Both are stored on computers RAM
        1. Holds value types
        1. Self-maintaining -takes care of it's own memory management
 	   1. static memory allocation
+
     1. What is the heap?
 	   1. Dynamic memory allocation 
 	   1. have their memory allocated at runtime. Accessing is a bit slower than on the stack.
-	   1. heap size is only limited by the size of virutal memory.
+	   1. heap size is only limited by the size of virtual memory.
 	   1. No dependencies on one another and can always be randomly accessed. 
        1. Imagine it like a bucket with a lot of 'things' in it
        1. Keeps track of objects / reference types / *sometimes* Value Types

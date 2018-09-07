@@ -29,7 +29,7 @@ This bank of words should be editable by Josie so that she may view, add, and de
 she wishes. She expects the game to have a simple user interface that is easy to navigate. 
 
 Using everything you've learned up to this point, create a word guess
-game that will meet all of the requiements described in the user story above. 
+game that will meet all of the requirements described in the user story above. 
 
 
 ## Program Components
@@ -57,7 +57,7 @@ Be sure to test the following functionality:
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the Contains() method. 
 	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
-2. To ramdonly pick a number between 0 -> N, use the Random Class.
+2. To randomly pick a number between 0 -> N, use the Random Class.
 	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
 
 

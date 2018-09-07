@@ -22,7 +22,7 @@
 - Constructors are created by default, we have the ability to add more if needed
 
 ### Object Initializers
-- We can initalize an object on creation
+- We can initialize an object on creation
 
 ### Keyword Static
 - What does static mean?

@@ -22,13 +22,13 @@
     - Recreate FizzBuzz using the TDD Red/Green/Refactor approach
 
 ## What changed from yesterday? 
-- They should be comfortable with the langauge at this point at a beginner's level. Today we introduce Testing, the expectation moving 
+- They should be comfortable with the language at this point at a beginner's level. Today we introduce Testing, the expectation moving 
 forward is that they implement testing into their code everyday.
 
 ## What might students struggle with today? 
 - Students may struggle with the concept of Test Driven Development.
-- Many of the students don't fully know how to break down problems from a large abstract probelem domain to smaller components
-- You will find yourself encouraging students to "think simplier", eventually after a few tries, they get the hang of it.
+- Many of the students don't fully know how to break down problems from a large abstract problem domain to smaller components
+- You will find yourself encouraging students to "think simpler", eventually after a few tries, they get the hang of it.
 - 
 
 ## What bugs, issues, or surprises have come up in the past for this class?

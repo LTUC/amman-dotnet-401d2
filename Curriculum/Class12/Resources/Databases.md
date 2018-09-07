@@ -19,7 +19,7 @@ We can represent a relational database through a database schema.
 	
 ### Database Schema
 
-![Exmample of a Database Schema]()
+It may be helpful to pull up this article and show the example DB Schema [HERE](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)
 
 ### Relations
 	1. 1:1
@@ -47,4 +47,3 @@ We can represent a relational database through a database schema.
 
 Together, In class, create a database schema given a problem domain
 
-#### University Enrollment System

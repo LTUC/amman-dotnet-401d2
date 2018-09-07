@@ -7,20 +7,20 @@
 
 ### Procedural Programming (imperative programming)
 Procedural programming is a list of instructions that tells program what to do step by step.
-Procedural relies on a series of computational steps to be carried to completion. This is usualy done telling 
+Procedural relies on a series of computational steps to be carried to completion. This is usuallly done telling 
 the program what to do first at the beginning, and what to do at the end. it is a bit more intuitive and simple
 to read from top to bottom. Procedural programming languages are also called "top down "
 
 ### What is Object Oriented Programming?
 Object oriented programming is mimicking real world objects in code. 
-Everything in C# is essentaily a class, and we can instantiate objects from 
+Everything in C# is essentially a class, and we can instantiate objects from 
 classes that we can manage at a smaller level. 
 
 OOP objects are created to interact with other elements of the program regardless of where the command
 is being called from. 
 
 ## OOP Principles
-Obejct Oriented Programming (OOP) principles are the fundamentals that help us define objects and use them
+Object Oriented Programming (OOP) principles are the fundamentals that help us define objects and use them
 within our system. 
 
 ### Inheritance
@@ -34,13 +34,12 @@ which generally all other classes inherit as their parent.
 
 #### Single Inheritance
 When you do single inheritance, you are only passing on one class's behavior onto a derived class. This is 
-the most common type of inheritance amongst programming languages. (C# and Java only support single inheritance)
+the most common type of inheritance amongst programming languages. (C# only support single inheritance)
 
-#### Inheritance vs Composition
 
 ### Abstraction
 
-in C#/Jave OOP - Abstract classes are not supposed to be instantiated. They are only supposed to be used as a template that can be
+in OOP - Abstract classes are not supposed to be instantiated. They are only supposed to be used as a template that can be
 derived further down for more clarity. 
 
 ### Polymorphism

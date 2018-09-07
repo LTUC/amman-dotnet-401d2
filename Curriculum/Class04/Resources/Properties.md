@@ -27,7 +27,7 @@ class Person
     }
 
     Person person = new Person();
-    person.Name = "Joe";  // the set accessor is invoked here                
+    person.Name = "Joe";  // the set accessors is invoked here                
 		 
     System.Console.Write(person.Name);  // the get accessor is invoked here
 ```

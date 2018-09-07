@@ -17,10 +17,10 @@ This memory has three things:
 	1. You don't need to free up memory manually while developing your application
 	2. It allocates objects on the managed heap efficiently
 	3. When objects are no longer used then it will reclaim those objects by clearing their memory
-	and keeps the memory available for future allocaitons
+	and keeps the memory available for future allocations
 	4. Managed objects automatically get clean content to start with, so their
 	constructors do not have to initialize every data field.
-	5. It provides memory safely by making sure that an object cannot use the contnet
+	5. It provides memory safely by making sure that an object cannot use the content
 	of another object.
 
 
@@ -40,19 +40,19 @@ garbage collection occurs
 
 #### Generation Second(1)
 1. In Gen 1, objects have a second chance space
-2. Obejcts are short-lived but survive Gen 0 collection
+2. Objects are short-lived but survive Gen 0 collection
 3. Gen 1 collections are also quick because of its assoc. heap is also small
 4. The first two heaps remain small because the objects are either collected or promoted to
 the next generation
 
 #### Generation Third(2)
 1. Gen 2, all long objects are lived and its heap can grow very large
-2. the objects in this genertion can survive a long time and there is no next gernation heap
+2. the objects in this generation can survive a long time and there is no next generation heap
 to further promote objects. 
 3. The GC has an additional heap for large objects know as Large Object Heap(LOH)
 4. LOH is reserved for objects that are 85k bytes or greater
-5. Large obejcts are not allocated to the gernational heaps, but directly to the LOH
-6. Generateion 2 and LOH collects can take noticable
+5. Large objects are not allocated to the generational heaps, but directly to the LOH
+6. Generation 2 and LOH collects can take noticeable
 time for programs that have run for a long time or operate over large amounts of data. 
 
 

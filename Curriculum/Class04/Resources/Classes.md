@@ -2,7 +2,7 @@
 
 ## What is Object Oriented Programming?
 Object oriented programming is mimicking real world objects in code. 
-Everything in C# is essentaily a class, and we can instantiate objects from classes that we can manage at a smaller level. 
+Everything in C# is essentially a class, and we can instantiate objects from classes that we can manage at a smaller level. 
 
 ## What are Classes?
 A class is a blueprint for a specific type or category of object. 
@@ -10,8 +10,8 @@ This means that the class will outline what exactly each object will have in reg
 properties, methods, and general behavior. 
 
 ## Nested Classes
-Nested classes are a posiblility. typically Nested classes are used to help restrict and scope classes.
-Public nested classes are not recomended. You should only use them when declaring private nested classes. 
+Nested classes are a possibility. typically Nested classes are used to help restrict and scope classes.
+Public nested classes are not recommended. You should only use them when declaring private nested classes. 
 
 
 ### What is an Object?

@@ -5,7 +5,7 @@
 C# offers many built in 'types' that allow you to identify what exactly you are 
 working with in regards to an object, string, integer, boolean etc..
 
-Types are extrememly important in C# because everything essentially has a type. You have the ability to use 
+Types are extremely important in C# because everything essentially has a type. You have the ability to use 
 a built in type, or create your own. As you get more familiar with the language, you begin to identify and use different
 types as needed a bit more naturally then when you start out. 
 
@@ -84,7 +84,7 @@ The cool thing about type inference is that the compiler is smart enough, given 
 
 ### Why use type inference?
 A lot of developers prefer type inference because it's quicker to type and leaving the type declaration on the compiler can sometimes reduce the decision making process.
-On contrary, many developers also feel that the usage of `var` reduces the code clarity and can cause some confusion with developers teamon what types are being used.  
+On contrary, many developers also feel that the usage of `var` reduces the code clarity and can cause some confusion with developer's team on what types are being used.  
 
 ### Example:
 `var greeting = "Hello World";`
@@ -92,7 +92,7 @@ On contrary, many developers also feel that the usage of `var` reduces the code 
 <hr />
 
 ## Casting
-Sometimes it is required to do mathamatical equations of two different types of variables. When this happens it is usually helpful to have the ability to change
+Sometimes it is required to do mathematical equations of two different types of variables. When this happens it is usually helpful to have the ability to change
 the original types to different types quickly (for example: changing a short to an int). This can be done through ***typecasting***. 
 
 There are two different types of typecasting:

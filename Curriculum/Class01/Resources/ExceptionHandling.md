@@ -15,13 +15,13 @@ custom class from the `Exception` class if you wish. For now, let's just look at
 1. **NotImpelemtedException** - Indicates that a method has not yet been implemented. 
 1. **IndexOutOfRangeException** - Indicates that an index outside the range of a collection has been referenced
 1. **InvalidCastException** -  Indicates that a cast has been attempted on the incorrect object type
-1. **FormatException** - Text was not in the coorect format when converting it to something else.
-1. **NotSupportedException** - An action was attemtped that was not supported.
+1. **FormatException** - Text was not in the correct format when converting it to something else.
+1. **NotSupportedException** - An action was attempted that was not supported.
 1. **NullReferenceException** - Reference type was null, instead of an object
-1. **StackOverflowException** - Indicates that there is no more room left on the callstack. 
+1. **StackOverflowException** - Indicates that there is no more room left on the call stack. 
 1. **DivideByZeroException** - You can't divide by zero....
 1. **ArgumentNullException** - A required non-null argument provided was null.
-1. **ArguementOutOfRangeException** - Arguement contained a value that was out of range then what it was expecting. 
+1. **ArguementOutOfRangeException** - Argument contained a value that was out of range then what it was expecting. 
 
 ### Try
 
@@ -29,10 +29,10 @@ custom class from the `Exception` class if you wish. For now, let's just look at
  Each try should be accompanied by a 
  `catch` . 
 
-If there is no catch, and an exception is thrown, the CLR throws an unhandled error and stops the execution of the program. 
-Generally, it is not reccomended to not have a catch block, although you can have an empty catch block or a catch block without an exception. 
+If there is no catch, and an exception is thrown, the CLR throws an unhanded error and stops the execution of the program. 
+Generally, it is not recommended to not have a catch block, although you can have an empty catch block or a catch block without an exception. 
 
-Here is an example of what a `try` block woukd look like:
+Here is an example of what a `try` block would look like:
 
 ```csharp
 		string number = "twenty";
@@ -56,7 +56,7 @@ the first valid/applicable catch block it finds.
 
 If you are unsure of what type of exception will be thrown, there is a very general exception called `Exception` that you can use. If you choose to use
 this exception class as your choice in your `catch` block, make sure it is the very last catch block because that block will always run if an exception is caught. 
-By having it at the bottom, this allows for a more valid/approraite exception to potentially be run instead. 
+By having it at the bottom, this allows for a more valid/appropriate exception to potentially be run instead. 
 
 Here is an example:
 
@@ -125,14 +125,14 @@ you want an exception to be thrown, given a certain condition being met.
     }
 
 ```
-When your method throws an exception, that method is not required to handle it. If it chooses, it can just pass it back up the callstack and let the preceeding methods
-handle it. The exception will keep moving up the callstack until it either finds a catch statement OR reaches the last point. 
+When your method throws an exception, that method is not required to handle it. If it chooses, it can just pass it back up the call stack and let the preceeding methods
+handle it. The exception will keep moving up the call stack until it either finds a catch statement OR reaches the last point. 
 
 ### CallStack
 
-The Callstack ...
+The call stack ...
 
-- What is the Callstack?
+- What is the call stack?
 - Exception Handling outside of methods
 
 ```
@@ -170,7 +170,7 @@ private static void MethodA()
 	MethodB();
 	
 	}catch{
-		WriteLine("Caugh in MethodA");
+		WriteLine("Caught in MethodA");
 		throw;
 	}
 }
@@ -182,14 +182,14 @@ private static void MethodB()
 	MethodB();
 	
 	}catch{
-		WriteLine("Caugh in MethodB");
+		WriteLine("Caught in MethodB");
 		throw;
 	}
 }
 
 private static void MethodC()
 {
-		WriteLine("Caugh in MethodC");
+		WriteLine("Caught in MethodC");
 		throw(new Exception("This is from Method C");
 }
 ```
