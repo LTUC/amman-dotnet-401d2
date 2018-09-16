@@ -17,6 +17,12 @@ that they were instructed to create.
 - The Readme.md for this directory is what should be student facing in the class repo.
 - Look in the resources folder to find the topics that should be covered in this lecture The topics that should be covered are:
 
+Before Class:
+1. If you are an afternoon lecture time, give the students the [Calculator Assignment](Calculator.md) before class. This assignment should
+be graded based off of weather or not a healthy attempt was made. It should only take them 2-3 hours to complete. 
+
+Lecture Outline:
+
 1. Introduction to C# and ASP.NET (30 min)
 2. Different types in the language (30 min)
 	- Types Lecture located [here]("../Resources/Types.md")

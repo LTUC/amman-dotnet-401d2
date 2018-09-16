@@ -13,15 +13,11 @@
 ## Directions
 Building off of your starter code provided from the class repo, complete the `Game` class. 
 
-The two sections to focus on are:
+Find the `TODO`s in the code(Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code)
 
-- `Play()` : Build out game logic
-- `CheckForWinner()`: Complete winner logic
-
-Look for the `TODO` comments within the `Game` Class for 
-your tasks to complete. 
-
-
+In addition to completing the TODOs, add summery comments above all of the methods that do not currently have summary comments. Be 
+sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
+returns in the appropriate xml tags. 
 
 ## Guidance
 A Game board, to a user, looks like this:
@@ -95,7 +91,7 @@ Review/research these resources to assist you in the construction of your progra
 Have tests written for the following functionality:
 1. Given a gameboard, Test for winners (at least 3)
 2. Test that there is a switch in players between turns
-3. Confirm that the position the player inputs coorolates to the correct index of the array
+3. Confirm that the position the player inputs correlates to the correct index of the array
 4. One other "unique" test of your own
 
 ## README

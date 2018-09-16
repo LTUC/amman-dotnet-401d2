@@ -61,10 +61,12 @@ The interface defines what exactly this other team is expecting, and it is your 
 
 1. "is" Keyword
 ```csharp
+
 if(x is Kitty)
 {
 //Logic here
 };
+
 ```
 
 ### Interface Properties
