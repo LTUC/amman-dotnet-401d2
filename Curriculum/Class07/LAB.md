@@ -4,28 +4,50 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
-Create a custom generic collection named `Deck<T>`.
-Your Generic collection should hold Cards. (You will need to create a custom Card class) <br />
-Create an Enum to hold the different card suites (Hearts, Diamonds, Spades, Clubs)
-The methods within your Deck<T> class should contain at minimum:
-1. Add
-2. Remove
-3. Shuffle
-	- The shuffle logic will randomize the index of each of the items in the generic Deck<T> object
+- Create a custom generic collection named `Deck<T>`.
+- Your Generic collection should hold Cards. (You will need to create a custom Card class)
+- Create an Enum to hold the different card suites (Hearts, Diamonds, Spades, Clubs)
+- The methods within your Deck<T> class should contain at minimum:
+	1. Add
+	2. Remove
+	3. Shuffle
+		- The shuffle logic will randomize the index of each of the items in the generic Deck<T> object
+
+- When running your application, it should activate a console that outputs each of the 
+cards added to the deck, information about what card was removed, and then proof it is gone 
+without any direct code manipulation from the grader. 
+
+Possible example below:
+
+```
+The cards in your deck are:
+Ace, K Hearts, Q Diamonds, 10 Spades, 6 Hearts.....
+
+Removing K Hearts
+
+Cards left: 
+Ace, Q Diamonds, 10 Spades, 6 Hearts.....
+
+```
+
 
 Your `Program.cs` Main method should demonstrate:
-1. the instantiation of the generic collection. 
-2. the instantiation of at least 15 cards with values
-3. Adding and removing cards frm the Deck<T>
-4. Proof that the shuffling method workds 
-	- Have a method in your `Program` class named `Deal` that brings in the Deck. ouput the cards, shuffle, then output the cards again. 
-5. Use a Foreach loop on your created Deck, and output each of the cards to the console. 
+1. The instantiation of the generic collection. 
+2. The instantiation of at least 15 cards with values
+3. Adding and removing cards from the Deck<T>
+4. Proof that the shuffling method works 
+	- Have a method in your `Program` class named `Deal` that brings in the Deck. output the cards, shuffle, then output the cards again. 
+5. Use a `foreach` loop on your created Deck, and output each of the cards to the console. 
 
 ## Tests
 Your tests should cover the following functionality:
@@ -33,7 +55,7 @@ Your tests should cover the following functionality:
 1. Getter/Setters of your properties from your `Card` class
 1. Remove a card from your deck that exists
 1. Remove a card from your deck that does not exist
-1. Cards can be shuffled
+1. Cards can be shuffled (this is a bit tricky but get creative. It doesn't have to be perfect)
 
 ## README
 
@@ -62,8 +84,8 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
 	2       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
@@ -73,7 +95,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	3       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |

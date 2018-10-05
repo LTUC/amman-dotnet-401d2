@@ -4,9 +4,13 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -67,7 +71,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables naming are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	3       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |

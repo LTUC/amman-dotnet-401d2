@@ -2,15 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class12",
-    "\\Curriculum\\Class12\\Resources",
-    "\\Curriculum\\Class13",
-    "\\Curriculum\\Class13\\Resources",
+    "\\Curriculum\\Class00",
+    "\\Curriculum\\Class01",
+    "\\Curriculum\\Class01\\Resources",
+    "\\Curriculum\\Class05",
+    "\\Curriculum\\Class05\\Resources",
     "\\Curriculum\\Class14",
-    "\\Curriculum\\Class14\\Resources",
     "\\Curriculum\\Class15",
-    "\\Curriculum\\Class16"
+    "\\Curriculum\\Class18",
+    "\\Curriculum\\Class19",
+    "\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class12\\Resources\\Databases.md",
+  "SelectedNode": "\\Curriculum\\Class01\\Resources\\KickoffDSLecture.md",
   "PreviewInSolutionExplorer": false
 }

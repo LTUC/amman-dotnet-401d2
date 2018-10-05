@@ -4,9 +4,13 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -14,8 +18,8 @@
 - Using all 4 of the Object Oriented Principles (OOPs): 
 		- Build out the hierarchical class structure of a zoo within Visual Studio and a digital diagram. 
 		- There should be at least 3 layers of inheritance with at least 6 different types of animals. 
-	- Prove that the OOP principles are being used by returning strings as neccesary to prove that a 
-	methods were propertly implemented or inherited.
+	- Prove that the OOP principles are being used by returning strings as necessary to prove that a 
+	methods were property implemented or inherited.
 		- Examples include: `Eat()` `Sleep()` `Sound()` etc... 
 		- You are allowed to use these example methods, along with others not listed
 	- Include the following labels:
@@ -38,14 +42,14 @@
 - Your (digital) drawing of your zoo diagram should be clearly labeled
 <br />
 *NOTE*: You are not required to be scientifically correct with your animal names. You will not be fact checked.
-You do not need to label your animals anything more complicated than (Mammel, Reptile, Cat, Bird, etc....)
+You do not need to label your animals anything more complicated than (Mammal, Reptile, Cat, Bird, etc....)
 
 
 ## Example
-Please refer to the included diagram and code base as an example of the expectation. 
+Please refer to the in-class diagram and code base as an example of the expectation. 
 
 ## Test
-1. Test that each of your animals exhibit the appropriate behavior given to them from a base class.
+1. Test that each of your concrete animals exhibit the at least 2 appropriate behaviors given to them from a base class.
 
 
 ## README

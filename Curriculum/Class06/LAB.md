@@ -2,11 +2,14 @@
 =====================================
 
 ## To Submit this Assignment
-- Create a new branch off of your Lab 5 repo on your personal GitHub account
-- write your code
-- push to your repository
-- Merge your branches
-- submit a link to your Repo in canvas
+- Building off of your repo from Lab 5:
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -16,6 +19,10 @@
 	- Have at least one class implement more than one interface
 - Test your code with Unit testing
 - Label interfaces as `<interface>`
+
+- When running your application, it should output each of the concrete animals and one 
+behavior that it has inherited without any direct code manipulation
+
 
 ## Tests
 Test the site for the following functionality
@@ -43,20 +50,19 @@ Add the following to your current readme from Lab 5/Part 1:
 	 ------------ | :-----------: | 
 	14       | Program runs as expected, no exceptions during execution |
 	10       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	8       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	6       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	8       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	6       | Program missing most of the functionality requirements described above // Program runs/compiles |
 	4       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
 - 6pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 5/7 on above criteria
+	- These points are only awardable if you score at minimum a 10/14 on above criteria
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	6       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	4       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	6       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
+	4       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
 	2       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
-
 

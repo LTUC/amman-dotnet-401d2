@@ -4,9 +4,13 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -25,8 +29,10 @@
 	- Exception Handling. Implement `try`, `catch`, `finally` and a `throw` within your program.
 - A few things to keep in mind:
 	- Make sure the user can't go below a zero balance
-	- You cannot unit test console outputs or readlines. 
+	- You cannot unit test console `WriteLine` or `Readline`s. 
 	- Make sure your methods are just returning values and not reading input from the console. 
+
+- When running your application, it should activate the user interface without any direct code manipulation
 
 - **Stay within scope of the what we have learned so far in the class.**
 	- if we have not officially learned the concept you are trying to implement, then don't use it. 
@@ -71,8 +77,8 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
 	2       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
@@ -82,7 +88,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	3       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |

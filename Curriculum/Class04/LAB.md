@@ -2,20 +2,26 @@
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Download the starter code of Tic Tac Toe from the class repo
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- If you have not done so already, clone the class repo
+- Be sure to `pull` for updated content
+- Copy the starter code in class 04 to a newly created git repo (`cp -r location/of/startercode/. location/of/new/git/repo) 
+(**Don't forget about the "dot" at the end of code source**)
+- Do an `initial commit` of the starter code
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
 Building off of your starter code provided from the class repo, complete the `Game` class. 
 
-Find the `TODO`s in the code(Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code)
+Find the `TODO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code)
 
-In addition to completing the TODOs, add summery comments above all of the methods that do not currently have summary comments. Be 
+In addition to completing the TODOs, add summary comments above all of the methods that do not currently have summary comments. Be 
 sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
 returns in the appropriate xml tags. 
 
@@ -54,6 +60,7 @@ Be sure to check for a winner after each turn. Be aware that it is possible to h
 if no winner can be determined and all 
 marks on the board are occupied. 
 
+
 Stay within scope of this project. Please only use concepts and resources that we have covered 
 so far in previous labs/lectures/assigned prework. 
 If you are unsure if it is within scope, please ask a TA or instructor.
@@ -89,7 +96,7 @@ Review/research these resources to assist you in the construction of your progra
 
 ## Tests
 Have tests written for the following functionality:
-1. Given a gameboard, Test for winners (at least 3)
+1. Given a game board, Test for winners (at least 3)
 2. Test that there is a switch in players between turns
 3. Confirm that the position the player inputs correlates to the correct index of the array
 4. One other "unique" test of your own
@@ -121,18 +128,18 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
 	2       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
 - 3pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 5/7 on above criteria
-
+	- These points are only awarded if you score at minimum a 5/7 on above criteria
+	
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	3       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |

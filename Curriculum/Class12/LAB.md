@@ -2,9 +2,16 @@
 =====================================
 
 ## To Submit this Assignment
-- This assignment is conducted through a Canvas Quiz. 
-- Review and answer each question within the quiz to complete your lab. 
-- This quiz is not timed, Unlimited retakes, and is worth 10pts. 
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
+- Include a `README.md` (contents described below)
 
 ## Directions
 Using your SQL Server and SQL Server Manager Studio, import and connect to the

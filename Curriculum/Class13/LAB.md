@@ -4,9 +4,13 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -14,13 +18,13 @@
 You are responsible for creating a student enrollment system for a school for the school administration. We can assume that 
 only admins will be accessing this site, so no need for authorization/authentication. Here are the requirements.
 
-1. Students can only be registerd for one class at a time. 
+1. Students can only be registered for one class at a time. 
 1. the administration should be able to view all the students enrolled in a specific course. 
 1. View all students enrolled all at once and the class they are registered for
 1. View Course information independently. 
 1. Remove specific students
 1. Remove courses
-1. Seach for specific students
+1. Search for specific students
 1. Search for courses
 1. Edit a student's profile
 1. Edit a course's information

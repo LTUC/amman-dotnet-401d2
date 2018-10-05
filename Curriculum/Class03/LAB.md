@@ -4,9 +4,13 @@
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -18,10 +22,8 @@ as a developer, to interpret these directions and
 create a program based on what is stated below.
 
 Josie Cat has requested that a "Word Guess Game" be built. The main idea of the game is 
-she must guess what a mystery word is by inputting 
- (1) letter at a time.  The game should save all of her guesses (both correct and incorrect) 
- throughout each session of the game,
-along with the ability to show her how many letters out of the word she has guessed correctly. 
+she must guess what a mystery word is by inputting (1) letter at a time.  The game should save all of her guesses (both correct and incorrect) 
+ throughout each session of the game, along with the ability to show her how many letters out of the word she has guessed correctly. 
 
 Each time a new game session starts, the mystery word chosen should come from an external text 
 file that randomly selects one of the words listed. 
@@ -40,24 +42,28 @@ game that will meet all of the requirements described in the user story above.
     - If they guess a correct letter, display that letter in the console for them to refer back to when making guesses (i.e. C _ T S )
 	- Your program does not need to be case sensitive. 
     - Errors should be handled through Exception handling
-    - You may use any shortcuts or 'helper' methods in this project. Do not create external classes to accomplish this task. Stay within scope, you may use the the methods/classes listed below if desired.
+    - You may use any shortcuts or 'helper' methods in this project (Excluding LINQ). 
+	- Do not create external classes to accomplish this task.
+	- Stay within scope, you may use the methods/classes listed below if desired.
 	- Once the game is completed, the user should be presented with the option to "Play again" (a new random word is generated), or "Exit" (the program terminates)
 	- the user should only be allowed to guess only 1 letter at a time. Do not make it so that they can input the whole alphabet and get the answer. 
+	
+- When running your application, it should activate the user interface without any direct code manipulation
 
 
 ## Tests
 Be sure to test the following functionality:
 1. Create a file
 2. Read a file
-3. update a file
+3. Update a file
 4. Delete a fie
-5. letter can be properly guessed
-
+5. Letter can be properly guessed
+6. Word can be properly guessed
 
 ## Additional Resources
-1. To check if a character or a subset exists in a string, use the Contains() method. 
+1. To check if a character or a subset exists in a string, use the `Contains()` method. 
 	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
-2. To randomly pick a number between 0 -> N, use the Random Class.
+2. To randomly pick a number between 0 - n, use the `Random` Class.
 	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
 
 
@@ -98,8 +104,8 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
 	2       | Missing Readme Document // Readme Document does not meet standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
@@ -109,7 +115,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	3       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
