@@ -10,8 +10,6 @@ of an acceptable quality.
 
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
-## Readi
-
 ## Readings
 - [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes){:target="_blank"} 
 - [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors){:target="_blank"} 

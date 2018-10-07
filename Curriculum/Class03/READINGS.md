@@ -10,7 +10,6 @@ of an acceptable quality.
 
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
-## Readi
 
 ## Readings
 1. [File and Stream I/O](https://docs.microsoft.com/en-us/dotnet/standard/io/index){:target="_blank"} 

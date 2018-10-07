@@ -10,7 +10,6 @@ of an acceptable quality.
 
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
-## Readi
 
 ## Readings
 

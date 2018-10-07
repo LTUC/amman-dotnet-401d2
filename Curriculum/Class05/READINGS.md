@@ -10,8 +10,6 @@ of an acceptable quality.
 
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
-## Readi
-
 ## Readings
 
 - [Inheritance](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance){:target="_blank"} 

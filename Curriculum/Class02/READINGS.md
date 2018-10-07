@@ -11,8 +11,6 @@ of an acceptable quality.
 
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
-## Readi
-
 ## Readings
 1. [XUnit Documentation](http://xunit.github.io/#documentation){:target="_blank"} 
 2. [Art of Readme](https://github.com/noffle/art-of-readme){:target="_blank"} 
