@@ -5,10 +5,10 @@
 When an application or a program encounters a problem/error, the C# CLR has the ability to package up that error 
 and put into something called an Exception.
 
-Typically, when an exception gets thrown, the rest of that method does not get run, instead the catch block is triggered, and the finally block (if present) finsihes out the 
-execution of the program. 
-The C# language comes with many built in exceptions, but you are not bound to those exception, you actually have the ability to create your own Exceptions by deriving the 
-custom class from the `Exception` class if you wish. For now, let's just look at the built in exceptions. 
+Typically, when an exception gets thrown, the rest of that method does not get run, instead the catch block is triggered, and the finally block (if present) finishes
+out the execution of the program. 
+The C# language comes with many built in exceptions, but you are not bound to those exception, you actually have the ability to create your own Exceptions by 
+deriving the custom class from the `Exception` class if you wish. For now, let's just look at the built in exceptions. 
 
 ## Different types of Exceptions:
 

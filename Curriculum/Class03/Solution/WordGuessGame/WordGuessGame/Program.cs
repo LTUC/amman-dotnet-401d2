@@ -183,6 +183,7 @@ namespace WordGuessGame
             {
                 Console.Write(t);
             }
+
             Console.WriteLine();
 
             bool solved = false;

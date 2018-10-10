@@ -29,7 +29,8 @@ namespace XUnitTestProject1
         [InlineData(2, "2")]
         [InlineData(4, "4")]
 
-        public void NumberTests(int value, string expectedResult)
+
+		public void NumberTests(int value, string expectedResult)
         {
             //we don't set value.ToString(), to close to implementation
             Assert.Equal(expectedResult, FizzBuzz.Convert(value));

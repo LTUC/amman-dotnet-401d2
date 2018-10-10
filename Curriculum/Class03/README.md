@@ -12,7 +12,7 @@
  - What is it
  - Why do we use it
 
- 1. Writing a file
+#### Writing a file
 
 ```csharp
 string myInfo = "I want to write all of this to a file";
@@ -26,23 +26,21 @@ myArray[0] = "My first line of information";
 myArray[1] = "My second line of information";
 
 File.WriteAllText("/path/to/file.txt",myArray);
-
 ```
 
- 2. Reading a file
+#### Reading a file
 
  ```csharp
 string[] myFile = File.ReadAllLines("/path/to/file.txt");
-
 ```
 
 ```csharp
 string myFile = File.ReadAllText("/path/to/file.txt");
-
 ```
 
- 3. Creating a file
- 4. Deleting a file
+#### Creating a file
+
+#### Deleting a file
 
 
 ## File Stream

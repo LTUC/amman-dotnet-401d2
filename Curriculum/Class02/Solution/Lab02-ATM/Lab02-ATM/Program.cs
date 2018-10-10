@@ -12,7 +12,7 @@ namespace Lab02_ATM
         // The ATM should have tests that cover all of the external, non-void methods. 
         //REMEMBER: you cannot test console.writelines..so plan accordingly. 
 
-       public static double Balance = 5000;
+        public static double Balance = 5000;
 
         static void Main()
         {
@@ -78,6 +78,8 @@ namespace Lab02_ATM
             }
 
         }
+
+
 
         public static string Withdraw(double amount)
         {

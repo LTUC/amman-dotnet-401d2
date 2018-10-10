@@ -21,6 +21,7 @@
     - Main method
 	- external methods- (at least 3 non-void return types)
 		- Have different return types!
+	- At least one try/catch/finally implementation
 - When running your application, it should activate the game without any direct code manipulation
 
 	

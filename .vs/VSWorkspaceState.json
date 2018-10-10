@@ -2,16 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class00",
     "\\Curriculum\\Class01",
+    "\\Curriculum\\Class01\\DemoCode",
     "\\Curriculum\\Class01\\Resources",
-    "\\Curriculum\\Class05",
-    "\\Curriculum\\Class05\\Resources",
-    "\\Curriculum\\Class14",
-    "\\Curriculum\\Class15",
-    "\\Curriculum\\Class18",
-    "\\Curriculum\\Class19",
-    "\\Resources"
+    "\\Curriculum\\Class02",
+    "\\Curriculum\\Class02\\Solution\\Lab02-ATM",
+    "\\Curriculum\\Class03",
+    "\\Curriculum\\Class04",
+    "\\Curriculum\\Class07",
+    "\\Curriculum\\Class07\\Resources",
+    "\\Curriculum\\Class08",
+    "\\Curriculum\\Class08\\Resources"
   ],
   "SelectedNode": "\\Curriculum\\Class01\\Resources\\KickoffDSLecture.md",
   "PreviewInSolutionExplorer": false
