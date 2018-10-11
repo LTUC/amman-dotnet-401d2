@@ -49,6 +49,21 @@ game that will meet all of the requirements described in the user story above.
 	
 - When running your application, it should activate the user interface without any direct code manipulation
 
+## Breakdown
+This lab will test and practice your analytic and problem breakdown skills. Look at the **base functionality** first, and then build from there. I will give you the first few (suggested) steps, and see if you can continue from there. You do not have to follow these steps but it's a good place to start if you get lost. 
+
+1. Get your System.IO working
+	- Be sure you can create a file (with default words), read the file in, Add new words to the file, and delete the file. 
+2. See if you can get a word to get "randomly" chosen from the list of words you read in
+3. Given user input, can you accurately see if a letter exists in the "mystery" word (the word does not have to be hidden yet)
+4. Can you make something "happen" if they guess the right word?
+
+.... (more steps)
+
+.... (more steps)
+
+Make user interface last. 
+
 
 ## Tests
 Test that your app has the following functionality:
