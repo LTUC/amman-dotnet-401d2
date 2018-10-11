@@ -42,29 +42,12 @@ game that will meet all of the requirements described in the user story above.
     - If they guess a correct letter, display that letter in the console for them to refer back to when making guesses (i.e. C _ T S )
 	- Your program does not need to be case sensitive. 
     - Errors should be handled through Exception handling
-    - You may use any shortcuts or 'helper' methods in this project (Excluding LINQ). 
 	- Do not create external classes to accomplish this task.
 	- Stay within scope, you may use the methods/classes listed below if desired.
 	- Once the game is completed, the user should be presented with the option to "Play again" (a new random word is generated), or "Exit" (the program terminates)
 	- the user should only be allowed to guess only 1 letter at a time. Do not make it so that they can input the whole alphabet and get the answer. 
 	
 - When running your application, it should activate the user interface without any direct code manipulation
-
-
-## Tests
-Be sure to test the following functionality:
-1. Create a file
-2. Read a file
-3. Update a file
-4. Delete a fie
-5. Letter can be properly guessed
-6. Word can be properly guessed
-
-## Additional Resources
-1. To check if a character or a subset exists in a string, use the `Contains()` method. 
-	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
-2. To randomly pick a number between 0 - n, use the `Random` Class.
-	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
 
 
 ## Tests
@@ -75,6 +58,16 @@ Test that your app has the following functionality:
 1. Test that a word can be added to a file
 1. Test that you can retrieve all words from the file
 1. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
+
+## Additional Resources
+1. To check if a character or a subset exists in a string, use the `Contains()` method. 
+	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
+2. To randomly pick a number between 0 - n, use the `Random` Class.
+	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
+3. To get an array of characters of a specific word. 
+	- [ToCharArray](https://docs.microsoft.com/en-us/dotnet/api/system.string.tochararray?view=netframework-4.7.2#System_String_ToCharArray){:target="_blank"} 
+4. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
+
 
 ## README
 
