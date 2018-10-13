@@ -3,7 +3,7 @@
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
+- Name your repo `Zoo`
 - Create a branch named `NAME-LAB##`
 - Write your code
 - Commit often
@@ -27,7 +27,7 @@
 		2. Label the abstract classes and concrete classes
 		3. Label the access modifiers for each of the classes
 		4. Label where you are using Polymorphism in your program. Where are the virtual and abstract methods defined, and where are they being overridden?
-- Your program class should instantiate each of the concrete animals to prove the functionality. 
+- Your program class should instantiate each of the concrete animals to prove the functionality of it's base classes. 
 
 
 ## Program Specifications
