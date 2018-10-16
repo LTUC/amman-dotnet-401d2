@@ -97,8 +97,8 @@ A collection is a class, so you must declare an instance of the class before you
             number => Console.Write(number + " "));  
         // Output: 0 2 4 6 8  
 ```
-        - Use a `for` loop by decramenting 
-        - Why would you decrament?
+        - Use a `for` loop by decrementing 
+        - Why would you decrement?
 
 
 1. For the type of elements in the List< T>, you can also define your own class

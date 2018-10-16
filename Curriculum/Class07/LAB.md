@@ -16,37 +16,43 @@
 ## Directions
 - Create a custom generic collection named `Deck<T>`.
 - Your Generic collection should hold Cards. (You will need to create a custom Card class)
-- Create an Enum to hold the different card suites (Hearts, Diamonds, Spades, Clubs)
+- Create an Enum to hold the different card suits (Hearts, Diamonds, Spades, Clubs)
 - The methods within your Deck<T> class should contain at minimum:
 	1. Add
 	2. Remove
-	3. Shuffle
-		- The shuffle logic will randomize the index of each of the items in the generic Deck<T> object
+	3. ReturnSuit
+		- This method will return all of the cards in that suit within the deck.
+
+
+- (stretch) In your `Program.cs` have a method named `Deal` that gets called from `Main` that evenly distributes the deck of cards amongst 2 players. the dealer keeps any remaining. Output to the console the cards each player has and what the dealer has kept. **NOTE: The dealer is NOT a player**.
 
 - When running your application, it should activate a console that outputs each of the 
 cards added to the deck, information about what card was removed, and then proof it is gone 
 without any direct code manipulation from the grader. 
 
+
+
 Possible example below:
 
 ```
 The cards in your deck are:
-Ace, K Hearts, Q Diamonds, 10 Spades, 6 Hearts.....
+Ace Diamonds, K Hearts, Q Diamonds, 10 Spades, 6 Hearts.....
 
 Removing K Hearts
 
 Cards left: 
-Ace, Q Diamonds, 10 Spades, 6 Hearts.....
+Ace Diamonds, Q Diamonds, 10 Spades, 6 Hearts.....
+
+
 
 ```
 
 
 Your `Program.cs` Main method should demonstrate:
 1. The instantiation of the generic collection. 
-2. The instantiation of at least 15 cards with values
+2. The instantiation of at least 10 cards with values
 3. Adding and removing cards from the Deck<T>
-4. Proof that the shuffling method works 
-	- Have a method in your `Program` class named `Deal` that brings in the Deck. output the cards, shuffle, then output the cards again. 
+4. Proof that the ShowSuite method works 
 5. Use a `foreach` loop on your created Deck, and output each of the cards to the console. 
 
 ## Tests
@@ -55,7 +61,6 @@ Your tests should cover the following functionality:
 1. Getter/Setters of your properties from your `Card` class
 1. Remove a card from your deck that exists
 1. Remove a card from your deck that does not exist
-1. Cards can be shuffled (this is a bit tricky but get creative. It doesn't have to be perfect)
 
 ## README
 
