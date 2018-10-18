@@ -47,7 +47,7 @@ Provide a deployment link in your Readme.
 
 ### Tests
 1. Create a Student
-2. Craete a Course
+2. Create a Course
 3. Update a Student
 4. Update a Course
 5. Delete a Course

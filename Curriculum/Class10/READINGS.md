@@ -11,4 +11,5 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 
 
 ## Readings
-- [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science){:target="_blank"} 
+- [Intro to Recursion](https://levelup.gitconnected.com/introduction-to-recursion-7848231b0d1b){:target="_blank"}
+- [What is Recursion (Only read top section)](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-recursion-part-1/){:target="_blank"}
