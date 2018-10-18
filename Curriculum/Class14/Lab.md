@@ -49,7 +49,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
 	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
 	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	2       | Missing Readme Document // Readme Document does not meet standards |
+	2       | Readme Document does not meet minimum standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
