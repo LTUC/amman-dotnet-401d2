@@ -1,11 +1,15 @@
+# Default MVC Application
+
+Below are the directions to scaffold out a bare minimum MVC project. Each project you create will be different given the problem domain, but most of them should start with these steps to get started. 
+
 ### Set up MVC
 1. File >> New Project
 2. ASP.NET Core Web Application
 3. Create a project name (Do not use dashes, only use underscores if needed)
 4. Select Empty for the type of web application
-5. Go to StartupClass
-6. In ConfigureServices add middleware `services.AddMVC()`
-7. In `Configure()` add HTTP Pipeline requirements
+5. Go to Startup.cs
+6. In `ConfigureServices()` add the appropriate middleware `services.AddMVC()`
+7. In `Configure()` add HTTP Pipeline route requirements
 
 ```
 app.UseMvc(routes =>
@@ -16,7 +20,7 @@ app.UseMvc(routes =>
 });
 ```
 
-8. Add app.UseStaticFiles() under Configure() after mapping the route.
+8. Add app.UseStaticFiles() under `Configure()` after mapping the route to allow the use of css and js files.
 9. Create a new folder in solution called "Controllers"
 10. Create a new folder in solution called "Models"
 11. Create a new folder in solution called "Views"
@@ -27,14 +31,15 @@ app.UseMvc(routes =>
 16. Make the return of the `Index()` action `return View()`
 17. Create a new folder named "Home" in our Views Folder.
 18. Create a new .cshtml page in the Home folder that you just created
-	a. Right click on Home Foldeer
+	a. Right click on Home Folder
 	b. Add -> New Item ->
 	c. search for "View" 
 	d. select "Razor View"
 	e. Name the View the same page as your action (Keep it Index for this example)
 19. Add Text to your Index.cshtml file
 20. Run the app and make sure it loads your Home page.
-21. If it runs -> YAAY!, if not repeat step 1-20.
+21. If it runs -> YAAY!, if not troubleshoot steps 1-20.
+
 
 ### Adding Entity Framework Core and a SQL Database:
 1. Add an appsettings.json file 
@@ -68,7 +73,7 @@ public DemoClass13DbContext(DbContextOptions<DemoClass13DbContext> options) : ba
       options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 ```
 	
-9. We now setup our app to support depenency Injection, we do this by adding a constructor to our startup class that requires Iconfiguration. This is the conde for that:
+9. We now setup our app to support dependency injection, we do this by adding a constructor to our startup class that requires IConfiguration. This is the code for that:
 ```
     public Startup(IConfiguration configuration)
      {
