@@ -29,10 +29,10 @@ Your MVC Web Application should contain the following:
 	1. Upon posting back to the server, call the `Results` action to redirect to the results view. 
 1. Views to generate the home page and search results
 	1. Use a form tag to accept user input
-	1. Use Tag Helpers to help redirect you from results page to the Home page.
+	1. Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshml` file may be required)
 1. Include HTML/CSS in your final product. **This is required.** 
-	1. It doesn't have to be fancy, but make it look nice.
-1. Enable use of Static Files in your website and create a stylesheet and incorporate some creativity into your application. 
+	1. It doesn't have to be fancy, just make it look nice.
+1. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 
 1. A model class that contains the following properties(these are the headers of the csv file):
 
 	```csharp
@@ -48,12 +48,12 @@ Your MVC Web Application should contain the following:
 	```
 1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commmas, this should be a good start to how to parse out your data. <br />
 
-	Here is my code. Feel free to use it, but if you do **comment every single line** and make sure you know what is going on. 
+	Here is my code. Feel free to use it, but if you do **comment every single line**, including the method signature and make sure you know what is going on. (example: Why is it static????)
 	This code lives in my `TimePerson.cs` model. 
 
-	```csharp
+```csharp
 
-		public List<TimePerson> GetPersons(int begYear, int endYear)
+		public static List<TimePerson> GetPersons(int begYear, int endYear)
 		{
 		    List<TimePerson> people = new List<TimePerson>();
 		    string path = Environment.CurrentDirectory;
@@ -80,7 +80,11 @@ Your MVC Web Application should contain the following:
 		 List<TimePerson> listofPeople = people.Where(p => (p.Year >= begYear) && (p.Year <= endYear)).ToList();
 		 return listofPeople;
 		}
-	```
+```
+
+### Resources
+
+- [MVC Setup](Resources/MVCSetup.md){:target="_blank"}
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
