@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class04",
     "\\Curriculum\\Class04\\Solution",
-    "\\Curriculum\\Class05",
-    "\\Curriculum\\Class05\\DemoCode",
-    "\\Curriculum\\Class05\\DemoCode\\OOP_Examples",
-    "\\Curriculum\\Class05\\DemoCode\\OOP_Examples\\OOP_Examples"
+    "\\Curriculum\\Class07",
+    "\\Curriculum\\Class07\\Resources",
+    "\\Curriculum\\Class08",
+    "\\Curriculum\\Class08\\Resources",
+    "\\Curriculum\\Class10",
+    "\\Curriculum\\Class10\\Resources",
+    "\\Curriculum\\Class11\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class05\\DemoCode\\PartyDiagram.PNG",
+  "SelectedNode": "\\Curriculum\\Class08\\LAB.md",
   "PreviewInSolutionExplorer": false
 }

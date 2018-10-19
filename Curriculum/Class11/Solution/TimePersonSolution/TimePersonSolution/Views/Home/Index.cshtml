@@ -1,0 +1,44 @@
+﻿@model List<TimePersonSolution.Models.TimePerson>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <html>
+    <head>
+        <title>TIME Person of the Year</title>
+        <link href="StyleSheet.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+     
+            <div class="timeBorder">
+                <div style="border: 20px solid red; overflow:hidden; height: 100%;">
+
+                    <h1>TIME</h1>
+                    <div class="center">
+                        <form method="post">
+                            <input maxlength="4" placeholder="Start" name="begYear" />
+                            -
+                            <input maxlength="4" placeholder="End" name="endingYear" />
+                            <button class="button"  type="submit">SUBMIT</button>
+
+                        </form>
+                    </div>
+
+                    <div class="mainText">
+                        <p><strong>What years will YOU choose?</strong></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    
+    </body>
+</html>
+
+
+
+
