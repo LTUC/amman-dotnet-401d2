@@ -35,17 +35,17 @@ Your MVC Web Application should contain the following:
 1. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 
 1. A model class that contains the following properties(these are the headers of the csv file):
 
-	```csharp
-	 	public int Year { get; set; }
-		public string Honor { get; set; }
-		public string Name { get; set; }
-		public string Country { get; set; }
-		public int Birth_Year { get; set; }
-		public int DeathYear { get; set; }
-		public string Title { get; set; }
-		public string Category { get; set; }
-		public string Context { get; set; }
-	```
+```csharp
+	public int Year { get; set; }
+	public string Honor { get; set; }
+	public string Name { get; set; }
+	public string Country { get; set; }
+	public int Birth_Year { get; set; }
+	public int DeathYear { get; set; }
+	public string Title { get; set; }
+	public string Category { get; set; }
+	public string Context { get; set; }
+```
 1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commmas, this should be a good start to how to parse out your data. <br />
 
 	Here is my code. Feel free to use it, but if you do **comment every single line**, including the method signature and make sure you know what is going on. (example: Why is it static????)
@@ -53,33 +53,33 @@ Your MVC Web Application should contain the following:
 
 ```csharp
 
-		public static List<TimePerson> GetPersons(int begYear, int endYear)
-		{
-		    List<TimePerson> people = new List<TimePerson>();
-		    string path = Environment.CurrentDirectory;
-		    string newPath = Path.GetFullPath(Path.Combine(path, @"wwwroot\personOfTheYear.csv"));
-		    string[] myFile = File.ReadAllLines(newPath);
+public static List<TimePerson> GetPersons(int begYear, int endYear)
+{
+    List<TimePerson> people = new List<TimePerson>();
+    string path = Environment.CurrentDirectory;
+    string newPath = Path.GetFullPath(Path.Combine(path, @"wwwroot\personOfTheYear.csv"));
+    string[] myFile = File.ReadAllLines(newPath);
 
-		    for (int i = 1; i < myFile.Length; i++)
-		    {
-			string[] fields = myFile[i].Split(',');
-			people.Add(new TimePerson
-			{
-			    Year = Convert.ToInt32(fields[0]),
-			    Honor = fields[1],
-			    Name = fields[2],
-			    Country = fields[3],
-			    Birth_Year = (fields[4] == "")? 0 : Convert.ToInt32(fields[4]),
-			    DeathYear = (fields[5] == "")? 0 : Convert.ToInt32(fields[5]),
-			    Title = fields[6],
-			    Category = fields[7],
-			    Context = fields[8],
-			});
-		    }
+    for (int i = 1; i < myFile.Length; i++)
+    {
+	string[] fields = myFile[i].Split(',');
+	people.Add(new TimePerson
+	{
+	    Year = Convert.ToInt32(fields[0]),
+	    Honor = fields[1],
+	    Name = fields[2],
+	    Country = fields[3],
+	    Birth_Year = (fields[4] == "")? 0 : Convert.ToInt32(fields[4]),
+	    DeathYear = (fields[5] == "")? 0 : Convert.ToInt32(fields[5]),
+	    Title = fields[6],
+	    Category = fields[7],
+	    Context = fields[8],
+	});
+    }
 
-		 List<TimePerson> listofPeople = people.Where(p => (p.Year >= begYear) && (p.Year <= endYear)).ToList();
-		 return listofPeople;
-		}
+	List<TimePerson> listofPeople = people.Where(p => (p.Year >= begYear) && (p.Year <= endYear)).ToList();
+	return listofPeople;
+	
 ```
 
 ### Resources
