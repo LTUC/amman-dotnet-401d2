@@ -20,6 +20,8 @@
 Today you will be creating your first ASP.NET Core MVC web application. Provided is a csv file of all the "Time" Persons of the year from 1927 - 2016. 
 Create a web app that will allow a user to put in a span of 2 different years, and a list of all the winners will be returned. 
 
+Your web app should originate from an empty Web App template, with all controllers and views manually created, do not scaffold. 
+
 ## Website Components
 Your MVC Web Application should contain the following:
 
@@ -85,6 +87,9 @@ public static List<TimePerson> GetPersons(int begYear, int endYear)
 ### Resources
 
 - [MVC Setup](Resources/MVCSetup.md){:target="_blank"}
+- [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x){:target="_blank"}
+	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utulizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
+
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
