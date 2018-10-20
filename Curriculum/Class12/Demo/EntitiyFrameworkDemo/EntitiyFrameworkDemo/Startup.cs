@@ -39,6 +39,7 @@ namespace EntitiyFrameworkDemo
 				app.UseDeveloperExceptionPage();
 			}
 			app.UseMvcWithDefaultRoute();
+			app.UseStaticFiles();
 
 
 			app.Run(async (context) =>
