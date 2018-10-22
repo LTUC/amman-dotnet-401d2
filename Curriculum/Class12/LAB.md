@@ -14,12 +14,7 @@
 - Include a `README.md` (contents described below)
 
 ## Directions
-Using your SQL Server and SQL Server Manager Studio, import and connect to the
-`AdventureWorks2017` database.
 
-Using the Lab 12 Quiz as your submission tool, provide for each question
- 1. The query you wrote
- 2. The number of rows returned
 
 ## Tests
 No tests are required for this lab. 

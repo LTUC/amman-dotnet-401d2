@@ -48,7 +48,7 @@ Your MVC Web Application should contain the following:
 	public string Category { get; set; }
 	public string Context { get; set; }
 ```
-1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commmas, this should be a good start to how to parse out your data. <br />
+1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commas, this should be a good start to how to parse out your data. <br />
 
 	Here is my code. Feel free to use it, but if you do **comment every single line**, including the method signature and make sure you know what is going on. (example: Why is it static????)
 	This code lives in my `TimePerson.cs` model. 
@@ -89,6 +89,10 @@ public static List<TimePerson> GetPersons(int begYear, int endYear)
 - [MVC Setup](Resources/MVCSetup.md){:target="_blank"}
 - [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x){:target="_blank"}
 	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utulizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
+
+
+### Tests
+No Tests are required for this lab.
 
 
 ## README
