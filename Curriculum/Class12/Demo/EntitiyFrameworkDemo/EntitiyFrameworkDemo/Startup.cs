@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EntitiyFrameworkDemo.Data;
+using EntitiyFrameworkDemo.Models.Interfaces;
+using EntitiyFrameworkDemo.Models.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -29,6 +31,7 @@ namespace EntitiyFrameworkDemo
 					options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
 				}
 				);
+			services.AddScoped<ICourses, Enrollment>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

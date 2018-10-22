@@ -91,6 +91,10 @@ public static List<TimePerson> GetPersons(int begYear, int endYear)
 	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utulizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
 
 
+### Tests
+No Tests are required for this lab.
+
+
 ## README
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
