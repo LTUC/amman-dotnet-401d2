@@ -21,10 +21,10 @@ You have been tasked with creating a web based application for a local hotel cha
 #### Hotel Requirements
 1. The hotel can hold many guests at any given time, in fact guests can come and go as the please.....asyncronously :) 
 2. The hotel is named "Async Inn" and has many nationwide locations. Each Hotel will have a City, State, Address, and phone number.
-3. Each hotel room can be one of three types, A master suite, Luxery suite, or studio.
+3. Each hotel room can be one of three types, A master suite, luxery suite, or studio.
 4. The price varies for each room.
-5. To follow local regulations, you must also indicate if a room is ADA accessible.
-6. The number of rooms for each hotel varies. Some Hotels have only a few rooms, while others may have dozens.
+5. The number of rooms for each hotel varies. Some Hotels have only a few rooms, while others may have dozens.
+6. Each room should specify what type of room it is and what the nightly rate is. 
 
 #### Customers
 1. The first time a customer calls in for a reservation, they give their First Name, Last Name, and phone number
@@ -50,7 +50,7 @@ Within your Schema identify/label the following as necessary:
 5. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
 
 
-This assignment is **attempt Based**. Submit, before the next class start, a healthy attempt on the system design. 
+This assignment is **attempt based**. Submit, before the next class start, a healthy attempt on the system design. 
 
 You may work together and collaborate on this lab, but everyone is responsible for turning in their own DB Schema. 
 

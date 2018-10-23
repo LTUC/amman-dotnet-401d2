@@ -59,15 +59,10 @@ You have been tasked to create a system for a new coding school in your neighbor
 
 #### Student
 The coding school will gather information from each student. Their system requires the student's first name, last name and age. 
-
-#### Course
 Each course that the coding school will offer has a Name, specific course code, and the price that the course will cost. 
 You learned that each course **must** have a course code, and that course code must be unique to each course. 
-
-#### Misc information
 Once a student has completed a course, their final grade and if they passed is captured in a single transcript. It is possible for a student to take multiple course and therefore have multiple transcripts. It is also safe to say that once a course is completed, the system will generate a transcript for every student that was present in the course. 
 
-### Prompt
 Using the information you received above, create a database schema that will accurately represent the data that will be held and accessed for this student enrollment system for the school. 
 
 ### Create a Database Schema
