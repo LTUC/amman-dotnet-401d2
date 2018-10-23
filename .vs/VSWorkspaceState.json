@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class04\\Solution",
     "\\Curriculum\\Class07",
-    "\\Curriculum\\Class07\\Resources",
-    "\\Curriculum\\Class08",
-    "\\Curriculum\\Class08\\Resources",
-    "\\Curriculum\\Class10",
-    "\\Curriculum\\Class10\\Resources",
-    "\\Curriculum\\Class11\\Resources"
+    "\\Curriculum\\Class11",
+    "\\Curriculum\\Class11\\Solution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
+    "\\Curriculum\\Class12",
+    "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo",
+    "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo",
+    "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo\\Controllers"
   ],
-  "SelectedNode": "\\Curriculum\\Class08\\LAB.md",
+  "SelectedNode": "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution.sln",
   "PreviewInSolutionExplorer": false
 }
