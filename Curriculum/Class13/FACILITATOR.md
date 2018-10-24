@@ -8,6 +8,29 @@ Resources:
 3. DbContext
 2. Dependency Injection
 
+
+1. Create a new empty MVC application with a Home Controller
+2. Create a "data" folder
+3. Create and setup a DB Context
+4. Add a new appsettings.json file
+5. Register the DBContext in the startup file
+6. Create an initial migration
+7. Update the Database
+
+(See that the db has been created)
+
+8. Look at Schema, convert entities to models
+9. Data Annotations
+9. Create DbSets for tables
+10. Setup composite keys in OnModelCreating
+
+(Add another migration and update the database)
+
+11. see updated database. 
+12. "scaffold" out the different controllers with CRUD operations
+13. Show how to convert Enums to dropdown lists
+
+
 ## What changed from yesterday? 
 Building off of the same MVC concepts
 
@@ -15,7 +38,7 @@ Building off of the same MVC concepts
 Dependency Injection. They don't understand it at first, and it takes a long
 time for them to really understand all of it's uses. 
 
-It never hurts to keep repeating the concepts of DI over and over agian
+It never hurts to keep repeating the concepts of DI over and over again
 until it "clicks"
 
 They also struggle with the steup of MVC and all the steps required. I encourage students
