@@ -4,7 +4,7 @@
 ## Directions
 
 ### Requirements
-You have been tasked with creating a web based application for a local hotel chain named the "Async Inn". Here are the requirements that you obtained from your client during your exploration and requirements meeting.
+You have been tasked with creating a web based application for a local hotel chain. Here are the requirements that you obtained from your client during your exploration and requirements meeting.
 
 #### Problem Domain
 The owners of "Async Inn" have approached you with plans to renovate their hotel chain. Currently they are tracking all the different locations and rooms in spreadsheets and binders. They currently have about 10 binders full of paperwork that consists of the difference between each location and the pricing for each room. The amount of time and paperwork it takes to manage the rooms and locations is costing the company both time and money. They are currently looking for a  "better way" to maintain their business model. 
