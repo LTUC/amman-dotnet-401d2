@@ -3,8 +3,8 @@
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
+- Name your repo `Async-Inn`
+- Create a branch named `NAME-LAB13`
 - Write your code
 - Commit often
 - Push to your repository
@@ -14,45 +14,37 @@
 - Include a `README.md` (contents described below)
 
 ## Directions
+Today you will be creating your initial MVC application for your Hotel management system.
 
-You are responsible for creating a student enrollment system for a school for the school administration. We can assume that 
-only admins will be accessing this site, so no need for authorization/authentication. Here are the requirements.
+### Scaffold
+Scaffold out a basic MVC web application using the steps provided from class 11. Include a Home Controller with a basic Index action. No need to add any content to the Index view, just have it load a greeting for now. You will work more on the Home Controller a little further down.
 
-1. Students can only be registered for one class at a time. 
-1. the administration should be able to view all the students enrolled in a specific course. 
-1. View all students enrolled all at once and the class they are registered for
-1. View Course information independently. 
-1. Remove specific students
-1. Remove courses
-1. Search for specific students
-1. Search for courses
-1. Edit a student's profile
-1. Edit a course's information
+### Entities to Models
+Using your database schema, convert each entity into a model within your newly created MVC web application.
 
-The workflow of the website should be:
-1. Create a new course
-1. Create a new student
-	- In the registration process, the student will be enrolled into a specific course 
-1. When viewing all the students, their course is visible
-1. When viewing an individual course, all the students in that course should visible.
-1. We can use the CRUD operations on both courses and students
-1. You cannot remove a course if it has students enrolled in it. 
+Following the steps provided, in addition to what we did in class, create a new `DbContext` named `AsyncInnDbContext`. 
+Within this DbContext, declare your Database tables and set your composite keys. 
 
-1. Add HTML and CSS to the site to make it 'client ready'
+### Design
+Think about the design of your website. What will it look like? What pages will exist? How do the pages interact and link to each other? For our website, we will have the following pages:
+1. Home Page to greet the Hotel Admin. This page will also serve as a dashboard for the other locations of the site.
+2. Hotels page that will allow the admin to create and edit new or existing hotels
+3. Rooms page where the admin will be able to create or edit new or existing rooms
+4. Amenities page that will allow the admin to add to their list of existing amenities
+5. A page where they can link the Amenities to the rooms that currently exist
+6. A page where they can add existing rooms to hotels
 
-### Deploy
-Deploy to Azure.
+Following the design, Create a controller for each of the pages listed above. You may "Add >> Controller" on the controllers folder and scaffold out the basic CRUD operations if you wish. 
 
-Provide a deployment link in your Readme.
+### Home Page
+Add some html and styling to your home page. Link the index action of each of the other controllers within the Home page. Throughout the week, we will slowly evolve this page to be more of a "dashboard" feel, but start the design now to start the process. 
+
+
+### Readme
+Your readme should be in introduction to your web app. Provide in your readme, your DbSchema and an overview of the relationships and how each entity is related to another. 
 
 ### Tests
-1. Create a Student
-2. Create a Course
-3. Update a Student
-4. Update a Course
-5. Delete a Course
-6. Delete a Student
-7. Getters and Setters for all model properties
+No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
 
 ## README
 
