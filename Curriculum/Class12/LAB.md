@@ -28,7 +28,7 @@ To the best of your ability, create a system design of a database schema that me
 #### Assignment
 Build your schema so that it has at least:
 1. (1) Joint Entity Table with Payload
-2. (1) Pure Join Table (Composite keys!)
+2. (1) Pure Join Table
 3. (1) Enum 
 
 Within your Schema identify/label the following as necessary:
@@ -47,7 +47,7 @@ You may work together and collaborate on this lab, but everyone is responsible f
 
 Your submissions must be digital. You may take a picture of your schema from a white board, but if you decide to stick with your db schema, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
 
-Submit your schema in canvas as an image, or a link to an image.
+Submit your schema in canvas as an image, or a link to an image, in  to your external doc.
 
 ## Tests
 No tests are required for this lab. 
