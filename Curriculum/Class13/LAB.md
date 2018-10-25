@@ -19,6 +19,8 @@ Today you will be creating your initial MVC application for your Hotel managemen
 ### Scaffold
 Scaffold out a basic MVC web application using the steps provided from class 11. Include a Home Controller with a basic Index action. No need to add any content to the Index view, just have it load a greeting for now. You will work more on the Home Controller a little further down.
 
+Look in your class repo under class 13 in the resources folder for full scaffold steps to create an MVC web app with a database. 
+
 ### Entities to Models
 Using your database schema, convert each entity into a model within your newly created MVC web application.
 
