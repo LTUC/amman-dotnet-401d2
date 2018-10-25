@@ -20,7 +20,6 @@ Resources:
 (See that the db has been created)
 
 8. Look at Schema, convert entities to models
-9. Data Annotations
 9. Create DbSets for tables
 10. Setup composite keys in OnModelCreating
 
@@ -28,7 +27,6 @@ Resources:
 
 11. see updated database. 
 12. "scaffold" out the different controllers with CRUD operations
-13. Show how to convert Enums to dropdown lists
 
 
 ## What changed from yesterday? 
@@ -46,7 +44,7 @@ to reference the steps provided, and the demos. It comes down to memorization an
 just need to keep doing it until they remember. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-When it comes to the lab, the studetns have expressed that they would prefer the 
+When it comes to the lab, the students have expressed that they would prefer the 
 tutorial of Class 12 before being assigned the "Person of the Year" lab.
 
 The reason i do not have them switched is because of a few different reasons:

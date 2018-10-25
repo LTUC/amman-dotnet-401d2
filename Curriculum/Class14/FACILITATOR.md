@@ -1,11 +1,13 @@
-# Class 14: Azure Deployment
+# Class 14: Seeding the Database
 
 ## How do I prep for today?
-Become familiar with Azure Portal and how to deploy an application and a database to
-Azure. 
+1. Review DbContext setup. 
+2. Review Scaffolding of Controller
+3. Introduce Data Annotations (required, Display Name, Enums, phone number, etc...)
+4. How to turn an Enum into a DDL
+5. Shared Layouts
+6. Taghelpers
 
-Resources:
-1. Deployment to Azure
 
 ## What changed from yesterday? 
 

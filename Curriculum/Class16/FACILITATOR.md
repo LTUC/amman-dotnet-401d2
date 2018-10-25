@@ -2,13 +2,12 @@
 Today is the first day of APIs. 
 
 ## How do I prep for today?
-Become Familiar with the Web Request Response Cycle.
-
-Resources:
-1. What is the [WRRC]()?
-2. What is an [API]()?
-3. HTTP Verbs
-4. Demo
+1. Intro to Dependency Injection
+2. Intro to the Repository Design Pattern
+3. Review of Interfaces
+4. Create a new interface
+5. Register the Interface using DI
+6. Introduce User Secrets
 
 ## What changed from yesterday? 
 New topic!

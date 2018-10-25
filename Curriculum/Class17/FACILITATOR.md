@@ -4,6 +4,10 @@
 
 ## What changed from yesterday? 
 
+1. Deployment to Azure
+2. Testing your MVC Application
+3. CSS/HTML assistance
+
 ## What might students struggle with today?  
 
 ## What bugs, issues, or surprises have come up in the past for this class?
