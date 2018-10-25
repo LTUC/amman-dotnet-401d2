@@ -39,6 +39,37 @@ Following the design, Create a controller for each of the pages listed above. Yo
 ### Home Page
 Add some html and styling to your home page. Link the index action of each of the other controllers within the Home page. Throughout the week, we will slowly evolve this page to be more of a "dashboard" feel, but start the design now to start the process. 
 
+## Evaluation
+To gain full credit for this "feature", your branch must consist of:
+1. Startup File
+	 - Explicit routing of MVC 
+	 - MVC dependency in ConfigureServices
+	 - DBContext registered in ConfigureServices
+	 - Use of static files accepted
+2. Controller
+	 - Home Controller
+	 - Controllers  for each of the pages described in the Design section (you do not have to scaffold if you don't want to)
+3. Data
+	- DBContext present and properly configured
+	- DB Tables for each entity model (`DbSet<T>`)
+	- Composite key association present in `OnModelCreating` override.
+	- `appsettings.json` file present with name of database updated
+
+4. Models
+	- Each Entity from the DB Table converted into a Model
+	- Proper naming conventions of Primary keys, or utilization of the `[Key]` data annotation
+	- Navigation properties present in each Model where required
+	- Enum present in appropriate model
+
+5. Views
+	- View for home page that matches default routing
+
+5. Home Page
+	- stylesheet present in web application
+	- stylesheet referenced on home page.
+
+6. Web application should build, compile, and redirect us to the home page upon launch. If you decided to scaffold the controllers, they should be accessible through their default actions. 
+
 
 ### Readme
 Your readme should be in introduction to your web app. Provide in your readme, your DbSchema and an overview of the relationships and how each entity is related to another. 
