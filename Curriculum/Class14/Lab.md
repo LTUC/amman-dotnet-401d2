@@ -16,16 +16,26 @@
 Continue with your AsyncInn Hotel Management System. For Today's branch, focus on working within the existing code base that was scaffolded out (If you chose to scaffold). Practice learning and understanding a code base that you didn't write, but need to make modifications too.
 
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
-2. Seed your database with at least 5 default Hotel Locations, 6 Room Types, and 5 Amenities. Do not make any seeded associations with `HotelRoom` or `RoomAmenities`.
-3. Update dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views. 
-4. Remove the ability to edit `RoomAmenties`
+2. Seed your database with at least 
+	- 5 default Hotel Locations
+	- 6 Room Types
+	- 5 Amenities. 
+3. Do not make any seeded associations with `HotelRoom` or `RoomAmenities`.
+4. Update dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views (example: display string names instead of ids).
+5. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
+6. Add your own styling to the Hotel creation page, Room Creation Page, and Amenities creation page.
+7. On the Home Page, create a dashboard/navigation to the Create Hotel page, Create Room page, Create Amenity page, as well as pages for the HotelRoom association and RoomAmenity association. Each of these pages (excluding HotelRoom and Room Amenity (see below)) should allow the user to view/edit/remove exisitng data. 
+
+#### Stretch
+These goals will be required later on in the lab, but feel free to start a bit "early":
+1. Remove the ability to edit `RoomAmenties`
 	- You should only have the option to create associations, and delete associations.
-	- This will require the removal of the actions and view pages from the scaffold code.
-	- You may have to leverage URL parameters to properly remove the right combination (`mysite.com?Room=123&Amenity=2`)
-5. Modify the existing code to edit a `HotelRoom`.
-	 - You may have to leverage URL parameters to properly navigate to an edit action for this entity. 
-6. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
-7. Add your own styling  to the Hotel Creation page and Room creation page. 
+	- This will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
+2. Leverage the use TagHelpers and View Models to identify the correct association to remove.
+3. Modify the existing code to edit a `HotelRoom`.
+	 - Allow a user to edit a `HotelRoom` combination. 
+	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
+	 - View Models and TagHelpers will be required to send the data back and forth from the server
 
 ## Tests
 No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
