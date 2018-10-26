@@ -24,7 +24,7 @@ Continue with your AsyncInn Hotel Management System. For Today's branch, focus o
 4. Update dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views (example: display string names instead of ids).
 5. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
 6. Add your own styling to the Hotel creation page, Room Creation Page, and Amenities creation page.
-7. On the Home Page, create a dashboard/navigation to the Create Hotel page, Create Room page, Create Amenity page, as well as pages for the HotelRoom association and RoomAmenity association. Each of these pages (excluding HotelRoom and Room Amenity (see below)) should allow the user to view/edit/remove exisitng data. 
+7. On the Home Page, create a dashboard/navigation to the Create Hotel page, Create Room page, Create Amenity page, as well as pages for the HotelRoom association and RoomAmenity association. Each of these pages (excluding HotelRoom and Room Amenity (see below)) should allow the user to edit/remove exisitng data. All pages should allow to view the data. 
 
 #### Stretch
 These goals will be required later on in the lab, but feel free to start a bit "early":
