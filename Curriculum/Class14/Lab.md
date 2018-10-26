@@ -13,7 +13,7 @@
 
 ## Directions
 
-Continue with your AsyncInn Hotel Management System. For Today's branch, focus on working within the existing code base that was scaffolded out (If you chose to scaffold). 
+Continue with your AsyncInn Hotel Management System. For Today's branch, focus on working within the existing code base that was scaffolded out (If you chose to scaffold). Practice learning and understanding a code base that you didn't write, but need to make modifications too.
 
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 2. Seed your database with at least 5 default Hotel Locations, 6 Room Types, and 5 Amenities. Do not make any seeded associations with `HotelRoom` or `RoomAmenities`.
