@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class07",
     "\\Curriculum\\Class11",
+    "\\Curriculum\\Class11\\Demo",
     "\\Curriculum\\Class11\\Solution",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
     "\\Curriculum\\Class12",
-    "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo",
-    "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo",
-    "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo\\Controllers"
+    "\\Curriculum\\Class12\\Demo",
+    "\\Curriculum\\Class12\\Resources",
+    "\\Curriculum\\Class13",
+    "\\Curriculum\\Class13\\Resources",
+    "\\Curriculum\\Class14"
   ],
   "SelectedNode": "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution.sln",
   "PreviewInSolutionExplorer": false

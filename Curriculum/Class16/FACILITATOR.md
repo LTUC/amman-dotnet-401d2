@@ -2,6 +2,10 @@
 Today is the first day of APIs. 
 
 ## How do I prep for today?
+Code Review:  
+1. Nuke one of the pages for HTML
+2. Recode it out
+
 1. Intro to Dependency Injection
 2. Intro to the Repository Design Pattern
 3. Review of Interfaces

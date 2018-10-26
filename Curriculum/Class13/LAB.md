@@ -3,7 +3,7 @@
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
-- Name your repo `Async-Inn`
+- Name your repo `AsyncInn`
 - Create a branch named `NAME-LAB13`
 - Write your code
 - Commit often

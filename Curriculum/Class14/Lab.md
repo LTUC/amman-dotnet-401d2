@@ -2,9 +2,7 @@
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
+- Create a new branch named `NAME-LAB14` in your `AsyncInn` repo
 - Write your code
 - Commit often
 - Push to your repository
@@ -15,9 +13,22 @@
 
 ## Directions
 
-## Specs
+Continue with your AsyncInn Hotel Management System. For Today's branch, focus on working within the existing code base that was scaffolded out (If you chose to scaffold). 
+
+1. Add data annotations to your existing models to validate basic user input fields as appropriate.
+2. Seed your database with at least 5 default Hotel Locations, 6 Room Types, and 5 Amenities. Do not make any seeded associations with `HotelRoom` or `RoomAmenities`.
+3. Update dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views. 
+4. Remove the ability to edit `RoomAmenties`
+	- You should only have the option to create associations, and delete associations.
+	- This will require the removal of the actions and view pages from the scaffold code.
+	- You may have to leverage URL parameters to properly remove the right combination (`mysite.com?Room=123&Amenity=2`)
+5. Modify the existing code to edit a `HotelRoom`.
+	 - You may have to leverage URL parameters to properly navigate to an edit action for this entity. 
+6. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
+7. Add your own styling  to the Hotel Creation page and Room creation page. 
 
 ## Tests
+No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
 
 ## README
 
