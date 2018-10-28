@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace EntitiyFrameworkDemo.Models.Interfaces
 {
-	interface IStudent
+	public interface IStudent
 	{
 		Task CreateStudentAsync(Student student);
 

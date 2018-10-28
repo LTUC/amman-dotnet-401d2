@@ -31,7 +31,9 @@ namespace EntitiyFrameworkDemo
 					options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
 				}
 				);
-			services.AddScoped<ICourses, Enrollment>();
+			services.AddScoped<ICourses, CourseService>();
+			services.AddScoped<IStudent, StudentService>();
+
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

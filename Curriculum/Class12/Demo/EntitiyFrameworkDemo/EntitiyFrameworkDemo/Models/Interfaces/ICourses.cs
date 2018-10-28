@@ -14,5 +14,12 @@ namespace EntitiyFrameworkDemo.Models.Interfaces
 		Task<Course> FindCourse(int? courseId);
 
 		Task<List<Course>> GetCourses();
+
+		Task<List<CourseEnrollments>> GetCourseEnrollments();
+
+		Task<CourseEnrollments> GetEnrollmentForCourseAsync(int? id);
+	
+
+
 	}
 }

@@ -7,14 +7,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EntitiyFrameworkDemo.Data;
 using EntitiyFrameworkDemo.Models;
+using EntitiyFrameworkDemo.Models.Interfaces;
 
 namespace EntitiyFrameworkDemo.Controllers
 {
     public class StudentsController : Controller
     {
-        private readonly SchoolDbContext _context;
+        private readonly IStudent _context;
 
-        public StudentsController(SchoolDbContext context)
+        public StudentsController(IStudent context)
         {
             _context = context;
         }

@@ -2,10 +2,8 @@
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
+
+- Create a new branch named `NAME-DependencyInjection` in your `AsyncInn` repo
 - Write your code
 - Commit often
 - Push to your repository
@@ -14,11 +12,31 @@
 - Merge your PR back into master
 - Include a `README.md` (contents described below)
 
+
 ## Directions
+Read all the directions and specs, in it's entirety, before starting the lab.
+Building off of your current project for the `AsyncInn`:
+1. Implement the repository design pattern and the singleton design pattern using dependency injection into your current code base
+2. Create three interfaces to contract minimum CRUD operations (with the future services) that are required for functionality and maintenance of Hotels, Rooms, and Amenities. 
+3. Build out a service for each of the interfaces and implement them appropriately.
+4. Within each service, don't forget to inject the your `DbContext` into your services, so that you have access to the database.
+5. Register each of the services with the appropriate Dependency Injection Lifecycle in the `Startup.cs` class.
+6. Refactor the `RoomsController`, `HotelsController`, and `AmenitiesController` to utilize the newly created services. Remove the need for the database in the controllers, inject the services as needed, and keep the controllers "loosely coupled" by offloading the CRUD functionality to the services you previously defined. 
+7. Confirm that all of your `Index` and `Create` actions still work after your refactor
+8. Confirm that your `Edit` and `Delete` actions still function as expected in your `Rooms`, `Hotels`, and `Amenities` controllers as expected after your refactor. 
 
 ## Specs
+Upon completion of this lab, you should have
+1. 3 new interfaces
+2. All services registered in your `Startup.cs` class
+3. 3 new "services" that implement each of the interfaces
+4. You DbContext injected into each of the interfaces
+5. Your interfaces injected into your controllers
+6. Functionality of all `Create` and `Index` actions
+7. Functionality of the `Edit` and `Delete` actions in your `Hotels` `Rooms` and `Amenities` pages.
 
 ## Tests
+No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
 
 ## README
 
