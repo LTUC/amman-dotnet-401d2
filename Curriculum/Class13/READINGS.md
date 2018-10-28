@@ -16,5 +16,5 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 1. [MVC with EF Get Started](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro){:target="_blank"} 
 	- If you have time, read the preceding articles under this category as well.
 1. [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/){:target="_blank"}
-1.  [Model Validation](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1)
+1.  [Model Validation](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1){:target="_blank"}
 
