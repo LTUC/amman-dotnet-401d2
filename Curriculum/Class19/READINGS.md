@@ -11,4 +11,5 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 
 
 ## Readings
+- [Intro to APIs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1){:target="_blank"} 
 - [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio&view=aspnetcore-2.1){:target="_blank"} 

@@ -10,4 +10,6 @@ of an acceptable quality.
 
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 ## Readings
-- [Intro to APIs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1){:target="_blank"} 
+
+- [Unit Testing](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs){:target="_blank"} 
+- [Testing Controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-2.1){:target="_blank"} 
