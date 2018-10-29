@@ -1,25 +1,23 @@
 # Midterm Final Outcome
 
-Both of yoru final midterm GitHub projects should contain the following:
+Both of your final midterm GitHub projects should contain the following:
 
 ## Source Code
-This is the code of your project. Inlcude the .sln file and source folders
+This is the code of your project. Include the .sln file and source folders
 
 Your project that is created should follow all of the required guidelines described 
 [HERE](ProjReqs.md){:target="_blank"} 
 
 ## Tests
-Write Tests. 
-
-This should accomplish 90% Code Coverage of Models and Controllers
+Tests are important. Write tests that cover basic getters/setters of your models, as well as CRUD operations within your functionality. 
 
 
 ## ReadMe
 Your readme should contain the following:
-1. Link to your deplyed site
-1. Introduction to your project
+1. Link to your deployed site
+1. Introduction to your project (What is it? Why should you use it? What is it's purpose?)
 1. Screenshots of what your project looks like
-1. If an API, data examples of how to setup/use (in addition, link to the api documentation)
+1. If an API, data examples of how to setup/use (in addition, link to the api/swagger documentation)
 1. Database Schema (clean digital drawing)
 1. WireFrames. 
 1. DB Schema breakdown/explanation
@@ -29,7 +27,7 @@ Your readme should contain the following:
 
 ## Software Requirements Doc
 1. The Software Reqs doc can live in the Web App Repo. 
-This should be the same reqs doc that you completed. 
+This should be the same reqs doc that you completed for your midterm prework. 
 This should be named `Requirements.md`
 
 ## Documentation (API Only)
@@ -42,4 +40,4 @@ contain information such as
 
 Here are some options:
 1. Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1){:target="_blank"}  (strongly preferred)
-2. Create your custom documenation
+2. Create your custom documentation

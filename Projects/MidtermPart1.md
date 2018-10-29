@@ -22,4 +22,4 @@ Schedule a 1-hour meeting for your entire project team. During that meeting the 
 
 Review the team agreement, and as a group decide on which areas each group member should be aware of and which areas are strengths. Put a plan of action together for mitigating any communication issues amongst the team. Submit this agreement in the text field in Canvas, or a link to a Google doc.
 
-
+This step must be completed and approved before any future approvals will be given. (Example: Your project pitches will not be approved until you have this step completed.)
