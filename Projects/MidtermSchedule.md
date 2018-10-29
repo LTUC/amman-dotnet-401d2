@@ -1,7 +1,7 @@
 # Schedule and Milestones
 
 ### Monday
-- Standup: 9:15am
+- Standup: 9:45am
 - Demo: 4:30pm 
 
 **Milestones**
@@ -11,28 +11,37 @@
 
 ### Tuesday:
 - Standup: 10:00am
-- Demo: 4:00pm 
+- Demo: 4:30pm 
 
 **Milestones**
 - MVP
 - Tests (~50%)
 
 ### Wednesday:
-![Cat](cat.jpg)
+- Standup: 10:00am
+- Demo: 4:30pm 
+
+**Milestones**
+- Minimum front end completed
+- Documentation
+- Stretch Goals
+- Tests (~75%)
 
 ### Thursday
 - Standup: 10:00am
 - Demo: 4:30pm
 - Code Freeze (**ALL** server side code): 9pm
+	 - Only tests, Documentation, and front end allowed to be worked on
 
 **Milestones**
-- Code
-- HTML/CSS
+- Code Complete
+- HTML/CSS Completed
 - Tests (~90%)
-- Documenation
+- Documentation finalized
 
 
 ### Friday
 - Standup: 10:00am
-- Full Code Freeze: 10:00am
-- Presentations: TBD
+- Full Code Freeze: 10:00am 
+	- Only tests and Documentation may be worked on, but not merged
+- Presentations: 1:30pm

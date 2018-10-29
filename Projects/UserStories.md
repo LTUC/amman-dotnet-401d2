@@ -18,12 +18,12 @@ divided amongst your two applications.
 - **Testable**: the user story or it's related description must provide the necessary information to make test development possible. 
 
 ## What Does It Look like?
-- "As a \<role>, I want \<goal> so that \<benefit>" 
-- As a user, I want to search for my customers by their first and last names. 
-- As a non-administrative user, I want to modify my own schedules but not the schedules of other users. 
+- "As a \<role>, I want \<goal> so that \<benefit>" ("so that ..." is optional if no explanation is needed)
+- As a user, I want to search for my customers by their first and last names so that I can quickly navigate to their accounts.
+- As a non-administrative user, I want to modify my own schedules but not the schedules of other users.
 
 ## Example
-- As an administrative user, I want the ability to modify all employee's schedules 
+- As an administrative user, I want the ability to modify all employee's schedules.
 
 ### Features:
 - Admin can choose which users schedules to view/edit
@@ -34,5 +34,5 @@ divided amongst your two applications.
 ### Acceptance:
 - Ensure that the employee the admin picked links to the correct schedule
 - Ensure the scheduling does not interfere with requested time off
-- Ensure that the schedules succsfully save into database
+- Ensure that the schedules successfully save into database
 - Provide error message and abort transaction if system becomes unavailable

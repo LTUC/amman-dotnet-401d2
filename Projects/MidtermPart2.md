@@ -2,14 +2,14 @@
 
 For this mid-term project, you will be summarizing all of the concepts you've learned and applied in labs up to the end of the first half. Your instructional team will provide you with further specification regarding constraints and expectations for course-specific requirements. 
 
-At this point, you should have an idea as to what's possible to create given a neads up on what your course will have covered and be capable of creating by the middle of the course. Use that knowledge to generate some ideas and discussion!
+At this point, you should have an idea as to what's possible to create given what your course has covered so far and will cover before the end of week 4. Use that knowledge to generate some ideas and discussion!
 
 ## Ideas
 
 Project Requirements are outlined [HERE](ProjReqs.md){:target="_blank"}.
 
 
-## Group Project: Pitch Ideas¶
+## Group Project: Pitch Ideas
 It is now time to begin preparations for your Group Project. You've been given groups, so the first step for group projects is to pitch ideas.
 
 ## Tasks
@@ -27,17 +27,24 @@ Once a critical mass of ideas has been written down, the person who offered the 
 
 At the end of the pitch, you should have formed a short list of favorites.
 
+### Create your Pitch
 
-## Submitting your work
-**Only one person needs to submit this assignment for the group to receive credit**
-As a group, agree on 2 top ideas. In a doc, or in the text area below outline 
-The following for each idea. The instructional staff will then approve one of your two ideas.
-Please have your top choice listed first, and second choice listed last. 
+Once your team had decided on 2 favorites, prepare your pitches for submission.
+
+**Each pitch should contain the following information**:
 
 <u>Name of Project</u>
 1. What problem or pain point does it solve?
-   a. Keep it high level without going into too much detail. 
-2. Front End Web App Purpose
+   a. Keep it high level without going into too much detail. (1-2 sentences is enough)
+2. Front End Web App Purpose 
 3. API Purpose
 4. 3rd party api integration? if so, what?
-5. Minimum MVP definition 
+5. Minimum MVP definition.
+	- What is the **minimum** required for you to present on your demo day?
+
+
+## Submitting your work
+**Only one person needs to submit this assignment for the group to receive credit**, please include all names of group members in your pitch document.
+As a group, agree on 2 top ideas. In a doc, or in the text area submit your top two pitches. The instructional staff will then approve one of your two ideas.
+Please have your top choice listed first, and second choice listed last. 
+

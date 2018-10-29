@@ -7,24 +7,35 @@ each page in your application.
 
 ### Tasks
 Wireframes allow you to experiment with the look and feel of a website 
-without committing any code. You can use an online or desktop tool, such 
-as Moqups.com or Mockingbird. Create your Wireframe in a digital tool.
+without committing any code. Create your Wireframe in a digital tool. whiteboard wireframes will not be accepted.
 
 Provide an image of your wireframes in with the readme of your project.
 
-## Requirements
-Create a markdown file in your project repo that defines your 
+## User Stories
+For each application (web app and API), start out by creating at least 5 user stories for each side. The outline/requirements for user stories can be found [HERE](UserStories.md)
+
+Each "task" or item in your kanban PM board, for each project, should contain:
+
+1. Title
+2. User Story
+3. Feature Tasks
+4. Acceptance Tests
+
+Provide a link to your kanban board in your project Readme. 
+
+## Software Requirements
+Only one software requirements doc is required for your midterm, Please have it live in your front-end web app repo. The doc should take into consideration both applications (front end and API) and view it as one whole project. 
+Create a markdown file in your web application project repo that defines your 
 project's software requirements.
 
 Name your doc `Requirements.md` and be sure to include all of the required information, in detail. 
 
 The requirements for your software requirements doc can be found [HERE](SoftwareReqs){:target="_blank"} 
 
-Inside your Class Repository, in the Resources Folder, lives 2 "official" Software Requirements docs. You 
-are not required to create a multipage doc, just one page is enough, but should you want example and inspiration, they are there 
-for your reference.
-
 ## Database Schema
+
+Each application (Web app & API) should have their own DB Schema
+
 Draft out what your database will look like by creating a schema. 
 Be sure to identify which tables are:
 
@@ -32,7 +43,7 @@ Be sure to identify which tables are:
 2. 1-to-many relationships
 3. many-to-many relationships
 
-Also, incldue in each table:
+Also, include in each table:
 1. the name of column
 2. The required data type
 
@@ -44,6 +55,8 @@ and it's responsibility in the application.
 group credit**
 
 Submit your project repo with your readme outlined. 
+
+Upon completion of your tasks listed above, notify your instructor for approval of the content. After approval, you may begin coding. 
 
 
 
