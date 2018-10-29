@@ -1,4 +1,9 @@
-# Midterm Final Outcome
+# Midterm Final Outcome and Presentation
+
+Each group will have a set period of time between 10 and 20 minutes to show their work. Each team member should speak during the presentation. You will want to talk about what your project does, and how it works. You should talk about the technical and personal challenges you faced and conquered during project week.
+
+
+Your presentation should show your work in the best possible light. Try to keep it engaging and fast-paced. Do not get too bogged down in technical details, instead focus on a high-level overview of the project. Slides are not required, but you must show the result of your project running on a remote server.
 
 Both of your final midterm GitHub projects should contain the following:
 

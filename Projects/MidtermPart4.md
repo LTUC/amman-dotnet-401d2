@@ -12,7 +12,7 @@ without committing any code. Create your Wireframe in a digital tool. whiteboard
 Provide an image of your wireframes in with the readme of your project.
 
 ## User Stories
-For each application (web app and API), start out by creating at least 5 user stories for each side. The outline/requirements for user stories can be found [HERE](UserStories.md)
+For each application (web app and API), start out by creating at least 5 user stories for each side. The outline/requirements for user stories can be found [HERE](UserStories.md){:target="_blank"}
 
 Each "task" or item in your kanban PM board, for each project, should contain:
 
@@ -56,7 +56,7 @@ group credit**
 
 Submit your project repo with your readme outlined. 
 
-Upon completion of your tasks listed above, notify your instructor for approval of the content. After approval, you may begin coding. 
+Upon completion of your tasks listed above, notify your instructor for approval of the content. After approval, you may begin coding. All 4 project steps **must** be completed before you may start coding your project.
 
 
 
