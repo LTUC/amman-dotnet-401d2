@@ -11,7 +11,8 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 
 
 ## Readings
+
 1. [View Layouts](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-2.1){:target="_blank"}
 2. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"}
-3. [User Secrets](../../Resources/UserSecrets.md){:target="_blank"}
 4. [Partial Views](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial?view=aspnetcore-2.1){:target="_blank"}
+3. [User Secrets](../../Resources/UserSecrets.md){:target="_blank"}
