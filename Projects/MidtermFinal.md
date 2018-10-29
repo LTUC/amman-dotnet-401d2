@@ -18,7 +18,7 @@ Tests are important. Write tests that cover basic getters/setters of your models
 
 
 ## ReadMe
-Your readme should contain the following:
+Both your web app and API should contain a readme with the following information:
 1. Link to your deployed site
 1. Introduction to your project (What is it? Why should you use it? What is it's purpose?)
 1. Screenshots of what your project looks like
@@ -36,6 +36,7 @@ This should be the same reqs doc that you completed for your midterm prework.
 This should be named `Requirements.md`
 
 ## Documentation (API Only)
+You may need additional documentation for your API. 
 The API Team should have ***clear and concise*** documenation on the API endpoints. This should 
 contain information such as 
 
