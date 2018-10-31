@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 18: Create an API
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 18: Finish up!
 =====================================
 
 ## To Submit this Assignment
@@ -22,7 +22,7 @@ Starting from an **empty MVC template**, Create an API that allows a user to Cre
 
 Using both of the resources above, create an API in .NET Core that conducts the standard HTTP verbs (Get,Put,Post,Delete) for a "To-Do" list.
 
-Your "To-Do" list will consist of indivudal tasks that can be saved into the database and extracted as needed. You should also have the ability to 
+Your "To-Do" list will consist of individual tasks that can be saved into the database and extracted as needed. You should also have the ability to 
 get all of the tasks by a simple get request. 
 <br />
 
@@ -33,7 +33,7 @@ get all of the tasks by a simple get request.
 **Deploy your API to Azure, provide a published link in your readme.**
 
 ### Application Components
-You application should contiain the following *at minimum*:
+You application should contain the following *at minimum*:
 1. 2 Controllers with CRUD endpoints (You may use an empty API controller template for this if you wish)
 1. 2 Models (ToDo and ToDoList)
 1. 2 database tables (one database table for each model)

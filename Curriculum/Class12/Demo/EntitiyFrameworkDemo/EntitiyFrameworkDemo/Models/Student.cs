@@ -19,5 +19,38 @@ namespace EntitiyFrameworkDemo.Models
 		public ICollection<CourseEnrollments> Courses { get; set; }
 		public ICollection<Transcript> Transcripts { get; set; }
 
+
+		public int GetAverage(Student student)
+		{
+			int averageSum = 0;
+			int counter = 0;
+			foreach (var item in student.Transcripts)
+			{
+				switch (item.Grade.ToLower())
+				{
+					case "a":
+						averageSum += 4;
+						counter++;
+						break;
+					case "b":
+						averageSum += 3;
+						counter++;
+						break;
+					case "c":
+						averageSum += 2;
+						counter++;
+						break;
+					case "d":
+						averageSum += 1;
+						counter++;
+						break;
+					default:
+						break;
+				}
+
+			}
+			return 0;
+		}
+
 	}
 }
