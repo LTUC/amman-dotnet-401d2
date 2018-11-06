@@ -8,12 +8,12 @@ The appropriate developer will complete the stories assigned to him/her as noted
 As a team, you will submit the following into Canvas as a text entry:
 
 1. A deployed link to your azure website
-2. User Story breakdown - Who did what....
-3. Collaborate with each other and come up with 
+2. Collaborate with each other and come up with 
     - What you did well
     - What you will do differently next sprint
-4. Do you need anything from the instructional staff?
-5. What do you want re-graded from sprint 1. (**Be Explicit**)
+3. Do you need anything from the instructional staff?
+4. What do you want re-graded from sprint 1. (**Be Explicit**)
+	 - No further resubmits will be accepted for Sprint 1
 
 The instructional staff will review your current master branch in VSTS and evaluate you accordingly.
 
@@ -43,7 +43,7 @@ The instructional staff will review your current master branch in VSTS and evalu
 1. (Developer 1) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
 2. (Developer 2) As a user, I would like to see the current items in my basket while browsing the site. 
 3. (Developer 1) As a user, I would like to have a designated basket page that will allow me to modify the items in my basket
-4. (Developer 2) As a user, i would like to quickely navigate to my basket from the home page. 
+4. (Developer 2) As a user, i would like to quickly navigate to my basket from the home page. 
 
 
 ### Milestone 2
@@ -59,7 +59,7 @@ The instructional staff will review your current master branch in VSTS and evalu
 #### Sprint 2 User Stories Part 3
 1. (Developer 1) As a user, i would like to complete my order through a checkout page on the site. 
 2. (Developer 1) As a user, i would like to be directed to an "order summary" page after completion of checkout. 
-3. (Developer 2) As a developer, I would like to use IEmailSender as my interface when configuraing meail functionality. 
+3. (Developer 2) As a developer, I would like to use IEmailSender as my interface when configuraing email functionality. 
 4. (Developer 2) AS a user, I would like an email confirmation to be sent to me after i have registered for an account on the site.
 5. (Developer 2 ) As a user, I would like a receipt of my purchases to be emailed to me after completing the checkout process.
 
@@ -114,7 +114,7 @@ Grades are distributed separately per student:
 2. OAUTH - at least two 3rd party service providers - 10pts
 3. SendGrid email integration on registration and order confirmation - 10pts
 4. Basket Page shows all current products in basket && each product landing page has an "Add to Basket" button - 10pts
-5. Checkout Page/Process exists (capture order information and then include order confirmation page) - 10pts
+5. Checkout Process exists (capture order information and then include order confirmation page) - 10pts
 6. HTML/CSS both polished from Sprint 1 and exists in new sprint 2 pages - 10pts
 7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
 9. Each Partner participated in a fair share of the work - 30 pts

@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class11\\Demo",
-    "\\Curriculum\\Class11\\Solution",
-    "\\Curriculum\\Class12",
     "\\Curriculum\\Class12\\Demo",
     "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo",
     "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo",
     "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo\\Models",
-    "\\Projects"
+    "\\Curriculum\\Class16",
+    "\\Curriculum\\Class17",
+    "\\Curriculum\\Class18",
+    "\\Curriculum\\Class19"
   ],
-  "SelectedNode": "\\Curriculum\\Class12\\Demo\\EntitiyFrameworkDemo\\EntitiyFrameworkDemo.sln",
+  "SelectedNode": "\\Curriculum\\Class19\\README.md",
   "PreviewInSolutionExplorer": false
 }
