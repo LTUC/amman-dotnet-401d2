@@ -51,7 +51,6 @@ Below are the requirements specific to each application, followed by requirement
    - At least 2 Endpoints in each Controller
 3. Documentation:
    - Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1){:target="_blank"}  for your custom API Documentation.
-4.  Written in C#
 5. Clearly commented code
 	- Clearly document your code 
 	- What does this code do?
