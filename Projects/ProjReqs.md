@@ -22,9 +22,11 @@ Below are the requirements specific to each application, followed by requirement
 		- At least 1 Interface
 	- Views 
       - `.cshtml` pages
+	  - No scaffolding CRUD operations of the views. 
 	  - You may use any CSS/JS front end technologies you wish, as long as they work well with all of the requirements.
 	- Controllers
       - At least 2 Controllers
+	  - No scaffolding or templating of controller with CRUD operations.
 2. Written in C#
 3. Clearly commented code
 	- Clearly document your code 
