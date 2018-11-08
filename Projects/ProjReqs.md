@@ -85,5 +85,5 @@ Both the Full stack MVC project and Web API project should **EACH** contain:
 ## Out of Scope
 The following is not permitted in the midterm project:
 
-1. Absolutely no authentication. You **may not** implement any sort of Authentication and Authorization of passwords of any kind. Do not try and store passwords in your database...even if you try to "hash" them yourselves. 
+1. Absolutely no passwords. You **may not** implement any sort of Authentication and Authorization of passwords of any kind. Do not try and store passwords in your database...even if you try to "hash" them yourselves. 
 
