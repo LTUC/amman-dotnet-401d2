@@ -2,6 +2,8 @@
 
 Welcome to your midterm project! 
 
+**READ THE ENTIRE DOCUMENT BEFORE STARTING YOUR PLANNING!**
+
 ## Requirements
 
 Your midterm project is broken up into 2 smaller projects (Full stack MVC project and API project). 
