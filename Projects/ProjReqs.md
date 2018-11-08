@@ -4,7 +4,7 @@ Welcome to your midterm project!
 
 ## Requirements
 
-Your midterm project is broken up into 2 parts. 
+Your midterm project is broken up into 2 smaller projects (Full stack MVC project and API project). 
 Full CRUD Web app and a custom API. Your Full CRUD web app
 will consume your custom API. You may use a 3rd party
 API in addition, but it is not required. This may add some value to your project. 
@@ -67,7 +67,7 @@ Below are the requirements specific to each application, followed by requirement
 
 
 ### Shared Functionality
-Each individual project should have....
+Both the Full stack MVC project and Web API project should **EACH** contain:
 
 1. Testing:
   - Unit Tests
@@ -80,3 +80,10 @@ Each individual project should have....
 - Azure
 - App Services
 - SQL Server
+
+
+## Out of Scope
+The following is not permitted in the midterm project:
+
+1. Absolutely no authentication. You **may not** implement any sort of Authentication and Authorization of passwords of any kind. Do not try and store passwords in your database...even if you try to "hash" them yourselves. 
+
