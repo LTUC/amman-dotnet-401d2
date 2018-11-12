@@ -20,6 +20,7 @@ Some ideas for how you might want to teach:
 
 ## Readings
 
-* Watch [what is a hash table?](https://www.youtube.com/watch?v=MfhjkfocRR0)
-* Read [basics of hash tables](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
-* Skim [hash table wiki](https://en.wikipedia.org/wiki/Hash_table)
+* Read [Intro to Hash Tables](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class30/Resources/Hashtables){:target="_blank"} 
+* Watch [what is a hash table?](https://www.youtube.com/watch?v=MfhjkfocRR0){:target="_blank"} 
+* Read [basics of hash tables](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/){:target="_blank"} 
+* Skim [hash table wiki](https://en.wikipedia.org/wiki/Hash_table){:target="_blank"} 
