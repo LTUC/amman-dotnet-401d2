@@ -94,7 +94,7 @@ We now know that our key `Cat` maps to index 68 of the array. We can view into t
 
 Let's dive a bit deeper into HOW the key/values are stored in the array. 
 
-Each index of the array can hold many types of values. The trick is how the values are stored in comparison to efficiency. Each Index of the array contain "buckets". Each of these "buckets" holds one key/value pair combination. Buckets can be represented as either a linked list or a tree. Each holding it's own advantages in efficiency. 
+Each index of the array can hold many types of values. The trick is how the values are stored in comparison to efficiency. Each Index of the array contain "buckets". Each of these "buckets" holds one key/value pair combination. 
 When there is no entry in a specific bucket, the buckets (each index of the array) all start `null`. The hash
 table starts each bucket empty and overwrites their value once a key generates a hashCode that corresponds with an index.
 
@@ -107,8 +107,8 @@ What would happen if two different keys resolved to be the
 same index of the array? This is called a collision. The hash map needs to be
 able to handle two keys resolving to the same index.
 
-If two keys ever ultimately resolved to the same index then two calls to
-`.put(key, val)` with different keys would overwrite each other.
+If two keys ever ultimately resolved to the same index, then two calls to
+`.Add(key, val)` with different keys would overwrite each other.
 
 Collisions are solved by changing the initial state of the buckets. Instead of
 starting them all as `null` we can initialize a `LinkedList` in each one! Now
@@ -133,8 +133,8 @@ element in the linked list. Notice that both of them store the entire
 key/value pair.
 
 ```js
-hashMap.put("Pioneer Square", 98104);
-hashMap.put("Alki Beach", 98116);
+hashMap.Add("Pioneer Square", 98104);
+hashMap.Add("Alki Beach", 98116);
 ```
 
 ```
@@ -352,12 +352,12 @@ Bucket 98: []
 When adding a new key/value pair to a hashtable:
 1. send the key to the `GetHash` method. 
 2. Once you determine the index of where it should be placed, go to that index
-3. Check if a `Node` exists at that index already, if it doesn't, add it with the key/value pair.
-4. If a node does exist, add the new key/value pair to the data structure within that bucket. 
+3. Check if something exists at that index already, if it doesn't, add it with the key/value pair.
+4. If something does exist, add the new key/value pair to the data structure within that bucket. 
 
 
 #### Find()
-The `Find` takes in a key, Gets the Hash, and goes to the index location specified. Once at the index location is found in the array, it is then the responsibility of the algorithm the iterate through the bucket and see if the key exists and return the value.
+The `Find` takes in a key, gets the Hash, and goes to the index location specified. Once at the index location is found in the array, it is then the responsibility of the algorithm the iterate through the bucket and see if the key exists and return the value.
 
 #### Contains()
 The `Contains` method will accept a key, and return a bool on if that key exists inside the hashtable. The best way to do this is to have the contains call the `GetHash` and check the hashtable if the key exists in the table given the index returned. 
@@ -365,8 +365,4 @@ The `Contains` method will accept a key, and return a bool on if that key exists
 #### GetHash()
 The `GetHash` will accept a key as a string, conduct the hash, and then return the index of the array where the key/value should be placed.
 
-## Big O:
-The Big O time of a hashtable for lookup will always be O(1). This is because we are able to hash the key, and immediately determine the location we need to look to find the key/value pair. 
-
-If a collision has occurred at that index, then it will take the time of whatever data structure is represented in the buckets to retrieve and return the value by traversal. 
 
