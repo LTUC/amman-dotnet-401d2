@@ -1,8 +1,8 @@
 # Sprint 1 Requirements
 
-These are the expectations for Milestone 1.
+These are the expectations for Sprint 1.
 
-You will individually submit the following into Canvas as a text entry:
+You will each individually submit the following into Canvas as a text entry:
 
 1. A deployed link to your azure website
 2. Collaborate with each other and come up with 
@@ -13,23 +13,6 @@ You will individually submit the following into Canvas as a text entry:
 The instructional staff will review your current master branch in VSTS/Azure Dev Ops and evaluate you accordingly.
 
 **Only push to master on sprint check-ins**
-
-## Workflow
-**For each** user story given for each milestone, you must follow the following process:
-
-**Use the VSTS Cheat Sheet as a reference on how to do each requirement**
-
-1. Create a new user story/work item for each provided user story.  
-2. Add tasks to your user story (have at least 2, but no more than 4)
-3. Approve the user story that you just created
-4. Assign the user story to yourself or your partner
-5. Set that user story as "in progress" in your kanban board
-6. create a branch for each task that you created and attached to the user story
-7. Work on your user story
-8. Submit a PR
-9. Have your partner approve your pr (with notes possibly?)
-10. Complete the task
-11. Rinse and repeat for all user stories.
 
 
 ## Checkin
@@ -50,6 +33,7 @@ The instructional staff will review your current master branch in VSTS/Azure Dev
    - Capture custom claims
 5. Shopping Page
    - Shows all products in inventory for users to browse
+   - Anonymous accessibility
 6. Custom claims based policy implemented and registered and used in the site
 
 
