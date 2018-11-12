@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : Milestone #3
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 28: Sprint 1 - Milestone #3
 =====================================
 
 ## To Submit this Assignment
