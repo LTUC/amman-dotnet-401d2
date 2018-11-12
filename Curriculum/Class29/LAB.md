@@ -1,39 +1,47 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab : Milestone #3
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
-- Include a `README.md` (contents described below)
 
-## Directions
+No Submission is required. 
 
-## Specs
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together. 
+
+### END OF SPRINT
+This is the end of sprint 1. please refer to the Sprint 1 assignment to confirm you have met all the requirements for submission. 
+
+## Directions:
+
+Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
+ 
+
+## User Stories & Guidance:
+
+### User Stories
+
+1. (Developer 2) As a user, I would like to implement a custom claims-based policy
+2. (Developer 1)  As a user, I would like part of my site to only be accessible to those who meet the criteria for a specific policy 
+3. (Developer 1) As a user, I would like to have a page where visitors can view all the products I have in my inventory so that they can eventually purchase. 
+
+### Guidance
+
+**User story 1:** Think up a claims based policy that you want to enforce. I used the "age" example in class. Can you think of a different one? An example of one may be only someone with a specific email domain can access parts of the site. Here are some required components that you should have
+	1. `IAuthorizationRequirement` that holds some basic information about the requirement
+	2. `AuthorizationHandler<T>`That enforces the requirement from above. This is what checks the condition for the policy to pass.
+	3. Add the policy under your `AddAuthorization()` in your `Startup.cs` file
+	4. Register the policy with dependency injection by giving it a lifecycle attribution
+
+
+**User Story 2:** Another claim based policy is to only allow people to certain parts of the site if a specific claim exists. It doesn't necessarily matter the value of the claim, just that they have it attached to their profile. An example could be "Any user who has the claim of "LovesCats" can access a specific part of the site that is specific to cat lovers.
+
+**User Story 3:** This is essentially just a Shopping page. This is where the user can browse the store. This can be a "ShopController" and it will display all the possible products that currently exist in the inventory.
+
+
 
 ## Tests
-
-## README
-
-**A Readme is a requirement. No Readme == No Grade.** <br />
-Here are the requirements for a valid readme: <br />
-
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
-
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+TBD
 
 
 ## Rubric
