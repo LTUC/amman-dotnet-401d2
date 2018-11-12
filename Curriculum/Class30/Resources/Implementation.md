@@ -10,8 +10,8 @@ Within your `Data_Structures and Algorithms` repo:
 
 Implement a Hashtable with
 1. Add(key, value) - void return
-1. Find(int key) - returns the value from key/value pair
-1. Contains(int key) - returns bool
+1. Find(string key) - returns the value from key/value pair
+1. Contains(string key) - returns bool
 1. GetHash(key) - returns array index
 
 ## Specs
