@@ -7,9 +7,8 @@ Peer reviews are done at the end of each week
 2. Look at how your partner implemented that feature.
 3. Provide the following:
 	- What you liked about the implementation
-	- What you didn't like
-	- How would you have done it differently?
-	- Suggestions for refactoring/optimizations
+	- What you didn't like? 
+	- How would you have done it differently? Suggestions for refactoring/optimizations
 	- Something that you learned
 
 **NOTE:** These peer reviews are worth 50 points total (25pts for each) and are in place to prepare you with the standard of what peer reviews are like in the industry. Your review should be thorough and thought out. You are not allowed to just "agree" with the way your partner implemented it.  Always explain why or why not. 
