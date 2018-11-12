@@ -79,6 +79,8 @@ An alternative to a linked list, you can always use trees. If your keys will alw
 
 #### Add()
 
+When adding a new key/value pair to a hashtable, 
+
 #### Find()
 
 #### Contains()
