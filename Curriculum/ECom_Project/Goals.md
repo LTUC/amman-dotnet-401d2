@@ -8,7 +8,7 @@ you are hoping to achieve by the next goal/reflection day
 ## Goals 
 Each Goal should contain in a discussion post:
 1. What user stories are going to be completed
-1. What is your ETA on each user story
+1. What is your ETA on each of your user stories.
 1. What user stories are you behind on that you need to catch up?
 
 These goals are done individually.

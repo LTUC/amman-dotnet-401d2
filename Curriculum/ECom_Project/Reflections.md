@@ -9,7 +9,7 @@ you are hoping to achieve by the next goal/reflection day
 
 Each reflection should contain:
 
-1. What was implemented (reference at least 2 different user stories each)
+1. What was implemented (reference at least 2 different user stories you completed)
 2. What blockers did you encounter?
 3. How was the issue solved. 
 4. What was your estimated time on the user story
