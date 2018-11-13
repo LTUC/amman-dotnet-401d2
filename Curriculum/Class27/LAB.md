@@ -24,23 +24,24 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 ### Guidance
 
 **User Story 1:** Add identity to your empty MVC project. This is done in the Startup.cs class in the ConfigureServices() method. This is a big user story because the following must also be completed to accomplish this story:
-	1. Create an ApplicationUser (that derives from Identity User)
-	2. Create a new DBContext for Identity (ApplicationDbContext)
-	3. Include app.UseAuthentication in your Configure() method within Startup.cs
+1. Create an ApplicationUser (that derives from Identity User)
+2. Create a new DBContext for Identity (ApplicationDbContext)
+3. Include app.UseAuthentication in your Configure() method within Startup.cs
 	
 **User Story 2:** Create an AccountController and add into it a Register() action(both a POST and a GET). This is the actual act of creating a new ApplicationUser and adding them into the database. You will need to create a view to hold the registration form, you will then need to send that data to the server and save the data into the identity database. Using a ViewModel may be a good idea to create so that you can capture the Email, Password, and Confirm Password fields that you may have in your Register() action.
 
 **User story 3:** is bringing interfaces and dependency injection together.
-	1. Create a new interface, maybe named IInventory  
-	2. Add the following method signatures: Create, GetAll, GetByID, Update, Delete.
-	3. Be sure to add the DbContext reference to your interface so that you have access to the db.
-	4. Register your interface in your startup class
-	5. Bring your interface into your Controller when you need to reference it instead of your DBContext
+1. Create a new interface, maybe named IInventory  
+2. Populate the interface with signatures that will represent basic CRUD operations within the inventory such as `Create`, `GetAll`, `GetByID`, `Update`, `Delete`.
+	- The actual method signatures within your interface will vary and may not be those exact 5 methods. 
+3. Be sure to add the DbContext reference to your interface so that you have access to the db.
+4. Register your interface in your startup class
+5. Bring your interface into your Controller when you need to reference it instead of your DBContext
 	
 **User story 4:** is seeding your database to hold default products.
-	1. Do this in the DBContext file
-	1. You will need a `Product` model. Your Model should at the minimum hold a Product class. The properties for this class can hold basic information about a Product such as: ID(int), Sku(string), Name(string), Price(decimal), Description(string), Image(string).
-	2. Use [this resource](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} to assist in syntax and population
+1. Do this in the DBContext file
+1. You will need a `Product` model. Your Model should at the minimum hold a Product class. The properties for this class can hold basic information about a Product such as: ID(int), Sku(string), Name(string), Price(decimal), Description(string), Image(string).
+2. Use [this resource](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} to assist in syntax and population
  
 
 ## Tests
