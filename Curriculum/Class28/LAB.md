@@ -17,11 +17,11 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 ## User Stories & Guidance:
 
 ### User Stories
-1. (Developer 2) As a user, I would like to login to my website on a custom secure login page.
-2. (Developer 2) As a User, I would like custom claims to be captured upon registration of the site. 
-3. (Developer 1) As a user, I would like to be greeted by a custom home page visiting the site. 
-4. (Developer 1) As a user, I would like to be able to either login or register easily through a link on the home page. 
-5. (Developer 1) As a user, I would like to be greeted, after login, with my first and last name
+1. (Developer 1) As a user, I would like to login to my website on a custom secure login page.
+2. (Developer 1) As a User, I would like custom claims to be captured upon registration of the site. 
+3. (Developer 2) As a user, I would like to be greeted by a custom home page visiting the site. 
+4. (Developer 2) As a user, I would like to be able to either login or register easily through a link on the home page. 
+5. (Developer 2) As a user, I would like to be greeted, after login, with my first and last name
 
 ### Guidance
 

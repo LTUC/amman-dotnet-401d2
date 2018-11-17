@@ -1,39 +1,45 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 31: Sprint 2 - Milestone #1
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
-- Include a `README.md` (contents described below)
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
-## Directions
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
-## Specs
+
+## Directions:
+
+Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
+ 
+
+## User Stories & Guidance:
+
+Here are the user stories for Milestone 1:
+1. (Developer 1) As a user, I would like a product landing page for each product, so that I can view individual details about the product.
+2. (Developer 1) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
+3. (Developer 1 & 2 ) As a user, I would like a basket to hold the products I wish to purchase. 
+(Developer 2) As a user, I would like to see the current items in my basket while browsing the site.
+
+
+### Guidance
+
+**User Story 1:** This page should exist for every product, and it can be done dynamically through views. Have a "View" action in your "ShopController" that will allow you to see product specific information. This page should contain:
+	1. Image of the product
+	2. Name of Product
+	3. Description
+	4. Price
+	
+**User Story 2:**  this essentially adding a button to onto the product landing page. This button will have the text "Add to Basket". When this button is clicked, it will pass the Product ID to the [HTTPPOST] action and then add that product to the user's basket. This should all take place on the database side. Consider using an interface for Basket CRUD operations. Similar to how you are getting products...do the same for basket manipulation. 
+
+**User story 3:** You and your partner need to figure out how you are going to capture a user's basket items. This is going to required a database change. At the very least, your Basket should contain a collection Basket Items or Products...depending on your structure. You should be able to call a user's basket and view all the items/products associated with it. Remember that it possible that a user can have more than one item in their basket AND more than one type of item (example: I have 2 blankets in my basket).
+
+**User story 4:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in his/her cart, and displays it on more than one page of the site. My suggestions include the browse page that shows all products in the inventory, and each product landing page. 
+	
+
 
 ## Tests
 
-## README
-
-**A Readme is a requirement. No Readme == No Grade.** <br />
-Here are the requirements for a valid readme: <br />
-
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
-
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+No tests are required for today. 
 
 
 ## Rubric

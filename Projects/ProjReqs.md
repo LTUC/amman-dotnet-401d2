@@ -6,7 +6,7 @@ Welcome to your midterm project!
 
 ## Requirements
 
-Your midterm project is broken up into 2 smaller projects (Full stack CRUD MVC project and API project).
+Your midterm project is broken up into 2 smaller projects (Full stack CRUD MVC project and API project). Each project should live in it's own repo on GH (They can live in the same organization).
 your Full CRUD web app will consume your custom API. You may use a 3rd party
 API in addition, but it is not required. This may add some value to your project. 
 
@@ -31,6 +31,9 @@ Below are the requirements specific to each project, followed by requirements th
      - Provide documentation for your web app. Include
      the work-flow, screen shots of the app, DB Schema, and basic
     functionality directions on how to use the site.
+
+3. API Calls
+	- You web app should make a call to at least 2 controllers from the API project. 
 
 ### Custom API
 1. MVC architectural pattern

@@ -12,7 +12,9 @@
 5. OOP Principles
    - LAB: Zoo Part 1
 
-Data Structures: How to Approach a DS
+Data Structures: 
+	- How to Approach a DS
+	- String & Array manipulation
 
 Quiz 1
 
@@ -23,41 +25,43 @@ Quiz 1
 2. Collections
    - LAB: Deck of Cards
 3. LINQ
-   - LAB: LINQ in Manhantten
-4. Recursion
-   - LAB: Recursion Exercises
-5. Review Day
+   - LAB: LINQ in Manhattan
+4. Design Patterns
+   - LAB: Design Patterns
+5. Stacks & Queues // Recursion
    - LAB: None
 
-Data Structure: Linked Lists
+Data Structure: 
+	- Linked Lists
 
 Quiz 2
 
-## Week 3 - MVC
+## Week 3 - MVC & Entity Framework Core
 1. MVC Intro
-   - TIME person of the year
-2. SQL Basics // TSQL (look in 301 day 8 and 9)
-   - Lab: SQL exercises with SSMS
-3. CRUD Entity Framework
-   - Lab: Student Enrollment Part 1
-4. Interfaces with MVC // EF Key Constraints
-   - (Azure Deployment with documentation)
-   - LAB: Student Enrollment Part 2
+   - TIME person of the year MVC App
+2. Relational Databases & schemas
+   - Lab: Design a schema
+3. CRUD Intro to Entity Framework
+   - Lab: `AsyncInn` Hotel Project Part 1
+	- Create Models from DB schema
+	- Identify Primary Keys/Foreign Keys/Composite Keys
+4. Entity Framework part 2
+   - LAB: Seeding Data and V
 5. Career Coaching
 
 Data Structure: Stacks/Queues
 
 Quiz 3
 
-## Week 4 - APIs
-1. Signal R // Web *
-   - ???
+## Week 4 - Repository Design Pattern & APIs
+1. Dependency Injection & Repository Design Pattern
+   - incorporate the Repository Design Pattern into lab
+2. Azure Deployment & Unit Tests
+	- Deploy app to Azure and write basic tests
 2. API Introduction
    - TODO List Part 1
-3. API - Double Resource
-   - TODO List Part 2
-4. Consume an API
-   - SPA to consume TODO List
+3. API - API part 2
+   - LAB: Making a call out to an API
 5. Midterm Project Kickoff
 
 Data Structures: Trees (Binary, BST, K-ary)
@@ -66,37 +70,50 @@ Quiz 4
 
 ## Week 5
 Midterm Project week
-1. Build a Full CRUD app
+1. Build a Full CRUD web app
 2. Build a custom API
-3. Make the Web app consume the API
+3. Make the Web app call out to the API
 
 
 ## Week 6 - Identity
-1. Intro to Identity: Setup & Login/Registration
-2. Claims
-3. Policies
-4. Web Security
+1. Intro to E-Com project and PM Tool "Azure DevOps"
+	- Beginning of Sprint 1: Create a basic MVC app with database
+2. Intro to Identity: Setup & Registration
+	- Implement Identity API and create use registration
+3. Login and Claims
+	- Add Login page to E-Com and capture specific claims
+4. Custom Policies
+	- Create policies to customize access across the site with previous claims
 5. Career Coaching
 
-Data Structure: Graphs
+Data Structure: Hash Tables
 Quiz 5
 
 ## Week 7  
 1. View Components
-2. (OAUTH)
+	- Add a "Basket" component to E-Com site
+2. OAUTH
+	- Add 2 3rd party providers as login to project
 3. AUTH.NET (How to read 3rd party Docs)
+	- Incorporate "fake" payment processing into project
 4. Razor Pages 
+	- Add in user profile & admin dashboard page as Razor Page
 5. Career Coaching
 
-Data Structure: Hash tables 
+Data Structure: Graphs 
 Quiz 6
 
 ## Week 8 - Azure
-1. x 
+1. Sass//SCSS
 2. Email Services
-3. (Azure Functions)
+	- LAB: Incorporate SendGrid into project 
+3. X
 4. Azure Blob Storage
-5. x 
+	- LAB: Save all product images in Azure Blob Storage
+5. Web Security
+	- OWASP security Requirements
+	- HTTP and SSL 
+	- GDPR
 
 Data Structure: Sorting Algorithms
 Quiz 7
@@ -104,8 +121,9 @@ Quiz 7
 ## Week 9 - MISC.
 1. .NET 4.7 MVC
 2. Design Patterns - Factory
-3. (Design Patterns - ???)
+3. General Overall Review
 4. Open Source Contribution 
+	- Learn, Investigate, and Contribute to an open source project
 5. Final Project Kickoff
 
 Data Structures: Mock Interviews
