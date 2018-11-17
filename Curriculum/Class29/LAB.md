@@ -27,11 +27,11 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 ### Guidance
 
-**User story 1:** Think up a claims based policy that you want to enforce. I used the "age" example in class. Can you think of a different one? An example of one may be only someone with a specific email domain can access parts of the site. Here are some required components that you should have
-	1. `IAuthorizationRequirement` that holds some basic information about the requirement
-	2. `AuthorizationHandler<T>`That enforces the requirement from above. This is what checks the condition for the policy to pass.
-	3. Add the policy under your `AddAuthorization()` in your `Startup.cs` file
-	4. Register the policy with dependency injection by giving it a lifecycle attribution
+**User story 1:** Think up a claims based policy that you want to enforce. I used the "age" example in class. Can you think of a different one? An example of one may be only someone with a specific email domain can access parts of the site. Here are some **required components** that you must have:
+- `IAuthorizationRequirement` that holds some basic information about the requirement
+- `AuthorizationHandler<T>`That enforces the requirement from above. This is what checks the condition for the policy to pass.
+- Add the policy under your `AddAuthorization()` in your `Startup.cs` file
+- Register the policy with dependency injection by giving it a lifecycle attribution
 
 
 **User Story 2:** Another claim based policy is to only allow people to certain parts of the site if a specific claim exists. It doesn't necessarily matter the value of the claim, just that they have it attached to their profile. An example could be "Any user who has the claim of "LovesCats" can access a specific part of the site that is specific to cat lovers.
@@ -39,10 +39,8 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 **User Story 3:** This is essentially just a Shopping page. This is where the user can browse the store. This can be a "ShopController" and it will display all the possible products that currently exist in the inventory.
 
 
-
 ## Tests
-TBD
-
+No Tests are required for this milestone
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
