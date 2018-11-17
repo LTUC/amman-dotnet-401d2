@@ -80,8 +80,8 @@ Grades are distributed separately per student:
 7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
 9. Each Partner participated in a fair share of the work 
     - i.e. Each partner did their assigned user stories
-		- It's okay if one partner helped the other out. That is encouraged. I am primarily making sure that each person did their "fair share" of the sprint. Do not make your partner do all the work to stay on task. 
-	- If the distribution is uneven, or one partner did not (approx.) evenly contribute, **they will lose 20%** from the sprint. These points cannot be regained. 
+		- It's okay if one partner helped the other out with a few stories. That is encouraged if it's needed. I am primarily making sure that each person did their "fair share" of the sprint. Do not make your partner do all the work to stay on task. 
+	- If the distribution is significantly uneven, or one partner did not (approx.) evenly contribute, **they will lose 20%** from the sprint. These points cannot be regained. 
   
 
 **If you are missing all or the sprint 2 part of your readme documentation,  you will lose an additional 20%**. 
