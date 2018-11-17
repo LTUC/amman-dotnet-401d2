@@ -2,71 +2,32 @@
 
 These are the expectations for Sprint 2.
 
-Identify, beween your partner and yourself, who is Developer 1, and who is Developer 2. 
-The appropriate developer will complete the stories assigned to him/her as noted next to each user story. 
+You will only have 48 hours from the initial due date of this sprint to submit your work. Anything past the 48 hours will not be accepted and you will receive a zero for this sprint. Each individual is responsible for their own submission. 
 
-As a team, you will submit the following into Canvas as a text entry:
+Re-sumbits for this sprint will only be accepted upon evaluation of sprint 3:
+
+For example, Your team received feedback that you need to fix an error in one or two of your milestones. Instead of doing a submission and pushing to master halfway through your sprint 2, you will be required to **explicitly** tell your grader what you want them to regrade from sprint 1 when you submit for sprint 2. You will not be able to do any additional "resubmits" for sprint 1 once sprint 2 is due and graded. Plan accordingly.
+
+You will each individually submit the following into Canvas as a text entry:
 
 1. A deployed link to your azure website
 2. Collaborate with each other and come up with 
     - What you did well
     - What you will do differently next sprint
 3. Do you need anything from the instructional staff?
-4. What do you want re-graded from sprint 1. (**Be Explicit**)
-	 - No further resubmits will be accepted for Sprint 1
 
-The instructional staff will review your current master branch in VSTS and evaluate you accordingly.
+The instructional staff will review your current master branch in VSTS/Azure Dev Ops and evaluate you accordingly.
 
-**Only push to master on sprint checkins**
-
-## Workflow
-**For each** user story given for each milestone, you must follow the following process:
-
-**Use the VSTS Cheat Sheet as a reference on how to do each requirement**
-
-1. Create a new user story/work item for each provided user story.  
-2. Add tasks to your user story (have at least 2, but no more than 4)
-3. Approve the user story that you just created
-4. Assign the user story to yourself or your partner
-5. Set that user story as "in progress" in your kanban board
-6. create a branch for each task that you created and attached to the user story
-7. Work on your user story
-8. Submit a PR
-9. Have your partner approve your pr (with notes possibly?)
-10. Complete the task
-11. Rinse and repeat for all user stories.
-
-### Milestone 1:
-
-#### Sprint 2 User Stories Part 1
-1. (Developer 1 & 2) As a user, I would like a basket to hold the products i wish to purchase. 
-1. (Developer 1) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
-2. (Developer 2) As a user, I would like to see the current items in my basket while browsing the site. 
-3. (Developer 1) As a user, I would like to have a designated basket page that will allow me to modify the items in my basket
-4. (Developer 2) As a user, i would like to quickly navigate to my basket from the home page. 
-
-
-### Milestone 2
-
-#### Sprint 2 User Stories Part 2
-1. (Developer 1) As a user, i would like my ecommerce site to support the use of external service providers to allow me to register and log into my ecommerce site. 
-1. (Developer 1 and 2) As a user, I would like at least 2 OAUTH options of 3rd party tools to signin into or register for the ecommerce site. 
-2. (Developer 1) As a user, I would like to capture the user's email and save it after they have chosen OAUTH authentication 
-3. (Developer 2) As a user, i would like the icons of the 3rd party OAUTH options to display on the login page.
-
-### Milestone 3
-
-#### Sprint 2 User Stories Part 3
-1. (Developer 1) As a user, i would like to complete my order through a checkout page on the site. 
-2. (Developer 1) As a user, i would like to be directed to an "order summary" page after completion of checkout. 
-3. (Developer 2) As a developer, I would like to use IEmailSender as my interface when configuraing email functionality. 
-4. (Developer 2) AS a user, I would like an email confirmation to be sent to me after i have registered for an account on the site.
-5. (Developer 2 ) As a user, I would like a receipt of my purchases to be emailed to me after completing the checkout process.
+**Only push to master on sprint check-ins**
 
 
 ## Checkin
 
-Upon completion of this sprint, Your Ecommerce site should contain the following:
+Upon completion of this sprint, Your E-Commerce site should contain the following:
+
+1. MVC website with basic configurations
+2. DB Context with products seeded into a SQL Server database
+3. Repository Design Pattern properly setup and integrated into your site (interface with Startup.cs registration)
 1. Home Page
    - Introduction to your site
    - Anonymous accessibility
@@ -76,22 +37,22 @@ Upon completion of this sprint, Your Ecommerce site should contain the following
    - Option to login with at least two 3rd party service providers (OAUTH)
 3. Registration Page
    - Create an account
-4. Admin Dashboard - 
-   - Only accessible by users who hold the role of admin
-   - Manage Inventory (Full CRUD)
+   - Anonymous accessibility
+   - Capture custom claims
 5. Shopping Page
    - Shows all products in inventory for users to browse
+   - Anonymous accessibility
 6. Product Landing Page
    - Displays individual information about each product
+   - Anonymous Access
 7. Basket Page
    - View all items in the basket. Allow ability to edit/remove the item.
-8. Checkout page
    - Must be logged in/Authorized
-   - Capture user information about their order (NO Personal Identifiable information please)
-   - Transfer products from their "basket" to an "Order"
-9. Recipt/Order Confirmation Page
+9. Receipt/Order Confirmation Page
    - Must be logged in/Authorized
-   - Summary of the order that the user just completed. 
+   - Summary of the order that the user just completed.
+6. Custom claims based policy implemented and registered and used in the site
+ 
 
 ### Shared
 - CSS/HTML
@@ -114,19 +75,20 @@ Grades are distributed separately per student:
 2. OAUTH - at least two 3rd party service providers - 10pts
 3. SendGrid email integration on registration and order confirmation - 10pts
 4. Basket Page shows all current products in basket && each product landing page has an "Add to Basket" button - 10pts
-5. Checkout Process exists (capture order information and then include order confirmation page) - 10pts
+5. Receipt page exists with order summary and grand total of all items - 10pts
 6. HTML/CSS both polished from Sprint 1 and exists in new sprint 2 pages - 10pts
 7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
-9. Each Partner participated in a fair share of the work - 30 pts
-    - i.e. One partner did not only do front end while the other only did back end
-    - User stories are approx. distributed evenly between both students (roughtly, does not have to be exact)
+9. Each Partner participated in a fair share of the work 
+    - i.e. Each partner did their assigned user stories
+		- It's okay if one partner helped the other out. That is encouraged. I am primarily making sure that each person did their "fair share" of the sprint. Do not make your partner do all the work to stay on task. 
+	- If the distribution is uneven, or one partner did not (approx.) evenly contribute, **they will lose 20%** from the sprint. These points cannot be regained. 
   
 
-**If you are missing all or part of your readme documentation,  you will lose an additional 20%**. 
-- The readme is important becasue it helps the instructional team grade your site. it is their guide/map
+**If you are missing all or the sprint 2 part of your readme documentation,  you will lose an additional 20%**. 
+- The readme is important because it helps the instructional team grade your site. it is their guide/map
 to your configuration and settings of your web application. 
 
-Total: 100 pts
+Total: 70 pts
 
 ### Rubric (Per requirement)
 ## Rubric

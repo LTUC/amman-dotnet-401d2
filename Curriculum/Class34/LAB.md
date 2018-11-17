@@ -16,8 +16,8 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 1. (Developer 1 & 2) As a developer, I would like to use IEmailSender as my interface when configuring email functionality. 
 2. (Developer 2) As a user, I would like an email confirmation to be sent to me after I have registered for an account on the site.
-3. (Developer 1) As a user, i would like  a "checkout" button present on the Basket page.
-4. (Developer 2) As a user, I would like an order Summary page so that I can view all the items that I "purchased".
+3. (Developer 1) As a user, I would like a "checkout" button present on the Basket page.
+4. (Developer 2) As a user, I would like an order Receipt page so that I can view all the items that I "purchased".
 5. (Developer 1) As a user, I would like a receipt of my purchases to be emailed to me after completing the checkout process
 
 
@@ -27,9 +27,9 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 **User Story 2:** Building off of US1, Make an email get sent after registration of a new account.
 
-**User Story 3:** Update your Basket page to have a "Checkout" button. This checkout will complete the customers order. Make this Checkout button link to a "Summary" action in the "CheckoutController"
+**User Story 3:** Update your Basket page to have a "Checkout" button. This checkout will complete the customers order. Make this Checkout button link to a "Receipt" action in the "CheckoutController"
 
-**User Story 4:** Create a new "CheckoutController" with an action named "Summary". On this summary page, bring in all the items from the user's basket and displays line items of what the user has "purchased". Display:
+**User Story 4:** Create a new "CheckoutController" with an action named "Receipt". On this summary page, bring in all the items from the user's basket and displays line items of what the user has "purchased". Display:
 	1. The name of the product
 	2. The price of the product
 	3. The Qty purchased
