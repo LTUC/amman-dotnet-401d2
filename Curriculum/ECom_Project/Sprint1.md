@@ -53,10 +53,14 @@ The instructional staff will review your current master branch in VSTS/Azure Dev
   - Link to your deployed website
 
 **End of Sprint 1:** 
-  - **A readme is required**: 10 pts
-  - Milestone points 40pts. (10 pts for each milestone)
-  - Deployed and Functional: 10pts
+1. **A readme is required**: 10 pts
+2. - Milestone points 40pts. (10 pts for each milestone)
+3.  - Deployed and Functional: 10pts
 	- You will not be able to resubmit points for re-deployment. 
+4. Each Partner participated in a fair share of the work 
+    - i.e. Each partner did their assigned user stories
+		- It's okay if one partner helped the other out with a few stories. That is encouraged if it's needed. I am primarily making sure that each person did their "fair share" of the sprint. Do not make your partner do all the work to stay on task. 
+	- If the distribution in Azure Dev Ops is significantly uneven, or one partner did not (approx.) evenly contribute, **they will lose 20%** from the sprint. These points cannot be regained.
 
 Total: 60 pts
 
