@@ -121,15 +121,15 @@ Quiz 6
 	- SPRINT 3 START
 2. Email Services
 	- LAB: Incorporate SendGrid into project 
-3. XXX
-4. Azure Blob Storage
+3. Azure Blob Storage
 	- LAB: Save all product images in Azure Blob Storage
-5. Web Security
+4. Web Security
 	- OWASP security Requirements
 	- HTTP and SSL 
 	- GDPR
 	- LAB: Vulnerability Report
 	- END OF SPRINT 3
+5. Review Day
 
 Data Structure: Sorting Algorithms
 Quiz 7
