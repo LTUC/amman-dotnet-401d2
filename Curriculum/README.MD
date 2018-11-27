@@ -95,11 +95,11 @@ Quiz 5
 ### Azure Dev Ops
 1. Sprint Backlog
 1. Create User stories with tasks and Acceptance tests
-2. Task Branching
-3. Time estimation
-4. PRs within Azure Dev Ops
-5. Peer Reviews
-6. Weekly Goals and Reflections
+1. Task Branching
+1. Time estimation
+1. PRs within Azure Dev Ops
+1. Peer Reviews
+1. Weekly Goals and Reflections
 
 ## Week 7  
 1. View Components
@@ -141,13 +141,13 @@ Quiz 7
 
 ## Week 9 - MISC.
 1. .NET 4.7 MVC & Web Forms
-2. Design Patterns
+1. Design Patterns
 	- Different Types
 	- Implement Factory
-3. General Overall Review
-4. Open Source Contribution 
+1. General Overall Review
+1. Open Source Contribution 
 	- Learn, Investigate, and Contribute to an open source project
-5. Final Project Kickoff
+1. Final Project Kickoff
 
 Data Structures: Mock Interviews
 
@@ -155,3 +155,8 @@ Quiz 8
 
 ## Week 10
 Final Project Week
+
+1. Build a full-stack app with ASP.NET Core
+1. Collaborate as a team with git and VSTS
+1. Present on completed project: test coverage, performance, security, and privacy
+
