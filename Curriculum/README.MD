@@ -22,7 +22,7 @@ Quiz 1
 
 1. Interfaces
    - LAB: Zoo Part 2
-2. Collections (Generic)
+2. Collections (Generic) & Enums
    - LAB: Deck of Cards
 3. LINQ & Lambda Expressions
    - LAB: LINQ in Manhattan
