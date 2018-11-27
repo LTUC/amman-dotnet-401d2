@@ -1,7 +1,7 @@
 # 401 .NET Core Curriculum Overview
 
 ## Week 1 - Basics
-1. Try/Catch
+1. Exception Handling
    - LAB: About Me
 2. Unit Testing
    - LAB: ATM
@@ -22,9 +22,9 @@ Quiz 1
 
 1. Interfaces
    - LAB: Zoo Part 2
-2. Collections
+2. Collections (Generic)
    - LAB: Deck of Cards
-3. LINQ
+3. LINQ & Lambda Expressions
    - LAB: LINQ in Manhattan
 4. Design Patterns
    - LAB: Design Patterns
@@ -40,13 +40,13 @@ Quiz 2
 1. MVC Intro
    - TIME person of the year MVC App
 2. Relational Databases & schemas
-   - Lab: Design a schema
+   - Lab: System Design//Design a schema
 3. CRUD Intro to Entity Framework
    - Lab: `AsyncInn` Hotel Project Part 1
 	- Create Models from DB schema
 	- Identify Primary Keys/Foreign Keys/Composite Keys
 4. Entity Framework part 2
-   - LAB: Seeding Data and V
+   - LAB: EFCore Seeding/View Models/Tag Helpers
 5. Career Coaching
 
 Data Structure: Stacks/Queues
@@ -84,6 +84,7 @@ Midterm Project week
 	- Add Login page to E-Com and capture specific claims
 4. Custom Policies
 	- Create policies to customize access across the site with previous claims
+	- END OF SPRINT 1
 5. Career Coaching
 
 Data Structure: Hash Tables
@@ -91,13 +92,16 @@ Quiz 5
 
 ## Week 7  
 1. View Components
+	- SPRINT 2 START
 	- Add a "Basket" component to E-Com site
+	- System Design exercise - Integrate basket capabilities into the site with DB tables
 2. OAUTH
 	- Add 2 3rd party providers as login to project
 3. AUTH.NET (How to read 3rd party Docs)
 	- Incorporate "fake" payment processing into project
 4. Razor Pages 
 	- Add in user profile & admin dashboard page as Razor Page
+	- END OF SPRINT 2
 5. Career Coaching
 
 Data Structure: Graphs 
@@ -105,6 +109,7 @@ Quiz 6
 
 ## Week 8 - Azure
 1. Sass//SCSS
+	- SPRINT 3 START
 2. Email Services
 	- LAB: Incorporate SendGrid into project 
 3. X
@@ -114,12 +119,14 @@ Quiz 6
 	- OWASP security Requirements
 	- HTTP and SSL 
 	- GDPR
+	- LAB: Vulnerability Report
+	-END OF SPRINT 3
 
 Data Structure: Sorting Algorithms
 Quiz 7
 
 ## Week 9 - MISC.
-1. .NET 4.7 MVC
+1. .NET 4.7 MVC & Web Forms
 2. Design Patterns - Factory
 3. General Overall Review
 4. Open Source Contribution 
