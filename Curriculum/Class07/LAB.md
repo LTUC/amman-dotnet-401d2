@@ -32,7 +32,6 @@ cards added to the deck, information about what card was removed, and then proof
 without any direct code manipulation from the grader. 
 
 
-
 Possible example below:
 
 ```
@@ -44,7 +43,6 @@ Removing K Hearts
 Cards left: 
 Ace Diamonds, Q Diamonds, 10 Spades, 6 Hearts.....
 ```
-
 
 Your `Program.cs` Main method should demonstrate:
 1. The instantiation of the generic collection. 

@@ -1,39 +1,45 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab : 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 34: Sprint 3 - Milestone #1
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
-- Include a `README.md` (contents described below)
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
-## Directions
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
-## Specs
+
+## Directions:
+
+Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
+ 
+
+## User Stories & Guidance:
+
+1. (Developer 1) As a user, I would like to use AUTH.NET as my automatic payment processing system
+2. (Developer 2)As a user, I would like a fake Credit card drop down to be used for every transaction that occurs in my site.
+3. (Developer 2) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
+
+
+### Guidance
+
+**User Story 1**: Use the Auth.NET docs located in today's readings. This is going to be your key to accomplishing this user story. Also be sure to use the demo code and the demo code provided in the docs. There are many resources (including the auth.net GH repo) for this to be accomplished. Be sure that you know exactly what is going on. 
+Don't forget to  update your code to the new .NET Core 2.1 syntax for ApiOperationsBase:
+ApiOperationBase<ANetApiRequest, ANetApiResponse>
+
+
+**User Story 2:** This user story ties very closely into US1. Do not ask for a real credit card number. Your dropdown should consist of card types. Do not allow the user to put in any numbers into a text box. Make sure to refer to the Testing Guide of Auth.NET as a reference to the different test cards you can use.  
+
+
+**User Story 3:** On the checkout page, This is where you will capture the information about the order in order for it to process. This includes the payment dropdown from the above user story. Upon completion of this user story, the user should be able to go from their Basket >> Checkout >> Receipt.  When the user submits their information for the order, make a call out to the Auth.NET Api, process the payment, and then redirect to the receipt page. Your Receipt page should indicate if the transaction was successful or not. 
 
 ## Tests
 
-## README
+Write tests for your services against your database. Make sure the basic CRUD operations are possible. 
 
-**A Readme is a requirement. No Readme == No Grade.** <br />
-Here are the requirements for a valid readme: <br />
+You do not need to test the Identity components. Only the CRUD operations on the Product and Basket.
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
+Don't forget about the getters and setters.
 
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+Keep your tests clean, only 1 Assert per test
 
 
 ## Rubric
