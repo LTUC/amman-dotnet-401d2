@@ -90,6 +90,15 @@ Midterm Project week
 Data Structure: Hash Tables
 Quiz 5
 
+### Azure Dev Ops
+1. Sprint Backlog
+1. Create User stories with tasks and Acceptance tests
+2. Task Branching
+3. Time estimation
+4. PRs within Azure Dev Ops
+5. Peer Reviews
+6. Weekly Goals and Reflections
+
 ## Week 7  
 1. View Components
 	- SPRINT 2 START
@@ -112,7 +121,7 @@ Quiz 6
 	- SPRINT 3 START
 2. Email Services
 	- LAB: Incorporate SendGrid into project 
-3. X
+3. XXX
 4. Azure Blob Storage
 	- LAB: Save all product images in Azure Blob Storage
 5. Web Security
@@ -120,7 +129,7 @@ Quiz 6
 	- HTTP and SSL 
 	- GDPR
 	- LAB: Vulnerability Report
-	-END OF SPRINT 3
+	- END OF SPRINT 3
 
 Data Structure: Sorting Algorithms
 Quiz 7
