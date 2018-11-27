@@ -56,6 +56,7 @@ Quiz 3
 ## Week 4 - Repository Design Pattern & APIs
 1. Dependency Injection & Repository Design Pattern
    - incorporate the Repository Design Pattern into lab
+   - Introduce Singleton Design Pattern
 2. Azure Deployment & Unit Tests
 	- Deploy app to Azure and write basic tests
 2. API Introduction
@@ -140,7 +141,9 @@ Quiz 7
 
 ## Week 9 - MISC.
 1. .NET 4.7 MVC & Web Forms
-2. Design Patterns - Factory
+2. Design Patterns
+	- Different Types
+	- Implement Factory
 3. General Overall Review
 4. Open Source Contribution 
 	- Learn, Investigate, and Contribute to an open source project
