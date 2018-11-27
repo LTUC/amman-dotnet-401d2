@@ -87,7 +87,8 @@ Midterm Project week
 	- END OF SPRINT 1
 5. Career Coaching
 
-Data Structure: Hash Tables
+Data Structure: Hash Tables.
+
 Quiz 5
 
 ### Azure Dev Ops
