@@ -114,6 +114,7 @@ Quiz 5
 5. Career Coaching
 
 Data Structure: Graphs 
+
 Quiz 6
 
 ## Week 8 - Azure
@@ -132,6 +133,8 @@ Quiz 6
 5. Review Day
 
 Data Structure: Sorting Algorithms
+
+
 Quiz 7
 
 ## Week 9 - MISC.
