@@ -31,8 +31,7 @@ Quiz 1
 5. Stacks & Queues // Recursion
    - LAB: None
 
-Data Structure: 
-	- Linked Lists
+Data Structure: Linked Lists
 
 Quiz 2
 
@@ -55,7 +54,7 @@ Quiz 3
 
 ## Week 4 - Repository Design Pattern & APIs
 1. Dependency Injection & Repository Design Pattern
-   - incorporate the Repository Design Pattern into lab
+   - Incorporate the Repository Design Pattern into lab
    - Introduce Singleton Design Pattern
 2. Azure Deployment & Unit Tests
 	- Deploy app to Azure and write basic tests
@@ -88,7 +87,7 @@ Midterm Project week
 	- END OF SPRINT 1
 5. Career Coaching
 
-Data Structure: Hash Tables.
+Data Structure: Hash Tables
 
 Quiz 5
 
@@ -99,7 +98,7 @@ Quiz 5
 1. Time estimation
 1. PRs within Azure Dev Ops
 1. Peer Reviews
-1. Weekly Goals and Reflections
+1. Weekly Goals and Retrospectives
 
 ## Week 7  
 1. View Components
@@ -122,17 +121,17 @@ Quiz 6
 ## Week 8 - Azure
 1. Sass//SCSS
 	- SPRINT 3 START
-2. Email Services
+1. Email Services
 	- LAB: Incorporate SendGrid into project 
-3. Azure Blob Storage
+1. Azure Blob Storage
 	- LAB: Save all product images in Azure Blob Storage
-4. Web Security
+1. Web Security
 	- OWASP security Requirements
 	- HTTP and SSL 
 	- GDPR
 	- LAB: Vulnerability Report
 	- END OF SPRINT 3
-5. Review Day
+1. Review Day
 
 Data Structure: Sorting Algorithms
 
