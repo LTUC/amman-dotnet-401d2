@@ -35,6 +35,7 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 1. The name of the Customer
 2. The date of the order
 3. The total price of the order
+
 Each order should link to an individual order page that will give full order details including individual line items. 
 
 
