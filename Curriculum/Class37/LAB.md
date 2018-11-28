@@ -6,7 +6,6 @@ Your whole workflow will live in Azure Dev Ops. Use this tool to store your proj
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
-
 ## Directions:
 
 Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
@@ -22,7 +21,7 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 ### Guidance
 
-**User Story 1**: Create this page using the Razor Pages technique. Create a new "Pages" folder within your application. In addition, create a sub folder named "Admin". Within this "Admin" folder, you can create razor pages and associated page models. Use the demo code as a baseline. Be sure to lock these pages down so that only "admins" can access them. Please have it so both your instructor and your grader have access to the admin panel. 
+**User Story 1**:Â Create this page using the Razor Pages technique. Create a new "Pages" folder within your application. In addition, create a sub folder named "Admin". Within this "Admin" folder, you can create razor pages and associated page models. Use the demo code as a baseline. Be sure to lock these pages down so that only "admins" can access them. Please have it so both your instructor and your grader have access to the admin panel. 
 
 
 **User Story 2:** When the user logs in, check the roles that they are associated with. If they are an admin, redirect them to the admin dashboard instead of the home page. 
