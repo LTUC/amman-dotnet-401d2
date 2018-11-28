@@ -16,8 +16,8 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 1. (Developer 1)As an Admin, I would like a custom dashboard that is only accessible by other admins
 2. (Developer 2) As an admin, I would like to be redirected to the admin dashboard upon login
-3. (Developer 1)  As an admin, I would like to manage my product inventory from the admin dashboard. 
-4. (Developer 2) As an admin, I want to be able to see the last 10 orders that have been submitted from the admin dashboard
+3. (Developer 2)  As an admin, I would like to manage my product inventory from the admin dashboard. 
+4. (Developer 1) As an admin, I want to be able to see the last 10 orders that have been submitted from the admin dashboard
 
 
 ### Guidance
