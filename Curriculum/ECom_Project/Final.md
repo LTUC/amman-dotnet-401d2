@@ -1,13 +1,15 @@
 # Final Ecommerce
-This is your final submisison for your Ecommerce site.
+This is your final submission for your Ecommerce site.
 your Final Ecommerce site must be transferred to GH with your
 history of commits. See below on how to do this.
 
+In addition to your final, please provide **explicitly what you would like re-graded from sprint 2** within the canvas text submission. 
+
 There will be no resubmits available for this Project. Keep an
-eye on the due and close date. These are final. 
+eye on the due and close date. **These are final.** 
 
 Focus on your product presentation for this phase. Make sure
-everything works as expected and there are no exeptions
+everything works as expected and there are no exceptions
 or broken pages. 
 
 ## Additional Content
@@ -24,7 +26,7 @@ You will likely have to create a repository first before redirecting.
 **NOTE**: Refer to the Switching Remote URLs from SSH to HTTPS
 
 ## Final Submission
-Upon completion of this Project, Your Ecommerce site should contain the following:
+Upon completion of this Project, Your E-commerce site should contain the following:
 1. Home Page
    - Introduction to your site
    - Anonymous accessibility

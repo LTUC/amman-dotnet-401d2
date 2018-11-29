@@ -4,12 +4,22 @@ For your final project, you will be summarizing all of the concepts you've
 learned and applied in labs and projects throughout the whole course. 
 
 At this point, you should have an idea as to what's possible to create 
-given some research you've conducted on the .NET framework as a whole. 
+given some research you've conducted on the .NET Core framework as a whole. 
 
 ## Ideas
-Think up ideas of what you want to create. This can be anything within the .NET realm.
-Take a look at ASP.NET as a whole, Azure Congitive Services, projects that solve a problem,
-or something that just "sounds cool". 
+Think up ideas of what you want to create. This can be anything within the .NET realm. Here are a a few **suggestions**:
+1. [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/)
+	- [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/)
+	- [AWS Chatbot](https://github.com/aws-samples/aws-lex-net-chatbot)
+	- [AWS Tutorial](https://aws.amazon.com/getting-started/projects/bots-just-got-better-net-toolkit-lex-lambda-cognito/)
+2. [Signal R](http://signalr.net/)
+	- [MSFT Docs](https://www.asp.net/signalr)
+	- [GH repo](https://github.com/SignalR/SignalR/wiki)
+3. [.NET Core Blazor](https://blazor.net/docs/tutorials/build-your-first-blazor-app.html)
+	- [.NET Curry Blazor](https://www.dotnetcurry.com/dotnet/1460/blazor-getting-started)
+
+
+Take a look at ASP.NET as a whole. Pick a project that solves a problem, or something that just "sounds cool". Have fun, experiment, and learn something new!
 
 Project Requirements located [HERE](FinalReqs.md){:target="_blank"}.
 
@@ -26,7 +36,7 @@ There will be two phases for this:
 ## Brainstorming Ideas
 Pitching a Project
 Brainstorm Ideas
-Grab a whiteboard and brainstorm ideas. During this phase, there is no comment or criticism of ideas. Ideas should be given in the form of titles or very short phrases. If an explanation is needed, save it for the pitch round.
+Grab a white board and brainstorm ideas. During this phase, there is no comment or criticism of ideas. Ideas should be given in the form of titles or very short phrases. If an explanation is needed, save it for the pitch round.
 
 ## Pitching a Project
 Once a critical mass of ideas has been written down, 
@@ -45,4 +55,4 @@ Please have your top choice listed first, and second choice listed last.
 1. What problem or pain point does it solve?
    a. Keep it high level without going into too much detail. 
 2. Why is it interesting?
-3. Minimim MVP defined.
+3. Minimum MVP defined.

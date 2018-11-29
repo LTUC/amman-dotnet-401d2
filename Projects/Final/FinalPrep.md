@@ -2,9 +2,9 @@
 
 ## User Stories
 User stories are extremely important. it gives us, as developers, guidance about what
-tasks we shoudl be working on and allows us to visually see what our client wants. 
+tasks we should be working on and allows us to visually see what our client wants. 
 
-Follow the User story requirements found [HERE](UserStories){:target="_blank"}
+Follow the User story requirements found [HERE](./UserStories){:target="_blank"}
 
 
 ## Wireframes
@@ -39,7 +39,7 @@ Be sure to identify which tables are:
 2. 1-to-many relationships
 3. many-to-many relationships
 
-Also, incldue in each table:
+Also, include in each table:
 1. the name of column
 2. The required data type
 
