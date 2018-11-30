@@ -20,7 +20,7 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 ### Guidance
 
-**User Story 1**: Using .NET Core Razor Pages, create a personal profile page that a logged in user can easily access. The user profile should 
+**User Story 1**:Â Using .NET Core Razor Pages, create a personal profile page that a logged in user can easily access. The user profile should 
 contain the ability for the user to:
 1. Change their first name
 2. View their email (don't let the user change it)
@@ -39,7 +39,7 @@ You will need to inject `userManager` into your razor page to get basic informat
 Continue to test your basic CRUD operations within your services
 
 
-## Rubric
+## Rubric 
 - 7pts: Program meets all requirements described in Lab directions.
 
 	Points  | Reasoning | 
