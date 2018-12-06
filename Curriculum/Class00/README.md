@@ -4,7 +4,7 @@
 ## Agenda
 
 1. Validate Software Requirements
-	- Visual Studio 2017 Community (v. 15.8)
+	- Visual Studio 2017 Community (v. 15.9)
 	- .NET Core SDK 2.1
 		- `dotnet --version`
 

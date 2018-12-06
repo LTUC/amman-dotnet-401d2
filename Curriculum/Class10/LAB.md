@@ -11,6 +11,7 @@
 - Create a pull request from your branch back your `master` branch.
 - Submit a link to your PR in canvas
 - Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
 ## Directions

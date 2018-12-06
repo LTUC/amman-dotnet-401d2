@@ -14,6 +14,7 @@
 - Create a pull request from your branch back your `master` branch.
 - Submit a link to your PR in canvas
 - Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
 ## Directions
@@ -130,7 +131,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
 	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
 	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
-	2       | Missing Readme Document // Readme Document does not meet standards |
+	2       | Missing Readme document // Readme document does not meet standards // Missing actual time CANVAS note |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
