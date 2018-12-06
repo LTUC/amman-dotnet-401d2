@@ -4,7 +4,7 @@
 User stories are extremely important. it gives us, as developers, guidance about what
 tasks we should be working on and allows us to visually see what our client wants. 
 
-Follow the User story requirements found [HERE](./UserStories){:target="_blank"}
+Follow the User story requirements found [HERE](../UserStories){:target="_blank"}
 
 
 ## Wireframes

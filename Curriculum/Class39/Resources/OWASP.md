@@ -1,37 +1,37 @@
 # OWASP
 
 OWASP stands for Open Web Application Security Project. 
-Non-profit org whoe purpose is to promote secure web app developement and esign. 
+Non-profit org whoe purpose is to promote secure web app development and esign. 
 
 The OWASP top Ten project is updated every few ysers and 
-they publis hteh top 10 list of most critical web security risks. 
+they publish the top 10 list of most critical web security risks. 
 
 
 ### 1. SQL Injection
 SQL injection is the use of 
-modifying an input parameter that can force a slq statemetn
+modifying an input parameter that can force a slq statement
 to execute in a different way than intended. 
 
 Code Example: [HERE](https://dotnetcoretutorials.com/2017/10/11/owasp-top-10-asp-net-core-sql-injection/)
 
 Solution: Sanitize your inputs:
 
-1. Casting to a non strng type
-   - Maek sure that you are only accepting ints when you require ints. 
+1. Casting to a non string type
+   - Make sure that you are only accepting inputs when you require ints. 
 
 .NET Core:
 This can be fixed through [Route] tags. 
 This will only work for ints and columns. 
 
-2. Whitelist/Blacklsit/Character Replacement
+2. Whitelist/Blacklist/Character Replacement
 
-You can run your string text against a whitelist/blacklist that repalces
-specific charactes before running thesql query.
+You can run your string text against a white-list/blacklist that replaces
+specific characters before running the sql query.
 
 3. Parameterized Queries
    - This is the best approach to SQL injection. 
-   - Parameterized queires allow us to make sure that each paramter we are using within our
-  sql query is the exact data type we are expecting. 
+   - Parameterized queries allow us to make sure that each parameter we are using within our
+  SQL query is the exact data type we are expecting. 
 
 Here is an example:
 
@@ -78,42 +78,42 @@ exec sp_executesql N'SELECT * FROM NonSensitiveDataTable WHERE Name = @name'
    - make sure your cookie have expirations
    - 
 ### 3. Cross-Site Scripting (XSS)
-XSS is the ability to write whateber they want (scripts included) into the page and have it execute. 
+XSS is the ability to write whatever they want (scripts included) into the page and have it execute. 
 
 Javascript is the most common injection. 
 
 Use to steal private data. 
 
-2 differetn types of XSS:
+2 different types of XSS:
 1. Reflected XSS
-   - cross site scripting occurs immediatly as aresult of the input from a user.
+   - cross site scripting occurs immediately as a result of the input from a user.
 2. Stored XSS
     - is when you are able   something to a database or backend store. You could
-    - potentailiy save a XSS in a blog comment...everyone who views the commetn is affected. 
+    - potentiality save a XSS in a blog comment...everyone who views the comment is affected. 
 
 Potential with XSS:
-1. Javascript
+1. JavaScript
    - inject script tags on a webpage. You can
      - redirect a user to a different page. 
      - build a fake login page
      - steal a user's login cookie
-   - deterrint is to not allow the word "script" to be subbiteed on yoeur site. 
+   - deterrent is to not allow the word "script" to be submitted on your site. 
 2. CSS
    - inject styles into a page. 
    - change the entire layout of ap ge to trick the user into doing something. 
 3. IFRAMES
-   - thsi can go undetected for some time becaues it is invisible to end users. 
-   - inject pay per view addsto get more moneuy
-   - iframine a fake login page form into a page
-4. HTML encoding user outut
+   - this can go undetected for some time because it is invisible to end users. 
+   - inject pay per view adds to get more money
+   - iframing a fake login page form into a page
+4. HTML encoding user output
    - Framework protects us from this attack. 
    - .NEt core always encodes output from users, so you cannot put script tags into user input fields. 
-   - Every Javascript (even Jquery) wil lencode data for you. you will have to check if it is manual or automatic process. check.
+   - Every Javascript (even JQuery) will encode data for you. you will have to check if it is manual or automatic process. check.
    
 5. URL Encoding USer Input
-   - URLS do not encode wth the same charactes as HTML. Do not try to override everything with 
+   - URLS do not encode with the same characters as HTML. Do not try to override everything with 
    the raw taghelpers. 
-   - .NET Core offers the ability to encode user inptu for URLS. 
+   - .NET Core offers the ability to encode user input for URLS. 
 6. Browser PRotection
    - Chrome actually doesn't allow XSS. More browsers are moving away from allowing this and adding XSS filters. 
  

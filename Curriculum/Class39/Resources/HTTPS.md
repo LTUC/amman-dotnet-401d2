@@ -2,7 +2,7 @@
 
 ## HTTPS
 
-Https is important for 3 main reasons:
+HTTPS is important for 3 main reasons:
 
 1. Privacy
 2. Integrity
@@ -18,7 +18,7 @@ is being transmitted.
 HTTP means that you are not on a secure connection. 
 
 When you navigate to a site that is not enforcing HTTPS
-that means thta your information you are inputting
+that means that your information you are inputting
 may not be private. Be careful when you are 
 inputting information. such as personal information
 into a site that is not protected by HTTPS.
@@ -29,7 +29,7 @@ into a site that is not protected by HTTPS.
 
 Integrity means that the state of the information that you are
 working with does not change state and is not changed
-by any unauthorized users in the process of tranmission. 
+by any unauthorized users in the process of transmission. 
 
 Examples of integrity and security:
 Man in the middle attacks.
@@ -38,7 +38,7 @@ Man in the middle attacks.
 ### Identification
 
 Identification is the ability to know who exactly is sending the information.
-This is most commonly done through digital certificates thatcan identify the the sender
+This is most commonly done through digital certificates that can identify the sender
 of the data
 
 Digital Certificates:
@@ -57,8 +57,8 @@ change the data so that it is unreadable by others.
 2. What is decryption
 - Decryption is reversing the algorithm used to encrypt to figure out the message.
 
-When you encrypt, you need to know mor ethan just the algorithm...you also need the key.
-without the key, you still wont be able to figure out hte decryption. 
+When you encrypt, you need to know more than just the algorithm...you also need the key.
+without the key, you still wont be able to figure out the decryption. 
 
 #### Symmetric Key Algorithm
 Symmetric Key algorithm is when there is only one key to encrypt and decrypt a message.
