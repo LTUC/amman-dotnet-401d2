@@ -2,11 +2,18 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class30\\Resources",
-    "\\Curriculum\\Class37",
-    "\\Curriculum\\Class38",
-    "\\Curriculum\\ECom_Project"
+    "\\Curriculum\\Class01",
+    "\\Curriculum\\Class03",
+    "\\Curriculum\\Class03\\Solution",
+    "\\Curriculum\\Class03\\Solution\\WordGuessGame",
+    "\\Curriculum\\Class03\\Solution\\WordGuessGame\\WordGuessGame",
+    "\\Curriculum\\Class11",
+    "\\Curriculum\\Class11\\Solution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models",
+    "\\Curriculum\\Class14"
   ],
-  "SelectedNode": "\\Curriculum\\Class38\\LAB.md",
+  "SelectedNode": "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models\\TimePerson.cs",
   "PreviewInSolutionExplorer": false
 }

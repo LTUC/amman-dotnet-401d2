@@ -13,12 +13,25 @@
 - Test Driven Development
 - Red/Green/Refactor
 - Facts
+	- Always true
 - Theories
+	- Conditionally True
+- Why is it important?
+	1. Confidently refactor, make it agile
+	2. High Quality Code
+	3. Documentation
+	4. Assists in Debugging
+	5. Reduce company cost
 
 ### Demo
 - Build/add a testing solution
+	- Add a new project
+	- Don't forget to add the reference
 - Build out app with TDD
+	- Test First, Code Last. Follow the R/G/R approach
 - Show code coverage
+	- How much of our code has been tested? Can we aim for 90%? 
+	- What are the benefits of code coverage?
 
 ### Documentation
 - Why do we need it

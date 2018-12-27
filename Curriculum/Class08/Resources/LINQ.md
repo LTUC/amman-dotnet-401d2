@@ -77,7 +77,7 @@ The variable does not hold the result, only the command. So you can keep iterati
 
     Console.WriteLine();
     foreach (string name in finalQuery)
-      Console.Write (name + "|");        // JAY|MARY|HARRYkk|
+      Console.Write (name + "|");        // JAY|MARY|HARRY|
 
     ```
 

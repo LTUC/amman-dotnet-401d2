@@ -39,8 +39,15 @@ string myFile = File.ReadAllText("/path/to/file.txt");
 ```
 
 #### Creating a file
+(Check out the demo. There are 2 different ways to achieve this!)
 
 #### Deleting a file
+
+To delete a file, just tell the library to delete the location by inputting the path. 
+
+```csharp
+File.Delete(path);
+```
 
 
 ## File Stream

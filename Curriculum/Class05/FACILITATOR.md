@@ -9,7 +9,7 @@
 4. Encapsulation
 
 Included in the DemoCode is an example of a diagram that you can draw with the class as you 
-go over the OOP principles. There is also the codebase when converting the diagram to Visual Studio. 
+go over the OOP principles. There is also the code base when converting the diagram to Visual Studio. 
 
 
 ### Code Implementation

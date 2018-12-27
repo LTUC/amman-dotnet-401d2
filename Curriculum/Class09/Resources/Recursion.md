@@ -18,6 +18,7 @@ from going further and allow the stack to start popping off the other calls.
 Code for a non recursive approach:
 
 ```csharp
+
 public long Factorial(int n)
 {
     if (n == 0)
@@ -57,16 +58,16 @@ public long Factorial(int n)
 	2. the recursion must eventually stop. in this example, the input parameter n decreases with each recursive call until 
 	it equals 0. At that point, the algorithm returns 1, and does not call itself recursively, so the process stops. 
 
-	3. If the method above calls -1, the recusion never ends. it will go to `-1! = -1 * -2! etc...`
+	3. If the method above calls -1, the recursion never ends. it will go to `-1! = -1 * -2! etc...`
 	4. A way to prevent this is to add a check that says `if(n <= 0) then return 1`. (issues with this is the misleading 1 that is being sent. may be better to just throw an exception)
-	5. Factorial method can grow very very quickly. Be careful how you are using it.
+	5. Factorial method can grow very quickly. Be careful how you are using it.
 
 
 #### Fibonacci Numbers
 Review the Fibonocci Numbers.
-<br />
-<br />
-1. Non recusion:
+
+
+1. Non recursion:
 
 ```csharp
 public long Fib(int n)

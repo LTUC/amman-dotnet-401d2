@@ -2,6 +2,9 @@
 =====================================
 
 ## Learning Objectives
+1. The student will know the difference between procedural and object oriented programming
+2. The student will be introduced and understand the differences between the 4 OOP principles.
+
 
 ## Lecture Outline
 
@@ -42,9 +45,18 @@ the most common type of inheritance amongst programming languages. (C# only supp
 in OOP - Abstract classes are not supposed to be instantiated. They are only supposed to be used as a template that can be
 derived further down for more clarity. 
 
+Abstract classes cannot be instantiated. 
+
+Abstract methods must be overridden. 
+
 ### Polymorphism
 Poly means many
 morph means to change
+
+Within polymorphism, we want the ability to change the behavior of a specific class. We also want to be able to target specific types of classes (classes that are derived from specific classes). Polymorphism also helps us target any and all classes that implement specific interfaces. 
+
+The ability to override an abstract or virtual method is polymorphism. 
+
 
 ### Encapuslation
 
@@ -52,22 +64,9 @@ Encapsulation is the process of hiding implementation details from the user.
 Encapsulation is the act of hiding methods and attributes that should not be exposed to unauthorized or unneeded
 classes or methods. Examples of encapsulation are Public, private, and protected. 
 
+Access Modifiers: 
 1. Public - Everyone has access
 2. Private - Only the class has access to it
 3. Protected - the class and any of it's derived children have access. 
 
 
-#### Access Modifiers
-Access modifiers are the terms that are used to restrict access to specific users
-##### Public
-Everyone and anyone can access this
-
-##### Private
-only the class itself can access
-
-##### Protected
-The class and it's derived children can access
-
-##### Internal
-
-##### Protected Internal

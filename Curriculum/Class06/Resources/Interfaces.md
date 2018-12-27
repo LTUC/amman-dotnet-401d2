@@ -5,8 +5,7 @@ a class, that means that the class you are looking at has an obligation to fulfi
 interface. 
 
 The obligation that the class has extends out to all of the properties and methods that the interface defines. When implementing
-an interface, the class must, no exceptions, implement each of those items defined in the interface. If you choose not too...the 
-compiler will error and you will be unable to continue. 
+an interface, the class must, no exceptions, implement each of those items defined in the interface. If you choose not too...the compiler will error and you will be unable to continue. 
 
 
 ## Why use an interface?
@@ -19,12 +18,13 @@ Traditionally, you use interfaces to allow functionality on a class on external 
 Most commonly, in the development world, when working across teams, your team will receive an interface that must be implemented in your code. 
 The interface defines what exactly this other team is expecting, and it is your job to define the functionality for each of those methods and properties. 
 
-1. why do you need them?
+why do you need them?
 	- Sometimes you need to group your objects together based on the **things they can do** rather than the classes they inherit from.
       That is where interfaces come in - they let you work with any class that can do the job. 
       Any class that implements an interface must promise to 'fulfill it's obligations' or the compiler will get upset. 
       - Think of interfaces like 'actions' or 'protocols' that can be implemented on other classes
-	 
+
+Thinking back to the OOP principles, Polymorphism helps us utilize and understand interfaces a bit more. When we *implement* an interface onto a class, we are allowing any future functionality that requires that interface to accept the class, or its descendants to be used. With polymorphism, the class we have just implemented the interface on is now a specific "type" and we can treat it accordingly. 
 	 
 ### Demo:
 - Build out a class (Person Class)
@@ -45,7 +45,9 @@ The interface defines what exactly this other team is expecting, and it is your 
 ```csharp
 	ICatAttack kitcat = new ICatAttack();
 ```
-- this *is* allowed:
+
+This *is* allowed:
+
 ```csharp 
 	KittyCat kitty = new KittyCat();
     ICatAttack kitcat = kitty;
@@ -59,7 +61,8 @@ The interface defines what exactly this other team is expecting, and it is your 
 	IKittyCat = kitcat = new Kitty();
 ```
 
-1. "is" Keyword
+1. "is" Keyword can determine if a specific class implements an interface
+
 ```csharp
 
 if(x is Kitty)
@@ -71,7 +74,7 @@ if(x is Kitty)
 
 ### Interface Properties
 
-- An interface is like an abstract base class. Any class or struct that implements the interface must implement all its members.
+- An interface is like an abstract base class with abstract methods, but is not. Any class or struct that implements the interface must implement all its members.
 - An interface can't be instantiated directly. Its members are implemented by any class or struct that implements the interface.
 - Interfaces can contain events, indexers, methods, and properties.
 - Interfaces contain no implementation of methods.
