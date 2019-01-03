@@ -97,3 +97,13 @@ public long Fib(int n)
     return Fib(n - 2) + Fib(n - 1);
 }
 ```
+
+### Exercises
+
+1. Reverse a String
+2. write a method to generate a string of n asterisks. 
+Then write a recursive function to generate triangles 
+pointing different directions
+(head, tail, middle)
+3. Traverse a Linked List using recursion
+4. Determine if a string is a palindrome

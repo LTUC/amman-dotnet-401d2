@@ -3,6 +3,7 @@
 ## How do I prep for today?
 
 ## What changed from yesterday? 
+Teach Stacks and Queues, and go further into details about Big O
 
 ## What might students struggle with today?  
 
