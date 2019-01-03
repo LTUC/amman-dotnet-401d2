@@ -4,7 +4,7 @@
 Review the OOP Principles from the previous Class.
 1. Introduce Interfaces [Notes Here](Resources/Interfaces)
 
-Be sure to stress the differences between an Abstract class and an interface. (this is a super common interview question)
+Be sure to stress the differences between an abstract class and an interface. (this is a super common interview question)
 
 
 Use the provided Demo code as a baseline of what to code out during class.

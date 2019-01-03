@@ -2,18 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01",
-    "\\Curriculum\\Class03",
-    "\\Curriculum\\Class03\\Solution",
-    "\\Curriculum\\Class03\\Solution\\WordGuessGame",
-    "\\Curriculum\\Class03\\Solution\\WordGuessGame\\WordGuessGame",
-    "\\Curriculum\\Class11",
-    "\\Curriculum\\Class11\\Solution",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models",
-    "\\Curriculum\\Class14"
+    "\\Curriculum\\Class03\\DemoCode",
+    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo\\SystemIODemo",
+    "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe",
+    "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe\\Lab4_TicTacToe",
+    "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe\\Lab4_TicTacToe\\Classes",
+    "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe",
+    "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe\\Lab04_TicTacToe",
+    "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe\\Lab04_TicTacToe\\Classes",
+    "\\Curriculum\\Class07\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models\\TimePerson.cs",
+  "SelectedNode": "\\Curriculum\\README.MD",
   "PreviewInSolutionExplorer": false
 }

@@ -70,6 +70,7 @@ namespace ATMTests
         [InlineData("Withdraw Successful", 10.00, 20.00)]
         [InlineData("Your are trying to withdraw an invalid amount", 0, 500)]
         [InlineData("10 is greater than your balance of 5", 10.00, 5.00)]
+        [InlineData("Withdraw Successful", 15.00, -100)]
 
         public void CannotOverdraft(string exp, double amount, double balance)
         {

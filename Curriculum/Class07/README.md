@@ -79,3 +79,11 @@
 
 ### Collections
 
+There are two ways to create and manage a group of related objects
+    1. Create an array of objects
+    2. creating a collection of objects
+
+
+A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
+
+
