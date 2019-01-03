@@ -18,10 +18,6 @@
 
 **Read ALL of the directions carefully before you begin....**
 
-The directions below mock a scenario of a request from a client. It is your job, 
-as a developer, to interpret these directions and 
-create a program based on what is stated below.
-
 Josie Cat has requested that a "Word Guess Game" be built. The main idea of the game is 
 she must guess what a mystery word is by inputting (1) letter at a time.  The game should save all of her guesses (both correct and incorrect) 
  throughout each session of the game, along with the ability to show her how many letters out of the word she has guessed correctly. 
@@ -43,7 +39,7 @@ game that will meet all of the requirements described in the user story above.
     - If they guess a correct letter, display that letter in the console for them to refer back to when making guesses (i.e. C _ T S )
 	- Your program does not need to be case sensitive. 
     - Errors should be handled through Exception handling
-	- Do not create external classes to accomplish this task.
+	- ***Do not create external classes to accomplish this task. All code should live in the `Program.cs` file***
 	- Stay within scope, you may use the methods/classes listed below if desired.
 	- Once the game is completed, the user should be presented with the option to "Play again" (a new random word is generated), or "Exit" (the program terminates)
 	- the user should only be allowed to guess only 1 letter at a time. Do not make it so that they can input the whole alphabet and get the answer. 
@@ -51,7 +47,7 @@ game that will meet all of the requirements described in the user story above.
 - When running your application, it should activate the user interface without any direct code manipulation
 
 ## Breakdown
-This lab will test and practice your analytic and problem breakdown skills. Look at the **base functionality** first, and then build from there. I will give you the first few (suggested) steps, and see if you can continue from there. You do not have to follow these steps but it's a good place to start if you get lost. 
+This lab will test and practice your analytic and problem breakdown skills. It will also be your first approach at system design. Look at the **base functionality** first, and then build from there. I will give you the first few (suggested) steps, and see if you can continue from there. You do not have to follow these steps but it's a good place to start if you get lost. 
 
 1. Get your System.IO working
 	- Be sure you can create a file (with default words), read the file in, Add new words to the file, and delete the file. 
@@ -68,9 +64,7 @@ Make user interface last.
 
 ## Tests
 Test that your app has the following functionality:
-1. Test that a file can be created
 1. Test that a file can be updated
-1. Test that a file can be deleted
 1. Test that a word can be added to a file
 1. Test that you can retrieve all words from the file
 1. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
