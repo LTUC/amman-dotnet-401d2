@@ -2,13 +2,26 @@
 
 ## What is Exception Handling
 
-When an application or a program encounters a problem/error, the C# CLR has the ability to package up that error 
-and put into something called an Exception.
+When an application or a program encounters a problem/error, the C# CLR has the ability to package up that error and put into something called an Exception.
 
-Typically, when an exception gets thrown, the rest of that method does not get run, instead the catch block is triggered, and the finally block (if present) finishes
-out the execution of the program. 
-The C# language comes with many built in exceptions, but you are not bound to those exception, you actually have the ability to create your own Exceptions by 
-deriving the custom class from the `Exception` class if you wish. For now, let's just look at the built in exceptions. 
+Typically, when an exception gets thrown, the rest of that method does not get run, instead the catch block is triggered, and the finally block (if present) finishes out the execution of the program. 
+The C# language comes with many built in exceptions, but you are not bound to those exception, you actually have the ability to create your own Exceptions by deriving the custom class from the `Exception` class if you wish. For now, let's just look at the built in exceptions. 
+
+
+## Real World Examples:
+1. [Therac-25](https://en.wikipedia.org/wiki/Therac-25) was a computer controlled radiation therapy machine in 1982 after the Therac-6 and Therac-20 units. 
+* At least 6 accidents b/e 1985 - 1987 patients were given massive overdoses of radiation. 
+* reasoning was due to errors of giving patients radiation doses that were hundreds of times greater than normal..resulting in death or serious injury. 
+* Engineers were overconfident in their initial work and did not handle exception handling for lethal doses
+* They reused code from the previous versions without 
+* The issue only happened when a sequence of keystrokes occurred within a short period of time (8 seconds). Which made it difficult to catch
+
+*The software set a flag variable by incrementing it, rather than by setting it to a fixed non-zero value. Occasionally an *arithmetic overflow* occurred, causing the flag to return to zero and the software to bypass safety checks. 
+
+2. [Ariane 5](https://en.wikipedia.org/wiki/Ariane_5) Launch of 1996
+* Rocket self destructed 37 seconds after launch becuase of a software malfunction.
+* data conversion from 64-bit floating point to a 16-bit signed int value failed b/c the floating point value was too large to be represented into a 16-bit signed integer. 
+* This code was originally used for the Ariane 4 but was not protected because the way the Ariane 4 was written, the engineers "assumed" it was impossible for the value to get that large....when upgrading the system, they did not update the error handling either causing the issue. 
 
 ## Different types of Exceptions:
 

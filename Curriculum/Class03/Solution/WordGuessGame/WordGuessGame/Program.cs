@@ -10,15 +10,11 @@ namespace WordGuessGame
 
         static void Main()
         {
-
             string[] initialWords = new string[] { "Cat", "Dog", "Coffee", "Puppy", "Kitties" };
 
             WriteFullFile(initialWords);
-
             Console.WriteLine("Welcome to my Word Guess Game!");
             Interface();
-           
-
         }
 
         private static void Interface()
@@ -50,8 +46,6 @@ namespace WordGuessGame
             }
 
         }
-
-
         static void ModifyWords()
         {
             bool iscomplete = false;
@@ -121,6 +115,8 @@ namespace WordGuessGame
         static string[] GetWords()
         {
             string[] allWords;
+            
+            
             allWords = File.ReadAllLines(path);
             return allWords;
         }
@@ -150,7 +146,7 @@ namespace WordGuessGame
         {
             string[] checkWords = GetWords();
             string[] temparray = new string[GetWords().Length];
-           
+
             int counter = 0;
             for (var ii = 0; ii < checkWords.Length; ii++)
             {

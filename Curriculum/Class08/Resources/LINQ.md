@@ -41,8 +41,8 @@ ALL Linq query operations consist of three distinct actions:
                                         select n;
 
  
-    IEnumerable<string> filteredNames = System.Linq.Enumerable.Where
-                                        (names, n => n.Length >= 4);
+    IEnumerable<string> filteredNames = .Wheren
+                                        (n, n => n.Length >= 4);
     foreach (string n in filteredNames)
         Console.WriteLine (n);
 

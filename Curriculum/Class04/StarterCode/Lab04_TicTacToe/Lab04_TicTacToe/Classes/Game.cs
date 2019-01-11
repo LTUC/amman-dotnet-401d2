@@ -107,7 +107,10 @@ namespace Lab04_TicTacToe.Classes
 		{
 			if (PlayerOne.IsTurn)
 			{
+              
 				PlayerOne.IsTurn = false;
+
+              
 				PlayerTwo.IsTurn = true;
 			}
 			else

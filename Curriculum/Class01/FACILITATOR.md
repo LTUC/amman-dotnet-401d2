@@ -4,8 +4,7 @@ Intro to C# and Exception Handling
 
 ## Overview 
 * First day of Class! Spend the first part of class doing kickoff with the students
-* Spend no more than 30 min with students reviewing the pre-work. Do a review about what they should have learned and applied to their lab 
-that they were instructed to create. 
+* Spend no more than 30 min with students reviewing the pre-work. Do a review about what they should have learned and applied to their lab that they were instructed to create. 
  
 ## Learning Objectives
 * The student will successfully request user input and output a response to the console.

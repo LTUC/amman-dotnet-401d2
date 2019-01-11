@@ -17,3 +17,4 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 	- Try/Catch & Exceptions excerpt from assigned book (introduction)
 - [Try/Catch Blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions){:target="_blank"} 
 - [Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/exception-handling-statements){:target="_blank"} 
+- [Therac-25](https://en.wikipedia.org/wiki/Therac-25)

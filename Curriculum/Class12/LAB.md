@@ -11,7 +11,7 @@ The owners of "Async Inn" have approached you with plans to renovate their hotel
 
 They are currently looking for a full stack web application that will allow them to better manage their assets in their hotels. They are anticipating the ability to modify and manage rooms, amenities, and new hotel locations as they are built. They have turned to you to assist them in persisting their data across a relational database and maintain its integrity as they make changes to the system. 
 
-After your meeting with the team, you have extracted some basic requirememts about the data and how it should be represented in a database. You are going to attempt a first draft at a database schema to share with the team later on today. 
+After your meeting with the team, you have extracted some basic requirements about the data and how it should be represented in a database. You are going to attempt a first draft at a database schema to share with the team later on today. 
 
 To the best of your ability, create a system design of a database schema that meets all of the requirements below. The schema should take all of the requirements into consideration and allow a baseline for starting the creation of the web application. 
 

@@ -2,16 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class03\\DemoCode",
-    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo\\SystemIODemo",
+    "\\Curriculum\\Class03\\Solution\\WordGuessGame",
+    "\\Curriculum\\Class03\\Solution\\WordGuessGame\\WordGuessGame",
+    "\\Curriculum\\Class04",
     "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe",
     "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe\\Lab4_TicTacToe",
     "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe\\Lab4_TicTacToe\\Classes",
+    "\\Curriculum\\Class04\\StarterCode",
     "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe",
     "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe\\Lab04_TicTacToe",
-    "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe\\Lab04_TicTacToe\\Classes",
-    "\\Curriculum\\Class07\\Resources"
+    "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe\\Lab04_TicTacToe\\Classes"
   ],
-  "SelectedNode": "\\Curriculum\\README.MD",
+  "SelectedNode": "\\Curriculum\\Class04\\StarterCode\\Lab04_TicTacToe\\Lab04_TicTacToe.sln",
   "PreviewInSolutionExplorer": false
 }
