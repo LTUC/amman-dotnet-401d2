@@ -10,26 +10,28 @@ namespace SystemIODemo
         {
             Console.WriteLine("Hello World!");
 
-            CreateAFile();
+            CreateFile();
             //FileAlreadyExists();
-            ReadAFile();
-            UpdateAFile();
-            DeleteAFile();
-            PracticeUsingSplit();
+            //ReadAFile();
+            //UpdateAFile();
+            //DeleteAFile();
+            //PracticeUsingSplit();
         }
 
 		static void CreateFile()
 		{
 			string path = "myFile.txt";
+            string[] myARray = { "I", "Love", "cats" };
 
-			// first way
-			try
+            // first way
+            try
 			{
 				using (StreamWriter sw = new StreamWriter(path))
 				{
+                    
 					try
 					{
-						sw.Write("Cats!");
+						sw.Write(myARray);
 					}
 					catch (Exception e)
 					{
@@ -49,13 +51,30 @@ namespace SystemIODemo
 				throw;
 			}
 
-			// Second Way
-			using (FileStream fs = File.Create(path))
-			{
-				Byte[] myWords = new UTF8Encoding(true).GetBytes("All of the words!");
-				fs.Write(myWords, 0, myWords.Length);
-			}
-		}
+
+            //using (StreamWriter sw = new StreamWriter(path))
+            //{
+            //    try
+            //    {
+            //        sw.WriteLine("Hello World!!!!");
+            //    }
+            //    catch (Exception e)
+            //    {
+
+            //        throw;
+            //    }
+            //    finally
+            //    {
+            //        sw.Close();
+            //    }
+            //}
+            //// Second Way
+            //using (FileStream fs = File.Create(path))
+            //{
+            //	Byte[] myWords = new UTF8Encoding(true).GetBytes("All of the words!");
+            //	fs.Write(myWords, 0, myWords.Length);
+            //}
+        }
 
 		static void ReadFile()
 		{

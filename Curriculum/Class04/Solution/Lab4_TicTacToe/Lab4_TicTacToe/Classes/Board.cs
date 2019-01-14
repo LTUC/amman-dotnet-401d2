@@ -19,10 +19,12 @@ namespace Lab4_TicTacToe.Classes
         /// </summary>
         public void DisplayBoard()
         {
+            int rows = GameBoard.GetLength(0);
+            int columns = GameBoard.GetLength(1); 
             //Output play board to console
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < columns; i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < rows; j++)
                 {
                     Console.Write(string.Format("|{0}|", GameBoard[i, j]));
                 }
