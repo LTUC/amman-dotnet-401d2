@@ -18,7 +18,7 @@
 - This is part 1 of a 2 part assignment. 
 - Using all 4 of the Object Oriented Principles (OOPs): 
 		- Build out the hierarchical class structure of the animals within a zoo within Visual Studio and a digital diagram.
-		- There should be at least 3 layers of inheritance with at least 6 different types of animals. 
+		- There should be at least 3 layers of inheritance with at least 5 different types of animals. 
 	- Prove that the OOP principles are being used by returning strings as necessary to prove that a 
 	methods were property implemented or inherited.
 		- Examples include: `Eat()` `Sleep()` `Sound()` etc... 
