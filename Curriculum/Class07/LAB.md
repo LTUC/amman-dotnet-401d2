@@ -24,7 +24,7 @@
 	2. Remove
 	3. Count (the total number of cards in the deck)
 
-- In your `Program.cs` have a method named `Deal` that gets called from `Main` that evenly distributes the deck of cards amongst 2 players. the Deck should keeps any remaining cards (if any). Output to the console the cards each player has and what the initial Deck has kept.
+- In your `Program.cs` have a method named `Deal` that gets called from `Main` that evenly distributes the deck of cards amongst 2 players decks. the Dealer Deck should keeps any remaining cards (if any). Output to the console the cards each player has and what the Dealer Deck has kept.
 
 - When running your application, it should activate a console that outputs an example for each of the custom methods within your deck. It should show what cards were added to the deck, information about what card was removed, and then proof it is gone, as well as a final count of the number of cards without any direct code manipulation from the grader. 
 
@@ -41,9 +41,22 @@ Cards left: 4
 Ace Diamonds, Q Diamonds, 10 Spades, 6 Hearts.....
 ```
 
+```
+Player 1 Deck: Empty
+Player 2 Deck: Empty
+Dealer Deck: Ace Diamonds, K Hearts, Q Diamonds, 10 Spades, 6 Hearts
+
+(Distributing Deck)
+
+Player 1 Deck: Ace Diamonds, Q Diamonds
+Player 2 Deck: King Hearts, 10 Spades
+Dealer Deck: 6 Hearts
+
+```
+
 Your `Program.cs` Main method should demonstrate:
 1. The instantiation of the generic collection. 
-2. The instantiation of at least 10 cards with values
+2. The instantiation of at *least 10 cards* with values
 3. Adding and removing cards from the Deck<T>
 4. Use a `foreach` loop on your created Deck, and output each of the cards to the console. 
 5. Call to the `Deal()` method following the directions from above. 
@@ -53,7 +66,7 @@ Your tests should cover the following functionality:
 1. Add a card to your deck
 1. Getter/Setters of your properties from your `Card` class
 1. Remove a card from your deck that exists
-1. Remove a card from your deck that does not exist
+1. Cannot remove a card from your deck that does not exist
 
 ## README
 

@@ -148,7 +148,7 @@ namespace WordGuessGame
             string[] temparray = new string[GetWords().Length];
 
             int counter = 0;
-            for (var ii = 0; ii < checkWords.Length; ii++)
+            for (int ii = 0; ii < checkWords.Length; ii++)
             {
                 string item = checkWords[ii];
                 if (!string.Equals(item, word, StringComparison.CurrentCultureIgnoreCase))
