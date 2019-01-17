@@ -2,6 +2,12 @@
 
 ## How do I prep for today?
 
+1. Introduce Delegates
+2. Talk about Lambda Expressions
+3. Talk about Anonymous Delegate Types (Func and Actions)
+4. Talk about LINQ
+5. Combine Lambda Expressions with LINQ
+
 ## What changed from yesterday? 
 
 ## What might students struggle with today?  

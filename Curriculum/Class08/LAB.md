@@ -27,6 +27,10 @@ Provided is a JSON file that contains a data set of location information for pro
 - Do some self research and find out how to read in JSON file (hint: JsonConvert.DeserializedOject is *part* of it)
 - You will need to break up each section of the JSON file up into different classes, use your resources - ask the TA's if your stuck. (Maybe find a converter of some sort??)
 
+#### Resources
+1. [NewtonSoft LINQ to JSON](https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm)
+2. [Serializing JSON](https://www.newtonsoft.com/json/help/html/SerializingJSON.htm)
+
 #### Questions
 Each query builds off of the next. 
 1. Output all of the neighborhoods in this data list

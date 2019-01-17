@@ -41,8 +41,8 @@ ALL Linq query operations consist of three distinct actions:
                                         select n;
 
  
-    IEnumerable<string> filteredNames = .Wheren
-                                        (n, n => n.Length >= 4);
+    IEnumerable<string> filteredNames = .Where
+                                        (n => n.Length >= 4);
     foreach (string n in filteredNames)
         Console.WriteLine (n);
 
@@ -108,3 +108,17 @@ The variable does not hold the result, only the command. So you can keep iterati
 
 ### Facts about LINQ
 1. A query is not executed until you iterate over a query variable. 
+
+
+### LINQ COmmanda
+
+Projections -we are projecting through the data of all the possible data
+
+We can use var for anonymous types
+
+```csharp
+var result = 
+		from c in dataSource
+		select new {c.Name, c.Age}
+```
+
