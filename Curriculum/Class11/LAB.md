@@ -35,60 +35,41 @@ Your MVC Web Application should contain the following:
 1. Include HTML/CSS in your final product. **This is required.** 
 	1. It doesn't have to be fancy, just make it look nice.
 1. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 
-1. A model class that contains the following properties(these are the headers of the csv file):
+1. A model class named `TimePerson` that contains the following properties(these are the headers of the csv file):
 
 ```csharp
 	public int Year { get; set; }
 	public string Honor { get; set; }
 	public string Name { get; set; }
 	public string Country { get; set; }
-	public int Birth_Year { get; set; }
+	public int BirthYear { get; set; }
 	public int DeathYear { get; set; }
 	public string Title { get; set; }
 	public string Category { get; set; }
 	public string Context { get; set; }
 ```
-1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commas, this should be a good start to how to parse out your data. <br />
 
-	Here is my code. Feel free to use it, but if you do **comment every single line**, including the method signature and make sure you know what is going on. (example: Why is it static????)
-	This code lives in my `TimePerson.cs` model. 
+1. Create a static method within this model named `GetPersons` that brings in the range of years, and returns `List<TimePerson>`.  
+2. Create the internal logic to read in the file, filter the data from the given inputted range using LINQ queries and Lambda expressions, and return the final filtered list of persons.
 
-```csharp
+#### Hints
 
-public static List<TimePerson> GetPersons(int begYear, int endYear)
-{
-    List<TimePerson> people = new List<TimePerson>();
-    string path = Environment.CurrentDirectory;
-    string newPath = Path.GetFullPath(Path.Combine(path, @"wwwroot\personOfTheYear.csv"));
-    string[] myFile = File.ReadAllLines(newPath);
+1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commas. Use what you know from Class 03, and read in the data using the proper delimiter. 
 
-    for (int i = 1; i < myFile.Length; i++)
-    {
-	string[] fields = myFile[i].Split(',');
-	people.Add(new TimePerson
-	{
-	    Year = Convert.ToInt32(fields[0]),
-	    Honor = fields[1],
-	    Name = fields[2],
-	    Country = fields[3],
-	    Birth_Year = (fields[4] == "")? 0 : Convert.ToInt32(fields[4]),
-	    DeathYear = (fields[5] == "")? 0 : Convert.ToInt32(fields[5]),
-	    Title = fields[6],
-	    Category = fields[7],
-	    Context = fields[8],
-	});
-    }
+2. Traversing through the file, line by line, convert each line item of the CSV to a `TimePerson` object and add it to the collection.
 
-	List<TimePerson> listofPeople = people.Where(p => (p.Year >= begYear) && (p.Year <= endYear)).ToList();
-	return listofPeople;
-	
-```
+3. Using LINQ queries and Lambda expressions, filter out list given the range inputted. You code should take into account a few edge cases of inputting an invalid range (e.g. 2001 - 1985), as well as any other reasonable edge cases. 
+
+4. Return the collection with the data that matches the year range.
+
+5. Use the debugger to get a visible look at what is being imported and confirm the format. This will help you visualize what you need to do. 
+
 
 ### Resources
 
 - [MVC Setup](Resources/MVCSetup.md){:target="_blank"}
 - [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x){:target="_blank"}
-	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utulizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
+	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utilizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
 
 
 ### Tests

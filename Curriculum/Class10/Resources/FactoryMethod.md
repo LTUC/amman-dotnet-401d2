@@ -35,7 +35,7 @@
 
 ```
 
-	1. Create other pizza classes to inherit from pizzsa
+	1. Create other pizza classes to inherit from pizza
 		1. Cheese
 		1. Pepperoni
 		1. Supreme
@@ -61,8 +61,8 @@ Pizza OrderPizza(string type)
 ```
 
 ### The problem:
-We have to now continually change the orderpizza method and add more if statemetns everytime we add more pizza items to our menu.
-the modifiablity on this method is not ideal. 
+We have to now continually change the order pizza method and add more if statements every time we add more pizza items to our menu.
+the modifiability on this method is not ideal. 
 
 ### Solution
 Export all of the "if statement" pizza into an external "createPizza" method.
@@ -112,10 +112,10 @@ PizzaStore should now look like this:
 
 ```csharp
 SimplePizzaFactory factory;
-//PizzaStore gets the facotry passed into it as a constructor
-public PizzaStore(SimplePizzaFactory pfactory)
+//PizzaStore gets the factory passed into it as a constructor
+public PizzaStore(SimplePizzaFactory factory)
 {
-	factory = pfactory
+	factory = factory
 }
 
 public Pizza OrderPizza(string type)

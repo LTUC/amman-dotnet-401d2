@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 14: 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 14: Entity Framework & Seeding
 =====================================
 
 ## To Submit this Assignment
@@ -20,17 +20,17 @@ Continue with your AsyncInn Hotel Management System. For Today's branch, focus o
 	- 5 default Hotel Locations
 	- 6 Room Types
 	- 5 Amenities. 
-3. Do not make any seeded associations with `HotelRoom` or `RoomAmenities`.
-4. Update dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views (example: display string names instead of ids).
+3. *Do not* make any seeded associations with `HotelRoom` or `RoomAmenities`.
+4. Update the dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views (example: display string names instead of ids).
 5. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
 6. Add your own styling to the Hotel creation page, Room Creation Page, and Amenities creation page.
-7. On the Home Page, create a dashboard/navigation to the Create Hotel page, Create Room page, Create Amenity page, as well as pages for the HotelRoom association and RoomAmenity association. Each of these pages (excluding HotelRoom and Room Amenity (see below)) should allow the user to edit/remove exisitng data. All pages should allow to view the data. 
+7. On the Home Page, create a navigation to the "Create Hotel" page, "Create Room" page, "Create Amenity" page, as well as pages for the "HotelRoom" association and "RoomAmenity" association. Each of these pages (excluding HotelRoom and Room Amenity (see below)) should allow the user to edit/remove existing data. All pages should allow to view the data. 
 
 #### Stretch
-These goals will be required later on in the lab, but feel free to start a bit "early":
-1. Remove the ability to edit `RoomAmenties`
+These goals will be required in an upcoming lab, but feel free to start a bit "early":
+1. Update/Edit your `RoomAmentities` page to not allow edits. 
 	- You should only have the option to create associations, and delete associations.
-	- This will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
+	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
 2. Leverage the use TagHelpers and View Models to identify the correct association to remove.
 3. Modify the existing code to edit a `HotelRoom`.
 	 - Allow a user to edit a `HotelRoom` combination. 
@@ -38,7 +38,7 @@ These goals will be required later on in the lab, but feel free to start a bit "
 	 - View Models and TagHelpers will be required to send the data back and forth from the server
 
 ## Tests
-No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
+No Tests are required for this day. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
 
 ## README
 

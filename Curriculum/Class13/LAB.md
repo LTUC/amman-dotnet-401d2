@@ -17,9 +17,7 @@
 Today you will be creating your initial MVC application for your Hotel management system.
 
 ### Scaffold
-Scaffold out a basic MVC web application using the steps provided from class 11. Include a Home Controller with a basic Index action. No need to add any content to the Index view, just have it load a greeting for now. You will work more on the Home Controller a little further down.
-
-Look in your class repo under class 13 in the resources folder for full scaffold steps to create an MVC web app with a database. 
+Scaffold out a basic MVC web application using the steps provided from class 11 & 13. Include a Home Controller with a basic Index action. No need to add any content to the Index view, just have it load a greeting for now. You will work more on the Home Controller a little further down.
 
 ### Entities to Models
 Using your database schema, convert each entity into a model within your newly created MVC web application.
@@ -77,7 +75,7 @@ To gain full credit for this "feature", your branch must consist of:
 Your readme should be in introduction to your web app. Provide in your readme, your DbSchema and an overview of the relationships and how each entity is related to another. 
 
 ### Tests
-No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
+No Tests are required for this day. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
 
 ## README
 
