@@ -4,7 +4,7 @@
 
 Conduct some self research on one of the following topics.
 
-Pick one of the topics above and share with the class your research AND where you found the data!
+Pick one of the topics below and share with the class your research AND where you found the data!
 
 ## Readings
 1. [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)

@@ -2,17 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01\\Resources",
-    "\\Curriculum\\Class01\\Solution",
-    "\\Curriculum\\Class08",
-    "\\Curriculum\\Class13",
-    "\\Curriculum\\Class14",
-    "\\Curriculum\\Class15",
-    "\\Curriculum\\Class18",
-    "\\Curriculum\\Class19",
-    "\\Projects",
-    "\\Projects\\Midterm"
+    "\\Curriculum\\Class11\\Demo\\Class11Demo",
+    "\\Curriculum\\Class11\\Solution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Controllers",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models",
+    "\\Curriculum\\Class13\\Resources",
+    "\\Curriculum\\Class14\\Solution",
+    "\\Curriculum\\Class16",
+    "\\Curriculum\\Class17"
   ],
-  "SelectedNode": "\\Curriculum\\Class18\\READINGS.md",
+  "SelectedNode": "\\Curriculum\\Class19\\FACILITATOR.md",
   "PreviewInSolutionExplorer": false
 }
