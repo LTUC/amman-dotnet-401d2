@@ -2,7 +2,15 @@
 =====================================
 
 ## To Submit this Assignment
-No Submission required. This will be a component 
+- Create a new branch named `NAME-SearchAndSorts` in your `AsyncInn` repo
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
+- Include a `README.md` (contents described below)
+
 
 ## Directions
 
