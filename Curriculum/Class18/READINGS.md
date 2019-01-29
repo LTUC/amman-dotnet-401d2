@@ -12,4 +12,9 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 ## Readings
 
 - [Unit Testing](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs){:target="_blank"} 
+
 - [Testing Controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-2.1){:target="_blank"} 
+
+- [Intro to APIs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1){:target="_blank"} 
+
+- [YouTube - Intro to APIs](https://www.youtube.com/watch?v=aIkpVzqLuhA&t=1730s)

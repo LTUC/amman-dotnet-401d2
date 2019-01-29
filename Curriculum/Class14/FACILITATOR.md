@@ -5,11 +5,14 @@
 2. Review Scaffolding of Controller
 3. Go through the Create and Edit actions to see what is happening
 	- point out what _context means
-
+4. Add Data to the database from the CRUD operations on the site
+	- Tag Helpers
 3. Introduce Data Annotations (required, Display Name, Enums, phone number, etc...)
 4. Seed the Database
 5. Run application and make adjustments with data extraction (DDL, db queries. )
 4. How to turn an Enum into a DDL
+5. Show View Models
+
 
 ```csharp
 
@@ -28,7 +31,7 @@ OR
 
 ```csharp
 in the controller....
-    ViewData["CourseID"] = new SelectList(_context.Courses, "ID", "Name", courseEnrollments.CourseID);
+    ViewData["CourseID"] = new SelectList(_context.Courses, "ID", "Name", CourseEnrollmetn.CourseID);
 ```
 
 5. Shared Layouts

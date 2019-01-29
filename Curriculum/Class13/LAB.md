@@ -57,7 +57,7 @@ To gain full credit for this "feature", your branch must consist of:
 
 4. Models
 	- Each Entity from the DB Table converted into a Model
-	- Proper naming conventions of Primary keys, or utilization of the `[Key]` data annotation
+	- Proper naming conventions of Primary keys
 	- Navigation properties present in each Model where required
 	- Enum present in appropriate model
 

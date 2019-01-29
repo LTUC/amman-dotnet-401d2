@@ -21,9 +21,9 @@ app.UseMvc(routes =>
 ```
 
 8. Add app.UseStaticFiles() under `Configure()` after mapping the route to allow the use of css and js files.
-9. Create a new folder in solution called "Controllers"
-10. Create a new folder in solution called "Models"
-11. Create a new folder in solution called "Views"
+9. Create a new folder in your project called "Controllers"
+10. Create a new folder in your project called "Models"
+11. Create a new folder in your project called "Views"
 12. Create a new class named HomeController in the Controllers Folder
 13. Derive HomeController from base class Controller (`HomeController:Controller`)
 14. Import the appropriate namespace (`Microsoft.AspNetcore.MVC`)
@@ -42,11 +42,15 @@ app.UseMvc(routes =>
 
 
 ### Adding Entity Framework Core and a SQL Database:
-1. Add an appsettings.json file 
-	a. Right click on project --> Add -> new item
-    2. search for appsettings
-    3. Select appsettings.json
-	b. Keep the name `appsettings.json`
+1. Add Connection Strings to your `appsettings.json` file:
+
+```
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=DBNAMEHERE;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+```
+
+2. Change the `DBNAMEHERE` with the name of your Database
     
 2. Change the database name in your newly created connection string. 
 3. Add a new folder named Data to your project
@@ -90,13 +94,10 @@ using Microsoft.Extensions.DependencyInjection;
 	
 12. Open up Package Manager Console.
 13. Run the following Commands
-	a. Install the EntityFrameworkCore Tools: Install-Package Microsoft.EntityFrameworkCore.Tools -Version 2.1.0
 14. Add an initial migration to your project. Run the following command in PMC
 	a. Add-Migration initial
 15. After adding a migration, update your database with the "Update-Database" command. 
 		
-
-
 ### MISC
 
 1. When you start adding tables, make sure you do so in the DBContext file by adding a new `DBSet`. 

@@ -18,8 +18,7 @@ New topic!
 
 ## What might students struggle with today?  
 A lot of students look at APIs as glorified external databases. It's important to make
-sure that they understand that it is not that and that they are important to know when it 
-comes to being a developer. 
+sure that they understand that it is not that and that they are important to know when it comes to being a developer. 
 
 They usually can't answer "what is an API" so try and make sure everyone has a good answer
 if they are asked. 

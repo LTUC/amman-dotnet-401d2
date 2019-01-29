@@ -29,7 +29,7 @@ Overall, the look and feel of your site should provide a good client experience.
 ### Tests
 
 1. Getters/Setters on all Models
-2. Standard CRUD operations on all tables
+2. Standard CRUD operations on all tables (test your services!)
 
 ## README
 
