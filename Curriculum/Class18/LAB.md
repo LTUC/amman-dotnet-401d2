@@ -19,8 +19,23 @@ Finish up your `Async Inn` Hotel Management project:
 2. CSS/HTML should be present on **all** pages of the project.
 	- Utilize "layouts"
 	- Use "partials" as needed
-3. Write Tests (listed below)
-4. The site should be functional, with no errors being thrown. Exceptions handled appropriately, and redirects occurring where they are needed. 
+
+
+1. Update/Edit your `RoomAmentities` page to not allow edits. 
+	- You should only have the option to create associations, and delete associations.
+	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
+2. Leverage the use TagHelpers and View Models to identify the correct association to remove.
+3. Modify the existing code to edit a `HotelRoom`.
+	 - Allow a user to edit a `HotelRoom` combination. 
+	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
+	 - View Models and TagHelpers will be required to send the data back and forth from the server
+
+4. Add/Confirm functionality that if you "remove" a room or a hotel, all of it's associations are also removed
+	- If you delete a Hotel, all of the `HotelRoom` associations with that hotel should be removed.
+	- If you delete a Room template, all of the `HotelRoom`s that have that room template need to be removed as well as the RoomAmenity associations
+
+5. Write Tests (listed below)
+6. The site should be functional, with no errors being thrown. Exceptions handled appropriately, and redirects occurring where they are needed. 
 
 
 Overall, the look and feel of your site should provide a good client experience.
