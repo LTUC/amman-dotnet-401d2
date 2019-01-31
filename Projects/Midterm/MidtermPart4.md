@@ -12,7 +12,7 @@ without committing any code. Create your Wireframe in a digital tool. whiteboard
 Provide an image of your wireframes in with the readme of your project.
 
 ## User Stories
-For each application (web app and API), start out by creating at least 5 user stories for each side. The outline/requirements for user stories can be found [HERE](UserStories.md){:target="_blank"}
+For each application (web app and API), start out by creating at least 5 user stories for each side. The outline/requirements for user stories can be found [HERE](../UserStories){:target="_blank"}
 
 Each "task" or item in your kanban PM board, for each project, should contain:
 
@@ -30,7 +30,7 @@ project's software requirements.
 
 Name your doc `Requirements.md` and be sure to include all of the required information, in detail. 
 
-The requirements for your software requirements doc can be found [HERE](SoftwareReqs){:target="_blank"} 
+The requirements for your software requirements doc can be found [HERE](../SoftwareReqs){:target="_blank"} 
 
 ## Database Schema
 
