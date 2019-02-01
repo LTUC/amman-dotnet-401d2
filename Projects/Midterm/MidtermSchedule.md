@@ -1,25 +1,25 @@
 # Schedule and Milestones
 
 ### Monday
-- Standup: 9:45am
+- Stand-up: 9:30am
 - Demo: 4:30pm 
 
 **Milestones**
 - Deployed to Azure
 - Web App and API integration
-- Continuous Deployment setup
+- Master branch locked down
 
 ### Tuesday:
-- Standup: 10:00am
-- Demo: 4:30pm 
+- Stand-up: 10:00am
+- Demo: 5:00pm 
 
 **Milestones**
 - MVP
 - Tests (~50%)
 
 ### Wednesday:
-- Standup: 10:00am
-- Demo: 4:30pm 
+- Stand-up: 10:00am
+- Demo: 5:00pm 
 
 **Milestones**
 - Minimum front end completed
@@ -28,8 +28,8 @@
 - Tests (~75%)
 
 ### Thursday
-- Standup: 10:00am
-- Demo: 4:30pm
+- -: 10:00am
+- Demo: Run-through with TA's (3:30ish)
 - Code Freeze (**ALL** server side code): 9pm
 	 - Only tests, Documentation, and front end allowed to be worked on
 
@@ -41,7 +41,7 @@
 
 
 ### Friday
-- Standup: 10:00am
-- Full Code Freeze: 10:00am 
+- Stand-up: 9:30a
+- Presentations: 10:00am
+- Full Code Freeze: 9:00am 
 	- Only tests and Documentation may be worked on, but not merged
-- Presentations: 1:30pm
