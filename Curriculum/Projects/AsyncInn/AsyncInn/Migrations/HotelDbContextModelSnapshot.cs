@@ -14,7 +14,7 @@ namespace AsyncInn.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.3-rtm-32065")
+                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -24,11 +24,20 @@ namespace AsyncInn.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.HasKey("ID");
 
                     b.ToTable("Amenities");
+
+                    b.HasData(
+                        new { ID = 1, Name = "Mini Bar" },
+                        new { ID = 2, Name = "Coffee Maker" },
+                        new { ID = 3, Name = "Jacuzzi Tub" },
+                        new { ID = 4, Name = "Netflix" },
+                        new { ID = 5, Name = "Petting Zoo" }
+                    );
                 });
 
             modelBuilder.Entity("AsyncInn.Models.Hotel", b =>
@@ -37,11 +46,14 @@ namespace AsyncInn.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Address");
+                    b.Property<string>("Address")
+                        .IsRequired();
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
-                    b.Property<string>("Phone");
+                    b.Property<string>("Phone")
+                        .IsRequired();
 
                     b.HasKey("ID");
 
@@ -50,7 +62,9 @@ namespace AsyncInn.Migrations
                     b.HasData(
                         new { ID = 1, Address = "123 Seattle Way", Name = "Emerald City Stay", Phone = "123-456-7654" },
                         new { ID = 2, Address = "123 LasVegas Strip Way", Name = "Las Vegas Strip", Phone = "123-876-1946" },
-                        new { ID = 3, Address = "987 Dizney Way", Name = "Disney Adventures", Phone = "481-512-3421" }
+                        new { ID = 3, Address = "987 Dizney Way", Name = "Disney Adventures", Phone = "481-512-3421" },
+                        new { ID = 4, Address = "84 Treasure Way", Name = "Pirates Life", Phone = "975-588-9621" },
+                        new { ID = 5, Address = "123 Fancy Way", Name = "Grand Excursion", Phone = "493-396-9785" }
                     );
                 });
 
@@ -81,7 +95,8 @@ namespace AsyncInn.Migrations
 
                     b.Property<int>("Layout");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.HasKey("ID");
 
@@ -91,7 +106,9 @@ namespace AsyncInn.Migrations
                         new { ID = 1, Layout = 0, Name = "Seahawks Snooze" },
                         new { ID = 2, Layout = 0, Name = "Restful Rainier" },
                         new { ID = 3, Layout = 1, Name = "Couples Retreat" },
-                        new { ID = 4, Layout = 2, Name = "Officially Business" }
+                        new { ID = 4, Layout = 2, Name = "Officially Business" },
+                        new { ID = 5, Layout = 0, Name = "The Playhouse" },
+                        new { ID = 6, Layout = 1, Name = "The Staycation" }
                     );
                 });
 

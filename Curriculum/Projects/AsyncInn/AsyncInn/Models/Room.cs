@@ -3,24 +3,29 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AsyncInn.Models
 {
-	public class Room
-	{
-		[Key]
-		public int ID { get; set; }
-		public string Name { get; set; }
-		[EnumDataType(typeof(Layout))]
-		public Layout Layout { get; set; }
+    public class Room
+    {
+        public int ID { get; set; }
 
-		ICollection<HotelRoom> HotelRooms { get; set; }
+        [Required]
+        [Display(Name = "Room Type Name:")]
+        public string Name { get; set; }
 
-		ICollection<RoomAmenities> RoomAmenities { get; set; }
-	}
+        [Required]
+        [Display(Name = "Layout Type: ")]
+        [EnumDataType(typeof(Layout))]
+        public Layout Layout { get; set; }
 
-	public enum Layout
-	{
-		TwoBedSuite,
-		OneBedSuite,
-		Studio
-	}
+        ICollection<HotelRoom> HotelRooms { get; set; }
+
+        ICollection<RoomAmenities> RoomAmenities { get; set; }
+    }
+
+    public enum Layout
+    {
+        TwoBedSuite,
+        OneBedSuite,
+        Studio
+    }
 
 }
