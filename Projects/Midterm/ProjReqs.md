@@ -10,7 +10,7 @@ Your midterm project is broken up into 2 smaller projects (Full stack CRUD MVC p
 your Full CRUD web app will consume your custom API. You may use a 3rd party
 API in addition, but it is not required. This may add some value to your project. 
 
-Below are the requirements specific to each project, followed by requirements that both projects should contain.  
+Below are the requirements specific to each project, followed by requirements that both projects should contain. No templating is allowed for either projects. Both the Web App and API project should be created from an "empty" Web Project within Visual Studio. 
 
 ### Web App Requirements
 1. Use the MVC Architectural pattern
