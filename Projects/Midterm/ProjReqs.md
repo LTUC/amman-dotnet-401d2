@@ -16,7 +16,7 @@ Below are the requirements specific to each project, followed by requirements th
 1. Use the MVC Architectural pattern
 	- Models
       - At least 2 Models
-	  - Dependency Injection with the Repository Design Pattern
+	  - Utilize dependency injection with the Repository Design Pattern for your whole project. Your project should contain:
 		- At least 1 "Service"
 		- At least 1 interface
 	- Views 
@@ -26,6 +26,7 @@ Below are the requirements specific to each project, followed by requirements th
 	- Controllers
       - At least 2 Controllers
 	  - No scaffolding or templating of controller with CRUD operations.
+	  - Do not have your `DbContext` injected into your controllers. Your D.I. should be injecting your interface into the controllers for the basic CRUD operations.
 
 2. Documentation (README)
      - Provide documentation for your web app. Include
