@@ -3,9 +3,9 @@
 ### Three Take-a-ways
 
 
-MVC is an architectural pattern used in web applications. 
-MVC is extremely helpful when it comes to separation of concerns. 
-This allows us to make changes to the front-end (view) without 
+1. MVC is an architectural pattern used in web applications. 
+2. MVC is extremely helpful when it comes to separation of concerns. 
+3. This allows us to make changes to the front-end (view) without 
 affecting the business logic or the routes. 
 
 ### Model
