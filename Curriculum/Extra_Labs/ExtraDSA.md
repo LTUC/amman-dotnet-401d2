@@ -9,6 +9,7 @@
     - If you don't have a whiteboard at hand, you can submit a picture of a drawing on a piece of paper.
     - Include unit tests with your code submissions. (write tests to confirm all basic functionality and 1 or 2 edge cases)
     - A readme is required. Provide the same basic information included as a coding challenge (including time and efficiency!)
+	- Commit Often. 
 - The problem statements are in cases vague in order for you to clarify your understanding of the problem with your instructional team.
 - Each challenge will be a new entry into your `Challenges` folder in your `Data Structures and Algorithms` repo. Update your table of contents and submit a ***single*** PR that contains all of your challenges. 
 
