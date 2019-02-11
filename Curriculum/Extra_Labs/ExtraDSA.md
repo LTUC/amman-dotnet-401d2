@@ -60,10 +60,14 @@ Implement a method `string[] GenerateBalancedParethesesCombinations(int n)` that
 ##### Examples
 ```
 n=1
-["{}"]
+["()"]
 
 n=2
-["{}{}","{{}}"]
+["()()","(())"]
+
+n=3
+["()()()", "(())()", "()(())", "((()))"]
+
 ```
 
 ### Create an Acronym Generator (1 Point)
