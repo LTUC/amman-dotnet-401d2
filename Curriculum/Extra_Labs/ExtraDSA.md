@@ -1,11 +1,11 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 26: DSA Challenges
+![cf](http://i.imgur.com/7v5ASc8.png) Snow Day: DSA Challenges
 =====================================
 
 ## Instructions
 
 - Select and complete enough code challenges to accumulate 10 points. (or more!)
 - Every challenge is worth a specified amount of points related to its complexity.
-- Follow the traditional whiteboard proccess and submission instructions in order to plan and prepare to code each challenge.
+- Follow the traditional whiteboard process and submission instructions in order to plan and prepare to code each challenge.
     - If you don't have a whiteboard at hand, you can submit a picture of a drawing on a piece of paper.
     - Include unit tests with your code submissions. (write tests to confirm all basic functionality and 1 or 2 edge cases)
     - A readme is required. Provide the same basic information included as a coding challenge (including time and efficiency!)
@@ -40,7 +40,7 @@ Implement a method with the following signature `bool AreCharactersUnique(string
 ### Remove duplicated values from a linked list (3 Points)
 Implement a method with the following signature `LinkedList RemoveDuplicatens(LinkedLst list)` that removes all duplicated values from the linked list. The modifications must happen in place (i.e. avoid making a copy of the linked list)
 
-- Use your personal Linked List implmentation for this problem
+- Use your personal Linked List implementation for this problem
 
 ### Remove duplicated values from a string (1 Point)
 Implement a method with the following signature `string RemoveDuplicates(string input)` that removes all characters values from the string.
@@ -48,9 +48,9 @@ Implement a method with the following signature `string RemoveDuplicates(string 
 ### Shuffle a linked list (3 Points)
 Implement a method with the following signature `LinkedList ShuffleLinkedList(LinkedLst list)` that re-arranges the nodes of the linked list in a random order. The modifications must happen in-place (i.e. avoid making a copy of the linked list)
 
-- Use your personal Linked List implmentation for this problem
+- Use your personal Linked List implementation for this problem
 
-### Implement a Stack and a Queue using an Array (2 Points)
+### Implement a Stack and a Queue using an Array (3 Points)
 Create a generic  `Stack<T>` and a generic `Queue<T>` class that use an array as internal storage. The stack and queue class need to be able to resize its internal storage when required and should each contain the appropriate basic functionality respectively. 
 
 ### Generate all combinations of balanced parentheses (6 Points)
