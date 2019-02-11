@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Curriculum"
+    "\\Curriculum",
+    "\\Curriculum\\Class17",
+    "\\Curriculum\\Class18",
+    "\\Curriculum\\Projects",
+    "\\Curriculum\\Projects\\AsyncInn",
+    "\\Projects\\Midterm"
   ],
-  "SelectedNode": "\\Curriculum",
+  "SelectedNode": "\\Curriculum\\Projects\\AsyncInn\\AsyncInn.sln",
   "PreviewInSolutionExplorer": false
 }
