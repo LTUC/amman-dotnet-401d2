@@ -123,11 +123,11 @@ Grades are distributed separately per student:
 7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
 9. Each Partner participated in a fair share of the work - 30 pts
     - i.e. One partner did not only do front end while the other only did back end
-    - User stories are approx. distributed evenly between both students (roughtly, does not have to be exact)
-  
+    - User stories are approx. distributed evenly between both students (roughly, does not have to be exact)
+ 10. TESTS - Test full functionality of your service that implements your interface
 
 **If you are missing all or part of your readme documentation,  you will lose an additional 20%**. 
-- The readme is important becasue it helps the instructional team grade your site. it is their guide/map
+- The readme is important because it helps the instructional team grade your site. it is their guide/map
 to your configuration and settings of your web application. 
 
 Total: 90 pts

@@ -17,8 +17,8 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 ### User Stories
 
 1. (Developer 1 & 2) As a developer, I would like to utilize and enable ASP.NET Core identity API so that my site can be secure for our users. 
-2. (Developer 1) As a user, I would like to register for an account on the site, so that I can have a personalized experience 
-3. (Developer 2) As a Developer, I would like to utilize the repository design pattern so that I can easily switch between production and development environments.
+2. (Developer 1 & 3) As a user, I would like to register for an account on the site, so that I can have a personalized experience 
+3. (Developer 2 & 3 ) As a Developer, I would like to utilize the repository design pattern so that I can easily switch between production and development environments.
 4. (Developer 2) As a Developer, I would like to have 10 products in my database on initial launch of my site
 
 ### Guidance

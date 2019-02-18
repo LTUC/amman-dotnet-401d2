@@ -11,4 +11,4 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 
 ## Readings
 1. [Policies](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-2.1){:target="_blank"} 
-2. [](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/iauthorizationpolicyprovider?view=aspnetcore-2.1)
+2. [Custom Policy Providers](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/iauthorizationpolicyprovider?view=aspnetcore-2.1)

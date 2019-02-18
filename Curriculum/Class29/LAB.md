@@ -23,7 +23,7 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 1. (Developer 2) As a user, I would like to implement a custom claims-based policy
 2. (Developer 1)  As a user, I would like part of my site to only be accessible to those who meet the criteria for a specific policy 
-3. (Developer 1) As a user, I would like to have a page where visitors can view all the products I have in my inventory so that they can eventually purchase. 
+3. (Developer 1 & 3) As a user, I would like to have a page where visitors can view all the products I have in my inventory so that they can eventually purchase. 
 
 ### Guidance
 

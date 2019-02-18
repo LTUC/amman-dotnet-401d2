@@ -14,10 +14,10 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 ## User Stories & Guidance:
 
-1. (Developer 1 & 2) As a developer, I would like to use IEmailSender as my interface when configuring email functionality. 
+1. (Developer 1 & 2 & 3) As a developer, I would like to use IEmailSender as my interface when configuring email functionality. 
 2. (Developer 2) As a user, I would like an email confirmation to be sent to me after I have registered for an account on the site.
 3. (Developer 1) As a user, I would like a "checkout" button present on the Basket page.
-4. (Developer 2) As a user, I would like an order Receipt page so that I can view all the items that I "purchased".
+4. (Developer 2 & 3) As a user, I would like an order Receipt page so that I can view all the items that I "purchased".
 5. (Developer 1) As a user, I would like a receipt of my purchases to be emailed to me after completing the checkout process
 
 

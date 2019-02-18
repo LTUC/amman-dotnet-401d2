@@ -16,8 +16,8 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 Here are the user stories for Milestone 1:
 1. (Developer 1) As a user, I would like a product landing page for each product, so that I can view individual details about the product.
-2. (Developer 1) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
-3. (Developer 1 & 2 ) As a user, I would like a basket to hold the products I wish to purchase. 
+2. (Developer 1 & 3) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
+3. (Developer 1 & 2 & 3) As a user, I would like a basket to hold the products I wish to purchase. 
 (Developer 2) As a user, I would like to see the current items in my basket while browsing the site.
 
 
