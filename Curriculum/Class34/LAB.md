@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 34: Sprint 2 - Milestone #4
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 36: Sprint 3 - Milestone #1
 =====================================
 
 ## To Submit this Assignment
@@ -14,35 +14,32 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 ## User Stories & Guidance:
 
-1. (Developer 1 & 2) As a developer, I would like to use IEmailSender as my interface when configuring email functionality. 
-2. (Developer 2) As a user, I would like an email confirmation to be sent to me after I have registered for an account on the site.
-3. (Developer 1) As a user, I would like a "checkout" button present on the Basket page.
-4. (Developer 2) As a user, I would like an order Receipt page so that I can view all the items that I "purchased".
-5. (Developer 1) As a user, I would like a receipt of my purchases to be emailed to me after completing the checkout process
+1. (Developer 1) As a user, I would like to use AUTH.NET as my automatic payment processing system
+2. (Developer 2)As a user, I would like a fake Credit card drop down to be used for every transaction that occurs in my site.
+3. (Developer 2) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
 
 
 ### Guidance
 
-**User Story 1:** Utilize the .Net Core's IEmailSender interface. Create a model that implements this interface that will create and send emails through SendGrid. 
-
-**User Story 2:** Building off of US1, Make an email get sent after registration of a new account.
-
-**User Story 3:** Update your Basket page to have a "Checkout" button. This checkout will complete the customers order. Make this Checkout button link to a "Receipt" action in the "CheckoutController"
-
-**User Story 4:** Create a new "CheckoutController" with an action named "Receipt". On this summary page, bring in all the items from the user's basket and displays line items of what the user has "purchased". Display:
-	1. The name of the product
-	2. The price of the product
-	3. The Qty purchased
-	4. Grand total of all the items purchased.
-
-**NOTE:** In the next sprint we will capture user specific order information such as shipping address, "fake" payment, etc... Don't worry about capturing that information just yet. For now, just have your "Checkout" button on your Basket page redirect to the summary page. 
+**User Story 1**: Use the Auth.NET docs located in today's readings. This is going to be your key to accomplishing this user story. Also be sure to use the demo code and the demo code provided in the docs. There are many resources (including the auth.net GH repo) for this to be accomplished. Be sure that you know exactly what is going on. 
+Don't forget to  update your code to the new .NET Core 2.1 syntax for ApiOperationsBase:
+ApiOperationBase<ANetApiRequest, ANetApiResponse>
 
 
-**User Story 5:** Make an email get sent after an order is completed. This email should contain a receipt/confirmation of the order that was placed. Make this an external method that can get called whenever it is needed. For now, have this email get sent when the "checkout" button is clicked. Modify this in Sprint 3 to activate when the order information is captured. 
+**User Story 2:** This user story ties very closely into US1. Do not ask for a real credit card number. Your dropdown should consist of card types. Do not allow the user to put in any numbers into a text box. Make sure to refer to the Testing Guide of Auth.NET as a reference to the different test cards you can use.   
+
+
+**User Story 3:** On the checkout page, This is where you will capture the information about the order in order for it to process. This includes the payment dropdown from the above user story. Upon completion of this user story, the user should be able to go from their Basket >> Checkout >> Receipt.  When the user submits their information for the order, make a call out to the Auth.NET Api, process the payment, and then redirect to the receipt page. Your Receipt page should indicate if the transaction was successful or not. 
 
 ## Tests
 
-No tests are required for today. 
+Write tests for your services against your database. Make sure the basic CRUD operations are possible. 
+
+You do not need to test the Identity components. Only the CRUD operations on the Product and Basket.
+
+Don't forget about the getters and setters.
+
+Keep your tests clean, only 1 Assert per test
 
 
 ## Rubric
