@@ -21,13 +21,13 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 
 ### Guidance
 
-**User Story 1**: Use the Auth.NET docs located in today's readings. This is going to be your key to accomplishing this user story. Also be sure to use the demo code and the demo code provided in the docs. There are many resources (including the auth.net GH repo) for this to be accomplished. Be sure that you know exactly what is going on. 
-Don't forget to  update your code to the new .NET Core 2.1 syntax for ApiOperationsBase:
+**User Story 1**:Â Use the Auth.NET docs located in today's readings. This is going to be your key to accomplishing this user story. Also be sure to use the demo code and the demo code provided in the docs. There are many resources (including the auth.net GH repo) for this to be accomplished. Be sure that you know exactly what is going on.Â 
+Don't forget toÂ  update your code to the new .NET Core 2.1 syntax for ApiOperationsBase:
 ApiOperationBase<ANetApiRequest, ANetApiResponse>
 
 
-**User Story 2:** This user story ties very closely into US1. Do not ask for a real credit card number. Your dropdown should consist of card types. Do not allow the user to put in any numbers into a text box. Make sure to refer to the Testing Guide of Auth.NET as a reference to the different test cards you can use.   
-
+**User Story 2:** This user story ties very closely into US1. Do not ask for a real credit card number. Your dropdown should consist of card types. Do not allow the user to put in any numbers into a text box. Make sure to refer to the Testing Guide of Auth.NET as a reference to the different test cards you can use. Â  
+ 
 
 **User Story 3:** On the checkout page, This is where you will capture the information about the order in order for it to process. This includes the payment dropdown from the above user story. Upon completion of this user story, the user should be able to go from their Basket >> Checkout >> Receipt.  When the user submits their information for the order, make a call out to the Auth.NET Api, process the payment, and then redirect to the receipt page. Your Receipt page should indicate if the transaction was successful or not. 
 
