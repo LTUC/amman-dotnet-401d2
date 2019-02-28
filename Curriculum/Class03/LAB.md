@@ -14,6 +14,7 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
+
 ## The Problem Domain
 - Read the entire problem domain carefully before you begin
 
@@ -47,6 +48,7 @@ game that will meet all of the requirements described in the user story above.
 	
 - When running your application, it should activate the user interface without any direct code manipulation
 
+
 ## Guidance
 This lab will test and practice your analytic and problem breakdown skills. It will also be your first approach at system design. Look at the **base functionality** first, and then build from there. I will give you the first few (suggested) steps, and see if you can continue from there. You do not have to follow these steps but it's a good place to start if you get lost. 
 
@@ -70,6 +72,7 @@ Test that your program has the following functionality:
 3. Test that you can retrieve all words from the file
 4. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
 
+
 ## Stretch Goals
 
 
@@ -82,8 +85,8 @@ Test that your program has the following functionality:
 	- [ToCharArray](https://docs.microsoft.com/en-us/dotnet/api/system.string.tochararray?view=netframework-4.7.2#System_String_ToCharArray){:target="_blank"} 
 4. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
 
-## README
 
+## README
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 

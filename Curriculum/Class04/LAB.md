@@ -17,15 +17,15 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Problem Domain
 
+## Problem Domain
 Create a two (2) person, turn based Tic-Tac-Toe program.
 Building off of your starter code provided from the class repo, complete the Tic Tac Toe logic. 
 
 
 ## Program Specificaitons
-
-- Find the `TODO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code) and add additional logic to accomplish each task. 
+Your solution should include the following:
+- Completed TODOs
 - Add summary comments above all of the methods that do not currently have summary comments. Be 
 sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
 returns in the appropriate xml tags. 
@@ -34,6 +34,8 @@ returns in the appropriate xml tags.
 ***Do not add any additional methods to the existing code base, you are only allowed to work within the methods provided***
 
 ## Guidance
+- Find the `TODO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code) and add additional logic to accomplish each task. 
+
 A Game board, to a user, looks like this:
 
 ```
@@ -81,7 +83,9 @@ Test that your program has the following functionality:
 3. Test to confirm that the position the player inputs correlates to the correct index of the array
 4. One other "unique" test of your own
 
+
 ##Stretch Goals
+
 
 ## Additional Resources
 Review/research these resources to assist you in the construction of your program:
@@ -91,7 +95,6 @@ Review/research these resources to assist you in the construction of your progra
 
 
 ## README
-
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
 
