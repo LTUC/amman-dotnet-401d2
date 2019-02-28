@@ -70,6 +70,9 @@ Test that your program has the following functionality:
 3. Test that you can retrieve all words from the file
 4. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
 
+## Stretch Goals
+
+
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the `Contains()` method. 
 	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
@@ -78,9 +81,6 @@ Test that your program has the following functionality:
 3. To get an array of characters of a specific word. 
 	- [ToCharArray](https://docs.microsoft.com/en-us/dotnet/api/system.string.tochararray?view=netframework-4.7.2#System_String_ToCharArray){:target="_blank"} 
 4. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
-
-## Stretch Goals
-
 
 ## README
 
