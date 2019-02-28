@@ -14,9 +14,8 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
-
-**Read ALL of the directions carefully before you begin....**
+## The Problem Domain
+- Read the entire problem domain carefully before you begin
 
 Josie Cat has requested that a "Word Guess Game" be built. The main idea of the game is 
 she must guess what a mystery word is by inputting (1) letter at a time.  The game should save all of her guesses (both correct and incorrect) 
@@ -27,12 +26,14 @@ file that randomly selects one of the words listed.
 This bank of words should be editable by Josie so that she may view, add, and delete words as 
 she wishes. She expects the game to have a simple user interface that is easy to navigate. 
 
-Using everything you've learned up to this point, create a word guess
+- Using everything you've learned up to this point, create a word guess
 game that will meet all of the requirements described in the user story above. 
 
 
-## Program Components
-- The program (should) contain the following
+## Program Specifications
+**Read ALL of the specifications carefully before you begin....**
+
+- Your solution should include the following:
     - Methods for each action (suggestions: Home navigation, View words in the external file, add a word to the external file, Remove words from a text file, exit the game, start a new game)
     - When playing a game, *randomly* select one of the words to output to the console for the user to guess (Use the `Random` class)
     - You should have a record of the letters they have attempted so far
@@ -46,7 +47,7 @@ game that will meet all of the requirements described in the user story above.
 	
 - When running your application, it should activate the user interface without any direct code manipulation
 
-## Breakdown
+## Guidance
 This lab will test and practice your analytic and problem breakdown skills. It will also be your first approach at system design. Look at the **base functionality** first, and then build from there. I will give you the first few (suggested) steps, and see if you can continue from there. You do not have to follow these steps but it's a good place to start if you get lost. 
 
 1. Get your System.IO working
@@ -62,12 +63,12 @@ This lab will test and practice your analytic and problem breakdown skills. It w
 Make user interface last. 
 
 
-## Tests
-Test that your app has the following functionality:
+## Unit Tests
+Test that your program has the following functionality:
 1. Test that a file can be updated
-1. Test that a word can be added to a file
-1. Test that you can retrieve all words from the file
-1. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
+2. Test that a word can be added to a file
+3. Test that you can retrieve all words from the file
+4. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
 
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the `Contains()` method. 
@@ -77,6 +78,8 @@ Test that your app has the following functionality:
 3. To get an array of characters of a specific word. 
 	- [ToCharArray](https://docs.microsoft.com/en-us/dotnet/api/system.string.tochararray?view=netframework-4.7.2#System_String_ToCharArray){:target="_blank"} 
 4. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
+
+## Stretch Goals
 
 
 ## README

@@ -13,7 +13,7 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
+## The Problem Domain
 - Create an "About Me" quiz that has at least 5 different questions. 
 - Each question should be something fun, unique, or interesting about yourself
 
@@ -30,7 +30,7 @@ Stay within scope of this project. Please only use concepts and resources that w
 If you are unsure if it is within scope, please ask a TA or instructor.
 
 
-### Stretch
+## Stretch Goals
 
 - Track number of correct/incorrect questions 
       - Show the user the number of correct/incorrect to user after quiz is over
