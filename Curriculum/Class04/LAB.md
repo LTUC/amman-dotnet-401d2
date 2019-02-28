@@ -81,6 +81,7 @@ Test that your program has the following functionality:
 3. Test to confirm that the position the player inputs correlates to the correct index of the array
 4. One other "unique" test of your own
 
+##Stretch Goals
 
 ## Additional Resources
 Review/research these resources to assist you in the construction of your program:
