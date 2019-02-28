@@ -31,7 +31,6 @@ If you are unsure if it is within scope, please ask a TA or instructor.
 
 
 ## Stretch Goals
-
 - Track number of correct/incorrect questions 
       - Show the user the number of correct/incorrect to user after quiz is over
 
