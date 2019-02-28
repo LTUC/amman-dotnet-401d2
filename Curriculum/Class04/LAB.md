@@ -17,14 +17,19 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
+## Problem Domain
+
+Create a two (2) person, turn based Tic-Tac-Toe program.
 Building off of your starter code provided from the class repo, complete the Tic Tac Toe logic. 
 
-1. Find the `TODO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code) and add additional logic to accomplish each task. 
-2. Add summary comments above all of the methods that do not currently have summary comments. Be 
+
+## Program Specificaitons
+
+- Find the `TODO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code) and add additional logic to accomplish each task. 
+- Add summary comments above all of the methods that do not currently have summary comments. Be 
 sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
 returns in the appropriate xml tags. 
-3. You've received reports from other users that there is a bug in the system! When a user selects a position on the board that is already marked, it is not prompting the user to retake their turn. It is up to *You* to find and fix this bug!
+- You've received reports from other users that there is a bug in the system! When a user selects a position on the board that is already marked, it is not prompting the user to retake their turn. It is up to *You* to find and fix this bug!
 
 ***Do not add any additional methods to the existing code base, you are only allowed to work within the methods provided***
 
@@ -69,20 +74,20 @@ so far in previous labs/lectures/assigned prework.
 If you are unsure if it is within scope, please ask a TA or instructor.
 
 
+## Tests
+Test that your program has the following functionality:
+1. Given a game board, Test for winners
+2. Test that there is a switch in players between turns
+3. Test to confirm that the position the player inputs correlates to the correct index of the array
+4. One other "unique" test of your own
+
+
 ## Additional Resources
 Review/research these resources to assist you in the construction of your program:
 
 - [Two Dimensional Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays){:target="_blank"} 
 - [Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays){:target="_blank"} 
 
-
-
-## Tests
-Have tests written for the following functionality:
-1. Given a game board, Test for winners
-2. Test that there is a switch in players between turns
-3. Confirm that the position the player inputs correlates to the correct index of the array
-4. One other "unique" test of your own
 
 ## README
 
