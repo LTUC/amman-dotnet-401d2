@@ -81,6 +81,11 @@ Upon completion of this Project, Your E-commerce site should contain the followi
   - Link to your deployed website
   - Link and reference to your vulnerability report (should be a separate file in your repo)
   - Name of Contributors
+
+- Tests
+	- Test all getter/setters
+	- Test all methods that live in your services that implement your interface
+	- You do not have to test identity API or the identity DB.
   
 
 ### Submit
