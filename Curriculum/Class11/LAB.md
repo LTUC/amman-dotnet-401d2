@@ -11,6 +11,7 @@
 - Create a pull request from your branch back your `master` branch.
 - Submit a link to your PR in canvas
 - Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
 ## The Problem Domain
@@ -66,7 +67,7 @@ Create a web app that will allow a user to put in a span of 2 different years, a
 - There are no unit tests required for this submission.
 
 ## Stretch Goals
-
+- Using what you know about system.io, create a .txt file to save your filtered results so they can be called again without referencing the original .csv file.
 
 ## Additional Resources
 
