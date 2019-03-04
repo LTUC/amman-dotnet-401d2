@@ -13,30 +13,30 @@
 - Merge your PR back into master
 - Include a `README.md` (contents described below)
 
-## Directions
+## The Problem Domain
+Today you will be creating your first ASP.NET Core MVC web application.
+Create a web app that will allow a user to put in a span of 2 different years, and a list of all the winners will be returned.
 
-**Read the instructions and website components, in it's entirety, before beginning** <br />
+**Read the Application Specifications, in it's entirety, before beginning** <br />
 
-Today you will be creating your first ASP.NET Core MVC web application. Provided is a csv file of all the "Time" Persons of the year from 1927 - 2016. 
-Create a web app that will allow a user to put in a span of 2 different years, and a list of all the winners will be returned. 
+## Application Specifications
+ - Your application should include the following:
+	- Start with an empty Web App template, with all controllers and views manually created, do not scaffold. If you are having trouble remembering the process to create a basic MVC app, refer to the **Additional Resources** section below for assistance.
+    - Add the MVC Middleware and include template routing (the route must be explicitly defined)
+    - Only 1 controller. The home controller, with 3 actions (2 Index, and 1 Results)
+    	- Remember the difference between HTTPGET and HTTPPOST
+    	- Upon posting back to the server, call the `Results` action to redirect to the results view. 
+    - Views to generate the home page and search results
+    	- Use a form tag to accept user input
+    	- Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshml` file may be required)
+    - Include HTML/CSS in your final product. **This is required.** 
+    	- It doesn't have to be fancy, just make it look nice.
+    - Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 
+    - A model class named `TimePerson` that contains the following properties(these are the headers of the csv file):
+	- Create a static method within this model named `GetPersons` that brings in the range of years, and returns `List<TimePerson>`.  
+    - Create the internal logic to read in the file, filter the data from the given inputted range using LINQ queries and Lambda expressions, and return the final filtered list of persons.
 
-Your web app should originate from an empty Web App template, with all controllers and views manually created, do not scaffold. If you are having trouble remembering the process to create a basic MVC app, refer to the **Resources** section below for assistance. 
-
-## Website Components
-Your MVC Web Application should contain the following:
-
-1. Add the MVC Middleware and include template routing (the route must be explicitly defined)
-1. Only 1 controller. The home controller, with 3 actions (2 Index, and 1 Results)
-	1. Remember the difference between HTTPGET and HTTPPOST
-	1. Upon posting back to the server, call the `Results` action to redirect to the results view. 
-1. Views to generate the home page and search results
-	1. Use a form tag to accept user input
-	1. Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshml` file may be required)
-1. Include HTML/CSS in your final product. **This is required.** 
-	1. It doesn't have to be fancy, just make it look nice.
-1. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 
-1. A model class named `TimePerson` that contains the following properties(these are the headers of the csv file):
-
+ Provided is a csv file of all the "Time" Persons of the year from 1927 - 2016. 
 ```csharp
 	public int Year { get; set; }
 	public string Honor { get; set; }
@@ -49,10 +49,7 @@ Your MVC Web Application should contain the following:
 	public string Context { get; set; }
 ```
 
-1. Create a static method within this model named `GetPersons` that brings in the range of years, and returns `List<TimePerson>`.  
-2. Create the internal logic to read in the file, filter the data from the given inputted range using LINQ queries and Lambda expressions, and return the final filtered list of persons.
-
-#### Hints
+## Guidance
 
 1. Using what you know about reading in external files, and the `System.File` library, convert the CSV file provided into readable data that can be used within the program. CSV files are delimited using commas. Use what you know from Class 03, and read in the data using the proper delimiter. 
 
@@ -65,15 +62,17 @@ Your MVC Web Application should contain the following:
 5. Use the debugger to get a visible look at what is being imported and confirm the format. This will help you visualize what you need to do. 
 
 
-### Resources
+## Unit Tests
+- There are no unit tests required for this submission.
+
+## Stretch Goals
+
+
+## Additional Resources
 
 - [MVC Setup](Resources/MVCSetup.md){:target="_blank"}
 - [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x){:target="_blank"}
 	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utilizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
-
-
-### Tests
-No Tests are required for this lab.
 
 
 ## README
