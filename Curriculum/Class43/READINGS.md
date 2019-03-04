@@ -28,12 +28,12 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 ### Ethics in Technology
 
 1. [Self Driving Car Ethics](https://www.freep.com/story/money/cars/2017/11/21/self-driving-cars-ethics/804805001/){:target="_blank"}
-2. [Ethical Dilemma of self driving cars](https://www.theglobeandmail.com/globe-drive/culture/technology/the-ethical-dilemmas-of-self-drivingcars/article37803470/){:target="_blank"}
+2. [Ethical dilemma of self driving cars](https://www.theglobeandmail.com/globe-drive/culture/technology/the-ethical-dilemmas-of-self-drivingcars/article37803470/){:target="_blank"}
 3. [Cyber-Security of self driving cars ](https://phys.org/news/2017-02-cybersecurity-self-driving-cars.html){:target="_blank"}
 4. [Big Data is our Civil Rights issue](http://solveforinteresting.com/big-data-is-our-generations-civil-rights-issue-and-we-dont-know-it/){:target="_blank"}
 5. [Will democracy survive big data and AI?](https://www.scientificamerican.com/article/will-democracy-survive-big-data-and-artificial-intelligence/){:target="_blank"}
 
-### Tech Company Principes
+### Tech Company Principles
 1. [Microsoft AI Principles](https://www.microsoft.com/en-us/AI/our-approach-to-ai){:target="_blank"}
 2. [Ethical OS Toolkit](https://ethicalos.org/){:target="_blank"}
 3. [Google AI Principles](https://www.blog.google/technology/ai/ai-principles/){:target="_blank"}
