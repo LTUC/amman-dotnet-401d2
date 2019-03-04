@@ -4,7 +4,7 @@
 To turn in your reading "Reply" to this discussion by teaching something that you learned from the 
 readings listed below.
 
-Review at least one article ***from each section below*** and write how each of them relates to ethics in technology. Do you think that agree or disagree with these articles? What stuck out to you specifically from each article? 
+Review at least one article ***from both "Ethics in the workplace" and "Ethics in Technology" sections below*** and write how each of them relates to ethics in technology. Do you agree or disagree with these articles? What stuck out to you specifically from each article? 
 
 For each article that you choose, write a ***minimum*** 5 sentences (1 paragraph). Each post should be something of substance and of an acceptable quality. 
 
