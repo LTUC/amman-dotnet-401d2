@@ -27,7 +27,7 @@ Your application should include the following:
 	 - Use of static files accepted
 2. Controller
 	 - Home Controller
-	 - Controllers  for each of the pages described in the Design section (you do not have to scaffold if you don't want to)
+	 - Controllers  for each of the pages described in the Design section (you may choose to scaffold or build controllers/views from scratch)
 3. Data
 	- DBContext present and properly configured
 	- DB Tables for each entity model (`DbSet<T>`)
