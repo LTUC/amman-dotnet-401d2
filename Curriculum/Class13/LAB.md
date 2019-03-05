@@ -80,7 +80,7 @@ Your README should be in introduction to your web app. Provide in your README, y
 
 ## Stretch Goals
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. 
-- Attempt to write some tests, as they will eventually be required.  A good place to start would be to test setting properties on your models. 
+- Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing). 
 
 
 ## Additional Resources

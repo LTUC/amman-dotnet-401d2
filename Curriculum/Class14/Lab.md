@@ -34,9 +34,9 @@ For Today's branch, focus on working within the existing code base that was scaf
 - There is no extra guidance for this assignment.
 
 
-## Unit Tests
-- There are no Unit Tests required for this assignment. 
-- I **strongly** encourage you to research how to write tests for a .NET Core MVC application. A good place to start would be to test setting properties on your models. 
+## Stretch Goals
+I **strongly** encourage you to research how to write tests for a .NET Core MVC application. 
+- Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing). 
 
 
 ## Stretch Goals
