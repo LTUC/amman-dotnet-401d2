@@ -80,11 +80,11 @@ Your README should be in introduction to your web app. Provide in your README, y
 
 ## Stretch Goals
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. 
-- Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing). 
+- Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
 
 ## Additional Resources
-- Setup default MVC [20 simple steps](https://github.com/codefellows/code-401-dotnet-guide/blob/master/Curriculum/Class11/Resources/MVCSetup.md)
+- Setup default MVC [20 simple steps](https://github.com/codefellows/code-401-dotnet-guide/blob/master/Curriculum/Class11/Resources/MVCSetup.md){:target="_blank"}
 
 
 ## README
@@ -106,7 +106,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [sample-README](https://github.com/noffle/art-of-readme)
+- [sample-README](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
