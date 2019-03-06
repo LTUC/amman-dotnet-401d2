@@ -18,6 +18,7 @@ To continue with your AsyncInn Hotel Management System, you need to seed hotel d
 For Today's branch, focus on working within the existing code base that was scaffolded out (If you chose to scaffold). Practice learning and understanding a code base that you didn't write, but need to make modifications too.
 
 ## Application Specifications
+- Your application should include the following:
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 2. Seed your database with at least 
 	- 5 default Hotel Locations
@@ -34,13 +35,15 @@ For Today's branch, focus on working within the existing code base that was scaf
 - There is no extra guidance for this assignment.
 
 
-## Stretch Goals
-I **strongly** encourage you to research how to write tests for a .NET Core MVC application. 
-- Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing). 
+## Tests
+- There are no Tests required for this assignment.
+
+I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
 
+
 ## Stretch Goals
-These goals will be required in an upcoming lab, but feel free to start a bit "early":
+- These goals will be required in an upcoming lab, but feel free to start a bit "early":
 1. Update/Edit your `RoomAmentities` page to not allow edits. 
 	- You should only have the option to create associations, and delete associations.
 	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
@@ -49,6 +52,7 @@ These goals will be required in an upcoming lab, but feel free to start a bit "e
 	 - Allow a user to edit a `HotelRoom` combination. 
 	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
 	 - View Models and TagHelpers will be required to send the data back and forth from the server
+
 
 ## Additional Resources
 - There are no additional resources provided for this assignment.

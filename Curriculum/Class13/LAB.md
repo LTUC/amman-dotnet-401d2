@@ -19,7 +19,7 @@ Now that you have a solid understanding of your database schema for your hotel m
 
 
 ## Application Specifications
-Your application should include the following:
+- Your application should include the following:
 1. Startup File
 	 - Explicit routing of MVC 
 	 - MVC dependency in ConfigureServices
@@ -74,13 +74,15 @@ Add some HTML and styling to your home page. Link the index action of each of th
 ##### README
 Your README should be in introduction to your web app. Provide in your README, your DbSchema and an overview of the relationships and how each entity is related to another. 
 
-## Unit Tests
-- There are no Unit Tests required for this assignment. 
+
+## Tests
+- There are no Tests required for this assignment.
+
+I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
 
 ## Stretch Goals
-I **strongly** encourage you to research how to write tests for a .NET Core MVC application. 
-- Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
+- There are no Stretch Goals for this assignment.
 
 
 ## Additional Resources
