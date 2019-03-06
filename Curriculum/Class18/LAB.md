@@ -9,11 +9,16 @@
 - Create a pull request from your branch back your `master` branch.
 - Submit a link to your PR in canvas
 - Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
 
-Finish up your `Async Inn` Hotel Management project:
+## The Problem Domain
+Finish up your `Async Inn` Hotel Management project.
+
+
+## Application Specifications
+- Your application should include the following:
 1. Deploy to Azure (reference link in your Readme)
 	- application *MUST* be deployed to Azure. No grade will be given to non-deployed apps.
 2. CSS/HTML should be present on **all** pages of the project.
@@ -21,35 +26,49 @@ Finish up your `Async Inn` Hotel Management project:
 	- Use "partials" as needed
 
 
-1. Update/Edit your `RoomAmentities` page to not allow edits. 
+3. Update/Edit your `RoomAmentities` page to not allow edits. 
 	- You should only have the option to create associations, and delete associations.
 	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
-2. Leverage the use TagHelpers and View Models to identify the correct association to remove.
-3. Modify the existing code to edit a `HotelRoom`.
+4. Leverage the use TagHelpers and View Models to identify the correct association to remove.
+5. Modify the existing code to edit a `HotelRoom`.
 	 - Allow a user to edit a `HotelRoom` combination. 
 	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
 	 - View Models and TagHelpers will be required to send the data back and forth from the server
 
-4. Add/Confirm functionality that if you "remove" a room or a hotel, all of it's associations are also removed
+6. Add/Confirm functionality that if you "remove" a room or a hotel, all of it's associations are also removed
 	- If you delete a Hotel, all of the `HotelRoom` associations with that hotel should be removed.
 	- If you delete a Room template, all of the `HotelRoom`s that have that room template need to be removed as well as the RoomAmenity associations
 
-5. Write Tests (listed below)
-6. The site should be functional, with no errors being thrown. Exceptions handled appropriately, and redirects occurring where they are needed. 
+7. Write Tests (listed below)
+8. The site should be functional, with no errors being thrown. Exceptions handled appropriately, and redirects occurring where they are needed. 
 
 
 Overall, the look and feel of your site should provide a good client experience.
 
 
-### Tests
+## Guidance
+- There is no extra guidance for this assignment.
 
-1. Getters/Setters on all Models
-2. Standard CRUD operations on all tables (test your services!)
+
+## Unit Tests
+- Test that your application for the following functionality:
+1. Test Getters/Setters on all Models
+2. Test Standard CRUD operations on all tables (test your services!)
+
+
+## Stretch Goals
+- There are no Stretch Goals for this assignment.
+
+
+## Additional Resources
+- There are no additional resources provided for this assignment.
+
 
 ## README
 
-**A Readme is a requirement. No Readme == No Grade.** <br /> 
-Here are the requirements for a valid readme: <br />
+**A README is a requirement. No README == No Grade.** <br /> 
+Here are the requirements for a valid README: <br />
+
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 <br />
@@ -64,29 +83,27 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme) {:target="_blank"} 
+- [sample-README](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
-- 35pts: Program meets all requirements described in Lab directions.
+- 7pts: Program meets all requirements described in Lab directions.
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	35      | Program runs as expected, no exceptions during execution // Site contains user interface with appropraite css/html  |
-	25       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors, CSS/HTML are not meeting minimum requirements|
-	20       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	15       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	10       | Missing Readme Document // Readme Document does not meet standards |
+	7       | Program runs as expected, no exceptions during execution |
+	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
+	2       | README Document does not meet minimum standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
-- 15pts: Code meets industry standards
+- 3pts: Code meets industry standards
 	- These points are only awardable if you score at minimum a 5/7 on above criteria
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	15       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	10       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
-	5       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
+	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented |
+	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
+	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
-
-
