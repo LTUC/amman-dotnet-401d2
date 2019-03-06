@@ -51,7 +51,7 @@ Overall, the look and feel of your site should provide a good client experience.
 
 
 ## Unit Tests
-- Test that your application for the following functionality:
+- Test your application for the following functionality:
 1. Test Getters/Setters on all Models
 2. Test Standard CRUD operations on all tables (test your services!)
 
