@@ -76,7 +76,7 @@ Your README should be in introduction to your web app. Provide in your README, y
 
 
 ## Tests
-- There are no Tests required for this assignment.
+- There are no Unit Tests required for this assignment.
 
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 

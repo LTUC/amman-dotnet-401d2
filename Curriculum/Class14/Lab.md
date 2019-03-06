@@ -35,8 +35,8 @@ For Today's branch, focus on working within the existing code base that was scaf
 - There is no extra guidance for this assignment.
 
 
-## Tests
-- There are no Tests required for this assignment.
+## Unit Tests
+- There are no Unit Tests required for this assignment.
 
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
@@ -77,7 +77,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [sample-README](https://github.com/noffle/art-of-readme)
+- [sample-README](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
