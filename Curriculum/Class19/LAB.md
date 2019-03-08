@@ -11,29 +11,12 @@
 - Create a pull request from your branch back your `master` branch.
 - Submit a link to your PR in canvas
 - Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
 
-Starting from an **empty MVC template**, Create an API that allows a user to Create individual ToDo tasks, and put them in a ToDoList. <br /><br/>
-
-1. Watch this video with Daniel Roth [Here](https://binged.it/2v2AXFe){:target="_blank"}  (~60 min)
-1. Read the tutorial located [Here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api){:target="_blank"} 
-
-Using both of the resources above, create an API in .NET Core that conducts the standard HTTP verbs (Get,Put,Post,Delete) for a "To-Do" list.
-
-Your "To-Do" list will consist of individual tasks that can be saved into the database and extracted as needed. You should also have the ability to 
-get all of the tasks by a simple get request. 
-<br />
-
-*Use Postman (in addition to unit tests) to test your endpoints.* 
-
-**Use a sql database instead of an in-memory database that is referenced in the tutorial**
-
-**Deploy your API to Azure, provide a published link in your readme.**
-
-### Application Components
-You application should contain the following *at minimum*:
+## Application Specifications
+- Your application should include the following:
 1. 2 Controllers with CRUD endpoints (You may use an empty API controller template for this if you wish)
 1. 2 Models (ToDo and ToDoList)
 1. 2 database tables (one database table for each model)
@@ -48,9 +31,25 @@ The following actions must also be true:
 1. when accessing the Get action on `\api\ToDoList\{id}`, it should output the individual ToDo list AND the individual tasks associated with it
 1. If you choose to delete a ToDoList, it should delete the list AND all of the associated ToDos associated
 
-### Tests
 
-Test the following functionality:
+## Guidance
+- Starting from an **empty MVC template**, Create an API that allows a user to Create individual ToDo tasks, and put them in a ToDoList. 
+
+- Using both of the resources below, create an API in .NET Core that conducts the standard HTTP verbs (Get,Put,Post,Delete) for a "To-Do" list.
+
+- Your "To-Do" list will consist of individual tasks that can be saved into the database and extracted as needed. You should also have the ability to 
+get all of the tasks by a simple get request. 
+<br />
+
+*Use Postman (in addition to unit tests) to test your endpoints.* 
+
+**Use a sql database instead of an in-memory database that is referenced in the tutorial**
+
+**Deploy your API to Azure, provide a published link in your README.**
+
+
+## Unit Tests
+- Test your application for the following functionality:
 1. Create a ToDO item
 2. Read a TODO Item
 3. Update a ToDo item
@@ -62,10 +61,22 @@ Test the following functionality:
 9. Add Items to a List
 10. Remove items from a list
 
+
+## Stretch Goals
+- There are no Stretch Goals for this assignment.
+
+
+## Additional Resources
+  1. Watch this video with Daniel Roth [Here](https://binged.it/2v2AXFe){:target="_blank"}  (~60 min)
+  1. Read the tutorial located [Here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api){:target="_blank"} 
+
+
+
 ## README
 
-**A Readme is a requirement. No Readme == No Grade.** <br /> 
-Here are the requirements for a valid readme: <br />
+**A README is a requirement. No README == No Grade.** <br /> 
+Here are the requirements for a valid README: <br />
+
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 <br />
@@ -80,7 +91,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme) {:target="_blank"} 
+- [sample-README](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
@@ -89,9 +100,9 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	2       | Missing Readme Document // Readme Document does not meet standards |
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
+	2       | README Document does not meet minimum standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
@@ -100,9 +111,8 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
+	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented |
 	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
-
 

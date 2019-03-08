@@ -14,7 +14,10 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
+
+## The Problem Domain
+Build out a zoo.  Your program will instantiate each of your concrete animals, and prove that they are inheriting traits/features from their various parent classes.
+
 - This is part 1 of a 2 part assignment. 
 - Using all 4 of the Object Oriented Principles (OOPs): 
 		- Build out the hierarchical class structure of the animals within a zoo within Visual Studio and a digital diagram.
@@ -32,25 +35,31 @@
 
 
 ## Program Specifications
-- Have at least 3 different abstract classes
-- Have at least 3 layers of inheritance
-- Have at least 5 concrete animals
-- Have at least 2 abstract methods (make sure you override them)
-- Have at least 2 abstract Properties (make sure you override them)
-- Have at least 2 virtual methods (make sure you override at least one of them)
-- Have at least 2 virtual properties (make sure you override at least one of them)
+Your solution should include the following:
+	- Have at least 3 different abstract classes
+	- Have at least 3 layers of inheritance
+	- Have at least 5 concrete animals
+	- Have at least 2 abstract methods (make sure you override them)
+	- Have at least 2 abstract Properties (make sure you override them)
+	- Have at least 2 virtual methods (make sure you override at least one of them)
+	- Have at least 2 virtual properties (make sure you override at least one of them)
 
-- Your (digital) drawing of your zoo diagram should be clearly labeled
+	- Your (digital) drawing of your zoo diagram should be clearly labeled
 <br />
 *NOTE*: You are not required to be scientifically correct with your animal names. You will not be fact checked.
 You do not need to label your animals anything more complicated than (Mammal, Reptile, Cat, Bird, etc....)
 
 
-## Example
-Please refer to the in-class diagram and code base as an example of the expectation. 
-
-## Test
+## Unit Tests
+Test that your program has the following functionality: 
 1. Test that each of your concrete animals exhibit the at least 2 appropriate behaviors given to them from a base class.
+
+
+## Stretch Goals
+
+
+## Additional Resources
+- Please refer to the in-class diagram and code base as an example of the expectation. 
 
 
 ## README

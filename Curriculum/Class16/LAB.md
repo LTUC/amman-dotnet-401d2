@@ -11,11 +11,26 @@
 - Create a pull request from your branch back your `master` branch.
 - Submit a link to your PR in canvas
 - Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
 
-## Directions
-Read all the directions and specs, in it's entirety, before starting the lab.
+## The Problem Domain
+Continue working on your hotel management application.  As a developer, you would like to follow modern design principles by implementing the repository and singleton design patterns, and by using dependency injection.
+
+
+## Application Specifications
+- Your application should include the following:
+1. 3 new interfaces
+2. All services registered in your `Startup.cs` class
+3. 3 new "services" that implement each of the interfaces
+4. You DbContext injected into each of the interfaces
+5. Your interfaces injected into your controllers
+6. Functionality of all `Create` and `Index` actions
+7. Functionality of the `Edit` and `Delete` actions in your `Hotels` `Rooms` and `Amenities` pages.
+
+## Guidance
+- Read all the directions and specs, in it's entirety, before starting the lab.
 Building off of your current project for the `AsyncInn`:
 1. Implement the repository design pattern and the singleton design pattern using dependency injection into your current code base
 2. Create three interfaces to contract minimum CRUD operations (with the future services) that are required for functionality and maintenance of Hotels, Rooms, and Amenities. 
@@ -26,23 +41,26 @@ Building off of your current project for the `AsyncInn`:
 7. Confirm that all of your `Index` and `Create` actions still work after your refactor
 8. Confirm that your `Edit` and `Delete` actions still function as expected in your `Rooms`, `Hotels`, and `Amenities` controllers as expected after your refactor. 
 
-## Specs
-Upon completion of this lab, you should have
-1. 3 new interfaces
-2. All services registered in your `Startup.cs` class
-3. 3 new "services" that implement each of the interfaces
-4. You DbContext injected into each of the interfaces
-5. Your interfaces injected into your controllers
-6. Functionality of all `Create` and `Index` actions
-7. Functionality of the `Edit` and `Delete` actions in your `Hotels` `Rooms` and `Amenities` pages.
 
 ## Tests
-No Tests are required for this lab. I **strongly** encourage you to research how to write tests for a .NET Core MVC application. If able, attempt to write some tests, as they will eventually be required.
+- There are no Tests required for this assignment.
+
+I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
+
+
+## Stretch Goals
+- There are no Stretch Goals for this assignment.
+
+
+## Additional Resources
+- There are no additional resources provided for this assignment.
+
 
 ## README
 
-**A Readme is a requirement. No Readme == No Grade.** <br />
-Here are the requirements for a valid readme: <br />
+**A README is a requirement. No README == No Grade.** <br /> 
+Here are the requirements for a valid README: <br />
+
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 <br />
@@ -57,8 +75,7 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
-
+- [sample-README](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 - 7pts: Program meets all requirements described in Lab directions.
@@ -67,9 +84,9 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	 ------------ | :-----------: | 
 	7       | Program runs as expected, no exceptions during execution |
 	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	2       | Missing Readme Document // Readme Document does not meet standards |
+	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
+	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
+	2       | README Document does not meet minimum standards |
 	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
 	0       | No Submission |
 
@@ -78,7 +95,9 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
+	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented |
 	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
 	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
 	0       | No Submission or incomplete submission |
+
+

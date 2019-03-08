@@ -13,7 +13,9 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
+## The Problem Domain
+Build out a zoo.  Your program will instantiate each of your concrete animals, and prove that they are inheriting traits/features from their various parent classes.
+
 - This is part 2 of a 2 part assignment. 
 1. Create a minimum of 2 interfaces.
 	- Each interface created should be implemented by more than one class.
@@ -25,13 +27,37 @@
 behavior that it has inherited without any direct code manipulation
 
 
-## Tests
-Test the site for the following functionality
-1. Prove that the classes that implement the interface actually implement it
-2. Prove inheritance
-3. Prove Polymorphism
+## Program Specifications
+Your solution should include the following:
+	- Have at least 3 different abstract classes
+	- Have at least 3 layers of inheritance
+	- Have at least 5 concrete animals
+	- Have at least 2 abstract methods (make sure you override them)
+	- Have at least 2 abstract Properties (make sure you override them)
+	- Have at least 2 virtual methods (make sure you override at least one of them)
+	- Have at least 2 virtual properties (make sure you override at least one of them)
+
+	- Your (digital) drawing of your zoo diagram should be clearly labeled
+<br />
+*NOTE*: You are not required to be scientifically correct with your animal names. You will not be fact checked.
+You do not need to label your animals anything more complicated than (Mammal, Reptile, Cat, Bird, etc....)
+
+
+## Unit Tests
+Test that your program has the following functionality: 
+1. Test that the classes that implement the interface actually implement it
+2. Test inheritance
+3. Test Polymorphism
 	- Prove methods have been overridden
 	- Prove that one of your concrete animals `is an` Animal
+
+
+##Stretch Goals
+
+
+## Additional Resources
+- Please refer to the in-class diagram and code base as an example of the expectation.
+
 
 ## README
 

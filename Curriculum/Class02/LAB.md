@@ -14,11 +14,12 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
 
-### The Problem Domain
+## The Problem Domain
+- Create a bank "ATM" program within a console application with VS2017
 
-- Create a bank "ATM" machine within a console application with VS2017
+
+## Program Specificaitons
 - Your solution should include the following:
     - Main method
 	- Testable external methods
@@ -30,7 +31,7 @@
 	- Exception Handling. Implement `try`, `catch`, `finally` and a `throw` within your program.
 - A few things to keep in mind:
 	- Make sure the user can't go below a zero balance
-	- You cannot unit test console `WriteLine` or `Readline`s. 
+	- You **cannot** unit test console `WriteLine` or `Readline`s. 
 	- Make sure your methods are just returning values and not reading input from the console. 
 
 - When running your application, it should activate the user interface without any direct code manipulation
@@ -39,19 +40,19 @@
 	- if we have not officially learned the concept you are trying to implement, then don't use it. 
 	- Ask the instructor or TA if you have any questions about the scope. 
 
-### Unit Tests
-1. Provide unit tests for your ATM.
-2. For every method/action (that does not require user input),
-there should be a passing valid input, and a passing invalid input.
-3. Have at least 2 tests for every non-void method.
-3. **A failing test, is not a valid test** - even if the failure is expected. 
 
-### Stretch
+## Unit Tests
+Test that your program has the following functionality:
+1. Test every method/action (that does not require user input); there should be a passing valid input, and a passing invalid input.
+- Have at least 2 tests for every non-void method.
+- **A failing test, is not a valid test** - even if the failure is expected. 
 
+
+## Stretch Goals
 - Record each transaction the user records and when they exit, provide a receipt for every transaction they conducted. 
 
-## README
 
+## README
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 

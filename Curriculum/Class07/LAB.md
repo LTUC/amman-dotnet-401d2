@@ -14,7 +14,21 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-## Directions
+
+## The Problem Domain
+Build a program that contains a deck of cards, with expected methods for manipulating the deck.
+
+
+##Program Specifications
+- Your solution should include the following:
+1. The instantiation of the generic collection. 
+2. The instantiation of at *least 10 cards* with values
+3. Adding and removing cards from the Deck<T>
+4. Use a `foreach` loop on your created Deck, and output each of the cards to the console. 
+5. Call to the `Deal()` method following the directions from above. 
+
+
+##Guidance
 - Create a custom generic collection named `Deck<T>`.
 - As we learned, under the hood, generic collections are arrays. Utilizing this concept, create a new generic collection (`Deck<T>`) that dynamically resizes an array for all the specified methods described below. (*Do not use a collection within your `Deck` class).
 - Your Generic collection should hold Cards. (You will need to create a custom Card class)
@@ -54,22 +68,19 @@ Dealer Deck: 6 Hearts
 
 ```
 
-Your `Program.cs` Main method should demonstrate:
-1. The instantiation of the generic collection. 
-2. The instantiation of at *least 10 cards* with values
-3. Adding and removing cards from the Deck<T>
-4. Use a `foreach` loop on your created Deck, and output each of the cards to the console. 
-5. Call to the `Deal()` method following the directions from above. 
 
-## Tests
-Your tests should cover the following functionality:
+
+## Unit Tests
+Test that your program has the following functionality:
 1. Add a card to your deck
-1. Getter/Setters of your properties from your `Card` class
-1. Remove a card from your deck that exists
-1. Cannot remove a card from your deck that does not exist
+2. Getter/Setters of your properties from your `Card` class
+3. Remove a card from your deck that exists
+4. Cannot remove a card from your deck that does not exist
+
+##Stretch Goals
+
 
 ## README
-
 **A Readme is a requirement. No Readme == No Grade.** <br /> 
 Here are the requirements for a valid readme: <br />
 
