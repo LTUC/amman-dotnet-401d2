@@ -48,9 +48,9 @@ This method is given to you. Do not change the method signature.
 2. The logic within the method should 
 	1. prompt the user to "Enter a number greater than zero"
 	2. Utilize the `ConvertToInt32()` method to convert the user's input to an integer
-	3. Call the method `GetNumbers`(see below for requirements) and set the returning value to a new integer array
-	4. After the integer array is populated, call the `AddNumbers` (see below for requirements), set the returning value to a new integer named `sum`. 
-	5. After receiving the sum of all the numbers in the array, call the `GetAverage` (see requirements below) method and set the returning value to a new integer named `average`.
+	3. Call the method `GetNumbers`(see below for requirements), send it number you just captured as the argument, and set the returning value to a new integer array
+	4. After the integer array is populated, call the `AddNumbers` (see below for requirements), and send it the array you just populated as the argument. Set the returning value to a new integer named `sum`. 
+	5. After receiving the sum of all the numbers in the array, call the `GetAverage` (see requirements below) method, and send it the sum that you just captured as the first argument and the total lenght of the array as the second argument. Set the returning value to a new integer named `average`.
 	6. Finally, Output to the console the details of all these values. Have your output be similar to the following example (Pay attention to line breaks!):
 	```
 	The array of numbers are: 4, 8, 15, 16, 23, 42
