@@ -19,8 +19,7 @@ Within a new .NET Core console application, follow the instructions below to cre
 ## Program Specifications
 Within the `Program.cs` file, add the following methods described below.
 
-For each type of generic exception that you have in your code, `throw` it back to the main method.
-For all non-generic (specific exceptions), output the exception message to the console.
+Allow the main method to output all generic exceptions. Only define specific exceptions once and pay attention to the callstack on how requests are being made. 
 
 ### Main Method
 This method is given to you. Do not change the method signature. 
@@ -105,7 +104,9 @@ This method is given to you. Do not change the method signature.
 	3. multiply `sum` by the random number index that the user selected from the array (example: array[randomNumber]). Set this value to the product variable. 
 	4. return the product variable. 
 3. Expected Exceptions:
-	1. None. No newly expected exceptions
+	1. IndexOutOfRange
+		- output the message to the console.
+		- `throw` it back down the callstack so that it displays within `Main`
 
 
 ### GetQuotient
@@ -119,6 +120,9 @@ This method is given to you. Do not change the method signature.
 	3. return the quotient
 3. Expected Exceptions:
 	1. Divide by Zero Exception
+		- output the message to the console
+		- do not throw it back to `Main`
+		- return 0 if the catch gets called
 
 ## Stretch Goals
 1. Refactor your code and explore different ways to convert user input to integers. (Keep at least 1 Convert.ToInt32, but try and change the rest)
