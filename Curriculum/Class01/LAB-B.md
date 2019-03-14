@@ -14,9 +14,19 @@
 - Include a `README.md` (contents described below)
 
 ## The Problem Domain
-Within a new .NET Core console application, follow the instructions below to create  the program given the specifications. 
+Within a new .NET Core console application, follow the instructions below to create a math game that takes user input, manipulates data, and utilizes error handling, by following the given the specifications. 
 
 ## Program Specifications
+- Your solution should include the following:
+  1. Main Method
+  2. StartSequence Method
+  3. Populate Method
+  4. GetSum Method
+  5. GetProduct Method
+  6. GetQuotient
+
+## Guidance
+
 Within the `Program.cs` file, add the following methods described below.
 
 Allow the main method to output all generic exceptions. Only define specific exceptions once and pay attention to the callstack on how requests are being made. 
@@ -70,7 +80,7 @@ This method is given to you. Do not change the method signature.
 1. The "Populate" method should be
 	- static
 	- return type: integer array
-	- 1 parameter of an integer number
+	- 1 parameter of an integer array
 2. The logic within the method should
 	2. iterate through the array and prompt the user to enter a specific number. Example: "Please enter a number 1/6" (indicate to the user what number they are inputting)
 	3. Utilize the `ConvertToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. Store the response into a string first).
