@@ -25,6 +25,15 @@
 	- At least one try/catch/finally implementation
 - When running your application, it should activate the game without any direct code manipulation
 
+1. Create a method that asks the user to input a number. Instantiate a new array of the size the user just inputted. (put this logic in a try catch that accepts a "FormatException" and "OverflowException" )
+1. After the array is instantiated, call a new method that populates the array by asking the user to fill it with numbers. 
+3. add up all the values in the array and return the sum (No exception, but make it custom throw)
+4. Pick a specific number from the array and multiply it by the sum previously collected (Index out of Range Exception)
+5. As the user to put in a number to divide by (Format Exception && Divide by Zero exception)
+	- return the quotient
+
+Main method should have a try catch (Generic Exception) finally
+
 	
 Stay within scope of this project. Please only use concepts and resources that we have covered so far in previous labs/lectures/assigned prework. 
 If you are unsure if it is within scope, please ask a TA or instructor.

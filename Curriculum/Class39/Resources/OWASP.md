@@ -69,7 +69,7 @@ exec sp_executesql N'SELECT * FROM NonSensitiveDataTable WHERE Name = @name'
     - In .NET Core, the salt is stored with the password in teh same column. it is 
     ok to not have them separate since each salt is unique. 
 3. Session Identifiers
-   - Cookieless sessions are not implemented so you wont see urls with session data.
+   - Cookie-less sessions are not implemented so you wont see urls with session data.
    - You should never send off a url that could potentially impersonate a user.  
 4. Sending Data over unencrypted connections
    - Make sure you are on an HTTPS connection using SSL/TLS
@@ -131,33 +131,33 @@ THis may mean that a user can access someone else's data or
 elevate their personal permissiosn within the site. 
 
 This really boils down to situations like this:
-1. Misconfgured or too borad CORS configurations
-2. WEb servier directly/browsing
+1. Misconfgured or too broad CORS configurations
+2. WEb server directly/browsing
 3. Backps/source control files present in web roots
 4. rate limiting of APIs
 5. JWT Tokens not being invalidated on logout. 
 
-Essnetially, if the question is "shoudl a web user be able to access this data this way..." adn the 
+Essentially, if the question is "should a web user be able to access this data this way..." and the 
 answer is no, then this is the category for OWASP.
 
 1. Insecure Direct Object References
    - Direct Object references are ids or reference variables that are able to be changed by an end user or see data
    they are not allowed to see.
-   - With the [Authorize] tag in .NET Core, this keeps out anonymous users, but not logged in users to specfic pages
-   - You should be abel to check and validate that a user is the correctly logged in user, either through a claim, and through the 
+   - With the [Authorize] tag in .NET Core, this keeps out anonymous users, but not logged in users to specific pages
+   - You should be able to check and validate that a user is the correctly logged in user, either through a claim, and through the 
    current contextual logged in user. Compare these two values together to make sure the right person is seeing hte resource. if they do't match...kick them out!
-   - Essentially, anthing that lives in the browser(Javascript, hiddne fields, cookies) can be modified. Server side validation is the best option. 
+   - Essentially, anything that lives in the browser(Javascript, hidden fields, cookies) can be modified. Server side validation is the best option. 
 
 2. CORS misconfigurations
    - CORS stands for Cross-Origin Resource Sharing
    - The issue is that its too easy to open up your website to all requests, 
-   - Generally, never jsut allow origins unless your api is exposed to the complete public.
-   - Within .NET COre you have to specify with the `USeCors()` configuraiton. 
-   - this will alow you to control who can make AJAX requests
+   - Generally, never just allow origins unless your api is exposed to the complete public.
+   - Within .NET Core you have to specify with the `USeCors()` configuration. 
+   - this will allow you to control who can make AJAX requests
 3. Directory Traversal or Dangerous Files
-   - Dont' allow users to do directoyr traversal in your web applicaiton. 
-   - Don't let a user got to "mysite.com/images" and view a directory of imaeges. 
-   - Dont allow users to have access to sensitve files such as backups. 
+   - Don't allow users to do directory traversal in your web application. 
+   - Don't let a user got to "mysite.com/images" and view a directory of images. 
+   - Dont allow users to have access to sensitive files such as backups. 
   
 ### 5. Cross Site Request Forgery
 Cross site request forgery (XSRF or CSRF) is an attack against a web hosted app where

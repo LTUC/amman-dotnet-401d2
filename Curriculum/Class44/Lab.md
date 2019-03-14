@@ -4,7 +4,7 @@
 
 **This is a Group assignment**
 <!-- short description of project -->
-Today you and your partners will find and developo a meaningful way to contribute back to the Python development community at large by finding an open source project which you can participate in (you may not actually make it all the way to a PR today).
+Today you and your partners will find and developo a meaningful way to contribute back to the .NET development community at large by finding an open source project which you can participate in (you may not actually make it all the way to a PR today).
 
 ## Specifications
 <!-- Write a spefication for the features required in this lab assignment -->

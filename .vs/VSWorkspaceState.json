@@ -2,12 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class17",
-    "\\Curriculum\\Class18",
-    "\\Curriculum\\Projects",
-    "\\Curriculum\\Projects\\AsyncInn",
-    "\\Projects\\Midterm"
+    "\\Curriculum\\Class01",
+    "\\Curriculum\\Class11-a",
+    "\\Curriculum\\Class11-b",
+    "\\Curriculum\\Class38",
+    "\\Curriculum\\Class40",
+    "\\Curriculum\\ECom_Project",
+    "\\Projects",
+    "\\Projects\\Final"
   ],
-  "SelectedNode": "\\Curriculum\\Projects\\AsyncInn\\AsyncInn.sln",
+  "SelectedNode": "\\Curriculum\\Class01\\LAB.md",
   "PreviewInSolutionExplorer": false
 }

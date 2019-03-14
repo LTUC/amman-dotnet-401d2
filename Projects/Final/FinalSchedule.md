@@ -27,7 +27,7 @@
 ### Thursday
 - Standup: 10:00am
 - Demo: 4:30pm
-
+- Backend Code Freeze 
 **Milestones**
 - Code
 - HTML/CSS

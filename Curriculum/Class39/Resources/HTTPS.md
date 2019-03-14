@@ -98,11 +98,11 @@ owner of the 2 keys can open the message.
 
 1. Client says Hello
 	- Client sends a list of SSL/TLS versions
-	and encryption algorithms that the clietn can use
+	and encryption algorithms that the client can use
 
 2. Server Says Hello
 	- The server looks at the accepted list of ssl versions and picks the "best" one.
-	- replies with certificate (incldues public key) 
+	- replies with certificate (includes public key) 
 
 3. A Secure Connection is established
 	- Client confirms the Server is who they say they are

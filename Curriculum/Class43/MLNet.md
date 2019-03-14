@@ -27,7 +27,7 @@ You will know that your data is ready to be used in Data Science if it meets the
 4. Enough to work with
 
 ## What is a Decision Tree?
-USed in data science to represent decisions and decision making. 
+Used in data science to represent decisions and decision making. 
 Can be used in Data mining, but is laso used in machine learning. 
 
 ## What is a Linear Regression?
