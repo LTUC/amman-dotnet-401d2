@@ -17,13 +17,12 @@
 Within a new .NET Core console application, follow the instructions below to create  the program given the specifications. 
 
 ## Program Specifications
-
 Within the `Program.cs` file, add the following methods described below.
 
 For each type of generic exception that you have in your code, `throw` it back to the main method.
 For all non-generic (specific exceptions), output the exception message to the console.
 
-#### Main Method
+### Main Method
 This method is given to you. Do not change the method signature. 
 
 1. The "Main" method should be:
@@ -31,7 +30,7 @@ This method is given to you. Do not change the method signature.
 	- ***return type***: void
 	- ***parameters***: `string[] args`
 2. The logic within this method should:
-	1. Call the `Start()` method from `Main`.
+	1. Call the `StartSequence()` method from `Main`.
 
 3. Expected Exceptions:
 	1. Generic Exception 
@@ -40,47 +39,50 @@ This method is given to you. Do not change the method signature.
 
 4. Include a `finally` that tells us that the program is completed
 
-#### Start Method
-1. The "Start" method should be
+### StartSequence Method
+1. The "StartSequence" method should be
 	- static
 	- void return type
 	- no parameters
 2. The logic within the method should 
 	1. prompt the user to "Enter a number greater than zero"
 	2. Utilize the `ConvertToInt32()` method to convert the user's input to an integer
-	3. Call the method `GetNumbers`(see below for requirements), send it number you just captured as the argument, and set the returning value to a new integer array
-	4. After the integer array is populated, call the `AddNumbers` (see below for requirements), and send it the array you just populated as the argument. Set the returning value to a new integer named `sum`. 
-	5. After receiving the sum of all the numbers in the array, call the `GetAverage` (see requirements below) method, and send it the sum that you just captured as the first argument and the total lenght of the array as the second argument. Set the returning value to a new integer named `average`.
-	6. Finally, Output to the console the details of all these values. Have your output be similar to the following example (Pay attention to line breaks!):
-	```
-	The array of numbers are: 4, 8, 15, 16, 23, 42
-	The sum of all these numbers are: 108
-	The average of these numbers is: 18
-	```
-3. Expected Exceptions:
-	1. FormatException
-	2. Generic Exception
+	3. Instantiate a new integer array that is the size the user just inputted.
+	4. Call the `Populate` method
+		- arguments: integer array.
+	5. Capture the sum by calling the `GetSum` method. 
+		- arguments: integer array 
+	6. Capture the product by calling the `GetProduct` method. 
+		- integer array and integer sum
+	7. Capture the quotient by calling the `GetQuotient` method. 
+		- arguments: integer product 
+	8. Output the following to the cosole:
+3. Exceptions expected: 
+	- Format Exception
+		- Output the message to the console
+	- Overflow Exception
+		- output the message to the console
 
-#### GetNumbers Method
-1. The "GetNumbers" method should be
+	6. Finally, Output to the console the details of all these values. Have your output be similar to the following example (Pay attention to line breaks!):
+
+	![LabExample](LabExample.png)
+
+### Populate Method
+1. The "Populate" method should be
 	- static
 	- return type: integer array
 	- 1 parameter of an integer number
 2. The logic within the method should
-	1. instantiate a new integer array that is the same size as the parameter coming into the method
-	2. iterate through the newly instantiated array that prompts the user to enter a specific number. Example: "Please enter a number 1/6" (indicate to the user what number they are inputting)
-	3. Utilize the `ConvertToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. store the response into a string first).
+	2. iterate through the array and prompt the user to enter a specific number. Example: "Please enter a number 1/6" (indicate to the user what number they are inputting)
+	3. Utilize the `ConvertToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. Store the response into a string first).
 	4. Add the number just inputted into the array. 
 	5. Repeat this process until all numbers have been requested and the array is filled. 
-	6. Return the newly created array
+	6. Return the populated array
 3. Expected Exceptions:
-	1. OverflowException
-	2. IndexOutOfRangeException
-	3. FormatException
-	3. Generic Exception
+	1. No expected exceptions. Not even a generic exception. `StartSequence` will already capture your `FormatException` error.
 
-#### AddNumbers Method
-1. The method signature of GetNumbers should contain:
+### GetSum Method
+1. The method signature of GetSum should contain:
 	- ***static or instance***: static
 	- ***return type***: integer
 	- ***parameters***: integer array
@@ -90,29 +92,40 @@ This method is given to you. Do not change the method signature.
 	3. Add the capability to `throw` a custom exception if the sum is less than 20, with the message "Value of {sum} is too low". (replace {sum} with the actual sum of the variable)
 	4. return the sum
 3. Expected Exceptions:
-	1. none
+	1. No Try/Catch required since no expected exceptions will be caught. We will have our custom exception be caught in lower levels of the callstack.
 
-#### GetAverage Method
-1. The method signature of GetAverage should contain:
+### GetProduct Method
+1. The method signature of GetProduct should contain:
 	- ***static or instance***: static
 	- ***return type***: integer
-	- ***parameters***: integer totalSum and an integer divisor (what you will be dividing by)
+	- ***parameters***: integer array, integer sum
 2. The logic within the method should:
-	1. create a new integer name `quotient` that will hold the answer to the division problem
-	2. set the value of `quotient` to the totalSum divided by the divisor.
-	3. return the quotient.
-
+	1. Ask the user the select a random number between 1 and the length of the integer array. 
+	2. declare a new variable named `product`
+	3. multiply `sum` by the random number index that the user selected from the array (example: array[randomNumber]). Set this value to the product variable. 
+	4. return the product variable. 
 3. Expected Exceptions:
-	1. DivideByZero Exception
-	2. Generic Exception
+	1. None. No newly expected exceptions
 
+
+### GetQuotient
+1. The method signature of GetSum should contain:
+	- ***static or instance***: static
+	- ***return type***: integer
+	- ***parameters***: integer product
+2. The logic within the method should
+	1. Prompt the user to enter a number to divide the product by. Display the current product to the user during this prompt. 
+	2. Retrieve the input and divide the inputted number by the product. 
+	3. return the quotient
+3. Expected Exceptions:
+	1. Divide by Zero Exception
 
 ## Stretch Goals
+1. Refactor your code and explore different ways to convert user input to integers. (Keep at least 1 Convert.ToInt32, but try and change the rest)
+2. Add an additional custom exception into your code base. 
 
 ## README
-
 Provide setup documentation 
-
 - **Comment your code.**
 - Provide a readme that includes clear directions on setting up this program.
 - Questions to Consider: 
