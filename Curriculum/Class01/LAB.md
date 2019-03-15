@@ -152,4 +152,4 @@ Provide setup documentation
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric)
+The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
