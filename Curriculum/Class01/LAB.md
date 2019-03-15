@@ -31,6 +31,8 @@ Within the `Program.cs` file, add the following methods described below.
 
 Allow the main method to output all generic exceptions. Only define specific exceptions once and pay attention to the callstack on how requests are being made. 
 
+Do not use any "global" variables in this application
+
 ### Main Method
 This method is given to you. Do not change the method signature. 
 
@@ -65,16 +67,16 @@ This method is given to you. Do not change the method signature.
 		- integer array and integer sum
 	7. Capture the quotient by calling the `GetQuotient` method. 
 		- arguments: integer product 
-	8. Output the following to the console:
+	8. 	To complete the method, output to the console the details of all these values. Have your output be similar to the following example (Pay attention to line breaks!):
+	
+![LabExample](LabExample.png)
+
 3. Exceptions expected: 
 	- Format Exception
 		- Output the message to the console
 	- Overflow Exception
 		- output the message to the console
 
-	6. Finally, Output to the console the details of all these values. Have your output be similar to the following example (Pay attention to line breaks!):
-
-	![LabExample](LabExample.png)
 
 ### Populate Method
 1. The "Populate" method should be
