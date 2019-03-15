@@ -57,7 +57,7 @@ This method is given to you. Do not change the method signature.
 	- no parameters
 2. The logic within the method should 
 	1. prompt the user to "Enter a number greater than zero"
-	2. Utilize the `ConvertToInt32()` method to convert the user's input to an integer
+	2. Utilize the `Convert.ToInt32()` method to convert the user's input to an integer
 	3. Instantiate a new integer array that is the size the user just inputted.
 	4. Call the `Populate` method
 		- arguments: integer array.
@@ -85,7 +85,7 @@ This method is given to you. Do not change the method signature.
 	- 1 parameter of an integer array
 2. The logic within the method should
 	2. iterate through the array and prompt the user to enter a specific number. Example: "Please enter a number 1/6" (indicate to the user what number they are inputting)
-	3. Utilize the `ConvertToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. Store the response into a string first).
+	3. Utilize the `Convert.ToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. Store the response into a string first).
 	4. Add the number just inputted into the array. 
 	5. Repeat this process until all numbers have been requested and the array is filled. 
 	6. Return the populated array
