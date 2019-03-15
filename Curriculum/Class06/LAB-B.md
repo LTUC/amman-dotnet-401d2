@@ -1,9 +1,8 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 05: Open Source Vehicle Dealership 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 6: Interfaces
 =====================================
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Open-Source-Dealership`
+- Building off of your repo from Lab 5:
 - Create a branch named `NAME-LAB##`
 - Write your code
 - Commit often
@@ -14,25 +13,17 @@
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
 
-
 ## The Problem Domain
-***This is part 1 of a 2 part assignment.***
+***This is part 2 of a 2 part assignment***
 
-You have been tasked to stock the inventory of Open Source Vehicle Dealership. The owner of this company is requesting that you show to them possible vehicles that they can stock the showroom with. They have specifically asked that you provide for them a map of all the different types that they can have as well as the commonalities between them.
+Building off of Lab 5....
+1. Add these interfaces onto your map hierarchy. Label each interfaces as `<interface>`
+1. Create a minimum of 2 interfaces.
+	- Each interface created should be implemented by more than one class.
+	- Have at least one class implement more than one interface
 
-Think about a vehicle dealership. They sell vehicles of all sorts; cars, trucks, boats, heck..they could even sell airplanes! Think about what each of these vehicles have in common. Build out the hierarchy of a vehicle dealership. Your program will instantiate each of your concrete classes, and prove that they are inheriting traits/features from their various parent classes.
-
-- Using all 4 of the Object Oriented Principles (OOPs): 
-	- Build out the hierarchical class structure of the vehicles within a dealership within Visual Studio and a digital diagram.
-	- There should be at least 3 layers of inheritance with at least 5 different types of vehicles.                                                                          
-	- Prove that the OOP principles are being used by returning strings as necessary to prove that methods were property implemented or inherited.
-	- Include the following labels:
-		1. Label the parent and derived classes
-		2. Label the abstract classes and concrete classes
-		3. Label the access modifiers for each of the classes
-		4. Label where you are using Polymorphism in your program. Where are the virtual and abstract methods defined, and where are they being overridden?
-- Your program class should instantiate each of the concrete vehicles to prove the functionality of it's base classes. 
-
+- When running your application, it should output each of the concrete vehicles and one 
+behavior that it has inherited without any direct code manipulation
 
 ## Program Specifications
 Your solution should include the following:
@@ -43,34 +34,33 @@ Your solution should include the following:
 	- Have at least 2 abstract Properties (make sure you override them)
 	- Have at least 2 virtual methods (make sure you override at least one of them)
 	- Have at least 2 virtual properties (make sure you override at least one of them)
+	- Have at least 2 interfaces properly implemented onto classes (as described above)
 	- Your (digital) drawing of your vehicle diagram should be clearly labeled
 
-
 ## Unit Tests
-Test that your program has the following functionality: 
-1. Getters/Setters on all properties
-2. All concrete and virtual methods that have non-void return types.
-3. 3 of your concrete classes exhibit at least at least 2 expected behaviors from a parent/base class.
+Adding additional tests with the following functionality: 
+1. Test that the classes that implement the interface actually implement it
+2. Test inheritance
+3. Test polymorphism
+	- Prove methods have been overridden
+	- Prove that one of your concrete vehicles `is an` Vehicle
 
-## Stretch Goals
-No stretch goals present for this project
+##Stretch Goals
+no stretch goal for this lab
 
 ## Additional Resources
-- Please refer to the in-class diagram and code base as an example of the expectation. 
+- Please refer to the in-class diagram and code base as an example of the expectation.
 
 
 ## README
+
 **A Readme is a requirement. No Readme == No Grade.** <br />
 Here are the requirements for a valid readme: <br />
 
-Your readme is ***extremely important*** in this lab because it will be a guide for us to know 
-exactly what you did where and how. Define for me, in your readme, the following:
-1. An introduction to the project
-1. Your digital drawing of your zoo
-1. Create your own technical documentation. Breakdown and define each of the OOP principles in your own words.
-1. Provide under each OOP definition a couple (you do not have to define all) of examples of how you 
-are applying this into your project
-
+Add the following to your current readme from Lab 5/Part 1:
+1. Define what an interface is in your own words
+1. Describe what your interfaces are, where are they being implemented, and why. Provide Examples.
+1. Updated diagram with your interfaces mapped out. 
 
 
 ## Rubric
@@ -102,3 +92,4 @@ are applying this into your project
 	1       | Git workflow properly followed. Frequent commits. Repo organized as directed. Pull Request exists and properly formatted. |
 	0.5       | Git workflow mostly followed. infrequent commits. |
 	0       | No Submission or git workflow not followed |
+
