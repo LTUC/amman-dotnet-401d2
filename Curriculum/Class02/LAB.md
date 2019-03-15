@@ -96,7 +96,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 - 1pt: Git workflow followed
 
-		Points  | Reasoning | 
+	Points  | Reasoning | 
 	 ------------ | :-----------: | 
 	1       | Git workflow properly followed. Frequent commits. Repo organized as directed. Pull Request exists and properly formatted. |
 	1.5       | Git workflow mostly followed. infrequent commits. |
