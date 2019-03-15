@@ -99,5 +99,5 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 
 	1       | Git workflow properly followed. Frequent commits. Repo organized as directed. Pull Request exists and properly formatted. |
-	1.5       | Git workflow mostly followed. infrequent commits. |
+	0.5       | Git workflow mostly followed. infrequent commits. |
 	0       | No Submission or git workflow not followed |
