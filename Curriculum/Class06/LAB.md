@@ -71,25 +71,5 @@ Add the following to your current readme from Lab 5/Part 1:
 
 
 ## Rubric
-- 14pts: Program meets all requirements described in Lab directions.
 
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	14       | Program runs as expected, no exceptions during execution |
-	10       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	8       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	6       | Program missing most of the functionality requirements described above // Program runs/compiles |
-	4       | Missing Readme document // Readme document does not meet standards // Missing actual time CANVAS note |
-	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
-	0       | No Submission |
-
-- 6pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 10/14 on above criteria
-
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	6       | Code meets Industry Standards // method and variable names are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented // Frequent Commits |
-	4       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments // minimal or no commits |
-	2       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
-	0       | No Submission or incomplete submission |
-
+The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 

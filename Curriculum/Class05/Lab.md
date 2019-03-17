@@ -74,3 +74,7 @@ exactly what you did where and how. Define for me, in your readme, the following
 1. Provide under each OOP definition a couple (you do not have to define all) of examples of how you 
 are applying this into your project
 
+
+## Rubric
+
+The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
