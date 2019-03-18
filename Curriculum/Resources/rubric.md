@@ -9,7 +9,7 @@
 	6       | Program runs as expected, no exceptions during execution, all requirements met |
 	5       | Program meets all of the  functionality requirements described above (including tests). Program contains logic/process errors|
 	4       | Program meets most of the functionality requirements described above (including tests). Program throws unhandled exceptions during execution |
-	3       | Program missing most of the functionality requirements described above |
+	3       | Program missing most of the functionality requirements described above or missing valid/passing tests |
 	2       | Missing Readme document // Readme document does not meet standards // Missing actual time CANVAS note |
 	0       | No Submission or program does not compile/run. Build Errors. Missing Required Tests. Failing Tests |
 
