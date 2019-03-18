@@ -12,7 +12,9 @@ namespace ExceptionExample
             FinallyBlockExample();
         }
 
-
+        /// <summary>
+        /// Method to demo how to catch a single exception
+        /// </summary>
         public static void CatchSingleException()
         {
             // This is the basic layout of a Try/Catch statement.
@@ -41,8 +43,8 @@ namespace ExceptionExample
 
         public static void CatchDoubleException()
         {
-            // Point of this exerise is to show that you will get an error 
-            // for both dividing by zero, and puttng 
+            // Point of this exercise is to show that you will get an error 
+            // for both dividing by zero, and putting 
             // an item in an index within an array that does not exist. 
 
             // We can get more specific on the types of errors we want to catch. 
@@ -90,13 +92,13 @@ namespace ExceptionExample
             {
                 // What you do about it
 
-                // Issue an error mesabe
+                // Issue an error message
                 // exit
 
             }
             finally
             {
-                // Statemes here execute whether an exception occured or not. 
+                // statements here execute whether an exception occurred or not. 
                 // if the file is open...close it. 
             }
         }
