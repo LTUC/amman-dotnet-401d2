@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01",
-    "\\Curriculum\\Class11-a",
-    "\\Curriculum\\Class11-b",
-    "\\Curriculum\\Class38",
-    "\\Curriculum\\Class40",
-    "\\Curriculum\\ECom_Project",
-    "\\Projects",
-    "\\Projects\\Final"
+    "\\Curriculum\\Class01\\DemoCode",
+    "\\Curriculum\\Class01\\DemoCode\\ExceptionExample",
+    "\\Curriculum\\Class01\\DemoCode\\ExceptionExample\\ExceptionExample",
+    "\\Curriculum\\Class01\\Resources",
+    "\\Curriculum\\Class02",
+    "\\Curriculum\\Class02\\Resources",
+    "\\Curriculum\\Class02\\Solution",
+    "\\Curriculum\\Class02\\Solution\\Lab02-ATM"
   ],
-  "SelectedNode": "\\Curriculum\\Class01\\LAB.md",
+  "SelectedNode": "\\Curriculum\\Class02\\Solution\\Lab02-ATM\\Lab02-ATM.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -9,10 +9,10 @@ namespace SystemIODemo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            string path = "myFile.txt";
             CreateFile();
             //FileAlreadyExists();
-            //ReadAFile();
+            ReadFile(path);
             //UpdateAFile();
             //DeleteAFile();
             //PracticeUsingSplit();
@@ -76,9 +76,9 @@ namespace SystemIODemo
             //}
         }
 
-		static void ReadFile()
+		static void ReadFile(string path)
 		{
-			string path = "myFile.txt";
+			//path = "myFile.txt";
 
 			try
 			{
@@ -93,8 +93,8 @@ namespace SystemIODemo
 			}
 			catch (FileNotFoundException e)
 			{
-
-				Console.WriteLine("File was not found....");
+                throw e;
+				//Console.WriteLine("File was not found....");
 			}
 			finally
 			{

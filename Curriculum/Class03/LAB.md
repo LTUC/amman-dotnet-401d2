@@ -67,10 +67,11 @@ Make user interface last.
 
 ## Unit Tests
 Test that your program has the following functionality:
-1. Test that a file can be updated
-2. Test that a word can be added to a file
-3. Test that you can retrieve all words from the file
-4. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
+1. Test that a file can be updated with a new word
+	- Add a new word and then confirm the word exists in the file
+2. Test that you can retrieve all words from the file
+	- Add words to a file and confirm that file contains the same number of words as you expected
+3. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
 
 
 ## Stretch Goals

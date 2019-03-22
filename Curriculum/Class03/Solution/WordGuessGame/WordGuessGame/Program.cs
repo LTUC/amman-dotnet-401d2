@@ -8,6 +8,9 @@ namespace WordGuessGame
     {
         static string path = @"..\..\..\Words.txt";
 
+        /// <summary>
+        /// Main Method and main point of entry for the program
+        /// </summary>
         static void Main()
         {
             string[] initialWords = new string[] { "Cat", "Dog", "Coffee", "Puppy", "Kitties" };
@@ -17,6 +20,9 @@ namespace WordGuessGame
             Interface();
         }
 
+        /// <summary>
+        /// User interface for user to select options on playing the game
+        /// </summary>
         private static void Interface()
         {
             bool complete = false;
@@ -46,6 +52,10 @@ namespace WordGuessGame
             }
 
         }
+
+        /// <summary>
+        /// User interface to manipulate the word bank
+        /// </summary>
         static void ModifyWords()
         {
             bool iscomplete = false;
@@ -94,6 +104,10 @@ namespace WordGuessGame
 
         }
 
+        /// <summary>
+        /// writes words to the specified file
+        /// </summary>
+        /// <param name="words">the array of words that need to be written to the designated file</param>
         static void WriteFullFile(string[] words)
         {
             using (StreamWriter fs = new StreamWriter(path))
@@ -112,6 +126,10 @@ namespace WordGuessGame
             }
         }
 
+        /// <summary>
+        /// retrieve all the words from the designated saved file
+        /// </summary>
+        /// <returns>an array of the words saved in the file</returns>
         static string[] GetWords()
         {
             string[] allWords;
@@ -121,6 +139,9 @@ namespace WordGuessGame
             return allWords;
         }
 
+        /// <summary>
+        /// Add a new word to the word bank
+        /// </summary>
         static void AddWord()
         {
             Console.WriteLine("What word would you like to add?");
@@ -142,6 +163,10 @@ namespace WordGuessGame
             }
         }
 
+        /// <summary>
+        /// delete a specific word from the word bank
+        /// </summary>
+        /// <param name="word"></param>
         static void DeleteWords(string word)
         {
             string[] checkWords = GetWords();
@@ -162,6 +187,10 @@ namespace WordGuessGame
             WriteFullFile(temparray);
             Console.WriteLine("Word successfully removed!");
         }
+
+        /// <summary>
+        /// Activate the word guess game
+        /// </summary>
 
         static void PlayGame()
         {

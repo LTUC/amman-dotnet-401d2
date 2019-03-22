@@ -29,6 +29,7 @@ Your solution should include the following:
 - Add summary comments above all of the methods that do not currently have summary comments. Be 
 sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
 returns in the appropriate xml tags. 
+
 - You've received reports from other users that there is a bug in the system! When a user selects a position on the board that is already marked, it is not prompting the user to retake their turn. It is up to *You* to find and fix this bug!
 
 ***Do not add any additional methods to the existing code base, you are only allowed to work within the methods provided***
@@ -65,6 +66,7 @@ the same board.
 - Player (This will hold the players information such as name or marker, in addition to any 
 actions that user may take)
 - Game (This would hold the actions of the game. )
+- Position (the individual game board positions )
 
 Be sure to check for a winner after each turn. Be aware that it is possible to have a tie/draw 
 if no winner can be determined and all 
@@ -85,7 +87,7 @@ Test that your program has the following functionality:
 
 
 ##Stretch Goals
-
+No Stretch goals.
 
 ## Additional Resources
 Review/research these resources to assist you in the construction of your program:
