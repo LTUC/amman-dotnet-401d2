@@ -2,14 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01\\DemoCode",
-    "\\Curriculum\\Class01\\DemoCode\\ExceptionExample",
-    "\\Curriculum\\Class01\\DemoCode\\ExceptionExample\\ExceptionExample",
-    "\\Curriculum\\Class01\\Resources",
     "\\Curriculum\\Class02",
-    "\\Curriculum\\Class02\\Resources",
-    "\\Curriculum\\Class02\\Solution",
-    "\\Curriculum\\Class02\\Solution\\Lab02-ATM"
+    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo",
+    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo\\FileIOTests",
+    "\\Curriculum\\Class03\\Solution",
+    "\\Curriculum\\Class03\\Solution\\WordGuessGame",
+    "\\Curriculum\\Class03\\Solution\\WordGuessGame\\WordGuessGame",
+    "\\Curriculum\\Class05",
+    "\\Curriculum\\Projects",
+    "\\Curriculum\\Projects\\AsyncInn",
+    "\\Curriculum\\Projects\\AsyncInn\\AsyncInn",
+    "\\Curriculum\\Projects\\AsyncInn\\AsyncInn\\Controllers"
   ],
   "SelectedNode": "\\Curriculum\\Class02\\Solution\\Lab02-ATM\\Lab02-ATM.sln",
   "PreviewInSolutionExplorer": false

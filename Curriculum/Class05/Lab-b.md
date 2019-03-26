@@ -1,9 +1,9 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 05: Open Source Vehicle Dealership 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 05: .NET Motors
 =====================================
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
-- Name your repo `Open-Source-Dealership`
+- Name your repo `DotNetMotors`
 - Create a branch named `NAME-LAB##`
 - Write your code
 - Commit often
@@ -18,7 +18,7 @@
 ## The Problem Domain
 ***This is part 1 of a 2 part assignment.***
 
-You have been tasked to stock the inventory of Open Source Vehicle Dealership. The owner of this company is requesting that you show to them possible vehicles that they can stock the showroom with. They have specifically asked that you provide for them a map of all the different types that they can have as well as the commonalities between them.
+You have been tasked to stock the inventory of ".NET Motors". The owner of this company is requesting that you show to them possible vehicles that they can stock the showroom with. They have specifically asked that you provide for them a map of all the different types that they can have as well as the commonalities between them.
 
 Think about a vehicle dealership. They sell vehicles of all sorts; cars, trucks, boats, heck..they could even sell airplanes! Think about what each of these vehicles have in common. Build out the hierarchy of a vehicle dealership. Your program will instantiate each of your concrete classes, and prove that they are inheriting traits/features from their various parent classes.
 

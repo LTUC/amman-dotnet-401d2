@@ -2,7 +2,7 @@
 
 namespace Lab4_TicTacToe.Classes
 {
-    class Game
+    public class Game
     {
         // Every game has 2 players and a board. 
         public Player PlayerOne { get; set; }

@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using Lab4_TicTacToe.Classes;
+﻿using Lab4_TicTacToe.Classes;
+using System;
 
 namespace Lab4_TicTacToe
 {
@@ -21,7 +20,6 @@ namespace Lab4_TicTacToe
             Console.WriteLine("Welcome to Tic Tac Toe");
             Console.WriteLine("Player One, Please enter your name");
             string p1 = Console.ReadLine();
-
             Player myplayer = new Player
             {
                 Name = p1,
@@ -31,7 +29,6 @@ namespace Lab4_TicTacToe
 
             Console.WriteLine("Player Two, Please enter your name");
             string p2 = Console.ReadLine();
-
             Player player2 = new Player
             {
                 Marker = "O",
@@ -44,7 +41,7 @@ namespace Lab4_TicTacToe
 
             // Create a new game
             Game game = new Game(myplayer, player2);
-			
+
 
             Player winner = game.Play();
             if (!(winner is null))

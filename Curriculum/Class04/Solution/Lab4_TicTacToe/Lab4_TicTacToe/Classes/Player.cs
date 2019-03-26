@@ -2,7 +2,7 @@
 
 namespace Lab4_TicTacToe.Classes
 {
-    class Player
+   public class Player
     {
 
         public string Name { get; set; }
