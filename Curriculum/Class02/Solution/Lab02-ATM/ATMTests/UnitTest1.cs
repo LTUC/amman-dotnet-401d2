@@ -1,4 +1,3 @@
-using System;
 using Lab02_ATM;
 using Xunit;
 
@@ -70,7 +69,7 @@ namespace ATMTests
         [InlineData("Withdraw Successful", 10.00, 20.00)]
         [InlineData("Your are trying to withdraw an invalid amount", 0, 500)]
         [InlineData("10 is greater than your balance of 5", 10.00, 5.00)]
-        [InlineData("Withdraw Successful", 15.00, -100)]
+        [InlineData("15 is greater than your balance of -100", 15.00, -100)]
 
         public void CannotOverdraft(string exp, double amount, double balance)
         {
@@ -84,5 +83,66 @@ namespace ATMTests
             Assert.Equal(exp, response);
 
         }
+
+        [Fact]
+        public void CanDepositMoney()
+        {
+            // Arrange < -- setup of the test. 
+            Program.Balance = 100;
+
+            // Act < -- actually doing the "thing" for the test
+            bool result = Program.Deposit(50);
+
+            // Assert <-- running the test (getting an expected value)
+            Assert.True(result);
+        }
+
+        [Fact]
+        public void DepositAmountMatchesExpected()
+        {
+            // Arrange < -- setup of the test. 
+            Program.Balance = 100;
+
+            // Act < -- actually doing the "thing" for the test
+            Program.Deposit(50);
+
+            Assert.Equal(150, Program.Balance);
+        }
+
+        [Fact]
+        public void CannotDepositNegativeAmount()
+        {
+            // Arrange < -- setup of the test. 
+            Program.Balance = 100;
+
+            // Act < -- actually doing the "thing" for the test
+            bool result = Program.Deposit(-50);
+
+            Assert.False(result);
+        }
+
+        [Fact]
+        public void BalanceDoesNotUpdateForNegativeAmount()
+        {
+            // Arrange < -- setup of the test. 
+            Program.Balance = 100;
+
+            // Act < -- actually doing the "thing" for the test
+            Program.Deposit(-50);
+
+            Assert.Equal(100, Program.Balance);
+        }
+
+        [Fact]
+        public void CannotDepositNegativeAndrew()
+        {
+            Program.Balance = 200.00;
+
+            decimal result = Program.DepositAndrew(-50);
+
+            Assert.Equal(200, result);
+
+        }
+
     }
 }

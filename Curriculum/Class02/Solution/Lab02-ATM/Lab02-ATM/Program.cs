@@ -109,6 +109,21 @@ namespace Lab02_ATM
             return false;
         }
 
+        public static decimal DepositAndrew(decimal amount)
+        {
+            if (amount < 0)
+            {
+                return (decimal)Balance;
+            }
+            else
+            {
+                decimal newBalance = (decimal)Balance - amount;
+                Balance = (double)newBalance;
+                return (decimal)Balance;
+            }
+           
+        }
+
 
     }
 }
