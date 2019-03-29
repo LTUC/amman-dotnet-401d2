@@ -30,7 +30,7 @@ Create a program that brings in data from an external file, reads the data, and 
 2. Filter out all the neighborhoods that do not have any names
 3. Remove the Duplicates
 4. Rewrite the queries from above, and consolidate all into one single query.
-5. Rewrite at least one of these questions only using the opposing method (example: Use LINQ instead of a Lambda and vice versa.)
+5. Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
 
 
 ## Guidance
