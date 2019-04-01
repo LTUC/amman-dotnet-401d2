@@ -25,11 +25,12 @@ app.UseMvc(routes =>
 10. Create a new folder in the project called "Controllers"
 11. Create a new folder in the project called "Models"
 12. Create a new folder in the project called "Views"
-13. Create a new class named `HomeController` in the Controllers Folder
-14. Derive `HomeController` from base class Controller (`HomeController:Controller`)
-15. Import the appropriate namespace (`Microsoft.AspNetcore.MVC`)
-16. Create new action in HomeController named "Index" with a return type of IActionResult
-17. Make the return of the `Index()` action `return View()`
+13. If needed, Create a new folder named `wwwroot`
+14. Create a new class named `HomeController` in the Controllers Folder
+15. Derive `HomeController` from base class Controller (`HomeController:Controller`)
+16. Import the appropriate namespace (`Microsoft.AspNetcore.MVC`)
+17. Create new action in HomeController named "Index" with a return type of IActionResult
+18. Make the return of the `Index()` action `return View()`
 
 ```csharp
   public IActionResult Index()
@@ -38,16 +39,16 @@ app.UseMvc(routes =>
   }
 ```
 
-18. Create a new folder named "Home" in our Views Folder.
-19. Create a new .cshtml page in the Home folder that you just created
+19. Create a new folder named "Home" in our Views Folder.
+20. Create a new .cshtml page in the Home folder that you just created
 	a. Right click on Home Folder
 	b. Add -> New Item ->
 	c. search for "View" 
 	d. select "Razor View"
 	e. Name the View the same page as your action (Keep it Index for this example)
-20. Add Text to your Index.cshtml file
-21. Run the app and make sure it loads your Home page.
-22. If it runs -> YAAY!, if not troubleshoot steps 1-20.
+21. Add Text to your Index.cshtml file
+22. Run the app and make sure it loads your Home page.
+23. If it runs -> YAAY!, if not troubleshoot steps 1-21.
 
 ### Next Steps
 

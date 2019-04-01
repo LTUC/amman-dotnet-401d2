@@ -3,17 +3,13 @@
     "",
     "\\Curriculum",
     "\\Curriculum\\Class02",
-    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo",
-    "\\Curriculum\\Class03\\DemoCode\\SystemIODemo\\FileIOTests",
-    "\\Curriculum\\Class03\\Solution",
-    "\\Curriculum\\Class03\\Solution\\WordGuessGame",
-    "\\Curriculum\\Class03\\Solution\\WordGuessGame\\WordGuessGame",
     "\\Curriculum\\Class05",
-    "\\Curriculum\\Projects",
-    "\\Curriculum\\Projects\\AsyncInn",
-    "\\Curriculum\\Projects\\AsyncInn\\AsyncInn",
-    "\\Curriculum\\Projects\\AsyncInn\\AsyncInn\\Controllers"
+    "\\Curriculum\\Class08",
+    "\\Curriculum\\Class08\\DemoCode",
+    "\\Curriculum\\Class08\\Resources",
+    "\\Curriculum\\Class09",
+    "\\Curriculum\\Projects"
   ],
-  "SelectedNode": "\\Curriculum\\Class02\\Solution\\Lab02-ATM\\Lab02-ATM.sln",
+  "SelectedNode": "\\Curriculum\\Class08\\LAB.md",
   "PreviewInSolutionExplorer": false
 }

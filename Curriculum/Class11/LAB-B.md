@@ -20,7 +20,8 @@ You have been hired by the "Don't Wine About It" company to create a website tha
 The company has provided for you a dataset of their current inventory. 
 
 Create a website using the MVC architectural pattern that asks the customer to input the price, and point rating
-they are searching for. The customer should then be redirected to another page that will show the filtered results from the inventory. <br /><br />
+they are searching for. The customer should then be redirected to another page that will show the filtered results from the inventory. 
+
 
 ## Application Specifications
  - Your application should include the following:
@@ -49,7 +50,7 @@ they are searching for. The customer should then be redirected to another page t
    public string Winery { get; set; }
 ```
 8. Create a static method within this model named `GetWineList` that brings in the range of years, and returns `List<Wine>`.
-9. Create the internal logic to read in the file, filter the data from the given inputted range using LINQ queries and Lambda expressions, and return the final filtered list of persons.
+9. Create the internal logic to read in the file, filter the data from the given inputted range using LINQ queries and return the final filtered list of persons.
 10. We will publish this website by the end of the week. Good Luck!
 
 
@@ -58,7 +59,7 @@ they are searching for. The customer should then be redirected to another page t
 
 2. Traversing through the file, line by line, convert each line item of the CSV to a `Wine` object and add it to the collection.
 
-3.3. Using LINQ queries and Lambda expressions, filter out list given the range inputted. You code should take into account a few edge cases of inputting an invalid range (e.g. $2,000,000; or *string* instead of *int*), as well as any other reasonable edge cases.
+3.3. Using LINQ queries, filter out list given the range inputted. You code should take into account a few edge cases of inputting an invalid range (e.g. $2,000,000; or *string* instead of *int*), as well as any other reasonable edge cases.
 
 4. Return the collection with the data that matches the price and point values.
 
@@ -77,7 +78,7 @@ this site to Azure by the end of the week.
 
 
 ## Additional Resources
-- Setup default MVC [20 simple steps](https://github.com/codefellows/code-401-dotnet-guide/blob/master/Curriculum/Class11/Resources/MVCSetup.md){:target="_blank"}
+- Setup default MVC [20 simple steps]https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class11/Resources/MVCSetup){:target="_blank"}
 - [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x){:target="_blank"}
 	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utilizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
 
