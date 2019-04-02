@@ -1,9 +1,9 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: Relational Databases 
+![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: Entity Relational Diagram  
 =====================================
 
 ## To Submit this Assignment
 
-- Submit your schema in canvas as an image, or a link to an image, in  to your external doc.
+- Submit your ERD(Entity Relationship Diagram in canvas as an image, or a link to an image, in  to your external doc.
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 
 
@@ -12,9 +12,9 @@ The owners of "Async Inn" have approached you with plans to renovate their hotel
 
 They are currently looking for a full stack web application that will allow them to better manage the assets in their hotels. They are anticipating the ability to modify and manage rooms, amenities, and new hotel locations as they are built. They have turned to you to assist them in persisting their data across a relational database and maintain its integrity as they make changes to the system. 
 
-After your meeting with the team, you have extracted some basic requirements about the data and how it should be represented in a database. You are going to attempt a first draft at a database schema to share with the team later on today. 
+After your meeting with the team, you have extracted some basic requirements about the data and how it should be represented in a database. You are going to attempt a first draft at a database diagram to share with the team later on today. 
 
-To the best of your ability, create a system design of a database schema that meets all of the requirements below. The schema should take all of the requirements into consideration and allow a baseline for starting the creation of the web application. 
+To the best of your ability, create a system design of a database ERD diagram that meets all of the requirements below. The diagram should take all of the requirements into consideration and allow a baseline for starting the creation of the web application. 
 
 
 ## Application Specifications
@@ -30,26 +30,26 @@ Read ***the full document*** before you begin.
 	- The number of rooms for each hotel varies. Some hotels have only a few rooms, while others may have dozens.
 
 ## Guidance
-Build your schema so that it has at least:
+Build your ERD (Entity Relationship Diagram) so that it has at least:
 1. (1) Joint Entity Table with Payload
 2. (1) Pure Join Table
 3. (1) Enum 
 
-Within your Schema identify/label the following as necessary:
+Within your ERD identify/label the following as necessary:
 1. Primary Keys
 2. Foreign Keys 
 3. Composite Keys (where they exist)
 4. Navigation Properties (What other entities are related? Why?)
 5. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
 
-In a external doc, please provide an explanation of the components in your database schema. 
+In a external doc, please provide an explanation of the components in your database ERD diagram. 
 
 
-This assignment is **attempt based**. Submit, before the next class start, a healthy attempt on the system design. 
+This assignment is **attempt based**. Submit, before the next class start, a healthy attempt on the database design. 
 
-You may work together and collaborate on this lab, but everyone is responsible for turning in their own DB Schema and external file (this can be a link, please make sure names exist on the top). 2-3 sentences for each table is sufficient for an explanation. 
+You may work together and collaborate on this lab, but everyone is responsible for turning in their own DB diagram and external file (this can be a link, please make sure names exist on the top). 2-3 sentences for each table is sufficient for an explanation. 
 
-Your submissions must be digital. You may take a picture of your schema from a white board, but if you decide to stick with your db schema, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
+Your submissions must be digital. You may take a picture of your diagram from a white board, but if you decide to stick with your db diagram, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
 
 
 ## Unit Tests
