@@ -19,7 +19,7 @@ Now that you have a solid understanding of your database schema for your hotel m
 
 
 ## Application Specifications
-- Your application should include the following:
+Your application should include the following:
 1. Startup File
 	- Explicit routing of MVC 
 	- MVC dependency in ConfigureServices
