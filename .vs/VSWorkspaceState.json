@@ -2,14 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class02",
-    "\\Curriculum\\Class05",
-    "\\Curriculum\\Class08",
-    "\\Curriculum\\Class08\\DemoCode",
-    "\\Curriculum\\Class08\\Resources",
-    "\\Curriculum\\Class09",
-    "\\Curriculum\\Projects"
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution",
+    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models",
+    "\\Curriculum\\Class12",
+    "\\Curriculum\\Class13",
+    "\\Curriculum\\Class14",
+    "\\Curriculum\\Class14\\Resources",
+    "\\Curriculum\\Class14\\Solution",
+    "\\Curriculum\\Class14\\Solution\\EnrollmentSolution"
   ],
-  "SelectedNode": "\\Curriculum\\Class08\\LAB.md",
+  "SelectedNode": "\\Curriculum\\Class14\\Solution\\EnrollmentSolution\\EnrollmentSolution.sln",
   "PreviewInSolutionExplorer": false
 }

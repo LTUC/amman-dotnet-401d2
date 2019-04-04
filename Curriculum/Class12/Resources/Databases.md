@@ -23,7 +23,7 @@
 	Examples: Big Data, and Real Time Applications
 
 ## Representation
-We can represent a relational database through a database schema. 
+We can represent a relational database through an Entity Relationship Diagram. 
 	
 ### Database Schema
 
@@ -41,7 +41,7 @@ It may be helpful to pull up this article and show the example DB Schema [HERE](
 	3. Composite Keys (New!)
 
 
-### Dissect a Schema
+### Dissect an ERD
 
 #### Tables
 Each "box" in a schema represents a table in the database. With each table you want to identify it's individual properties, and it's relationship to other tables in the schema. 

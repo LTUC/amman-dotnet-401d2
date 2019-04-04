@@ -21,13 +21,12 @@ Now that you have a solid understanding of your database schema for your hotel m
 ## Application Specifications
 - Your application should include the following:
 1. Startup File
-	 - Explicit routing of MVC 
-	 - MVC dependency in ConfigureServices
-	 - DBContext registered in ConfigureServices
-	 - Use of static files accepted
+	- Explicit routing of MVC 
+	- MVC dependency in ConfigureServices
+	- DBContext registered in ConfigureServices
+	- Use of static files accepted
 2. Controller
-	 - Home Controller
-	 - Controllers  for each of the pages described in the Design section (you may choose to scaffold or build controllers/views from scratch)
+	- Home Controller
 3. Data
 	- DBContext present and properly configured
 	- DB Tables for each entity model (`DbSet<T>`)
@@ -47,32 +46,22 @@ Now that you have a solid understanding of your database schema for your hotel m
 	- stylesheet present in web application
 	- stylesheet referenced on home page.
 
-6. Web application should build, compile, and redirect us to the home page upon launch. If you decided to scaffold the controllers, they should be accessible through their default actions. 
+6. Web application should build, compile, and redirect us to the home page upon launch. 
 
 
 ## Guidance
 Create a basic MVC web application using the steps provided from class 11 & 12. Include a Home Controller with a basic Index action. No need to add any content to the Index view, just have it load a greeting for now. You will work more on the Home Controller a little further down.
-Using your database schema, convert each entity into a model within your newly created MVC web application.
+Using your ERD Diagram, convert each entity into a model within your newly created MVC web application.
 
 Following the steps provided, in addition to what we did in class, create a new `DbContext` named `AsyncInnDbContext`. 
 Within this DbContext, declare your Database tables and set your composite keys. 
-
-##### Design
-Think about the design of your website. What will it look like? What pages will exist? How do the pages interact and link to each other? For our website, we will have the following pages:
-1. Home Page to greet the Hotel Admin. This page will also serve as a dashboard for the other locations of the site.
-2. Hotels page that will allow the Admin to create and edit new or existing hotels
-3. Rooms page where the Admin will be able to create or edit new or existing rooms
-4. Amenities page that will allow the Admin to add to their list of existing amenities
-5. A page where they can link the Amenities to the rooms that currently exist
-6. A page where they can add existing rooms to hotels
-
-Following the design, Create a controller for each of the pages listed above. You may "Add >> Controller" on the controllers folder and scaffold out the basic CRUD operations if you wish. 
+ 
 
 ##### Home Page
 Add some HTML and styling to your home page. Link the index action of each of the other controllers within the Home page. Throughout the week, we will slowly evolve this page to be more of a "dashboard" feel, but start the design now to start the process. 
 
 ##### README
-Your README should be in introduction to your web app. Provide in your README, your DbSchema and an overview of the relationships and how each entity is related to another. 
+Your README should be in introduction to your web app. Provide in your README, your ERD Diagram and an overview of the relationships and how each entity is related to another. 
 
 
 ## Tests
@@ -111,27 +100,7 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 - [sample-README](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
-- 7pts: Program meets all requirements described in Lab directions.
 
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	7       | Program runs as expected, no exceptions during execution |
-	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements described above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements described above // Program runs/compiles |
-	2       | README Document does not meet minimum standards |
-	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
-	0       | No Submission |
-
-- 3pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 5/7 on above criteria
-
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are properly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
-	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
-	0       | No Submission or incomplete submission |
-
+The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
 
 
