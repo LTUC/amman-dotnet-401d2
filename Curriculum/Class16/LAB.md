@@ -20,26 +20,20 @@ Continue working on your hotel management application.  As a developer, you woul
 
 
 ## Application Specifications
-- Your application should include the following:
-1. 3 new interfaces
-2. All services registered in your `Startup.cs` class
-3. 3 new "services" that implement each of the interfaces
-4. You DbContext injected into each of the interfaces
-5. Your interfaces injected into your controllers
-6. Functionality of all `Create` and `Index` actions
-7. Functionality of the `Edit` and `Delete` actions in your `Hotels` `Rooms` and `Amenities` pages.
-
-## Guidance
-- Read all the directions and specs, in it's entirety, before starting the lab.
 Building off of your current project for the `AsyncInn`:
-1. Implement the repository design pattern and the singleton design pattern using dependency injection into your current code base
+1. Implement the repository design pattern using dependency injection into your current code base
 2. Create three interfaces to contract minimum CRUD operations (with the future services) that are required for functionality and maintenance of Hotels, Rooms, and Amenities. 
 3. Build out a service for each of the interfaces and implement them appropriately.
 4. Within each service, don't forget to inject the your `DbContext` into your services, so that you have access to the database.
 5. Register each of the services with the appropriate Dependency Injection Lifecycle in the `Startup.cs` class.
-6. Refactor the `RoomsController`, `HotelsController`, and `AmenitiesController` to utilize the newly created services. Remove the need for the database in the controllers, inject the services as needed, and keep the controllers "loosely coupled" by offloading the CRUD functionality to the services you previously defined. 
+6. Refactor the `RoomsController`, `HotelsController`, and `AmenitiesController` to utilize the newly created services. Remove the need for the database in the controllers, inject the services as needed, and keep the controllers "loosely coupled" by offloading the CRUD functionality to the services you previously defined. (Do not have your `DBContext` injected into your controllers, make it the appropriate interface(s) instead!)
 7. Confirm that all of your `Index` and `Create` actions still work after your refactor
 8. Confirm that your `Edit` and `Delete` actions still function as expected in your `Rooms`, `Hotels`, and `Amenities` controllers as expected after your refactor. 
+
+_*Note: Don't worry about the HotelRooms or the RoomAmenities just yet. We will modify those controllers/pages in the upcoming days.*_
+
+## Guidance
+- Read all the directions and specs, in it's entirety, before starting the lab.
 
 
 ## Tests

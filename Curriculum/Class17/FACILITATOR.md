@@ -2,19 +2,17 @@
 
 ## How do I prep for today?
 
-## What changed from yesterday? 
-1. View Models
+Today's Topics:
+1. Data Annotations
+2. View Models
 	- Average Course Enrollment
-	- Average Pass Rate 
-	- 
-2. Filter/Search
-3. Shared Layouts
-4. Tag helpers
+	- Average Pass Rate
+3. Search Box/Filtering
+4. HTML/CSS assistance
 
-1. Deployment to Azure
-	1. 
-2. Testing your MVC Application
-3. CSS/HTML assistance
+## What changed from yesterday? 
+
+
 
 ## What might students struggle with today?  
 

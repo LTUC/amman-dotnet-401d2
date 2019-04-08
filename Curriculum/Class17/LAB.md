@@ -15,6 +15,7 @@
 
 ## Assignment Specifications
 - Your application should include the following:
+1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 1. Add a layout that will be inherited/utilized on all of your pages (if you haven't already). 
 2. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
 	- Use [this resource](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-2.1){:target="_blank"} for assistance
@@ -24,7 +25,6 @@
 5. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
 6. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
 	- Example: if you have a total of 5 Hotels, the top of your Hotel home page should say that you have 5 total hotels in the system.
-
 
 ## Guidance
 - There is no additional guidance for this assignment.

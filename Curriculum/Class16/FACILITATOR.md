@@ -2,16 +2,16 @@
 Today is the first day of APIs. 
 
 ## How do I prep for today?
-Code Review:  
-1. Nuke one of the pages for HTML
-2. Recode it out
 
-1. Intro to Dependency Injection
-2. Intro to the Repository Design Pattern
-3. Review of Interfaces
-4. Create a new interface
-5. Register the Interface using DI
-6. Introduce User Secrets
+Today's Topics:
+	1. Intro to Dependency Injection
+	2. Intro to the Repository Design Pattern
+		- Review of Interfaces
+		- Create a new interface with basic CRUD operations
+		- Register the Interface using DI
+	3. Intro to Testing MVC applications
+
+
 
 ## What changed from yesterday? 
 New topic!

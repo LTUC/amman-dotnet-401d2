@@ -1,9 +1,13 @@
 # Class 18: Testing and Deployment
 
 ## How do I prep for today?
-The best way to prep for today is to become familiar with how to 
-consume an external api. The best way to prep for this is to review the provided
-examples and understand the calls that are being made.
+
+Today's topics:
+1. User Secrets
+1. Deployment to Azure
+
+2. Intro to APIs
+
 
 ## What changed from yesterday? 
 You are building off of what you have done the previous days, except this time 

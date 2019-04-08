@@ -21,20 +21,19 @@ Finish up your `Async Inn` Hotel Management project.
 - Your application should include the following:
 1. Deploy to Azure (reference link in your Readme)
 	- application *MUST* be deployed to Azure. No grade will be given to non-deployed apps.
+2. Implement User Secrets instead of the default configurations
 2. CSS/HTML should be present on **all** pages of the project.
 	- Utilize "layouts"
 	- Use "partials" as needed
-
-
 3. Update/Edit your `RoomAmentities` page to not allow edits. 
 	- You should only have the option to create associations, and delete associations.
-	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
+	- This will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
 4. Leverage the use TagHelpers and View Models to identify the correct association to remove.
 5. Modify the existing code to edit a `HotelRoom`.
 	 - Allow a user to edit a `HotelRoom` combination. 
+	 - Do not create a new service for the modification of HotelRoom, instead, refactor your existing interfaces and and services to include this functionality.
 	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
-	 - View Models and TagHelpers will be required to send the data back and forth from the server
-
+	 - View Models and TagHelpers may be used to send the data back and forth from the server
 6. Add/Confirm functionality that if you "remove" a room or a hotel, all of it's associations are also removed
 	- If you delete a Hotel, all of the `HotelRoom` associations with that hotel should be removed.
 	- If you delete a Room template, all of the `HotelRoom`s that have that room template need to be removed as well as the RoomAmenity associations
