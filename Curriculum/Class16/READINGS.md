@@ -14,4 +14,5 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 1. [Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection){:target="_blank"} 
 2. [Repository Pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/repository-pattern?view=aspnetcore-2.1){:target="_blank"} 
 3. [SOLID Principles](https://www.telerik.com/blogs/30-days-of-tdd-day-five-make-your-code-solid)
+4. [Why SOLID Matters](https://www.telerik.com/blogs/why-solid-matters)
 3. [User Secrets](../Resources/UserSecrets.md){:target="_blank"} 
