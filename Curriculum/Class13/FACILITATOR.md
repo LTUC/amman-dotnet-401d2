@@ -28,6 +28,11 @@ Resources:
 11. see updated database. 
 12. "scaffold" out the different controllers with CRUD operations
 
+### Questions to ask:
+1. What's the distinct benefit of ASP.NET Core MVC, and what's the alternative to using MVC?
+2. What exactly is Entity Framework? What's the problem it's meant to solve?
+3. What's the server we're working with in our course? How about the database, and why did we choose it over others?
+4. What tools/techniques are we using that are based on the ASP.NET Core framework specifically, and what problems is a web dev framework meant to solve?
 
 ## What changed from yesterday? 
 Building off of the same MVC concepts
