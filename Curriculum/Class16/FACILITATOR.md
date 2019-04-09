@@ -4,10 +4,14 @@ Today is the first day of APIs.
 ## How do I prep for today?
 
 Today's Topics:
-	1. Intro to Dependency Injection
+	1. Intro to Dependency Injection (powerpoint)
 	2. Intro to the Repository Design Pattern
 		- Review of Interfaces
 		- Create a new interface with basic CRUD operations
+			- IStudent
+			- ICourse
+		- Create services that implement the interfaces
+			
 		- Register the Interface using DI
 	3. Intro to Testing MVC applications
 
