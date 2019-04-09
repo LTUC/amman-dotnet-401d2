@@ -26,12 +26,12 @@ Finish up your `Async Inn` Hotel Management project.
 	- Utilize "layouts"
 	- Use "partials" as needed
 3. Update/Edit your `RoomAmentities` page to not allow edits. 
-	- You should only have the option to create associations, and delete associations.
+	- You should only have the option to create associations and delete associations for specific Rooms.
 	- This will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
 4. Leverage the use TagHelpers and View Models to identify the correct association to remove.
 5. Modify the existing code to edit a `HotelRoom`.
-	 - Allow a user to edit a `HotelRoom` combination. 
-	 - Do not create a new service for the modification of HotelRoom, instead, refactor your existing interfaces and and services to include this functionality.
+	 - Allow a user to edit the `HotelRoom` details for a specific hotel. 
+	 - Do not create a new service for the modification of HotelRoom, instead, refactor your existing interfaces and services to include this functionality.
 	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
 	 - View Models and TagHelpers may be used to send the data back and forth from the server
 6. Add/Confirm functionality that if you "remove" a room or a hotel, all of it's associations are also removed

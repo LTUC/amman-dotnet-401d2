@@ -7,5 +7,6 @@ namespace AsyncInn.Models.Interfaces
 {
     interface IHotelManager
     {
+
     }
 }

@@ -21,7 +21,7 @@
 	- Use [this resource](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-2.1){:target="_blank"} for assistance
 3. While adding partials is not required, see if you can find a way to utilize them within your layouts
 
-4. Allow the functionality on your `HotelController` to display all the possible hotels, as well as the number of Rooms that each hotel has. 
+4. Allow the functionality on your `HotelController` to display the total number of hotels that exist in the database, as well as the number of Rooms that each hotel has. 
 5. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
 6. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
 	- Example: if you have a total of 5 Hotels, the top of your Hotel home page should say that you have 5 total hotels in the system.

@@ -27,7 +27,7 @@ Building off of your current project for the `AsyncInn`:
 4. Within each service, don't forget to inject the your `DbContext` into your services, so that you have access to the database.
 5. Register each of the services with the appropriate Dependency Injection Lifetime in the `Startup.cs` class.
 6. Refactor the `RoomsController`, `HotelsController`, and `AmenitiesController` to utilize the newly created services. Remove the need for the database in the controllers, inject the services as needed, and keep the controllers "loosely coupled" by offloading the CRUD functionality to the services you previously defined. (Do not have your `DBContext` injected into your controllers, make it the appropriate interface(s) instead!)
-7. Make sure that when you view a room, you can see a list of all it's amenities. And when you view a Hotel, you can see a list of all the HotelRooms associated with it. (Only need to display the Name of the hotel, room number, and room name) 
+7. Make sure that when you view a `Room`, you can see a list of all it's `Amenities`. And when you view a `Hotel`, you can see a list of all the `HotelRooms` associated with it. (Only need to display the name of the hotel, room number, and room name) 
 7. Confirm that all of your `Index` and `Create` actions still work after your refactor
 8. Confirm that your `Edit` and `Delete` actions still function as expected in your `Rooms`, `Hotels`, and `Amenities` controllers as expected after your refactor. 
 
