@@ -2,29 +2,37 @@
 
 ## Deploying the database
 
-- Access `portal.azure.com`
-- Click `SQL Databases`
-- Select `Add`
+1. Navigate to `portal.azure.com`
+2. On the Azure Portal sidebar, select `SQL Databases`
+3. On the top, underneath the header, select `Add`
 - Fill the required form:
-  - Name
-  - Subscription
-  - Resource Groups: A way to organize different azure services that belong together. Similar to a namespace.
-  - Source: You can start with a pre-built datatabases or a Blank database.
+  - Create a new resource group (if desired)
+  - Subscription, Choose either pay as you go, or your free trial subscription.
+  - choose a database name
+  - Create or select a DB Server
   - Server (The server will contain the database)
-    - Server Name
-    - Server Username
-    - Server Password
-      - Use a unique password. TAs or instructional staff might need access to it in order to help you.
-    - Don't select SQL elastic poll for now.
-    - Keep the default collation.
-    - Wait for the process to finish.
-  - **Don't upload your appsettings to github. Use user secrets instead (LINK)**
-  - Once the process in complete, you can access it using the `All Resources` tab. Remember that things that are connected need to be in the same resource group.
-  - Select your server and click `connection strings`
+   - Name
+   - Username
+   - Password
+         - Use a unique password. TAs or instructional staff might need access to it in order to help you
+   - Keep location at it's default
+   - Wait for the process to finish.
+   - Click `Select` to generate the new server
+  - Select No to SQL elastic pool
+  - Under `Compute + storage`, select "Configure Database
+   - Choose "Basic" and select `Apply`
+  - Select "Review + Create"
+  - Review your configurations
+  - Select Create
+  
+4. Wait for your database to complete creation.
+5. You can view your SQL Database by either selecting "Go to Resource" or reselcting the "SQL Database" on the sidebar
+6. Once you are in your resource click the "Show database connection strings"
     - Select ADO.net
-      - ADO.net directly works with SQL Server
-    - Copy your connection string. It contains everying required to establish a connection to the server
-    - Add the password to your connection string after `Password=`
+     - ADO.net directly works with SQL Server
+    - Copy your connection string to a temporary external location (such as a notepad). It contains everying required to establish a connection to the server. You will be slightly modifying the connection string before transferring it to your application
+    - Add the password of the server you just created to your connection string after `Password=` (delete the `{your_password}` and replace it with your password)
+    - Update the `{your_username}` with your server username.
     - Paste the connection strings into user secrets as `ProductionConnection`
     - Don't remove the old connection string from the `appsettings.json` file yet
     - Add the old Connection to the application to user secrets as `DefaultConnection`
