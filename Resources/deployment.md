@@ -36,8 +36,8 @@
      - Add the username of the server you just created to your connection string after `Username=` (delete the `{your_username}` and replace it with your username)
      - Add the password of the server you just created to your connection string after `Password=` (delete the `{your_password}` and replace it with your password)
      - Paste the connection strings into user secrets as `ProductionConnection`
-     - Don't remove the old connection string from the `appsettings.json` file yet
-     - Add the old Connection to the application to user secrets as `DefaultConnection`
+     - Transfer your `DefaultConnection` from the `appsettings.json` file into user secrets.
+	 - Delete your `appsettings.json` file.
      - Use the `ConnectionStrings:ProductionConnection` string in your `Startup.cs` file.
          - `options.UseSqlServer(Configuration["ProductionConnection"])`
          - If this doesn't work. Just use `ProductionConnection` as Configuration's argument.
@@ -48,9 +48,18 @@
          - Click the plus sign
          - It should populate your IP automatically.
          - Click `Save`
-     - Once the firewall error is completed, you should be able to update your database remotelly.
+     - Once the firewall error is completed, you should be able to update your database remotely.
      - Use a database manager to access your created server (You can get your server name in azure. It should end in `database.windows.net`)
-     - This should effectively deploy your your database.
+     - This should effectively deploy your database.
+	 - Once your initial production database has successfully been created and deployed, you may modify your DBContext registration to the following to help with local and production environments:
+	 ```
+	             string connectionString = Environment.IsDevelopment()
+                                        ? Configuration["ConnectionStrings:DefaultConnection"]
+                                        : Configuration["ConnectionStrings:ProductionConnection"];
+
+            services.AddDbContext<StudentEnrollmentDbContext>(options =>
+            options.UseSqlServer(connectionString));
+	 ```
 
 ## Deploying the Web App
 
