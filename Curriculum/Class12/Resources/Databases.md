@@ -29,6 +29,8 @@ We can represent a relational database through an Entity Relationship Diagram.
 
 It may be helpful to pull up this article and show the example DB Schema [HERE](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)
 
+About halfway down the page is a "complex" ERD model. Review it with the class and break it down if possible.
+
 ### Relations
 	1. 1:1
 	2. Many:Many

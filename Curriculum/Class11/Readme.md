@@ -36,6 +36,6 @@ Actions, that maps to specific views. Each unique action is it's own
 view page. 
 
 
-### Craete an MVC Site
+### Create an MVC Site
 
 In the 'Resources' folder within the class repo is an MVC Setup doc. Use this resource to guide you how to create a basic MVC application
