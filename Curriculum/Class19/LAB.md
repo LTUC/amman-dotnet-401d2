@@ -16,10 +16,11 @@
 
 
 ## Application Specifications
-- Your application should include the following:
+- Your application should include the following at minimum:
 1. 2 Controllers with CRUD endpoints (You may use an empty API controller template for this if you wish)
 1. 2 Models (ToDo and ToDoList)
 1. 2 database tables (one database table for each model)
+1. Follow the Repository Design Architectural pattern within your implementation
 
 We can make the assumption that a ToDo can **only be a part of one ToDoList**
 
