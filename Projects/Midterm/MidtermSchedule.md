@@ -28,7 +28,7 @@
 - Tests (~75%)
 
 ### Thursday
-- -: 10:00am
+- Stand-up: 10:00am
 - Demo: Run-through with TA's (3:30ish)
 - Code Freeze (**ALL** server side code): 9pm
 	 - Only tests, Documentation, and front end allowed to be worked on
@@ -42,6 +42,6 @@
 
 ### Friday
 - Stand-up: 9:30a
-- Presentations: 10:00am
+- Presentations: 1:30pm
 - Full Code Freeze: 9:00am 
 	- Only tests and Documentation may be worked on, but not merged
