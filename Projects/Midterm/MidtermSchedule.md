@@ -1,7 +1,7 @@
 # Schedule and Milestones
 
 ### Monday
-- Stand-up: 9:30am
+- Stand-up: 10:30am
 - Demo: 4:30pm 
 
 **Milestones**
