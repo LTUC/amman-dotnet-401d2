@@ -8,6 +8,8 @@ Today's topics:
 
 2. Intro to APIs
 
+## Lab
+This lab is the final submission for the Async Inn. It is due the night before Project Week starts. A rubric is included with the Canvas assignment to assist with grading. 
 
 ## What changed from yesterday? 
 You are building off of what you have done the previous days, except this time 
