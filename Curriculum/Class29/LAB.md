@@ -12,10 +12,6 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 ### END OF SPRINT
 This is the end of sprint 1. please refer to the Sprint 1 assignment to confirm you have met all the requirements for submission. 
 
-## Directions:
-
-Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
- 
 
 ## User Stories & Guidance:
 
@@ -43,5 +39,5 @@ Each milestone will be worth 10 points within the sprint. The grading rubric is 
 No Tests are required for this milestone
 
 ## Rubric
-
+Review the final Sprint 1 submission for rubric/breakdown of all user stories
 

@@ -38,9 +38,9 @@ Readme should contain the following:
 
 Review the rubric below to know ande understand the overall expectations
 
-### E-Com Sprint 1 (115 points)
+### E-Com Sprint 1 (100 points)
 
-#### MVC Skeleton & Scaffold (15pts)
+#### MVC Skeleton & Scaffold (10pts)
 Site contains basic MVC Scaffold including a DBContext with basic products seeded into database. Site implements the repository design pattern with appropriate interfaces and services. D.I. is properly registered in Startup.cs file.
 
 #### Home Page (5 points)
@@ -50,7 +50,7 @@ This area will be used by the assessor to leave comments related to this criteri
 #### Login Page (5 points)
 Login page consists of username and password form with password masked of visibility. Login page redirect to home page after successful login. Login page access is anonymous allowed. Login page utilizes ASP.NET Core Identity.
 
-#### Registration Page (10 points)
+#### Registration Page (5 points)
 Registration page consists of a form that successfully creates a new account while utilizing ASP.NET Core Identity. Custom claims are properly captured within registration action. User is automatically logged in and redirects user to home page after registration. Registration is accessible by anonymous users.
 
 #### Shopping Page (5 points)
@@ -68,7 +68,7 @@ Azure DevOps tool is properly maintained. User stories assigned to each member a
 #### Custom Claim (10 points)
 Site contains a custom claims based policy that implements IAuthorizationRequirement and uses AuthorizationHandler<T> to enforce the requirement These files should be separate from each other and is properly registered within the Startup.cs file. Site has one page the enforces this policy . Website's homepage should contain a link to this custom page for testability.
 
-### Industry Standard (15 points)
+### Industry Standard (10 points)
 Summary Comments are present and completed. Methods and variable names are appropriate. Fundamentals are properly used. No misuse of code or industry standards present
 
 #### Even Workload (-20% deduction)
