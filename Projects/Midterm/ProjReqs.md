@@ -42,7 +42,7 @@ Below are the requirements specific to each project, followed by requirements th
    - Have at least 2 Models
    - No Views Required
    - At least 2 Endpoints in each Controller
-2. Documentation:
+   - Utilize dependency injection with the Repository Design Pattern for your whole project.2. Documentation:
    - Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1){:target="_blank"}  for your custom API Documentation.
 
 
