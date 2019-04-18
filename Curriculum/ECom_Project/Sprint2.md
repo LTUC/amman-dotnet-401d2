@@ -108,7 +108,7 @@ Mini Basket holds a current view of all the existing items the user has in their
 #### Basket (10 points)
 
 A dedicated Basket page that consists of all the user's current products. Items in the basket can be modified in quantity or removed.  Home page consists of a link to the basket page for easability. 
-Basket page contains a "Checkout" button that redirects to the Receipt page
+Basket page contains a "Checkout" button that redirects to the Receipt page. The user must be logged in to access the Basket page.
 
 #### Receipt Page (10 points)
 
