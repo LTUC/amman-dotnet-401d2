@@ -18,7 +18,7 @@ Here are the user stories for Milestone 1:
 1. (Developer 1) As a user, I would like a product landing page for each product, so that I can view individual details about the product.
 2. (Developer 1 & 3) As a user, I would like to add individual items to may basket through an "Add to Basket" button located on each product landing page 
 3. (Developer 1 & 2 & 3) As a user, I would like a basket to hold the products I wish to purchase. 
-(Developer 2) As a user, I would like to see the current items in my basket while browsing the site.
+4. (Developer 2) As a user, I would like to see the current items in my basket while browsing the site.
 
 
 ### Guidance
@@ -33,7 +33,7 @@ Here are the user stories for Milestone 1:
 
 **User story 3:** You and your partner need to figure out how you are going to capture a user's basket items. This is going to required a database change. At the very least, your Basket should contain a collection Basket Items or Products...depending on your structure. You should be able to call a user's basket and view all the items/products associated with it. Remember that it possible that a user can have more than one item in their basket AND more than one type of item (example: I have 2 blankets in my basket).
 
-**User story 4:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in his/her cart, and displays it on more than one page of the site. My suggestions include the browse page that shows all products in the inventory, and each product landing page. 
+**User story 4:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in his/her cart, and displays it on more than one page of the site. Display your "mini-basket" on both the individual product landing pages and the home page. 
 	
 
 

@@ -36,7 +36,7 @@ Readme should contain the following:
 
 ## Rubric
 
-Review the rubric below to know ande understand the overall expectations
+Review the rubric below to know and understand the overall expectations
 
 ### E-Com Sprint 1 (100 points)
 

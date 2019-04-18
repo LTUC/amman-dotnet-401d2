@@ -1,7 +1,7 @@
 # Class 30
 
 ## How do I prep for today?
-
+Career Coaching 2 Today. No lecture/lab
 ## What changed from yesterday? 
 
 ## What might students struggle with today?  

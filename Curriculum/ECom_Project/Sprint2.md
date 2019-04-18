@@ -20,7 +20,6 @@ The instructional staff will review your current master branch in VSTS/Azure Dev
 
 **Only push to master on sprint check-ins**
 
-
 ## Checkin
 
 Upon completion of this sprint, Your E-Commerce site should contain the following:
@@ -90,29 +89,40 @@ to your configuration and settings of your web application.
 
 Total: 70 pts
 
-### Rubric (Per requirement)
 ## Rubric
-- 7pts: Program meets all requirements described in Lab directions.
 
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	7       | Program runs as expected, no exceptions during execution |
-	5       | Program meets all of the  functionality requirements described above (including tests) // Program runs/compiles, Program contains logic/process errors|
-	4       | Program meets most of the functionality requirements descibed above (including tests)  // Program runs/compiles, but throws exceptions during execution |
-	3       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	2       | Missing Readme Document // Readme Document does not meet standards |
-	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
-	0       | No Submission |
+### E-Com Sprint 2 (100 points)
 
-- 3pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 5/7 on above criteria
-
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	3       | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	2       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
-	1       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
-	0       | No Submission or incomplete submission |
+Review the rubric below to know and understand the overall expectations
 
 
+#### Product Page (10 points)
 
+Landing page that consists of product details, add to basket button, and visibility of the users current basket. 
+
+#### Mini Basket (10 points)
+
+"Mini Basket" exists on home page of site and product landing pages. 
+Mini Basket holds a current view of all the existing items the user has in their basket. A view component is used to implement the mini basket across the site. 
+
+#### Basket (10 points)
+
+A dedicated Basket page that consists of all the user's current products. Items in the basket can be modified in quantity or removed.  Home page consists of a link to the basket page for easability. 
+Basket page contains a "Checkout" button that redirects to the Receipt page
+
+#### Receipt Page (10 points)
+
+Receipt page consists of an itemized list of all products that the user has "purchased". Includes Item name, Quantity, and total price of each item as well as total price of all items in the basket. 
+
+#### Email Sender (10 points)
+
+A welcome email is sent to the user upon a new registration. A receipt email is also sent to the user after the "checkout" process from the basket page. Each email is fitting to the problem domain, and formatted professionally. The email consists of a custom greeting and personalization. 
+
+#### User Experience (10 points)
+HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.
+
+#### Readme & Documentation (10 points)
+Readme contains an introduction to the web application. Site contains all required questions as well as a link to the deployed site. All contributors are referenced and cited within the ReadMe. **NO POINTS WILL BE GIVEN FOR THE ASSIGNMENT IF DEPLOYMENT LINKS ARE NOT PRESENT OR IS NOT FUNCTIONAL*
+
+#### Azure DevOps Process (30 points)
+Azure DevOps tool is properly maintained. User stories assigned to each member are properly filled out, including time estimation, tasks, branches, description, and acceptance tests. 50% of these points are for both partner's overall maintenance of the KanBan board, 50% of these points are dedicated to each individual partner for specific maintenance. These points CANNOT be regained.
