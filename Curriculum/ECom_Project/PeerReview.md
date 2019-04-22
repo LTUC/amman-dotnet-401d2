@@ -1,11 +1,11 @@
 
-# Peer Review #1
+# Peer Review #1 (30 points)
 
 Before submitting, read the document, in it's entirety. 
 
-Read [this article](https://www.processimpact.com/articles/humanizing_reviews.pdf) (it's long, but worth it. dedicate 30 minutes to absorb and understand it's contents)
+Read [this article](https://www.processimpact.com/articles/humanizing_reviews.pdf){:target="_blank"}  (it's long, but worth it. dedicate 30 minutes to absorb and understand it's contents)
 
-Once completed, read [this article and the comments](https://blog.codinghorror.com/code-reviews-just-do-it/). Pay special attention to the comments. The discussion happening within these comments is fascinating and accurate on what to expect with the importance of code reviews. 
+Once completed, read [this article and the comments](https://blog.codinghorror.com/code-reviews-just-do-it/){:target="_blank"}  Pay special attention to the comments. The discussion happening within these comments is fascinating and accurate on what to expect with the importance of code reviews. 
 
 ## Read
 
