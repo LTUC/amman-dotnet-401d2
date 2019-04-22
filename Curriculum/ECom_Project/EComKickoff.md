@@ -20,4 +20,19 @@ Each sprint is broken down into 3-4 days worth of milestones, with each mileston
 This project will provide an insight of building a project from "zero to hero". Work together with your team, practice your communication and project management skills, and have fun! Throughout each sprint, you will be required to predict your time management as well as reflect on 
 
 
+## Project Structure
+The project will be broken up into 3  sprints. Each sprint consists of 4 or 5 class days.
+
+Sprints will end on Fridays (Mon-Thursday Lectures), in which you will also have your weekly check-in. 
+
+Every Monday and Wednesday you will do a "Goals" post within your team. You will write down your goals for the next couple days. This includes what user stories you hope to accomplish and any other tasks you think are feasible.
+
+Every Wednesday and Friday you will report on reflections within a discussion post. In this post you will reflect on what you did, what you could have done better, and how you plan to improve your process. 
+
+Review the Goals/Reflections assignments below for more details on what is required. 
+
+At the end of each week, you will conduct a Peer Review on a few of your partner's user stories. Be sure to understand what exactly was completed and input any feedback or suggestions for optimizations or alternative approaches. Remember, this is just feedback and review -- keep it respectable and professional. 
+
+Really use this project as an opportunity to ask questions, learn what it's like to work on a team with a full Agile process, and have fun with it! 
+
  
