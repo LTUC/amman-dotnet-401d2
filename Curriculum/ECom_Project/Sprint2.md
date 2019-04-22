@@ -20,74 +20,24 @@ The instructional staff will review your current master branch in VSTS/Azure Dev
 
 **Only push to master on sprint check-ins**
 
-## Checkin
 
-Upon completion of this sprint, Your E-Commerce site should contain the following:
-
-1. MVC website with basic configurations
-2. DB Context with products seeded into a SQL Server database
-3. Repository Design Pattern properly setup and integrated into your site (interface with Startup.cs registration)
-1. Home Page
-   - Introduction to your site
-   - Anonymous accessibility
-2. Login Page
-   - Login to an existing account
-   - Anonymous accessibility
-   - Option to login with at least two 3rd party service providers (OAUTH)
-3. Registration Page
-   - Create an account
-   - Anonymous accessibility
-   - Capture custom claims
-5. Shopping Page
-   - Shows all products in inventory for users to browse
-   - Anonymous accessibility
-6. Product Landing Page
-   - Displays individual information about each product
-   - Anonymous Access
-7. Basket Page
-   - View all items in the basket. Allow ability to edit/remove the item.
-   - Must be logged in/Authorized
-9. Receipt/Order Confirmation Page
-   - Must be logged in/Authorized
-   - Summary of the order that the user just completed.
-6. Custom claims based policy implemented and registered and used in the site
- 
-
-### Shared
-- CSS/HTML
-- Deployed to Azure
-- Your readme should contain the following:
-- Readme should contain the following:
+### README REQUIREMENTS
+Your readme should contain the following:
+  - Link to your deployed website
   - What is the product you are selling?
   - What claims are you capturing? Why?
   - What Policies are you enforcing? Why?
-  - What OAUTH providers did you choose
   - Structure/Database Schema for your store DB (not identity)
   - Explanation of your DB Schema (mostly interested in your basket/order tables)
-  - Link to your deployed website
   
 
-### Graded Requirements:
-Grades are distributed separately per student:
-
-1. View Component (Mini basket on at least 2 different pages) - 10pts
-2. OAUTH - at least two 3rd party service providers - 10pts
-3. SendGrid email integration on registration and order confirmation - 10pts
-4. Basket Page shows all current products in basket && each product landing page has an "Add to Basket" button - 10pts
-5. Receipt page exists with order summary and grand total of all items - 10pts
-6. HTML/CSS both polished from Sprint 1 and exists in new sprint 2 pages - 10pts
-7. Deployed and functional w/ readme. Meets all the requirements listed above in required pages - 10pts
-9. Each Partner participated in a fair share of the work 
-    - i.e. Each partner did their assigned user stories
-		- It's okay if one partner helped the other out with a few stories. That is encouraged if it's needed. I am primarily making sure that each person did their "fair share" of the sprint. Do not make your partner do all the work to stay on task. 
-	- If the distribution is significantly uneven, or one partner did not (approx.) evenly contribute, **they will lose 20%** from the sprint. These points cannot be regained. 
-  
-
-**If you are missing all or the sprint 2 part of your readme documentation,  you will lose an additional 20%**. 
-- The readme is important because it helps the instructional team grade your site. it is their guide/map
+The readme is important because it helps the instructional team grade your site. it is their guide/map
 to your configuration and settings of your web application. 
 
-Total: 70 pts
+
+### Graded Requirements:
+Grades are distributed separately per student. Refer to the rubric below for evaluation
+
 
 ## Rubric
 
@@ -126,3 +76,6 @@ Readme contains an introduction to the web application. Site contains all requir
 
 #### Azure DevOps Process (30 points)
 Azure DevOps tool is properly maintained. User stories assigned to each member are properly filled out, including time estimation, tasks, branches, description, and acceptance tests. 50% of these points are for both partner's overall maintenance of the KanBan board, 50% of these points are dedicated to each individual partner for specific maintenance. These points CANNOT be regained.
+
+#### Even Workload (-20% deduction)
+All User stories and work completed within this sprint was approx even between all partners. Partners properly communicated with each other and no major conflicts were present during sprint. (up to a 20% deduction to overall sprint will be applied if necessary). These points cannot be regained.
