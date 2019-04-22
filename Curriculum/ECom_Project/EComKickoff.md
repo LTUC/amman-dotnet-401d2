@@ -17,7 +17,7 @@ The client has given you a timeline of 4 weeks to delivery. You have broken this
 
 Each sprint is broken down into 3-4 days worth of milestones, with each milestone containing specific user stories. It is your job to work within your team and implement each of these user stories to build out the e-commerce store. To assist with your project management, you and your team have opted into using Azure Dev Ops to assist with the maintenance of the project. 
 
-This project will provide an insight of building a project from "zero to hero". Work together with your team, practice your communication and project management skills, and have fun! Throughout each sprint, you will be required to predict your time management as well as reflect on 
+This project will provide an insight of building a project from "zero to hero". Work together with your team, practice your communication and project management skills, and have fun!
 
 
 ## Project Structure

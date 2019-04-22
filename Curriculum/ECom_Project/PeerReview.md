@@ -22,8 +22,8 @@ When creating your peer review for your partner, include the following:
 	- Describe the input/output of the requests
 	- Why is this code important/needed
 4. Do you see any bugs/issues within the code?
-5. Can you suggest any changes or refactoring to the code? 
-6. Would you suggest anything to be done differently?
+5. What did you like about the implementation? Please elaborate on why. 
+6. Would you suggest anything to be done differently? How would you refactor?
 
 Review the list below of the user stories you can conduct a review on:
 
