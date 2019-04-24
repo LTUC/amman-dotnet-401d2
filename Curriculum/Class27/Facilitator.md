@@ -1,6 +1,7 @@
 # Class 27
 
 ## How do I prep for today?
+Introduce Identity. Review the Identity guide in the Resources folder. 
 
 ## What changed from yesterday? 
 

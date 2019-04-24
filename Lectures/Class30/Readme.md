@@ -3,7 +3,7 @@ Re# ![cf](http://i.imgur.com/7v5ASc8.png) Class 30: Identity Day 1
 
 ### Demo
 1. Start with a precreated template. 
-2. Go through each of hte main sections that highlight the usage of each of the new code base
+2. Go through each of the main sections that highlight the usage of each of the new code base
 3. It already has bootstrap enabled, 
 
 # Assignments

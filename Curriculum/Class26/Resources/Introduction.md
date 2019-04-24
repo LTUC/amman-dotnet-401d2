@@ -2,8 +2,27 @@
 
 
 ## What is Identity
-Identity is the ability to add Authentication and Authorization to your web application. This includes registrations, logins, restricted access to specific members, and 
-authentication through Facebook, Google, Twitter, etc...
+Identity is the ability to add Authentication and Authorization to your web application. This includes registrations, logins, restricted access to specific members, and authentication through Facebook, Google, Twitter, etc...
+
+
+ASP.NET Core Identity was created to help with the security and management of users.
+It provides this abstraction layer between the application and the users/role data. 
+We can use the API in it's entirety, or just bits and pieces as we need (such as the salting/hashing by itself) or email services. 
+Combines well with EFCore and SQL Server. 
+
+There is a lot of flexibility within ASP.NET Core Identity. We have the ability to take leave whatever we want. 
+
+Let's open up with some very basic definitions:
+
+### Authentication
+
+Authentication is the process of determining **Who you are**
+
+### Authorization
+
+Authorization revolves around **what you are allowed to do**
+Example is permissions. 
+
 
 ## Demo
 
@@ -26,6 +45,8 @@ authentication through Facebook, Google, Twitter, etc...
 ```
 
 1. Create an AccountController and add a Register and Login actions
+
+1. Create a Registration
 
 ### Sources:
 [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x)
