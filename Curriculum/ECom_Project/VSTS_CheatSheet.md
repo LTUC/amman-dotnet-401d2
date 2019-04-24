@@ -28,7 +28,7 @@ Create a new sprint at the beginning of each sprint. To create a new sprint, fol
 ### Create a User Story/Work item
    - Go to Work Items
    - select "Add Work Item" and select "User Story"
-   - Fill out the title with as "Milestone ## - {Short Title of User Story}"
+   - Fill out the title with as "Milestone##-US##-{DescriptionOfFeature}"
    - In the description, transfer the user story (I, as a ..., want to ..., so that...)
    - In the same description box, on a new line under the user story, provide a short description of what is expected for this user story.
    - In the "iteration" drop down, select "Sprint 1"
@@ -67,7 +67,7 @@ When you are ready to start working on a User Story
   - Select a specific task you are going to work on first
   - in the top right hand corner of the pop-up you will see an ellipses (...) 
   -  Upon selection choose the option that says "New Branch"
-  - Name your new branch in the following format `UserStory:##-ShortNameOfFeature`
+  - Name your new branch in the following format `US##-TASK##-{DescriptonOFTask}`
   - link the Branch to the task you are building
   - Select create Branch
    

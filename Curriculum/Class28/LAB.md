@@ -30,7 +30,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 	- Favorite Disney Movie (Frozen or Brave?)
 
 
-**User Story 3:** Add some HTML and CSS to your home page. Customize it so that it is tailored to your product you are selling. some ideas may be to "feature" products on your homepage! Have fun, make it look professional. 
+**User Story 3:** Add some HTML and CSS to your home page. Customize it so that it is tailored to your product you are selling. some ideas may be to "feature" products on your homepage! Have fun, make it look professional. In addition, add navigation to all of your external pages. 
 
 **User Story 4:** Within your Homepage, include a link to easily Register or Login. Traditionally, these are located in your homepage navigation. This link can just redirect to the appropriate page. We will build onto this functionality once the user is logged in during Milestone 3, so don't stress about customizing the login/logout experience just yet. 
 
