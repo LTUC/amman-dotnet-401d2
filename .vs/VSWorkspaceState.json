@@ -2,16 +2,18 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution",
-    "\\Curriculum\\Class11\\Solution\\TimePersonSolution\\TimePersonSolution\\Models",
-    "\\Curriculum\\Class12",
-    "\\Curriculum\\Class13",
-    "\\Curriculum\\Class14",
-    "\\Curriculum\\Class14\\Resources",
-    "\\Curriculum\\Class14\\Solution",
-    "\\Curriculum\\Class14\\Solution\\EnrollmentSolution"
+    "\\Curriculum\\Class26",
+    "\\Curriculum\\Class27",
+    "\\Curriculum\\Class27\\Resources",
+    "\\Curriculum\\Class29",
+    "\\Curriculum\\Class36",
+    "\\Curriculum\\Class36\\Resources",
+    "\\Curriculum\\ECom_Project",
+    "\\Curriculum\\Projects\\AsyncInn",
+    "\\Curriculum\\Projects\\AsyncInn\\AsyncInn",
+    "\\Curriculum\\Projects\\AsyncInn\\AsyncInn\\Controllers",
+    "\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class14\\Solution\\EnrollmentSolution\\EnrollmentSolution.sln",
+  "SelectedNode": "\\Curriculum\\ECom_Project\\Sprint2.md",
   "PreviewInSolutionExplorer": false
 }

@@ -30,7 +30,7 @@ This is the end of sprint 1. please refer to the Sprint 1 assignment to confirm 
 - Register the policy with dependency injection by giving it a lifecycle attribution
 
 
-**User Story 2:** Another claim based policy is to only allow people to certain parts of the site if a specific claim exists. It doesn't necessarily matter the value of the claim, just that they have it attached to their profile. An example could be "Any user who has the claim of "LovesCats" can access a specific part of the site that is specific to cat lovers. Provide a link on your hompage to this custom page
+**User Story 2:** Enforce the claim from User Story 1 by creating a page that is only accessible by those who meet the requirements of the policy from US1. Don't forget to add the `[Authorize(Policy="{NAME OF POLICY}")]' at the top of the controller. 
 
 **User Story 3:** This is essentially just a Shopping page. This is where the user can browse the store. This can be a "ShopController" and it will display all the possible products that currently exist in the inventory.
 
