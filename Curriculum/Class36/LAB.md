@@ -8,8 +8,6 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 
 ## Directions:
-
-Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
  
 
 ## User Stories & Guidance:

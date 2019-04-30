@@ -6,10 +6,6 @@ Your whole workflow will live in Azure Dev Ops. Use this tool to store your proj
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
-## Directions:
-
-Each milestone will be worth 10 points within the sprint. The grading rubric is specified at the bottom.
- 
 
 ## User Stories & Guidance:
 

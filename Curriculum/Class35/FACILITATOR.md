@@ -1,6 +1,7 @@
 # Class 35
 
 ## How do I prep for today?
+1. Graphs/Review/DS
 
 ## What changed from yesterday? 
 
