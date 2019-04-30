@@ -69,7 +69,7 @@ Receipt page consists of an itemized list of all products that the user has "pur
 A welcome email is sent to the user upon a new registration. A receipt email is also sent to the user after the "checkout" process from the basket page. Each email is fitting to the problem domain, and formatted professionally. The email consists of a custom greeting and personalization. 
 
 #### User Experience (10 points)
-HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.
+HTML/CSS/SCSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.
 
 #### Readme & Documentation (10 points)
 Readme contains an introduction to the web application. Site contains all required questions as well as a link to the deployed site. All contributors are referenced and cited within the ReadMe. **NO POINTS WILL BE GIVEN FOR THE ASSIGNMENT IF DEPLOYMENT LINKS ARE NOT PRESENT OR IS NOT FUNCTIONAL*
