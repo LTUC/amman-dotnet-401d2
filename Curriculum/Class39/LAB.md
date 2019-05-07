@@ -11,9 +11,19 @@
 
 ## Directions
 
-## Specs
+## User Stories & Guidance:
 
-## Tests
+1. (Developer 1) As a developer, I would like to integrate Azure Blob Storage into my current project to store my product images
+2. (Developer 2) As a user, I would like to upload product images to Azure Blog Storage when adding or updating a product. 
+
+
+### Guidance
+
+**User Story 1**: Utilizing what was taught in class, integrate Azure Blob Storage into your application. Consider creating a new model for BLOB storage manipulation directly.Use the demo code as an outline.  
+
+**User Story 2**: If you don't already have a ProductsController, you will need one. This can be scaffolded out if you wish, but in the event you are not comfortable or do not like templated code, create it yourself and allow the ability to upload images directly to Azure Blob using an upload functionality.
+
+You will need to inject `userManager` into your razor page to get basic information about the user.
 
 ## README
 
