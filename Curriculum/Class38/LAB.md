@@ -23,7 +23,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 **User Story 2:** When the user logs in, check the roles that they are associated with. If they are an admin, redirect them to the admin dashboard instead of the home page. 
 
 
-**User Story 3:** Within the Admin dashboard, Create a link to redirect you to a new page (make this a razor page with a page model) that will add the ability to do standard CRUD operations on products. This includes create,get, update, and remove products from your inventory. Use your IProduct interface that you created earlier. A stretch goal would be to add the ability to track the inventory of products. 
+**User Story 3:** Within the Admin dashboard, Create a link to redirect you to a new page (make this a razor page with a page model) that will add the ability to do standard CRUD operations on products. This includes create,get, update, and remove products from your inventory. Use your IProduct interface that you created earlier. Within your Update and Add products, be sure ot add the ability to upload or update the product image :)  A stretch goal would be to add the ability to track the inventory of products. 
 
 
 **User Story 4:**  Within the Admin dashboard, add the ability for the admin to see the last 10 orders that were submitted. The admin should be able to quickly see:

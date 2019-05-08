@@ -1,39 +1,49 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 37: Sprint 3 - Milestone #2
+![cf](http://i.imgur.com/7v5ASc8.png) Lab : Sprint 3 Milestone 2
 =====================================
 
 ## To Submit this Assignment
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- write your code
+- push to your repository
+- submit a link to your Repo in canvas
+- Include a `README.md` (contents described below)
 
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
-
-## Directions: 
+## Directions
 
 ## User Stories & Guidance:
 
-1. (Developer 1) As a developer, I would like to have a personal profile page that will display my basic information
-2. (developer 2) As a user, I would like to view my last 5 orders I have created from the site
-3. (Developer 1 & 3) As a user, I would like to have the ability to change my password 
+1. (Developer 1 & 2) As a developer, I would like to integrate Azure Blob Storage into my current project to store my product images
+2. (Developer 1 & 2) As a developer, I would like to update my seeded data for my database to point images to the Azure Blob URIs instead of local assets 
 
 
 ### Guidance
 
-**User Story 1**:Â Using .NET Core Razor Pages, create a personal profile page that a logged in user can easily access. The user profile should 
-contain the ability for the user to:
-1. Change their first name
-2. View their email (don't let the user change it)
+**User Story 1**: Utilizing what was taught in class, integrate Azure Blob Storage into your application. Consider creating a new model for BLOB storage manipulation directly.Use the demo code as an outline.  
+
+**User Story 2**: Update your seeded data in your DBContext individual product items to point to the URI from Azure Storage. This will also require you to manually upload you 10 products to your Storage account and grab the URIs. 
 
 You will need to inject `userManager` into your razor page to get basic information about the user.
 
+## README
 
-**User Story 2:** Within the user profile, the user should be able to view their last 5 orders that they have placed. Much like the admin dashboard, allow the user to view the individual details of each order.
+**A Readme is a requirement. No Readme == No Grade.** <br />
+Here are the requirements for a valid readme: <br />
 
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+<br />
+Your job is to
 
-**User Story 3:**  Explore the `SignInManager` and implement the ability to change the password of the user. Be sure that the user confirms their password when changing it to make sure they typed it in correctly. 
+1. tell them what it is (with context, provide a summary)
+2. show them what it looks like in action (Visuals)
+3. show them how they use it (Step by step directions, "Happy Path" walk through)
+4. tell them any other relevant details
+<br />
 
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
-## Tests
-
-Continue to test your basic CRUD operations within your services
+<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
 
 ## Rubric
