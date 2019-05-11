@@ -11,6 +11,7 @@ Data Structure Challenge
  Commit Often. 
 - The problem statements are in cases vague in order for you to clarify your understanding of the problem with your instructional team.
 - Each challenge will be a new entry into your `Challenges` folder in your `Data Structures and Algorithms` repo. Update your table of contents and submit a ***single*** PR that contains all of your challenges. 
+- You may receive up to 5 Extra Credit points max by doing an additional 10 points worth of coding challenges. 
 
 ## Problem Set
 
