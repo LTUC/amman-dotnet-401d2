@@ -1,15 +1,14 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Razor Pages
+Data Structure Challenge
 =====================================
 
 ## Instructions
 
 - Select and complete enough code challenges to accumulate 10 points. (or more!)
 - Every challenge is worth a specified amount of points related to its complexity.
-- Follow the traditional whiteboard process and submission instructions in order to plan and prepare to code each challenge.
-    - If you don't have a whiteboard at hand, you can submit a picture of a drawing on a piece of paper.
-    - Include unit tests with your code submissions. (write tests to confirm all basic functionality and 1 or 2 edge cases)
-    - A readme is required. Provide the same basic information included as a coding challenge (including time and efficiency!)
-	- Commit Often. 
+- Implement each challenge into Visual Studio within separate console applications. If you wish to do a whiteboard, you may. 
+- Include unit tests with your code submissions. (write tests to confirm all basic functionality and 1 or 2 edge cases)
+- A readme is required. Provide the same basic information included as a coding challenge (including time and efficiency!)
+ Commit Often. 
 - The problem statements are in cases vague in order for you to clarify your understanding of the problem with your instructional team.
 - Each challenge will be a new entry into your `Challenges` folder in your `Data Structures and Algorithms` repo. Update your table of contents and submit a ***single*** PR that contains all of your challenges. 
 
