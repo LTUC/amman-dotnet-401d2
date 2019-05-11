@@ -19,7 +19,7 @@
 
 ### Guidance
 
-**User Story 1**: Utilizing what was taught in class, integrate Azure Blob Storage into your application. Consider creating a new model for BLOB storage manipulation directly.Use the demo code as an outline.  
+**User Story 1**:Â Utilizing what was taught in class, integrate Azure Blob Storage into your application. Consider creating a new model for BLOB storage manipulation directly.Use the demo code as an outline.  
 
 **User Story 2**: Update your seeded data in your DBContext individual product items to point to the URI from Azure Storage. This will also require you to manually upload you 10 products to your Storage account and grab the URIs. 
 
@@ -31,7 +31,8 @@ You will need to inject `userManager` into your razor page to get basic informat
 Here are the requirements for a valid readme: <br />
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
+
+
 Your job is to
 
 1. tell them what it is (with context, provide a summary)
