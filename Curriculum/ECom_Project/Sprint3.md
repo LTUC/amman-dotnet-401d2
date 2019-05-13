@@ -61,7 +61,7 @@ Admin dashboard is present within the application. Admins are redirected to the 
 
 
 #### Profile Page (10 points)
-Personal Profile page exists and is accessible to useres. They can view their personal information (not change their email). view the last 5 orders that were submitted, and change their password. 
+Personal Profile page exists and is accessible to users. They can view their personal information (not change their email). view the last 5 orders that were submitted, and change their password. 
 
 
 #### User Experience (10 points)

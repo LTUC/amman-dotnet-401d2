@@ -3,7 +3,7 @@ This is your final submission for your Ecommerce site.
 your Final Ecommerce site must be transferred to GH with your
 history of commits. See below on how to do this.
 
-In addition to your final, please provide **explicitly what you would like re-graded from sprint 2** within the canvas text submission. 
+In addition to your final, please provide **explicitly what you would like re-graded from sprint 3** within the canvas text submission. 
 
 There will be no resubmits available for this Project. Keep an
 eye on the due and close date. **These are final.** 
@@ -18,7 +18,7 @@ In addition to the previous sprints, Please create a
 Vulnerability report: [Directions Here](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/VulnerabilityReport){:target="_blank"}
 
 
-## VSTS to Github:
+## Azure Dev Ops to Github:
 
 Following the directions located [HERE](https://help.github.com/articles/changing-a-remote-s-url/){:target="_blank"} Redirect your URL from VSTS To Github.
 You will likely have to create a repository first before redirecting. 
@@ -69,6 +69,7 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 - CSS/HTML
   - This should be polished. Make it look nice. ALL pages should have client/ready CSS.  
 - Exception and error handling. Make sure errors appear when incorrect data is submitted
+- The overall flow of each page should be finalized. Make this site as professional looking as possible. 
 - Deployed to Azure
 - Your readme should contain the following:
 - Readme should contain the following:
