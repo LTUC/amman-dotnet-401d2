@@ -3,10 +3,10 @@
 ## Introduction
 
 ### What is it
-The factory pattern is catagorized as a Creational Pattern.
+The factory pattern is categorized as a Creational Pattern.
 
 The concept behind the factory pattern is the creation of objects without exposing the creation logic.
-We utulize an interface to create an object, and let the subclasses decide which class to instantiate. 
+We utilize an interface to create an object, and let the subclasses decide which class to instantiate. 
 The creation is only done when it's required.
 
 There are 4 parts to a factory pattern:
@@ -14,8 +14,7 @@ There are 4 parts to a factory pattern:
 1. ***Product*** - this is an interface or abstract class for creating the objects
 2. ***Concrete Product*** - class which implements the product interface
 3. ***Creator*** - abstract class and declares the factory method, which returns an object of type *Product*
-4. ***Concrete Creator*** - The class that implemetns the Creator class adn overrides the factory method to return an instance of 
-the Concrete Product. 
+4. ***Concrete Creator*** - The class that implements the Creator class and overrides the factory method to return an instance of the Concrete Product. 
 
 
 ### Visual
@@ -27,12 +26,12 @@ Provide a couple of examples:
 #### Vehicle Factory
 1. Product - (interface) Drive
 2. Concrete Product - Scooter, Bike
-3. Creator - Vehichle Factory (GetVehichle)
-4. Concrete Creator - Concrete Vehichle Factory (gets a scooter or bike etc...)
+3. Creator - Vehicle Factory (GetVehichle)
+4. Concrete Creator - Concrete Vehicle Factory (gets a scooter or bike etc...)
 
 
 #### Sandwich Factory
-1. Product - Ingrediants
+1. Product - Ingredients
 2. Concrete Product - Lettuce, Tomato, Cheese, turkey, ham
 3. Creator - Sandwich
 4. Concrete Creator - Club Sandwich, Extreme Sandwich, PBJ Sandwich
@@ -116,7 +115,7 @@ class ConcreteCreator : Creator
 
 ```
 
-1. Create other pizza classes to inherit from pizzsa
+1. Create other pizza classes to inherit from pizza
 		1. Cheese
 		1. Pepperoni
 		1. Supreme
@@ -150,6 +149,8 @@ the modifiablity on this method is not ideal.
 Export all of the "if statement" pizza into an external "createPizza" method.
 This method should be located in a new class called "SimplePizzaFactory."
 The point of this pizza factory is to create the pizza. We are putting the responsiblity externally to create a pizza. not the order method.
+
+In order to create a pizza store, we have to define "who" is cooking the pizza.
 
 ```csharp
    public class SimplePizzaFactory
@@ -194,7 +195,7 @@ PizzaStore should now look like this:
 
 ```csharp
 SimplePizzaFactory factory;
-//PizzaStore gets the facotry passed into it as a constructor
+//PizzaStore gets the factory passed into it as a constructor
 public PizzaStore(SimplePizzaFactory pfactory)
 {
 	factory = pfactory
@@ -219,11 +220,11 @@ the simplefactory itself is not a design pattern. more of a best practice.
 
 We can now craete diffetent factories for diffenet types of stores. For example:
 
-1. Pizza store --> NYPizzaFactory (has it's onw pizza menu')
+1. Pizza store --> NYPizzaFactory (has it's own pizza menu')
 1. PizzaStore ==> ChicagoPizzaFactory
 
 ### Framework for the pizza store
-Since we can have more than one pizza store, we should make the pizzastore abstract. and then change the line to
+Since we can have more than one pizza store, we should make the pizza store abstract. and then change the line to
 
 
 `pizza = createPizza(type)` in the orderPizza method
@@ -308,11 +309,11 @@ public static void Main()
 
 ### Creator class
 
-PizzaStore - abstract creator class. it defines an abstract factory method that the subclasses implemt to produce products.
-Often, the crator class contains code that depends on an abstract product, which is producted by a subclass. the crate never really knows which concrfete prodcut was produced. 
-NYPizzaStore - creatPizza() method is our factory method. it produces the produts. 
+PizzaStore - abstract creator class. it defines an abstract factory method that the subclasses implement to produce products.
+Often, the creator class contains code that depends on an abstract product, which is a product by a subclass. the creator never really knows which concrete product was produced. 
+NYPizzaStore - creatPizza() method is our factory method. it produces the products. 
 
 ### Product class
-Pizza - factories proeduce products, and i nthe pizzastore, our product is a pizza
-CheesePizza - thse are the concrete products - all the pizzzas that are produced in oru stores. 
+Pizza - factories produce products, and in the pizzaStore, our product is a pizza
+CheesePizza - these are the concrete products - all the pizzas that are produced in our stores. 
 ...
