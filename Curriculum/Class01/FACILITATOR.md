@@ -7,10 +7,7 @@ Intro to C# and Exception Handling
 * Spend no more than 30 min with students reviewing the pre-work. Do a review about what they should have learned and applied to their lab that they were instructed to create. 
  
 ## Learning Objectives
-* The student will successfully request user input and output a response to the console.
-* The student will implement try-catch statements as a form of exception handling within their code.
-* Set-up a debugger within Visual Studio 2017
-* Understand and be comfortable with debugging through code to identify potential bugs and errors. 
+Review student facing readme.
 
 ## How do I prep for today?
 - The Readme.md for this directory is what should be student facing in the class repo.
@@ -18,11 +15,12 @@ Intro to C# and Exception Handling
 
 Before Class:
 1. If you are an afternoon lecture time, give the students the [Calculator Assignment](Calculator.md) before class. This assignment should
-be graded based off of weather or not a healthy attempt was made. It should only take them 2-3 hours to complete. 
+be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. 
 
 Lecture Outline:
 
 1. Introduction to C# and ASP.NET (30 min)
+	- [Reference](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
 2. Different types in the language (30 min)
 	- Types Lecture located [here]("../Resources/Types.md")
 3. Exception Handling (90 min) 

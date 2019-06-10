@@ -1,6 +1,4 @@
 # Final E-Commerce Rubric 
- 
-### List of all eCom projects located [here]()
 
 ### Home Page - 5pts
 Introduction to the product. Able to easily tell what product is being sold. The layout is clean, professional. The Homepage consists of a Register/Login button, and basket link, as well as a personalized greeting for the user logged in.

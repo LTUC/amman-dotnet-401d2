@@ -2,18 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class36",
-    "\\Curriculum\\Class37",
-    "\\Curriculum\\Class37\\Resources",
-    "\\Curriculum\\Class39",
-    "\\Curriculum\\Class39\\Resources",
-    "\\Curriculum\\Class40",
-    "\\Curriculum\\Class41",
-    "\\Curriculum\\Class42",
-    "\\Curriculum\\Class42\\Resources",
-    "\\Curriculum\\Class43",
-    "\\Curriculum\\Class44"
+    "\\Curriculum\\Class01",
+    "\\Curriculum\\Class01\\DemoCode",
+    "\\Curriculum\\Class01\\Resources",
+    "\\Curriculum\\Class02",
+    "\\Curriculum\\Class02\\Resources",
+    "\\Curriculum\\Class03",
+    "\\Curriculum\\Class04",
+    "\\Curriculum\\Class04\\StarterCode"
   ],
-  "SelectedNode": "\\Curriculum\\Class38\\READINGS.md",
+  "SelectedNode": "\\Curriculum\\Class04\\StarterCode",
   "PreviewInSolutionExplorer": false
 }

@@ -1,18 +1,6 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Lab 01: Numbers Game
 =====================================
 
-## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back to master
-- Submit a link to your PR in canvas
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described below)
-
 ## The Problem Domain
 Within a new .NET Core console application, follow the instructions below to create a math game that takes user input, manipulates data, and utilizes error handling, by following the given the specifications. 
 
@@ -153,3 +141,15 @@ Provide setup documentation
 ## Rubric
 
 The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+
+## To Submit this Assignment
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back to master
+- Submit a link to your PR in canvas
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described below)

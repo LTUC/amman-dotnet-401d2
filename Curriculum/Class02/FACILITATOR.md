@@ -6,10 +6,7 @@
 * The documentation portion shows an example of what the readme documentation should look like, as well as comments within code.
 
 ## Learning Objectives
-* Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach. 
-* The students will understand and implement code coverage within their programs when testing
-* Students will include intuitive comments within their code
-* Students will setup readme documentation for each assignment given a specific format
+See student facing readme.
 
 
 ## How do I prep for today?

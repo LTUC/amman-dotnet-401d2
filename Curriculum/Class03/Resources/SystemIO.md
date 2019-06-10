@@ -15,27 +15,27 @@ The *O* stands for Output
 
 ## File Class
 
+### Finding your file
+
+By default, the root of your project is located in your `\bin\Debug\netcoreapp2.0` location. This is the same location where your `.dll` gets generated, which is why they consider this the default root. 
+
+We can make this file more accesible though by moving it up the 3 levels. Simply make your filePath to `../../../myFile.txt` and your newly created file will appear right under your `Program.cs` file. 
+
 ### Writing a File
+
 There will be times, where we will need to write to an external file. This can be done
 by using the SystemIO.File.WriteAllText() method. This Method takes in 2 arguments
-first being the file path, and the second the string/information to write. 
+first being the file path, and the second the string/information to write. The cool part about the `File.WriteAllText()` method is that it will automatically create the file for you if it doesn't already exist.  
 
 ```csharp
-string myInfo = "I want to write all of this to a file";
-File.WriteAllText("/path/to/file.txt", myInfo);
+static void WriteAllText(string filePath)
+{
+    string myInfo = "The time has come, the walrus said....";
+    File.WriteAllText(filePath, myInfo);
+}
 ```
+If you choose to re-run the program, the text will be simply overwritten from the previous attempt. We will talk about "adding" to the file a little later....
 
-You can also send an array to the `File.WriteAllLines()` method to write from an array.
-When you write from an array, each index is it's own line. 
-
-```csharp
-string[] myArray = new string[2];
-myArray[0] = "My first line of information";
-myArray[1] = "My second line of information";
-
-File.WriteAllText("/path/to/file.txt",myArray);
-
-```
 
 ### Reading a File
 
@@ -43,16 +43,47 @@ If you want to read contents of a file into a program, you can use the `File.Rea
 This method takes in just one argument, the file that you wish to consume. 
 
 ```csharp
-string myFile = File.ReadAllText("/path/to/file.txt");
+static void FileReadAllText(string path)
+{
+    string myFile = File.ReadAllText(path);
+    Console.WriteLine(myFile);
 
+}
 ```
 
 If you want to read all the contents of a file into an array, you can do so with 
 the `File.ReadAllLines()` method. This also only takes in one argument, the file that you wish to consume. 
 
 ```csharp
-string[] myFile = File.ReadAllLines("/path/to/file.txt");
+static void FileReadAllLines(string path)
+{
+    string[] myFile = File.ReadAllLines(path);
+    for (int i = 0; i < myFile.Length; i++)
+    {
+        Console.WriteLine(myFile[i]);
+    }
+}
+```
 
+### Appending Text to a file
+
+To append text to a file, we can do it either by adding an of lines, or just individual strings.
+
+To add a full array to a text file (each index is it's onw line):
+
+```
+static void FileAppendText(string path)
+{
+    string[] words = {
+        "to think of many things!",
+        "of ships and shoes and ceiling wax",
+        "and cabages and kings!"
+    };
+    File.AppendAllLines(path, words);
+
+    string phrase = "Cat in the Hat!";
+    File.AppendAllText(path, phrase);
+}
 ```
 
 #### Writing/Reading to a CSV
@@ -145,18 +176,19 @@ used for either input or output to a file.
                1. in this case, we are creating a txt file from the path noted, and writing to the file with a message.
                1. `Write()` is a class within the Filestream Class within System.IO
   
-   1. Scenario #2: File Already exists, not i just need to find and read it in! 
+   1. Scenario #2: File Already exists, now  i just need to find and read it in! 
       1. Read the file in
-       ```csharp
-        using (StreamReader sr = File.OpenText(path))
-        {
-           string s = "";
-           while ((s = sr.ReadLine()) != null)
-           {
-             Console.WriteLine(s);
-            }
-        }
-         ```
+
+```csharp
+using (StreamReader sr = File.OpenText(path))
+{
+    string s = "";
+    while ((s = sr.ReadLine()) != null)
+    {
+        Console.WriteLine(s);
+    }
+}
+    ```
       -OR-
     ```csharp
         string[] worrds = File.ReadAllLines(path);
@@ -170,19 +202,21 @@ used for either input or output to a file.
                     }
          ```    
       1. Delete a file:
-         ```csharp
-            File.Delete(completePath);
-            ```
-      1. Copy a file from one location to another
-         ```csharp
-            string fileName = "test.txt";
-            string sourcePath = @"C:\Users\Public\TestFolder";
-            string targetPath =  @"C:\Users\Public\TestFolder\SubDir";
 
-             // Use Path class to manipulate file and directory paths.
-            string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
-            string destFile = System.IO.Path.Combine(targetPath, fileName);
-           ```
+```csharp
+File.Delete(completePath);
+```
+
+      1. Copy a file from one location to another
+```csharp
+string fileName = "test.txt";
+string sourcePath = @"C:\Users\Public\TestFolder";
+string targetPath =  @"C:\Users\Public\TestFolder\SubDir";
+
+    // Use Path class to manipulate file and directory paths.
+string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
+string destFile = System.IO.Path.Combine(targetPath, fileName);
+```
 
           ```csharp
           // To copy a file to another location and 
