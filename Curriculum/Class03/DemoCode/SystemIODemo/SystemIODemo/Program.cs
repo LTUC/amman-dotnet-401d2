@@ -53,7 +53,7 @@ namespace SystemIODemo
             string[] words = {
                 "to think of many things!",
                 "of ships and shoes and ceiling wax",
-                "and cabages and kings!"
+                "and cabbages and kings!"
             };
             File.AppendAllLines(path, words);
 

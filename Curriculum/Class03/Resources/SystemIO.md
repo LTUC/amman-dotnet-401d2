@@ -249,14 +249,7 @@ string destFile = System.IO.Path.Combine(targetPath, fileName);
         System.Console.WriteLine(s);
     }
     ```
-
-
-## Binary Files
-There are alternative options then to write to text based files. Within the File Class, you have the ability to write to a binary file. 
-When the content is in binary format, you will be unable to open it up in a text editor and comprehend the data. 
-
-The advantages of binary files is that they take up less space then text based files and the file is not readable by humans, allowing your data
- to be semi-protected. 
+ 
 
 ### Writing a file
 
