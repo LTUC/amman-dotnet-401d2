@@ -57,7 +57,7 @@ This method is given to you. Do not change the method signature.
 		- arguments: integer product 
 	8. 	To complete the method, output to the console the details of all these values. Have your output be similar to the following example (Pay attention to line breaks!):
 	
-![LabExample](LabExample.png)
+![LabExample](../LabExample.png)
 
 3. Exceptions expected: 
 	- Format Exception
