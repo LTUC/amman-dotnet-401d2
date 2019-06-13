@@ -133,16 +133,5 @@ namespace ATMTests
             Assert.Equal(100, Program.Balance);
         }
 
-        [Fact]
-        public void CannotDepositNegativeAndrew()
-        {
-            Program.Balance = 200.00;
-
-            decimal result = Program.DepositAndrew(-50);
-
-            Assert.Equal(200, result);
-
-        }
-
     }
 }

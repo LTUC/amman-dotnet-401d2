@@ -109,4 +109,4 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 

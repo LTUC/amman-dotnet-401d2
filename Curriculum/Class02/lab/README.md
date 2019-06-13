@@ -16,7 +16,7 @@
 
 
 ## The Problem Domain
-- Create a bank "ATM" program within a console application with VS2017
+- Create a bank "ATM" program within a console application
 
 
 ## Program Specificaitons
@@ -74,4 +74,4 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 

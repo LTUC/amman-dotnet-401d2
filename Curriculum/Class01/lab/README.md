@@ -140,7 +140,7 @@ Provide setup documentation
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
