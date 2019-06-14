@@ -1,13 +1,13 @@
 ## Stack/Heap
 Both are stored on computers RAM
-    1. What is the Stack?
-       1. Imagine it like a stack of shoe boxes 
-       1. Keeps track of what is being executed in the code
-	   1. Variables allocated to the stack are stored directly to the memory, making it very fast for access.
-	   1. Allocated at compile time
-       1. Holds value types
-       1. Self-maintaining -takes care of it's own memory management
-	   1. static memory allocation
+   1. What is the Stack?
+      1. Imagine it like a stack of shoe boxes 
+      2. Keeps track of what is being executed in the code
+	  3. Variables allocated to the stack are stored directly to the memory, making it very fast for access.
+	  4. Allocated at compile time
+      5. Holds value types
+      6. Self-maintaining -takes care of it's own memory management
+	  7. static memory allocation
 
     1. What is the heap?
 	   1. Dynamic memory allocation 

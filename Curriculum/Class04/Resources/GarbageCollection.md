@@ -7,20 +7,21 @@ This memory has three things:
         3. the value of the variable.
 
 ### GC Conditions
-	Garbage Collection occurs when one of the following conditions becomes true:
-	1. System has low physical memory
-	2. the memory that is used by allocated objects on the managed heap surpasses an acceptable
+Garbage Collection occurs when one of the following conditions becomes true:
+  1. System has low physical memory
+  2. the memory that is used by allocated objects on the managed heap surpasses an acceptable
 	threshold. This threshold is continuously adjusted as the process runs.
-	3. The `GC.Collect` method is called.
+  3. The `GC.Collect` method is called.
 
 ### Advantages of GC
-	1. You don't need to free up memory manually while developing your application
-	2. It allocates objects on the managed heap efficiently
-	3. When objects are no longer used then it will reclaim those objects by clearing their memory
-	and keeps the memory available for future allocations
-	4. Managed objects automatically get clean content to start with, so their
+
+  1. You don't need to free up memory manually while developing your application
+  2. It allocates objects on the managed heap efficiently
+  3. When objects are no longer used then it will reclaim those objects by clearing their memory
+    and keeps the memory available for future allocations
+  4. Managed objects automatically get clean content to start with, so their
 	constructors do not have to initialize every data field.
-	5. It provides memory safely by making sure that an object cannot use the content
+  5. It provides memory safely by making sure that an object cannot use the content
 	of another object.
 
 
