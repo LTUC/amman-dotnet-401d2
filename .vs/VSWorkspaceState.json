@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class01",
-    "\\Curriculum\\Class01\\DemoCode",
-    "\\Curriculum\\Class01\\Resources",
-    "\\Curriculum\\Class02",
-    "\\Curriculum\\Class02\\Resources",
-    "\\Curriculum\\Class03",
+    "\\Curriculum\\Class03\\lab",
     "\\Curriculum\\Class04",
+    "\\Curriculum\\Class04\\lab",
+    "\\Curriculum\\Class04\\Resources",
+    "\\Curriculum\\Class04\\Solution",
     "\\Curriculum\\Class04\\StarterCode"
   ],
-  "SelectedNode": "\\Curriculum\\Class04\\StarterCode",
+  "SelectedNode": "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe",
   "PreviewInSolutionExplorer": false
 }
