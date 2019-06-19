@@ -134,7 +134,7 @@ You can also use a for loop to decrement a collection/list. The below example re
 
 ```
 
-#### ***Demo** - Let's create own own Generic Collection (List<T>):*
+#### ***Demo** - Let's create our own Generic Collection (List<T>):*
 
 To start us out, we don't actually have to use `T`. We can use whatever letter we want. It just has to stay consistent through the whole class. 
 
