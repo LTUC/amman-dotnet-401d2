@@ -26,17 +26,6 @@ why do you need them?
 
 Thinking back to the OOP principles, Polymorphism helps us utilize and understand interfaces a bit more. When we *implement* an interface onto a class, we are allowing any future functionality that requires that interface to accept the class, or its descendants to be used. With polymorphism, the class we have just implemented the interface on is now a specific "type" and we can treat it accordingly. 
 	 
-### Demo:
-- Build out a class (Person Class)
-- Build out an interface (IDrive)
-- Industry standard (starts with an "I")
-- add properties and methods to the interface
-- implement the interface on the class. (Person : IDrive)
-- add the missing methods and properties into the class
-- Create a method that takes in a Car as a parameter and allows the person do drive
-- Add a Boat the implements IDrive
-- Update the person Drive method to have the parameter as IDrive to allow for both.
-
 
 ## Interface References
 
@@ -83,6 +72,11 @@ if(x is Kitty)
 
 
 ## Example
+
+### Demo
+Walk through the Demo as listed. 
+
+### Overview
 Let's dive into an example that may show interfaces a bit more clearly.
 
 Imagine you have an application that creates automobiles. You structure your program so that it has an abstract Automobile class with a derived class

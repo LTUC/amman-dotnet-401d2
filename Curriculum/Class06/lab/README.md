@@ -14,7 +14,9 @@
 - Include a `README.md` (contents described below)
 
 ## The Problem Domain
-Build out a zoo.  Your program will instantiate each of your concrete animals, and prove that they are inheriting traits/features from their various parent classes.
+Build out a zoo.  Your program will instantiate each of your concrete animals, 
+and prove that they are inheriting traits/features from their various parent 
+classes.
 
 - This is part 2 of a 2 part assignment. 
 1. Create a minimum of 2 interfaces.
