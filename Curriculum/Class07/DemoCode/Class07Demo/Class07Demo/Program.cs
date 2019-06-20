@@ -1,5 +1,6 @@
 ﻿using Class07Demo.Classes;
 using System;
+using System.Collections.Generic;
 
 namespace Class07Demo
 {
@@ -8,26 +9,107 @@ namespace Class07Demo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //EnumExample();
 
-            Library<string> library = new Library<string>();
+            // GenericExample();
+            // DictionaryExample();
 
-            library.Add("Harry Potter");
-            library.Add("Horton Hears a Who");
-            library.Add("Hunger Games");
+            // CustomCollectionExample();
 
-            foreach (var item in library)
+        }
+
+        static void EnumExample()
+        {
+            Classes.DayOfWeek dow = Classes.DayOfWeek.Saturday;
+            Console.WriteLine($" Convert to int {(int)dow}"); // output 6
+            Console.WriteLine($" Convert to Day of Week { (Classes.DayOfWeek)6}"); // output Saturday
+        }
+
+
+        static void GenericExample()
+        {
+            List<string> myList = new List<string>();
+
+            myList.Add("Amanda");
+            myList.Add("Greg");
+            myList.Add("Meggan");
+            myList.Add("Jon");
+            myList.Add("Richard");
+            myList.Add("Evan");
+
+            // traverse through the list and output the items
+            foreach (string item in myList)
+            {
+                Console.WriteLine(item);
+            }
+
+            // Collection initializers
+            List<int> myNumbers = new List<int>
+            {
+                4,8,15,16,23,42
+            };
+
+            Console.WriteLine("============");
+            foreach (int number in myNumbers)
+            {
+                Console.WriteLine(number);
+            }
+
+            Console.WriteLine("===========");
+
+            myList.Remove("Greg");
+            Console.WriteLine("Removing Greg");
+
+            // traverse through the list and output the items
+            foreach (string item in myList)
             {
                 Console.WriteLine(item);
             }
 
 
-            
-            Library<string> secondLib = new Library<string>
+
+        }
+
+        static void DictionaryExample()
+        {
+            Dictionary<int, string> myDictionary = new Dictionary<int, string>();
+            myDictionary.Add(1, "Cat");
+            myDictionary.Add(2, "Dog");
+            myDictionary.Add(3, "Bird");
+
+            myDictionary.TryGetValue(3, out string answer);
+            Console.WriteLine(answer);
+
+        }
+
+        static void CustomCollectionExample()
+        {
+            NumberList<int> list = new NumberList<int>();
+            list.Add(4);
+            list.Add(8);
+            list.Add(15);
+            list.Add(16);
+            list.Add(23);
+            list.Add(42);
+
+            foreach (int number in list)
             {
-                "The Great Gatsby",
-                "Where the Red Fern Grows",
-                "Of Mice and Men"
+                Console.WriteLine(number);
+            }
+
+            NumberList<int> numbers = new NumberList<int>
+            {
+                1,2,3,4,5,6,7
             };
+
+            Console.WriteLine("========");
+
+            foreach (int number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+
+
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Class07Demo.Classes
 {
-    class Library<T> : IEnumerable
+    class NumberList<T> : IEnumerable
     {
         // Define an initial size of the array
         T[] items = new T[5];
@@ -13,7 +13,7 @@ namespace Class07Demo.Classes
         int count;
 
         // Add will put books into our above array. Keep the name "Add" because it will assist us in collection initializers
-        public void Add(T book)
+        public void Add(T item)
         {
             // Check if you need to resize your array
             if(count == items.Length)
@@ -21,7 +21,7 @@ namespace Class07Demo.Classes
                 Array.Resize(ref items, items.Length * 2);
             }
             // add the book to the array, and increment the counter
-            items[count++] = book;
+            items[count++] = item;
         }
 
         /// <summary>
@@ -37,7 +37,8 @@ namespace Class07Demo.Classes
             }
         }
 
-        // Magic Don't Touch
+        // Here for legacy code purposes from C# 1.0. This is required for the 
+        // IEnumarable interface.
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
