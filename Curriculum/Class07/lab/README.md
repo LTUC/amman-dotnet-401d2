@@ -16,24 +16,38 @@
 
 
 ## The Problem Domain
-Build out a Lending Library! Create your own Lending Library filled with Books. Make your Lending Library a generic collection, and your `Book` a separate class that holds appropriate properties and behaviors. In addition, remove items from the newly created library and place them into another generic collection (such as a `List<T>`) to prove the movement of the individual objects. 
+Build out a Lending Library! Create your own Lending Library filled with Books. 
+Make your Lending Library a generic collection, and your `Book` a separate class that holds 
+appropriate properties and behaviors. In addition, remove items from the newly created library and place them into another generic collection (such as a `List<T>`) to prove the movement of the individual objects. 
 
 
 ## Program Specifications
-- Your solution should include the following in your `Program.cs` file:
-1. The instantiation of the generic collection. 
-2. The instantiation of at *least 10 books* with the following properties
-	- Title
+- Your solution should include the following:
+1. 2 properties in your `Program.cs` file
+   - `Library<Book> Library`
+   - `List<Book> BookBag`
+1. Main method with the following:
+   - Instantiates your new library and Bookbag.
+   - A method to `LoadBooks()` that adds books to your Library. Create a minimum of 5. 
+   - Call to the `UserInterface` that prompts the user with different options:
+     - View all Books
+     - Add a Book
+     - Borrow a book
+     - Return a book
+     - View Book Bag
+     - Exit
+1. `Book` class that has:
+    - Title
 	- Author (Make Author it's own class with the appropriate properties)
 	- Genre (This should be an enum)
-3. Ability to add and remove books from the `Library<T>`
-4. Use a `foreach` loop on your created Library, and output each of the books to the console. 
-5. Call to the `Borrow()` method following the directions from below. 
+4. Appropriate methods for each of the options that the user interface is prompting for
 
 
 ## Guidance
 - Create a custom generic collection named `Library<T>`.
-- As we learned, under the hood, generic collections are arrays. Utilizing this concept, create a new generic collection (`Library<T>`) that dynamically resizes an array for all the specified methods described below.
+- As we learned, under the hood, generic collections are arrays. Utilizing this concept, 
+create a new generic collection (`Library<T>`) that dynamically resizes an array for all the 
+specified methods described below.
 - Your Generic collection should hold Books. (You will need to create a custom Book class)
 - Create an Enum to hold the different genres of book types
 - The methods within your `Library<T>` class should contain at minimum:
@@ -41,11 +55,62 @@ Build out a Lending Library! Create your own Lending Library filled with Books. 
 	2. Remove
 	3. Count (the total number of books in the library)
 
+- In your `Program.cs` have a method named `Borrow` that gets called from the user interface. 
+  - The `Borrow` method should bring in the title of the book
+  - traverse through the library until you find the book that you are looking for
+  - add the book to your `BookBag`
+  - remove the item from the library 
+  - You could possibly use similar logic for this as you do in `ReturnBook` (see below)
+- In your `Program.cs` have a method named `ReturnBook` that gets called from the user interface
+  - Create a `Dictionary<int, Book>` that adds each of the books in your BookBag into the dictionary with a counter as the key, and the book as the value.
+  output each of the titles to the console and have the user select which "number" they want to return. Add that `Book` back to your Library, and remove it from your BookBag.
 
-- In your `Program.cs` have a method named `Borrow` that gets called from `Main`. The `Borrow` method should output to the console all the books in the library, as well as distribute books amoungst two other standard generic `List<T>`s. Output to the console the books that are contained in each of the other two lists. 
+### Code Snippets
 
-- When running your application, it should activate a console that outputs an example for each of the custom methods within your Library. It should show what Books were added to the Library, information about what Book was removed, and then proof it is gone, as well as a final count of the number of books without any direct code manipulation from the grader. In addition to activating the `Borrow()` method. 
+here is my logic for my "ReturnBook"
 
+```csharp
+     static void ReturnBook()
+        {
+            Dictionary<int, Book> books = new Dictionary<int, Book>();
+            Console.WriteLine("Which book would you like to return");
+            int counter = 1;
+            foreach (var item in BookBag)
+            {
+                books.Add(counter, item);
+                Console.WriteLine($"{counter++}. {item.Title} - {item.Author.FirstName} {item.Author.LastName}");
+
+            }
+
+            string response = Console.ReadLine();
+            int.TryParse(response, out int selection);
+            books.TryGetValue(selection, out Book returnedBook);
+            BookBag.Remove(returnedBook);
+             Library.Add(returnedBook);
+        }
+
+```
+
+Here is my logic of "AddABook"
+```csharp
+        static void AddABook(string title, string firstName, string lastName, int numberOfPages, Genre genre)
+        {
+            Book book = new Book()
+            { Title = title,
+              Author = new Author()
+              {
+                  FirstName = firstName,
+                  LastName = lastName
+              },
+              NumberOfPages = numberOfPages,
+              Genre = genre
+            };
+
+            Library.Add(book);
+        }
+
+
+```
 
 ## Unit Tests
 Test that your program has the following functionality:
@@ -82,4 +147,4 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
