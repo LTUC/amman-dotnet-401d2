@@ -18,7 +18,7 @@
    efficient way to define a set of named integral constants that may be assigned 
    to a variable. 
 
-   ```csharp
+```csharp
             enum Days 
             { 
                 Sunday,
@@ -45,11 +45,12 @@
                 Nov, 
                 Dec 
             }; 
-   ```
-        - Count starts at 0, if you do not specify a value. 
-        - default type of enum is int, but you can specify alt with a :type (such as byte);
+```
 
-            ```csharp
+   - Count starts at 0, if you do not specify a value. 
+   - default type of enum is int, but you can specify alt with a :type (such as byte);
+
+```csharp
             Days today = Days.Monday;  
             int dayNumber =(int)today;  
             Console.WriteLine("{0} is day number #{1}.", today, dayNumber);  
@@ -62,11 +63,11 @@
             // Monday is day number #1.  
             // Dec is month number #11.  
 
-            ```
+```
 
             - You can create and set your custom values
 
-            ```csharp
+ ```csharp
             enum MachineState
             {
                 PowerOff = 0,
@@ -74,16 +75,57 @@
                 Sleeping = 10,
                 Hibernating = Sleeping + 5
             }
-
-            ```
+```
 
 ### Collections
 
 There are two ways to create and manage a group of related objects
-    1. Create an array of objects
+  1. Create an array of objects
     2. creating a collection of objects
 
 
 A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
 
 
+```csharp
+	Library<string> secondLib = new Library<string>
+	{
+	  "The Great Gatsby",
+	  "Where the Red Fern Grows",
+	  "Of Mice and Men"
+	};
+```
+
+```csharp 
+    var princesses = new List<string>();
+    princesses.Add("Snow White");
+    princesses.Add("Cinderella");
+    princesses.Add("Aurora");
+    princesses.Add("Repunzel");
+    princesses.Add("Ariel");
+```
+
+
+### Generics vs. Non-Generics
+
+#### Generics
+- List< T>
+- Dictionary< T>
+- SortedList< T>
+- Queue< T>
+- IEnumerable< T>
+- IList< T>
+- Collection< T>
+- LinkedList< T>
+
+#### Non-Generics
+
+*are not really used much anymore*
+
+- ArrayList
+- Hashtable
+- SortedList
+- Queue
+- Stack
+- IEnumerable
+- ICollection
