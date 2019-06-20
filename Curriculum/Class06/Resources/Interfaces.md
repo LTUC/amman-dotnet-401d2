@@ -74,7 +74,7 @@ if(x is Kitty)
 ## Example
 
 ### Demo
-Walk through the Demo as listed. 
+Walk through the Demo located in the DEMO folder
 
 ### Overview
 Let's dive into an example that may show interfaces a bit more clearly.
