@@ -110,7 +110,7 @@ The variable does not hold the result, only the command. So you can keep iterati
 1. A query is not executed until you iterate over a query variable. 
 
 
-### LINQ COmmanda
+### LINQ Commands
 
 Projections -we are projecting through the data of all the possible data
 
