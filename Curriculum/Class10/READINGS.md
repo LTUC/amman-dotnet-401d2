@@ -12,3 +12,6 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 
 ## Readings
 
+No "official" readings for today. Reflect on all that you have learned over the last 2 weeks.
+discuss with your classmates what you thought was the most challenging, and what most suprised you!
+How comfortable are you with the language?

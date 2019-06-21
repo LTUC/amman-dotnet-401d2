@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 10 : Recursion
+Recursion
 =====================================
 
 ## Base Case
@@ -36,6 +36,7 @@ Recursive approach:
 
 ```csharp
 Long Factorial (Integer: n)
+
 If(n==0) Then Return 1
 Return n * Factorial(n-1)
 End Factorial

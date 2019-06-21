@@ -1,6 +1,5 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 10: Design Patterns
-=====================================
-
-## Learning Objectives
+# Class 10: REVIEW DAY
 
 ## Lecture Outline
+1. Review content from week 1 and week 2
+2. Dive into Stacks and Queues! 
