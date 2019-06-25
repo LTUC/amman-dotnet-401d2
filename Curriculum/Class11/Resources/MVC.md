@@ -104,4 +104,9 @@ to render. First, we need to change the return type, we are no longer returning 
 
 ### Model
 
-This is where the 
+1. What is a Model?
+    - The model in an MVC application represents the state of the application and any buisness logic or operations that should be performed by it. 
+    - Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the applicaiton. 
+    - strongly typed views will typically use ViewModel types specifically designed to contain data to dispaly on that view. The controller will create and populate these viewmodels from the model. 
+
+2. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
