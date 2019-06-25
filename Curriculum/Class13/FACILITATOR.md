@@ -3,36 +3,11 @@
 ## How do I prep for today?
 Resources:
 
-1. Entity Framework Core
+1. Intro to Entity Framework Core
    - Code First Migrations
-3. DbContext
-2. Dependency Injection
-
-
-1. Create a new empty MVC application with a Home Controller
-2. Create a "data" folder
-3. Create and setup a DB Context
-4. Add a new appsettings.json file
-5. Register the DBContext in the startup file
-6. Create an initial migration
-7. Update the Database
-
-(See that the db has been created)
-
-8. Look at Schema, convert entities to models
-9. Create DbSets for tables
-10. Setup composite keys in OnModelCreating
-
-(Add another migration and update the database)
-
-11. see updated database. 
-12. "scaffold" out the different controllers with CRUD operations
-
-### Questions to ask:
-1. What's the distinct benefit of ASP.NET Core MVC, and what's the alternative to using MVC?
-2. What exactly is Entity Framework? What's the problem it's meant to solve?
-3. What's the server we're working with in our course? How about the database, and why did we choose it over others?
-4. What tools/techniques are we using that are based on the ASP.NET Core framework specifically, and what problems is a web dev framework meant to solve?
+2. Creation of DbContext
+3. Scaffold of Controllers 
+4. Create relationships between entities
 
 ## What changed from yesterday? 
 Building off of the same MVC concepts

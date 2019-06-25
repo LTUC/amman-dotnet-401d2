@@ -57,3 +57,26 @@
 
 
 ### Shadow Properties
+
+
+## Demo
+
+
+1. Create a new empty MVC application with a Home Controller
+2. Create a "data" folder
+3. Create and setup a DB Context
+4. Add a new appsettings.json file
+5. Register the DBContext in the startup file
+6. Create an initial migration
+7. Update the Database
+
+(See that the db has been created)
+
+8. Look at Schema, convert entities to models
+9. Create DbSets for tables
+10. Setup composite keys in OnModelCreating
+
+(Add another migration and update the database)
+
+11. see updated database. 
+12. "scaffold" out the different controllers with CRUD operations

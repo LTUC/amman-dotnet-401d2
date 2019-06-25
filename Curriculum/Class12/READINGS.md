@@ -7,8 +7,8 @@ Conduct some self research on one of the following topics.
 Pick one of the topics below and share with the class your research AND where you found the data!
 
 ## Readings
-1. [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)
-
+1. [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"} 
+1. [DBMS](https://www.tutorialspoint.com/dbms/dbms_overview.htm){:target="_blank"} 
 1. Do some research on what a Database Schema is. 
 	- what is a Schema?
 	- Why do we use them?

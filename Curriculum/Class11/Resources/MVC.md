@@ -99,7 +99,48 @@ style and design it with HTML, CSS, and JavaScript.
 
 Before we can get to designing our view page, we have to do some small changes to our controller action to allow the view page
 to render. First, we need to change the return type, we are no longer returning a string to the user, but a View. Within the base
-`Controller` class, we do this by making the return type "View Result"
+`Controller` class, we do this by making the return type `ViewResult` or `IActionResult`. 
+
+Next, set your return statement of your action to be `return View()`. This will allow us to call the 
+appropriate view to get rendered. The `View()` request flow does the following:
+1. Looks for the "Views" folder
+2. Finds the folder name of the matching controller
+3. Finds the `.cshtml` file with the same name as the action
+
+Within the view page, you can write c# by indicating a `@model` directive at the top of the page. 
+This directive will define for us what type of data will be displayed on our view. the `@model` will declare the 
+value of `Model` when used within the page. 
+
+You only need to declare the @model directive if you are bringing information in. If you are only obtaining information
+with no presentation, you do not need the directive. Here is an example of an intake form:
+
+```csharp
+<form method="post" action="/Home/Create">
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input class="form-control" name="Name" />
+    </div>
+    <div class="form-group">
+        <label for="Country">Country:</label>
+        <input class="form-control" name="Country" />
+    </div>
+    <div class="form-group">
+        <label for="Population">Population:</label>
+        <input class="form-control" name="Population" />
+    </div>
+
+    <button type="submit" bs-button-color="danger">Add</button>              
+    <a class="btn btn-primary" href="/Home/Index">Cancel</a>
+</form>
+```
+
+The intake form maps the name attribute and model binds that to the appropriate property.
+1. If you did bring in a `@model`, then the for will bind to the property
+2. If you did not, then the for will bind to the paramater that you have set in the controller within the `[HTTPPOST]` action. 
+
+
+Once you add the submit button, you will need to make an additional action in the controlller that has an
+`HttpPost` flag at the top. This is in addition to the default `HTTPGET`. 
 
 
 ### Model
@@ -110,3 +151,66 @@ to render. First, we need to change the return type, we are no longer returning 
     - strongly typed views will typically use ViewModel types specifically designed to contain data to dispaly on that view. The controller will create and populate these viewmodels from the model. 
 
 2. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
+
+
+Create a new folder named `Models` (The name of the folder doesn't actually matter, but convention tells us to call it Models).
+Here you can create any class you want...standard to how you have been creating classes so far. For the demo, create a class named `Student`, and give
+it some generic properties. 
+
+```csharp
+
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public string FavoriteColor { get; set; }
+```
+
+This model can be accessed from the controller to instantiate individual students or even create 
+a list of students. 
+
+Within your Controller, make one of your actions send a `List<Student> students` and have your  view accept  a list of students
+as it's model directive. 
+
+```csharp
+@model IEnumerable<d8MVCDemo.Models.Student>
+```
+
+You can now traverse through the `Model` within the view:
+
+```csharp
+    @foreach (var item in Model)
+    {
+        <h2>@item.FirstName @item.LastName</h2>
+        <span> @item.Age years old</span>
+        <span> Favorite color is @item.FavoriteColor</span>
+        <hr />
+    }
+```
+
+
+### Redirects
+
+Finally, show the redirect capability from one action to another
+
+```csharp
+      [HttpPost]
+        public IActionResult Greeting(string firstName, string lastName, int age, string favoriteColor)
+        {
+            Student student = new Student
+            {
+                FirstName = firstName,
+                LastName = lastName,
+                Age = age,
+                FavoriteColor = favoriteColor
+            };
+
+            return RedirectToAction("Results", student );
+        }
+
+        [HttpGet]
+        public IActionResult Results(Student student)
+        {
+            return View(student);
+        }
+```
+
