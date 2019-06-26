@@ -3,7 +3,7 @@
 
 ## To Submit this Assignment
 
-- Submit your ERD(Entity Relationship Diagram in canvas as an image, or a link to an image, in  to your external doc.
+- Submit your ERD(Entity Relationship Diagram) in canvas as an image, or a link to an image, in  to your external doc.
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 
 

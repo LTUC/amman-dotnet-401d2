@@ -74,26 +74,48 @@ Within each individual table, properties exist. The properties represent the cha
 		- Composite keys. No additional properties.
 
 1. Navigation Properties
-	- Link to other entities that are related to the current entity.
+	- Link to other entities that are related to the current 
+    entity.
 	- Mostly seen in 1:Many and Many:1 relationships
 
 ## Demo
 
-This week, we will be building out a student enrollment system in class. 
-Here is our problem domain:
+This week, we will be building out a student enrollment system 
+in class. Here is our problem domain:
 
-You have been tasked to create a system for a new coding school in your neighborhood. While gathering requirements, you were able to learn how the school plans on managing their enrollment. Here is what you gathered: 
+You have been tasked to create a system for a new coding school 
+in your neighborhood. While gathering requirements, 
+you were able to learn how the school plans on managing their 
+enrollment. Here is what you gathered: 
 
-The coding school will gather information from each student. Their system requires the student's first name, last name and age. 
-Each course that the coding school will offer has a Name, specific course code, and the price that the course will cost. 
-You learned that each course **must** have a course code, and that course code must be unique to each course. 
-Once a student has completed a course, their final grade and if they passed is captured in a single transcript. It is possible for a student to take multiple course and therefore have multiple transcripts. It is also safe to say that once a course is completed, the system will generate a transcript for every student that was present in the course. 
+The coding school will gather information from each student. 
+Their system requires the student's first name, last name and 
+birthdate. 
+Each course that the coding school will offer has a Name, 
+specific course code, and the price that the course will cost.
+In addition, each course will be associated with a specific technology,
+the options for the technology are predetermined dependent on the 
+stacks being taught. 
+ 
+A student can be enrolled in multiple courses and once a student
+has completed a course, their final grade and if they passed 
+is captured in a single transcript. A student can have many transcripts
+associted with them. It is also safe to say 
+that once a course is completed, the system will generate a 
+transcript for every student that was present in the course. 
+The transcript should independently store the student's information,
+course information, The grade they received, and if they passed or not. 
 
-Using the information you received above, create a database schema that will accurately represent the data that will be held and accessed for this student enrollment system for the school. 
+
+Using the information you received above, create a database 
+schema that will accurately represent the data that will be 
+held and accessed for this student enrollment system for the 
+school. 
 
 ### Create a Database Schema
 
-Together, In class, create a database schema given a problem domain
+Together, In class, create a database schema given a problem 
+domain
 
 
 ## Resources:
