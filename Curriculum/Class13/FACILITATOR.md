@@ -1,46 +1,34 @@
 # Class 13: Intro to Entity Framework Core
 
 ## How do I prep for today?
-Resources:
+Post the solution to the previous day's lab right away. spend the first 20 minutes or so reviewing 
+the solution and explanation behind the ERD. 
 
+Code Review: Build out an MVC app again. This MVC that your building out will carry over
+into lecture, so use this MVC app during lecture to build off of.
+
+Resources:
+1. [Async Inn ERD Solution](./Resources/AsyncInn2.png)
+   - This is not the *only* solution, just one possible. If a student has a different solution that also
+   looks correct talk about the differences and why. The wonderful thing about architecture is that it
+    can be different from each other and still be correct.
+
+Outline for the day:
 1. Intro to Entity Framework Core
-   - Code First Migrations
+2. Build out an MVC app with default home page
 2. Creation of DbContext
-3. Scaffold of Controllers 
-4. Create relationships between entities
+3. Register the DBContext in Startup
+3. Create relationships between entities
 
 ## What changed from yesterday? 
-Building off of the same MVC concepts
+Taking the ERD from the lab and implementing the models into code. 
 
 ## What might students struggle with today?  
-Dependency Injection. They don't understand it at first, and it takes a long
-time for them to really understand all of it's uses. 
-
-It never hurts to keep repeating the concepts of DI over and over again
-until it "clicks"
-
-They also struggle with the steup of MVC and all the steps required. I encourage students
-to reference the steps provided, and the demos. It comes down to memorization and they
-just need to keep doing it until they remember. 
+Code first migrations, as well as creation and registration of DBContext
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-When it comes to the lab, the students have expressed that they would prefer the 
-tutorial of Class 12 before being assigned the "Person of the Year" lab.
 
-The reason i do not have them switched is because of a few different reasons:
-1. The tutorial shows a non-empty template introduction to creating an MVC app. 
-2. The tutorial does not go into as much detail as it should for an introductory lab
-3. The tutorial, depending on when it was last updated, can be unpredicable. 
-
-The current format is designed to teach studetns how to work with an empty template ("start light")
-and really see the connection between MVC by hand without all the background files the MVC template
-provides. It also helps uncover some of the "MVC Magic" that students ask about when building out apps.
-
-Generally, this is the only time we should let students use a tempate MVC from Visual Studio, solely
-for the purpose of them knowing and understanding what the template provides for them.
 
 ## General comments
-
-On this day, jsut get as far as you can about Entity Framework, you also have Class 13 to finish up on
-anything you didn't cover that day. The tutorial does a great job at linking class 11 and 13 together, so
-spend class 12 diving slowly into Entity Framework and Dependency Injection. 
+For this day and lab, focus on just getting things set up. No HTML/CSS is required, only
+the home controller is needed, but just a basic greeting. 

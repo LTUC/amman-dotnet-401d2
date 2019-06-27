@@ -24,6 +24,7 @@ app.UseMvc(routes =>
 9. Create a new folder in your project called "Controllers"
 10. Create a new folder in your project called "Models"
 11. Create a new folder in your project called "Views"
+12. Create a new folder named `wwwroot`
 12. Create a new class named HomeController in the Controllers Folder
 13. Derive HomeController from base class Controller (`HomeController:Controller`)
 14. Import the appropriate namespace (`Microsoft.AspNetcore.MVC`)
@@ -95,8 +96,8 @@ using Microsoft.Extensions.DependencyInjection;
 12. Open up Package Manager Console.
 13. Run the following Commands
 14. Add an initial migration to your project. Run the following command in PMC
-	a. Add-Migration initial
-15. After adding a migration, update your database with the "Update-Database" command. 
+	a. `Add-Migration initial`
+15. After adding a migration, update your database with the `Update-Database` command. 
 		
 ### MISC
 

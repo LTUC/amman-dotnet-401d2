@@ -56,10 +56,6 @@ Using your ERD Diagram, convert each entity into a model within your newly creat
 Following the steps provided, in addition to what we did in class, create a new `DbContext` named `AsyncInnDbContext`. 
 Within this DbContext, declare your Database tables and set your composite keys. 
  
-
-##### Home Page
-Add some HTML and styling to your home page. Link the index action of each of the other controllers within the Home page. Throughout the week, we will slowly evolve this page to be more of a "dashboard" feel, but start the design now to start the process. 
-
 ##### README
 Your README should be in introduction to your web app. Provide in your README, your ERD Diagram and an overview of the relationships and how each entity is related to another. 
 
