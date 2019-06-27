@@ -18,9 +18,8 @@ as those will tie directly into today's lecture.
 1. Scaffold out an empty MVC Site with a Home controller (like on day 11)
 2. Look at the ERD of the DB Schema.
 3. Convert each entity of the ERD to a Model class in your code.
-   - "accidentally" forget 
-4. Add Navigation properties (talk about the connection of the two)
-
+   - "accidentally" forget to add the Primary keys (the ids)
+    - Don't add nav properties just yet
 ## Entity Framework
 1. What is Entity Framework?
 2. Why do we use it? 
@@ -44,15 +43,19 @@ base(options)).
 
 Now try and script out the models to build the database. **Your are going to get an error....**
 
-At this point, run the `Add-Migration initial` script.  the error you get is:
+At this point, run the `Add-Migration initial` script. You will get a misleading error. 
 
-```
-
-```
-
-This means that you haven't registered the DB Context yet...so let's do that...
+All this means that you haven't registered the DB Context yet...so let's do that...
 
 1. Register the DBContext in Startup
+
+```csharp
+services.AddDbContext<EnrollmentDbContext>(options =>
+options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+);
+```
+
+
 2. Add the connectionstring logic into the appsettings.json file
 
 During the registration of your DBContext, you will
@@ -60,18 +63,29 @@ have to set you app up for Dependency Injection, meaning you need to add a const
 and bring in `IConfiguration`. You can explain to them at a high level what this is doing (The service provider
 is bringing in the default congfigurations into the app), but we will talk more about it on Day 16 with DI.
 
+Now, try and run the `Add-Migration intitial` command again. You will get another error that you didn't add primary keys
+to some of the models. 
 
-### Implementation
-1. Review the Schema and it's relationships & Keys
-2. Note that there is at least one composite key. how do we show that? 
-3. Add the `OnModelCreating` override in the dbcontext and show how to add the composite key through the fluentAPI
+Go back and add the `ID` properties to the Transcripts, Students, and Courses. 
+You also need to register the composite key binding in the DBContext.
 
+```
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Binding of the Composite Key using FluentAPI
+        modelBuilder.Entity<Enrollments>().HasKey(enrollment =>
+        new { enrollment.StudentID, enrollment.CourseID });
+    }
+```
 
-### Code First Migrations
-1. Migrations
-2. Package Manager console commands to add new migrations and update databases.
-3. Add DbContext to Startup.cs
-	- Run Migrations and View Database tables in local dev db server
+After you add the composite key, don't forget to go back and add the navigation properties.
+Talk about the connections between the nav properties and why we need them. 
+
+Now run `Add-Migration initial` and watch the magical database scripts get created. 
+Review the scripts. talk about what migrations are and what is being generated. 
+
+Run `Update-Database` and confirm the creation of the DB.
+
 
 
 ### Shadow Properties
@@ -86,25 +100,3 @@ You use FluentAPI to configure shadow properties. The Fluent API allows us to ma
 directly. There are some changes that can only be made through the FluentAPI and not through Data Annotations. 
 [Fluent API](https://docs.microsoft.com/en-us/ef/core/modeling/shadow-properties#fluent-api)
 
-
-
-## Demo
-
-1. Create a new empty MVC application with a Home Controller
-2. Create a "data" folder
-3. Create and setup a DB Context
-4. Add a new appsettings.json file
-5. Register the DBContext in the startup file
-6. Create an initial migration
-7. Update the Database
-
-(See that the db has been created)
-
-8. Look at Schema, convert entities to models
-9. Create DbSets for tables
-10. Setup composite keys in OnModelCreating
-
-(Add another migration and update the database)
-
-11. see updated database. 
-12. "scaffold" out the different controllers with CRUD operations
