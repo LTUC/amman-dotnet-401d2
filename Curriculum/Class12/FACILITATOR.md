@@ -1,5 +1,12 @@
 # Class 12: Relational Database and ERDs
 
+## Prep:
+Adjust the lab assignment for this day. It is a timed assignment. 
+Make it open at the very beginning of lab time, and due 5 hours later. Closed
+and due date should be the same. 
+
+You will review the solution to the lab right away at the beginning of class 13.
+
 ## How do I prep for today?
 1. If you are unfamiliar with Databases and their relationships, a good place to start is [Here](https://www.tutorialspoint.com/dbms/index.htm)
 1. Review the MSFT docs for complex data models [HERE](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"} 
@@ -17,3 +24,12 @@ Nothing major. Overall ERDs are straight forward to break down.
 Database key relationships for composite keys are brand new. foreign and primary keys are review. 
 
 ## General comments
+Spend the last hour of lecture time having the students attempt
+to make an ERD based off of the problem domain (located in the bottom of the `Database.md` file)
+
+Spend a few minutes  reviewing the requirement. Have the students group off
+and attempt the erd (20 min or so) and spend the last 15 having the students present their
+ideas and reviewing the solution. 
+
+Be sure to share this solution with the students, as that is what our demo for the next
+few days will be tied too.

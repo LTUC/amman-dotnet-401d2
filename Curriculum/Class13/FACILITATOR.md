@@ -4,6 +4,8 @@
 Post the solution to the previous day's lab right away. spend the first 20 minutes or so reviewing 
 the solution and explanation behind the ERD. 
 
+Add the solution of Async Inn ERD to a resources folder in the class GH repo
+
 Code Review: Build out an MVC app again. This MVC that your building out will carry over
 into lecture, so use this MVC app during lecture to build off of.
 
