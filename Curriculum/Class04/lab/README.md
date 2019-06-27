@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 04: Tic-Tac-Toe
+Lab 04: Tic-Tac-Toe
 =====================================
 
 ## To Submit this Assignment

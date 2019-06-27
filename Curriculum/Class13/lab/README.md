@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 13: Async Inn Management System
+Lab 13: Async Inn Management System
 =====================================
 
 ## To Submit this Assignment

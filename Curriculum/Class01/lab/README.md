@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 01: Numbers Game
+Lab 01: Numbers Game
 =====================================
 
 ## The Problem Domain

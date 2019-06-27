@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 05: I Built A Zoo!
+Lab 05: I Built A Zoo!
 =====================================
 
 ## To Submit this Assignment

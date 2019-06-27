@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 12: Entity Relational Diagram  
+Lab 12: Entity Relational Diagram  
 =====================================
 
 ## To Submit this Assignment

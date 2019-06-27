@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 6: Interfaces
+Lab 6: Interfaces
 =====================================
 
 ## To Submit this Assignment

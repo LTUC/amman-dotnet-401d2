@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 03: Word Guess Game
+Lab 03: Word Guess Game
 =====================================
 
 ## To Submit this Assignment

@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 11: My First MVC App
+Lab 11: My First MVC App
 =====================================
 
 ## To Submit this Assignment

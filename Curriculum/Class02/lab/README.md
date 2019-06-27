@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 02: Unit Testing
+Lab 02: Unit Testing
 =====================================
 
 ## To Submit this Assignment

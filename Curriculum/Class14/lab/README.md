@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 14: Entity Framework & Seeding
+Lab 14: Entity Framework & Seeding
 =====================================
 
 ## To Submit this Assignment

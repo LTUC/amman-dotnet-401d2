@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7: Phil's Lending Library 
+Lab 7: Phil's Lending Library 
 =====================================
 
 ## To Submit this Assignment

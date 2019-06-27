@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 05: .NET Motors
+Lab 05: .NET Motors
 =====================================
 
 ## To Submit this Assignment

@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 7: Collections
+Lab 7: Collections
 =====================================
 
 ## To Submit this Assignment
