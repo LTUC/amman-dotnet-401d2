@@ -16,6 +16,6 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
 1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"} 
 1. (Keep as a resource, read through if you have time)[MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/){:target="_blank"} 
-1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1)
-1. [Tag Helpers with Forms](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-2.1)
+1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"} 
+1. [Tag Helpers with Forms](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-2.1){:target="_blank"} 
 
