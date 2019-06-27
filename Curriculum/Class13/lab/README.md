@@ -71,7 +71,7 @@ I **strongly** encourage you to research how to write tests for a .NET Core MVC 
 
 
 ## Additional Resources
-- Setup default MVC [20 simple steps](https://github.com/codefellows/code-401-dotnet-guide/blob/master/Curriculum/Class11/Resources/MVCSetup.md){:target="_blank"}
+- Setup default MVC [simple steps](https://codefellows.github.io/code-401-dotnet-guide/Resources/MVCSetup){:target="_blank"}
 
 
 ## README
@@ -97,6 +97,6 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
 
 
