@@ -18,6 +18,7 @@ Resources:
 Outline for the day:
 1. Intro to Entity Framework Core
 2. Build out an MVC app with default home page
+3. Build out Entity Models (with nav props)
 2. Creation of DbContext
 3. Register the DBContext in Startup
 3. Create relationships between entities
