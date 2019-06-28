@@ -35,15 +35,8 @@ Once the scaffold is finished, you will notice some additions to the code:
 Dissect the code with the class. Explain the `DbContext` that is being
 injected in. Go over a few of the actions and discuss how items are being added/manipulated in the DB.
 
-### Data Annotations
-1.[Review Data Annotations](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-2.2)
+Create additional controllers for the other models following the same process.
 
-Show the user input from the "Create" page on the new Student controller.
-Show that we want to make some of the fields "required".
-
-Go to the model and add data annotations. Suggestions: Required, Display, Range, etc....
-
-prove that they work by testing out the student intake form and see that the `Model.IsValid` comes back as false. 
 
 ### Taghelpers
 What are taghelpers? Why do we need them?
@@ -57,6 +50,19 @@ Enable tag helpers in your view folder by adding a `_ViewImports.cshtml` file
 ```
 
 Review what tag helpers look like and how they are used in the "Edit" student view.
+
+Look specifically at the `@model` coming in, and 
+the input tags with the `asp-for` attribute.
+
+### Data Annotations
+1.[Review Data Annotations](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-2.2)
+
+Show the user input from the "Create" page on the new Student controller.
+Show that we want to make some of the fields "required".
+
+Go to the model and add data annotations. Suggestions: Required, Display, Range, etc....
+
+prove that they work by testing out the student intake form and see that the `Model.IsValid` comes back as false. 
 
 ### Seeding the Database
 
@@ -75,26 +81,21 @@ modelBuilder.Entity<Student>().HasData(
 
 ### Enums into DDL
 
+We want the ability to take the enums we created and have them as drop down items. In our demo
+we can do this in our "Courses" page. Either in our edit or our create (or both!)
+
 In the `.cshtml` file...
 
 ```csharp
- <label asp-for="Layout" class="control-abel"></label>
+<label asp-for="Technology" class="control-label"></label>
 
- <select asp-for="Layout" asp-tems="@Html.GetEnumSelectList(typeofAsyncInn.Models.Layout))"></select>
+<select asp-for="Technology" asp-items="@Html.GetEnumSelectList(typeof(SchoolDemo.Models.Technology))" class="form-control"></select>
 ```
 
 OR
 
-the .cshtml file:
-
-```csharp
-  <select asp-for="CourseID" class ="form-control" asp-items="ViewBag.CourseID"></select>
-```
-
-in the controller...
-```csharp
-    ViewData["CourseID"] = new SelectList(_context.Courses, "ID", "Name", CourseEnrollmetn.CourseID);
-``` 
+We can customize what is seen in the dropdown lists by modifying what the controller is sending to the view. 
+Go to your `Enrollments` controller and modify the "Create" and "Edit" actions (both get and post)
 
 You can map the arguments to specific properties. For example, for the student's name, you can make a new custom property
 in students for "Full Name"
@@ -103,6 +104,20 @@ in students for "Full Name"
 public string FullName => $"{FirstName} {LastName}";
 ```
 
+in the controller...
+```csharp
+ViewData["CourseID"] = new SelectList(_context.Courses, "ID", "Name");
+ViewData["StudentID"] = new SelectList(_context.Students, "ID", "FullName");
+``` 
+
+the .cshtml file:
+```csharp
+  <select asp-for="CourseID" class ="form-control" asp-items="ViewBag.CourseID"></select>
+```
+
+
 ### Layouts
 [Reference](https://docs.microsoft.com/en-us/aspnet/web-pages/overview/ui-layouts-and-themes/3-creating-a-consistent-look)
 
+Create a master layout and attach it to all of the view pages. 
+The `_Viewstart.cshtml` file is a good place to set these global settings.
