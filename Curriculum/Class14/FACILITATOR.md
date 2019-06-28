@@ -3,6 +3,17 @@
 ## How do I prep for today?
 Review the `lecture.md` file for an outline of the lecture
 
+The demo for today is rather large. Get through as much as you can. You may want to
+provide for them the official demo code if you don't get all the way through. The highlights that you should cover at minimum:
+
+1. Scaffolding out controllers
+2. Enable TagHelpers
+3. Adjust one of the .cshtml files to show proper enums (Courses page to show proper Technologies)
+4. Adjust the join table (Enrollments) to show both student name and course code name
+5. Layouts being brought in through `_ViewStart.cshtml` or by just being inherited independently. 
+6. Data Annotations
+7. Seeding the Database 
+
 
 ## What changed from yesterday? 
 Building off of yesterday's demo, pick up where you left off. 
