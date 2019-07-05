@@ -1,7 +1,8 @@
 # Class 32
 
 ## How do I prep for today?
-1. Intro to OAUTH and adding user roles
+1. Roles (Admin, member, anonymous)
+2. Intro to OAUTH and adding user roles
 
 ## What changed from yesterday? 
 

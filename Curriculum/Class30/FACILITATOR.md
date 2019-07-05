@@ -1,11 +1,8 @@
 # Class 30
 
 ## How do I prep for today?
-Career Coaching 2 Today. No lecture/lab
-## What changed from yesterday? 
+Career Coaching 2 Today.
 
-## What might students struggle with today?  
+No lecture/lab. 
 
-## What bugs, issues, or surprises have come up in the past for this class?
-
-## General comments
+Refer to Common Curriculum for the day's content. 

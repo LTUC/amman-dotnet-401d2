@@ -1,6 +1,8 @@
 # Class 29
 
 ## How do I prep for today?
+Lecture Overview:
+1. Custom claim based policy
 
 ## What changed from yesterday? 
 

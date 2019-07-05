@@ -4,25 +4,30 @@
 
 Today's topics:
 1. User Secrets
+   - In the Curriculum Resources folder, refer to the User Secrets. Walk
+   the students through how to enable User Secrets before deployment 
 1. Deployment to Azure
+   - Follow the deployment steps to deploy to Azure. Depending on the class size, you may want
+   to walk through the deployment together, ensuring the whole class is deployed by EOD. 
+   - If walking through the whole process with the class is not an option, just simply show them and 
+   provide for them the deployment instructions. They can refer to those instructions afterwards when doing it on their own. 
+   - Provide for them the deployment instructions...this will help them after the class is over. 
 
 2. Intro to APIs
-
-## Lab
-This lab is the final submission for the Async Inn. It is due the night before Project Week starts. A rubric is included with the Canvas assignment to assist with grading. 
+   - Introduce to what APIs are and talk about the basic HTTP Methods. 
+   - Draw out the Web Request Response Cycle with an outline of the data being sent and received
+   - Create a a simple API Controller.
 
 ## What changed from yesterday? 
-You are building off of what you have done the previous days, except this time 
-creating an external app that will use the api that has been created. 
+Wrapping up with deployment! Starting APIs
 
 ## What might students struggle with today?  
-They will have to practice what they learned in week 2 when it came to converting JSON to C#. 
+Deployments are sometimes unpredicable.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-Students struggle with the conversion of JSON to C#. it may be helpful to review that again
-or provide for them some code that will accomplish what they want.
+Provide for the student the deployment instructions
 
 ## General comments
-At this point in the class, since we are so close to project week...the studetns who are
-behind will likely not complete this lab. This lab for today is on a smaller scale of what the midterms
-should consist of.
+USe this day to really wrap up the "Async Inn" project. Time permitting will allow you to jump into APIs.
+If you run out of time, or do not feel that they will be successful in APIs, then there is no need to teach that topic today
+and push it off until Class 19. 

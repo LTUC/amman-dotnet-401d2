@@ -29,6 +29,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 2. Populate the interface with signatures that will represent basic CRUD operations within the inventory for products such as `Create`, `GetAll`, `GetByID`, `Update`, `Delete`.
 	- The actual method signatures within your interface will vary and may not be those exact 5 methods.
 	- You won't be using this service right away, but create the interface and service to help prep you for a future sprint.
+    - You will create the `ProductsController` in a future sprint. no need to create it now
 3. Be sure to add the DbContext reference to your interface so that you have access to the db.
 4. Register your interface in your startup class
 5. Bring your interface into your Controller when you need to reference it instead of your DBContext

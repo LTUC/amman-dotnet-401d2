@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class03\\lab",
-    "\\Curriculum\\Class04",
-    "\\Curriculum\\Class04\\lab",
-    "\\Curriculum\\Class04\\Resources",
-    "\\Curriculum\\Class04\\Solution",
-    "\\Curriculum\\Class04\\StarterCode"
+    "\\Curriculum\\Class14",
+    "\\Curriculum\\Class19",
+    "\\Lectures",
+    "\\Lectures\\Class16",
+    "\\Lectures\\Class17",
+    "\\Lectures\\Class18",
+    "\\Lectures\\Class19",
+    "\\Resources"
   ],
-  "SelectedNode": "\\Curriculum\\Class04\\Solution\\Lab4_TicTacToe",
+  "SelectedNode": "\\Resources\\deployment.md",
   "PreviewInSolutionExplorer": false
 }

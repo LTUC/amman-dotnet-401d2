@@ -1,5 +1,18 @@
 # Identity
 
+## What is Identity
+Identity is the ability to add Authentication and Authorization to your web application. This includes registrations, logins, restricted access to specific members, and authentication through Facebook, Google, Twitter, etc...
+
+
+ASP.NET Core Identity was created to help with the security and management of users.
+It provides this abstraction layer between the application and the users/role data. 
+We can use the API in it's entirety, or just bits and pieces as we need (such as the salting/hashing by itself) or email services. 
+Combines well with EFCore and SQL Server. 
+
+There is a lot of flexibility within ASP.NET Core Identity. We have the ability to take leave whatever we want. 
+
+Let's open up with some very basic definitions:
+
 ### Authentication
 
 Authentication is the process of determining **Who you are**
@@ -15,52 +28,50 @@ Example is permissions.
 In ASP.NET Core thre is a proprety named `User`, which is a type of  `ClaimsPrinciple`, which implements `IPrinciple`.
 
 
-## Claims-based Authentication
-
-claims are a statement or property about a particular identity. Examples include
-
-1. FirstName
-1. LastName
-1. DateOfBirth
-1. EmailAddress
-1. IsVIP
-
-These are all statements are about who the identity *IS* not what they can *DO*
+## Demo
 
 
-#### Identity
+1. Under `Configure()` in your Startup class, add `app.UseAuthentication();` 
+     - This is what actually allows us to authenticate users within identity.
 
-An identity contains many claims. Let's take a driver's license as an example. It contains
-1. First Name
-1. Last Name
-1. Height
-1. Weight
-1. Address
+1. Create an `ApplicationUser` Class that derives from `IdentityUser`.
 
-Your passport will contain different claims than a drivers license. Both passport and Driver's license are forms of 
-identity. 
+1. Create an `ApplicationDbContext` that derives from `:IdentityDbContext<ApplicationUser>`
+1. Register your new `ApplicationDbContext`
 
-Identities in .NET core are a form of a `ClaimsIdentity`. 
+1. Go to your `Startup.cs` Class and add in Identity
 
-Other components of a ClaimsIdentity may be the Authentication Type, 
-which could extend to `Cookies` `Bearer`, `Google` etc...
+```csharp
+
+ services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+```
+
+Commands to run in PMC since you have 2 DbContext:
+
+```
+Add-Migration newMigration -Context ApplicationDbContext
+```
+
+```
+Update-Database -Context ApplicationDbContext
+```
 
 
-If you create a `ClaimsIdentity` and provide an `AuthenticationType` in the constructor, `IsAuthenticated` will always be true.
 
-You cannot have an unauthenticated user with an `AuthenticaitonType`
+1. Create an AccountController
+    - Create a Register action (Get and Post)
+      - Utulize View Models similar to Login Action.
+      - Highlight: UserManager and SignInManager are part of the Identity API. It is what we use to
+     manage and access user information
+    - Create a login action (Get and Post)
+      - Very similar to Register with the View Model
 
 
-### Multiple Identities
+### Sources:
+[Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x)
 
-`User` property on `HttpContext` is a `ClaimsPrinciple` not a `Claimsidentity`.
 
-A single `ClaimsPrinciple` can consist of multiple `Identities`. 
-Within `ClaimsPrinciple` , implements the `IPrinciple`, which essentailly grabs the 
-first identity listed in `Identities`
-
-The following are true:
-1. A principle can have multiple identites.
-1. These identties can have multiple claims
-1. `ClaimsPrinicpal` inherits all the claims of it's identities. 
 

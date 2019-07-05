@@ -11,13 +11,13 @@
        - Choose a database name
        - Create or select a DB Server
        - Create or select a Server (The server will contain the database):
-             - Name
-             - Username
-             - Password
-                - Save this information somewhere, you might need it later
-                - Use a unique password. TAs or instructional staff might need access to it in order to help you
-             - Keep location at it's default
-             - Allow access
+            - Name
+            - Username
+            - Password
+               - Save this information somewhere, you might need it later
+               - Use a unique password. TAs or instructional staff might need access to it in order to help you
+            - Keep location at it's default
+            - Allow access
        - Wait for the process to finish.
        - Click `Select` to generate the new server
        - Select No to SQL elastic pool

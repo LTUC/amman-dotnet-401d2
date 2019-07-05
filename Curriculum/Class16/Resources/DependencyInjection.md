@@ -7,20 +7,40 @@
 3. Advantages of why we use Asynchronous programming
 
 
-## Scaffold a Controller
-- This will demonstrate what DI looks like with the DbCOntext
-- "Eager" and "Explicit" Loading
-- Talk about Lazy, 
+## Introduct Dependency Injection
+Dependency Injection (DI) allows us to keep our applications loosly coupled. 
+Within MVC, it's a pretty standard architectural pattern that is followed.
+DI allows us to separate the controllers and the functionality away from
+specific services. Giving us the ability to easily switch out dependencies with
+minimal overhead of refactoring code.  
 
-### Asyncronous Programming
+
 
 ## What is Dependency Injection?
-- Power point deck
+- Power point deck goes over what DI is.
+
+Slides of of interest:
+1. Slide 7 - This is what it "looks" like. Note the constructors job of bringing in a variable. this is what is being "injected"
+2. Slide 8 - This is the request flow. Keep referring to this slide to show students what is actually happening. 
+3. Slide 10 - Lifecycles - These are the different type of DI lifecycles.
+
+After going over the slide deck, pull up one of the controllers that were scaffolded. 
+These controllers contain DI with the DBContext getting injected in. The registration of this
+DBContext happens in the startup.cs file. Once we implement the Repo Pattern, we will
+add more mappings to the startup file to register the DI classes.
+
 
 ## Repository Pattern
+What is the repository design pattern?
+Draw it out:
+
+<DRAWING HERE>
+
+
 1. Create a new interface with CRUD operations
 2. Create a new class with that implements the interface
-3. REgister the interface in the startup
-4. Refactor Controller to use interface instead of DBContext
+3. Register the interface in the startup
+   - Show the error message of what happens when we "forget" to register
+4. Refactor controller to use interface instead of DBContext
 5. Make sure the interface is asynchronous where appropriate
 
