@@ -42,35 +42,54 @@ Review the rubric below to know and understand the overall expectations
 ### E-Com Sprint 1 (100 points)
 
 #### Readme & Documentation (10 points)
-Readme contains an introduction to the web application. ReadMe contains all required questions as well as a link to the deployed site. All contributors are referenced and cited within the ReadMe. **NO POINTS WILL BE GIVEN FOR THE ASSIGNMENT IF DEPLOYMENT LINKS ARE NOT PRESENT OR IS NOT FUNCTIONAL*
+Readme contains an introduction to the web application. ReadMe contains all required questions as well as a link to the 
+deployed site. All contributors are referenced and cited within the ReadMe. 
+**NO POINTS WILL BE GIVEN FOR THE ASSIGNMENT IF DEPLOYMENT LINKS ARE NOT PRESENT OR IS NOT FUNCTIONAL*
 
 #### MVC Skeleton & Scaffold (10pts)
-Site contains basic MVC Scaffold including a DBContext with basic products seeded into database. Site implements the repository design pattern with appropriate interfaces and services. D.I. is properly registered in Startup.cs file.
+Site contains basic MVC Scaffold including a DBContext with basic products seeded into database. 
+Site implements the repository design pattern with appropriate interfaces and services. D.I. is properly registered in 
+Startup.cs file.
 
 #### Home Page (5 points)
-Introduction to the site with HTML/CSS. Anonymous accessibility. Home page contains login/register links as well as custom greeting for logged in users
+Introduction to the site with HTML/CSS. Anonymous accessibility. Home page contains login/register links as well as 
+custom greeting for logged in users
 This area will be used by the assessor to leave comments related to this criterion.
 
 #### Login Page (5 points)
-Login page consists of username and password form with password masked of visibility. Login page redirect to home page after successful login. Login page access is anonymous allowed. Login page utilizes ASP.NET Core Identity.
+Login page consists of username and password form with password masked of visibility. Login page redirect to home 
+page after successful login. Login page access is anonymous allowed. Login page utilizes ASP.NET Core Identity.
 
 #### Registration Page (5 points)
-Registration page consists of a form that successfully creates a new account while utilizing ASP.NET Core Identity. Custom claims are properly captured within registration action. User is automatically logged in and redirects user to home page after registration. Registration is accessible by anonymous users.  **If readme does not contain list of custom claims that are being captured, no points for this category will be awarded**
+Registration page consists of a form that successfully creates a new account while utilizing ASP.NET Core Identity. 
+Custom claims are properly captured within registration. User is automatically logged in and redirects user to 
+home page after registration. Registration is accessible by anonymous users.  
+**If readme does not contain list of custom claims that are being captured, no points for this category will be awarded**
 
 #### Shopping Page (5 points)
-Shopping page is accessible by anonymous users as well as fully displays all products existing in the database. Each product is evenly displayed on the page and shopping page has a clean professional appearance.
+Shopping page is accessible by anonymous users as well as fully displays all products existing in the database. 
+Each product is evenly displayed on the page and shopping page has a clean professional appearance.
 
 #### User Experience (10 points)
-HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.
+HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall 
+experience and flow of the site is usable. Site does not contain any unhandled exceptions.
 
-#### Azure DevOps Process (30 points)
-Azure DevOps tool is properly maintained. User stories assigned to each member are properly filled out, including time estimation, tasks, branches, description, and acceptance tests. 50% of these points are for both partner's overall maintenance of the KanBan board, 50% of these points are dedicated to each individual partner for specific maintenance. These points CANNOT be regained.
+#### Azure DevOps Process (25 points)
+Azure DevOps tool is properly maintained. User stories assigned to each member are properly filled out, 
+including time estimation, tasks, branches, description, and acceptance tests. 50% of these points are for both 
+partner's overall maintenance of the KanBan board, 50% of these points are dedicated to each individual partner for 
+specific maintenance. These points CANNOT be regained.
 
-#### Custom Policy (10 points)
-Site contains a custom claims based policy that implements IAuthorizationRequirement and uses AuthorizationHandler<T> to enforce the requirement These files should be separate from each other and is properly registered within the Startup.cs file. Site has one page the enforces this policy . Website's homepage should contain a link to this custom page for testability. Readme contains clear and concise directions on how to validate custom claims. **If readme does not contain instructions, no points for this category will be awarded**
+#### Custom Policy and Roles (15 points)
+At least one policy is registered within the startup file. The policy is specific to the role of "Admin" and is enforced upon
+the home page of the admin dashboard. The user also is associated with a role upon  registration and the role is evaluated upon login.
+If the user is an admin, redirect them to the admin panel. If they are a regular member, redirect them to the home page. 
 
 ### Industry Standard (10 points)
-Summary Comments are present and completed. Methods and variable names are appropriate. Fundamentals are properly used. No misuse of code or industry standards present
+Summary Comments are present and completed. Methods and variable names are appropriate. Fundamentals are 
+properly used. No misuse of code or industry standards present
 
 #### Even Workload (-20% deduction)
-All User stories and work completed within this sprint was approx even between all partners. Partners properly communicated with each other and no major conflicts were present during sprint. (20% deduction to overall sprint will be applied if necessary)
+All User stories and work completed within this sprint was approx even between all partners. Partners properly 
+communicated with each other and no major conflicts were present during sprint. (20% deduction to overall sprint will 
+be applied if necessary)
