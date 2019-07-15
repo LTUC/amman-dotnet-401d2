@@ -3,7 +3,7 @@
 
 ## Claims-based Authentication
 
-claims are a statement or property about a particular identity. Examples include
+Claims are a statement or property about a particular identity. Examples include
 
 1. FirstName
 1. LastName
@@ -14,9 +14,34 @@ claims are a statement or property about a particular identity. Examples include
 These are all statements are about who the identity *IS* not what they can *DO*
 
 
-#### Identity
+### Demo
+1. Go to Register Razor Page and add some claims to the user
+    - We want these pieces of information to be caught on registration. Remember, we can only
+    gaurantee the capture of basic information once, upon registration. Anything else can't be gauranteed because users
+may not visit the site again or want to disclose that information. 
 
-An identity contains many claims. Let's take a driver's license as an example. It contains
+
+#### More on Claims....
+
+#### Identity
+.NET Core identity can go a bit further....
+
+Within Identity, there are three core components:
+
+1. Claims
+2. Identity
+3. Principles
+
+
+### Claims
+
+As described above, claims are unique identifying information about a user. They are used
+to obtain information about a user for security purposes. These claims can be utulized
+saved within the identity database and utulized as needed through the site.      
+
+### Identity
+
+An `identity` contains many claims. Let's take a driver's license as an example. It contains
 1. First Name
 1. Last Name
 1. Height
@@ -29,17 +54,17 @@ identity.
 Identities in .NET core are a form of a `ClaimsIdentity`. 
 
 Other components of a ClaimsIdentity may be the Authentication Type, 
-which could extend to `Cookies` `Bearer`, `Google` etc...
-
+which could extend to `Cookies`, `Bearer`, `Google` etc...
 
 If you create a `ClaimsIdentity` and provide an `AuthenticationType` in the constructor, `IsAuthenticated` will always be true.
 
-You cannot have an unauthenticated user with an `AuthenticaitonType`
+Identity by default uses "Cookies" as it's default identity.
 
 
-### Multiple Identities
+### Principle
 
-`User` property on `HttpContext` is a `ClaimsPrinciple` not a `Claimsidentity`.
+A principle is the `User` itself. A prinicple actually holds the identities (more than one).
+Within the default Core Identity, we call a Prinicple a `ClaimsPrinciple` which utulizes the `User` property on `HttpContext` as it's `ClaimsPrinciple`. 
 
 A single `ClaimsPrinciple` can consist of multiple `Identities`. 
 Within `ClaimsPrinciple` , implements the `IPrinciple`, which essentailly grabs the 
@@ -50,6 +75,15 @@ The following are true:
 1. These identties can have multiple claims
 1. `ClaimsPrinicpal` inherits all the claims of it's identities. 
 
+The possibility of having multiple identities on a principle is pretty low, but the use case is to allow multiple forms
+of identity. 
+
+
+
+### Back to the Demo
+In the demo, all you have to do is implement the custom Iclaims on the registration page. Explain what identity and princple is
+but we won't actually be implementing them in the demo or the lab. 
 
 ### Sources:
 1. [Claims](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.2)
+2. [Idenitity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)

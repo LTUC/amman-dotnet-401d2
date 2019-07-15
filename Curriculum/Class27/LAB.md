@@ -4,7 +4,9 @@
 ## To Submit this Assignment
 Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of 
+the sprint/project. Each day the previous day's milestones build off each other as the project progresses. 
+Stay on top of your work, **Communicate**, and work together.
 
 ## User Stories & Guidance:
 
@@ -22,7 +24,10 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 2. Create a new DBContext for Identity (ApplicationDbContext)
 3. Include app.UseAuthentication in your Configure() method within Startup.cs
 	
-**User Story 2:** Create an AccountController and add into it a Register() action(both a POST and a GET). This is the actual act of creating a new ApplicationUser and adding them into the database. You will need to create a view to hold the registration form, you will then need to send that data to the server and save the data into the identity database. Using a ViewModel may be a good idea to create so that you can capture the Email, Password, and Confirm Password fields that you may have in your Register() action.
+**User Story 2:** Create a new "Pages" directory at the root of your site, followed by an "Account" directory inside "Pages". 
+Within the "Account" directory, add a new "Razor Page" and name it "Register". By default, you are only given an "OnGet" method. Using the demo code as a reference, complete 
+the rest of the registration logic. A View Model may be a good idea to create so that you can capture the Email, Password, and Confirm Password.
+fields that you may have in your Register() page. Ensure that once a user is "created" the entry is successfully added to the database and they are redirected back home. 
 
 **User story 3:** is bringing interfaces and dependency injection together.
 1. Create a new interface, maybe named IInventory  

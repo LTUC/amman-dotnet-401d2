@@ -61,15 +61,6 @@ Update-Database -Context ApplicationDbContext
 
 
 
-1. Create an AccountController
-    - Create a Register action (Get and Post)
-      - Utulize View Models similar to Login Action.
-      - Highlight: UserManager and SignInManager are part of the Identity API. It is what we use to
-     manage and access user information
-    - Create a login action (Get and Post)
-      - Very similar to Register with the View Model
-
-
 ### Sources:
 [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x)
 

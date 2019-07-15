@@ -10,4 +10,4 @@ of an acceptable quality.
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
 ## Readings
-1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"} 
+2. [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-2.2&tabs=visual-studio){:target="_blank"} 

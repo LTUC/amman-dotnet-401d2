@@ -22,11 +22,16 @@ Lecture will consist of:
    - Peer reviews at the end of each sprint
    - Show an example of Day 1's user stories and how they are split up
    - Everyone is responsible for their own submission (no "group" submissions)
-2. Have student pairs ready to be posted in the class. Each group should:
+3. Have student pairs ready to be posted in the class. Each group should:
 	- Create a Dev Ops account
 	- Think up a product to sell
 	- Scaffold out an MVC application with a SQL database (w/o Identity)
 	- Deploy the basic app to Azure (only on one of the accounts)
+
+4. [Intro to Identity](./Resources/Identity.md)
+   - Register Identity in Startup File
+   - Create a new DBContext for Identity
+   - Run migration scripts to show user tables. 
 
 ## What changed from yesterday? 
 New Topic. Just coming off of Project week. Students should be refreshed and ready to start the second half.

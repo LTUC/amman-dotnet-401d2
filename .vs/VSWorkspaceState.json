@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class14",
-    "\\Curriculum\\Class19",
-    "\\Lectures",
-    "\\Lectures\\Class16",
-    "\\Lectures\\Class17",
-    "\\Lectures\\Class18",
-    "\\Lectures\\Class19",
-    "\\Resources"
+    "\\Curriculum\\Class31",
+    "\\Curriculum\\Class31\\Resources",
+    "\\Curriculum\\Class32\\Resources",
+    "\\Curriculum\\Class36",
+    "\\Curriculum\\Class37",
+    "\\Curriculum\\Class37\\Resources",
+    "\\Curriculum\\Class38",
+    "\\Curriculum\\Class39\\Resources"
   ],
-  "SelectedNode": "\\Resources\\deployment.md",
+  "SelectedNode": "\\Curriculum\\Class31\\Resources\\viewComponents.md",
   "PreviewInSolutionExplorer": false
 }
