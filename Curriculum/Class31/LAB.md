@@ -67,3 +67,6 @@ that queries the database for all the items/products that the user has in his/he
 cart, and displays it on more than one page of the site. Display your "mini-basket" 
 on both the individual product landing pages and the home page. 
 	
+
+### Tests
+Test your serivces that are implementing your interface.

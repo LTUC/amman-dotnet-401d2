@@ -1,18 +1,7 @@
 # Class 32
 
 ## How do I prep for today?
-1. Code Review 
-   - Code Challenge! Give the students a code challenge
-   for them to complete individually on a piece of paper for 30 minutes. 
- - Once time is up either go over the solution in class or have one person walk through
- on the whiteboard. 
-2. Intro to OAUTH and adding user roles
-   - Draw out diagram of how the handshake is happening. 
-2. Demo of implemenation of OAuth
-   - Demonstrate with the students on Google or Microsoft. Twitter and 
-   Facebook are not usually good options. 
-    - The students will not be doing this in their lab. if they want to they can, but
-given the inconsistancies with third party providers, its not always reliable. 
+IEmailSender
 
 ## What changed from yesterday? 
 Still building off of demos from prior days
