@@ -2,15 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Curriculum",
-    "\\Curriculum\\Class31",
+    "\\Curriculum\\Class27",
+    "\\Curriculum\\Class27\\Resources",
     "\\Curriculum\\Class31\\Resources",
-    "\\Curriculum\\Class32\\Resources",
     "\\Curriculum\\Class36",
     "\\Curriculum\\Class37",
     "\\Curriculum\\Class37\\Resources",
-    "\\Curriculum\\Class38",
-    "\\Curriculum\\Class39\\Resources"
+    "\\Curriculum\\Class38"
   ],
-  "SelectedNode": "\\Curriculum\\Class31\\Resources\\viewComponents.md",
+  "SelectedNode": "\\Curriculum\\Class27\\Resources\\RazorPages.md",
   "PreviewInSolutionExplorer": false
 }

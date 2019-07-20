@@ -2,6 +2,9 @@
 using CMSDemo.Data;
 using CMSDemo.Models;
 using CMSDemo.Models.Handlers;
+using CMSDemo.Models.Interfaces;
+using CMSDemo.Models.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 
@@ -55,9 +58,15 @@ namespace CMSDemo
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("AdminOnly", policy => policy.RequireRole(ApplicationRoles.Admin));
+          
                 options.AddPolicy("Over21Only", policy => policy.Requirements.Add(new MinimumAgeRequirement(21)));
+                options.AddPolicy("CFEmail", policy => policy.Requirements.Add(new RequiredEmailRequirement()));
 
             });
+
+            services.AddScoped<IAuthorizationHandler, CodefellowsEmailHandler>();
+            services.AddScoped<IPostManagement, PostService>();
+           
 
         }
 

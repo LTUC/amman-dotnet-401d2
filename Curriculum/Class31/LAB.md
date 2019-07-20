@@ -23,25 +23,47 @@ Here are the user stories for Milestone 1:
 
 ### Guidance
 
-**User Story 1:** This page should exist for every product, and it can be done dynamically through views. Have a "View" action in your "ShopController" that will allow you to see product specific information. This page should contain:
-	1. Image of the product
-	2. Name of Product
-	3. Description
-	4. Price
+**User Story 1:** This page should exist for every product, and it can be done dynamically through views. 
+Have a new Razor Page in your "Shop" directory that will allow you to see product specific information. This page should contain:
+1. Image of the product
+2. Name of Product
+3. Description
+4. Price
 	
-**User Story 2:**  this essentially adding a button to onto the product landing page. This button will have the text "Add to Basket". When this button is clicked, it will pass the Product ID to the [HTTPPOST] action and then add that product to the user's basket. This should all take place on the database side. Consider using an interface for Basket CRUD operations. Similar to how you are getting products...do the same for basket manipulation. 
+**User Story 2:**  This is just adding a button to onto the product 
+landing page. This button will have the text "Add to Basket". When this button is 
+clicked, it will execute the post method and add that 
+product to the user's basket. This should all take place on the database side. 
+_**You will need**_ to setup your basket to use an interface for Basket CRUD operations. 
+Similar to how you are getting products...do the same for basket manipulation. 
 
-**User story 3:** You and your partner need to figure out how you are going to capture a user's basket items. This is going to required a database change. At the very least, your Basket should contain a collection Basket Items or Products...depending on your structure. You should be able to call a user's basket and view all the items/products associated with it. Remember that it possible that a user can have more than one item in their basket AND more than one type of item (example: I have 2 blankets in my basket).
+**User story 3:** You and your partner need to figure out how you are going to 
+capture a user's basket items. This is going to required a database change. At the 
+very least, your Basket should contain a collection Basket Items or Products...
+depending on your structure. You should be able to call a user's basket and view all 
+the items/products associated with it. Remember that it possible that a user can have 
+more than one item in their basket AND more than one type of item (example: I have 
+2 blankets in my basket).
 
-**User story 4:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in his/her cart, and displays it on more than one page of the site. Display your "mini-basket" on both the individual product landing pages and the home page. 
+Here is a _possible_ example structure that you can keep into consideration as you 
+build out your basket: 
+1. Basket Table:
+   - ID (primary key)
+   - UserID
+2. BasketItems Table
+    - ID
+    - BasketID (FK)
+    - ProductID (FK)
+    - Qty
+
+The above will give us the specific basket for each user and then give us a table to hold all
+of the individual basket items. If we ever want to find out what items a user has in their 
+basket, we can figure out what the user's basket id is, and then query all the items in the basketitems 
+table that share that basket id. 
+
+
+**User story 4:** This is where view components come in. Create a view component 
+that queries the database for all the items/products that the user has in his/her 
+cart, and displays it on more than one page of the site. Display your "mini-basket" 
+on both the individual product landing pages and the home page. 
 	
-
-
-## Tests
-
-No tests are required for today. 
-
-
-## Rubric
-
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 

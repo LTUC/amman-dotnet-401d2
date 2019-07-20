@@ -13,7 +13,7 @@
 ### Configurationat
 These are the thigns that you need to configure: 
 1. The Client ID
-2. the Clietn Secret
+2. the Client Secret
 3. the Redirect URI
 4. that Authorization Endpoint
 5. the Token endpoint

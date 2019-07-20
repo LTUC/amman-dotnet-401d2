@@ -10,4 +10,4 @@ of an acceptable quality.
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
 ## Readings
-- [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email){:target="_blank"}
+- [SCSS](https://docs.microsoft.com/en-us/aspnet/core/client-side/less-sass-fa?view=aspnetcore-2.1){:target="_blank"}
