@@ -12,7 +12,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 ## User Stories & Guidance:
 
-1. (Developer 1 & 2) As a developer, I would like to practice my SCSS skills by implementing it on at least 1 page of my e-commerce store. 
+1. (Developer 1 & 2 & 3) As a developer, I would like to practice my SCSS skills by implementing it on at least 1 page of my e-commerce store. 
 
 
 ### Guidance

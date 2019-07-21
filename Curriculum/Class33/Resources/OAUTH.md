@@ -11,7 +11,7 @@
 4. the consumer calls the *token endpoint* on the service provider website to exchagne the code for a more permanent access token.
 5. the SP grants an access token whcich can be used to authenticate subsequent requests to protected resources
 
-### Configurationat
+### Configuration
 These are the things that you need to configure when setting up for OAUTH: 
 1. The Client ID
 2. the Client Secret
