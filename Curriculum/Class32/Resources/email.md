@@ -52,7 +52,7 @@ Let's break down this code:
 
 1. First we need to create a SendGridClient reference. This should connect to your 
 user secrets key from SendGrid. This is going to tell your program to use your SendGrid account
-when sending emails. 
+when sending emails. You will need to inject `IConfiguration` into your EmailSender Class
 
 2. Set the values of the Values within the SendGridMessage. 
 3. The SendFrom method sets who the email is being sending from. 
