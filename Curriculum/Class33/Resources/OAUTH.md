@@ -1,5 +1,5 @@
 # OAUTH 2.0
-1. Register an application with the service provider. 
+1. Read through [this article](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins?view=aspnetcore-2.2) register an application with the service provider. 
 2. You specify the name of of the application and a Redirect URI
 3. Service provider will give us a ClientId and a client secret
 
