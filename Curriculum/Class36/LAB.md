@@ -14,13 +14,13 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 1. (Developer 1) As a user, I would like to use AUTH.NET as my automatic payment processing system
 2. (Developer 2)As a user, I would like a fake Credit card drop down to be used for every transaction that occurs in my site.
-3. (Developer 2) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
+3. (Developer 2 || 3) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
 
 
 ### Guidance
 
 **User Story 1**: Use the Auth.NET docs located in today's readings. This is going to be your key to accomplishing this user story. Also be sure to use the demo code and the demo code provided in the docs. There are many resources (including the auth.net GH repo) for this to be accomplished. Be sure that you know exactly what is going on. 
-Don't forget to  update your code to the new .NET Core 2.1 syntax for ApiOperationsBase:
+Don't forget to  update your code to the new .NET Core SDK syntax for ApiOperationsBase:
 ApiOperationBase<ANetApiRequest, ANetApiResponse>
 
 
@@ -38,8 +38,3 @@ You do not need to test the Identity components. Only the CRUD operations on the
 Don't forget about the getters and setters.
 
 Keep your tests clean, only 1 Assert per test
-
-
-## Rubric
-
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 

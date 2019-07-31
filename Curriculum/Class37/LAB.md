@@ -13,8 +13,8 @@
 
 ## User Stories & Guidance:
 
-1. (Developer 1 & 2) As a developer, I would like to integrate Azure Blob Storage into my current project to store my product images
-2. (Developer 1 & 2) As a developer, I would like to update my seeded data for my database to point images to the Azure Blob URIs instead of local assets 
+1. (Developer 2 & 3) As a developer, I would like to integrate Azure Blob Storage into my current project to store my product images
+2. (Developer 1 ) As a developer, I would like to update my seeded data for my database to point images to the Azure Blob URIs instead of local assets 
 
 
 ### Guidance
