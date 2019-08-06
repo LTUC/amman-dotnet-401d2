@@ -63,7 +63,7 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 10. Personal Profile Page - (Razor Page)
     - Shows user's last 5 orders
     - Displays user information
-11. [Vulnerability](VulnerabilityReport.md} report present in Repo 
+11. [Vulnerability](VulnerabilityReport.md){:target="_blank"} report present in Repo 
 
 ### Shared
 - CSS/HTML
