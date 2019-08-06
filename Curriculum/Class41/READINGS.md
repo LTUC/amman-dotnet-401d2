@@ -10,3 +10,5 @@ of an acceptable quality.
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
 ## Readings
+1. [History of ASP.NET (Read all 3 parts)](https://www.dotnetcurry.com/aspnet/1492/aspnet-history-part-1)
+2. [MVC 5 Tutorial](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started)
