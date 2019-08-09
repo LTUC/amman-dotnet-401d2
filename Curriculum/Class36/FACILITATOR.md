@@ -22,14 +22,17 @@ how to take it bit by bit and help guide them how to pull from
 the documentaion what is useful and what is needed. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-Sometimes Auth.NEt doens't play nice with some versions of core.
+Sometimes Auth.NET doens't play nice with some versions of core.
 It is proven to be successful with both 2.0 and 2.1..even though we get
 a dependency warning. 
 
+In addition to installing the Auth.NET NuGet Package, the student will also need to install the 
+Configuration Manager package. This is required for the Auth Net Library
+
 ## General comments
 This is a fun integration to add to the lab. It's a lot though.
-Encourage curiousity and try to encourage studetns to look on their own and
-see what they can learn. This may be the first ime we tell them "read the docs"
+Encourage curiousity and try to encourage students to look on their own and
+see what they can learn. This may be the first time we tell them "read the docs"
 and mean it in a way to challenge them. (the lecture outline does contain a lot of
-guidance on thsi particular service, so they can always crutch back on lecture
+guidance on this particular service, so they can always crutch back on lecture
 for how to use this service.)

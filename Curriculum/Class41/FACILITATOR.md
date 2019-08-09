@@ -14,6 +14,13 @@ to where we are now. Can they sense patterns in how MSFT makes changes to the fr
 What about patterns with their releases? What can we learn from where the .NET framework
 has been to where it is going?  
 
+In addition, today you can release project groups for the final project.
+There will be final project assignments appearing in CANVAS that you should
+be reviewing. Review these assignments with the class at the beginning of lecture.
+Let the students know that they should be working with their groups
+and keeping an eye on these assignments and should be completing these
+as they appear through the week. 
+
 ## What changed from yesterday? 
 New topic. 
 
