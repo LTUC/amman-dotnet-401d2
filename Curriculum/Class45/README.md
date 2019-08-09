@@ -6,5 +6,5 @@ Class 45: Final Project Kickoff
 
 ## Lecture Outline
 
-No lecture today. follow the directions inthe Final Project prep to 
+No lecture today. Follow the directions inthe Final Project prep to 
 wrap up the planning of your final project
