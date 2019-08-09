@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+# Class 42: Readings
 
 ## Submission Requirements
 To turn in your reading "Reply" to this discussion by teaching something that you learned from the 

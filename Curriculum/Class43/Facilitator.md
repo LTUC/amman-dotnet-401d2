@@ -29,8 +29,8 @@ the accumulation of ideas and responses that you get from students.
 
 2. Why do we need Ethics?
 
-3. Introduce a few ethical questions. Let the students think about what they should do? Here are two:
-   - As a Software Developer, You interviewed at 2 different companines, and you were extended 
+3. Introduce a few "was that ok" questions. Let the students think about what they should do? Here are two:
+  - Scenario 1: As a Software Developer, You interviewed at 2 different companines, and you were extended 
    an offer from ABC for an amount of money that you are more than happy with. After accepting, 
 company XYZ extends an offer to you. You politely decline the offer as you have already accepted company
 ABC's offer. XYZ offers you 10k more than what ABC has giving you. You then accept their offer and
@@ -41,16 +41,16 @@ refuse your offer.
      - why or why not
      - Be sure to discuss both sides of the reasoning
 
-- Scenario 2: A police officer is having trouble finding a babysitter that
+  - Scenario 2: A police officer is having trouble finding a babysitter that
 they trust to watch their brand new baby. After interviewing a nanny, the police
 officer runs the nanny's information through the police background system and finds no major
 issues or areas of concern. They hire the nanny, and are able to enjoy an evening knowing 
 their child is safe.
- - Was it "ok" for the police officer to run the nanny's information through the police system?
- - Why or why not? 
- - Discuss both sides of the reasoning
-   - misuse of police resources
-   - They were able to ensure the safety of their family. No one was "hurt" 
+    - Was it "ok" for the police officer to run the nanny's information through the police system?
+    - Why or why not? 
+    - Discuss both sides of the reasoning
+      - misuse of police resources
+      - They were able to ensure the safety of their family. No one was "hurt" 
 
 
 4. From here...move the conversation to discuss the readings. Talk with the students about some of the stories of the 
