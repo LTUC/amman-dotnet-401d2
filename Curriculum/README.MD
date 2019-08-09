@@ -1,6 +1,6 @@
-# 401 .NET Core Curriculum Overview
+# 401 ASP.NET Core Curriculum Overview
 
-## Week 1 - Basics
+## Week 1 - Fundamentals
 1. Exception Handling
    - LAB: About Me
 2. Unit Testing
@@ -18,7 +18,7 @@ Data Structures:
 
 Quiz 1
 
-## Week 2 - Advanced
+## Week 2 - Advanced Concepts
 
 1. Interfaces
    - LAB: Zoo Part 2
@@ -112,7 +112,7 @@ Quiz 5
 4. Razor Pages 
 	- Add in user profile & admin dashboard page as Razor Page
 	- END OF SPRINT 2
-5. Career Coaching
+5. Review Day
 
 Data Structure: Graphs 
 
@@ -131,7 +131,7 @@ Quiz 6
 	- GDPR
 	- LAB: Vulnerability Report
 	- END OF SPRINT 3
-1. Review Day
+1. Career Coaching
 
 Data Structure: Sorting Algorithms
 
@@ -139,11 +139,9 @@ Data Structure: Sorting Algorithms
 Quiz 7
 
 ## Week 9 - MISC.
-1. .NET 4.7 MVC & Web Forms
-1. Design Patterns
-	- Different Types
-	- Implement Factory
+1. .NET 4.8 MVC & Web Forms
 1. General Overall Review
+3. Ethics in Technology
 1. Open Source Contribution 
 	- Learn, Investigate, and Contribute to an open source project
 1. Final Project Kickoff
