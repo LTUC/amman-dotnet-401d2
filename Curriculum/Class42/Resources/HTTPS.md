@@ -164,8 +164,8 @@ brings some good security improvements.
 
 1. HTTP is just a HTTP protocol but with data encryption
 using SSL/TLS
-
-2. SSL was the origianl and now depricated protocol created by netscape in the 90s.
+2. The "s" in HTTPS is "secure".
+3. SSL was the origianl and now depricated protocol created by netscape in the 90s.
 3. TLS is the new protocol for secuirty encryption on the web
 4. The web is maintained by the IETF
 

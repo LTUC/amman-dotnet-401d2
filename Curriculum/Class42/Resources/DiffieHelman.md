@@ -72,8 +72,3 @@ Alice and Bob
 6. The certificate is trustworthy because it is digitally signed by a certificate authority. (i.e. Symantec, and LetsEncrypt)
 
 7. What is a digital signature?
-
-
-# Assignments
-
-## Readings

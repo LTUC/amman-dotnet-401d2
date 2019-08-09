@@ -8,6 +8,9 @@ obsticles they are encountering. (1 hour)
 1. Web Security PPT (45 minutes) [NOTES](./Resources/HTTPS.md)
 2. OWASP powerpoint (45 minutes) [NOTES](./Resources/OWASP.md)
 
+There is an extra DiffieHelman.md file if you want to review it. It's 
+a fun activity to show the students an example of how the Symetric key algorithm works.
+
 ## What changed from yesterday? 
 Nothing. New topic. 
 
