@@ -1,14 +1,15 @@
-# Class 41
+# Class 41: ASP.NET Framework
 
-## How do I prep for today?
+## Overview
 Today is all about reviewing older versions of ASP.NET. The whole point of 
-this lecture is to compare/contrast the differences between ASP.NET 4.8 and .NET
+this lecture is to compare/contrast the differences between ASP.NET 4.8 and ASP.NET
 Core. We don't want students to not apply for positions that involve the 
 older framework, so this is their look at what it looks like and how
 similar they are. It's also a good opportunity for them to see how much
 the framework has evolved!
 
-Review the readings on the history of .NET, and discuss with class how we got to be
+## How do I prep for today?
+Review the readings on the history of ASP.NET, and discuss with class how we got to be
 to where we are now. Can they sense patterns in how MSFT makes changes to the frameworks?
 What about patterns with their releases? What can we learn from where the .NET framework
 has been to where it is going?  
