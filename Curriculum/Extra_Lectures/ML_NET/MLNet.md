@@ -31,11 +31,13 @@ Used in data science to represent decisions and decision making.
 Can be used in Data mining, but is laso used in machine learning. 
 
 ## What is a Linear Regression?
-A linear regresssio is used when asking how much or how many? This will allow us
+A linear regresssion is used when asking how much or how many? This will allow us
 to determine, given a set of data, and evaluating historical data, how much or how many
 is this thing. 
 
 
-### Draw
-Given some data, draw a model. 
+### DEMO
+using ML.NET current verion tutorials, have the students
+work though the tutorials in groups and have them present
+their findings. 
 

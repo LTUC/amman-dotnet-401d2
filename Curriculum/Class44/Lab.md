@@ -2,9 +2,16 @@
 
 ## Find and contribute to an Open Source Project!
 
+
+This is a two part assignment! You get to contribute to two open-communities.
+One within GitHub and another within Stack Overflow.
+
+
+## GitHub OSS (Part 1)
+
 **This is a Group assignment**
 <!-- short description of project -->
-Today you and your partners will find and developo a meaningful way to contribute back to the .NET development community at large by finding an open source project which you can participate in (you may not actually make it all the way to a PR today).
+Today you and your partners will find and develop a meaningful way to contribute back to the .NET development community at large by finding an open source project which you can participate in (you may not actually make it all the way to a PR today).
 
 ## Specifications
 <!-- Write a spefication for the features required in this lab assignment -->
@@ -37,3 +44,14 @@ Today you and your partners will find and developo a meaningful way to contribut
 3. Copy the link to your open pull request and paste it into the Canvas assignment for this day.
 4. Upload your RCA document, and leave any comments you may have about the assignment in the comments box. This includes any difficulties you may have had with the assignment.
 5. Merge your feature branch into `master`
+
+
+## Stack Overflow (Part 2)
+1. Create a stack overflow account.
+2. Find a question that you can answer.
+3. Question rules:
+   - It cannot be older than a month
+   - It is allowed to have other answers
+   - Your answer must include an explanation, code snippet, and further insight. 
+   - Spend at least 20-30 minutes creating the answer. 
+4. Submit your question and your username into the Canvas Assignment.
