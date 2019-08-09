@@ -2,7 +2,6 @@
 
 ## How do I prep for today?
 
-
 ## What changed from yesterday? 
 
 ## What might students struggle with today?  
