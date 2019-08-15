@@ -22,32 +22,70 @@ Authentication is the process of determining **Who you are**
 Authorization revolves around **what you are allowed to do**
 Example is permissions. 
 
-
-## Authentication
-
-In ASP.NET Core thre is a proprety named `User`, which is a type of  `ClaimsPrinciple`, which implements `IPrinciple`.
-
-
 ## Demo
-
 
 1. Under `Configure()` in your Startup class, add `app.UseAuthentication();` 
      - This is what actually allows us to authenticate users within identity.
 
+
+After you've enabled Authentication in your Startup.cs file, you will need to create an 
+actual user that will be used within the application. 
+
 1. Create an `ApplicationUser` Class that derives from `IdentityUser`.
 
-1. Create an `ApplicationDbContext` that derives from `:IdentityDbContext<ApplicationUser>`
-1. Register your new `ApplicationDbContext`
+Talk about what `IdentityUser` is. Dive into the definition of what Identity user is 
+(right click on the class and select "go to definition"). Dive one more step deeper into the
+definition of the `IdentityUser<TKey>` type to see all the props that are included in 
+Identity user. Notice a few things about the Identity user in the `IdentityUser<TKey>`:
+Notice that any personal information is not included in the base Identity User. That means that
+if there is a requriement for more information to be included in on the Identity User than 
+what is given, it has to be added manually.  
 
-1. Go to your `Startup.cs` Class and add in Identity
+2. Add some additional props to your `ApplicationUser` so that more information is included
+when using the Application User. Note that the name of the class does NOT have to be `ApplicationUser` 
+it can be anything, the only constraint is that it is dervived from Identity User. 
 
 ```csharp
+    public class ApplicationUser : IdentityUser
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime Birthdate { get; set; }
 
+    }
+```
+1. Create an `ApplicationDbContext` that derives from `:IdentityDbContext<ApplicationUser>`
+     - We want to create a new database to hold our Identity information. This will be a 2nd DB for our 
+     application, and it will teach students how to manage more than one database in a project. We will do
+this for "separation of concern" purposes, as well as "security" purposes. 
+
+```csharp
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+{
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+    {
+
+    }
+}
+```
+
+1. Since we have a new DB, we have to register it. Go to the Startup file and register
+your `ApplicationDbContext`
+
+```csharp
+services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer(Configuration.GetConnectionString("UserConnection")));
+```
+
+1. Now, in your `Startup.cs` file add in Identity under your newly registered DBContext.
+
+```csharp
  services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
 ```
+
+You now will want to create a new migration for each ind. database.
 
 Commands to run in PMC since you have 2 DbContext:
 
@@ -60,6 +98,12 @@ Update-Database -Context ApplicationDbContext
 ```
 
 
+### Summary
+This will set us up for Class 27, where we will add a Registration and Login
+page. We will utulize the Razor Page pattern to build these out for our project. 
+
+The students will not be adding in identity until Class 27's lab, but this will be a good
+exposure part 1 day.
 
 ### Sources:
 [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x)

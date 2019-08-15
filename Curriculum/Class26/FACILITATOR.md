@@ -1,4 +1,4 @@
-# Class 26 Intro to Identity
+   # Class 26 Intro to Identity
 
 ## How do I prep for today?
 Introduce the E-Commerce Project. If you have chosen to utulize the Canvas Pages, this is a good day
@@ -7,20 +7,21 @@ before lecture to turn on the "E-Commerce" Home landing page.
 The canvas landing home page usually consists of:
 1. The intro to the project
 2. A roadmap of each of the sprints and the assignments associated with them (only publish one sprint at a time)
-3. Extra resources to have on hand during the course. 
+3. Extra resources to have on hand during the course.  (example: Syllabus)
 4. Partners
 
 Lecture will consist of:
 1. Get familiar with Azure Dev OPS project management tool & VS extension 
-   - [Cheat Sheet](../ECom_Project/VSTS_CheatSheet.md)
+   - Use this [Cheat Sheet](../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic tasks within ADO.
    - Walk through the creation of a repo and cloning it down to your Visual Studio extension 
    - Create a basic scaffolded MVC app w/ a database in class following the Azure Dev Ops work flow
         - The demo is using User Secrets, so don't forget to include the User secrets file and Connection String file! 
+        - Your initial demo should match the `ADO_Scaffold_Demo` located in the Demo Folder. 
 2. Introduce the ECom project by reviewing each week's expectations
    - Monday goals (to plan ahead)
    - Friday reflections (what did you complete that week? What would you do differently?)
    - Peer reviews at the end of each sprint
-   - Show an example of Day 1's user stories and how they are split up
+   - Show an example of Day 1's (and 2's if they need to see the "guidance" section) user stories and how they are split up
    - Everyone is responsible for their own submission (no "group" submissions)
 3. Have student pairs ready to be posted in the class. Each group should:
 	- Create a Dev Ops account

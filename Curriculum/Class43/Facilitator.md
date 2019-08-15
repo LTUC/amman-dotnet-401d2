@@ -9,7 +9,7 @@ types of issues they may encounter and the decisions they have to face in their 
 not to tell them how to think*_
 
 A fun video clip to introduce the topic to:
-[The Trolly Probelm - The Good Place (1:21 clip)](https://www.youtube.com/watch?v=hrPkcYQobro)
+[The Trolly Problem - The Good Place (1:21 clip)](https://www.youtube.com/watch?v=hrPkcYQobro)
 
 Have an open discussion with the class. Make sure that you preface the conversation with the class
 on being professional and respectful to those participating. Remind them that they are allowed 
