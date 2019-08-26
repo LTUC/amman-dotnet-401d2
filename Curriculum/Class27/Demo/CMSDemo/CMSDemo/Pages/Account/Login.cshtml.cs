@@ -24,7 +24,7 @@ namespace CMSDemo.Pages.Account
         {
             _signInManager = signInManager;
         }
-
+        // Login form from the .cshtml
         [BindProperty]
         public InputModel Input { get; set; }
 
@@ -49,9 +49,8 @@ namespace CMSDemo.Pages.Account
 
             if (ModelState.IsValid)
             {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
+                // Process the username and password against the signinManager. If they match, sign in.
+                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     return LocalRedirect(returnUrl);

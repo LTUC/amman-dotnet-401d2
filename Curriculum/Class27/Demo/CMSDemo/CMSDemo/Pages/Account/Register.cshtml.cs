@@ -12,7 +12,9 @@ namespace CMSDemo.Pages.Account
 {
     public class RegisterModel : PageModel
     {
-
+        // SignInManager & UserManager are from identity API.
+        // we will inject these into the page to use them when 
+        // working with the ApplicationUser during the registration process
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
 
@@ -27,14 +29,23 @@ namespace CMSDemo.Pages.Account
 
         }
 
+        // This property will hold the registration form from the .cshtml file. 
         [BindProperty]
         public RegisterInput Input { get; set; }
 
         public string ReturnUrl { get; set; }
+
         public void OnGet(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
         }
+
+        /// <summary>
+        /// When the registration form is submitted, create and add
+        /// the application user to the database. 
+        /// </summary>
+        /// <param name="returnUrl"></param>
+        /// <returns></returns>
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl = returnUrl ?? Url.Content("~/");
@@ -45,6 +56,7 @@ namespace CMSDemo.Pages.Account
                 if (result.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
+                    
                     return LocalRedirect(returnUrl);
                 }
                 foreach (var error in result.Errors)

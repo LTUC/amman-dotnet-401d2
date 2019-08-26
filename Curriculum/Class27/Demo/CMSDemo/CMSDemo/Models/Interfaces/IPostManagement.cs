@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace CMSDemo.Models.Interfaces
 {
+    /// <summary>
+    /// Interface for the Post management of CRUD operations on
+    /// the post functionality
+    /// </summary>
     interface IPostManagement
     {
         // Create

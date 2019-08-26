@@ -8,7 +8,10 @@ using System.Threading.Tasks;
 
 namespace CMSDemo.Models.Services
 {
-
+     /// <summary>
+     /// Implementing the Interface of Post Management onto the 
+     /// 3rd party service. We will register 
+     /// </summary>
     public class PostService : IPostManagement
     {
         private BlogDbContext _context;
@@ -17,6 +20,7 @@ namespace CMSDemo.Models.Services
         {
             _context = context;
         }
+
         public async Task CreatePostAsync(Post post)
         {
             _context.Posts.Add(post);
