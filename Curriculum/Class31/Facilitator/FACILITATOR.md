@@ -15,7 +15,7 @@ user secrets!
 
 Lecture Outline:
 1. Review Sprint 1
-2. [View Components](./Resources/viewComponents.md)
+2. [View Components](./viewComponents.md)
 
 ## What changed from yesterday? 
 Building off of yesterday's demo
