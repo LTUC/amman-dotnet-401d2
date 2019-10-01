@@ -71,7 +71,7 @@ To append text to a file, we can do it either by adding an of lines, or just ind
 
 To add a full array to a text file (each index is it's onw line):
 
-```
+```csharp
 static void FileAppendText(string path)
 {
     string[] words = {
@@ -190,24 +190,26 @@ using (StreamReader sr = File.OpenText(path))
 }
     ```
       -OR-
-    ```csharp
+```csharp
         string[] worrds = File.ReadAllLines(path);
-    ```
+```
 
-      1. Write to the end of a file:
-           ```csharp
+  1. Write to the end of a file:
+
+```csharp
                     using (StreamWriter sw = File.AppendText(path))
                     {
                       sw.WriteLine(word);
                     }
-         ```    
-      1. Delete a file:
+```    
+1. Delete a file:
 
 ```csharp
 File.Delete(completePath);
 ```
 
-      1. Copy a file from one location to another
+1. Copy a file from one location to another
+
 ```csharp
 string fileName = "test.txt";
 string sourcePath = @"C:\Users\Public\TestFolder";
@@ -218,18 +220,18 @@ string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
 string destFile = System.IO.Path.Combine(targetPath, fileName);
 ```
 
-          ```csharp
-          // To copy a file to another location and 
-         // overwrite the destination file if it already exists.
-         System.IO.File.Copy(sourceFile, destFile, true);
-         ```
+```csharp
+// To copy a file to another location and 
+// overwrite the destination file if it already exists.
+System.IO.File.Copy(sourceFile, destFile, true);
+```
 
-          ```csharp
+```csharp
             
-           // Will not overwrite if the destination file already exists.
-            File.Copy(Path.Combine(sourceDir, fName), Path.Combine(backupDir, fName));
+// Will not overwrite if the destination file already exists.
+File.Copy(Path.Combine(sourceDir, fName), Path.Combine(backupDir, fName));
 
-           ```
+```
    
 1. **Arrays & Reading File Contents**
    1. Why do we need to use arrays?
@@ -237,10 +239,10 @@ string destFile = System.IO.Path.Combine(targetPath, fileName);
        1. Read by line vs splitting by a deliminator
           1. ``char[] delimiterChars = { ' ', ',', '.', ':', '\t' };``
           
-                ```csharp
-                string text = "one\ttwo three:four,five six seven";
-                string[] words = text.Split(delimiterChars);
-                ```
+    ```csharp
+    string text = "one\ttwo three:four,five six seven";
+    string[] words = text.Split(delimiterChars);
+    ```
    1. iterate through your array of file contents
 
     ```csharp
