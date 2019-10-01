@@ -14,8 +14,8 @@ Review student facing readme.
 - Look in the resources folder to find the topics that should be covered in this lecture The topics that should be covered are:
 
 Before Class:
-1. If you are an afternoon lecture time, give the students the [Calculator Assignment](Calculator.md) before class. This assignment should
-be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. 
+1. If you are an afternoon lecture time, give the students the [Calculator Assignment](Calculator.md) before class. This assignment should be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. 
+2. If you are not in an afternoon lecture time, you may optionally give this assignment to students as you see fit.
 
 Lecture Outline:
 
@@ -25,7 +25,7 @@ Lecture Outline:
 	- Types Lecture located [here]("../Resources/Types.md")
 3. Exception Handling (90 min) 
 	- Lecture outline [here]("../Resources/ExceptionHandling.md")
-	- DemoCode [here](../DemoCode/ExceptionExample)
+	- DemoCode [here](../../DemoCode/ExceptionExample)
 4. Debugging (30 min)
 	- Debug the DemoCode to show how it works
  

@@ -1,11 +1,11 @@
-# VSTS Cheat Sheet
+# Azure DevOps Cheat Sheet
 
-The documentation on how to work with VSTS is located [HERE](https://docs.microsoft.com/en-us/vsts/git/share-your-code-in-git-vs-2017?view=vsts){:target="_blank"} 
+The documentation on how to work with Azure DevOps is located [HERE](https://docs.microsoft.com/en-us/vsts/git/share-your-code-in-git-vs-2017?view=vsts){:target="_blank"} 
 
-The expectation is that you will get comfortable with VSTS and use this documenation as reference for questions you may have.
+The expectation is that you will get comfortable with Azure DevOps and use this documenation as reference for questions you may have.
 
 ### Create a Repo
-1. Visit [Azure Dev Ops](https://visualstudio.microsoft.com/team-services/) and create an account using the same email you used for your Azure account
+1. Visit [Azure DevOps](https://visualstudio.microsoft.com/team-services/) and create an account using the same email you used for your Azure account
 2. Create a new organization 
 3. Create a new project
 4. Add your partner.
@@ -16,8 +16,8 @@ The expectation is that you will get comfortable with VSTS and use this documena
 9. There may be a yellow box that appears that says "Crate a new project or solution for this repository"
 10. Create an empty MVC web app project as your intial commit. 
 11. Name your project the name of your Ecommerce site
-12. Push your project up to Azure Dev Ops
-13. You can now refresh your Azure Dev Ops dashboard, select Repos, and you will see your newly added files.
+12. Push your project up to Azure DevOps
+13. You can now refresh your Azure DevOps dashboard, select Repos, and you will see your newly added files.
 
 ### Beginning of Each Sprint:
 Create a new sprint at the beginning of each sprint. To create a new sprint, follow these directions:
@@ -80,8 +80,8 @@ Go to your Visual Studio local code base and be sure to sync your changes first
    - Commit often
  
 ### Submit a PR
-Upon completion, Push your code up to VSTS
-  - Go back to VSTS
+Upon completion, Push your code up to Azure DevOps
+  - Go back to Azure DevOps
   - Select "Code"
   - You will see a notification at the top that says "you updated {BranchName} just now -- create a pull request"
   - select the Pull Request link in that message
@@ -126,7 +126,7 @@ repository. Here are the steps to complete this process:
 1. Go to your local git repo on you machine
 2. Confirm the current origin with the following command: `git remote show origin`
 3. You will be prompted for the credentials you specified above in the setup
-4. confirm that you see `fetch` and `push` url to point to VSTS. 
+4. confirm that you see `fetch` and `push` url to point to Azure DevOps. 
 5. Run this command `git remote set-url origin {Github Repo URL}}` (
 **Example:** `git remote set-url origin https://github.com/Aiverson1011/DotNetBusMall`)
 6. Conduct a `git push` on your local repo

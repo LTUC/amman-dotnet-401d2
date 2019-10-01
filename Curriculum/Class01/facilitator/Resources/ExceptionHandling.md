@@ -149,13 +149,13 @@ The call stack ...
 - Exception Handling outside of methods
 
 ```
-Main() --> MethodA() <br />
-MethodA() --> MethodB() <br />
-MethodB() --> MethodC() <br />
-MethodC() encounters an exception -> No catch in MethodC(); <br />
-Looks in MethodB() -> No catch in B either <br />
-Looks in MethodA() -> No catch found <br />
-Looks in Main() -> No catch <br />
+Main() --> MethodA()
+MethodA() --> MethodB()
+MethodB() --> MethodC()
+MethodC() encounters an exception -> No catch in MethodC();
+Looks in MethodB() -> No catch in B either 
+Looks in MethodA() -> No catch found
+Looks in Main() -> No catch
 Program Terminates. 
 
 ```
@@ -206,3 +206,5 @@ private static void MethodC()
 		throw(new Exception("This is from Method C");
 }
 ```
+
+The whole point of this example is to prove the call stack and the ordering of the messages being thrown. You should see run this bit of code in VS and "prove" to the students that each method gets run as it gets pushed and popped off of the stack.

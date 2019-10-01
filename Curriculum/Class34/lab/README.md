@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 36: Sprint 2 - Milestone #4
+Lab 36: Sprint 2 - Milestone #4
 =====================================
 
 ## To Submit this Assignment
