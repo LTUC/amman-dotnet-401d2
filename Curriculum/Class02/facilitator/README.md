@@ -10,8 +10,10 @@ See student facing readme.
 
 
 ## How do I prep for today?
- Review what the most current XUnit version. Make sure it is compatible with your framework. 
+1.  Review what the most current XUnit version. Make sure it is compatible with your framework. 
+2. Review the demo code and lecture doc
 
+## Lecture
  1. Code Review on "About Me Quiz" / Code Challenge
  2. Introduction to TDD and Unit Testing
 	- Lecture Notes [here]("../Resources/UnitTests.md")

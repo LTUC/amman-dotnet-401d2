@@ -50,7 +50,14 @@ Assertions are what the test conditions are based off of. You use assertions to
 test the expected value against the actual value. If the expected and actual match, the test is a pass.
 
 One thing to note with unit tests is that even a expected failure of a condition, is still a failed test. 
-You must structure your tests so that it will always complete as a "green" test. 
+You must structure your tests so that it will always complete as a "green" test.
+
+
+## Demo
+
+Incrementally build out your code following the Red/Green/Refactor technique. Start with Facts, then after a while workign with facts and following TDD, then show the students Theories and how they can make the process go a bit quicker when we have paramterized data.
+
+Your final code should look like so:
 
 
 ## Example Fizzbuzz Tests
@@ -97,3 +104,4 @@ You must structure your tests so that it will always complete as a "green" test.
     }
 
 ```
+

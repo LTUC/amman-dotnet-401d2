@@ -10,23 +10,24 @@ Intro to C# and Exception Handling
 Review student facing readme.
 
 ## How do I prep for today?
-- The Readme.md for this directory is what should be student facing in the class repo.
-- Look in the resources folder to find the topics that should be covered in this lecture The topics that should be covered are:
 
-Before Class:
-1. If you are an afternoon lecture time, give the students the [Calculator Assignment](Calculator.md) before class. This assignment should be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. 
-2. If you are not in an afternoon lecture time, you may optionally give this assignment to students as you see fit.
+1. The Readme.md for this directory is what should be student facing in the class repo.
+1. If you are an afternoon lecture time, give the students the [Calculator Assignment](../Calculator.md) before class. This assignment should be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. If you are not in an afternoon lecture time, you may optionally give this assignment to students as you see fit.
+1. Become familar with the lecture topics and demo code
+1. Complete th daily readings and be prepared if students have questions
+1. Be prepared to answer questions about the prework. 
 
-Lecture Outline:
+## Lecture:
 
+1. Review Syllabus and class expectations
 1. Introduction to C# and ASP.NET (30 min)
 	- [Reference](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
-2. Different types in the language (30 min)
+1. Different types in the language (30 min)
 	- Types Lecture located [here]("../Resources/Types.md")
-3. Exception Handling (90 min) 
+1. Exception Handling (90 min) 
 	- Lecture outline [here]("../Resources/ExceptionHandling.md")
-	- DemoCode [here](../../DemoCode/ExceptionExample)
-4. Debugging (30 min)
+	- DemoCode located in DemoCode folder
+1. Debugging (30 min)
 	- Debug the DemoCode to show how it works
  
 ## What changed from yesterday? 
