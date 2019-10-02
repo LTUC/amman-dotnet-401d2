@@ -1,21 +1,28 @@
 # Class 04 : Classes and Objects
 
+## Overview
+Introduce the concept of Classes and Object Oriented Programming as well as the memory management of C#.
+
 ## How do I prep for today?
-Introduce the concept of Classes and Object Oriented Programming.
-A document outline for each of these sections is located in the Resources Folder
-1. Open up with Classes and Properties
+1. Upload to the daily class repo the starter code for today's lab
+2. Be comfortable with the demo code and lecture content
+
+### Lecture
+1. Code Review
+   - Keep it short if possible, there is a lot to cover today!
+1. Classes and Properties
 	1. Classes.md (Classes.md)
 	1. Properties.md (Properties.md)
-1. Once you review the above, Start talking about **Value Types** and **Reference Types**
-and how they are different. 
-	1. Value Types vs Reference Types (ValRefTypes.md)
-1. Introduce the Stack and the Heap, and how they relate to val and ref types
-	1. Stack // Heap (in StackHeap.md)
-1. You can then wrap up with Garbage Collection. GC itself is kind of a big topic, and is
+1. Value Types and Reference Types 
+	1. [Lecture](./Resources/ValRefTypes.md)
+1. Callstack and Heap
+	1. [Lecture](./Resources/StackHeap.md)
+1. Garbage Collection. 
+   - [Lecture](./Resources/GarbageCollection.md)
+   - GC itself is kind of a big topic, and is
 a lot to review on top of everything else that is being taught this day. So just go over the fundamentals.
 You do not have to go over each generation in depth, if you think it is too much to digest. This lecture can always be moved to another 
 day if you don't have time to complete. 
-	1. Garbage Collection Fundamentals (in GarbageCollection.md)
 
 
 ## What changed from yesterday? 
