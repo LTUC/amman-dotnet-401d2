@@ -9,8 +9,17 @@
 Review the System.IO.md in the Resources Folder. This is a great outline to become familiar with System.IO and 
 a good template to use when presenting the lecture. 
 
+## Lecture
+1. Code Review of TDD
+   - Code out lab together possibly
 1. System IO File Class
 	- Lecture Notes [here]("../Resources/SystemIO.md")
+1. Domain Modeling
+   - Review what it is
+   - What does it look like?
+1. Lab Review
+    - Expectations of lab
+    - This is a challenging lab, extended due date to be right before classs 06. 
 
 ## What changed from yesterday? 
 They are expected to test their code now moving forward
