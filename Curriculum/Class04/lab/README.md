@@ -1,27 +1,11 @@
 Lab 04: Tic-Tac-Toe
 =====================================
 
-## To Submit this Assignment
-- If you have not done so already, clone the class repo
-- Be sure to `pull` for updated content
-- Copy the starter code in class 04 to a newly created git repo (`cp -r location/of/startercode/. location/of/new/git/repo) 
-(**Don't forget about the "dot" at the end of code source**)
-- Do an `initial commit` of the starter code
-- Create a branch named `NAME-LAB##`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
-- Merge your PR back into master
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described below)
-
-
+Read this document, in it's entirety before starting the assignment. 
+ 
 ## Problem Domain
 Create a two (2) person, turn based Tic-Tac-Toe program.
-Building off of your starter code provided from the class repo, complete the Tic Tac Toe logic. 
-
+Building off of your starter code provided from the class repo, complete the Tic Tac Toe logic. Refer to the "Submit this Assignment" section below on instructions with the starter code. 
 
 ## Program Specificaitons
 Your solution should include the following:
@@ -43,7 +27,6 @@ A Game board, to a user, looks like this:
 |1||2||3|
 |4||5||6|
 |7||8||9|
-
 ```
 The numbers in each of the squares will indicate the position number. Prompt the user to 
 select which position they wish to 
@@ -56,9 +39,9 @@ A winning board may look like this (O Wins!):
 |4||O||X|
 |O||X||9|
 ```
-Remember that Tic-Tac-Toe is a 2 player game, so be sure to "switch" between players. 
-Make it known to the user that
-their turn is over and it's time for the next players turn. You will both play on 
+Remember that Tic-Tac-Toe is a 2 player game, so be sure to "switch" between players.
+ 
+Make it known to the user that their turn is over and it's time for the next players turn. You will both play on 
 the same board. 
 
  Here is an outline for different classes that you have:
@@ -68,25 +51,22 @@ actions that user may take)
 - Game (This would hold the actions of the game. )
 - Position (the individual game board positions )
 
-Be sure to check for a winner after each turn. Be aware that it is possible to have a tie/draw 
-if no winner can be determined and all 
+Be sure to check for a winner after each turn. Be aware that it is possible to have a tie/draw if no winner can be determined and all 
 marks on the board are occupied. 
-
 
 Stay within scope of this project. Please only use concepts and resources that we have covered 
 so far in previous labs/lectures/assigned prework. 
 If you are unsure if it is within scope, please ask a TA or instructor.
 
-
 ## Tests
 Test that your program has the following functionality:
-1. Given a game board, Test for winners
+1. Given a game board, test for winners
 2. Test that there is a switch in players between turns
 3. Test to confirm that the position the player inputs correlates to the correct index of the array
 4. One other "unique" test of your own
 
 
-##Stretch Goals
+## Stretch Goals
 No Stretch goals.
 
 ## Additional Resources
@@ -97,11 +77,11 @@ Review/research these resources to assist you in the construction of your progra
 
 
 ## README
-**A Readme is a requirement. No Readme == No Grade.** <br /> 
-Here are the requirements for a valid readme: <br />
+**A Readme is a requirement. No Readme == No Grade.** 
+Here are the requirements for a valid readme:
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
+
 Your job is to
 
 1. tell them what it is (with context, provide a summary)
@@ -112,9 +92,27 @@ Your job is to
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
-<br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
+Refer to the README templates in the class repo `Resources` folder for an example. 
 - [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+
 
 ## Rubric
 
 The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
+
+
+## To Submit this Assignment
+- If you have not done so already, clone the class repo
+- Be sure to `pull` for updated content
+- Copy the starter code in class 04 to a newly created git repo (`cp -r location/of/startercode/. location/of/new/git/repo) 
+(**Don't forget about the "dot" at the end of code source**)
+- Do an `initial commit` of the starter code
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described above)

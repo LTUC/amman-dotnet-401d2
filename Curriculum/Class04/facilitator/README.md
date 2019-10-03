@@ -11,8 +11,8 @@ Introduce the concept of Classes and Object Oriented Programming as well as the 
 1. Code Review
    - Keep it short if possible, there is a lot to cover today!
 1. Classes and Properties
-	1. Classes.md (Classes.md)
-	1. Properties.md (Properties.md)
+	1. Classes [Lecture](./Resources/Classes.md)
+	1. Properties [Lecture](./Resources/Properties.md)
 1. Value Types and Reference Types 
 	1. [Lecture](./Resources/ValRefTypes.md)
 1. Callstack and Heap
