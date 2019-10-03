@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 42: Factory Method Design Pattern
-=====================================
+# Lab: Factory Method Design Pattern
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account

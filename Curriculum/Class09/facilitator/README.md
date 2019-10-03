@@ -1,8 +1,12 @@
 # Class 09: Design Patterns & Recursion
 
 ## How do I prep for today?
-1. Review the "FactoryMethod" document located in the resources folder.
-2. Review the "Recursion" document located in the resources folder (45 minutes)
+1. Obtain a general understanding of design patterns and why they are important. 
+
+### Lecture
+1. Code Review
+2. Review the "Recursion" document located in the resources folder 
+3. You may optionally choose to teach the design patterns lecture this day in addition to recursion. The Design Pattern lecture is located in the "Extra_Lectures" folder._
 
 ## What changed from yesterday? 
 N/A

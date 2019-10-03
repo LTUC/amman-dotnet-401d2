@@ -104,7 +104,6 @@ public long Fib(int n)
 1. Reverse a String
 2. write a method to generate a string of n asterisks. 
 Then write a recursive function to generate triangles 
-pointing different directions
-(head, tail, middle)
+pointing different directions.
 3. Traverse a Linked List using recursion
 4. Determine if a string is a palindrome
