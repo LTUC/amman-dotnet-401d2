@@ -1,31 +1,18 @@
-Lab 8: LINQ in Manhattan
-=====================================
-
-## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
-- Merge your PR back into master
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described below)
+# Lab 8: LINQ in Manhattan
 
 ## The Problem Domain
 Create a program that brings in data from an external file, reads the data, and can filter the data based on specified values.
 
 
 ## Program Specifications
-- Your solution should include the following:
-	- The data.json file to your solution root folder
-	- Read in the file and answer the questions below
-	- Each question and answer should be outputted to the console.
+Your solution should include the following:
+- The data.json file to your solution root folder
+- Read in the file and answer the questions below
+- Each question and answer should be outputted to the console.
 
 #### Questions
--Each query builds off of the next. 
+Each query builds off of the prior query. You should be chaining. 
+
 1. Output all of the neighborhoods in this data list
 2. Filter out all the neighborhoods that do not have any names
 3. Remove the Duplicates
@@ -47,7 +34,7 @@ Test that your program has the following functionality:
 - No tests are required for this lab.
 
 ## Stretch Goals
-
+No stretch goals are required for this lab
 
 ## Additional Resources
 1. [NewtonSoft LINQ to JSON](https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm)
@@ -77,5 +64,19 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 ## Rubric
 
 The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+
+## To Submit this Assignment
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in canvas
+- Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described below)
+
 
 

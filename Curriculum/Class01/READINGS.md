@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 01: Readings
+# Class 01: Readings
 
 ## Submission Requirements
 

@@ -12,7 +12,7 @@ Review student facing readme.
 ## How do I prep for today?
 
 1. The Readme.md for this directory is what should be student facing in the class repo.
-1. If you are an afternoon lecture time, give the students the [Calculator Assignment](../Calculator.md) before class. This assignment should be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. If you are not in an afternoon lecture time, you may optionally give this assignment to students as you see fit.
+1. If you are an afternoon lecture time, give the students the [Calculator Assignment](../lab/Calculator.md) before class. This assignment should be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. If you are not in an afternoon lecture time, you may optionally give this assignment to students as you see fit.
 1. Become familar with the lecture topics and demo code
 1. Complete th daily readings and be prepared if students have questions
 1. Be prepared to answer questions about the prework. 
