@@ -16,5 +16,5 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 - [Abstract](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members){:target="_blank"} 
 - [Polymorphism](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/polymorphism){:target="_blank"} 
 - [OOP Principles](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming){:target="_blank"} 
-- (optional) C# in a Nutshell - Chapter 3
+- C# in a Nutshell - Chapter 3
 	- You don't have to read the whole chapter, use it as a reference for additional resources
