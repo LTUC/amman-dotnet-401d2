@@ -14,7 +14,6 @@
 ## What changed from yesterday? 
 Building off of collections from yesterday. We will/can use `IEnumerable<T>` today for our result of our queries. May not hurt to re-review.
 
-
 ## What might students struggle with today?  
 Delegates. It can be a lot. Delegates make more sense when we start using LINQ method calls. 
 

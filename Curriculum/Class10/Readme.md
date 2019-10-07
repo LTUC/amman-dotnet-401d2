@@ -2,4 +2,4 @@
 
 ## Lecture Outline
 1. Review content from week 1 and week 2
-2. Dive into Stacks and Queues! 
+2. Implement your designated data structure!
