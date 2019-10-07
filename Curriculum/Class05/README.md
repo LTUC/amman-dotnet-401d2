@@ -5,7 +5,6 @@
 1. The student will know the difference between procedural and object oriented programming
 2. The student will be introduced and understand the differences between the 4 OOP principles.
 
-
 ## Lecture Outline
 
 ### Procedural Programming (imperative programming)
@@ -32,7 +31,7 @@ Inheritance is the process by which one class takes on the attributes and method
 Newly formed classes are called child classes, and the classes that child classes are derived from 
 are called parent classes.
 
-It's important to note that child classes override or extend the functionality (e.g., attributes and behaviors) of parent classes. In other words, child classes inherit all of the parent�s attributes and behaviors but can also specify different behavior to follow. The most basic type of class is an object, 
+It's important to note that child classes override or extend the functionality (e.g., attributes and behaviors) of parent classes. In other words, child classes inherit all of the parent's attributes and behaviors but can also specify different behavior to follow. The most basic type of class is an object, 
 which generally all other classes inherit as their parent.
 
 #### Single Inheritance
@@ -50,8 +49,11 @@ Abstract classes cannot be instantiated.
 Abstract methods must be overridden. 
 
 ### Polymorphism
-Poly means many
-morph means to change
+Breaking down the work "Polymorphism":
+
+*Poly means many*
+
+*Morph means to change*
 
 Within polymorphism, we want the ability to change the behavior of a specific class. We also want to be able to target specific types of classes (classes that are derived from specific classes). Polymorphism also helps us target any and all classes that implement specific interfaces. 
 

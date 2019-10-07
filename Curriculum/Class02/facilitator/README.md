@@ -1,17 +1,19 @@
 # Class 02 Unit Testing
 
 ## Overview
-* Today is solely focusing on how students should be approaching the setup and presentation of their assignments. 
-* Use XUnit when unit testing within C#. 
-* The documentation portion shows an example of what the readme documentation should look like, as well as comments within code.
+Today is solely focusing on how students should be approaching the setup and presentation of their assignments. 
+
+Use XUnit when unit testing within C#. 
+
+The documentation portion shows an example of what the readme documentation should look like, as well as comments within code.
 
 ## Learning Objectives
 See student facing readme.
 
-
 ## How do I prep for today?
-1.  Review what the most current XUnit version. Make sure it is compatible with your framework. 
+1. Review what the most current XUnit version. Make sure it is compatible with your framework. 
 2. Review the demo code and lecture doc
+3. Make sure that you have the example readme templates available in a `Resources/Templates` folder in the class GH repo.
 
 ## Lecture
  1. Code Review on "About Me Quiz" / Code Challenge
@@ -19,6 +21,9 @@ See student facing readme.
 	- Lecture Notes [here]("../Resources/UnitTests.md")
  3. Demo
     - Recreate FizzBuzz using the TDD Red/Green/Refactor approach
+
+## Lab Notes
+Students should follow the "Red Green Refactor" approach when completing this lab. They should be writing tests for a single method first, then writing the code to make the tests pass. They should follow this pattern for the completion of the lab. 
 
 ## What changed from yesterday? 
 - They should be comfortable with the language at this point at a beginner's level. Today we introduce Testing, the expectation moving 

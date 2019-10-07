@@ -29,6 +29,10 @@ Review student facing readme.
 	- DemoCode located in DemoCode folder
 1. Debugging (30 min)
 	- Debug the DemoCode to show how it works
+
+## Lab Notes
+1. The `Calculator` should only be given if you need some time before the first day of class. This lab is optional.
+2. The directions for the lab today are very specific. Make sure the students the directions. 
  
 ## What changed from yesterday? 
 - N/A

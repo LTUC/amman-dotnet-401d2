@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 03
-=====================================
+# Class 03
 
 ## Learning Objectives
 1. The student will be introduced and implement the FileStream.
@@ -18,7 +17,6 @@
 string myInfo = "I want to write all of this to a file";
 File.WriteAllText("/path/to/file.txt", myInfo);
 ```
-
 
 ```csharp
 string[] myArray = new string[2];
@@ -48,7 +46,6 @@ To delete a file, just tell the library to delete the location by inputting the 
 ```csharp
 File.Delete(path);
 ```
-
 
 ## File Stream
  - What is a stream

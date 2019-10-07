@@ -4,8 +4,8 @@
 Introduce the concept of Classes and Object Oriented Programming as well as the memory management of C#.
 
 ## How do I prep for today?
-1. Upload to the daily class repo the starter code for today's lab
-2. Be comfortable with the demo code and lecture content
+1. Upload the starter code for today's lab to the daily class repo in GitHub.
+2. Be comfortable with the demo code and lecture content.
 
 ### Lecture
 1. Code Review
@@ -24,10 +24,14 @@ a lot to review on top of everything else that is being taught this day. So just
 You do not have to go over each generation in depth, if you think it is too much to digest. This lecture can always be moved to another 
 day if you don't have time to complete. 
 
+## Lab Notes
+The Lab contains starter code. This will give them a look of what a console app with many classes could potentially look like.
+Provide this for them after the lecture and before they begin the lab.
+
+The lab will require some knowledge on multi-dimensional arrays. Encourage students to look back at the prework arrays reading as a refresher.
 
 ## What changed from yesterday? 
-- N/A. Today is the first day of "Classes". Many questions that may have
-come up through the week should now be answered, or at least slightly answered
+- Today is the first day of "Classes". Many questions that may have come up through the week should now be answered, or at least more details provided.
 
 ## What might students struggle with today? 
 - Properties are a hard concept for many to grasp. Usually the response is 
@@ -40,11 +44,7 @@ students understand the concepts a bit better.
 to accomplish a task. You can remedy this by reviewing the benefits and purpose behind object oriented programming. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- The Lab will require some knowledge on multi-dimensional arrays and potentially Jagged Arrays. 
-
-
-The Lab contains starter code. This will give them a look of what a console app with many classes could potentially look like.
-Provide this for them after the lecture and before they begin the lab.
+N/A
 
 ## General comments
 - Through the week we have been alluding to the concept of classes but never actually talked about them..now we get to. 

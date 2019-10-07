@@ -21,6 +21,19 @@ a good template to use when presenting the lecture.
     - Expectations of lab
     - This is a challenging lab, extended due date to be right before classs 06. 
 
+## Lab Notes
+
+The lab for this day is intentionally challenging. This lab is designed to test the students on the planning of a project (domain modeling), and the application of everything they have learned in the language so far. They are not allowed to use classes in this lab, as we cover that in class 04.
+
+The due date for this lab should be extended to right before class 06. Students traditionally need this time to finish up the assignment. 
+
+This is a great lab to help them practice their debugging skills. Here are some tips:
+1. Make sure they are using breakpoints within Visual Studio.
+1. When asking a question, encourage students to avoid comments like "it doesn't work". Determine "what" doesn't work. Have them break
+down the specific method, and code line that isn't giving them what they want. This is difficult for most students. 
+1. When planning out their program, students can use this opportunity on "how" to approach the problem. What needs to 
+created first, then how do you build out from there?
+
 ## What changed from yesterday? 
 They are expected to test their code now moving forward
 
@@ -31,16 +44,7 @@ The biggest challenge that they get is file location and accessing it. This can 
 encourage the students to have the file located on the root of their project. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- Students find this lab to be exceptionally difficult. I found that i have had to extend the deadline on the lab
-because they get too hung up on the overall problem domain. They usually have fun with the lab, but it is 
-usually a challenge for them to put everything they have learned thus far into one full application. 
-
-This is a great lab to help them practice their debugging skills. Here are some tips:
-1. Make sure they are using breakpoints
-1. When asking a question, they can't just say "it doesn't work". Determine "what" doesn't work. Have them break
-down the specific method, and code line that isn't giving them what they want. This is difficult for most students. 
-1. When planning out their program, students can use this opportunity on "how" to approach the problem. What needs to 
-created first, then how do you build out from there?
+N/A
 
 ## General comments
 - This is a great lecture to incorporate the exception handling into. pull together everything from the past 2 days into the lecture
