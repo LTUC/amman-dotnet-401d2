@@ -2,7 +2,6 @@
 
 What is a collection?
 
-
 There are two ways to create and manage a group of related objects
     1. Create an array of objects
     2. creating a collection of objects

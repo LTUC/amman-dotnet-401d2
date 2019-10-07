@@ -6,6 +6,14 @@
 3. Get Familiar with IEnumerable and IEnumerator. Be able to explain the difference between them
 4. Introduce Enums
 
+## Lecture
+1. Code Review
+2. [Enums](./Resources/Enums)
+3. [Collections](./Resources/Collections) (Generic vs Non-Generic)
+
+## Lab Notes
+
+
 ## What changed from yesterday? 
 Nothing.
 
