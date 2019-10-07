@@ -1,5 +1,4 @@
-Lab 6: Interfaces
-=====================================
+# Lab 6: Interfaces
 
 ## To Submit this Assignment
 - Building off of your repo from Lab 5:
