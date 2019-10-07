@@ -10,7 +10,6 @@ When creating a delegate, it also creates a class, behind the scenes. Since it's
 
 ```csharp
 delegate void MyDelegate();
-
 ```
 
 The delegate declaration above will prompt the compiler to create a new class, behind the scenes called MyDelegate. 
@@ -28,18 +27,15 @@ MyDelegate del = new MyDelegate();
 The constructor for this delegate will be a method call that has the same return type as the delegate declaration as well as accepting the arguments that we declared within the delegates parameters.  Essentially, since this is a void return type with no parameters, it wants us to send it a method with a void return type that has no parameters.
 
 ```csharp
-
 static void MyMethod(){}
-
 MyDelegate del = new MyDelegate(MyMethod);
-
 ```
 
 We are not invoking our method, we are just passing it into the constructor. 
 
 *WE ARE PASSING A METHOD ADDRESS INTO OUR CONSTRUCTOR!!!!*
 
-this is amazing. seriously. 
+This is a pretty cool ability that we have within the language! 
 
 If we want to now invoke/call this method we can do so by either
 
@@ -60,7 +56,7 @@ let's take a look at our "instantiation" of our hidden class
 MyDelegate del = new MyDelegate(MyMethod);
 ```
 
-essentially, del is referencing our method "MyMethod". We can shorthand this by saying 
+Essentially, del is referencing our method "MyMethod". We can shorthand this by saying 
 
 ```cshapr
 // Del reference MyMethod. Del is a delegate. and MyMethod is a method. 
@@ -85,7 +81,6 @@ static void PassingADelegate(MyDelegate delly)
 {
 	delly();
 }
-
 ```
 
 i can also remove the delegate instantiation completley and just do this:
@@ -145,13 +140,13 @@ We can call this GenerateNumbers now by passing it the number we are generating 
 ```csharp
 static IEnumerable<int> GenerateNumbers(IENumerable<int> numbers, MyDelegate action)
 {
-foreach(int number in numbers)
-{
-	 if(action(number))
-	 {
-	 	 yield return number
-	 }
-}
+    foreach(int number in numbers)
+    {
+	     if(action(number))
+	     {
+	 	     yield return number
+	     }
+    }
 }
 ```
 
@@ -164,7 +159,7 @@ Ths is where `Action` and `Func` come into the picture.
 You use action, as a generic delegate if you want to have specific paramters for a method, with one specific data type returning. These can hold up to 16 parameters, with one data type/variable returning. 
 
 ```csharp
-Func<\int, int, bool> myFunc = ThisTakesInTwoIntsAsArgumentsAndReturnsABool;
+Func<int, int, bool> myFunc = ThisTakesInTwoIntsAsArgumentsAndReturnsABool;
 
 static bool ThisTakesInTwoIntsAsArgumentsAndReturnsABool(int a, int b){return true;}
 ```

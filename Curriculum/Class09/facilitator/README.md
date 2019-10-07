@@ -1,11 +1,12 @@
 # Class 09: Design Patterns & Recursion
 
-## How do I prep for today?
-1. Obtain a general understanding of design patterns and why they are important. 
+## Preparation
+1. Review the recursion doc and be familiar with teaching the concept to the students.
+1. Obtain a general understanding of design patterns and why they are important. (optional if you think the students are ready for it).
 
 ### Lecture
 1. Code Review
-2. Review the "Recursion" document located in the resources folder 
+2. [Recursion](./Resources/Recursion.md) 
 3. You may optionally choose to teach the design patterns lecture this day in addition to recursion. The Design Pattern lecture is located in the "Extra_Lectures" folder. The reading for the day still introduces design patterns, you may choose how it is introduced and discussed in the class.
 
 ## What changed from yesterday? 

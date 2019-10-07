@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 10: Readings
+# Class 10: Readings
 
 ## Submission Requirements
 To turn in your reading "Reply" to this discussion by teaching something that you learned from the 
@@ -13,5 +13,5 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 ## Readings
 
 No "official" readings for today. Reflect on all that you have learned over the last 2 weeks.
-discuss with your classmates what you thought was the most challenging, and what most suprised you!
+Discuss with your classmates what you thought was the most challenging, and what most suprised you!
 How comfortable are you with the language?

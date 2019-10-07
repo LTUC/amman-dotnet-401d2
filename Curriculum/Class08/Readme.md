@@ -1,13 +1,12 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 08: LINQ
-=====================================
+# Class 08: LINQ
 
 ## Learning Objectives
 1. Students will be able to succesfully write LINQ queries against a collection to extract data.
 1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
  
 ## Lecture Outline
-- Review Collections
-  - Create a collection
+1. Review Collections
+2. Create a collection
   - Add data to the collection
   - iterate through the collection
 
@@ -22,27 +21,26 @@
    1. What is Declarative
       1. LINQ statement
 
-   1. What is a 'query'?
+1. What is a 'query'?
    - A query is an expression that, when enumerated, transforms sequences with query operators. 
-   - The standard query operators are implemented as *extension methods*, so we can call 'Where' directly onto names
+   - The standard query operators are implemented as *extension methods*, so we can call 'WHERE' directly onto names
 
-   1. Query Expresssions 
+### Query Expresssions 
    
 ```csharp
 string[] names = { "Tom", "Dick", "Harry" };
 
 IEnumerable<string> filteredNames = from n in names
-                                        where n.Contains ("a")
+                                        where n.Contains("a")
                                         select n;
 
-IEnumerable<string> filteredNames = System.Linq.Enumerable.Where
-                                        (names, n => n.Length >= 4);
-foreach (string n in filteredNames)
-        Console.WriteLine (n);
+IEnumerable<string> filteredNames = System.Linq.Enumerable.Where(names, n => n.Length >= 4);
+
+foreach (string n in filteredNames){Console.WriteLine (n);}
 ```
 
 
-1. Lambda Statements
+### Lambda Statements
 
 ```csharp
 n => n.Length >= 4
@@ -50,7 +48,7 @@ n => n.Length >= 4
 
 
 ```csharp
-IEnumerable<string> filtered = names.Where(n => n.Contains ("a"));
+IEnumerable<string> filtered = names.Where(n => n.Contains("a"));
 IEnumerable<string> sorted = filtered.OrderBy(n => n.Length);
 IEnumerable<string> finalQuery = sorted.Select(n => n.ToUpper());
 
@@ -64,15 +62,19 @@ foreach (string name in sorted)
 
 Console.WriteLine();
 foreach (string name in finalQuery)
-    Console.Write (name + "|");        // JAY|MARY|HARRYkk|
+    Console.Write (name + "|");        // JAY|MARY|HARRY|
 
 ```
 
-   1. Anonymous Objects 
-   1. Anonymous Types
+### Anonymous Typs & Anonymous Objects
+   
+An anonymous type is specified through a `var` type:
+
 ```csharp 
     var filteredNames = names.Where (n => n.Length >= 4); 
 ```
+
+An anonymous object is an object that is a "modified" object that is the result from a LINQ search: 
 
 ```csharp
 var bookAuthorCollection = from b in books
@@ -84,11 +86,4 @@ foreach (var x in bookAuthorCollection)
     Console.WriteLine("Book title - {0}, First author {1}", 
                             x.Book.Title, x.Author.FirstName);
 ```
-
-- We want bookAuthorCollection ot hold information only about the book and author when extracing data
-    1. .Where is an example of an extension method.
-
-
-1. Sub Queries
-1. LINQ to Objects
 

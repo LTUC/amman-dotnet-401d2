@@ -1,9 +1,12 @@
 # Class 08
 
-## How do I prep for today?
+## Preparation
+1. Review the readings for the day. Be prepared to answer questions if the students have questions
+2. Review the topics in the Resources folder
+3. Review the demo code. Be comfortable with rebuilding it in class with the students.
 
+## Lecture
 1. Introduce Delegates
-2. Create a Delegate Demo
 2. Introduce LINQ
 4. Show LINQ Queries and LINQ Method calls
 3. Talk about Anonymous Delegate Types (Func and Actions)

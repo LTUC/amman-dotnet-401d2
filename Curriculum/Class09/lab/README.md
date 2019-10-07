@@ -1,3 +1,3 @@
 # Lab 9:
 
-No lab assigned.
+No lab for this day. 
