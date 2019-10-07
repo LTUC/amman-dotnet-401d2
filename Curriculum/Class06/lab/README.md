@@ -29,7 +29,7 @@ Test that your program has the following functionality:
 No additional stretch goals are available for this assignment.
 
 ## Additional Resources
-- Please refer to the in-class diagram and code base as an example of the expectation.
+Please refer to the in-class diagram and code base as an example of the expectation.
 
 
 ## README
