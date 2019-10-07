@@ -1,5 +1,4 @@
-Lab 04: Tic-Tac-Toe
-=====================================
+# Lab 04: Tic-Tac-Toe
 
 Read this document, in it's entirety before starting the assignment. 
  
