@@ -57,23 +57,16 @@ No additional Stretch goals are required for this lab
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.** 
-Here are the requirements for a valid readme:
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+Here are the requirements for a valid readme: 
 
-Your job is to
-
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-Refer to the README templates in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
-
+Your readme is ***extremely important*** in this lab because it will be a guide for us to know 
+exactly what you did where and how. Define for me, in your readme, the following:
+1. An introduction to the project
+1. Your digital UML drawing of your zoo
+1. Create your own technical documentation. Breakdown and define each of the OOP principles in your own words.
+1. Provide under each OOP definition a couple (you do not have to define all) of examples of how you 
+are applying this into your project
 
 ## Rubric
 The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
