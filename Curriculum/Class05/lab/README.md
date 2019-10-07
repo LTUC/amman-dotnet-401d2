@@ -3,6 +3,8 @@
 ## The Problem Domain
 A zoo contains animals, and animals can come in many different shapes and sizes. It is your job to plan and build out what animals that live in the zoo. 
 
+This is the first part of a 2-part assignment. Lab 06 builds off of Lab 05.
+
 ## Instructions 
 
 Using UML, diagram what animals the zoo will consist of. Include in each class the properties and behaviors for each animal, as well as the relationships between each animal from it's base classes. 
