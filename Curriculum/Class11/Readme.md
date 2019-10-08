@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 11: Intro to MVC and Core
-=====================================
+# Class 11: Intro to MVC and Core
 
 ## Learning Objectives
 1. The student will implement their own MVC web application
@@ -34,7 +33,6 @@ to manipulate how to display the information sent from the controller.
 The controller is the routing part of MVC. A controller contains
 Actions, that maps to specific views. Each unique action is it's own 
 view page. 
-
 
 ### Create an MVC Site
 
