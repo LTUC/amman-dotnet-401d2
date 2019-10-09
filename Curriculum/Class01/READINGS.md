@@ -15,7 +15,7 @@ Commenting on a classmate's post is not required, but appreciated and encouraged
 ### Exception Handling
 - [Try/Catch Blocks](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions){:target="_blank"} 
 - [Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/exception-handling-statements){:target="_blank"} 
-- (optional) C# 7.0 in a Nutshell - pg. 158 - 166 (start @ “try Statements and Exceptions)
+- C# 7.0 in a Nutshell - pg. 158 - 166 (start @ “try Statements and Exceptions)
 	- Try/Catch & Exceptions excerpt from assigned book (introduction)
 - [Therac-25](https://en.wikipedia.org/wiki/Therac-25){:target="_blank"} 
 - [Ariane 5](https://en.wikipedia.org/wiki/Ariane_5){:target="_blank"} 

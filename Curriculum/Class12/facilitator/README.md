@@ -14,6 +14,17 @@ You will review the solution to the lab right away at the beginning of class 13.
 4. Review what an ERD is. The "Databases.md" located in the resources folder is an outline of the lecture for that day. 
 2. I recommend also reviewing the microsoft docs of the "complex" data model. This doc provides a good background of what the ERD should consist of. 
 
+## Lecture
+1. Code Review
+   - Review the MVC lab. 
+   - Show the students the solution to reading in a csv file and converting it to an object
+   - Review Turnery operators
+2. Review data persistance
+   - What is data persistance? 
+   - What are databases? Why do we need them?
+3. Introduce ERDs
+## Lab Notes
+
 ## What changed from yesterday? 
 No code is written today. Just reviewing diagrams.
 

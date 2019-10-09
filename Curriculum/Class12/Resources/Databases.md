@@ -1,17 +1,17 @@
-# Lecture 12: Relational Databases & Schema
+# Lecture 12: Relational Databases & ERDs
 
 ### Three Take-a-ways
-1. What is the purpose of a schema
+1. What is the purpose of an ERD
 2. What types of relationships are there?
 3. Three different types of keys that exist in a relational database...
 
 ## What is a Database
 
 ### Different Kinds of Databases
-	1. Relational
-		- SQL Server
-	2. Non-Relational
-		- SQLLite
+1. Relational
+	- SQL Server
+2. Non-Relational
+	- SQLLite
 
 ### Relational vs Non-Relational
 
@@ -25,28 +25,28 @@
 ## Representation
 We can represent a relational database through an Entity Relationship Diagram. 
 	
-### Database Schema
+### Database ERD
 
-It may be helpful to pull up this article and show the example DB Schema [HERE](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)
+It may be helpful to pull up this article and show the example DB ERD [HERE](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)
 
 About halfway down the page is a "complex" ERD model. Review it with the class and break it down if possible.
 
 ### Relations
-	1. 1:1
-	2. Many:Many
-	3. 1:Many
-	4. Many:1
+1. 1:1
+2. Many:Many
+3. 1:Many
+4. Many:1
 
 ### Keys
-	1. Primary Keys
-	2. Foreign Keys
-	3. Composite Keys (New!)
+1. Primary Keys
+2. Foreign Keys
+3. Composite Keys (New!)
 
 
 ### Dissect an ERD
 
 #### Tables
-Each "box" in a schema represents a table in the database. With each table you want to identify it's individual properties, and it's relationship to other tables in the schema. 
+Each "box" in an ERD represents a table in the database. With each table you want to identify it's individual properties, and it's relationship to other tables in the ERD. 
  
 #### Properties
 Within each individual table, properties exist. The properties represent the characteristics of the entity you are modeling within the table. Each property traditionally is a column header. Some properties of a table may be a key that exists in another table, such as a Foreign Key, or Composite Key. Each table may also have a unique identifier called a Primary key, usually just named `Id`. 
@@ -65,7 +65,7 @@ Within each individual table, properties exist. The properties represent the cha
 	- You do not necessarily need to include a primary key in a table that utilizes a composite key.
 
 
-### Many-to-Many in a Schema
+### Many-to-Many in an ERD
 
 1. Join Tables
 	- With Payload
@@ -108,13 +108,13 @@ course information, The grade they received, and if they passed or not.
 
 
 Using the information you received above, create a database 
-schema that will accurately represent the data that will be 
+ERD that will accurately represent the data that will be 
 held and accessed for this student enrollment system for the 
 school. 
 
-### Create a Database Schema
+### Create a Database ERD
 
-Together, In class, create a database schema given a problem 
+Together, In class, create a database ERD given a problem 
 domain
 
 
