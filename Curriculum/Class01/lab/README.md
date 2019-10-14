@@ -55,7 +55,7 @@ This method is given to you. Do not change the method signature.
 		- integer array and integer sum
 	7. Capture the quotient by calling the `GetQuotient` method. 
 		- arguments: integer product 
-	8. 	To complete the method, output to the console the details of all these values. Make sure that your output contains the same information presented in the example below. Have your output be similar to the following example (Pay attention to line breaks!):
+	8. 	To complete the method, output to the console the details of all these values. Make sure that your output contains the same information presented in the example below. Pay attention to line breaks!
 	
 ![LabExample](./LabExample.png)
 
