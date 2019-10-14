@@ -10,10 +10,10 @@ The C# language comes with many built in exceptions, but you are not bound to th
 
 ## Real World Examples:
 1. [Therac-25](https://en.wikipedia.org/wiki/Therac-25) was a computer controlled radiation therapy machine in 1982 after the Therac-6 and Therac-20 units. 
-* At least 6 accidents b/e 1985 - 1987 patients were given massive overdoses of radiation. 
+* At least 6 accidents between 1985 - 1987 patients were given massive overdoses of radiation. 
 * reasoning was due to errors of giving patients radiation doses that were hundreds of times greater than normal..resulting in death or serious injury. 
 * Engineers were overconfident in their initial work and did not handle exception handling for lethal doses
-* They reused code from the previous versions without 
+* They reused code from the previous versions without checking it first
 * The issue only happened when a sequence of keystrokes occurred within a short period of time (8 seconds). Which made it difficult to catch
 
 *The software set a flag variable by incrementing it, rather than by setting it to a fixed non-zero value. Occasionally an *arithmetic overflow* occurred, causing the flag to return to zero and the software to bypass safety checks. 

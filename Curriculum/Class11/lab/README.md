@@ -4,7 +4,7 @@
 Today you will be creating your first ASP.NET Core MVC web application.
 Create a web app that will allow a user to put in a span of 2 different years, and a list of all the winners will be returned.
 
-**Read the Application Specifications, in it's entirety, before beginning** <br />
+**Read the Application Specifications, in it's entirety, before beginning** 
 
 ## Application Specifications
 - Your application should include the following:
