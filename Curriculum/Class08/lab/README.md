@@ -12,9 +12,9 @@ Your solution should include the following:
 #### Questions
 Each query builds off of the prior query. You should be chaining.
 
-1. Output all of the neighborhoods in this data list
-2. Filter out all the neighborhoods that do not have any names
-3. Remove the duplicates
+1. Output all of the neighborhoods in this data list (Final Total: 147 neighborhoods)
+2. Filter out all the neighborhoods that do not have any names (Final Total: 143)
+3. Remove the duplicates (Final Total: 39 neighborhoods)
 4. Rewrite the queries from above and consolidate all into one single query.
 5. Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
 
