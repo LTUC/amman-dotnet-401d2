@@ -60,7 +60,7 @@ this site to Azure by the end of the week.
 
 
 ## Additional Resources
-- Setup default MVC [20 simple steps](https://github.com/codefellows/code-401-dotnet-guide/blob/master/Curriculum/Class11/Resources/MVCSetup.md){:target="_blank"}
+- Setup default MVC [20 simple steps](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class11/facilitator/Resources/MVCSetup){:target="_blank"}
 - [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x){:target="_blank"}
 	- You are *NOT* allowed to scaffold controllers or use a pre-created template that the tutorial utilizes. Please use this tutorial to dive deeper into the MVC components that you still have questions on
 
