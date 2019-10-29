@@ -1,8 +1,9 @@
 # Default MVC Application
 
-Below are the directions to scaffold out a bare minimum MVC project for class 11. Each project you create will be different given the problem domain, but most of them should start with these steps to get started. 
+Below are the directions to scaffold out a bare minimum MVC project for class 11. Each project you create will be different given the problem domain, but most of them should start with these steps to get started.
 
-### Set up MVC
+## Set-Up
+
 1. File >> New Project
 2. ASP.NET Core Web Application
 3. Create a project name (Do not use dashes, only use underscores if needed)
@@ -12,12 +13,12 @@ Below are the directions to scaffold out a bare minimum MVC project for class 11
 7. In `ConfigureServices()` add the appropriate middleware `services.AddMVC()`
 8. In `Configure()` add HTTP Pipeline route requirements
 
-```
-app.UseMvc(routes =>
+```csharp
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
 {
-	routes.MapRoute(
-	name: "default",
-	template: "{controller=Home}/{action=Index}/{id?}");
+	endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");	
 });
 ```
 
