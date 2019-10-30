@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 13
-=====================================
+# Class 13: Entity Framework Core
 
 ## Learning Objectives
 1. Students will be introduced to Entity Framework
@@ -14,7 +13,7 @@
 
 ### Demo
 1. Scaffold out an empty MVC Site with a Home controller (like on day 11)
-2. Look at the Schema
+2. Look at the ERD
 3. Convert the entity of each table to Model classes
 4. Add Navigation properties (talk about the connection of the two)
 
