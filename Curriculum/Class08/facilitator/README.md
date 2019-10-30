@@ -1,6 +1,6 @@
 # Class 08
 
-## Preparation
+## How do I prep for today?
 1. Review the readings for the day. Be prepared to answer questions if the students have questions
 2. Review the topics in the Resources folder
 3. Review the demo code. Be comfortable with rebuilding it in class with the students.

@@ -1,21 +1,7 @@
 # Lab 13: Async Inn Management System
 
-## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `AsyncInn`
-- Create a branch named `NAME-LAB13`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
-- Merge your PR back into master
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described below)
-
 ## The Problem Domain
 Now that you have a solid understanding of your database schema for your hotel management system, today you will build from scratch the initial .NET Core MVC structure and application.
-
 
 ## Application Specifications
 Your application should include the following:
@@ -64,14 +50,11 @@ Your README should be in introduction to your web app. Provide in your README, y
 
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
-
 ## Stretch Goals
 - There are no Stretch Goals for this assignment.
 
-
 ## Additional Resources
 - Setup default MVC [simple steps](https://codefellows.github.io/code-401-dotnet-guide/Resources/MVCSetup){:target="_blank"}
-
 
 
 ## README

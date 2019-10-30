@@ -1,6 +1,6 @@
 # Class 10: Review Day
 
-## Preparation
+## How do I prep for today?
 This is a review day! This is our final day of C# before hitting the web framework. Use this day to review the topics from the first 9 days and also teach the designated data structure for class 10 in the common curriculum for the implementation assignment. 
 
 A good place to start with the review is to go over the review quizzes from week 1 and 2. 

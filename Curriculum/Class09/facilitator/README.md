@@ -1,6 +1,6 @@
 # Class 09: Design Patterns & Recursion
 
-## Preparation
+## How do I prep for today?
 1. Review the recursion doc and be familiar with teaching the concept to the students.
 1. Obtain a general understanding of design patterns and why they are important. (optional if you think the students are ready for it).
 

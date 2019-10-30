@@ -1,6 +1,7 @@
 # Class 12: Relational Database and ERDs
 
-## Prep:
+## How do I prep for today?
+
 Adjust the lab assignment for this day. It is a timed assignment. 
 Make it open at the very beginning of lab time, and due 5 hours later. Closed
 and due date should be the same. 
@@ -15,6 +16,7 @@ You will review the solution to the lab right away at the beginning of class 13.
 2. I recommend also reviewing the microsoft docs of the "complex" data model. This doc provides a good background of what the ERD should consist of. 
 
 ## Lecture
+
 1. Code Review
    - Review the MVC lab. 
    - Show the students the solution to reading in a csv file and converting it to an object
@@ -23,7 +25,10 @@ You will review the solution to the lab right away at the beginning of class 13.
    - What is data persistance? 
    - What are databases? Why do we need them?
 3. Introduce ERDs
+
 ## Lab Notes
+
+This lab is timed and is attempt based. They should be able to read through the problem domain and come up with an ERD for the database as well as provide an explanation. You will provide and review the solution with them at the start of the next class.
 
 ## What changed from yesterday? 
 No code is written today. Just reviewing diagrams.

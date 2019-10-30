@@ -12,11 +12,11 @@ Below are the directions to scaffold out a bare minimum MVC project. Each projec
 7. In `Configure()` add HTTP Pipeline route requirements
 
 ```
-app.UseMvc(routes =>
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
 {
-	routes.MapRoute(
-	name: "default",
-	template: "{controller=Home}/{action=Index}/{id?}");
+	endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");	
 });
 ```
 

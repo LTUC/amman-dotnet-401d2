@@ -1,6 +1,7 @@
 # Class 13: Intro to Entity Framework Core
 
 ## How do I prep for today?
+
 Post the solution to the previous day's lab right away. spend the first 20 minutes or so reviewing 
 the solution and explanation behind the ERD. 
 
@@ -12,10 +13,9 @@ into lecture, so use this MVC app during lecture to build off of.
 Resources:
 1. [Async Inn ERD Solution](./Resources/AsyncInn2.png)
    - This is not the *only* solution, just one possible. If a student has a different solution that also
-   looks correct talk about the differences and why. The wonderful thing about architecture is that it
-    can be different from each other and still be correct.
+   looks correct talk about the differences and why. The wonderful thing about architecture is that it can be different from each other and still be correct.
 
-Outline for the day:
+## Lecture
 1. Intro to Entity Framework Core
 2. Build out an MVC app with default home page
 3. Build out Entity Models (with nav props)
