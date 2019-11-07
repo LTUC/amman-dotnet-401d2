@@ -52,14 +52,15 @@
      - Use a database manager to access your created server (You can get your server name in azure. It should end in `database.windows.net`)
      - This should effectively deploy your database.
 	 - Once your initial production database has successfully been created and deployed, you may modify your DBContext registration to the following to help with local and production environments:
-	 ```
-	             string connectionString = Environment.IsDevelopment()
-                                        ? Configuration["ConnectionStrings:DefaultConnection"]
-                                        : Configuration["ConnectionStrings:ProductionConnection"];
 
-            services.AddDbContext<StudentEnrollmentDbContext>(options =>
-            options.UseSqlServer(connectionString));
-	 ```
+``` csharp
+string connectionString = Environment.IsDevelopment()
+                    ? Configuration[s"ConnectionStrings:DefaultConnection"]
+                    : Configuration["ConnectionStrings:ProductionConnection"];
+
+services.AddDbContext<StudentEnrollmentDbContext>(options =>
+options.UseSqlServer(connectionString));
+```
 
 ## Deploying the Web App
 
@@ -83,6 +84,12 @@
        - Connection Strings go in here
      - Add a connection string (type should be SQLAzure)
        - Remove the quotes from the connection string.
+8. Find your App Server's virtual IP address and add that to your firewall rules within your SQL database. 
+    - Within your specific Azure App Service overview, select the "Properties" tab (located under Settings).
+    - Locate your virtual IP address
+    - Navigate back to your SQL database and add a new Firewall rule
+    - Add the virtual IP address into the rule. Save the rule. 
+9. Test your URL and confirm your website is running. Don't forget to test a page that requires a database call.
   
 ## How to update your deployed Application
   - Databases

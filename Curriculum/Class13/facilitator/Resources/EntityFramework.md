@@ -69,7 +69,7 @@ to some of the models.
 Go back and add the `ID` properties to the Transcripts, Students, and Courses. 
 You also need to register the composite key binding in the DBContext.
 
-```
+```csharp
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // Binding of the Composite Key using FluentAPI
