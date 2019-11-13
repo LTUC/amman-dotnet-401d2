@@ -3,7 +3,7 @@
 
 ## Overview
 
-Within this repo is a series of ***suggested*** wireframes for the Async Inn Inventory Management Site. You may choose to follow this wireframe exactly as is, or you may choose to customize it to better fit your design style. 
+Within the Assets folder, is a series of ***suggested*** wireframes for the Async Inn Inventory Management Site. You may choose to follow this wireframe exactly as is, or you may choose to customize it to better fit your design style. 
 
 Use these wireframes as a guideline of what information and functionality should be available within the site. 
 
