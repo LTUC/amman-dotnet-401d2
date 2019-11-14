@@ -13,10 +13,10 @@ The expectation is that you will get comfortable with Azure DevOps and use this 
 6. Add your Instructor(s)
 7. Select "Repos" on the left hand side
 8. Clone in Visual Studio
-9. There may be a yellow box that appears that says "Crate a new project or solution for this repository"
+9. There may be a yellow box that appears that says "Create a new project or solution for this repository"
 10. Create an empty MVC web app project as your intial commit. 
 11. Name your project the name of your Ecommerce site
-12. Push your project up to Azure DevOps
+12. Push your project up to Azure Repos
 13. You can now refresh your Azure DevOps dashboard, select Repos, and you will see your newly added files.
 
 ### Beginning of Each Sprint:

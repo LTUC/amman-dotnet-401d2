@@ -1,7 +1,14 @@
-# Async Inn Wireframes
+# Async Inn 
 
 
 ## Overview
+1. Build out the ERD (solution located in resources folder)
+2. Scaffold out an MVC application with a code first migration approach with a SQL database
+3. Implement dependency inject and the repository design pattern
+4. Deploy app to Azure
+
+
+## Wireframes
 
 Within the Assets folder, is a series of ***suggested*** wireframes for the Async Inn Inventory Management Site. You may choose to follow this wireframe exactly as is, or you may choose to customize it to better fit your design style. 
 
@@ -9,14 +16,16 @@ The `AsyncInn.pdf` file contains all wireframe images consolidated together.
 
 Use these wireframes as a guideline of what information and functionality should be available within the site. 
 
-## Pages
+The `Resources` folder consists of the Entity Relationship diagram that should be used as a baseline when constructing the application. 
+
+### Pages
 Below is a high overview of each of the pages. In addition to the explanations, refer to the provided wireframes to gain an understanding of the website's functionality.
 
-### Home
+#### Home
 
 Home page for the whole site. This page will consist of just a basic introduction. Find your own images to supply the homepage with. 
 
-### Hotels
+#### Hotels
 
 Route: `/Hotels`
 
@@ -27,7 +36,7 @@ Route: `/Hotels`
 5. From the `Hotels` endpoint, the user will also be able to Create and Update hotel details. 
 6. The removal of a hotel can be done on the Hotels details page. Upon selection of the hotel removal, the hotel will be removed from the database...in addition to all hotel rooms that are connected to that Hotel.
 
-### Hotel Room
+#### Hotel Room
 
 Route: `/HotelRoom`
 
@@ -39,7 +48,7 @@ This endpoint will allow the following actions:
 
 Remember that both the `Room Number` and `HotelID` are the composite keys for this table. Both of these peices of information should be included when viewing and updating an individual Hotel Room.
 
-### Rooms
+#### Rooms
 
 Route: `/Rooms`
 
@@ -52,7 +61,7 @@ The Rooms endpoint will all for the following actions:
 4. Remove Room
    - When removing a room from the database, be sure to also remove all HotelRooms that use that room, as well as all amenities that are tied to that room. 
 
-### Room Amenities
+#### Room Amenities
 
 Route: `/RoomAmenities`
 
@@ -60,7 +69,7 @@ When adding a new amentity to a room, the /RoomAmenties page will associate the 
 
 When a specific amenity gets removed from a specific room, the RoomAmenities Controller /delete action should target the individual amenity for the specific room from the database. 
 
-### Amenities 
+#### Amenities 
 
 Route: `/Amenities`
 
