@@ -26,23 +26,15 @@ you can collect:
 	- Birthday
 	- Email
 	- Favorite Color
-	- US State
-	- Favorite Disney Movie (Frozen or Brave?)
 
 
 **User Story 3:** Add some HTML and CSS to your home page. Customize it so that it is tailored to your product you are selling. 
-Some ideas may be to "feature" products on your homepage! Have fun, make it look professional. In addition, add navigation to all 
-of your external pages. 
+Some ideas may be to "feature" products on your homepage! Have fun, make it look professional. In addition, add navigation to all of your external pages. 
 
 **User Story 4:** Within your Homepage, include a link to easily Register or Login. Traditionally, these are located in your 
-homepage navigation. This link can just redirect to the appropriate page. We will build onto this functionality once the user is 
-logged in during Milestone 3, so don't stress about customizing the login/logout experience just yet. 
+homepage navigation. This link can just redirect to the appropriate page. We will build onto this functionality once the user is logged in during Milestone 3, so don't stress about customizing the login/logout experience just yet. 
 
-**User Story 5:**  For this user story, you need to capture the user's first and last name upon registration . You also want to 
-create the claim of the user's first and last name as a "Name" claim. Take this claim, and display it somewhere that will be visible 
-to the user. Generally, it's a good idea to be able to use the user's name after they login, because it gives them a more personalized 
-experience. Display this in the nav bar potentially that says "Hi, Amanda!". This can be done in your layouts, to display on all 
-pages of your site, or you can have a cool design on the homepage that tactfully displays the users name. Get creative, and 
+**User Story 5:**  For this user story, you need to capture the user's first and last name upon registration . You also want to create the claim of the user's first and last name as a "Name" claim. Take this claim, and display it somewhere that will be visible to the user. Generally, it's a good idea to be able to use the user's name after they login, because it gives them a more personalized experience. Display this in the nav bar potentially that says "Hi, Amanda!". This can be done in your layouts, to display on all pages of your site, or you can have a cool design on the homepage that tactfully displays the users name. Get creative, and 
 let the user know you care :) 
 
 ## Tests
