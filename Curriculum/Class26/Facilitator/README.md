@@ -16,7 +16,7 @@ Here is checklist of items that you should complete before the start of lecture:
 2. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
     - [Azure Dev Ops](https://dev.azure.com/)
     - [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
-3. Refer to the [Cheat Sheet](../../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
+3. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
     tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well. 
 4. Review the [Intro to Identity](./Identity.md) lecture.
    - [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)

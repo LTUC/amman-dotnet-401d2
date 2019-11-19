@@ -4,27 +4,19 @@
 ## To Submit this Assignment
 No Submission is required. 
 
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general 
-overall workflow. 
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the 
-sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, 
-**Communicate**, and work together. 
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together. 
 
 ## User Stories & Guidance:
 
 ### User Stories
-1. (Developer 2 & 3) As a user, I would like to login to my website on a custom secure login page.
-2. (Developer 2) As a User, I would like custom claims to be captured upon registration of the site. 
-3. (Developer 1 & 3) As a user, I would like to be greeted by a custom home page visiting the site. 
-4. (Developer 1) As a user, I would like to be able to either login or register easily through a link on the home page. 
-5. (Developer 1) As a user, I would like to be greeted, after login, with my first and last name
+1. (Developer 2) As a User, I would like custom claims to be captured upon registration of the site. 
+1. (Developer 1 & 3) As a user, I would like the home page to showcase and reflect the products that we are selling.
+1. (Developer 1) As a user, I would like to be able to easily login and register for the site from the home page so that the user can quickly get started.
+1. (Developer 1) As a user, I would like to be greet the user on their homepage so that they can be assured they succesfully logged into their account. 
 
 ### Guidance
-
-**User Story 1:** Within your Pages directory, add a Login razor page under your "Accounts" directory. The approach to this is going to be similar to how you are 
-approaching the Register razor page. Create a page with the input form of the Login. Make sure the password inputted is masked for security and that you have an "OnPost" on the
- PageModel to accept the request from the client.  Ensure that your page is accessible by Anonymous users.
 
 **User Story 2:** Capture a couple other claims from the user...this can all be directly related to what you capture from the 
 registration process. As we develop the site, you can continue to add claims as needed. Remember that each time you add a new 
