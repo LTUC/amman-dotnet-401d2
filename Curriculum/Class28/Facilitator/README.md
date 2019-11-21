@@ -6,7 +6,7 @@ add individual claims into the ongoing project.
 
 By the end of lecture, students should:
 1. Discussed the difference between a Claim/Identity/Principle
-2. what an individual claim is and why we use them
+2. what an individual claim is and why we use themff
 3. How to create and add claims to a user
 4. Inject specific claims into a view
 

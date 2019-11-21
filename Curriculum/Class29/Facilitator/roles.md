@@ -3,17 +3,14 @@
 The ability to add specific roles within a web app is really useful for security purposes and
 the ability to authorize specific users in certain parts of the site. 
 
-Typically, a production site would use something like "Azure Active Directory" 
-Unfortunately Active Directory setup requieres configurations that our 401 class doesn't quite
-have the time or resources to support. 
+Typically, a production site would use something like "Azure Active Directory" Unfortunately, Active Directory setup requires configurations that our 401 class doesn't quite
+have the time or resources to support. To still emulate this behavior we implement a work around. 
 
-With Roles, we have to load them into our database a bit different by injecting them into the
-Startup file and adding a new class inside "ApplicationUsers"
+With Roles, we have to load them into our database a bit different by injecting them into the Startup file and adding a new class inside "ApplicationUsers"
 
 ### Demo
 
-1. In ApplicationUser.cs file, create a new class named "Application Roles". It should
-look like this:
+1. In ApplicationUser.cs file, create a new class named "Application Roles". It should look like this:
 
 ```csharp
 public static class ApplicationRoles

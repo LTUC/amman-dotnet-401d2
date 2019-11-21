@@ -21,7 +21,7 @@ To enable the new default home page, follow these directions:
 5. You can easily edit this page by selecting "Edit" located in the top right corner of the page.
 6. You will need to also confirm that each of the assignments posted on this homepage are properly mapping
 to the correct assignments. 
-   - To link the assignments, highlight the text (example: "Sprint 1"), and select the "Assignmentes" box on the 
+   - To link the assignments, highlight the text (example: "Sprint 1"), and select the "Assignments" box on the 
    right hand side. Once you "select" the correct assignment, 
 Canvas will link that to text to that assignment.
 

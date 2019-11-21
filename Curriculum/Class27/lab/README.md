@@ -10,17 +10,27 @@
 
 **User Story 1:** Add identity to your empty MVC project. This is done in the Startup.cs class in the ConfigureServices() method. This is a big user story because the following must also be completed to accomplish this story:
 1. Create an ApplicationUser (that derives from Identity User)
-2. Create a new DBContext for Identity (ApplicationDbContext)
-3. Include app.UseAuthentication in your Configure() method within Startup.cs
+2. Create a new DBContext for Identity (ApplicationDbContext) and register it into the startup
+3. Setup UserSecrets into your application
+3. Include app.UseAuthentication in your Configure() method within Startup.cs. Place this **after** the `app.UseRouting()`.
+4. Within the `ConfigureServices()` method, add the Identity service by registering your ApplicationUser with your Identity DbContext 
+
+```
+services.AddIdentity<ApplicationUser, IdentityRole>()
+.AddEntityFrameworkStores<ApplicationDbContext>()
+.AddDefaultTokenProviders();
+```
 
 
 Next, You will have to create the actual Register page: 
-	
+
+1. Enable the use of Razor Pages into your application within the `Configure()` method within your `Startup.cs` file
 1. Create a new "Pages" directory at the root of your site, followed by an "Account" directory inside "Pages". 
-1. Within the "Account" directory, add a new "Razor Page" and name it "Register". By default, you are only given an "OnGet" method. Using the demo code as a reference, complete the rest of the registration logic. A View Model may be a good idea to create so that you can capture the Email, Password, and Confirm Password.
+1. Within the "Account" directory, add a new "Razor Page" and name it "Register". By default, you are only given an "OnGet" method. Using the demo code as a reference, complete the rest of the registration logic. A View Model may be a good idea to create so that you can capture the Email, Password, and Confirm Password at minimum.
+1. Don't forget your `_ViewImports` file to enable your tag helpers!
 1. Ensure that once a user is "created" the entry is successfully added to the database and they are redirected back home. 
 
-**User story 2:** This user story is about creating a page for users to log in. Follow the same steps that you did from Register to create a "Razor Page",  add a new razor page to the "Accounts" folder located in the "Pages" directory. Once your setup is complete, confirm that an already registered user can successfully log into the site.  
+**User story 2:** This user story is about creating a page for users to log in. Add a new razor page named `Login` to the "Accounts" folder located in the "Pages" directory. Once your setup is complete, confirm that an already registered user can successfully log into the site.  
 
 **User story 3:** This user story will require the setup of a database. Name this database `StoreDbContext`. Register it in the Startup.cs file. This user story will also require you to implement the repository design pattern
 1. Create a new interface, maybe named IInventory  
@@ -39,7 +49,7 @@ Use [this resource](https://docs.microsoft.com/en-us/ef/core/modeling/data-seedi
 
 ## Tests
 
-Test the getter/setters of your models.
+Test the getter/setters of your `Product` model
 
 ## Rubric
 

@@ -1,12 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 28: Sprint 1 - Milestone #3
-=====================================
-
-## To Submit this Assignment
-No Submission is required. 
-
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
-
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together. 
+# Lab 28: Sprint 1 - Milestone #3
 
 ## User Stories & Guidance:
 
@@ -43,3 +35,10 @@ let the user know you care :)
 ## Rubric
 
 Review the final Sprint 1 submission for rubric/breakdown of all user stories
+
+## To Submit this Assignment
+No Submission is required. 
+
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together. 
