@@ -18,7 +18,7 @@ This is the end of sprint 1. please refer to the Sprint 1 assignment to confirm 
 
 *stretch goal* - Implement pagination! 
 
-**User Story 2:** For this story, create a new product details page that shows the products image, name, price, and any other relevant details. Refer to the suggested wireframes if you are having trouble determining a layout.
+**User Story 2:** For this story, create a new product details page that shows the products image, name, price, and any other relevant details. Refer to the suggested wireframes if you are having trouble determining a layout. Don't worry about linking the "Add to Cart" button to anything just yet. 
 
 *Stretch* - Implement the ability to have multiple images on a products details page.
 

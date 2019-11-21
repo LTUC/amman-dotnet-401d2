@@ -66,9 +66,12 @@ Custom claims are properly captured within registration. User is automatically l
 home page after registration. Registration is accessible by anonymous users.  
 **If readme does not contain list of custom claims that are being captured, no points for this category will be awarded**
 
-#### Shopping Page (5 points)
+#### Shopping Page (10 points)
 Shopping page is accessible by anonymous users as well as fully displays all products existing in the database. 
 Each product is evenly displayed on the page and shopping page has a clean professional appearance.
+
+#### Product Details Page (5 points)
+Each product has a clean details page that displays relevent information important for a consumer to see when reviewing. This page should be accessible from the Shopping page.
 
 #### User Experience (10 points)
 HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall 
@@ -79,11 +82,6 @@ Azure DevOps tool is properly maintained. User stories assigned to each member a
 including time estimation, tasks, branches, description, and acceptance tests. 50% of these points are for both 
 partner's overall maintenance of the KanBan board, 50% of these points are dedicated to each individual partner for 
 specific maintenance. These points CANNOT be regained.
-
-#### Custom Policy and Roles (15 points)
-At least one policy is registered within the startup file. The policy is specific to the role of "Admin" and is enforced upon
-the home page of the admin dashboard. The user also is associated with a role upon  registration and the role is evaluated upon login.
-If the user is an admin, redirect them to the admin panel. If they are a regular member, redirect them to the home page. 
 
 ### Industry Standard (10 points)
 Summary Comments are present and completed. Methods and variable names are appropriate. Fundamentals are 
