@@ -31,8 +31,7 @@ Here is a checklist of items that should be completed prior to start of lecture:
 1. Code Review (60-90 min)
    - Review Azure Dev Ops process from Class 26
    - Revie the Repository Design Pattern
-   - Review the code that you added in your prep (or add it within that hour) 
-   with the services and Dependency Injection 
+   - Review the code that you added in your prep (or add it within that hour) with the services and Dependency Injection 
 1. [Razor Pages](./RazorPages.md) (90 min)
    - Register Page
      - Page Model
@@ -48,8 +47,7 @@ Building off of yesterday's demo. We will be adding Authentication and Authoriza
 to our application
 
 ## What might students struggle with today?  
-Razor pages are new and a little different than what they are used to. Ideally, after
-creating a Register and Login page, they should get the idea of what a Razor Page is. 
+Razor pages are new and a little different than what they are used to. Ideally, after creating a Register and Login page, they should get the idea of what a Razor Page is. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 Often students forget the `.UseAuthentication()` in the configure method in the startup file.

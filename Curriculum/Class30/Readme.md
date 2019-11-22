@@ -1,7 +1,7 @@
-Class 30
-=====================================
+# Career Coaching 2
 
 ## Learning Objectives
+No learning objectives for today
 
-
-## Lecture Outline
+## Career Coaching
+Spend the day practicing your interview skills and learning how to be a professional within the industry!

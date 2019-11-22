@@ -81,9 +81,7 @@ of identity.
 
 ### Back to the Demo
 In the demo, all you have to do is implement the custom claims on the 
-registration page. Explain what identity and principle is
-but we won't actually be implementing the identity or principle directly
-in the demo or the lab. 
+registration page. Explain what identity and principle is but we won't actually be implementing the identity or principle directly in the demo or the lab. 
 
 ### Sources:
 1. [Claims](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.2)

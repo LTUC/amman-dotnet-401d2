@@ -25,16 +25,13 @@ Here is a checklist of items that you should complete before starting today's le
      - Provided Demo code in `Pages/Logout.cshtml` 
    - Show what `Authorize` and `AllowAnonymous` tags do
      - [Authorization Tags](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-2.2)
-     - We are not doing Roles "yet", so just focus on the [Authorize] and [AllowAnonymous] tags. The demo code only has [Allow Anonymous] but play with
-     the two tags to show the difference. We will add more [Authorize] tags as the project evolves.
+     - We are not doing Roles "yet", so just focus on the [Authorize] and [AllowAnonymous] tags. The demo code only has [Allow Anonymous] but play with the two tags to show the difference. We will add more [Authorize] tags as the project evolves. 
+     - You will need to add `app.UseAuthorization();` To the `Configure()` method in the `Startup.cs`. Place this bit of code under the `app.UseAuthorization()`. This bit of code will allow you to be authorized on specfic pages.
 
 1. [Claims](./claims.md) (60-90 minutes)
 2. Injecting claims into views (30-45 minutes)
    - We need the ability to inject our claims into our views for 
- personalization purposes. You can inject claims in either view specific pages
-or in _layout pages. Here is an example of what that may look 
-like in our code for our view in a shared layout view: (This code is present
-in the provided demo code)
+ personalization purposes. You can inject claims in either view specific pages or in _layout pages. Here is an example of what that may look like in our code for our view in a shared layout view: (This code is present in the provided demo code)
 
 ```csharp
 @using Microsoft.AspNetCore.Identity
@@ -62,8 +59,4 @@ in the provided demo code)
 Building off of yesterday's lab
 
 ## What might students struggle with today?  
-Claims//Identities//Principles is a lot of concept that isn't really seen. They may struggle with what role each of these play with.
-
-## What bugs, issues, or surprises have come up in the past for this class?
-
-## General comments
+Claims//Identities//Principles is a lot of concept that isn't really seen. They may struggle with what role each of these play with. The students are not required to write their own identity or principle,  but they should know and understand what is happenging under the hood. 
