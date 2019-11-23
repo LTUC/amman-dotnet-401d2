@@ -2,10 +2,10 @@
 
 ## Overview
 
-Today you and your partners will find and develop a meaningful way to contribute back to the development community at large by finding an open source project which you can participate in. You may not actually make it all the way to a PR today, but should challenge yourself to find a repository, determine a root cause analysis on one of the issues, and potentially submit a PR. 
+Today you and your partners will find and develop a meaningful way to contribute back to the development community at large by finding an open source project which you can participate in. You may not actually make it all the way to a PR today, but should challenge yourself to find a repository, determine a root cause analysis on one of the issues, and potentially submit a PR back to the original repository. 
 
 ### Resources
-Review the following readings 
+Review the following readings to learn more about open source contributions
 
 - Read: [First Timers Only](https://www.firsttimersonly.com/){:target="_blank"}
 - Read: [Quora: What are Github projects that are friendly to beginner coders](https://www.quora.com/What-are-GitHub-projects-that-are-friendly-to-beginner-coders){:target="_blank"}
