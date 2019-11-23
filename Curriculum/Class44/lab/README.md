@@ -1,23 +1,18 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Lab 44: Open-Source Software
+# Lab 44: Open-Source Software
 
-## Find and contribute to an Open Source Project!
+## Overview
 
+Today you and your partners will find and develop a meaningful way to contribute back to the development community at large by finding an open source project which you can participate in. You may not actually make it all the way to a PR today, but should challenge yourself to find a repository, determine a root cause analysis on one of the issues, and potentially submit a PR. 
 
-This is a two part assignment! You get to contribute to two open-communities.
-One within GitHub and another within Stack Overflow.
+### Resources
+Review the following readings 
 
-
-## GitHub OSS (Part 1)
-
-**This is a Group assignment**
-<!-- short description of project -->
-Today you and your partners will find and develop a meaningful way to contribute back to the .NET development community at large by finding an open source project which you can participate in (you may not actually make it all the way to a PR today).
-
-## Specifications
-<!-- Write a spefication for the features required in this lab assignment -->
+- Read: [First Timers Only](https://www.firsttimersonly.com/){:target="_blank"}
+- Read: [Quora: What are Github projects that are friendly to beginner coders](https://www.quora.com/What-are-GitHub-projects-that-are-friendly-to-beginner-coders){:target="_blank"}
+- Read: [Why I contribute](https://www.intopalo.com/blog/2017-11-28-why-i-contribute-to-oss/)
 
 ### Setup
-- Review the resources in today's [Readings](./READINGS.md){:target="_blank"} for ideas on how and where to start with finding a project that interests you and your partner
+- Review the resources above for ideas on how and where to start with finding a project that interests you and your partner
     - *Note: Documentation fixes are not acceptable for this assignment unless approved by your instructor*
     - Focus your search on areas which you can contribute to the code base or writing additional tests!
 - Once you've found a project of interest and, more specifically, an issue which you and your partner feel you can meaningfully contribute to... fork and clone the project
@@ -44,14 +39,3 @@ Today you and your partners will find and develop a meaningful way to contribute
 3. Copy the link to your open pull request and paste it into the Canvas assignment for this day.
 4. Upload your RCA document, and leave any comments you may have about the assignment in the comments box. This includes any difficulties you may have had with the assignment.
 5. Merge your feature branch into `master`
-
-
-## Stack Overflow (Part 2)
-1. Create a stack overflow account.
-2. Find a question that you can answer.
-3. Question rules:
-   - It cannot be older than a month
-   - It is allowed to have other answers
-   - Your answer must include an explanation, code snippet, and further insight. 
-   - Spend at least 20-30 minutes creating the answer. 
-4. Submit your question and your username into the Canvas Assignment.
