@@ -1,47 +1,40 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 32: Sprint 2 - Milestone #2
-=====================================
+# Lab 31: Sprint 2 - Milestone # 2
+
+## User Stories & Guidance:
+
+Here are the user stories for Milestone 1:
+
+1. (Developer 1 & 2) As a user, I would like dedicated location where I can see all the products I wish to purchase. 
+
+1. (Developer 1) As a user, I would like to see the current items in my basket while browsing the site.
+
+1. (Developer 2 & 3) As a user, I would like to quickly add items to my basket on the product details page
+
+
+### Guidance
+
+**User story 1:** You and your partner need to figure out how you are going to capture a user's cart items. This is going to required a database change. You will need to take into consideration that each user will have their own cart, and that they could potentially have a quantity of a specific product to be larger than 1. 
+
+Refer to the Store DB ERD in your ECommerce assets as a suggestion on how to lay out your database. This is just a suggestion and you may chose to follow it if you are unsure how to restructure your database to handle cart items. 
+
+After you have setup your database to handle the storage of items in a cart, create a dedicated route of `/Cart`. You may chose to have thi be a controller or a razor page. 
+
+Within this dedicated cart page, make sure that you can edit the qty of the product, delete the item from the cart, or click on the product directly and be redirected to the product details page. 
+
+Refer to the suggested checkout wireframe on how to layout your page. 
+
+Your "Checkout" button on this page should not link to anything just yet. 
+
+**User story 2:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in their cart, and displays it on more than one page of the site. Display your "mini-basket" on the individual product landing pages. 
+	
+**User Story 3:**  This is just adding a button to onto the product landing page. This button will have the text "Add to Cart". When this button is clicked, it will execute the post method and add that product to the user's cart. This should all take place on the database side. _**You will need**_ to setup your cart to use an interface for cart CRUD operations. Similar to how you are getting products...do the same for cart manipulation. 
+
+
+### Tests
+Test your serivces that are implementing your interface.
+
 
 ## To Submit this Assignment
 Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
-
-
-## Directions:
-
-
-## User Stories & Guidance:
-
-1. (Developer 1 & 2 & 3) As a developer, I would like to use IEmailSender as my interface when configuring email functionality. 
-2. (Developer 2) As a user, I would like an email confirmation to be sent to me after I have registered for an account on the site.
-3. (Developer 1) As a user, I would like to have a designated basket page that will allow me to modify the items in my basket
-
-
-### Guidance
-
-**User Story 1:** Utilize the .Net Core's IEmailSender interface. 
-Create a model that implements this interface that will create and send emails 
-through SendGrid. You will need to implement the IEmailSender interface on a new 
-class model and create the logic to conenct your SendGrid account and send out any
-email that gets sent in  through the arguements. 
-
-**User Story 2:** Building off of US1, Make an email get sent after 
-registration of a new account. Have this email be a simple Welcome message to the user. 
-
-**User Story 3:** This is a place that will eventually "kickoff" your 
-checkout process. Besides seeing all the basket items through the view component 
-from yesterday, you should also be able to view all the items the user has on a 
-dedicated page. Make it so that the basket items can be modified (View the product 
-landing page of that product, edit the product qty, delete the product from the 
-basket). You may choose to make this either a Razor page or a controller. The route should
-be `/Basket` at minimum. 
-
-
-## Tests
-
-No tests are required for today. 
-
-
-## Rubric
-
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 

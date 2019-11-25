@@ -45,20 +45,15 @@ Grades are distributed separately per student. Refer to the rubric below for eva
 
 Review the rubric below to know and understand the overall expectations
 
+#### Mini Cart (10 points)
 
-#### Product Page (10 points)
+"Mini Basket" exists on product landing pages. 
+Mini Basket holds a current view of all the existing items the user has in their cart. A view component is used to implement the mini cart across the site. 
 
-Landing page that consists of product details, add to basket button, and visibility of the users current basket. 
+#### Cart (10 points)
 
-#### Mini Basket (10 points)
-
-"Mini Basket" exists on home page of site and product landing pages. 
-Mini Basket holds a current view of all the existing items the user has in their basket. A view component is used to implement the mini basket across the site. 
-
-#### Basket (10 points)
-
-A dedicated Basket page that consists of all the user's current products. Items in the basket can be modified in quantity or removed.  Home page consists of a link to the basket page for easability. 
-Basket page contains a "Checkout" button that redirects to the Receipt page. The user must be logged in to access the Basket page.
+A dedicated cart page that consists of all the user's current products. Items in the cart can be modified in quantity or removed.  Home page consists of a link to the cart page for easability. 
+Cart page contains a "Checkout" button that redirects to the Receipt page. The user must be logged in to access the cart page.
 
 #### Receipt Page (10 points)
 
@@ -67,6 +62,9 @@ Receipt page consists of an itemized list of all products that the user has "pur
 #### Email Sender (10 points)
 
 A welcome email is sent to the user upon a new registration. A receipt email is also sent to the user after the "checkout" process from the basket page. Each email is fitting to the problem domain, and formatted professionally. The email consists of a custom greeting and personalization. 
+
+#### Admin Dashboard (10 points)
+Admin Dashboard exists with a landing page directing users to Products Controller. An admin can execute full CRUD operations on the products. Only useres with a role of "Admin" can acess this page. Credentials to an admin account are provided to grader in canvas note.
 
 #### User Experience (10 points)
 HTML/CSS/SCSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.

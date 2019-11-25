@@ -1,52 +1,46 @@
-# Lab 31: Sprint 2 - Milestone #1
+# Lab 29: Sprint 2 - Milestone #1
 
-## User Stories & Guidance:
+### User Stories
 
-Here are the user stories for Milestone 1:
+1. (Developer 2) As a user, I would like to have specific roles within my site so that I can determine the difference between an "Admin" and a "Member"
 
-1. (Developer 2 & 3) As a user, I would like to add individual items to my basket through an "Add to Basket" button located on each product landing page.
+2. (Developer 1 & 2)  As a user, I would like a dedicated location for Administrators so that they can securely manage the site. 
 
-1. (Developer 1) As a user, I would like a basket to hold the products I wish to purchase. 
-
-1. (Developer 1) As a user, I would like to see the current items in my basket while browsing the site.
+3. (Developer 1) As an administrator, I would like the ability to create, view, update, and delete products from my inventory so that i can manage the stock.
 
 
 ### Guidance
 
-**User Story 1:** This page should exist for every product, and it can be done dynamically through views. Have a new Razor Page in your "Shop" directory that will allow you to see product specific information. This page should contain:
-1. Image of the product
-2. Name of Product
-3. Description
-4. Price
-	
-**User Story 2:**  This is just adding a button to onto the product landing page. This button will have the text "Add to Basket". When this button is clicked, it will execute the post method and add that product to the user's basket. This should all take place on the database side. 
-_**You will need**_ to setup your basket to use an interface for Basket CRUD operations. Similar to how you are getting products...do the same for basket manipulation. 
+**User story 1:** Much like we did in the demo, add default roles to your application. Add both "Member" and "Admin" at minimim. 
+Do not hardcode each user into the roles, have an Enum or an external class with constant values. 
 
-**User story 3:** You and your partner need to figure out how you are going to capture a user's basket items. This is going to required a database change. At the very least, your Basket should contain a collection Basket Items or Products...
-depending on your structure. You should be able to call a user's basket and view all the items/products associated with it. Remember that it possible that a user can have more than one item in their basket AND more than one type of item (example: I have 2 blankets in my basket).
+Update both your registration and login to either assign a role to a user, or capture the role of the user. If 
+they are an admin, redirect them to the Admin Dashboard US2 is creating. If they are a member, redirect them 
+back home. 
 
-Here is a _possible_ example structure that you can keep into consideration as you build out your basket: 
-1. Basket Table:
-   - ID (primary key)
-   - UserID
-2. BasketItems Table
-    - ID
-    - BasketID (FK)
-    - ProductID (FK)
-    - Qty
+**Provide to your grader some credentials so that they can access/test the admin dashboard**
 
-The above will give us the specific basket for each user and then give us a table to hold all of the individual basket items. If we ever want to find out what items a user has in their basket, we can figure out what the user's basket id is, and then query all the items in the basketitems table that share that basket id. 
+**User Story 2:** Enforce the Role from User Story 1 by creating an Admin Controller that is only accessible by those who meet the requirements of the policy of being an admin (Hint, the `IsInRole` should do the trick). Don't forget to add the `[Authorize(Policy="{NAME OF POLICY}")]' at the top of the controller. 
+
+The Admin dashboard controller should consist of a default index action that displays to the user a simple heading of acknowledgement they are on the admin dashboard. Consider also adding a link to "Manage Products" which should redirect to the products controller index action.
+
+Refer to the suggested wireframe as a reference on how the page should look. For now, disregard the "Orders" section of the admin page.
+
+**User Story 3:**  Technically, this should be 4 different user stories, but for consolidation purposes it is condensed into one. 
+
+You may scaffold out a ProductsController if you like, and update the controller to use the `IInventory` interface that you created in sprint  1.
 
 
-**User story 4:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in his/her cart, and displays it on more than one page of the site. Display your "mini-basket" 
-on both the individual product landing pages and the home page. 
-	
+## Tests
+No Tests are required for this milestone
 
-### Tests
-Test your serivces that are implementing your interface.
-
+## Rubric
+Review the final Sprint 1 submission for rubric/breakdown of all user stories
 
 ## To Submit this Assignment
+
+No Submission is required. 
+
 Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together. 
