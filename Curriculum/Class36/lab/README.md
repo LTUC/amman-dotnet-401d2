@@ -1,10 +1,4 @@
-Lab 36: Sprint 3 - Milestone #1
-=====================================
-
-## To Submit this Assignment
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
-
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
+# Lab 36: Sprint 3 - Milestone #1
 
 
 ## User Stories & Guidance:
@@ -28,8 +22,13 @@ ApiOperationBase<ANetApiRequest, ANetApiResponse>
 
 Write tests for your services against your database. Make sure the basic CRUD operations are possible. 
 
-You do not need to test the Identity components. Only the CRUD operations on the Product and Basket.
+You do not need to test the Identity components. Only the CRUD operations on the Product and Cart
 
 Don't forget about the getters and setters.
 
-Keep your tests clean, only 1 Assert per test
+
+## To Submit this Assignment
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
+
