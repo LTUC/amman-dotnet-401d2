@@ -1,6 +1,5 @@
 # Lab 32: Sprint 2 - Milestone # 3
 
-
 ## User Stories & Guidance:
 
 1. (Developer 1 & 2 & 3) As an administrator, I would like the ability to send emails so that I can communicate with my users of the site
@@ -21,6 +20,8 @@ email that gets sent in  through the arguements.
 registration of a new account. Have this email be a simple Welcome message to the user. 
 
 **User Story 3:** Refer to the suggested wireframes as a guideline of how to format the receipt page. This page should be generated and presented to the user after they select the "Checkout" button on the Cart page. 
+
+In the suggested wireframe, it shows order information. Don't worry about displaying that now, only show the actual products and the total cost. You will add order specific information in Sprint 3.
 
 **User Story 4:** When the user selects "Checkout" on their cart page, this should trigger an email to be sent to the user with a summary of their purchases. 
 

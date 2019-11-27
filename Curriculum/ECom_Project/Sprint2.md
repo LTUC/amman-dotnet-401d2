@@ -16,7 +16,7 @@ You will each individually submit the following into Canvas as a text entry:
     - What you will do differently next sprint
 3. Do you need anything from the instructional staff?
 
-The instructional staff will review your current master branch in VSTS/Azure Dev Ops and evaluate you accordingly.
+The instructional staff will review your current master branch in Azure Dev Ops and evaluate you accordingly.
 
 **Only push to master on sprint check-ins**
 
@@ -37,7 +37,6 @@ to your configuration and settings of your web application.
 
 ### Graded Requirements:
 Grades are distributed separately per student. Refer to the rubric below for evaluation
-
 
 ## Rubric
 
