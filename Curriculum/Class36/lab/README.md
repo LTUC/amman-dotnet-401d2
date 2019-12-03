@@ -5,7 +5,7 @@
 
 1. (Developer 1) As a user, I would like to use AUTH.NET as my automatic payment processing system
 2. (Developer 2)As a user, I would like a fake Credit card drop down to be used for every transaction that occurs in my site.
-3. (Developer 2 || 3) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
+3. (Developer 2, 3) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
 
 
 ### Guidance
@@ -16,7 +16,7 @@ ApiOperationBase<ANetApiRequest, ANetApiResponse>
 
 **User Story 2:** This user story ties very closely into US1. Do not ask for a real credit card number. Your dropdown should consist of card types. Do not allow the user to put in any numbers into a text box. Make sure to refer to the Testing Guide of Auth.NET as a reference to the different test cards you can use.   
 
-**User Story 3:** On the checkout page, This is where you will capture the information about the order in order for it to process. This includes the payment dropdown from the above user story. Upon completion of this user story, the user should be able to go from their Basket >> Checkout >> Receipt.  When the user submits their information for the order, make a call out to the Auth.NET Api, process the payment, and then redirect to the receipt page. Your Receipt page should indicate if the transaction was successful or not. 
+**User Story 3:** On the checkout page, This is where you will capture the information about the order in order for it to process. This includes the payment dropdown from the above user story. Upon completion of this user story, the user should be able to go from their Basket >> Checkout >> Receipt.  When the user submits their information for the order, make a call out to the Auth.NET Api, process the payment, and then redirect to the receipt page. Your Receipt page should indicate if the transaction was successful or not. When implementing your `Payment.cs`, be sure to incorporate the repository design pattern by creating an `IPayment.cs` interface and registering it in your Startup.cs.
 
 ## Tests
 

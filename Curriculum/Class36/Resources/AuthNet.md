@@ -68,7 +68,7 @@ with AUth.Net to force certain responses.
 Now it's time to demo it.
 
 Much like we have been doing, we will keep our payment process loosely coupled.
-tHsi means we will need to make an interface called `IPayment` that will be the data layer
+this means we will need to make an interface called `IPayment` that will be the data layer
 between our web application and hte actual payment processor. We won't do that right away though.
 let's jsut create the class first, then refactor from there. 
 
@@ -87,5 +87,5 @@ be able to process the paymnet...wait for a rseponse...and redirect to hte recie
 this 3rd party srevice provider? What information is the client actually saving? Is it secure? Safe?
 8. to be clear **We will not be accpeting custom CC numbers, they are instructed to use a drop down menu of CC from the testing documentation**
 
-9. To Crate a payment processor, What is the bare miniumum required for our payment to be utulized for dependency iinjection?
+9. To create a payment processor, what is the bare miniumum required for our payment to be utulized for dependency injection?
     - Should be just `Run` or `ProcessPayment`. 

@@ -1,12 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 37: Sprint 3 - Milestone #4
-=====================================
-
-## To Submit this Assignment
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
-
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
-
-## Directions: 
+# Lab 37: Sprint 3 - Milestone #4
 
 ## User Stories & Guidance:
 
@@ -35,7 +27,7 @@ You will need to inject `userManager` into your razor page to get basic informat
 
 Continue to test your basic CRUD operations within your services
 
+## To Submit this Assignment
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
-## Rubric
-
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
