@@ -20,6 +20,9 @@
 
 **User Story 1**: Utilizing what was taught in class, integrate Azure Blob Storage into your application. Consider creating a new model for BLOB storage manipulation directly.Use the demo code as an outline. At the completion of this user story, your application should be ready to use Azure Blog Storage as image storage for all product images. 
 
+Name your container within your storage account "products".
+Name each of the images the name of the product.
+
  Don't forget to also update your seeded data in your DBContext individual product items to point to the URI from Azure Storage. This will also require you to manually upload you 10 products to your Storage account and grab the URIs. 
 
 **User Story 2**: Add the ability to "upload" a product image in the admin dashboard within the product create and update pages. Refer to the demo code as a guidance on how to showcase the "upload" behavior to save images to Azure Blob Storage.
