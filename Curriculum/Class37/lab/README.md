@@ -1,13 +1,5 @@
 # Lab : Sprint 3 Milestone 2
 
-## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
-- Include a `README.md` (contents described below)
-
 ## Directions
 
 ## User Stories & Guidance:
@@ -20,8 +12,7 @@
 
 **User Story 1**: Utilizing what was taught in class, integrate Azure Blob Storage into your application. Consider creating a new model for BLOB storage manipulation directly.Use the demo code as an outline. At the completion of this user story, your application should be ready to use Azure Blog Storage as image storage for all product images. 
 
-Name your container within your storage account "products".
-Name each of the images the name of the product.
+Name your container within your storage account "products". Name each of the images the name of the product.
 
  Don't forget to also update your seeded data in your DBContext individual product items to point to the URI from Azure Storage. This will also require you to manually upload you 10 products to your Storage account and grab the URIs. 
 
