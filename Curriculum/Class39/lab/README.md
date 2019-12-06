@@ -4,7 +4,6 @@
 
 1. (Developer 1) As a developer, I would like to have a personal profile page that will display my basic information
 2. (developer 2) As a user, I would like to view my last 5 orders I have created from the site
-3. (Developer 1 & 3) As a user, I would like to have the ability to change my password 
 
 
 ### Guidance
