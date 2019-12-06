@@ -1,23 +1,24 @@
-# Class 43: Readings
-
+# Readings: Ethics
 
 ## Submission Requirements
-To turn in your reading "Reply" to this discussion by teaching something that you learned from the 
-readings listed below.
+
+Below is a collection of resources of varying types and lengths which describe the topics for the upcoming lecture.  
 
 Review at least one article ***from both "Ethics in the workplace" and "Ethics in Technology" sections below*** and write how each of them relates to ethics in technology. Do you agree or disagree with these articles? What stuck out to you specifically from each article? 
 
 For each article that you choose, write a ***minimum*** 5 sentences (1 paragraph). Each post should be something of substance and of an acceptable quality. 
 
-Commenting on a classmate's post is not required, but appreciated and encouraged.
+Go through these resources, and create a wiki entry in your fork of the class repo that summarizes the topics you learned as though you were presenting the material to a Code 301-level student interested in learning about it.
 
 ## Readings
 
 ### Code of Ethics
+
 1. Skim: [Code of Ethics](https://www.acm.org/code-of-ethics){:target="_blank"}
 2. Skim: [Software Engineering Code of Ethics](https://ethics.acm.org/code-of-ethics/software-engineering-code/){:target="_blank"}
 
 ### Ethics in the workplace
+
 1. [Programmer's Confessions](unethical_practices.pdf){:target="_blank"}
 2. [The code I'm still ashamed of](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e){:target="_blank"}
 3. [Project Dragonfly, Google's censored search engine](https://www.vox.com/2018/8/17/17704526/google-dragonfly-censored-search-engine-china){:target="_blank"}
