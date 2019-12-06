@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class ##: Readings
+# Class ##: Readings
 
 ## Submission Requirements
 To turn in your reading "Reply" to this discussion by teaching something that you learned from the 
@@ -10,3 +10,5 @@ of an acceptable quality.
 Commenting on a classmate's post is not required, but appreciated and encouraged.
 
 ## Readings
+
+No readings assigned for today.

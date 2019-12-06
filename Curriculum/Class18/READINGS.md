@@ -1,14 +1,17 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 18: Readings
+# Readings: Intro to APIs
 
 ## Submission Requirements
 
-To turn in your reading "Reply" to this discussion by teaching something that you learned from the 
-readings listed below.
+Below is a collection of resources of varying types and lengths which describe the topics for the upcoming lecture.  
 
-Each post should be a ***minimum*** 5 sentences (1 paragraph). Each post should be something of substance and 
-of an acceptable quality. 
+Go through these resources, and create a wiki entry in your fork of the class repo that summarizes the topics you learned as though you were presenting the material to a Code 301-level student interested in learning about it.
 
-Commenting on a classmate's post is not required, but appreciated and encouraged.
+Journal entry ideas:
+* Blog Article (2-3 paragraphs with code sample)
+* Dictionary / Flash Cards
+* Notes in outline form
+* Fill-in-the-blank worksheet of key concepts
+
 ## Readings
 
 - [YouTube - Intro to APIs (60 min)](https://youtu.be/aIkpVzqLuhA)

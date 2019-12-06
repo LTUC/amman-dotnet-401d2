@@ -1,12 +1,20 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 12: Readings
+# Readings: Intro to ERDs
 
 ## Submission Requirements
 
-Conduct some self research on one of the following topics.
+Below is a collection of resources of varying types and lengths which describe the topics for the upcoming lecture.  
 
-Pick one of the topics below and share with the class your research AND where you found the data!
+Go through these resources, and create a wiki entry in your fork of the class repo that summarizes the topics you learned as though you were presenting the material to a Code 301-level student interested in learning about it.
+
+Journal entry ideas:
+* Blog Article (2-3 paragraphs with code sample)
+* Dictionary / Flash Cards
+* Notes in outline form
+* Fill-in-the-blank worksheet of key concepts
+
 
 ## Readings
+
 1. [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"} 
 1. [DBMS](https://www.tutorialspoint.com/dbms/dbms_overview.htm){:target="_blank"} 
 1. Do some research on what a Database Schema is. 

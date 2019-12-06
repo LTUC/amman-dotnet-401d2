@@ -1,7 +1,5 @@
 # Lab : Sprint 3 Milestone 2
 
-## Directions
-
 ## User Stories & Guidance:
 
 1. (Developer 2 & 3) As an administrator, I would like my product images to be quickly and easily accessible. 
@@ -17,11 +15,6 @@ Name your container within your storage account "products". Name each of the ima
  Don't forget to also update your seeded data in your DBContext individual product items to point to the URI from Azure Storage. This will also require you to manually upload you 10 products to your Storage account and grab the URIs. 
 
 **User Story 2**: Add the ability to "upload" a product image in the admin dashboard within the product create and update pages. Refer to the demo code as a guidance on how to showcase the "upload" behavior to save images to Azure Blob Storage.
-
-
-## Tests
-
-No tests are required for today. 
 
 
 ## Rubric

@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 15
-=====================================
+# Class 15:
 
 ## Learning Objectives
 
