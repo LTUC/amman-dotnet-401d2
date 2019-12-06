@@ -19,9 +19,6 @@ You will need to inject `userManager` into your razor page to get basic informat
 **User Story 2:** Within the user profile, the user should be able to view their last 5 orders that they have placed. Much like the admin dashboard, allow the user to view the individual details of each order.
 
 
-**User Story 3:**  Explore the `SignInManager` and implement the ability to change the password of the user. Be sure that the user confirms their password when changing it to make sure they typed it in correctly. 
-
-
 ## Tests
 
 Continue to test your basic CRUD operations within your services
