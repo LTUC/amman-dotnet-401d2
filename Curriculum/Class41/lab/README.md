@@ -1,20 +1,8 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 41: MVC 5
-=====================================
-
-## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- write your code
-- push to your repository
-- submit a link to your Repo in canvas
-- Include a `README.md` (contents described below)
+# Lab 41: Intro to Xamarin
 
 ## Directions
 
-Complete all of the stpes located in this tutorial 
-
-(Getting started all the way through adding Validation)
-[MVC 5 Tutorial](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started){:target="_blank"}
+Explore the world of mobile development by building out your own basic xamarin web app. Use the [Xamarain documentation](https://docs.microsoft.com/en-us/learn/paths/build-mobile-apps-with-xamarin-forms/?WT.mc_id=learn-xamarinblog-adpatrid){:target="_blank"} to get a basic mobile app using Xamarin forms. Customize it in any way you wish to personalize the app to a specific interest that you have.
 
 ## Tests
 
@@ -43,4 +31,14 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [HERE](/../Resources/rubric){:target="_blank"} 
+
+
+## To Submit this Assignment
+- Create a new repo on your personal GitHub account
+- Name your repo `Lab##-TITLE`
+- write your code
+- push to your repository
+- submit a link to your Repo in canvas
+- Include a `README.md` (contents described below)
+

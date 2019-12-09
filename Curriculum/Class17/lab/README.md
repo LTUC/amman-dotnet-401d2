@@ -1,7 +1,8 @@
 # Lab 17: Searching, Sorting, & Secrets
 
 ## Assignment Specifications
-- Your application should include the following:
+
+Your application should include the following:
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 1. Add a layout that will be inherited/utilized on all of your pages (if you haven't already). 
 2. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
