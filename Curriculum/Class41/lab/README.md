@@ -28,11 +28,9 @@ This is ***your*** job. It's up to the module creator to prove that their work i
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
 - [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
-
 ## Rubric
 
-The lab rubric can be found [HERE](/../Resources/rubric){:target="_blank"} 
-
+The lab rubric can be found [HERE](/../Resources/rubric){:target="_blank"}
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
