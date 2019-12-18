@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 01: Intro to C#
-=====================================
+# Class 01: Intro to C#
 
 ## Learning Objectives
 1. The student will successfully request user input and output a response to the console.

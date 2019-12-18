@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 07: Collections
-=====================================
+# Class 07: Collections
 
 ## Learning Objectives
 1. The student will understand and implement their own enums into their programs and classes.

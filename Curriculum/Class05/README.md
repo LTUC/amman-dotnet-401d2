@@ -1,5 +1,4 @@
-﻿![cf](http://i.imgur.com/7v5ASc8.png) Class 05
-=====================================
+﻿# Class 05
 
 ## Learning Objectives
 1. The student will know the difference between procedural and object oriented programming

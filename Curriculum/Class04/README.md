@@ -1,5 +1,5 @@
-Class 04: Classes and Objects
-=====================================
+# Class 04: Classes and Objects
+
 
 ## Learning Objectives
 1. Students will be introduced to Object Oriented Programming

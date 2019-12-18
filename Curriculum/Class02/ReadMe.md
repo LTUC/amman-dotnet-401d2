@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 02: Unit Testing
-=====================================
+# Class 02: Unit Testing
 
 ## Learning Objectives
 1. Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach. 
