@@ -1,16 +1,17 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 19
-=====================================
+# Class 19
 
 ## Learning Objectives
-1. The student will know how to write unit tests for an API.
-2. The student will understand and create custom user stories following an agile process
-3. The student will become familiar with the Visual Studio Team Services tool
+1. The student will learn how to use join tables in association with APIs
+2. The student will learn how to test HTTP status codes within an API
 
 ## Lecture Outline
-1. API Tests
-2. User Secrets
-3. CSS Layouts
-2. Project Requiremetns
-   - Project Requirements
-   - User Stories
-   - VSO
+
+1. Code Review
+   - What is an API
+   - What does REST stand for?
+   - When someone says an API is RESTful, what does that mean?
+2. Build off of yesterday's code
+   - Add a 2nd controller
+3. Test APIs
+   - Demonstrate how to test api endpoints
+   

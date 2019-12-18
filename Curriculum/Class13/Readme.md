@@ -9,7 +9,7 @@
 
 1. Review MVC Setup
 2. Review MVC Relationships
-3. introduce Entity Framework
+3. Introduce Entity Framework
 
 ### Demo
 1. Scaffold out an empty MVC Site with a Home controller (like on day 11)

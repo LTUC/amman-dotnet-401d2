@@ -2,8 +2,7 @@
 
 ## How do I prep for today?
 
-Post the solution to the previous day's lab right away. spend the first 20 minutes or so reviewing 
-the solution and explanation behind the ERD. 
+Post the solution to the previous day's lab right away. Spend the first 20 minutes or so reviewing the solution and explanation behind the ERD. 
 
 Add the solution of Async Inn ERD to a resources folder in the class GH repo
 
@@ -28,9 +27,6 @@ Taking the ERD from the lab and implementing the models into code.
 
 ## What might students struggle with today?  
 Code first migrations, as well as creation and registration of DBContext
-
-## What bugs, issues, or surprises have come up in the past for this class?
-
 
 ## General comments
 For this day and lab, focus on just getting things set up. No HTML/CSS is required, only

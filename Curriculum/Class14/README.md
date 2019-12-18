@@ -1,9 +1,10 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 14
-=====================================
+# Class 14
+
 ## Learning Objectives
 1. A student will be able to understand and use Taghelpers within a ASP.NET Core web application. 
 2. Students can quickly and scaffold out a controller using EFCore templating
 3. Students will be able to seed the database with default data 
+
 ## Lecture Outline
 
 Hour 1:

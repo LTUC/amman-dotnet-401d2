@@ -3,11 +3,10 @@
 ## The Problem Domain
 Finish up your `Async Inn` Hotel Management project.
 
-
 ## Application Specifications
 - Your application should include the following:
 1. Deploy to Azure (reference link in your Readme)
-	- application *MUST* be deployed to Azure. No grade will be given to non-deployed apps.
+	- Application *MUST* be deployed to Azure. No grade will be given to non-deployed apps.
 2. Implement User Secrets instead of the default configurations
 2. CSS/HTML should be present on **all** pages of the project.
 	- Utilize "layouts"

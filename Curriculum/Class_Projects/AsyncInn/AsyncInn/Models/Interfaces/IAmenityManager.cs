@@ -5,7 +5,12 @@ using System.Threading.Tasks;
 
 namespace AsyncInn.Models.Interfaces
 {
-    public class IAmenityManager
+    public interface IAmenityManager
     {
+        void CreateAmenity();
+        void UpdateAmentity(int id);
+        void DeleteAmentity(int id);
+        List<Hotel> GetAmenities();
+        Room GetAmentity(int id);
     }
 }

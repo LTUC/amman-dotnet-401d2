@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 12
-=====================================
+# Class 12: Intro to Databases
 
 ## Learning Objectives
 1. Students will create their own Database Schema given a problem domain
@@ -9,6 +8,8 @@
 ## Lecture Outline
 
 ## What is a Database
+
+A database is used to persist and store data across applications. We use databases to save information such as logins, user data, and any other information that is required to persist across the site. 
 
 ### Different Kinds of Databases
 	1. Relational

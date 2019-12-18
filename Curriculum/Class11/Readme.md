@@ -19,14 +19,12 @@ we wish to use within our web application
 
 #### View
 This is our front-end. HTML and CSS is displayed on 
-the views. In addition, on the View, we reference the "Model"
-that was sent to the view from the controller. 
+the views. In addition, on the View, we reference the "Model" that was sent to the view from the controller. 
 
 A really cool feature in Views is that we can display the information
 from the model on the .cshtml page by using very basic C# syntax.
 This "Razor Syntax" allows us to use foreach loops and if statements
 to manipulate how to display the information sent from the controller. 
-
 
 #### Controller
 

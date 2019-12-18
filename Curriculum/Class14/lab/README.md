@@ -27,8 +27,10 @@ Your application should include the following:
 3. Update the dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views (example: display string names instead of ids).
 4. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
 5. Add your own styling to the Hotel creation page, Room Creation Page, and Amenities creation page.
-6. On the Home Page, create a navigation to the "Create Hotel" page, "Create Room" page, "Create Amenity" page, as well as pages for the "HotelRoom" association and "RoomAmenity" association. Each of these pages (excluding HotelRoom and Room Amenity (see below)) should allow the user to edit/remove existing data. All pages should allow to view the data.
-
+6. On the Home Page, create a navigation to the Hotel, Room, and Amenities pages that display all of the contents in the database respectively. 
+7. On the Rooms, Hotels, and Amenities landing page, be sure to include a link that allows you to create a new room within the overall lists. 
+7. Create a page named "HotelRooms: that allows you to associate a specific Room with a specific hotel. Refer to the Wireframes `HotelRooms/Update/id&rn=201` wireframe as an exampe
+8. Refer to the provided wireframes as examples of what these pages should look like and function. Feel free to use the automatic scaffolding. Don't forget to modify/remove any extra code that is not needed. 
 
 ## Guidance
 - There is no extra guidance for this assignment.
@@ -39,10 +41,8 @@ Your application should include the following:
 
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
-
-
 ## Stretch Goals
-- These goals will be required in an upcoming lab, but feel free to start a bit "early":
+These goals will be required in an upcoming lab, but feel free to start a bit "early":
 1. Update/Edit your `RoomAmentities` page to not allow edits. 
 	- You should only have the option to create associations, and delete associations.
 	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
@@ -52,10 +52,8 @@ I **strongly** encourage you to research how to write tests for a .NET Core MVC 
 	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
 	 - View Models and TagHelpers will be required to send the data back and forth from the server
 
-
 ## Additional Resources
 - There are no additional resources provided for this assignment.
-
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.** 

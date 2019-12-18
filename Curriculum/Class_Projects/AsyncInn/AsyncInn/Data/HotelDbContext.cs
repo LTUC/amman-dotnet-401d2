@@ -12,10 +12,11 @@ namespace AsyncInn.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // composite key associations
             modelBuilder.Entity<HotelRoom>().HasKey(hr => new { hr.HotelID, hr.RoomNumber });
-
             modelBuilder.Entity<RoomAmenities>().HasKey(ce => new { ce.RoomID, ce.AmenitiesID });
 
+            // Seeding basic data into the database
             modelBuilder.Entity<Room>().HasData(
                 new Room { ID = 1, Name = "Seahawks Snooze", Layout = Layout.TwoBedSuite },
                 new Room { ID = 2, Name = "Restful Rainier", Layout = Layout.TwoBedSuite },
@@ -42,6 +43,7 @@ namespace AsyncInn.Data
                 );
         }
 
+        // Creating basic tables
         public DbSet<Hotel> Hotels { get; set; }
 
         public DbSet<HotelRoom> HotelRooms { get; set; }
