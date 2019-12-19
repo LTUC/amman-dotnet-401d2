@@ -1,5 +1,4 @@
-Class 26: Intro to Identity
-=====================================
+# Class 26: Intro to Identity
 
 ## Learning Objectives
 1. Students will be introduced to Azure Dev Ops Project Management Tool 

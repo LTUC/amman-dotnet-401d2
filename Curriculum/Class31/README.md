@@ -1,6 +1,7 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 31
-=====================================
+# Class 31: View Components
 
 ## Learning Objectives
 
 ## Lecture Outline
+1. What is a View Component
+

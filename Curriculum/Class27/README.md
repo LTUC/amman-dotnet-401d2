@@ -1,5 +1,4 @@
-Class 27
-=====================================
+# Class 27
 
 ## Learning Objectives
 
