@@ -5,15 +5,16 @@
 Build off of the demo code from class 14. 
 
 Today's Topics:
-1. Intro to Dependency Injection (powerpoint)
+1. Intro to Dependency Injection (slide deck)
 2. Intro to the Repository Design Pattern
 	- Review of Interfaces
+      - Emphasize the reusablilty of interfaces. 
+      - Talk about the OOP principles and how/where interfaces fit.
 	- Create a new interface with basic CRUD operations
 		- IStudent
 		- ICourse
 	- Create services that implement the interfaces
 	- Register the Interface using DI
-3. Intro to Testing MVC applications
 
 ## Lecture
 
@@ -44,4 +45,3 @@ Students will likely not get these concepts right away.  Historically, they unde
 they will get it!
 
 Be prepared to review this concept again on class 17. This day's demo should have consisted of Refactoring only 1 controller with a new interface and service. It is reccomended that you also do a second controller with interface and service on Day 17 to solidify the concepts. 
-

@@ -27,20 +27,12 @@ N/A
 ## What might students struggle with today?  
 The students will struggle with figuring out the details of their project. 
 The full instructional staff should be available to assist, when needed 
- to ensure that the students are able to work through
-the details of their projects and making sure the
-docs all match each other. 
-
-
+ to ensure that the students are able to work through the details of their projects and making sure the docs all match each other. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-
 N/A
 
 ## General comments
-Refer to the final project reqs for the details
-of what the project should consist of. 
-
-The whole point of the final project are for
+Refer to the final project reqs for the details of what the project should consist of. The whole point of the final project are for
 the students to take the last 20 weeks of "learning how to learn"
 and put it to use. They should have fun!

@@ -1,8 +1,8 @@
-# Lab 17: Searching, Sorting, & Secrets
+# Lab 17: Searching, Sorting & View Models
 
 ## Assignment Specifications
 
-Your application should include the following:
+Building off of your Async Inn web application, include the following:
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 1. Add a layout that will be inherited/utilized on all of your pages (if you haven't already). 
 2. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
@@ -17,12 +17,11 @@ Your application should include the following:
 ## Guidance
 - There is no additional guidance for this assignment.
 
-
 ## Unit Tests
-- There are no Unit Tests required for this assignment.
+
+There are no additional Unit Tests required for this assignment.
 
 I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
-
 
 ## Stretch Goals
 - There are no Stretch Goals for this assignment.
@@ -31,24 +30,10 @@ I **strongly** encourage you to research how to write tests for a .NET Core MVC 
 - There are no additional resources provided for this assignment.
 
 ## README
-**A Readme is a requirement. No Readme == No Grade.** 
-Here are the requirements for a valid readme:
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-
-Your job is to
-
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-Refer to the README templates in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
-
+You're README should include:
+1. Introduction to your application
+2. Database ERD
 
 ## Rubric
 

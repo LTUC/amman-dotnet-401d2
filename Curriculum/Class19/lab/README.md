@@ -7,7 +7,7 @@
 1. 2 database tables (one database table for each model)
 1. Follow the Repository Design Architectural pattern within your implementation
 
-We can make the assumption that a ToDo can **only be a part of one ToDoList**
+We can make the assumption that a single ToDo item can **only be a part of one ToDo List**
 
 The following actions must also be true:
 

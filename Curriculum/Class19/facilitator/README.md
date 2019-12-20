@@ -13,6 +13,11 @@
    
 If you are not able to complete the demo in class, it is ok to share the provided demo to the students so they can see the finished product. 
 
+## Lab Notes
+
+This lab can be made optional at the instructor's discretion. The lab should still be published and available for the student's, but it is up to the instructor if they want it completed before the midterm project starts. The midterm project requires knowledge of APIs, so students will be able to apply this lecture regardless if this lab is completed. 
+
+
 ## What changed from yesterday? 
 This is a build off from yesterday 2nd part of the lecture. 
 
