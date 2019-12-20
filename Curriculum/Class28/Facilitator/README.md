@@ -6,16 +6,16 @@ add individual claims into the ongoing project.
 
 By the end of lecture, students should:
 1. Discussed the difference between a Claim/Identity/Principle
-2. what an individual claim is and why we use themff
-3. How to create and add claims to a user
-4. Inject specific claims into a view
+1. What an individual claim is and why we use them
+1. How to create and add claims to a user
+1. Inject specific claims into a view
 
 
 ## Preparation?
 
 Here is a checklist of items that you should complete before starting today's lecture:
 1. Complete the day's readings. These are great resources to help understand the content for today's lecture.
-2. Confirm that the demo code from class 27 is complete and error free
+1. Confirm that the demo code from class 27 is complete and error free
 
 ## Lecture: 
 1. Code Review (1 hour)
@@ -29,7 +29,7 @@ Here is a checklist of items that you should complete before starting today's le
      - You will need to add `app.UseAuthorization();` To the `Configure()` method in the `Startup.cs`. Place this bit of code under the `app.UseAuthorization()`. This bit of code will allow you to be authorized on specfic pages.
 
 1. [Claims](./claims.md) (60-90 minutes)
-2. Injecting claims into views (30-45 minutes)
+1. Injecting claims into views (30-45 minutes)
    - We need the ability to inject our claims into our views for 
  personalization purposes. You can inject claims in either view specific pages or in _layout pages. Here is an example of what that may look like in our code for our view in a shared layout view: (This code is present in the provided demo code)
 
@@ -59,4 +59,4 @@ Here is a checklist of items that you should complete before starting today's le
 Building off of yesterday's lab
 
 ## What might students struggle with today?  
-Claims//Identities//Principles is a lot of concept that isn't really seen. They may struggle with what role each of these play with. The students are not required to write their own identity or principle,  but they should know and understand what is happenging under the hood. 
+Claims//Identities//Principles is a lot of concept that isn't really seen. They may struggle with what role each of these play with. The students are not required to write their own identity or principle,  but they should know and understand what is happening under the hood. 

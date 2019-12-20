@@ -37,7 +37,7 @@ with the students at the end of lecture.
    in front of the class. 
 1. [Add Roles to a user](./roles.md) - 45 minutes
 1. [Custom claim based policy](./policies.md) - 1 hour
-1. Remind students this is the *this is the end of Sprint 1*. The following assingments will be due
+1. Remind students this is the *this is the end of Sprint 1*. The following assignments will be due
 to close out Sprint 1:
     1. Sprint 1 submission (review the rubric with the class)
     2. Peer Review for Sprint 1 (review the assignment requirements) 
@@ -53,7 +53,7 @@ adding Roles to the app, and having policies for `HasClaim` and `IsInRole`.
 These get the point across, and is less complex to understand.
 
 If you really want to show them how to create a new custom claims based policy, the 
-documenation on the microsoft docs for minimum age is easy to follow and a good demo. 
+documentation on the microsoft docs for minimum age is easy to follow and a good demo. 
 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
