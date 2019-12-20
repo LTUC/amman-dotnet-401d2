@@ -1,4 +1,4 @@
-# Class 09: Design Patterns & Recursion
+# Class 09: Recursion & Design Patterns
 
 ## How do I prep for today?
 1. Review the recursion doc and be familiar with teaching the concept to the students.

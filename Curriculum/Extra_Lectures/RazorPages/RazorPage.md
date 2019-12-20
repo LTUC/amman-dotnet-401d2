@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) .NET-gram!
-=====================================
+# .NET-gram!
 
 ## Instructions
 - Create a new repo on your personal GitHub account
