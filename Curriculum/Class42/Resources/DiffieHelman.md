@@ -1,5 +1,5 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 39 : Digital Certificates
-=====================================
+# Class 39 : Digital Certificates
+
 
 ## Learning Objectives
 1. The student will identify the difference between TLS and SSL

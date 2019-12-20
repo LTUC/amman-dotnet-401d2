@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 08: LINQ
-=====================================
+# Class 08: LINQ
 
 ## Learning Objectives
 1. Students will be able to successfully write LINQ queries against a collection to extract data.
