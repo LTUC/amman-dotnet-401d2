@@ -1,14 +1,14 @@
 # View Components
 
-The documenation for View Components is actually pretty good. You should read the documentation in it's
-entirety before the lecture to get familiar with the content: [Documenation Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1)
+The documentation for View Components is actually pretty good. You should read the documentation in it's
+entirety before the lecture to get familiar with the content: [Documentation Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1)
 
-View Components are super useful and are utulized for many different reasons in asp.net core sites. 
+View Components are super useful and are utilized for many different reasons in asp.net core sites. 
 
-Some use cases for View Compnents:
+Some use cases for View Components:
 1. Login Panels
-2. Mini Baskets
-3. Sidebars
+1. Mini Baskets
+1. Sidebars
 
 Essentially, if there is a section of the page that requires rendering and logic manipulation, then a VC is a good choice. 
 View Components can process logic and make calls to a database, external APIs, or really just be viewed as a "mini controller" 
@@ -43,23 +43,23 @@ There are quite a few things going on in the View Component that we can talk abo
 
 1. Much like a controller, we can tell that a class is a view component through it's base class `ViewComponent`. 
 This will allow us to use the other methods and behaviors available to us that View Component would traditionally have. 
-2. View Components support dependency injection. Regardless what we are injecting (in this case, our post service), we can 
-utulize DI within our within our VC.
-3. Our View Component requires that we have an action named "Invoke" or "InvokeAsync". This is what we will call on our 
+1. View Components support dependency injection. Regardless what we are injecting (in this case, our post service), we can 
+utilize DI within our within our VC.
+1. Our View Component requires that we have an action named "Invoke" or "InvokeAsync". This is what we will call on our 
 View Pages to activate the View Component. 
-4. Our return for our Invoke is similar to what we have with a Controller. We return a `View` directly and then send to the view
+1. Our return for our Invoke is similar to what we have with a Controller. We return a `View` directly and then send to the view
 the direct data that we want to display. 
-5. The logic within the `InvokeAsync` method is doing something different we haven't seen before.
-It is getting the full dataset from the posts table, ordering it by descending (a form of sort), taking the top posts equivelant to
+1. The logic within the `InvokeAsync` method is doing something different we haven't seen before.
+It is getting the full data set from the posts table, ordering it by descending (a form of sort), taking the top posts equivalent to
 the number provided.  It is then taking those posts and sending it to the view. 
 
 The View structure for a View Component is similar to the one of a controller.  Here is where we make the `.cshtml` file:
   1. Go to the Views folder
-  2. Go to the Shared folder
-  3. Create a new folder named `Components`
-  4. Create a new folder that matches the name of the VC (TopPosts)
-  5. Create a new `.cshtml` file named "Default". Default is what we lok for as our default view component page
-  6. Much like regular controller views, we can create other view files, we just have to specify the name of the file directly (View("NAMEOFVIEW",data))
+  1. Go to the Shared folder
+  1. Create a new folder named `Components`
+  1. Create a new folder that matches the name of the VC (TopPosts)
+  1. Create a new `.cshtml` file named "Default". Default is what we lok for as our default view component page
+  1. Much like regular controller views, we can create other view files, we just have to specify the name of the file directly (View("NAMEOFVIEW",data))
  
 The `Default.cshtml` file should look like this:
 
@@ -94,9 +94,9 @@ the following code to invoke the VC:
 
 The above:
 1. await is required since we are making an external call to the VC.
-2. Invoke the component off the of `Component` class
-3. Specify the name of the VC in the first arguement
-4. send your arguement as the second argument. 
+1. Invoke the component off the of `Component` class
+1. Specify the name of the VC in the first argument
+1. send your argument as the second argument. 
 
 Run your app, and assuming you have data seeded in your database, you should see the View Components displayed!
 
