@@ -6,7 +6,7 @@
 
 -[Quickstart Create a Storage Account](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal)
 
-### Working with Blobls in Azure Portal
+### Working with Blobs in Azure Portal
 
 ### Azure Portal - Create a Container
 
@@ -15,10 +15,10 @@
 ### Implementation
 
 1. Create a Blob with permissions
-2. Upload Blobs to the container
-3. List the Blobs in the container
-4. Download Blobs
-5. Clean up resources
+1. Upload Blobs to the container
+1. List the Blobs in the container
+1. Download Blobs
+1. Clean up resources
 
 
 

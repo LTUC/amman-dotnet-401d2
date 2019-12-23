@@ -7,13 +7,13 @@ Today the students will dive into the world of mobile development!
 
 ## How do I prep for today?
 1. Become familiar with Xamarin
-2. Build out a basic mobile app using Xamarin, following the documentation noted in the lab
+1. Build out a basic mobile app using Xamarin, following the documentation noted in the lab
 
 ## Lecture
 1. Code Review
-2. Intro to Xamarin
-3. Demo of Xamarin
+1. Intro to Xamarin
+1. Demo of Xamarin
 
 ## Lab Notes
 
-Their lab today is to utulize the documentation of Xamarin and build out their own basic mobile application. This will take the students anywhere between 3-6 hours. 
+Their lab today is to utilize the documentation of Xamarin and build out their own basic mobile application. This will take the students anywhere between 3-6 hours. 

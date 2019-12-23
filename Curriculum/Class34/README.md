@@ -1,6 +1,6 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 34
-=====================================
+# Class 34: SCSS
 
 ## Learning Objectives
-
+1. Students will learn about writing and compiling CSS files from SCSS.
+1. Students will learn about formatting and writing SCSS to scale with applications.
 ## Lecture Outline

@@ -23,8 +23,8 @@ These all live on the Developer Dashboard for of the 3rd party service provider 
 
 #### Breakdown:
 1. The client secret and id are provided after registering the service provider. 
-2. Redirect URI is something you can specify when configuring OAUTH authentication on the consumer.
-3. This needs to match whatever you specify when creating the application the service provider. this can
+1. Redirect URI is something you can specify when configuring OAUTH authentication on the consumer.
+1. This needs to match whatever you specify when creating the application the service provider. this can
 can be also called "redirect URL" or "Callback URL" or some sort of variation of that. 
 
 

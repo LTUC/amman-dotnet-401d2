@@ -1,9 +1,8 @@
 Class 42: Web Security
-=====================================
 
 ## Learning Objectives
 1. The students will learn the basics of Web Security with HTTP and SSL/TLS
-2. The students will learn about the OWASP top ten and how to prevent threats
+1. The students will learn about the OWASP top ten and how to prevent threats
  
 ## Lecture Outline
 
@@ -15,10 +14,10 @@ Class 42: Web Security
 ### Summary of HTTPS
 1. HTTP is just a HTTP protocol but with data encryption
 using SSL/TLS
-2. The "s" in HTTPS is "secure".
-3. SSL was the origianl and now depricated protocol created by netscape in the 90s.
-3. TLS is the new protocol for secuirty encryption on the web
-4. The web is maintained by the IETF
+1. The "s" in HTTPS is "secure".
+1. SSL was the original and now deprecated protocol created by netscape in the 90s.
+1. TLS is the new protocol for security encryption on the web
+1. The web is maintained by the IETF
 
 ### OWASP Top 10
 OWASP - Open Web Application Security Project

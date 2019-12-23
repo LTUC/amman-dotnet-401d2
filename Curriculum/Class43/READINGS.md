@@ -22,7 +22,7 @@ Go through these resources, and create a wiki entry in your fork of the class re
 1. [Programmer's Confessions](unethical_practices.pdf){:target="_blank"}
 2. [The code I'm still ashamed of](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e){:target="_blank"}
 3. [Project Dragonfly, Google's censored search engine](https://www.vox.com/2018/8/17/17704526/google-dragonfly-censored-search-engine-china){:target="_blank"}
-4. [Amazon workers demand Jeff Bezos cancel "Rekognition" software](https://gizmodo.com/amazon-workers-demand-jeff-bezos-cancel-face-recognitio-1827037509){:target="_blank"}
+4. [Amazon workers demand Jeff Bezos cancel "Recognition" software](https://gizmodo.com/amazon-workers-demand-jeff-bezos-cancel-face-recognitio-1827037509){:target="_blank"}
 5. [Google and AI](https://gizmodo.com/in-reversal-google-says-its-ai-will-not-be-used-for-we-1826649327){:target="_blank"}
 6. [Microsoft Employees demand end of ICE contract](https://www.nytimes.com/2018/06/19/technology/tech-companies-immigration-border.html){:target="_blank"}
 7. [Microsoft and the DoD](https://www.businessinsider.com/microsoft-employees-protest-contract-us-army-hololens-2019-2){:target="_blank"}
