@@ -5,7 +5,7 @@
 1. (Developer 1 & 2 & 3) As an administrator, I would like the ability to send emails so that I can communicate with my users of the site
 1. (Developer 2) As a user, I would like an email confirmation to be sent to me after I have registered for an account on the site. 
 1. (Developer 1 & 2) As a user,  I would like to see a summary of my purchase after completing my checkout process.
-1. (Developer 1) As a user, I would like a summary of my purchase to be emailed to me so that I can store the reciept for my records.
+1. (Developer 1) As a user, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
 
 
 ### Guidance
@@ -13,8 +13,8 @@
 **User Story 1:** Utilize the .Net Core's IEmailSender interface. 
 Create a model that implements this interface that will create and send emails 
 through SendGrid. You will need to implement the IEmailSender interface on a new 
-class model and create the logic to conenct your SendGrid account and send out any
-email that gets sent in  through the arguements. 
+class model and create the logic to connect your SendGrid account and send out any
+email that gets sent in  through the arguments. 
 
 **User Story 2:** Building off of US1, Make an email get sent after 
 registration of a new account. Have this email be a simple Welcome message to the user. 

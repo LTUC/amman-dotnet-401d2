@@ -11,9 +11,9 @@ There isn't much prep for today. it's mostly student driven.
 The students should be working on the following through the day:
 
 1. Wireframes
-2. Software Reqs
-3. User Stories
-4. Database Schema/ERD
+1. Software Reqs
+1. User Stories
+1. Database Schema/ERD
 
 Allow the students the whole lecture/lab time to
 create these.

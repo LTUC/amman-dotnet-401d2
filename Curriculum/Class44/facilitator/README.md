@@ -17,10 +17,10 @@ Nothing. All Day project.
 ## What might students struggle with today?  
 Finding an issue they feel comfortable contributing too. GH and Stack Overflow
 can be intimidating. Work with and encourage students to "dive in" and they
-will be suprised with the results :) 
+will be surprised with the results :) 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 Mostly just finding projects to contribute too. 
 
 ## General comments
-This is a self-guided day. Students should be collaborating with each other. Work with them if they encounter obsticles, but they should be really diving into the content on their own.
+This is a self-guided day. Students should be collaborating with each other. Work with them if they encounter obstacles, but they should be really diving into the content on their own.

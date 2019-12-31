@@ -1,6 +1,6 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 32
-=====================================
+# Class 32: IEmailSender/Sendgrid
 
 ## Learning Objectives
-
+1. Students will learn about generating and sending emails from their site.
+1. Students will learn about SendGrid email crafting.
 ## Lecture Outline

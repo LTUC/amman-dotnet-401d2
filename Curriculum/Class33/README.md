@@ -1,6 +1,6 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 33
-=====================================
+# Class 33: OAUTH
 
 ## Learning Objectives
-
+1. Students will learn about setup/requirements for OAUTH.
+1. Students will learn about the OAUTH request flow and the steps involved. 
 ## Lecture Outline
