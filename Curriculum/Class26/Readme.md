@@ -27,3 +27,23 @@ Resources:
 
 **Authorization** : Authorization revolves around **what you are allowed to do** (Example is permissions) 
  
+
+### Integration
+
+Integrating identity into your web application only takes a few steps. Many of them, you already know how to do.
+1. Add the `app.UseAuthentication` into your `Configure()` method within your `Startup.cs` file. 
+1. Create your Application User and derive it form `IdentityUser`. Add any additional properties that you wish to include with your user
+1. Create your identity DBContext (derive a new `DBContext` from `IdentityDbContext<T>` (`T` should be your application user you created earlier)
+1. Register your new database in the `Startup.cs` file
+1. Register Identity into your `Startup.cs` file. (Switch out TUser and the DBContext with their respective names): 
+    ```csharp
+    services.AddIdentity<TUser, IdentityRole>()
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
+    ```
+1. In future days, you will add the register/login functionality.
+
+
+### End of Day Goal
+
+By the end of today, you should have your Azure DevOps created with your ECommerce partner, and a very basic code base pushed up. Keep it simple, get familiar with Azure DevOps (ADO). 

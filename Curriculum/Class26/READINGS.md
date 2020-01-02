@@ -14,4 +14,3 @@ Journal entry ideas:
 
 ## Readings
 1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"} 
-1. What went well during project week? What didn't go well? Share with your class!

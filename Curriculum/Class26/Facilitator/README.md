@@ -19,7 +19,7 @@ Here is checklist of items that you should complete before the start of lecture:
 3. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
     tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well. 
 4. Review the [Intro to Identity](./Identity.md) lecture.
-   - [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
+   - [Microsoft's Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
 5. Be Comfortable with the demo code and all of the different moving components 
 
 ### Lecture
@@ -33,16 +33,13 @@ Here is checklist of items that you should complete before the start of lecture:
 
 2. Introduce Azure Dev OPS project management tool & VS extension  (max 1 hour)
    - Use the cheat sheet from the prep section as steps on how to create and complete tasks within ADO.
-   - Walk through the creation of a repo and cloning it down to your Visual Studio extension 
+   - Walk through the creation of a repo and cloning it down to your Visual Studio. 
    - Create a basic scaffolded MVC app w/ a database in class following the Azure Dev Ops work flow
-        - The demo is using User Secrets, so don't forget to include the User secrets file and Connection String file! 
+        - The demo provided is using User Secrets, so don't forget to include the User secrets file and Connection String file! 
         - Your initial demo should match the `ADO_Scaffold_Demo` located in the Demo Folder. 
 
 3. [Intro to Identity](./Identity.md) (max 90 min)
-   - Register Identity in Startup File
-   - Create a new DBContext for Identity
-   - Run migration scripts to show user tables. 
-   - End Result of Demo: CMSDEMO in Demo folder
+   - Review the doc for the Why/What/How of identity. Use this as a suggested outline of the flow of lecture. 
 
 ### LAB Prep
 Have student pairs ready to be posted in Canvas. For lab, each group should be expected to:
@@ -65,8 +62,7 @@ Really encourage the students to troubleshoot and use what knowledge and informa
 may include piecing bits and pieces from external documentation to come up with a solid solution. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- Identity can sometimes be challenging to research. Documentation has gotten better over time, but this is not always
-guaranteed. 
+- Identity can sometimes be challenging to research. Documentation has gotten better over time, but this is not always guaranteed. 
 
 ## General comments
 This is a multi-week project broken up into 3 sprints. This is focusing mostly on half process and half code. At the end of every week, they will have a sprint due. After 3 sprints, the project is completed. 
