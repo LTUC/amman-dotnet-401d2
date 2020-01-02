@@ -10,10 +10,10 @@
 
 **User Story 1:** Add identity to your empty MVC project. This is done in the Startup.cs class in the ConfigureServices() method. This is a big user story because the following must also be completed to accomplish this story:
 1. Create an ApplicationUser (that derives from Identity User)
-2. Create a new DBContext for Identity (ApplicationDbContext) and register it into the startup
-3. Setup UserSecrets into your application
-3. Include app.UseAuthentication in your Configure() method within Startup.cs. Place this **after** the `app.UseRouting()`.
-4. Within the `ConfigureServices()` method, add the Identity service by registering your ApplicationUser with your Identity DbContext 
+1. Create a new DBContext for Identity (ApplicationDbContext) and register it into the startup
+1. Setup UserSecrets into your application
+1. Include app.UseAuthentication in your Configure() method within Startup.cs. Place this **after** the `app.UseRouting()`.
+1. Within the `ConfigureServices()` method, add the Identity service by registering your ApplicationUser with your Identity DbContext 
 
 ```
 services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -49,7 +49,8 @@ Use [this resource](https://docs.microsoft.com/en-us/ef/core/modeling/data-seedi
 
 ## Tests
 
-Test the getter/setters of your `Product` model
+1. Test the getter/setters of your `Product` model.
+1. Test the CRUD capabilities of your interface. 
 
 ## Rubric
 
