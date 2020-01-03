@@ -1,14 +1,27 @@
 # Policies
 
-Policies are important for us to be able to manage who accesses what parts of our site through certain "Rules" that we
-have in place. 
+
+## What
+
+Policies are important for us to be able to manage who accesses what parts of our site through certain "Rules" that we have in place. Much like a policy being a specific rule that must be followed within a business, a policy within a .NET Core Web App can be implemented on specific pages to restrict access to specific users given some claim or defining feature (for example: email address or age of user).
+
+## Why
+
+It is not uncommon for pages to be restricted to specific types of users outside of the user holding a specific role. For example, an e-commerce site may have a special page with exclusive products that is dedicated just to users with a specific email domain. Instead of attaching a claim to the user that they are in this special group, the policy can simply check their email address and determine if they are allowed access. 
+
+The ability to base access off of more than just user role allows us to modify and customize our site to better personalize the experience of our users. 
 
 
+## How
+
+Custom policies are implemented through the creation of Handlers and Requirement. You register both the polilcy requirement and the handler with the service provider for the use with Dependency Injection in the Startup file. Below is a walkthrough of what a demo could look like with this lecture:
 
 ### Demo
+
+#### Registering a role based policy
+
 Our Demo today will be enforcing the policy of "Admin's only" on our Admin dashboard that we will create. 
-First thing we want to do is to enable this in our web application. Let's add the following code to `ConfigureServices` method in
-our `Startup.cs` file:
+First thing we want to do is to enable this in our web application. Let's add the following code to `ConfigureServices` method in our `Startup.cs` file:
 
 ```csharp
 services.AddAuthorization(options =>
@@ -29,14 +42,13 @@ public class MyAdminModel : PageModel
 ```
 
 ### Custom Claim Policies
+
 #### Authorization Handlers & Requirements
 To make a custom claims based policy, there are two main
 components that make up a custom policy, 
 
 The first class that we create is just the `IAuthorizationRequirement`. This interface allows us to
-label our requirement as an actual authorization requirement. Within this requirement we have the ability to set 
-paramaters and information required if needed for the policy. Much like the Microsoft docs, here is an example
-of what a custom policy would look like for a minimum age:
+label our requirement as an actual authorization requirement. Within this requirement we have the ability to set paramaters and information required if needed for the policy. Much like the Microsoft docs, here is an example of what a custom policy would look like for a minimum age:
 
 ```csharp
 
@@ -59,8 +71,7 @@ An authorization handler is responsible for the evaluation of a requirement's pr
 The authorization handler evaluates the requirements against a provided AuthorizationHandlerContext to 
 determine if access is allowed.
 
-A requirement can have multiple handlers, all you do is when creating a new handler, have it be on the same type
-of the requirement specified above. 
+A requirement can have multiple handlers, all you do is when creating a new handler, have it be on the same type of the requirement specified above. 
 
 Here is an example of what an Authorization Handler may look like that uses the minimum age requirement:
 
