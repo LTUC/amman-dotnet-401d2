@@ -30,7 +30,9 @@ Here is a checklist of items that you should complete before starting today's le
 
 1. [Claims](./claims.md) (60-90 minutes)
    - What are claims? 
-   - 
+   - How to implement them
+   - How to add them to a user
+
 1. Injecting claims into views (30-45 minutes)
    - We need the ability to inject our claims into our views for 
  personalization purposes. You can inject claims in either view specific pages or in _layout pages. Here is an example of what that may look like in our code for our view in a shared layout view: (This code is present in the provided demo code)

@@ -1,4 +1,4 @@
-# Class 27
+# Class 27: Razor Pages
 
 ## Overview
 Today is the day that we integrate authentication into our CMS app. 
@@ -10,6 +10,7 @@ By the end of lecture, students should have seen how to:
 
 
 ## Preparation?
+
 It may be a good idea to prep the demo code so that is setup to use the repository pattern. This will take a bit of work, and this is a great day to get this done before the week gets a bit more complicated. Here is a checklist of items that should be completed prior to start of lecture:
 1. Confirm the scaffold out your starter demo code:
      - There isn't enough time in lecture for you to integrate the repo pattern. Add the following to your class's prior day code. None of this code is "new". It should be all review from the first half of the course.  
@@ -46,6 +47,3 @@ Razor pages are new and a little different than what they are used to. Ideally, 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 Often students forget the `.UseAuthentication()` in the configure method in the startup file.
-
-## General comments
-Lots of moving parts. 
