@@ -1,9 +1,9 @@
 # Claims
 
 
-## Claims-based Authentication
+## What
 
-Claims are a statement or property about a particular identity. Examples include
+Claims-based Authentication, or just Claims, are a statement or property about a particular identity. Examples include
 
 1. FirstName
 1. LastName
@@ -13,12 +13,16 @@ Claims are a statement or property about a particular identity. Examples include
 
 These are all statements are about who the identity *IS* not what they can *DO*
 
+## Why
+
+Claims are used when pieces of information need to be used, usually for security purposes. Claims Based Authentication is extremely useful when you are attempting to authenticate a user based off of their email address, birthday, or any other piece of identifiable information that can be captured. You could even capture a claim and attach them onto a user for prom
+
+## How
 
 ### Demo
 1. Go to Register Razor Page and add some claims to the user
     - We want these pieces of information to be caught on registration. Remember, we can only
-    gaurantee the capture of basic information once, upon registration. Anything else can't be gauranteed because users
-may not visit the site again or want to disclose that information. 
+    gaurantee the capture of basic information once, upon registration. Anything else can't be gauranteed because users may not visit the site again or want to disclose that information. 
 
 
 #### More on Claims....
