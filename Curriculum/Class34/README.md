@@ -1,6 +1,7 @@
-# Class 34: SCSS
+# Class 34: OAUTH
 
 ## Learning Objectives
-1. Students will learn about writing and compiling CSS files from SCSS.
-1. Students will learn about formatting and writing SCSS to scale with applications.
+1. Students will learn about setup/requirements for OAUTH.
+1. Students will learn about the OAUTH request flow and the steps involved. 
+
 ## Lecture Outline

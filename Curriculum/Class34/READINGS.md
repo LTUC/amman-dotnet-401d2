@@ -13,5 +13,5 @@ Journal entry ideas:
 * Fill-in-the-blank worksheet of key concepts
 
 ## Readings
-- [SCSS](https://docs.microsoft.com/en-us/aspnet/core/client-side/less-sass-fa?view=aspnetcore-2.1){:target="_blank"}
-- [CSS with Superpowers](https://sass-lang.com/)
+- [OAUTH MSFT Docs](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1){:target="_blank"}
+- [OAUTH](https://www.jerriepelser.com/blog/authenticate-oauth-aspnet-core-2){:target="_blank"}
