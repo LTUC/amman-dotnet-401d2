@@ -1,10 +1,18 @@
 # Email
 
+## What
+SMTP servers (Simple Mail Transfer Protocol) are used for the sending and receiving of emails. Sometimes we need to offset the use of sending emails to a 3rd party provider. This is what SendGrid is for. SendGrid is our 3rd party provider that will allow us to use it's platform to send emails to our consumers.
+
+## Why
+
+Email is extremely common in today's web world, but creating our own SMTP server can potentially cause many issues with reliablitly and security. Sometimes it can be better to offload that weight to another platform that can handle those limitatiosn for you. 
+
+## How
+
 Review and follow the instructions located in the SendGrid documentation here:
 [SendGrid Tutorial](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)
 
-Once you get SendGrid service created and the API Keys saved in your user secrets, start building out
-the email service:
+Once you get SendGrid service created and the API Keys saved in your user secrets, start building out the email service:
 
 ## Demo
 
@@ -49,8 +57,7 @@ await client.SendEmailAsync(msg);
 
 Let's break down this code:
 
-1. First we need to create a SendGridClient reference. This should connect to your 
-user secrets key from SendGrid. This is going to tell your program to use your SendGrid account
+1. First we need to create a SendGridClient reference. This should connect to your user secrets key from SendGrid. This is going to tell your program to use your SendGrid account
 when sending emails. You will need to inject `IConfiguration` into your EmailSender Class
 
 1. Set the values of the Values within the SendGridMessage. 
@@ -65,9 +72,7 @@ text we will be sending through the email.
 services.AddScoped<IEmailSender, EmailSender>();
 ``` 
 
-Now, you can inject the IEmailSender into anything that accepts dependency injection and call the SendEmailAsync
-method to initiate an email send. Take a look at the Register `OnPost` and see where we are adding
-the code to send an email:
+Now, you can inject the IEmailSender into anything that accepts dependency injection and call the SendEmailAsync method to initiate an email send. Take a look at the Register `OnPost` and see where we are adding the code to send an email:
 
 ```csharp
 await _emailSender.SendEmailAsync(user.Email, "Thank you for logging in", 	"<p>Thank you for logging in </p>");
