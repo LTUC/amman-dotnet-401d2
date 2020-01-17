@@ -1,8 +1,12 @@
 # Lab 28: Sprint 1 - Milestone #3
 
-## User Stories & Guidance:
+Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+
+Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
+
 
 ### User Stories
+
 1. (Developer 2) As a User, I would like custom claims to be captured upon registration of the site. 
 1. (Developer 1 & 3) As a user, I would like the home page to showcase and reflect the products that we are selling.
 1. (Developer 1) As a user, I would like to be able to easily login and register for the site from the home page so that the user can quickly get started.
@@ -37,8 +41,11 @@ let the user know you care :)
 Review the final Sprint 1 submission for rubric/breakdown of all user stories
 
 ## To Submit this Assignment
-No Submission is required. 
 
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
-
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together. 
+Submit the answer to the following questions:
+1. What suprised you most about this milestone?
+1. How long did it take you to complete this milestone?
+1. How long did you expect to take?
+1. What did you find most challenging about this milestone?
+1. What do you need to continue to work on during this project?
+1. Any Concerns that the instructional staff should be aware of?

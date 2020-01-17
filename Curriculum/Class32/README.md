@@ -1,29 +1,17 @@
-# Class 32: IEmailSender/Sendgrid
+# Class 32: View Components
 
 ## Learning Objectives
-1. Students will learn about generating and sending emails from their site.
-1. Students will learn about SendGrid email crafting.
+1. Students will learn about View Component rendering.
+1. Students will learn about the logic manipulation of View Components
+1. Students will learn about how View Components can be used as "mini controllers"
 
 ## Lecture Outline
 
-### Sendgrid
+1. Sprint 1 is due!
+   - Review the rubric for sprint 1 before submitting. Confirm you have met all of the requirements.
+    - All submissions MUST be deployed to Azure! 
+    
+2. Welcome to Sprint 2!
 
-1. What are email servers?
-2. What do they do?
-3. How/Why do we use them?
-4. What is SendGrid?
+2. View Components - Small reusable components that can be seperated out into it's own "mini controller" that can be called as needed on cshtml pages.
 
-Sendgrid is used as an email service for many sites. This allows us to send emails from our web app. ASP.NET Core can successfully do this through installing the right NuGet package of SendGrid and setting up some basic code send out an email:
-
-
-```csharp
-SendGridClient client = new SendGridClient(Configuration["SendGridKey"]);
-SendGridMessage msg = new SendGridMessage();
-
-msg.SetFrom("admin@cfblogposts.com", "Blog Admin");
-msg.AddTo(email);
-msg.SetSubject(subject);
-msg.AddContent(MimeType.Html, htmlMessage);
-
-await client.SendEmailAsync(msg);
-```

@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using CMSDemo.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -18,18 +17,16 @@ namespace CMSDemo.Pages.Account
     {
 
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly IEmailSender _emailSender;
         private readonly UserManager<ApplicationUser> _userManager;
 
 
         public RegisterModel(
             UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager, IEmailSender emailSender
+            SignInManager<ApplicationUser> signInManager
            )
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _emailSender = emailSender;
 
         }
 
@@ -70,10 +67,6 @@ namespace CMSDemo.Pages.Account
 
                     // add all of the claims to the user.
                     await _userManager.AddClaimsAsync(user, myclaims);
-
-                    // email the user:
-                    await _emailSender.SendEmailAsync(user.Email, "Thank you for Registering in", "<p>Thank you for Registering for my site in </p>");
-
 
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);

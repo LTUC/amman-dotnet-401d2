@@ -1,31 +1,29 @@
-# Class 33
+# Class 33: Emails
 
 ## How do I prep for today?
-1. Code Review 
-   - Code Challenge! Give the students a code challenge
-   for them to complete individually on a piece of paper for 30 minutes. 
- - Once time is up either go over the solution in class or have one person walk through
- on the whiteboard. 
-1. Intro to OAUTH
-   - Draw out diagram of how the handshake is happening. 
-1. Demo of implementation of OAuth (optional)
-   - Demonstrate with the students on Google or Microsoft. Twitter and 
-   Facebook are not usually good options. 
-    - The students will not be doing this in their lab. if they want to they can, but
-given the inconsistencies with third party providers, its not always reliable. 
+1. Review he SendGrid documentation. Pre-create an account and make sure that everything works for you beforehand
+2. Review/Recode the demo to confirm you can send emails from the application
+3. Make sure your demo code is bug free and can be build off of
 
-1. If there is time at the end, either review again on testing with in the app, or work
-with students to troubleshoot some issues.
+## Lecture outline:
+1. Review View Components (max 1 hour)
+   - Go over with students how to structure their baskets
+1. Code Challenge (1 hour)
+   - Go over the daily code challenge or give them a practice problem to help them prep for interviewing!
+2. IEmailSender(1 hour)
+   - Discuss what email servers are
+   - Why do we need them?
+   - How can we add one to our site?
+   - Setup [SendGrid](email.md)
+     - Note - we only use SendGrid as an option, there are many many others!
+
 ## What changed from yesterday? 
 Still building off of demos from prior days
 
 ## What might students struggle with today?  
-OAuth is unpredictable. It doesn't always work. be prepared to debug. 
+Getting SendGrid setup in their Azure Accoutn and getting emails to send. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 see above. 
 
 ## General comments
-OAuth is important to know what is going on, be sure to spend some time on what is going on 
-when drawing through the diagrams. the code will be a challenge, so be patient and i recommend 
-pre-demoing the code before class with the 3rd party you will demonstrate. ensure that it works. 

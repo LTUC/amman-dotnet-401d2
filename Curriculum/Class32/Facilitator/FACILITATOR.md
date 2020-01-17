@@ -1,29 +1,29 @@
-# Class 32
+# Class 32 : View Components
 
 ## How do I prep for today?
-1. Review he SendGrid documentation. Pre-create an account and make sure that everything works for you beforehand
-2. Review/Recode the demo to confirm you can send emails from the application
-3. Make sure your demo code is bug free and can be build off of
 
-## Lecture outline:
-1. Review View Components (max 1 hour)
-   - Go over with students how to structure their baskets
-1. Code Challenge (1 hour)
-   - Go over the daily code challenge or give them a practice problem to help them prep for interviewing!
-2. IEmailSender(1 hour)
-   - Discuss what email servers are
-   - Why do we need them?
-   - How can we add one to our site?
-   - Setup [SendGrid](./email.md)
-     - Note - we only use SendGrid as an option, there are many many others!
+
+## Lecture Outline:
+1. Code Review
+    - Review the data structure for the day
+    - Do some data structure practice in class!
+1. [View Components](./viewComponents.md)
+   - What:
+     - View Componenets are often referred to as "mini controllers" that can be inserted/injected into an cshtml page. This means that we can use these "mini controllers" to access data and manipulate objects as needed. 
+   - Why: 
+     - Reusability of specific components to be inserted on cshtml pages is fairly common. This can be something as simple as a login screen, or interactive such as a mini cart within an e-commerce project. 
+   - How:
+     - View Components are created by creating individual components often located in a "Components" folder within the models. These compents then act as mini controllers where you can access and return specific data from models. To insert a specific component into a page, call the component direclty onto the .cshtml page. 
+    - Review the demo code for implementation details
 
 ## What changed from yesterday? 
-Still building off of demos from prior days
+Building off of yesterday's demo
 
 ## What might students struggle with today?  
-Getting SendGrid setup in their Azure Accoutn and getting emails to send. 
+The lab is requiring they start to build out the architecture of their database 
+to hold the Basket items and basket for the user. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-see above. 
+
 
 ## General comments

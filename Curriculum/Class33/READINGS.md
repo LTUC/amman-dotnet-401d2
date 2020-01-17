@@ -1,4 +1,4 @@
-# Readings: OAUTH
+# Readings: Sending Emails
 
 ## Submission Requirements
 
@@ -14,5 +14,4 @@ Journal entry ideas:
 
 ## Readings
 
-- [OAUTH MSFT Docs](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1){:target="_blank"}
-- [OAUTH](https://www.jerriepelser.com/blog/authenticate-oauth-aspnet-core-2){:target="_blank"}
+- [SendGrid Tutorial](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)

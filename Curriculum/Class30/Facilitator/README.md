@@ -6,3 +6,5 @@ Career Coaching 2 Today.
 No lecture/lab. 
 
 Refer to Common Curriculum for the day's content. 
+
+
