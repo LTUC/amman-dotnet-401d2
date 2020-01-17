@@ -41,12 +41,12 @@ Grades are distributed separately per student. Refer to the rubric below for eva
 
 ## Rubric
 
-### E-Com Sprint 3 (100 points)
+### E-Com Sprint 3 (50 points)
 
 Review the rubric below to know and understand the overall expectations
 
 
-#### Auth.NET/Checkout Page (10 points)
+#### Auth.NET/Checkout Page (5 points)
 
 Authorize.NET is present and hooked up within the application. The checkout page is present and prompts the user to "complete"
  their order by selecting either a drop down menu of a test credit card or just has as a checkout button present. *NO POITNS WILL BE AWARDED FOR THE ENTIRE SPRINT IF THERE EXISTS A CREDIT CARD BOX ALLOWING FOR REAL NUMBERS*
@@ -55,22 +55,22 @@ Authorize.NET is present and hooked up within the application. The checkout page
 Azure blog storage is properly configured within the application. Images for all products are stored within cloud storage
 
 
-#### Admin Dashboard (20 points)
+#### Admin Dashboard (10 points)
 
 Admin dashboard is present within the application. Admins are redirected to the admin dashboard upon login. The Admin has the ability to CRUD on basic products. View all orders that have been placed within the system/
 
 
-#### Profile Page (10 points)
+#### Profile Page (5 points)
 Personal Profile page exists and is accessible to users. They can view their personal information (not change their email). view the last 5 orders that were submitted, and change their password. 
 
 
-#### User Experience (10 points)
+#### User Experience (5 points)
 HTML/CSS/SCSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.
 
-#### Readme & Documentation (10 points)
+#### Readme & Documentation (5 points)
 Readme contains an introduction to the web application. Site contains all required questions as well as a link to the deployed site. All contributors are referenced and cited within the ReadMe. **NO POINTS WILL BE GIVEN FOR THE ASSIGNMENT IF DEPLOYMENT LINKS ARE NOT PRESENT OR IS NOT FUNCTIONAL*
 
-#### Azure DevOps Process (30 points)
+#### Azure DevOps Process (10 points)
 Azure DevOps tool is properly maintained. User stories assigned to each member are properly filled out, including time estimation, tasks, branches, description, and acceptance tests. 50% of these points are for both partner's overall maintenance of the KanBan board, 50% of these points are dedicated to each individual partner for specific maintenance. These points CANNOT be regained.
 
 #### Even Workload (-20% deduction)
