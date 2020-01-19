@@ -59,10 +59,10 @@ This method is given to you. Do not change the method signature.
 	
 ![LabExample](./LabExample.png)
 
-1. Exceptions expected: 
-	- Format Exception
+3. Exceptions expected: 
+	1. Format Exception
 		- Output the message to the console
-	- Overflow Exception
+	1. Overflow Exception
 		- output the message to the console
 
 
@@ -72,13 +72,13 @@ This method is given to you. Do not change the method signature.
 	- return type: integer array
 	- 1 parameter of an integer array
 1. The logic within the method should:
-	- Iterate through the array and prompt the user to enter a specific number. Example: "Please enter a number 1/6" (indicate to the user what number they are inputting)
-	- Utilize the `Convert.ToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. Store the response into a string first).
-	- Add the number just inputted into the array. 
-	- Repeat this process until all numbers have been requested and the array is filled. 
-	- Return the populated array
+	1. Iterate through the array and prompt the user to enter a specific number. Example: "Please enter a number 1/6" (indicate to the user what number they are inputting)
+	1. Utilize the `Convert.ToInt32` method to convert the user's input to an integer (Remember not to directly manipulate the user's input. Store the response into a string first).
+	1. Add the number just inputted into the array. 
+	1. Repeat this process until all numbers have been requested and the array is filled. 
+	1. Return the populated array
 1. Expected Exceptions:
-	- No expected exceptions. Not even a generic exception. `StartSequence` will already capture your `FormatException` error.
+	1. No expected exceptions. Not even a generic exception. `StartSequence` will already capture your `FormatException` error.
 
 ### GetSum Method
 1. The method signature of GetSum should contain:
@@ -140,7 +140,7 @@ Provide setup documentation:
 
 ## Rubric
 
-The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
 ## To Submit this Assignment
 - Create a new repo on your personal GitHub account
