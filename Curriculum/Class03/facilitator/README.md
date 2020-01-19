@@ -13,7 +13,7 @@ a good template to use when presenting the lecture.
 1. Code Review of TDD
    - Code out lab together possibly
 1. System IO File Class
-	- Lecture Notes [here]("../Resources/SystemIO.md")
+	- Lecture Notes [here]("./Resources/SystemIO.md")
 1. Domain Modeling
    - Review what it is
    - What does it look like?
