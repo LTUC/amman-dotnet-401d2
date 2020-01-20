@@ -1,20 +1,6 @@
 Lab 02: Unit Testing
 =====================================
 
-## To Submit this Assignment
-- Create a new repository on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in Canvas
-- Merge your PR back into master
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described below)
-
-
 ## The Problem Domain
 - Create a bank "ATM" program within a console application
 
@@ -43,7 +29,7 @@ Lab 02: Unit Testing
 
 ## Unit Tests
 Test that your program has the following functionality:
-1. Test every method/action (that does not require user input); there should be a passing valid input, and a passing invalid input.
+- Test every method/action (that does not require user input); there should be a passing valid input, and a passing invalid input.
 - Have at least 2 tests for every non-void method.
 - **A failing test, is not a valid test** - even if the failure is expected. 
 
