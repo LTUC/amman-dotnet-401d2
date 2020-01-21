@@ -1,16 +1,16 @@
 # Lab 03: Word Guess Game
 
 ## The Problem Domain
-Read the entire problem domain carefully before you begin
+Read the entire problem domain carefully before you begin.
 
 Your client has requested that a "Word Guess Game" be built. The main idea of the game is she must guess what a mystery word is by inputting (1) letter at a time.  The game should save all of her guesses (both correct and incorrect)  throughout each session of the game, along with the ability to show her how many letters out of the word she has guessed correctly. 
 
 Each time a new game session starts, the mystery word chosen should come from the external text file that holds a list of all the possible words. The program should randomly select one of the words in this file as the new mystery word for the next game round. This bank of words should be editable by your client so that she may view, add, and delete words as she wishes. She expects the game to have a simple interface that allows her to navigate across the game. Some actions that she wants availabe within her interface are:
 
-1. View All words in the list
-2. Add a word
-3. Remove a word
-4. Play Game 
+1. View all words in the list
+1. Add a word
+1. Remove a word
+1. Play Game 
 
 Using everything you've learned up to this point, create a word guess game that will meet all of the requirements described in the scenario above. 
 
@@ -30,18 +30,18 @@ Some methods that you should consider creating with your application, ***at mini
     - This will be the first method that runs in the program. Consider calling the `UserInterface()` method from this method.
 1. UserInterface
    - Asks the user what action they should take
-2. ViewWords
+1. ViewWords
    - Reads the words in from the external file and outputs them to the console
-3. RemoveWords
+1. RemoveWords
    - Gives the user the ability to remove one of the words in the list
-4. AddWord
+1. AddWord
    - Add a new word to the list
-5. ExitGame
+1. ExitGame
    - End the game
-6. StartGame*
+1. StartGame
    - Actual game logic of guessing a letter of the mystery word
 
-*Your StartGame method will likely need to be broken up into smaller methods. Be sure that these additional methods are represented in your domain modeling image
+*Your StartGame method will likely need to be broken up into smaller methods. Be sure that these additional methods are represented in your domain modeling image.
 
 Place your domain model drawing in your project README with a short description/overview of your functionality.
 
@@ -49,14 +49,15 @@ Place your domain model drawing in your project README with a short description/
 
 Your solution should include, at minimum, the following functionality:
 
-1. When playing a game, *randomly* select one of the words in the external file to output to the console for the user to guess (Use the `Random` class)
+1. When playing a game, *randomly* select one of the words in the external file to output to the console for the user to guess. (Use the `Random` class)
 1. You should have a record of the letters they have attempted so far.
-1. If they guess a correct letter, display that letter in the console for them to refer back to when making guesses (i.e. C _ D E)
+1. If they guess a correct letter, display that letter in the console for them to refer back to when making guesses. 
+(i.e. C _ D E)
 1. Your program does not need to be case sensitive. 
-1. Errors should be handled through Exception handling
+1. Errors should be handled through Exception handling.
 1. ***Do not create external classes to accomplish this task. All code should live in the `Program.cs` file***
 1. Stay within scope, you may use the methods/classes listed below if desired.
-1. Once the game is completed, the user should be presented with the option to "Play again" (a new random word is generated), or "Exit" (the program terminates)
+1. Once the game is completed, the user should be presented with the option to "Play Again" (a new random word is generated), or "Exit" (the program terminates).
 1. The user should only be allowed to guess only 1 letter at a time. Do not make it so that they can input the whole alphabet and get the answer. 
 
 ## Guidance
@@ -64,7 +65,7 @@ This lab will test and practice your analytical and problem breakdown skills. It
 
 1. Draw out within your domain model the methods that you will need and how they interact with each other. Once you have your plan, start creating these methods within your project itself. Leave summary comments above each method that provides a highlight of what the method should do. 
 1. In addition, add comments within each method that outlines specifics of what should be done.
-1. When you begin coding, start with the System.IO basics
+1. When you begin coding, start with the System.IO basics.
 	- Be sure you can create a file (with default words), read the file in, Add new words to the file, and delete the file. Create this logic first in the respective methods.
 1. After reading in the words from the external file, see if you can get a word to "randomly" be chosen from the list of words you read in.
 1. Implement the user input feature by having the user "guess" a letter. Confirm that you can accurately determine if the letter the user inputted exists in the selected mystery word. Don't worry about the word being hidden yet, that can happen later.
@@ -81,11 +82,11 @@ Focus on the functionality, and build your application out from there.
 
 ## Unit Tests
 Test that your program has the following functionality:
-1. Test that a file can be updated with a new word
+1. Test that a file can be updated with a new word.
 	- Add a new word and then confirm the word exists in the file
-2. Test that you can retrieve all words from the file
+1. Test that you can retrieve all words from the file.
 	- Add words to a file and confirm that file contains the same number of words as you expected
-3. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
+1. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist).
 
 
 ## Stretch Goals
@@ -94,11 +95,11 @@ No stretch goals for this lab
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the `Contains()` method. 
 	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
-2. To randomly pick a number between 0 - n, use the `Random` Class.
+1. To randomly pick a number between 0 - n, use the `Random` Class.
 	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
-3. To get an array of characters of a specific word. 
+1. To get an array of characters of a specific word. 
 	- [ToCharArray](https://docs.microsoft.com/en-us/dotnet/api/system.string.tochararray?view=netframework-4.7.2#System_String_ToCharArray){:target="_blank"} 
-4. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
+1. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.** 
@@ -106,12 +107,12 @@ Here are the requirements for a valid readme:
 
 A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 
-Your job is to
+Your job is to:
 
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. Tell them what it is (with context, provide a summary)
+1. Show them what it looks like in action (Visuals)
+1. Show them how they use it (Step by step directions, "Happy Path" walk through)
+1. Tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
@@ -132,6 +133,6 @@ The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"}
 - Commit often
 - Push to your repository
 - Create a pull request from your branch back to master
-- Submit a link to your PR in canvas
+- Submit a link to your PR in Canvas
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
