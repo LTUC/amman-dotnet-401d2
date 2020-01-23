@@ -13,10 +13,10 @@ Your solution should include the following:
 Each query builds off of the prior query. You should be chaining.
 
 1. Output all of the neighborhoods in this data list (Final Total: 147 neighborhoods)
-2. Filter out all the neighborhoods that do not have any names (Final Total: 143)
-3. Remove the duplicates (Final Total: 39 neighborhoods)
-4. Rewrite the queries from above and consolidate all into one single query.
-5. Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
+1. Filter out all the neighborhoods that do not have any names (Final Total: 143)
+1. Remove the duplicates (Final Total: 39 neighborhoods)
+1. Rewrite the queries from above and consolidate all into one single query.
+1. Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
 
 You should have a total of 5 outputs. 
 
@@ -37,8 +37,8 @@ Test that your program has the following functionality:
 No stretch goals are required for this lab
 
 ## Additional Resources
-1. [NewtonSoft LINQ to JSON](https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm)
-2. [Serializing JSON](https://www.newtonsoft.com/json/help/html/SerializingJSON.htm)
+- [NewtonSoft LINQ to JSON](https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm){:target="_blank"}
+- [Serializing JSON](https://www.newtonsoft.com/json/help/html/SerializingJSON.htm){:target="_blank"}
 
 
 ## README
@@ -49,31 +49,32 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 <br />
 Your job is to
 
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. Tell them what it is (with context, provide a summary)
+1. Show them what it looks like in action (Visuals)
+1. Show them how they use it (Step by step directions, "Happy Path" walk through)
+1. Tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 <br /> Refer to the sample-README in the class repo `Resources` folder for an example. 
+
 - [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
 
 
 ## Rubric
 
-The lab rubric can be found [HERE](../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [Here](../Resources/rubric){:target="_blank"} 
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
+- Create a new repository on your personal GitHub account
 - Name your repo `Lab##-TITLE`
 - Create a branch named `NAME-LAB##`
 - Write your code
 - Commit often
 - Push to your repository
 - Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
+- Submit a link to your PR in Canvas
 - Merge your PR back into master
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described below)
