@@ -66,11 +66,11 @@ Encapsulation is the act of hiding methods and attributes that should not be exp
 classes or methods. Examples of encapsulation are Public, Private, and Protected. 
 
 Access Modifiers: 
-1. Public 
+- Public 
   - Everyone has access.
-1. Private 
+- Private 
   - Only the class has access to it.
-1. Protected 
+- Protected 
   - The class and any of it's derived children have access. 
 
 
