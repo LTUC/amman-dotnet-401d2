@@ -67,10 +67,10 @@ classes or methods. Examples of encapsulation are Public, Private, and Protected
 
 Access Modifiers: 
 1. Public 
-- Everyone has access.
+  - Everyone has access.
 1. Private 
-- Only the class has access to it.
+  - Only the class has access to it.
 1. Protected 
-- The class and any of it's derived children have access. 
+  - The class and any of it's derived children have access. 
 
 
