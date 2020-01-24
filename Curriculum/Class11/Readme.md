@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. The student will implement their own MVC web application
-2. The student will practice the separation of concerns concepts through the MVC architectural pattern.
+1. The student will practice the separation of concerns concepts through the MVC architectural pattern.
 
 ## Lecture Outline
 
@@ -34,4 +34,4 @@ view page.
 
 ### Create an MVC Site
 
-In the 'Resources' folder within the class repo is an MVC Setup doc. Use this resource to guide you how to create a basic MVC application
+In the `Resources` folder within the class repository is an MVC Setup doc. Use this resource to guide you how to create a basic MVC application.
