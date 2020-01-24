@@ -2,8 +2,8 @@
 
 ## Learning Objectives
 1. The student will be introduced and implement the FileStream.
-2. The student will know how to Create, Read, Update, and Delete file using the FileStream.
-3. The student will know how to properly open and close a file from an external location.
+1. The student will know how to Create, Read, Update, and Delete file using the FileStream.
+1. The student will know how to properly open and close a file from an external location.
 
 ## Lecture Outline
 
@@ -49,8 +49,8 @@ File.Delete(path);
 
 ## File Stream
  - What is a stream
-	1. StreamReader
-	2. StreamWriter
+	- StreamReader
+	- StreamWriter
 
 ## File Types
 - CSV

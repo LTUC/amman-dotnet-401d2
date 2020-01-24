@@ -21,8 +21,8 @@ Using everything you've learned up to this point, create a word guess game that 
 
 Create a domain model that outlines the functionality of your application. Include in your domain model all of the methods you plan on using and how they are utilized and called within the application. Here are a couple of resources if you need a refresher on domain modeling:
 
-1. [Introduction to Domain Modeling](https://medium.com/@olegchursin/a-brief-introduction-to-domain-modeling-862a30b38353)
-2. [Domain Modeling](https://www.scaledagileframework.com/domain-modeling/)
+1. [Introduction to Domain Modeling](https://medium.com/@olegchursin/a-brief-introduction-to-domain-modeling-862a30b38353){:target="_blank"}
+2. [Domain Modeling](https://www.scaledagileframework.com/domain-modeling/){:target="_blank"}
 
 Some methods that you should consider creating with your application, ***at minimum***:
 
