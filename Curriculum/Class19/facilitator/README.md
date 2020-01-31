@@ -4,12 +4,12 @@
 
 ## Lecture
 1. Code Review
-   - Review what an API is and what RESTful means
-   - Code out a basic API while using the Repository Design Pattern and SQL Server Database
-2. Add a 2nd Controller and Join Table
-   - Show how to use a join table when extracting data from an API endpoint from the database
-3. Test APIs
-   - Demonstrate how to test api endpoints
+   - Review what an API is and what RESTful means.
+   - Code out a basic API while using the Repository Design Pattern and SQL Server Database.
+1. Add a 2nd Controller and Join Table
+   - Show how to use a join table when extracting data from an API endpoint from the database.
+1. Test APIs
+   - Demonstrate how to test api endpoints.
    
 If you are not able to complete the demo in class, it is ok to share the provided demo to the students so they can see the finished product. 
 
@@ -19,10 +19,10 @@ This lab can be made optional at the instructor's discretion. The lab should sti
 
 
 ## What changed from yesterday? 
-This is a build off from yesterday 2nd part of the lecture. 
+This is a build off from yesterday, 2nd part of the lecture. 
 
 ## What might students struggle with today?  
-Nothing "new" is being taught today. This is all review of what they learned week three for creating controllers. The biggest difference being the name of the individual actions within the controllers and the different HTTP action tags. 
+Nothing "new" is being taught today. This is all review of what they learned during week three for creating controllers. The biggest difference being the name of the individual actions within the controllers and the different HTTP action tags. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 Sometimes Postman doesn't act as expected. This is usually due to misc updates.

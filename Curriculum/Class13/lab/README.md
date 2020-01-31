@@ -10,28 +10,28 @@ Your application should include the following:
 	- MVC dependency in ConfigureServices
 	- DBContext registered in ConfigureServices
 	- Use of static files accepted
-2. Controller
+1. Controller
 	- Home Controller
-3. Data
+1. Data
 	- DBContext present and properly configured
 	- DB Tables for each entity model (`DbSet<T>`)
 	- Composite key association present in `OnModelCreating` override.
 	- `appsettings.json` file present with name of database updated
 
-4. Models
+1. Models
 	- Each Entity from the DB Table converted into a Model
 	- Proper naming conventions of Primary keys
 	- Navigation properties present in each Model where required
 	- Enum present in appropriate model
 
-5. Views
+1. Views
 	- View for home page that matches default routing
 
-5. Home Page
+1. Home Page
 	- stylesheet present in web application
 	- stylesheet referenced on home page.
 
-6. Web application should build, compile, and redirect us to the home page upon launch. 
+1. Web application should build, compile, and redirect us to the home page upon launch. 
 
 
 ## Guidance
@@ -65,10 +65,10 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 
 Your job is to
 
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. Tell them what it is (with context, provide a summary)
+1. Show them what it looks like in action (Visuals)
+1. Show them how they use it (Step by step directions, "Happy Path" walk through)
+1. Tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
@@ -79,18 +79,18 @@ Refer to the README templates in the class repo `Resources` folder for an exampl
 
 ## Rubric
 
-The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
 
 ## To Submit this Assignment
-- Create a new repo on your personal GitHub account
+- Create a new repository on your personal GitHub account
 - Name your repo `Async-Inn`
 - Create a branch named `NAME-LAB##`
 - Write your code
 - Commit often
 - Push to your repository
 - Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
+- Submit a link to your PR in Canvas
 - Merge your PR back into master
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)

@@ -13,7 +13,7 @@ Your solution should include the following:
 sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
 returns in the appropriate xml tags. 
 
-- You've received reports from other users that there is a bug in the system! When a user selects a position on the board that is already marked, it is not prompting the user to retake their turn. It is up to *You* to find and fix this bug!
+- You've received reports from other users that there is a bug in the system! When a user selects a position on the board that is already marked, it is not prompting the user to retake their turn. It is up to **You** to find and fix this bug!
 
 ***Do not add any additional methods to the existing code base, you are only allowed to work within the methods provided***
 
@@ -60,13 +60,13 @@ If you are unsure if it is within scope, please ask a TA or instructor.
 ## Tests
 Test that your program has the following functionality:
 1. Given a game board, test for winners
-2. Test that there is a switch in players between turns
-3. Test to confirm that the position the player inputs correlates to the correct index of the array
-4. One other "unique" test of your own
+1. Test that there is a switch in players between turns
+1. Test to confirm that the position the player inputs correlates to the correct index of the array
+1. One other "unique" test of your own
 
 
 ## Stretch Goals
-No Stretch goals.
+No Stretch goals for this lab.
 
 ## Additional Resources
 Review/research these resources to assist you in the construction of your program:
@@ -83,10 +83,10 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 
 Your job is to
 
-1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. Tell them what it is (with context, provide a summary)
+1. Show them what it looks like in action (Visuals)
+1. Show them how they use it (Step by step directions, "Happy Path" walk through)
+1. Tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
@@ -97,13 +97,13 @@ Refer to the README templates in the class repo `Resources` folder for an exampl
 
 ## Rubric
 
-The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
 
 ## To Submit this Assignment
 - If you have not done so already, clone the class repo
 - Be sure to `pull` for updated content
-- Copy the starter code in class 04 to a newly created git repo (`cp -r location/of/startercode/. location/of/new/git/repo) 
+- Copy the starter code in class 04 to a newly created git repository (`cp -r location/of/startercode/. location/of/new/git/repo) 
 (**Don't forget about the "dot" at the end of code source**)
 - Do an `initial commit` of the starter code
 - Create a branch named `NAME-LAB##`
@@ -111,7 +111,7 @@ The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"}
 - Commit often
 - Push to your repository
 - Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
+- Submit a link to your PR in Canvas
 - Merge your PR back into master
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)

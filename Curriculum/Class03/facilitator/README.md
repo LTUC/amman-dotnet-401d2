@@ -13,7 +13,7 @@ a good template to use when presenting the lecture.
 1. Code Review of TDD
    - Code out lab together possibly
 1. System IO File Class
-	- Lecture Notes [here]("../Resources/SystemIO.md")
+	- Lecture Notes [here]("./Resources/SystemIO.md")
 1. Domain Modeling
    - Review what it is
    - What does it look like?
@@ -35,18 +35,18 @@ down the specific method, and code line that isn't giving them what they want. T
 created first, then how do you build out from there?
 
 ## What changed from yesterday? 
-They are expected to test their code now moving forward
+They are expected to test their code now moving forward.
 
 ## What might students struggle with today? 
-- System IO is a pretty simple concept that most students get right away. file manipulation with the CRUD operations 
-is pretty straight forward. especially when you break it down into 4 parts. 
-The biggest challenge that they get is file location and accessing it. This can be different depending on the machine I usually strongly 
+- System IO is a pretty simple concept that most students get right away. File manipulation with the CRUD operations 
+is pretty straight forward, especially when you break it down into 4 parts. 
+The biggest challenge that they get is file location and accessing it. This can be different depending on the machine. I usually strongly 
 encourage the students to have the file located on the root of their project. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 N/A
 
 ## General comments
-- This is a great lecture to incorporate the exception handling into. pull together everything from the past 2 days into the lecture
+- This is a great lecture to incorporate the exception handling to pull together everything from the past 2 days into the lecture
 and show the students how everything works together. This is their first big project, and can be equivalent to a "test" and they really get a chance to practice the fundamentals before
 moving into Classes and OOP on days 4 and 5. 

@@ -2,9 +2,9 @@
 
 ## Learning Objectives
 1. Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach. 
-2. The students will understand and implement code coverage within their programs when testing.
-3. Students will include intuitive comments within their code.
-4. Students will setup readme documentation for each assignment given a specific format.
+1. The students will understand and implement code coverage within their programs when testing.
+1. Students will include intuitive comments within their code.
+1. Students will setup readme documentation for each assignment given a specific format.
 
 ## Lecture Outline
 
@@ -16,11 +16,11 @@
 - Theories
 	- Conditionally True
 - Why is it important?
-	1. Confidently refactor, make it agile
-	2. High Quality Code
-	3. Documentation
-	4. Assists in Debugging
-	5. Reduce company cost
+	- Confidently refactor, make it agile
+	- High Quality Code
+	- Documentation
+	- Assists in Debugging
+	- Reduce company cost
 
 ### Demo
 - Build/add a testing solution

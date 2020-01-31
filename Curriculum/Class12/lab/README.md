@@ -17,7 +17,7 @@ Read ***the full document*** before you begin.
 
 - You have been tasked with creating a web based application for a local hotel chain. Here are the requirements that you obtained from your client during your exploration and requirements meeting.
 
-	- The hotel can hold many guests at any given time, in fact guests can come and go as they please.....[asynchronously](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/) :) 
+	- The hotel can hold many guests at any given time, in fact guests can come and go as they please.....[asynchronously](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/) :){:target="_blank"} 
 	- The hotel is named "Async Inn" and has many nationwide locations. Each location will have a name, city, state, address, and phone number.
 	- Async Inn prides themselves on their unique layout designs of each hotel room. They advertise as it being your "apartment for the night". This means they have invested a lot of resources into how each room looks and feels. Some have one bedroom, others have 2 bedrooms, while a few are more of a cozy studio. The team mentioned that they like to label each room with a nickname to better tell the difference between each of the layouts and amenities each room has to offer. (for example, the Seattle location has two 2-bedroom suites, but one is named "Seahawks Snooze" while the other is named "Restful Rainier", each with their own amenities.) 
 	- They also take pride in the amenities that each room has to offer. This can consist of features like "air conditioning", "coffee maker", "ocean view", "mini bar", the list goes on...They requested that they would like the amenities associated with each of the rooms as they do vary. 
@@ -27,17 +27,17 @@ Read ***the full document*** before you begin.
 ## Guidance
 Build your ERD (Entity Relationship Diagram) so that it has at least:
 1. (1) Joint Entity Table with Payload
-2. (1) Pure Join Table
-3. (1) Enum 
+1. (1) Pure Join Table
+1. (1) Enum 
 
 Within your ERD identify/label the following as necessary:
 1. Primary Keys
-2. Foreign Keys 
-3. Composite Keys (where they exist)
-4. Navigation Properties (What other entities are related? Why?)
-5. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
+1. Foreign Keys 
+1. Composite Keys (where they exist)
+1. Navigation Properties (What other entities are related? Why?)
+1. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
 
-In a external doc, please provide an explanation of the components in your database ERD diagram. 
+In a external document, please provide an explanation of the components in your database ERD diagram. 
 
 
 This assignment is **attempt based**. Submit, before the next class start, a healthy attempt on the database design. 
@@ -72,6 +72,6 @@ No late submissions will be accepted for this assignment. Submit your assigment 
 
 ## To Submit this Assignment
 
-- Submit your ERD(Entity Relationship Diagram) in canvas as an image, or a link to an image, in  to your external doc.
+- Submit your ERD(Entity Relationship Diagram) in Canvas as an image, or a link to an image, in  to your external doc.
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 
