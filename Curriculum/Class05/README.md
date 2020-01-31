@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. The student will know the difference between procedural and object oriented programming
-2. The student will be introduced and understand the differences between the 4 OOP principles.
+1. The student will be introduced and understand the differences between the 4 OOP principles.
 
 ## Lecture Outline
 
@@ -10,7 +10,7 @@
 Procedural programming is a list of instructions that tells program what to do step by step.
 Procedural relies on a series of computational steps to be carried to completion. This is usuallly done telling 
 the program what to do first at the beginning, and what to do at the end. it is a bit more intuitive and simple
-to read from top to bottom. Procedural programming languages are also called "top down "
+to read from top to bottom. Procedural programming languages are also called "top down".
 
 ### What is Object Oriented Programming?
 Object oriented programming is mimicking real world objects in code. 
@@ -40,7 +40,7 @@ the most common type of inheritance amongst programming languages. (C# only supp
 
 ### Abstraction
 
-in OOP - Abstract classes are not supposed to be instantiated. They are only supposed to be used as a template that can be
+In OOP - Abstract classes are not supposed to be instantiated. They are only supposed to be used as a template that can be
 derived further down for more clarity. 
 
 Abstract classes cannot be instantiated. 
@@ -50,9 +50,9 @@ Abstract methods must be overridden.
 ### Polymorphism
 Breaking down the work "Polymorphism":
 
-*Poly means many*
+- *Poly means many*
 
-*Morph means to change*
+- *Morph means to change*
 
 Within polymorphism, we want the ability to change the behavior of a specific class. We also want to be able to target specific types of classes (classes that are derived from specific classes). Polymorphism also helps us target any and all classes that implement specific interfaces. 
 
@@ -63,11 +63,14 @@ The ability to override an abstract or virtual method is polymorphism.
 
 Encapsulation is the process of hiding implementation details from the user.
 Encapsulation is the act of hiding methods and attributes that should not be exposed to unauthorized or unneeded
-classes or methods. Examples of encapsulation are Public, private, and protected. 
+classes or methods. Examples of encapsulation are Public, Private, and Protected. 
 
 Access Modifiers: 
-1. Public - Everyone has access
-2. Private - Only the class has access to it
-3. Protected - the class and any of it's derived children have access. 
+- Public 
+  - Everyone has access.
+- Private 
+  - Only the class has access to it.
+- Protected 
+  - The class and any of it's derived children have access. 
 
 

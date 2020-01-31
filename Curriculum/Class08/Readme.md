@@ -6,9 +6,9 @@
  
 ## Lecture Outline
 1. Review Collections
-2. Create a collection
+1. Create a collection
   - Add data to the collection
-  - iterate through the collection
+  - Iterate through the collection
 
 1. What is an easier way to iterate through a collection?
 
@@ -16,14 +16,14 @@
 - Language Integrated Query
 
 1. Imperative vs Declarative
-   1. What is Imperative
-      1. Foreach Loop
-   1. What is Declarative
-      1. LINQ statement
+   - What is Imperative
+      - Foreach Loop
+   - What is Declarative
+      - LINQ statement
 
 1. What is a 'query'?
    - A query is an expression that, when enumerated, transforms sequences with query operators. 
-   - The standard query operators are implemented as *extension methods*, so we can call 'WHERE' directly onto names
+   - The standard query operators are implemented as *extension methods*, so we can call 'WHERE' directly onto names.
 
 ### Query Expresssions 
    

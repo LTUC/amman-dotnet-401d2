@@ -7,23 +7,23 @@ Today primarily focuses on an introduction to databases. This should be a combin
 
 ## How do I prep for today?
 1. If you are unfamiliar with Databases and their relationships, a good place to start is [Here](https://www.tutorialspoint.com/dbms/index.htm)
-1. Review the MSFT docs for complex data models [HERE](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"} 
+1. Review the MSFT docs for complex data models [Here](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0) 
     - Start from the Overview and work your way through the whole tutorial if you can. 
-1. Review what an ERD is. The "Databases.md" located in the resources folder is an outline of the lecture for that day. 
-1. I recommend also reviewing the microsoft docs of the "complex" data model. This doc provides a good background of what the ERD should consist of. 
-1. Adjust the lab assignment for the day in Canvas. This is a timed assignment. Make it open up at the beginning of lab time, and due/closed at the end of lab time (total time approx. 5 hours). You will review the solution with the students at the very beginning of class 13. 
+1. Review what an ERD is. The "Databases.md" located in the `Resources` folder is an outline of the lecture for that day. 
+1. I recommend also reviewing the Microsoft docs of the "Complex" data model. This doc provides a good background of what the ERD should consist of. 
+1. Adjust the lab assignment for the day in Canvas. This is a timed assignment. Make it open up at the beginning of lab time, and due/closed at the end of lab time (total time approx. 5 hours). You will review the solution with the students at the very beginning of Class 13. 
 
 ## Lecture
 
 1. Code Review
-   - Review the MVC lab. 
+   - Review the MVC lab 
    - Show the students the solution to reading in a csv file and converting it to an object
    - Review turnery operators
-2. Review data persistance
+1. Review data persistance
    - What is data persistance? 
    - What are databases? Why do we need them?
-3. Introduce ERDs
-4. In-Class exercise to build out ERD for student enrollment demo
+1. Introduce ERDs
+1. In-Class exercise to build out ERD for student enrollment demo
 
 ## Lab Notes
 
@@ -36,14 +36,14 @@ No code is written today. Just reviewing diagrams.
 Nothing major. Overall ERDs are straight forward to break down.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-Database key relationships for composite keys are brand new. foreign and primary keys are review. 
+Database key relationships for composite keys are brand new. Foreign and primary keys are review. 
 
 ## General comments
-Spend the last 45 min to an hour of lecture time having the students attempt to make an ERD based off of the problem domain (located in the bottom of the `Database.md` file)
+Spend the last 45 minutes to an hour of lecture time having the students attempt to make an ERD based off of the problem domain (located in the bottom of the `Database.md` file).
 
 Spend a few minutes  reviewing the requirement. Have the students group off
-and attempt the erd (20 min or so) and spend the last 15 having the students present their
+and attempt the ERD (20 minutes or so), and spend the last 15 having the students present their
 ideas and reviewing the solution. 
 
 Be sure to share this solution with the students, as that is what our demo for the next
-few days will be tied too.
+few days will be tied to.

@@ -1,7 +1,7 @@
 # Class 05
 
 ## How do I prep for today?
-1. Upload the demo code to the class repo. This will serve as an example for the students on what is expected for their lab.
+1. Upload the demo code to the class repository. This will serve as an example for the students on what is expected for their lab.
 1. Be prepared to go over the required data structure this day. Refer to the Common Curriculum Day 5 implementation on what data structure to teach.
 1. There is an alternative lab that you may optionally choose. The initial lab is creating a zoo, the alternative lab is creating a vehicle dealership. Both have the same requirements, just different problem domains.
 
@@ -31,7 +31,7 @@ N/A
 breaking it down by each principle and showing how it looks in both the diagram and the VS code helps concrete the idea/concept.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- n/a
+- N/A
 
 ## General comments
 This is a good day to encourage class interaction while building out the demo code together.

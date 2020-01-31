@@ -5,13 +5,13 @@
 Building off of your Async Inn web application, include the following:
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 1. Add a layout that will be inherited/utilized on all of your pages (if you haven't already). 
-2. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
+1. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
 	- Use [this resource](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-2.1){:target="_blank"} for assistance
-3. While adding partials is not required, see if you can find a way to utilize them within your layouts
+1. While adding partials is not required, see if you can find a way to utilize them within your layouts
 
-4. Allow the functionality on your `HotelController` to display the total number of hotels that exist in the database, as well as the number of Rooms that each hotel has. 
-5. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
-6. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
+1. Allow the functionality on your `HotelController` to display the total number of hotels that exist in the database, as well as the number of Rooms that each hotel has. 
+1. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
+1. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
 	- Example: if you have a total of 5 Hotels, the top of your Hotel home page should say that you have 5 total hotels in the system.
 
 ## Guidance
@@ -33,20 +33,34 @@ I **strongly** encourage you to research how to write tests for a .NET Core MVC 
 
 You're README should include:
 1. Introduction to your application
-2. Database ERD
+1. Database ERD
+
+Your job is to
+
+1. Tell them what it is (with context)
+1. Show them what it looks like in action
+1. Show them how they use it
+1. Tell them any other relevant details
+<br />
+
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+ <br />
+ Refer to the sample-README in the class repo for an example. 
+
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 
-The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
+The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
 ## To Submit this Assignment
 
-- Create a new branch named `NAME-Lab#` in your `AsyncInn` repo
+- Create a new branch named `NAME-Lab#` in your `AsyncInn` repository
 - Write your code
 - Commit often
 - Push to your repository
 - Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in canvas
+- Submit a link to your PR in Canvas
 - Merge your PR back into master
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
