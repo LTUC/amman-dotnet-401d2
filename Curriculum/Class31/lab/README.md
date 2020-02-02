@@ -12,7 +12,7 @@
 ### Guidance
 
 **User story 1:** Much like we did in the demo, add default roles to your application. Add both "Member" and "Admin" at minimim. 
-Do not hardcode each user into the roles, have an Enum or an external class with constant values. 
+Do not hard code each user into the roles, have an Enum or an external class with constant values. 
 
 Update both your registration and login to either assign a role to a user, or capture the role of the user. If 
 they are an admin, redirect them to the Admin Dashboard US2 is creating. If they are a member, redirect them 

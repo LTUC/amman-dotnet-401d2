@@ -3,7 +3,7 @@
 ## How do I prep for today?
 This is web security day! most of this day is class discussion about what HTTP is and what SSL is.
 
-1. Code Review of Someone's ECOM project. Help 1 or 2 groups work thorough any
+1. Code Review of Someone's E-COM project. Help 1 or 2 groups work thorough any
 obstacles they are encountering. (1 hour)
 1. Web Security PPT (45 minutes) [NOTES](./Resources/HTTPS.md)
 2. OWASP powerpoint (45 minutes) [NOTES](./Resources/OWASP.md)
@@ -22,5 +22,5 @@ Nothing.
 
 ## General comments
 
-The "Lab" for this assignment is to create a [vulnerability report](/../../ECOM_Project.md) for their ECOM project. This 
+The "Lab" for this assignment is to create a [vulnerability report](/../../ECOM_Project.md) for their E-COM project. This 
 will be included in the final submission. 

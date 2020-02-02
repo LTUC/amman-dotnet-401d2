@@ -35,7 +35,7 @@ components that make up a custom policy,
 
 The first class that we create is just the `IAuthorizationRequirement`. This interface allows us to
 label our requirement as an actual authorization requirement. Within this requirement we have the ability to set 
-paramaters and information required if needed for the policy. Much like the Microsoft docs, here is an example
+parameters and information required if needed for the policy. Much like the Microsoft docs, here is an example
 of what a custom policy would look like for a minimum age:
 
 ```csharp
@@ -52,7 +52,7 @@ public class MinimumAgeRequirement : IAuthorizationRequirement
 
 ```
 
-A requirment does not need to have to have data properties. 
+A requirement does not need to have to have data properties. 
 
 The next part of the custom policy is the Authorization Handler. 
 An authorization handler is responsible for the evaluation of a requirement's properties. 
@@ -103,7 +103,7 @@ public class MinimumAgeHandler : AuthorizationHandler<MinimumAgeRequirement>
 ```
 
 After creating the handler, we will need to register it within the Startup file.  We need 
-to create the policy, in addition to register it wtih the DI. Reviewing the Dependency Injection
+to create the policy, in addition to register it with the DI. Reviewing the Dependency Injection
 lifecycles, that is how we want to do the registration:
 
 ```csharp

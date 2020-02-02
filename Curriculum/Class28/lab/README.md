@@ -6,7 +6,7 @@
 1. (Developer 2) As a User, I would like custom claims to be captured upon registration of the site. 
 1. (Developer 1 & 3) As a user, I would like the home page to showcase and reflect the products that we are selling.
 1. (Developer 1) As a user, I would like to be able to easily login and register for the site from the home page so that the user can quickly get started.
-1. (Developer 1) As a user, I would like to be greet the user on their homepage so that they can be assured they succesfully logged into their account. 
+1. (Developer 1) As a user, I would like to be greet the user on their homepage so that they can be assured they successfully logged into their account. 
 
 ### Guidance
 

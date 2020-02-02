@@ -19,14 +19,14 @@ Here is a checklist of items that you should complete before starting today's le
 
 ## Lecture: 
 1. Code Review (1 hour)
-   - If you did not get to Login capabilites on Class 27, do that during
+   - If you did not get to Login capabilities on Class 27, do that during
    code review
    - Show how to add Logout capabilities
      - Provided Demo code in `Pages/Logout.cshtml` 
    - Show what `Authorize` and `AllowAnonymous` tags do
      - [Authorization Tags](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-2.2)
      - We are not doing Roles "yet", so just focus on the [Authorize] and [AllowAnonymous] tags. The demo code only has [Allow Anonymous] but play with the two tags to show the difference. We will add more [Authorize] tags as the project evolves. 
-     - You will need to add `app.UseAuthorization();` To the `Configure()` method in the `Startup.cs`. Place this bit of code under the `app.UseAuthorization()`. This bit of code will allow you to be authorized on specfic pages.
+     - You will need to add `app.UseAuthorization();` To the `Configure()` method in the `Startup.cs`. Place this bit of code under the `app.UseAuthorization()`. This bit of code will allow you to be authorized on specific pages.
 
 1. [Claims](./claims.md) (60-90 minutes)
 1. Injecting claims into views (30-45 minutes)

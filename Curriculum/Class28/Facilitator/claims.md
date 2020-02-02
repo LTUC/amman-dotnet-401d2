@@ -17,7 +17,7 @@ These are all statements are about who the identity *IS* not what they can *DO*
 ### Demo
 1. Go to Register Razor Page and add some claims to the user
     - We want these pieces of information to be caught on registration. Remember, we can only
-    gaurantee the capture of basic information once, upon registration. Anything else can't be gauranteed because users
+    guarantee the capture of basic information once, upon registration. Anything else can't be guaranteed because users
 may not visit the site again or want to disclose that information. 
 
 
@@ -36,8 +36,8 @@ Within Identity, there are three core components:
 ### Claims
 
 As described above, claims are unique identifying information about a user. They are used
-to obtain information about a user for security purposes. These claims can be utulized
-saved within the identity database and utulized as needed through the site.      
+to obtain information about a user for security purposes. These claims can be utilized
+saved within the identity database and utilized as needed through the site.      
 
 ### Identity
 
@@ -63,17 +63,17 @@ Identity by default uses "Cookies" as it's default identity.
 
 ### Principle
 
-A principle is the `User` itself. A prinicple actually holds the identities (more than one).
-Within the default Core Identity, we call a Prinicple a `ClaimsPrinciple` which utulizes the `User` property on `HttpContext` as it's `ClaimsPrinciple`. 
+A principle is the `User` itself. A principle actually holds the identities (more than one).
+Within the default Core Identity, we call a Principle a `ClaimsPrinciple` which utilizes the `User` property on `HttpContext` as it's `ClaimsPrinciple`. 
 
 A single `ClaimsPrinciple` can consist of multiple `Identities`. 
-Within `ClaimsPrinciple` , implements the `IPrinciple`, which essentailly grabs the 
+Within `ClaimsPrinciple` , implements the `IPrinciple`, which essentially grabs the 
 first identity listed in `Identities`
 
 The following are true:
-1. A principle can have multiple identites.
-1. These identties can have multiple claims
-1. `ClaimsPrinicpal` inherits all the claims of it's identities. 
+1. A principle can have multiple identities.
+1. These identities can have multiple claims
+1. `ClaimsPrincipal` inherits all the claims of it's identities. 
 
 The possibility of having multiple identities on a principle is pretty low, but the use case is to allow multiple forms
 of identity. 
@@ -85,4 +85,4 @@ registration page. Explain what identity and principle is but we won't actually 
 
 ### Sources:
 1. [Claims](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.2)
-2. [Idenitity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
+2. [Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)

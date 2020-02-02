@@ -18,7 +18,7 @@ Lecture outline:
 Still building off of demos from prior days
 
 ## What might students struggle with today?  
-Getting SendGrid setup in their Azure Accoutn and getting emails to send. 
+Getting SendGrid setup in their Azure Account and getting emails to send. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 see above. 

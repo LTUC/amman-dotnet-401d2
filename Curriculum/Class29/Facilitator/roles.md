@@ -72,7 +72,7 @@ public static void Main(string[] args)
 
 		try
 		{
-			StartupDbIntitializer.SeedData(services, userManager);
+			StartupDbInitializer.SeedData(services, userManager);
 		}
 
 		catch (Exception ex)
@@ -100,5 +100,5 @@ To check if a user is in a specific role, we can do that like this:
 await _userManager.IsInRoleAsync(user, ApplicationRoles.Admin)
 ```
 
-The constants of "ApplicaitonRole" help us avoid user error and inconsistancies between spellings.
-Having a constant reference will help keep conistency across the application.
+The constants of "ApplicationRole" help us avoid user error and inconsistencies between spellings.
+Having a constant reference will help keep consistency across the application.

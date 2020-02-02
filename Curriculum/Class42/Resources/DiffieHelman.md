@@ -55,15 +55,15 @@ Alice and Bob
 14. This works because large primes is costly to figure out with shared secretes with information that an eavesdropper may have access too. 
 
 
-### Digitial Certificates 
+### Digital Certificates 
 1. what if someone sits in between alice and bob, and intercepts the interactions and replaces them with her own. 
 2. She establishes her own secret key with both Alice and Bob and neither Alice or Bob know this is happening.
 3. Neither Alice or bob know that they are being attacked and think their information is private. 
 4. This is called a `man in the middle` attack
 5. This is where digital certificates become so important. 
 
-#### Asymetric Key Encryption
-1. Asymetric keys provide 1 private and 1 public 
+#### Asymmetric Key Encryption
+1. Asymmetric keys provide 1 private and 1 public 
 2. Both can encrypt and decrypt --> if you encrypt with one, then you can only decrypt with the other
 3. the private key is never supposed to be sent, the public key gets freely sent to anyone/everyone
 4. ANything Encrypted with the private key, can only be decrypted with the private key, this ensures that if you receive something that your public key can decrypt that only the private key holder could have sent it.

@@ -1,4 +1,4 @@
-# Class 32: IEmailSender/Sendgrid
+# Class 32: IEmailSender/SendGrid
 
 ## Learning Objectives
 1. Students will learn about generating and sending emails from their site.

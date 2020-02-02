@@ -9,7 +9,7 @@ of today is to practice reading and utilizing 3rd party docs
 and directly reading them into your code. 
 
 This is a great practice to get curious and add some functionality 
-to their existing ecommerce site.
+to their existing e-commerce site.
 
 ## Lecture Outline
 
