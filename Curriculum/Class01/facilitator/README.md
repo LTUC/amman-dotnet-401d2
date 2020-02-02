@@ -13,9 +13,9 @@ Review student facing readme.
 
 1. The Readme.md for this directory is what should be student facing in the class repo.
 1. If you are an afternoon lecture time, give the students the [Calculator Assignment](../lab/Calculator.md) before class. This assignment should be graded based off of if a healthy attempt was made. It should only take them 2-3 hours to complete. If you are not in an afternoon lecture time, you may optionally give this assignment to students as you see fit.
-1. Become familar with the lecture topics and demo code
+1. Become familiar with the lecture topics and demo code
 1. Complete th daily readings and be prepared if students have questions
-1. Be prepared to answer questions about the prework. 
+1. Be prepared to answer questions about the pre-work. 
 
 ## Lecture:
 
@@ -49,7 +49,7 @@ This can be a long day, there is a lot to cover to get them rolling and most of 
 Since this is the first day, There isn't really much to review. <br />
 The expectation is that they have all completed the pre-work, so you shouldn't spend much time on the 
 basics of the language (iterative/selective statements, asking/receiving user input). They can ask questions
-but focus mostly on the content for the day's lecture...the prework practice should come out as you do your demos. 
+but focus mostly on the content for the day's lecture...the pre-work practice should come out as you do your demos. 
 
 # Resources
 

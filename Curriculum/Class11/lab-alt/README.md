@@ -17,7 +17,7 @@ Lab 11 : MVC
 
 ## The Problem Domain
 You have been hired by the "Don't Wine About It" company to create a website that assists customers in finding the perfect wine. 
-The company has provided for you a dataset of their current inventory. 
+The company has provided for you a data set of their current inventory. 
 
 Create a website using the MVC architectural pattern that asks the customer to input the price, and point rating
 they are searching for. The customer should then be redirected to another page that will show the filtered results from the inventory. 
@@ -32,7 +32,7 @@ they are searching for. The customer should then be redirected to another page t
     - Upon posting back to the server, call the `Results` action to redirect to the results view.
 4. Views to generate the home page and search results
     - Use a form tag to accept user input
-    - Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshml` file may be required)
+    - Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshtml` file may be required)
 5. Include HTML/CSS in your final product. **This is required.** 
     - It doesn't have to be fancy, just make it look nice.
 6. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 

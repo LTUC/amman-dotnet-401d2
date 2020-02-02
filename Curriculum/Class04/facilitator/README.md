@@ -28,7 +28,7 @@ day if you don't have time to complete.
 The Lab contains starter code. This will give them a look of what a console app with many classes could potentially look like.
 Provide this for them after the lecture and before they begin the lab.
 
-The lab will require some knowledge on multi-dimensional arrays. Encourage students to look back at the prework arrays reading as a refresher.
+The lab will require some knowledge on multi-dimensional arrays. Encourage students to look back at the pre-work arrays reading as a refresher.
 
 ## What changed from yesterday? 
 - Today is the first day of "Classes". Many questions that may have come up through the week should now be answered, or at least more details provided.

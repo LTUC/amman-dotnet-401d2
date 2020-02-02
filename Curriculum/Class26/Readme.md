@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. Students will be introduced to Azure Dev Ops Project Management Tool 
-2. Students will be introduced to ASP.NET Core Identity and succesfully integrate it into an existing codebase. 
+2. Students will be introduced to ASP.NET Core Identity and successfully integrate it into an existing codebase. 
 
 ## Lecture Outline
 

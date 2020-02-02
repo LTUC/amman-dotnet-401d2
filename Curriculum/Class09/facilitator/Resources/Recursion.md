@@ -51,8 +51,8 @@ public long Factorial(int n)
 
 
 - First, if the input value is equal to zero, the algorithm will return 1.
-- If the input is not zero, the algorithm returns the number n times the factoiral of n-1.
-- Very simple algorithm, but it demonstrates two impotant features taht all recursive algorithms must have
+- If the input is not zero, the algorithm returns the number n times the factorial of n-1.
+- Very simple algorithm, but it demonstrates two important features that all recursive algorithms must have
 	1. Each time a method executes, it reduces the current problem to a smaller instance of the same problem and then calls itself to solve the smaller problem. 
 		- in this example, the method reduces the problem by computing n! to the problem of computing (n-1)! and then multiplying by n. 
 
@@ -65,7 +65,7 @@ public long Factorial(int n)
 
 
 #### Fibonacci Numbers
-Review the Fibonocci Numbers.
+Review the Fibonacci Numbers.
 
 
 1. Non recursion:
@@ -89,7 +89,7 @@ public long Fib(int n)
 
 2. Recursion
 
-```chsarp
+```csharp
 
 public long Fib(int n)
 {

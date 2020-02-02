@@ -5,7 +5,7 @@ ready for the 2nd half project:
 
 1. Change the home page of Canvas to the e-commerce landing page. The canvas landing home page usually consists of:
    - The intro to the project
-   - A roadmap of each of the sprints and the assignments associated with them (only publish one sprint at a time)
+   - A road map of each of the sprints and the assignments associated with them (only publish one sprint at a time)
    - Extra resources to have on hand during the course.  (example: Syllabus)
    - Partners for the project and the assigned "grader" for each group
 

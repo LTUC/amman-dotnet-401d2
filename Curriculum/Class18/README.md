@@ -8,7 +8,7 @@
 ## Lecture Outline
 
 1. User Secrets
-   - Utulizing Environmental variables to store secrets for the web app
+   - Utilizing Environmental variables to store secrets for the web app
 1. Deployment to Azure
    - Refer to the resources folder of this GH repo for instructions on how to deploy to Azure
 1. Intro to Web APIs

@@ -6,9 +6,9 @@ Read this document, in it's entirety before starting the assignment.
 Create a two (2) person, turn based Tic-Tac-Toe program.
 Building off of your starter code provided from the class repo, complete the Tic Tac Toe logic. Refer to the "Submit this Assignment" section below on instructions with the starter code. 
 
-## Program Specificaitons
+## Program Specifications
 Your solution should include the following:
-- Completed TODOs
+- Completed TO-DOs
 - Add summary comments above all of the methods that do not currently have summary comments. Be 
 sure to explain what the main purpose of the method is, in addition to where it is being called/used. Identify the parameters and 
 returns in the appropriate xml tags. 
@@ -18,7 +18,7 @@ returns in the appropriate xml tags.
 ***Do not add any additional methods to the existing code base, you are only allowed to work within the methods provided***
 
 ## Guidance
-- Find the `TODO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TODOs within the starter code) and add additional logic to accomplish each task. 
+- Find the `TO-DO`s in the code (Hint: Go to your "view" menu and select "Task List", This will show you all of your TO-DOs within the starter code) and add additional logic to accomplish each task. 
 
 A Game board, to a user, looks like this:
 
@@ -54,7 +54,7 @@ Be sure to check for a winner after each turn. Be aware that it is possible to h
 marks on the board are occupied. 
 
 Stay within scope of this project. Please only use concepts and resources that we have covered 
-so far in previous labs/lectures/assigned prework. 
+so far in previous labs/lectures/assigned pre-work. 
 If you are unsure if it is within scope, please ask a TA or instructor.
 
 ## Tests

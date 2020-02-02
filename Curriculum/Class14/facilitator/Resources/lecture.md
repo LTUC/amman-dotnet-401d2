@@ -38,10 +38,10 @@ injected in. Go over a few of the actions and discuss how items are being added/
 Create additional controllers for the other models following the same process.
 
 
-### Taghelpers
-What are taghelpers? Why do we need them?
+### Tag Helpers
+What are tag helpers? Why do we need them?
 
-Review Taghelpers [Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.2)
+Review Tag helpers [Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.2)
 
 Enable tag helpers in your view folder by adding a `_ViewImports.cshtml` file
 

@@ -29,7 +29,7 @@ Keep repeating these concepts over and over again...
 Today is wind down day before Career Coaching typically. We cover a lot of "random" topics today.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-Scaffolding a controller is like "magic". it's not...and work with the students so they understand that it is not. The typical feedback from the scaffoling is the difficult understanding of the code. Encourage the students to read what is going on and comment the code. 
+Scaffolding a controller is like "magic". it's not...and work with the students so they understand that it is not. The typical feedback from the scaffolding is the difficult understanding of the code. Encourage the students to read what is going on and comment the code. 
 
 If they don't take the time to understand the code..their lab will be challenging.
 

@@ -8,7 +8,7 @@
 
 ### Procedural Programming (imperative programming)
 Procedural programming is a list of instructions that tells program what to do step by step.
-Procedural relies on a series of computational steps to be carried to completion. This is usuallly done telling 
+Procedural relies on a series of computational steps to be carried to completion. This is usually done telling 
 the program what to do first at the beginning, and what to do at the end. it is a bit more intuitive and simple
 to read from top to bottom. Procedural programming languages are also called "top down "
 
@@ -59,7 +59,7 @@ Within polymorphism, we want the ability to change the behavior of a specific cl
 The ability to override an abstract or virtual method is polymorphism. 
 
 
-### Encapuslation
+### Encapsulation
 
 Encapsulation is the process of hiding implementation details from the user.
 Encapsulation is the act of hiding methods and attributes that should not be exposed to unauthorized or unneeded

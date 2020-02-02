@@ -19,7 +19,7 @@ a good template to use when presenting the lecture.
    - What does it look like?
 1. Lab Review
     - Expectations of lab
-    - This is a challenging lab, extended due date to be right before classs 06. 
+    - This is a challenging lab, extended due date to be right before classes 06. 
 
 ## Lab Notes
 

@@ -42,12 +42,12 @@ Talk about what `IdentityUser` is. Dive into the definition of what Identity use
 definition of the `IdentityUser<TKey>` type to see all the props that are included in 
 Identity user. Notice a few things about the Identity user in the `IdentityUser<TKey>`:
 Notice that any personal information is not included in the base Identity User. That means that
-if there is a requriement for more information to be included in on the Identity User than 
+if there is a requirement for more information to be included in on the Identity User than 
 what is given, it has to be added manually.  
 
 2. Add some additional props to your `ApplicationUser` so that more information is included
 when using the Application User. Note that the name of the class does NOT have to be `ApplicationUser` 
-it can be anything, the only constraint is that it is dervived from Identity User. 
+it can be anything, the only constraint is that it is derived from Identity User. 
 
 ```csharp
     public class ApplicationUser : IdentityUser
@@ -104,7 +104,7 @@ Update-Database -Context ApplicationDbContext
 
 ### Summary
 This will set us up for Class 27, where we will add a Registration and Login
-page. We will utulize the Razor Page pattern to build these out for our project. 
+page. We will utilize the Razor Page pattern to build these out for our project. 
 
 The students will not be adding in identity until Class 27's lab, but this will be a good
 exposure part 1 day.

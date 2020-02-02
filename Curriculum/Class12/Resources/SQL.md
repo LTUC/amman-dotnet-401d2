@@ -25,7 +25,7 @@ A DB schema is a logical design of a database.
 
 
 
-##### Basic Schema Defiition
+##### Basic Schema Definition
 
 ```
 create table department

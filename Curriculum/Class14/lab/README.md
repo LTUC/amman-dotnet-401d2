@@ -29,7 +29,7 @@ Your application should include the following:
 5. Add your own styling to the Hotel creation page, Room Creation Page, and Amenities creation page.
 6. On the Home Page, create a navigation to the Hotel, Room, and Amenities pages that display all of the contents in the database respectively. 
 7. On the Rooms, Hotels, and Amenities landing page, be sure to include a link that allows you to create a new room within the overall lists. 
-7. Create a page named "HotelRooms: that allows you to associate a specific Room with a specific hotel. Refer to the Wireframes `HotelRooms/Update/id&rn=201` wireframe as an exampe
+7. Create a page named "HotelRooms: that allows you to associate a specific Room with a specific hotel. Refer to the Wireframes `HotelRooms/Update/id&rn=201` wireframe as an example
 8. Refer to the provided wireframes as examples of what these pages should look like and function. Feel free to use the automatic scaffolding. Don't forget to modify/remove any extra code that is not needed. 
 
 ## Guidance

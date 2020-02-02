@@ -50,7 +50,7 @@ Your solution should include the following:
 
 ### Code Snippets
 
-Here is my logic for my "ReturnBook". If you choose to use it, please comment the code explicitely on what is going on. 
+Here is my logic for my "ReturnBook". If you choose to use it, please comment the code explicitly on what is going on. 
 
 ```csharp
      static void ReturnBook()
@@ -106,7 +106,7 @@ Test that your program has the following functionality:
 ## Stretch Goals
 
 1. A method with the signature of: `public bool IsAvailable(T book)` that determines if a book is available. (Hint: use the `.Equals()` helper)
-2. Add the ability to find a specific book by "Author" or "Title" of the book.(You may need to set a restrction on `T`)
+2. Add the ability to find a specific book by "Author" or "Title" of the book.(You may need to set a restriction on `T`)
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.**

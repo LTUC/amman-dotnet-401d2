@@ -6,7 +6,7 @@ Continue working on your hotel management application.  As a developer, you woul
 
 ## Application Specifications
 Building off of your current project for the `AsyncInn`:
-1. Implement the repository architechural design pattern using dependency injection into your current code base.
+1. Implement the repository architectural design pattern using dependency injection into your current code base.
 2. Create three interfaces to contract minimum CRUD operations that are required for functionality and maintenance of Hotels, Rooms, and Amenities. 
 3. Build out a service for each of the interfaces and implement them appropriately.
 4. Within each service, don't forget to inject the your `DbContext` into your services, so that you have access to the database.
@@ -31,7 +31,7 @@ There are no Stretch Goals for this assignment.
 
 ## Additional Resources
 
-Utulize the provided wireframes as a guideline of what the pages should look like. Keep in mind that some wireframes will require features from future labs.
+Utilize the provided wireframes as a guideline of what the pages should look like. Keep in mind that some wireframes will require features from future labs.
 
 ## README
 

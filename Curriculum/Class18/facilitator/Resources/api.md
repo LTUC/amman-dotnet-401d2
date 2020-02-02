@@ -20,7 +20,7 @@ What is an API?
 
 ## REST
 
-REST == Reprsentational State Transfer <br />
+REST == Representational State Transfer <br />
 
 How is data represented:
 - JSON
@@ -43,7 +43,7 @@ Rules of HTTP are important and we can take advantage of everything else that th
 1. The server (Kestral) listens for the request
 2. Middleware pipeline is invoked for each request
 3. Use MVC to route requests to controller & Action
-4. Responses flow backdown the middleware pipeline. 
+4. Responses flow back down the middleware pipeline. 
 
 ## Key Terms
 - Attribute Routing
@@ -65,8 +65,8 @@ Rules of HTTP are important and we can take advantage of everything else that th
 - Derive Controller from ControllerBase
 - Cerate each of the actions by hand, 
 - Bring up `Attribute Routing` (Attribute Routes serve a purpose)
-- Constrain which http mehtods/verbs that you want those action methods to handle
-- Route template/pattern that shoudl match the URI for any req that makes it to the action method
+- Constrain which http methods/verbs that you want those action methods to handle
+- Route template/pattern that should match the URI for any req that makes it to the action method
 - create Get route
 - Create Put route
 - Create Post

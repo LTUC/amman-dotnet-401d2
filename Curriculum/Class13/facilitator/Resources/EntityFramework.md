@@ -7,7 +7,7 @@
 4. How do you show composite key relationships in MVC Core.
 
 
-## Review MVC Lifecycle
+## Review MVC Life Cycle
 Talk about what each of the MVC components look like. do the drawing from 
 class 11 again if needed.
 
@@ -35,7 +35,7 @@ and ease of use.
 
 ### Adding a Database Connection
 1. Create a DbContext
-2. Add the contructor
+2. Add the constructor
 3. Create the DBSets for the tables
 
 Be sure to talk about what the constructor is doing (the base class also has a constructor, which is why we have
@@ -61,9 +61,9 @@ options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
 During the registration of your DBContext, you will
 have to set you app up for Dependency Injection, meaning you need to add a constructor to the startup file
 and bring in `IConfiguration`. You can explain to them at a high level what this is doing (The service provider
-is bringing in the default congfigurations into the app), but we will talk more about it on Day 16 with DI.
+is bringing in the default configurations into the app), but we will talk more about it on Day 16 with DI.
 
-Now, try and run the `Add-Migration intitial` command again. You will get another error that you didn't add primary keys
+Now, try and run the `Add-Migration initial` command again. You will get another error that you didn't add primary keys
 to some of the models. 
 
 Go back and add the `ID` properties to the Transcripts, Students, and Courses. 

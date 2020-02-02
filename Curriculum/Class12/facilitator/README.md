@@ -1,7 +1,7 @@
 # Class 12: Relational Database and ERDs
 
 ## Overview
-This is the first day that the students will dive into the "Async Inn Inventory Management" website. Do not show the students the wireframes or resources for the site just yet. Make sure they complete the ERD for this lab assignment before showing them what they will be building. 
+This is the first day that the students will dive into the "Async Inn Inventory Management" website. Do not show the students the wire frames or resources for the site just yet. Make sure they complete the ERD for this lab assignment before showing them what they will be building. 
 
 Today primarily focuses on an introduction to databases. This should be a combination of review from 301, as well as some new content such as composite keys and join tables.
 

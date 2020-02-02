@@ -76,7 +76,7 @@ Add the following to your current readme from Lab 5/Part 1:
 	0       | No Submission or program does not compile/run. Build Errors. Missing Required Tests. Failing Tests |
 
 - 3pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 4/6 on above criteria
+	- These points can only be awarded if you score at minimum a 4/6 on above criteria
 
 	Points  | Reasoning | 
 	 ------------ | :-----------: | 

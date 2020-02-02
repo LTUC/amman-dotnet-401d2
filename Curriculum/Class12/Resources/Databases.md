@@ -90,7 +90,7 @@ enrollment. Here is what you gathered:
 
 The coding school will gather information from each student. 
 Their system requires the student's first name, last name and 
-birthdate. 
+birth date. 
 Each course that the coding school will offer has a Name, 
 specific course code, and the price that the course will cost.
 In addition, each course will be associated with a specific technology,
@@ -100,7 +100,7 @@ stacks being taught.
 A student can be enrolled in multiple courses and once a student
 has completed a course, their final grade and if they passed 
 is captured in a single transcript. A student can have many transcripts
-associted with them. It is also safe to say 
+associated with them. It is also safe to say 
 that once a course is completed, the system will generate a 
 transcript for every student that was present in the course. 
 The transcript should independently store the student's information,

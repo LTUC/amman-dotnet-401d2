@@ -2,28 +2,28 @@
 
 ## What are Razor Pages
 Razor Pages are new to .NET Core specifically and are an alternative architectural pattern to 
-how your site is constructed. It still utulizes MVC and it's routing, but is more of an MVVM approach to 
-web developement. 
+how your site is constructed. It still utilizes MVC and it's routing, but is more of an MVVM approach to 
+web development. 
 
 MVVM stands for Model-View-View Model. This means
 that the data flow between the client and the server bypass the 
 controller and communicate through the `PageModel` in the 
 Razor Page.
 
-Razor Pages are used to help simplify development and seperate individual pages a bit more with MVC.
+Razor Pages are used to help simplify development and separate individual pages a bit more with MVC.
 
 The advantage of razor pages is there is a lot less "magic" happening. This means that we 
 have a bit more control, as developers, of what is happening in the data flow pipeline. 
 
-Razor Pages allow us to really utulize the "Single Responsibility" principle within practice. This means
-that we can gaurantee that our Models are really only doing "one" thing and only one thing. 
+Razor Pages allow us to really utilize the "Single Responsibility" principle within practice. This means
+that we can guarantee that our Models are really only doing "one" thing and only one thing. 
 
 Razor Pages are great for any form of HTML views that we need within our web app.
 
 MVC and Razor Pages can live in harmony within one web app, it is not an either/or situation. 
 
 We can continue to use controllers for your default routing, or for APIs. Use Razor Pages for other functional pages within
-your app that required HTML and views! This separatation keeps our app clean and easy to work with .
+your app that required HTML and views! This separation keeps our app clean and easy to work with .
 
 
 ### Looking further....

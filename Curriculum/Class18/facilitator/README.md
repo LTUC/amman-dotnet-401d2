@@ -23,7 +23,7 @@ Have an azure account ready to go that you can demonstrate how to deploy both a 
 Wrapping up with deployment! Starting APIs
 
 ## What might students struggle with today?  
-Deployments are sometimes unpredicable.
+Deployments are sometimes unpredictable.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 Provide for the student the deployment instructions

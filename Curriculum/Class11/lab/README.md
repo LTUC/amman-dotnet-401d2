@@ -15,7 +15,7 @@ Create a web app that will allow a user to put in a span of 2 different years, a
     - Upon posting back to the server, call the `Results` action to redirect to the results view. 
 4. Views to generate the home page and search results
     - Use a form tag to accept user input
-    - Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshml` file may be required)
+    - Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshtml` file may be required)
 5. Include HTML/CSS in your final product. **This is required.** 
     - It doesn't have to be fancy, just make it look nice.
 6. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 

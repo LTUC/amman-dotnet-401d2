@@ -1,7 +1,7 @@
 # Class 08: LINQ
 
 ## Learning Objectives
-1. Students will be able to succesfully write LINQ queries against a collection to extract data.
+1. Students will be able to successfully write LINQ queries against a collection to extract data.
 1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
  
 ## Lecture Outline
@@ -25,7 +25,7 @@
    - A query is an expression that, when enumerated, transforms sequences with query operators. 
    - The standard query operators are implemented as *extension methods*, so we can call 'WHERE' directly onto names
 
-### Query Expresssions 
+### Query Expressions 
    
 ```csharp
 string[] names = { "Tom", "Dick", "Harry" };
@@ -66,7 +66,7 @@ foreach (string name in finalQuery)
 
 ```
 
-### Anonymous Typs & Anonymous Objects
+### Anonymous Types & Anonymous Objects
    
 An anonymous type is specified through a `var` type:
 

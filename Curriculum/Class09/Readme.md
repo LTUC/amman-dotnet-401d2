@@ -12,7 +12,7 @@
 		- direct: the method calls itself
 		- indirect: method calls some other method that then calls the first method)
 1. Recursion is not a 'fix all' solution:
-	- it can suffer performance of an applicaiton because of using call stack again and again is not always a good choice. 
+	- it can suffer performance of an application because of using call stack again and again is not always a good choice. 
 
 
 1. The Factorial of N is written N! (pronounced "N Factorial")

@@ -12,7 +12,7 @@ By the end of lecture, students should have seen:
 
 ## Preparation
 Here is checklist of items that you should complete before the start of lecture: 
-1. If you have chosen to utulize the Canvas Pages, follow the instructions in the [Canvas file](./Canvas.md)
+1. If you have chosen to utilize the Canvas Pages, follow the instructions in the [Canvas file](./Canvas.md)
 2. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
     - [Azure Dev Ops](https://dev.azure.com/)
     - [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)

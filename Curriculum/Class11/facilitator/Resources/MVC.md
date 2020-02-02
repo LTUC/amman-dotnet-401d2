@@ -74,7 +74,7 @@ Start out the demo by walking through how to create a controller.
 3. Talk about how "methods" in controllers are called "Actions"
 2. Create a nwe action, with the return type of string
 5. return a string from the method. 
-6. Go to the appropraite page on the site and see the string outputted
+6. Go to the appropriate page on the site and see the string outputted
 
 Pretty cool huh? 
 
@@ -82,9 +82,9 @@ Now play with the query strings in the url. Go back to your action and require t
 go to the url, and append to it the proper parameters and values using the url query syntax. Make the action within the controller
 relay back out to the user the values they put in. 
 
-Now show them what it looks like when you append a url, they should be able to see the values that are being brough in. 
+Now show them what it looks like when you append a url, they should be able to see the values that are being brought in. 
 
-This is called "Model Binding." the model is able to see the values it is supposed to accept, and then associates them to the correct paramters
+This is called "Model Binding." the model is able to see the values it is supposed to accept, and then associates them to the correct parameters
 from the query, assuming the names are exactly the same. 
 
 It is important for the students to know that Controller are in charge of the routing. I like to put in the analogy of the "Traffic Cop".
@@ -136,19 +136,19 @@ with no presentation, you do not need the directive. Here is an example of an in
 
 The intake form maps the name attribute and model binds that to the appropriate property.
 1. If you did bring in a `@model`, then the for will bind to the property
-2. If you did not, then the for will bind to the paramater that you have set in the controller within the `[HTTPPOST]` action. 
+2. If you did not, then the for will bind to the parameter that you have set in the controller within the `[HTTPPOST]` action. 
 
 
-Once you add the submit button, you will need to make an additional action in the controlller that has an
+Once you add the submit button, you will need to make an additional action in the controller that has an
 `HttpPost` flag at the top. This is in addition to the default `HTTPGET`. 
 
 
 ### Model
 
 1. What is a Model?
-    - The model in an MVC application represents the state of the application and any buisness logic or operations that should be performed by it. 
-    - Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the applicaiton. 
-    - strongly typed views will typically use ViewModel types specifically designed to contain data to dispaly on that view. The controller will create and populate these viewmodels from the model. 
+    - The model in an MVC application represents the state of the application and any business logic or operations that should be performed by it. 
+    - Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the application. 
+    - strongly typed views will typically use ViewModel types specifically designed to contain data to display on that view. The controller will create and populate these ViewModels from the model. 
 
 2. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
 
