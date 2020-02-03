@@ -126,7 +126,7 @@ The finally block is generally used for cleaning up code, disposing unmanaged ob
 
 ### Throw
 
-a `throw` allows you to force an exception to be thrown. This can be done in either a `catch` block or a regular code block.
+A `throw` allows you to force an exception to be thrown. This can be done in either a `catch` block or a regular code block.
 The advantages to this is if you have a custom exception that you would like to throw in replacement to the exception that was caught, or
 you want an exception to be thrown, given a certain condition being met. 
 

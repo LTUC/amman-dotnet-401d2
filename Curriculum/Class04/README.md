@@ -3,9 +3,9 @@
 
 ## Learning Objectives
 1. Students will be introduced to Object Oriented Programming
-2. Students will know the difference between a class and an object
-3. Students will know the difference between the stack and the heap. 
-4. Students will be introduced to Garbage Collection and it's purpose.
+1. Students will know the difference between a class and an object
+1. Students will know the difference between the stack and the heap. 
+1. Students will be introduced to Garbage Collection and it's purpose.
 
 ## Lecture Outline
 

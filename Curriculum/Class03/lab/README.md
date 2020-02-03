@@ -8,9 +8,9 @@ Your client has requested that a "Word Guess Game" be built. The main idea of th
 Each time a new game session starts, the mystery word chosen should come from the external text file that holds a list of all the possible words. The program should randomly select one of the words in this file as the new mystery word for the next game round. This bank of words should be editable by your client so that she may view, add, and delete words as she wishes. She expects the game to have a simple interface that allows her to navigate across the game. Some actions that she wants available within her interface are:
 
 1. View All words in the list
-2. Add a word
-3. Remove a word
-4. Play Game 
+1. Add a word
+1. Remove a word
+1. Play Game 
 
 Using everything you've learned up to this point, create a word guess game that will meet all of the requirements described in the scenario above. 
 
@@ -22,7 +22,7 @@ Using everything you've learned up to this point, create a word guess game that 
 Create a domain model that outlines the functionality of your application. Include in your domain model all of the methods you plan on using and how they are utilized and called within the application. Here are a couple of resources if you need a refresher on domain modeling:
 
 1. [Introduction to Domain Modeling](https://medium.com/@olegchursin/a-brief-introduction-to-domain-modeling-862a30b38353)
-2. [Domain Modeling](https://www.scaledagileframework.com/domain-modeling/)
+1. [Domain Modeling](https://www.scaledagileframework.com/domain-modeling/)
 
 Some methods that you should consider creating with your application, ***at minimum***:
 
@@ -30,15 +30,15 @@ Some methods that you should consider creating with your application, ***at mini
     - This will be the first method that runs in the program. Consider calling the `UserInterface()` method from this method.
 1. UserInterface
    - Asks the user what action they should take
-2. ViewWords
+1. ViewWords
    - Reads the words in from the external file and outputs them to the console
-3. RemoveWords
+1. RemoveWords
    - Gives the user the ability to remove one of the words in the list
-4. AddWord
+1. AddWord
    - Add a new word to the list
-5. ExitGame
+1. ExitGame
    - End the game
-6. StartGame*
+1. StartGame*
    - Actual game logic of guessing a letter of the mystery word
 
 *Your StartGame method will likely need to be broken up into smaller methods. Be sure that these additional methods are represented in your domain modeling image
@@ -83,9 +83,9 @@ Focus on the functionality, and build your application out from there.
 Test that your program has the following functionality:
 1. Test that a file can be updated with a new word
 	- Add a new word and then confirm the word exists in the file
-2. Test that you can retrieve all words from the file
+1. Test that you can retrieve all words from the file
 	- Add words to a file and confirm that file contains the same number of words as you expected
-3. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
+1. Test that the word chosen can accurately detect if the letter exists in the word (test that a letter does exist and does not exist)
 
 
 ## Stretch Goals
@@ -94,11 +94,11 @@ No stretch goals for this lab
 ## Additional Resources
 1. To check if a character or a subset exists in a string, use the `Contains()` method. 
 	- [.Contains()](https://msdn.microsoft.com/en-us/library/dy85x1sa(v=vs.110).aspx){:target="_blank"} 
-2. To randomly pick a number between 0 - n, use the `Random` Class.
+1. To randomly pick a number between 0 - n, use the `Random` Class.
 	- [Random Class](https://msdn.microsoft.com/en-us/library/system.random(v=vs.110).aspx){:target="_blank"} 
-3. To get an array of characters of a specific word. 
+1. To get an array of characters of a specific word. 
 	- [ToCharArray](https://docs.microsoft.com/en-us/dotnet/api/system.string.tochararray?view=netframework-4.7.2#System_String_ToCharArray){:target="_blank"} 
-4. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
+1. Ignore Casing `StringComparison.CurrentCultureIgnoreCase`
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.** 
@@ -109,9 +109,9 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 Your job is to
 
 1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. show them what it looks like in action (Visuals)
+1. show them how they use it (Step by step directions, "Happy Path" walk through)
+1. tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.

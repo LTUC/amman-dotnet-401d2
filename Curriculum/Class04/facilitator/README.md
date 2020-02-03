@@ -5,18 +5,18 @@ Introduce the concept of Classes and Object Oriented Programming as well as the 
 
 ## How do I prep for today?
 1. Upload the starter code for today's lab to the daily class repo in GitHub.
-2. Be comfortable with the demo code and lecture content.
+1. Be comfortable with the demo code and lecture content.
 
 ### Lecture
 1. Code Review
    - Keep it short if possible, there is a lot to cover today!
 1. Classes and Properties
-	1. Classes [Lecture](./Resources/Classes.md)
-	1. Properties [Lecture](./Resources/Properties.md)
+	- Classes [Lecture](./Resources/Classes.md)
+	- Properties [Lecture](./Resources/Properties.md)
 1. Value Types and Reference Types 
-	1. [Lecture](./Resources/ValRefTypes.md)
+	- [Lecture](./Resources/ValRefTypes.md)
 1. Callstack and Heap
-	1. [Lecture](./Resources/StackHeap.md)
+	- [Lecture](./Resources/StackHeap.md)
 1. Garbage Collection. 
    - [Lecture](./Resources/GarbageCollection.md)
    - GC itself is kind of a big topic, and is

@@ -12,14 +12,14 @@ See student facing readme.
 
 ## How do I prep for today?
 1. Review what the most current XUnit version. Make sure it is compatible with your framework. 
-2. Review the demo code and lecture doc
-3. Make sure that you have the example readme templates available in a `Resources/Templates` folder in the class GH repo.
+1. Review the demo code and lecture doc
+1. Make sure that you have the example readme templates available in a `Resources/Templates` folder in the class GH repo.
 
 ## Lecture
  1. Code Review on "About Me Quiz" / Code Challenge
- 2. Introduction to TDD and Unit Testing
+ 1. Introduction to TDD and Unit Testing
 	- Lecture Notes [here]("../Resources/UnitTests.md")
- 3. Demo
+ 1. Demo
     - Recreate FizzBuzz using the TDD Red/Green/Refactor approach
 
 ## Lab Notes

@@ -23,9 +23,9 @@ Output to the console the answer to the proposed math problem.
 
 ## Documentation
 1. Comment your code. 
-2. Provide screen captures in your Readme of what you application looks like during basic execution.
+1. Provide screen captures in your Readme of what you application looks like during basic execution.
 
 ### Submitting Your Assignment
 1. Create a new repo in your Github for this assignment.
-2. Name the repository `Prework-Calculator`
-2. Submit the link to your repo in the designated assignment in Canvas.  
+1. Name the repository `Prework-Calculator`
+1. Submit the link to your repo in the designated assignment in Canvas.  

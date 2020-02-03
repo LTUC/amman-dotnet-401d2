@@ -31,9 +31,9 @@ Big O is the calculation of efficiency of time and space when an algorithm runs
 ### Different Types
 1. Big O-Mega
 	- Best case efficiency
-2. Big Theta
+1. Big Theta
 	- Average case efficiency
-3. Big O
+1. Big O
 	- worst case
 
 	We will mostly be focusing on Big O in this class. We want you to determine both the time and the space efficiency for the worst case of each algorithm.

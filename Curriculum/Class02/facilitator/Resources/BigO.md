@@ -17,7 +17,7 @@ Addition
 
 Plan for analysis:
 1. Decide on a parameter for input size
-2. Identify the basic operation
-3. Worst, average, best case for input size n
-4. Set up a sum for the number of time the basic operation is executed
-5. Simplify the sum using standard formulas. (Summations)
+1. Identify the basic operation
+1. Worst, average, best case for input size n
+1. Set up a sum for the number of time the basic operation is executed
+1. Simplify the sum using standard formulas. (Summations)

@@ -32,7 +32,7 @@ Review student facing readme.
 
 ## Lab Notes
 1. The `Calculator` should only be given if you need some time before the first day of class. This lab is optional.
-2. The directions for the lab today are very specific. Make sure the students the directions. 
+1. The directions for the lab today are very specific. Make sure the students the directions. 
  
 ## What changed from yesterday? 
 - N/A

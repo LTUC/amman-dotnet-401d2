@@ -2,17 +2,17 @@
 
 ## Learning Objectives
 1. The student will successfully request user input and output a response to the console.
-2. The student will implement try-catch statements as a form of exception handling within their code.
-3. Set-up a debugger within Visual Studio 2017.
-4. Understand and be comfortable with debugging through code to identify potential bugs and errors. 
+1. The student will implement try-catch statements as a form of exception handling within their code.
+1. Set-up a debugger within Visual Studio 2017.
+1. Understand and be comfortable with debugging through code to identify potential bugs and errors. 
 
 ## Lecture Outline
 
 ## Review
 1. Syllabus
-2. Grade Break down
-3. Coding Challenges and Expectations
-4. Due Dates
+1. Grade Break down
+1. Coding Challenges and Expectations
+1. Due Dates
 
 
 ## Welcome to 401: Advanced Software Development in ASP.NET MVC Core
