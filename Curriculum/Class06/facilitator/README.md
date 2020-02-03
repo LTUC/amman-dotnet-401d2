@@ -5,7 +5,7 @@ Today is an extension off of class 05. We extend from the OOP principles into in
 
 ## How do I prep for today?
 1. Review the readings. Be prepared to answer questions if the students have questions
-2. Review the contents in the Resources folder. Be familiar with the content and the demo code to build out for the students.
+1. Review the contents in the Resources folder. Be familiar with the content and the demo code to build out for the students.
 
 ## Lecture
 1. Code Review

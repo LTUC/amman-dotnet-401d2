@@ -2,4 +2,4 @@
 
 ## Lecture Outline
 1. Review content from week 1 and week 2
-2. Implement your designated data structure!
+1. Implement your designated data structure!

@@ -4,8 +4,8 @@
 
 
 1. MVC is an architectural pattern used in web applications. 
-2. MVC is extremely helpful when it comes to separation of concerns. 
-3. This allows us to make changes to the front-end (view) without 
+1. MVC is extremely helpful when it comes to separation of concerns. 
+1. This allows us to make changes to the front-end (view) without 
 affecting the business logic or the routes. 
 
 ### Model
@@ -42,7 +42,7 @@ You will make very little changes to the Program.cs class.
 ### Startup Class
 The startup class is where you will be putting in a majority of your changes and configuration in code. The startup class consists 
 of where we register any required middleware of dependencies that required for our application to run the way we expect.
-, in addition to changes or settings to the HTTP pipeline. 
+In addition to changes or settings to the HTTP pipeline. 
 
 Get comfortable with the startup class, because you will be spending a lot of time in here. 
 
@@ -70,11 +70,11 @@ can use the pre-created default template if they wish.
 Now that they have the default template created in the Startup class, this is a great segway into creating an actual controller. 
 Start out the demo by walking through how to create a controller. 
 1. Start by creating a class
-2. Make the class inherit from `Controller`
-3. Talk about how "methods" in controllers are called "Actions"
-2. Create a nwe action, with the return type of string
-5. return a string from the method. 
-6. Go to the appropriate page on the site and see the string outputted
+1. Make the class inherit from `Controller`
+1. Talk about how "methods" in controllers are called "Actions"
+1. Create a nwe action, with the return type of string
+1. return a string from the method. 
+1. Go to the appropriate page on the site and see the string outputted
 
 Pretty cool huh? 
 
@@ -104,8 +104,8 @@ to render. First, we need to change the return type, we are no longer returning 
 Next, set your return statement of your action to be `return View()`. This will allow us to call the 
 appropriate view to get rendered. The `View()` request flow does the following:
 1. Looks for the "Views" folder
-2. Finds the folder name of the matching controller
-3. Finds the `.cshtml` file with the same name as the action
+1. Finds the folder name of the matching controller
+1. Finds the `.cshtml` file with the same name as the action
 
 Within the view page, you can write c# by indicating a `@model` directive at the top of the page. 
 This directive will define for us what type of data will be displayed on our view. the `@model` will declare the 
@@ -136,7 +136,7 @@ with no presentation, you do not need the directive. Here is an example of an in
 
 The intake form maps the name attribute and model binds that to the appropriate property.
 1. If you did bring in a `@model`, then the for will bind to the property
-2. If you did not, then the for will bind to the parameter that you have set in the controller within the `[HTTPPOST]` action. 
+1. If you did not, then the for will bind to the parameter that you have set in the controller within the `[HTTPPOST]` action. 
 
 
 Once you add the submit button, you will need to make an additional action in the controller that has an
@@ -150,7 +150,7 @@ Once you add the submit button, you will need to make an additional action in th
     - Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the application. 
     - strongly typed views will typically use ViewModel types specifically designed to contain data to display on that view. The controller will create and populate these ViewModels from the model. 
 
-2. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
+1. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
 
 
 Create a new folder named `Models` (The name of the folder doesn't actually matter, but convention tells us to call it Models).

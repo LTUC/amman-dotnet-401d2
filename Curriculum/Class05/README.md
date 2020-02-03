@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. The student will know the difference between procedural and object oriented programming
-2. The student will be introduced and understand the differences between the 4 OOP principles.
+1. The student will be introduced and understand the differences between the 4 OOP principles.
 
 ## Lecture Outline
 
@@ -67,7 +67,7 @@ classes or methods. Examples of encapsulation are Public, private, and protected
 
 Access Modifiers: 
 1. Public - Everyone has access
-2. Private - Only the class has access to it
-3. Protected - the class and any of it's derived children have access. 
+1. Private - Only the class has access to it
+1. Protected - the class and any of it's derived children have access. 
 
 

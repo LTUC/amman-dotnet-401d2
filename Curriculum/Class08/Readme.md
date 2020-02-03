@@ -10,7 +10,7 @@
   - Add data to the collection
   - iterate through the collection
 
-1. What is an easier way to iterate through a collection?
+3. What is an easier way to iterate through a collection?
 
 ### What Is LINQ?
 - Language Integrated Query

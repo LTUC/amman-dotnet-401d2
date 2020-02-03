@@ -2,7 +2,7 @@
 ### Enums
 
 1. What are enums?
-   1. Enumeration types ("also called enums"), provide an 
+   - Enumeration types ("also called enums"), provide an 
    efficient way to define a set of named integral constants that may be assigned 
    to a variable. 
 

@@ -5,13 +5,13 @@
 Building off of your Async Inn web application, include the following:
 1. Add data annotations to your existing models to validate basic user input fields as appropriate.
 1. Add a layout that will be inherited/utilized on all of your pages (if you haven't already). 
-2. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
+1. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
 	- Use [this resource](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-2.1){:target="_blank"} for assistance
-3. While adding partials is not required, see if you can find a way to utilize them within your layouts
+1. While adding partials is not required, see if you can find a way to utilize them within your layouts
 
-4. Allow the functionality on your `HotelController` to display the total number of hotels that exist in the database, as well as the number of Rooms that each hotel has. 
-5. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
-6. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
+1. Allow the functionality on your `HotelController` to display the total number of hotels that exist in the database, as well as the number of Rooms that each hotel has. 
+1. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
+1. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
 	- Example: if you have a total of 5 Hotels, the top of your Hotel home page should say that you have 5 total hotels in the system.
 
 ## Guidance
@@ -33,7 +33,7 @@ I **strongly** encourage you to research how to write tests for a .NET Core MVC 
 
 You're README should include:
 1. Introduction to your application
-2. Database ERD
+1. Database ERD
 
 ## Rubric
 

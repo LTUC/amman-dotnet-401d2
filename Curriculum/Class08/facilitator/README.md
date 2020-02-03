@@ -2,14 +2,14 @@
 
 ## How do I prep for today?
 1. Review the readings for the day. Be prepared to answer questions if the students have questions
-2. Review the topics in the Resources folder
-3. Review the demo code. Be comfortable with rebuilding it in class with the students.
+1. Review the topics in the Resources folder
+1. Review the demo code. Be comfortable with rebuilding it in class with the students.
 
 ## Lecture
 1. Introduce Delegates
-2. Introduce LINQ
-4. Show LINQ Queries and LINQ Method calls
-3. Talk about Anonymous Delegate Types (Func and Actions)
+1. Introduce LINQ
+1. Show LINQ Queries and LINQ Method calls
+1. Talk about Anonymous Delegate Types (Func and Actions)
 
 ## What changed from yesterday? 
 Building off of collections from yesterday. We will/can use `IEnumerable<T>` today for our result of our queries. May not hurt to re-review.

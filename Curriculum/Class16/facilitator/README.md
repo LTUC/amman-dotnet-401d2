@@ -6,7 +6,7 @@ Build off of the demo code from class 14.
 
 Today's Topics:
 1. Intro to Dependency Injection (slide deck)
-2. Intro to the Repository Design Pattern
+1. Intro to the Repository Design Pattern
 	- Review of Interfaces
       - Emphasize the reusability of interfaces. 
       - Talk about the OOP principles and how/where interfaces fit.

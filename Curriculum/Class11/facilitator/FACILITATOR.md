@@ -12,13 +12,13 @@
    - No time for code review today, jump right into MVC and .NET Core
 1. What is ASP.NET Core?
 	- Review what and why asp.net core is so great! 
-2. What is MVC?
+1. What is MVC?
 	- What does it stand for? How do each of these components work with each other? 
 	- Start out the lecture with a drawing out MVC model and reviewing each of the components.
 	- Draw out the .NET Core web request cycle with the program and startup file. (MVCDiagram.PNG)
-3. How to create an MVC application
+1. How to create an MVC application
 	- Start the Demo steps
-4. Share the MVCSetup steps with the students
+1. Share the MVCSetup steps with the students
 
 ## Lab Notes
 This lab requires that they use the System.IO content from class 03 to read in a .csv file, convert each line to a Person object and then load it into a list. They will then filter this list given the search criteria and send that data back to view.

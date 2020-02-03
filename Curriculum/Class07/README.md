@@ -2,18 +2,18 @@
 
 ## Learning Objectives
 1. The student will understand and implement their own enums into their programs and classes.
-2. The student will be able to identify and implement their own generic collection.
+1. The student will be able to identify and implement their own generic collection.
 
 ## Lecture Outline
 
 #### Overview:
 1. Review the coding challenge from the previous day, this will directly tie into today's lecture.
-2. We will go over both generic and non-generic, but they will be implementing their own generic collection as their lab assignment.
+1. We will go over both generic and non-generic, but they will be implementing their own generic collection as their lab assignment.
 
 ### Enums
 
 1. What are enums?
-   1. Enumeration types ("also called enums"), provide an 
+   - Enumeration types ("also called enums"), provide an 
    efficient way to define a set of named integral constants that may be assigned 
    to a variable. 
 
@@ -79,8 +79,8 @@
 ### Collections
 
 There are two ways to create and manage a group of related objects
-  1. Create an array of objects
-    2. creating a collection of objects
+1. Create an array of objects
+2. Creating a collection of objects
 
 
 A collection is a class, so you must declare an instance of the class before you can add elements to that collection.

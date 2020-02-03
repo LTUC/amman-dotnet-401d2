@@ -40,8 +40,8 @@ Your solution should include the following:
 ## Unit Tests
 Adding additional tests with the following functionality: 
 1. Test that the classes that implement the interface actually implement it
-2. Test inheritance
-3. Test polymorphism
+1. Test inheritance
+1. Test polymorphism
 	- Prove methods have been overridden
 	- Prove that one of your concrete vehicles `is an` Vehicle
 

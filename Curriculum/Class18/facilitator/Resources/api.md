@@ -7,16 +7,16 @@ What does API mean? - Application Program Interface
 
 #### HTTP Verbs
 1. GET - Get a resource, should be repeatable w/o side effects
-2. POST - "Do Some action" / create new resource/ super flexible
-3. PUT - "Take a resource and put it somewhere" // If it doesn't exist, create it, if it does update it, should be repeatable w/o side effects 
-4. DELETE - Remove a resource
+1. POST - "Do Some action" / create new resource/ super flexible
+1. PUT - "Take a resource and put it somewhere" // If it doesn't exist, create it, if it does update it, should be repeatable w/o side effects 
+1. DELETE - Remove a resource
 
 Stateless Request/reply protocol
 
 What is an API?
 1. An HTTP Service
-2. APIs allow any platform to conuse (anything that speaks http)
-3. Accessible across the internet. 
+1. APIs allow any platform to conuse (anything that speaks http)
+1. Accessible across the internet. 
 
 ## REST
 
@@ -28,12 +28,12 @@ How is data represented:
 
 What makes up an HTTP request?
 1. Headers
-2. Body - Can be any format (Json, XML, IMG, etc...)
-3. Status Codes
+1. Body - Can be any format (Json, XML, IMG, etc...)
+1. Status Codes
 
 Rules of HTTP are important and we can take advantage of everything else that the web contains within HTTP
 
-1. Status Codes 
+**Status Codes** 
 - 200 - Ok
 - 400 - Bad Request (Client Issue/Blame the client)
 - 500 - Internal Server Error (Server Issue/ Blame the Server)
@@ -41,9 +41,9 @@ Rules of HTTP are important and we can take advantage of everything else that th
 
 ## Handling HTTP Requests in .NET Core
 1. The server (Kestral) listens for the request
-2. Middleware pipeline is invoked for each request
-3. Use MVC to route requests to controller & Action
-4. Responses flow back down the middleware pipeline. 
+1. Middleware pipeline is invoked for each request
+1. Use MVC to route requests to controller & Action
+1. Responses flow back down the middleware pipeline. 
 
 ## Key Terms
 - Attribute Routing

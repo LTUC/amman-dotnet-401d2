@@ -5,14 +5,14 @@ Today, the students will build off of interfaces and see how a built in interfac
 
 ## How do I prep for today?
 1. Read through the daily readings
-2. Review the Resources folder with the Collections.md file
-3. Get Familiar with IEnumerable and IEnumerator. Be able to explain the difference between them
-4. Introduce Enums
+1. Review the Resources folder with the Collections.md file
+1. Get Familiar with IEnumerable and IEnumerator. Be able to explain the difference between them
+1. Introduce Enums
 
 ## Lecture
 1. Code Review
-2. [Enums](./Resources/Enums)
-3. [Collections](./Resources/Collections) (Generic vs Non-Generic)
+1. [Enums](./Resources/Enums)
+1. [Collections](./Resources/Collections) (Generic vs Non-Generic)
 
 ## Lab Notes
 The lab directions contain some code snippets to assist students if needed. They are allowed to use this code, if they wish, but they must comment the code to show understanding.

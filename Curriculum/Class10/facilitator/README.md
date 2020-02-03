@@ -8,12 +8,12 @@ A good place to start with the review is to go over the review quizzes from week
 Remind students of a few thing before entering class 11:
 1. They should wrap up any pending assignments from week 2. It is suggested that they are completed with them, in it's entirety, before moving into class 11. 
 
-2. They do not have a lab for class 11...they should use this time to complete the readings and be ready to jump into .NET Core. 
+1. They do not have a lab for class 11...they should use this time to complete the readings and be ready to jump into .NET Core. 
 
 ## Lecture
 1. Code Review
    - Ask the students if they are having trouble with any pending assignments
-2. Data Structure Lesson
+1. Data Structure Lesson
    - Refer to the class 10 implementation assignment in the common curriculum.
 
 ## What changed from yesterday? 

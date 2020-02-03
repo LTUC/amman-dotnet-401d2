@@ -6,9 +6,9 @@
 1. Code Review
    - Review what an API is and what RESTful means
    - Code out a basic API while using the Repository Design Pattern and SQL Server Database
-2. Add a 2nd Controller and Join Table
+1. Add a 2nd Controller and Join Table
    - Show how to use a join table when extracting data from an API endpoint from the database
-3. Test APIs
+1. Test APIs
    - Demonstrate how to test api endpoints
    
 If you are not able to complete the demo in class, it is ok to share the provided demo to the students so they can see the finished product. 

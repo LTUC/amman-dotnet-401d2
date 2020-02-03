@@ -37,15 +37,15 @@ get all of the tasks by a simple get request.
 ## Unit Tests
 - Test your application for the following functionality:
 1. Create a ToDO item
-2. Read a TODO Item
-3. Update a ToDo item
-4. Delete a ToDo Item
-5. Create a List
-6. Read a List
-7. Update a List
-8. Delete a list
+1. Read a TODO Item
+1. Update a ToDo item
+1. Delete a ToDo Item
+1. Create a List
+1. Read a List
+1. Update a List
+1. Delete a list
 9. Add Items to a List
-10. Remove items from a list
+1. Remove items from a list
 
 
 ## Stretch Goals
@@ -65,9 +65,9 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 Your job is to
 
 1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. show them what it looks like in action (Visuals)
+1. show them how they use it (Step by step directions, "Happy Path" walk through)
+1. tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.

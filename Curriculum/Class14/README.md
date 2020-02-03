@@ -9,14 +9,14 @@
 
 Hour 1:
 1. Scaffold a Controller
-2. Review the pre-created code.
-3. Add data to the DB from a user form
+1. Review the pre-created code.
+1. Add data to the DB from a user form
 
 Hour 2:
 1. Data Annotations
-2. Seed the database
+1. Seed the database
 
 Hour 3:
 1. Turn an enum into a DDL
-2. Layouts
+1. Layouts
 

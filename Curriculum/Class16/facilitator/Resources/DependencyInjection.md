@@ -2,8 +2,8 @@
 
 ### Three Take-a-ways
 1. 3 Life cycles of DI
-2. Advantages of the Repository Pattern
-3. Advantages of why we use Asynchronous programming
+1. Advantages of the Repository Pattern
+1. Advantages of why we use Asynchronous programming
 
 ## Introduce Dependency Injection
 Dependency Injection (DI) allows us to keep our applications loosely coupled. 
@@ -18,8 +18,8 @@ minimal overhead of refactoring code.
 
 Slides of of interest:
 1. Slide 7 - This is what it "looks" like. Note the constructors job of bringing in a variable. this is what is being "injected"
-2. Slide 8 - This is the request flow. Keep referring to this slide to show students what is actually happening. 
-3. Slide 10 - Lifecycles - These are the different type of DI lifecycles.
+1. Slide 8 - This is the request flow. Keep referring to this slide to show students what is actually happening. 
+1. Slide 10 - Lifecycles - These are the different type of DI lifecycles.
 
 After going over the slide deck, pull up one of the controllers that were scaffolded. 
 These controllers contain DI with the DBContext getting injected in. The registration of this
@@ -34,9 +34,9 @@ Draw it out:
 <DRAWING HERE>
 
 1. Create a new interface with CRUD operations
-2. Create a new class with that implements the interface
-3. Register the interface in the startup
+1. Create a new class with that implements the interface
+1. Register the interface in the startup
    - Show the error message of what happens when we "forget" to register
-4. Refactor controller to use interface instead of DBContext
-5. Make sure the interface is asynchronous where appropriate
+1. Refactor controller to use interface instead of DBContext
+1. Make sure the interface is asynchronous where appropriate
 

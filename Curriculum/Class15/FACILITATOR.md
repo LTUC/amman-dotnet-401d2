@@ -3,7 +3,7 @@
 ## How do I prep for today?
 Career Coaching 
 1. Refer to Common Curriculum for day's content
-2. The students will have a weekend implementation assignment for the Data Structures and Algorithms curriculum. This weekend they are implementing the Tree (Binary Tree and Binary Search Tree implementation)
+1. The students will have a weekend implementation assignment for the Data Structures and Algorithms curriculum. This weekend they are implementing the Tree (Binary Tree and Binary Search Tree implementation)
 
 ## What changed from yesterday? 
 No lab or lecture this day. Just career coaching

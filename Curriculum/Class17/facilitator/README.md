@@ -4,20 +4,20 @@
 
 Today's Topics:
 1. Review: Interfaces and Dependency Injection
-2. HTML/CSS assistance
-3. Testing assistance
-4. Search & Filter results (Tutorial in reading)
+1. HTML/CSS assistance
+1. Testing assistance
+1. Search & Filter results (Tutorial in reading)
 
 ## Lecture
 1. Code Review
    - Expect to walk through the creation of a 2nd service and interface. Inject that interface into the controller and refactor the controller to use the interface instead of the DbContext.
    - show what the "join table controllers" look like. They will be injecting more than one interface into that controller. Show them how to use both to get different pieces of data from different injected data. 
 
-2. Testing
+1. Testing
    - Create an Xunit Test project 
    - Write tests against their interface to test the CRUD operations
    - Remind them about getter and setter tests
-3. Review the Search/Filter tutorial
+1. Review the Search/Filter tutorial
    - Emphasize the importance of View Models and why we like them. 
 
 

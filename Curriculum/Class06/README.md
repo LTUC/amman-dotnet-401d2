@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. The student will understand the difference between inheritance and interfaces.
-2. The student will be able to set up a hierarchy of classes that both inherit from a base class and implement at least one interface. 
+1. The student will be able to set up a hierarchy of classes that both inherit from a base class and implement at least one interface. 
 
 ## Lecture Outline
 

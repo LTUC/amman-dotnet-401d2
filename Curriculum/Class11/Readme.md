@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. The student will implement their own MVC web application
-2. The student will practice the separation of concerns concepts through the MVC architectural pattern.
+1. The student will practice the separation of concerns concepts through the MVC architectural pattern.
 
 ## Lecture Outline
 

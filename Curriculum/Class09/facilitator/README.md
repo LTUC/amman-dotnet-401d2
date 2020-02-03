@@ -6,8 +6,8 @@
 
 ### Lecture
 1. Code Review
-2. [Recursion](./Resources/Recursion.md) 
-3. You may optionally choose to teach the design patterns lecture this day in addition to recursion. The Design Pattern lecture is located in the "Extra_Lectures" folder. The reading for the day still introduces design patterns, you may choose how it is introduced and discussed in the class.
+1. [Recursion](./Resources/Recursion.md) 
+1. You may optionally choose to teach the design patterns lecture this day in addition to recursion. The Design Pattern lecture is located in the "Extra_Lectures" folder. The reading for the day still introduces design patterns, you may choose how it is introduced and discussed in the class.
 
 ## What changed from yesterday? 
 N/A

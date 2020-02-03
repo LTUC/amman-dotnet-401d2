@@ -9,10 +9,10 @@ relational databases consist of one or more tables where
 each table consists of 0 or records/rows. 
 
 ## Terminology of a Relational Database
-- relation: a table in a database
-- tuple: a row within the table
-- attribute: column of a table 
-- null: Value does not exist or is unknown
+- Relation: a table in a database
+- Tuple: a row within the table
+- Attribute: column of a table 
+- Null: Value does not exist or is unknown
 - Primary Key : key in a relation that is unique. 
 - Foreign Key: a dependency that exists in another relation, that is also
 a primary key in another table/relation
@@ -38,8 +38,8 @@ create table department
 
 The relation above has 3 attributes:
 1. dept_name
-2. building
-3. budget (12 digits total, 2 of which are after the decimal point)
+1. building
+1. budget (12 digits total, 2 of which are after the decimal point)
 
 The dept_name is also specified as the primary key
 
@@ -50,11 +50,11 @@ Many of the tables in a database will have relationships between them.
 The different types of relationships we can have are
 
 1. one to one
-2. one to many
-3. many to one
-4. many to many
+1. one to many
+1. many to one
+1. many to many
 
-the connection between tables is made by Primary Keys and Foreign Keys.
+The connection between tables is made by Primary Keys and Foreign Keys.
 
 1. Foreign Key: this is a primary key from another table. 
 
@@ -75,12 +75,12 @@ this is a primary key of the Customers table and a FK of the Orders table.
 
 ### Basic Types
 1. char : fixed length character
-2. varchar: variable length character. 
-3. int : integers
-4. smallint
-5. numeric
-6. real, double precision
-7. float
+1. varchar: variable length character. 
+1. int : integers
+1. smallint
+1. numeric
+1. real, double precision
+1. float
 
 
 ## Intro of Sql Server
@@ -94,8 +94,8 @@ this is a primary key of the Customers table and a FK of the Orders table.
 ## Single Relations
 The basic structure of an SQL query consists of three clauses
 1. Select : used to list the attributes desired in the result of a query
-2. From: list of the relations to be accessed in the evaluation of the query
-3. Where: filtering of the relation through attributes that meet certain requirements from
+1. From: list of the relations to be accessed in the evaluation of the query
+1. Where: filtering of the relation through attributes that meet certain requirements from
 the `from` clause. 
 
 The skeleton of a basic SQL query
@@ -122,7 +122,7 @@ from instructor
 ```
 
 1. `name` is the attribute that we are looking for
-2. `instructor` is the relation/table we are searching
+1. `instructor` is the relation/table we are searching
 
 ### Distinct
 In the event we do not want duplicates, we would use the word `distinct` after
@@ -141,16 +141,16 @@ instructor in the table could be working in the same department.
 ### And/OR
 The logical connectives of 
 1. and
-2. or
-3. not
+1. or
+1. not
 
 are allowed in the where clause. The comparison operators that are allowed are:
 1. < (less than)
-2. > (greater than)
-3. <= (less than or equal to)
-4. >= (greater than or equal to)
-5. = (equal)
-6. <> (not equal)
+1. > (greater than)
+1. <= (less than or equal to)
+1. >= (greater than or equal to)
+1. = (equal)
+1. <> (not equal)
 
 ### Where
 The `where` clause allows us to filter out more specifically within the relation
@@ -179,8 +179,8 @@ where instructor.dept_name = department.dept_name
 ```
 
 A few things to note about this query: 
-1. We can assume that by looking at this query that dept_name exists in both 
-the department and the instructor relations. We know this because we had to "note" this 
+-  We can assume that by looking at this query that dept_name exists in both 
+- The department and the instructor relations. We know this because we had to "note" this 
 above with the "instructor.dept_name" to specify exactly what relation we are referring too. 
 
 ### Select => Where
@@ -296,13 +296,13 @@ order them by name asc.
 ### LIKE
 
 1. %(Percent): matches any substring
-2. _(Underscore): the _ character matches any character
+1. _(Underscore): the _ character matches any character
 
-patterns are case sensitive. Here are some examples of pattern matching:
+Patterns are case sensitive. Here are some examples of pattern matching:
 1. `Intro%` matches any string beginning with "Intro"
-2. `%Comp%` matches any string containing "Comp" as a substring. Such as "Intro to Computer Science"
-3. `_ _ _` matches any string of exactly 3 characters
-4. `_ _ _ %`matches any string of at least 3 characters
+1. `%Comp%` matches any string containing "Comp" as a substring. Such as "Intro to Computer Science"
+1. `_ _ _` matches any string of exactly 3 characters
+1. `_ _ _ %`matches any string of at least 3 characters
 
 The `like` operator is used for comparison. 
 
@@ -350,7 +350,7 @@ values ('CS-437', 'Database Systems', 'Comp.Sci', 4)
 
 
 `drop table r` - deletes not only all the tuples/rows of r, but also 
-the schema for r. AFter r is dropped, no tuples can be inserted into r unless
+the schema for r. After r is dropped, no tuples can be inserted into r unless
 it is re-created with the "create table" command.
 
 `delete from r` - retains the relation of r, but deletes all the tuples in r. 

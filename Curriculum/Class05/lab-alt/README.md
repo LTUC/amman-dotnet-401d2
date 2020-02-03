@@ -49,8 +49,8 @@ Your solution should include the following:
 ## Unit Tests
 Test that your program has the following functionality: 
 1. Getters/Setters on all properties
-2. All concrete and virtual methods that have non-void return types.
-3. 3 of your concrete classes exhibit at least at least 2 expected behaviors from a parent/base class.
+1. All concrete and virtual methods that have non-void return types.
+1. 3 of your concrete classes exhibit at least at least 2 expected behaviors from a parent/base class.
 
 ## Stretch Goals
 No stretch goals present for this project

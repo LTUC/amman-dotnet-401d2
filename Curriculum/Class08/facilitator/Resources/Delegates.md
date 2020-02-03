@@ -1,10 +1,10 @@
 ### Intro Demo
 
 1. Create a Method external from main that does a CWL to show it is being run
-2. Call the method (this should all be review)
-3. Introduce the concept of a Delegate (Delegates allow us to paramaterize code. Review what a "method" actually is). Much like in JavaScript, we are able to send code into a method. 
-4. Create the delegate and tell them that a class is getting created in the bacgkround
-5. Talk about Invoke 
+1. Call the method (this should all be review)
+1. Introduce the concept of a Delegate (Delegates allow us to parameterize code. Review what a "method" actually is). Much like in JavaScript, we are able to send code into a method. 
+1. Create the delegate and tell them that a class is getting created in the background
+1. Talk about Invoke 
 
 When creating a delegate, it also creates a class, behind the scenes. Since it's a class, it can be instantiated.  
 
@@ -48,7 +48,7 @@ OR
 del.Invoke();
 ```
 
-These both do the same things. The compiler is jsut helping us in the first. 
+These both do the same things. The compiler is just helping us in the first. 
 
 let's take a look at our "instantiation" of our hidden class
 
@@ -58,7 +58,7 @@ MyDelegate del = new MyDelegate(MyMethod);
 
 Essentially, del is referencing our method "MyMethod". We can shorthand this by saying 
 
-```cshapr
+```csharp
 // Del reference MyMethod. Del is a delegate. and MyMethod is a method. 
 MyDelegate del = MyMethod;
 ```
@@ -83,7 +83,7 @@ static void PassingADelegate(MyDelegate delly)
 }
 ```
 
-i can also remove the delegate instantiation completley and just do this:
+i can also remove the delegate instantiation completely and just do this:
 
 ```csharp
 static void Main(){
@@ -102,13 +102,13 @@ Since our method requires a delegate we can just pass th method name in to make 
 
 ### Why Delegates
 
-Delegates allows us to paramterize our code. We can pass code, not just ints, or strings, or class types.  Delegates allow us to pass references to some code since delegatse are essentially references to some code (method)
+Delegates allows us to parametrize our code. We can pass code, not just ints, or strings, or class types.  Delegates allow us to pass references to some code since delegates are essentially references to some code (method)
 
 1. Create a new method that returns an `IENumerable<int>` that says GetAllEvenNumbers
 
-2. once in the method, do a foreach and check if each number is even. do a yield return number
+1. once in the method, do a foreach and check if each number is even. do a yield return number
 
-3. prove it works. 
+1. prove it works. 
 
 ```csharp
 IEnumerable<int> result = GetAllEvenNumbers(new[] {1,3,4,2,7,6,8});
@@ -121,11 +121,11 @@ But What if we needed something to get odd numbers?
 We could copy/paste and redo it to change the logic, but that isn't effective because the only thing we are doing is changing the inner logic of the if statement. 
 
 
-What we need to do is paramterize the code of that if statement so that we have the flexibility to have this method do w/e we want, or by having it call these  external methods that are essentially the same thing, but with small logic changes. 
+What we need to do is parametrize the code of that if statement so that we have the flexibility to have this method do w/e we want, or by having it call these  external methods that are essentially the same thing, but with small logic changes. 
 
-1. We need to create a delegate outside the class. Set the return type a bool and have it with a paramter of some number. 
+1. We need to create a delegate outside the class. Set the return type a bool and have it with a parameter of some number. 
 
-2. Create the methods that are going to do the logic for us (GetAllEven, GetAllOdd, GetAllFives)
+1. Create the methods that are going to do the logic for us (GetAllEven, GetAllOdd, GetAllFives)
 
 ```csharp
 static bool GetAllEven(int n){ return n%2 ==0;}
@@ -133,7 +133,7 @@ static bool GetAllEven(int n){ return n%2 ==0;}
 static bool GetAllOdd(int n){ return n%2 ==1;}
 ```
 
-3. We can now have our Method named `GenerateNumbers` that takes in an IEnumerable of ints, and a delegate reference. 
+1. We can now have our Method named `GenerateNumbers` that takes in an IEnumerable of ints, and a delegate reference. 
 
 We can call this GenerateNumbers now by passing it the number we are generating and the method we want to run it through the delegate. 
 
@@ -156,7 +156,7 @@ If we decide that we don't want to make our own delegates but use generic delega
 Ths is where `Action` and `Func` come into the picture.
 
 #### Func
-You use action, as a generic delegate if you want to have specific paramters for a method, with one specific data type returning. These can hold up to 16 parameters, with one data type/variable returning. 
+You use action, as a generic delegate if you want to have specific parameters for a method, with one specific data type returning. These can hold up to 16 parameters, with one data type/variable returning. 
 
 ```csharp
 Func<int, int, bool> myFunc = ThisTakesInTwoIntsAsArgumentsAndReturnsABool;

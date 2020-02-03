@@ -9,12 +9,12 @@ provide for them the official demo code if you don't get all the way through. Th
 ## Lecture Outline
 
 1. Scaffolding out controllers
-2. Enable TagHelpers
-3. Adjust one of the .cshtml pages that contains drop downs to show proper enums (Courses page to show proper Technologies)
-4. Adjust the join table (Enrollments) page to show both student name and course code name within dropdown menus
-5. Layouts being brought in through `_ViewStart.cshtml` or by just being  inherited independently. 
-6. Data Annotations
-7. Seeding the Database 
+1. Enable TagHelpers
+1. Adjust one of the .cshtml pages that contains drop downs to show proper enums (Courses page to show proper Technologies)
+1. Adjust the join table (Enrollments) page to show both student name and course code name within dropdown menus
+1. Layouts being brought in through `_ViewStart.cshtml` or by just being  inherited independently. 
+1. Data Annotations
+1. Seeding the Database 
 
 
 ## What changed from yesterday? 

@@ -56,12 +56,12 @@ public long Factorial(int n)
 	1. Each time a method executes, it reduces the current problem to a smaller instance of the same problem and then calls itself to solve the smaller problem. 
 		- in this example, the method reduces the problem by computing n! to the problem of computing (n-1)! and then multiplying by n. 
 
-	2. the recursion must eventually stop. in this example, the input parameter n decreases with each recursive call until 
+	1. the recursion must eventually stop. in this example, the input parameter n decreases with each recursive call until 
 	it equals 0. At that point, the algorithm returns 1, and does not call itself recursively, so the process stops. 
 
-	3. If the method above calls -1, the recursion never ends. it will go to `-1! = -1 * -2! etc...`
-	4. A way to prevent this is to add a check that says `if(n <= 0) then return 1`. (issues with this is the misleading 1 that is being sent. may be better to just throw an exception)
-	5. Factorial method can grow very quickly. Be careful how you are using it.
+	1. If the method above calls -1, the recursion never ends. it will go to `-1! = -1 * -2! etc...`
+	1. A way to prevent this is to add a check that says `if(n <= 0) then return 1`. (issues with this is the misleading 1 that is being sent. may be better to just throw an exception)
+	1. Factorial method can grow very quickly. Be careful how you are using it.
 
 
 #### Fibonacci Numbers
@@ -102,8 +102,8 @@ public long Fib(int n)
 ### Exercises
 
 1. Reverse a String
-2. write a method to generate a string of n asterisks. 
+1. Write a method to generate a string of n asterisks. 
 Then write a recursive function to generate triangles 
 pointing different directions.
-3. Traverse a Linked List using recursion
-4. Determine if a string is a palindrome
+1. Traverse a Linked List using recursion
+1. Determine if a string is a palindrome

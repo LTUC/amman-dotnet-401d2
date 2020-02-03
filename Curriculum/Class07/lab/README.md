@@ -26,7 +26,7 @@ Your solution should include the following:
     - Title
 	- Author (Make Author it's own class with the appropriate properties)
 	- Genre (This should be an enum)
-4. Appropriate methods for each of the options that the user interface is prompting for
+1. Appropriate methods for each of the options that the user interface is prompting for
 
 
 ## Guidance
@@ -36,8 +36,8 @@ Your solution should include the following:
 - Create an Enum to hold the different genres of book types
 - The methods within your `Library<T>` class should contain at minimum:
 	1. Add
-	2. Remove
-	3. Count (the total number of books in the library)
+	1. Remove
+	1. Count (the total number of books in the library)
 
 - In your `Program.cs` have a method named `Borrow` that gets called from the user interface. 
   - The `Borrow` method should bring in the title of the book
@@ -96,17 +96,17 @@ Here is my logic of "AddABook":
 ## Unit Tests
 Test that your program has the following functionality:
 1. Add a Book to your Library that exists
-2. Remove a book from your library
-3. Cannot remove a book from the library that doesn't exist. 
-4. Getter/Setters of your properties from your `Book` class
-5. Getter/Setters of your properties from your `Author` class.
-6. Accurate count of books within the library
-7. One edge case of your choice
+1. Remove a book from your library
+1. Cannot remove a book from the library that doesn't exist. 
+1. Getter/Setters of your properties from your `Book` class
+1. Getter/Setters of your properties from your `Author` class.
+1. Accurate count of books within the library
+1. One edge case of your choice
 
 ## Stretch Goals
 
 1. A method with the signature of: `public bool IsAvailable(T book)` that determines if a book is available. (Hint: use the `.Equals()` helper)
-2. Add the ability to find a specific book by "Author" or "Title" of the book.(You may need to set a restriction on `T`)
+1. Add the ability to find a specific book by "Author" or "Title" of the book.(You may need to set a restriction on `T`)
 
 ## README
 **A Readme is a requirement. No Readme == No Grade.**
@@ -118,9 +118,9 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 Your job is to:
 
 1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. show them what it looks like in action (Visuals)
+1. show them how they use it (Step by step directions, "Happy Path" walk through)
+1. tell them any other relevant details
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 

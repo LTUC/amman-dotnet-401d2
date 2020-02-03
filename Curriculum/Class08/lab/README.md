@@ -13,10 +13,10 @@ Your solution should include the following:
 Each query builds off of the prior query. You should be chaining.
 
 1. Output all of the neighborhoods in this data list (Final Total: 147 neighborhoods)
-2. Filter out all the neighborhoods that do not have any names (Final Total: 143)
-3. Remove the duplicates (Final Total: 39 neighborhoods)
-4. Rewrite the queries from above and consolidate all into one single query.
-5. Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
+1. Filter out all the neighborhoods that do not have any names (Final Total: 143)
+1. Remove the duplicates (Final Total: 39 neighborhoods)
+1. Rewrite the queries from above and consolidate all into one single query.
+1. Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
 
 You should have a total of 5 outputs. 
 
@@ -38,7 +38,7 @@ No stretch goals are required for this lab
 
 ## Additional Resources
 1. [NewtonSoft LINQ to JSON](https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm)
-2. [Serializing JSON](https://www.newtonsoft.com/json/help/html/SerializingJSON.htm)
+1. [Serializing JSON](https://www.newtonsoft.com/json/help/html/SerializingJSON.htm)
 
 
 ## README
@@ -50,9 +50,9 @@ A README is a module consumer's first -- and maybe only -- look into your creati
 Your job is to
 
 1. tell them what it is (with context, provide a summary)
-2. show them what it looks like in action (Visuals)
-3. show them how they use it (Step by step directions, "Happy Path" walk through)
-4. tell them any other relevant details
+1. show them what it looks like in action (Visuals)
+1. show them how they use it (Step by step directions, "Happy Path" walk through)
+1. tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.

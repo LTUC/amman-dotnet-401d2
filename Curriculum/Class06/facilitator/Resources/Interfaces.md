@@ -18,7 +18,7 @@ Traditionally, you use interfaces to allow functionality on a class on external 
 Most commonly, in the development world, when working across teams, your team will receive an interface that must be implemented in your code. 
 The interface defines what exactly this other team is expecting, and it is your job to define the functionality for each of those methods and properties. 
 
-why do you need them?
+Why do you need them?
 	- Sometimes you need to group your objects together based on the **things they can do** rather than the classes they inherit from.
       That is where interfaces come in - they let you work with any class that can do the job. 
       Any class that implements an interface must promise to 'fulfill it's obligations' or the compiler will get upset. 

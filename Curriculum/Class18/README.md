@@ -29,6 +29,6 @@
 
 ### HTTP Verbs
 1. GET - Retrieve an item
-2. POST - Add/Save a resource
-3. PUT - Update a resource
-4. DELETE - Remove a resource
+1. POST - Add/Save a resource
+1. PUT - Update a resource
+1. DELETE - Remove a resource

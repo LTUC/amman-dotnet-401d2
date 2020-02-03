@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 1. Students will know how to implement recursion.
-2. Students will know and understand the bounds and limitations of recursion.
+1. Students will know and understand the bounds and limitations of recursion.
 
 ## Lecture Outline
 

@@ -27,15 +27,15 @@ Read ***the full document*** before you begin.
 ## Guidance
 Build your ERD (Entity Relationship Diagram) so that it has at least:
 1. (1) Joint Entity Table with Payload
-2. (1) Pure Join Table
-3. (1) Enum 
+1. (1) Pure Join Table
+1. (1) Enum 
 
 Within your ERD identify/label the following as necessary:
 1. Primary Keys
-2. Foreign Keys 
-3. Composite Keys (where they exist)
-4. Navigation Properties (What other entities are related? Why?)
-5. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
+1. Foreign Keys 
+1. Composite Keys (where they exist)
+1. Navigation Properties (What other entities are related? Why?)
+1. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
 
 In a external doc, please provide an explanation of the components in your database ERD diagram. 
 

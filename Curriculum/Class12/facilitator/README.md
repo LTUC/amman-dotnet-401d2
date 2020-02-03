@@ -19,11 +19,11 @@ Today primarily focuses on an introduction to databases. This should be a combin
    - Review the MVC lab. 
    - Show the students the solution to reading in a csv file and converting it to an object
    - Review turnery operators
-2. Review data persistance
+1. Review data persistance
    - What is data persistance? 
    - What are databases? Why do we need them?
-3. Introduce ERDs
-4. In-Class exercise to build out ERD for student enrollment demo
+1. Introduce ERDs
+1. In-Class exercise to build out ERD for student enrollment demo
 
 ## Lab Notes
 
