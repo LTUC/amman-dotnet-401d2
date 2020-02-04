@@ -7,20 +7,20 @@ for Classes 26 - 45.
  
 By the end of lecture, students should have seen:
 1. Introduction to Azure Dev Ops
-2. A complete workflow using Azure Dev Ops and Azure Repos
-3. Integration of Identity into an existing project
+1. A complete workflow using Azure Dev Ops and Azure Repos
+1. Integration of Identity into an existing project
 
 ## Preparation
 Here is checklist of items that you should complete before the start of lecture: 
 1. If you have chosen to utilize the Canvas Pages, follow the instructions in the [Canvas file](./Canvas.md)
-2. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
+1. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
     - [Azure Dev Ops](https://dev.azure.com/)
     - [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
-3. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
+1. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
     tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well. 
-4. Review the [Intro to Identity](./Identity.md) lecture.
+1. Review the [Intro to Identity](./Identity.md) lecture.
    - [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
-5. Be Comfortable with the demo code and all of the different moving components 
+1. Be Comfortable with the demo code and all of the different moving components 
 
 ### Lecture
 1. Introduce the ECom project by reviewing each week's expectations (30min)
@@ -31,14 +31,14 @@ Here is checklist of items that you should complete before the start of lecture:
    - Everyone is responsible for their own submission (no "group" submissions)
    - Show the grading rubric for sprint 1
 
-2. Introduce Azure Dev OPS project management tool & VS extension  (max 1 hour)
+1. Introduce Azure Dev OPS project management tool & VS extension  (max 1 hour)
    - Use the cheat sheet from the prep section as steps on how to create and complete tasks within ADO.
    - Walk through the creation of a repo and cloning it down to your Visual Studio extension 
    - Create a basic scaffolded MVC app w/ a database in class following the Azure Dev Ops work flow
         - The demo is using User Secrets, so don't forget to include the User secrets file and Connection String file! 
         - Your initial demo should match the `ADO_Scaffold_Demo` located in the Demo Folder. 
 
-3. [Intro to Identity](./Identity.md) (max 90 min)
+1. [Intro to Identity](./Identity.md) (max 90 min)
    - Register Identity in Startup File
    - Create a new DBContext for Identity
    - Run migration scripts to show user tables. 

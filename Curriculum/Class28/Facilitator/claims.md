@@ -29,8 +29,8 @@ may not visit the site again or want to disclose that information.
 Within Identity, there are three core components:
 
 1. Claims
-2. Identity
-3. Principles
+1. Identity
+1. Principles
 
 
 ### Claims
@@ -85,4 +85,4 @@ registration page. Explain what identity and principle is but we won't actually 
 
 ### Sources:
 1. [Claims](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.2)
-2. [Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
+1. [Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)

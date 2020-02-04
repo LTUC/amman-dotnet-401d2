@@ -6,7 +6,7 @@ This is web security day! most of this day is class discussion about what HTTP i
 1. Code Review of Someone's E-COM project. Help 1 or 2 groups work thorough any
 obstacles they are encountering. (1 hour)
 1. Web Security PPT (45 minutes) [NOTES](./Resources/HTTPS.md)
-2. OWASP powerpoint (45 minutes) [NOTES](./Resources/OWASP.md)
+1. OWASP powerpoint (45 minutes) [NOTES](./Resources/OWASP.md)
 
 There is an extra DiffieHelman.md file if you want to review it. It's 
 a fun activity to show the students an example of how the Symmetric key algorithm works.

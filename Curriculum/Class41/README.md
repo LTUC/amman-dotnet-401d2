@@ -2,8 +2,8 @@ Class 41: ASP.NET
 
 ## Learning Objectives
 1. The student will learn about the history of the ASP.NET framework
-2. The student will know the differences between ASP.NET 4.8 and ASP.NET Core
-3. The students will create an MVC application in ASP.NET 4.8
+1. The student will know the differences between ASP.NET 4.8 and ASP.NET Core
+1. The students will create an MVC application in ASP.NET 4.8
 
 ## Lecture Outline
 

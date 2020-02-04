@@ -36,10 +36,10 @@ Once your team had decided on 2 favorites, prepare your pitches for submission.
 <u>Name of Project</u>
 1. What problem or pain point does it solve?
    a. Keep it high level without going into too much detail. (1-2 sentences is enough)
-2. Front End Web App Purpose 
-3. API Purpose
-4. 3rd party api integration? if so, what?
-5. Minimum MVP definition.
+1. Front End Web App Purpose 
+1. API Purpose
+1. 3rd party api integration? if so, what?
+1. Minimum MVP definition.
 	- What is the **minimum** required for you to present on your demo day?
 
 

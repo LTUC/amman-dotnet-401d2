@@ -5,8 +5,8 @@ Today is the day that we integrate authentication into our CMS app.
 
 By the end of lecture, students should have seen how to:
 1. Incorporate Razor Pages into the existing application
-2. Add Register and Login functionality with RazorPages
-3. See the new user's information in the identity database
+1. Add Register and Login functionality with RazorPages
+1. See the new user's information in the identity database
 
 
 ## Preparation?

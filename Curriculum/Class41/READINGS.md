@@ -15,4 +15,4 @@ Journal entry ideas:
 ## Readings
 
 1. [What is Xamarin?](https://docs.microsoft.com/en-us/xamarin/get-started/what-is-xamarin){:target="_blank"}
-2. [Xamarin](https://dotnet.microsoft.com/apps/xamarin)
+1. [Xamarin](https://dotnet.microsoft.com/apps/xamarin)

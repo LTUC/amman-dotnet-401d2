@@ -58,7 +58,7 @@ it can be anything, the only constraint is that it is derived from Identity User
 
     }
 ```
-1. Create an `ApplicationDbContext` that derives from `:IdentityDbContext<ApplicationUser>`
+3. Create an `ApplicationDbContext` that derives from `:IdentityDbContext<ApplicationUser>`
      - We want to create a new database to hold our Identity information. This will be a 2nd DB for our 
      application, and it will teach students how to manage more than one database in a project. We will do
 this for "separation of concern" purposes, as well as "security" purposes. 
@@ -73,7 +73,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 }
 ```
 
-1. Since we have a new DB, we have to register it. Go to the Startup file and register
+4. Since we have a new DB, we have to register it. Go to the Startup file and register
 your `ApplicationDbContext`
 
 ```csharp
@@ -81,7 +81,7 @@ services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(Configuration.GetConnectionString("UserConnection")));
 ```
 
-1. Now, in your `Startup.cs` file add in Identity under your newly registered DBContext.
+5. Now, in your `Startup.cs` file add in Identity under your newly registered DBContext.
 
 ```csharp
  services.AddIdentity<ApplicationUser, IdentityRole>()

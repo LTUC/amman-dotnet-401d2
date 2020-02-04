@@ -46,4 +46,4 @@ contain information such as
 
 Here are some options:
 1. Use [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.1){:target="_blank"}  (strongly preferred)
-2. Create your custom documentation
+1. Create your custom documentation

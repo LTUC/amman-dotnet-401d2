@@ -17,9 +17,9 @@ For each application (web app and API), start out by creating at least 5 user st
 Each "task" or item in your kanban PM board, for each project, should contain:
 
 1. Title
-2. User Story
-3. Feature Tasks
-4. Acceptance Tests
+1. User Story
+1. Feature Tasks
+1. Acceptance Tests
 
 Provide a link to your kanban board in your project Readme. 
 
@@ -40,12 +40,12 @@ Draft out what your database will look like by creating a schema.
 Be sure to identify which tables are:
 
 1. 1-to-1 relationships
-2. 1-to-many relationships
-3. many-to-many relationships
+1. 1-to-many relationships
+1. many-to-many relationships
 
 Also, include in each table:
 1. the name of column
-2. The required data type
+1. The required data type
 
 Include this DB schema in your readme, accompanied by an explanation of each table
 and it's responsibility in the application. 

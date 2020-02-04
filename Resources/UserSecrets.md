@@ -1,6 +1,6 @@
 # How to add User Secrets to .NET Core through Visual Studio
 
-What is User secrets? User secrets is a secure way of storing prive user information
+What is User secrets? User secrets is a secure way of storing private user information
 such as API keys, client secrets, and connection strings. Essentially anything that you 
 don't want others to know about when using your code base. 
 
@@ -70,10 +70,10 @@ public Startup(IConfiguration configuration)
 ```
 
 This is how our configuration gets build.  
-Don't forget the `.AddEnvironmentVariables()` extention. Your local secrets 
+Don't forget the `.AddEnvironmentVariables()` extension. Your local secrets 
 will work without it but any deployed project will not.
 Now we need access to the configuration from our controller of choice.
-Bring in the configuration using statment at the top of your controller.
+Bring in the configuration using statement at the top of your controller.
 
 ```
 using Microsoft.Extensions.Configuration;
@@ -100,11 +100,11 @@ client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key",
 ```
 
 Your local project is now ready to go. No more worries about uploading api 
-keys and passwrods to git. However since our secret.json file is not deployed 
-with your project that production version on Azure is now missing some importnat 
+keys and passwords to git. However since our secret.json file is not deployed 
+with your project that production version on Azure is now missing some important 
 stuff.
 
-Fortunetly Azure has a simple way for us to add in user secret data like this. 
+Fortunately Azure has a simple way for us to add in user secret data like this. 
 Follow these steps within your Azure Portal:
 1. Go to your App Services
 2. Select the site you are working on

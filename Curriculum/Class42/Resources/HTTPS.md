@@ -5,8 +5,8 @@
 HTTPS is important for 3 main reasons:
 
 1. Privacy
-2. Integrity
-3. Identification
+1. Integrity
+1. Identification
 
 
 ### Privacy
@@ -54,7 +54,7 @@ digital certificate.
 - Encryption is the act of using some sort of algorithm to "scramble" or 
 change the data so that it is unreadable by others. 
 
-2. What is decryption
+1. What is decryption
 - Decryption is reversing the algorithm used to encrypt to figure out the message.
 
 When you encrypt, you need to know more than just the algorithm...you also need the key.
@@ -65,8 +65,8 @@ Symmetric Key algorithm is when there is only one key to encrypt and decrypt a m
 
 Here is the data flow:
 1. Before sending a message, the message is encrypted with a key
-2. The only person who has a copy of the key can decrypt and read the message.
-3. This key needs to be kept private, you should not share this key. **Anyone who has this key can decrypt the message**
+1. The only person who has a copy of the key can decrypt and read the message.
+1. This key needs to be kept private, you should not share this key. **Anyone who has this key can decrypt the message**
 
 Symmetric key algorithms are not easy to share. The distribution of the key can be tricky. 
 
@@ -75,7 +75,7 @@ You gotta be "sneaky"
 #### Asymmetric Key Algorithm
 In an asymmetric key algorithm...you have 2 keys. 
 1. One key is public
-2. One key is private.
+1. One key is private.
 
 Both keys are paired to work together
 
@@ -85,13 +85,13 @@ decrypt the message and read it.
 
 Workflow:
 1. A Message is encrypted with the public key
-2. Sent to the Owner of the public key (who should also have the private key)
-3. The message is decrypted with the private key
-4. Message is readable. 
+1. Sent to the Owner of the public key (who should also have the private key)
+1. The message is decrypted with the private key
+1. Message is readable. 
 
 Advantages of Asymmetric Keys:
 1. Privacy - No one else can read the data
-2. Identification - only the holder of the private key decrypt and read it. Only the 
+1. Identification - only the holder of the private key decrypt and read it. Only the 
 owner of the 2 keys can open the message. 
 
 #### The 3 way handshake
@@ -100,11 +100,11 @@ owner of the 2 keys can open the message.
 	- Client sends a list of SSL/TLS versions
 	and encryption algorithms that the client can use
 
-2. Server Says Hello
+1. Server Says Hello
 	- The server looks at the accepted list of ssl versions and picks the "best" one.
 	- replies with certificate (includes public key) 
 
-3. A Secure Connection is established
+1. A Secure Connection is established
 	- Client confirms the Server is who they say they are
 	- Client encrypts a key with the server's public key
 	- sends the message back to hte server
@@ -164,26 +164,26 @@ brings some good security improvements.
 
 1. HTTP is just a HTTP protocol but with data encryption
 using SSL/TLS
-2. The "s" in HTTPS is "secure".
-3. SSL was the original and now deprecated protocol created by netscape in the 90s.
-3. TLS is the new protocol for security encryption on the web
-4. The web is maintained by the IETF
+1. The "s" in HTTPS is "secure".
+1. SSL was the original and now deprecated protocol created by netscape in the 90s.
+1. TLS is the new protocol for security encryption on the web
+1. The web is maintained by the IETF
 
 
 ## Cert Authorities
 
 A certificate authority (CA) is a 3rd party organization with 3 main objectives:
 1. Issue Certificates
-2. Confirm the identities of the Cert owners
-3. Provide proof that a cert is valid. 
+1. Confirm the identities of the Cert owners
+1. Provide proof that a cert is valid. 
 
 ### Examples:
 1. Let's Encrypt
-2. Verisign
-3. Comodo
-4. GoDaddy
-5. DigiCert
-6. Symantec
+1. Verisign
+1. Comodo
+1. GoDaddy
+1. DigiCert
+1. Symantec
 
 
 Its hard to be a CA. 
@@ -195,25 +195,25 @@ that they pre-install in the computer or device.
 Three different types of certificates:
 1. Domain Validated
 	- the certificate just verifies the domain name (nothing else), bare min of what you need
-2. Organization Validated
+1. Organization Validated
 	- the cert requires the valid and manual verification of the org behind the cert
-3. Extended Validation
+1. Extended Validation
 	- the cert requires an exhaustive verification of the business. 
 
 This results in the browser displaying a cert badge
 
 ## Cert Validation Process:
 1. When a CA issues a cert, they sign the cert with a root cert pre-installed in the root store
-2. This is usually an "intermediate" cert signed with a root cert
-3. The intermediate cert is easier to revoke since it is not located on the device directly. 
+1. This is usually an "intermediate" cert signed with a root cert
+1. The intermediate cert is easier to revoke since it is not located on the device directly. 
 
 ### STeps
 1. Browser connects to site via HTTPS and downloads the cert
-2. The cert is not a root cert
-3. The browser downloads the cert that was used to sign the cert on the site
-4. Still not a root cert
-5. The browser once more looks at the cert that signed the intermediate cert
-6. Its a root cert!
+1. The cert is not a root cert
+1. The browser downloads the cert that was used to sign the cert on the site
+1. Still not a root cert
+1. The browser once more looks at the cert that signed the intermediate cert
+1. Its a root cert!
 The entire cert chain is then trusted and the site cert is trusted as well
 
 In the event that the last certificate is not a root certificate and there are no more certs to download, the chain is untrustworthy. 

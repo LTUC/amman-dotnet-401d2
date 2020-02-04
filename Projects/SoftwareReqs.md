@@ -31,8 +31,8 @@ What stretch goals are you going to aim for?
 List the functionality of your product.
 This will consist of tasks such as the following:
 1. An Admin can create and delete user accounts
-2. A user can update their profile information
-3. A User can search all of the products in the inventory
+1. A user can update their profile information
+1. A User can search all of the products in the inventory
 
 ## Non-Functional Requirements
 Non-functional requirements are requirements that are not 
@@ -40,9 +40,9 @@ directly related to the functionality of the application.
 
 Examples include:
 1. Security
-2. Usability
-3. Testability
-4. etc....
+1. Usability
+1. Testability
+1. etc....
 
 Pick 2 Non-functional requirements and describe it's functionality in your application 
 

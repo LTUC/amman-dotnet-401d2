@@ -11,10 +11,10 @@ For example, Your team received feedback that you need to fix an error in one or
 You will each individually submit the following into Canvas as a text entry:
 
 1. A deployed link to your azure website
-2. Collaborate with each other and come up with 
+1. Collaborate with each other and come up with 
     - What you did well
     - What you will do differently next sprint
-3. Do you need anything from the instructional staff?
+1. Do you need anything from the instructional staff?
 
 The instructional staff will review your current master branch in Azure Dev Ops and evaluate you accordingly.
 
@@ -63,7 +63,7 @@ Receipt page consists of an itemized list of all products that the user has "pur
 A welcome email is sent to the user upon a new registration. A receipt email is also sent to the user after the "checkout" process from the basket page. Each email is fitting to the problem domain, and formatted professionally. The email consists of a custom greeting and personalization. 
 
 #### Admin Dashboard (10 points)
-Admin Dashboard exists with a landing page directing users to Products Controller. An admin can execute full CRUD operations on the products. Only useres with a role of "Admin" can acess this page. Credentials to an admin account are provided to grader in canvas note.
+Admin Dashboard exists with a landing page directing users to Products Controller. An admin can execute full CRUD operations on the products. Only users with a role of "Admin" can access this page. Credentials to an admin account are provided to grader in canvas note.
 
 #### User Experience (10 points)
 HTML/CSS/SCSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.

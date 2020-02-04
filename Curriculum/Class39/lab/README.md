@@ -3,7 +3,7 @@
 ## User Stories & Guidance:
 
 1. (Developer 1) As a developer, I would like to have a personal profile page that will display my basic information
-2. (developer 2) As a user, I would like to view my last 5 orders I have created from the site
+1. (developer 2) As a user, I would like to view my last 5 orders I have created from the site
 
 
 ### Guidance
@@ -11,7 +11,7 @@
 **User Story 1**: Using .NET Core Razor Pages, create a personal profile page that a logged in user can easily access. The user profile should 
 contain the ability for the user to:
 1. Change their first name
-2. View their email (don't let the user change it)
+1. View their email (don't let the user change it)
 
 You will need to inject `userManager` into your razor page to get basic information about the user.
 

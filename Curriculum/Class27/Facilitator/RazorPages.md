@@ -42,14 +42,14 @@ Refer to this demo for further reference.
 
 1. Create a Pages Folder
 1. Create an Account Folder
-3. Create a new Razor Page for Register
+1. Create a new Razor Page for Register
     - Introduce SignInManager
     - Introduce UserManager
     - Create a nested class to hold Register input data
       - Introduce what a "nested class" is
-4. Create the HTML for the view with a form
-4. Add Code to OnGet
-5. Add Code to OnPost
+1. Create the HTML for the view with a form
+1. Add Code to OnGet
+1. Add Code to OnPost
    - Walk/code through what happens during the process of a Register.
 
 

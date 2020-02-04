@@ -20,10 +20,10 @@ These goals are done individually.
 Each reflection should contain:
 
 1. What was implemented (reference at least 2 different user stories you completed)
-2. What blockers did you encounter?
-3. How was the issue solved. 
-4. What was your estimated time on the user story
-5. What was the actual time on each user story
+1. What blockers did you encounter?
+1. How was the issue solved. 
+1. What was your estimated time on the user story
+1. What was the actual time on each user story
 	- If your actual was under - what do you think helped
 	- If your actual was over - why?
 

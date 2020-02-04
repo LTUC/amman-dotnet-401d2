@@ -11,10 +11,10 @@ For example, Your team received feedback that you need to fix an error in one or
 You will each individually submit the following into Canvas as a text entry:
 
 1. A deployed link to your azure website
-2. Collaborate with each other and come up with 
+1. Collaborate with each other and come up with 
     - What you did well
     - What you will do differently next sprint
-3. Do you need anything from the instructional staff? (these comments are confidential and only shared with instructional staff)
+1. Do you need anything from the instructional staff? (these comments are confidential and only shared with instructional staff)
 
 The instructional staff will review your current master branch in Azure Dev Ops and evaluate you based on the rubric below.
 
@@ -24,15 +24,15 @@ The instructional staff will review your current master branch in Azure Dev Ops 
 ## Checkin
 
 1. All pages should have basic CSS/HTML with a good overall user experience.
-2. Web app and databases should be deployed to azure
+1. Web app and databases should be deployed to azure
 
 ### Readme
 
 Readme should contain the following:
   1. What is the product you are selling?
-  2. What claims are you capturing? Where? Why?
-  3. What Policies are you enforcing? Where? Why? Directions on how to test.
-  4. Link to your deployed website
+  1. What claims are you capturing? Where? Why?
+  1. What Policies are you enforcing? Where? Why? Directions on how to test.
+  1. Link to your deployed website
 
 
 ## Rubric
@@ -71,7 +71,7 @@ Shopping page is accessible by anonymous users as well as fully displays all pro
 Each product is evenly displayed on the page and shopping page has a clean professional appearance.
 
 #### Product Details Page (5 points)
-Each product has a clean details page that displays relevent information important for a consumer to see when reviewing. This page should be accessible from the Shopping page.
+Each product has a clean details page that displays relevant information important for a consumer to see when reviewing. This page should be accessible from the Shopping page.
 
 #### User Experience (10 points)
 HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall 

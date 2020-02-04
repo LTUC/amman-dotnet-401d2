@@ -7,7 +7,7 @@ Lecture outline:
 1. Code Challenge (1 hour)
    - Go over the daily code challenge or give them a practice problem to help them prep
    for interviewing!
-2. IEmailSender(1 hour)
+1. IEmailSender(1 hour)
    - Discuss what email servers are
    - Why do we need them?
    - How can we add one to our site?

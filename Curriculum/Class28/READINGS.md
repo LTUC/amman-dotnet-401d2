@@ -14,5 +14,5 @@ Journal entry ideas:
 
 ## Readings
 1. [Claims-Based auth](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.1){:target="_blank"} 
-2. [Intro to Claims](https://andrewlock.net/introduction-to-authentication-with-asp-net-core/){:target="_blank"} 
-2. [Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html){:target="_blank"}
+1. [Intro to Claims](https://andrewlock.net/introduction-to-authentication-with-asp-net-core/){:target="_blank"} 
+1. [Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html){:target="_blank"}

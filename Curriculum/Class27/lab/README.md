@@ -10,10 +10,10 @@
 
 **User Story 1:** Add identity to your empty MVC project. This is done in the Startup.cs class in the ConfigureServices() method. This is a big user story because the following must also be completed to accomplish this story:
 1. Create an ApplicationUser (that derives from Identity User)
-2. Create a new DBContext for Identity (ApplicationDbContext) and register it into the startup
-3. Setup UserSecrets into your application
-3. Include app.UseAuthentication in your Configure() method within Startup.cs. Place this **after** the `app.UseRouting()`.
-4. Within the `ConfigureServices()` method, add the Identity service by registering your ApplicationUser with your Identity DbContext 
+1. Create a new DBContext for Identity (ApplicationDbContext) and register it into the startup
+1. Setup UserSecrets into your application
+1. Include app.UseAuthentication in your Configure() method within Startup.cs. Place this **after** the `app.UseRouting()`.
+1. Within the `ConfigureServices()` method, add the Identity service by registering your ApplicationUser with your Identity DbContext 
 
 ```
 services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -34,13 +34,13 @@ Next, You will have to create the actual Register page:
 
 **User story 3:** This user story will require the setup of a database. Name this database `StoreDbContext`. Register it in the Startup.cs file. This user story will also require you to implement the repository design pattern
 1. Create a new interface, maybe named IInventory  
-2. Populate the interface with signatures that will represent basic CRUD operations within the inventory for products such as `Create`, `GetAll`, `GetByID`, `Update`, `Delete`.
+1. Populate the interface with signatures that will represent basic CRUD operations within the inventory for products such as `Create`, `GetAll`, `GetByID`, `Update`, `Delete`.
 	- The actual method signatures within your interface will vary and may not be those exact 5 methods.
 	- You won't be using this service right away, but create the interface and service to help prep you for a future sprint.
     - You will create the `ProductsController` in a future sprint. No need to create it now.
-3. Be sure to add the DbContext reference to your interface so that you have access to the db.
-4. Register your interface in your startup class
-5. Bring your interface into your Controller when you need to reference it instead of your DBContext
+1. Be sure to add the DbContext reference to your interface so that you have access to the db.
+1. Register your interface in your startup class
+1. Bring your interface into your Controller when you need to reference it instead of your DBContext
 
 Finally, seed your database with 10 default products. Within your "Product" Model, have properties to hold basic information about a Product such as: ID(int), Sku(string), Name(string), Price(decimal), Description(string), Image(string).
 
