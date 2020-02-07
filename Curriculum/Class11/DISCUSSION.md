@@ -1,18 +1,8 @@
 # Readings: Intro to MVC
 
-## Submission Requirements
+Below you will find some reading material, code samples, and some additional resources that support today's topic and the upcoming lecture.
 
-Below is a collection of resources of varying types and lengths which describe the topics for the upcoming lecture.  
-
-Go through these resources, and create a wiki entry in your fork of the class repo that summarizes the topics you learned as though you were presenting the material to a Code 301-level student interested in learning about it.
-
-Journal entry ideas:
-* Blog Article (2-3 paragraphs with code sample)
-* Dictionary / Flash Cards
-* Notes in outline form
-* Fill-in-the-blank worksheet of key concepts
-
-
+Review the Submission Instructions for guidance on completing and submitting this assignment.
 ## Readings
 
 NOTE: These videos are in .NET Core 1.1 - but the main concepts are still the same. 
