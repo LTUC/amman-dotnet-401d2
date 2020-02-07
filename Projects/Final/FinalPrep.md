@@ -36,12 +36,12 @@ Draft out what your database will look like by creating a schema.
 Be sure to identify which tables are:
 
 1. 1-to-1 relationships
-2. 1-to-many relationships
-3. many-to-many relationships
+1. 1-to-many relationships
+1. many-to-many relationships
 
 Also, include in each table:
-1. the name of column
-2. The required data type
+1. The name of column
+1. The required data type
 
 Include this DB schema in your readme, accompanied by an explanation of each table
 and it's responsibility in the application. 

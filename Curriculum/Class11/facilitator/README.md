@@ -23,7 +23,7 @@
 ## Lab Notes
 This lab requires that they use the System.IO content from class 03 to read in a .csv file, convert each line to a Person object and then load it into a list. They will then filter this list given the search criteria and send that data back to view.
 
-The focus of this lab is to show the students how the 3 parts of MVC work together. Work with the students to assist them in understanding the MVC architechure as a big picture. They should be focusing less on the logic, and more on the convention.
+The focus of this lab is to show the students how the 3 parts of MVC work together. Work with the students to assist them in understanding the MVC architecture as a big picture. They should be focusing less on the logic, and more on the convention.
 
 ## What changed from yesterday? 
 New Topic! Finally working in the web framework. 

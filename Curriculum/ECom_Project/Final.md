@@ -23,13 +23,13 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 1. Home Page
    - Introduction to your site
    - Anonymous accessibility
-2. Login Page
+1. Login Page
    - Login to an existing account
    - Anonymous accessibility
-3. Registration Page
+1. Registration Page
    - Create an account
    - Anonymous Accessibility
-4. Admin Dashboard - (Razor Page)
+1. Admin Dashboard - (Razor Page)
    - Only accessible by users who hold the role of admin
    - Manage Products (Full CRUD) (Razor Pages)
    - View Last 10 submitted by users
@@ -38,25 +38,25 @@ Upon completion of this Project, Your E-commerce site should contain the followi
        - Items ordered
        - Total
        - Date
-5. Shopping Page
+1. Shopping Page
    - Shows all products in inventory for users to browse
    - Anonymous Access
-6. Product Landing Page
+1. Product Landing Page
    - Displays individual information about each product
    - Anonymous Access
-7. Basket Page
+1. Basket Page
    - View all items in the basket. Allow ability to edit/remove the item.
    - Authorize Access Only
-8. Checkout page
+1. Checkout page
    - Must be logged in/Authorized
    - Transfer products from their "basket" to an "Order"
 9. Receipt/Order Confirmation Page
    - Must be logged in/Authorized
    - Summary of the order that the user just completed. 
-10. Personal Profile Page - (Razor Page)
+1. Personal Profile Page - (Razor Page)
     - Shows user's last 5 orders
     - Displays user information
-11. [Vulnerability](VulnerabilityReport.md){:target="_blank"} report present in Repo 
+1. [Vulnerability](VulnerabilityReport.md){:target="_blank"} report present in Repo 
 
 ### Shared
 - CSS/HTML

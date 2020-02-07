@@ -15,8 +15,8 @@ as collaborators, so that everyone has the right to manage the repository.
 Alternatively, you may create a GitHub “Organization”, add team members as members of the organization, and create the repository there.
 
 1. Lock down your master branch. Set a restriction on your master branch that PR's must be approved by someone other than the PR owner before it can get merged.
-2. Create a branch where a test or staging deployment may be made with merged features that may not yet be ready for production
-3. Apply any other relevant safeguards or processes that you mentioned in your Git Workflow from part 1 of your midterm planning.
+1. Create a branch where a test or staging deployment may be made with merged features that may not yet be ready for production
+1. Apply any other relevant safeguards or processes that you mentioned in your Git Workflow from part 1 of your midterm planning.
 
 
 ## PM Tools

@@ -47,7 +47,7 @@
 ```
 
    - Count starts at 0, if you do not specify a value. 
-   - Default type of enum is int, but you can specify alt with a :type (such as byte);
+   - default type of enum is int, but you can specify alt with a :type (such as byte);
 
 ```csharp
             Days today = Days.Monday;  
@@ -64,7 +64,7 @@
 
 ```
 
-   - You can create and set your custom values
+            - You can create and set your custom values
 
  ```csharp
             enum MachineState
@@ -79,8 +79,9 @@
 ### Collections
 
 There are two ways to create and manage a group of related objects
-  1. Create an array of objects
-    - Creating a collection of objects
+1. Create an array of objects
+2. Creating a collection of objects
+
 
 A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
 
@@ -118,7 +119,7 @@ A collection is a class, so you must declare an instance of the class before you
 
 #### Non-Generics
 
-*Not really used much anymore*
+*are not really used much anymore*
 
 - ArrayList
 - Hashtable

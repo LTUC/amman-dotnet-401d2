@@ -22,7 +22,7 @@ int[] myArray = new int[10];
 
 The space required for the 10 integers that make up the array is allocated on the HEAP
 
-## Example/Anology
+## Example/Analogy
 Digital Newspaper(reference type) vs Printed Newspaper (Value Type)
 - You can make as many printed newspapers as you want, they are all independent from each other
 - With a digital newspaper, when changes occur, everyone that has the reference (URL) can see the changes.

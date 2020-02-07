@@ -28,23 +28,23 @@ Make this project something you can have fun with be proud to put on your resume
 	- What is the request expected response?
     - Use Summary Comments!
 
-2. Written in C#
+1. Written in C#
 
-3. Web based App
+1. Web based App
 
-4. Documentation
+1. Documentation
      - Provide documentation for your project. Include
      the workflow, screenshots of the app, and some basic
     functionality directions on how to use the site. 
 
-5. Security/Performance Analysis
+1. Security/Performance Analysis
 	- Describe the overall security and performance of the app
 
-6. (1) Database
+1. (1) Database
    - Doesn't have to SQL Server
      - CosmosDB and MYSQL are popular if your brave.
   
-7. Testing:
+1. Testing:
   - Unit Tests
 	- XUnit
 

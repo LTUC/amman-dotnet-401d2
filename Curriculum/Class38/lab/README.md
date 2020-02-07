@@ -15,8 +15,8 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 **User Story 2:**  Within the Admin dashboard, add the ability for the admin to see all of the orders that were submitted. The admin should be able to quickly see:
 1. The name of the Customer
-2. The date of the order
-3. The total price of the order
+1. The date of the order
+1. The total price of the order
 
 Each order should link to an individual order page that will give full order details including individual line items. 
 

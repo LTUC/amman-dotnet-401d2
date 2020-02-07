@@ -1,7 +1,7 @@
 # Class 37: File Uploads and Azure Blob
 
 ## Overview
-Today, the students get a look at how to conduct file uploads and storage using Azure Blob Storage. They will implement this functionality into their Ecommerce project to allow for product details manipulation.
+Today, the students get a look at how to conduct file uploads and storage using Azure Blob Storage. They will implement this functionality into their E-commerce project to allow for product details manipulation.
 
 ## How do I prep for today?
 1. Review the readings

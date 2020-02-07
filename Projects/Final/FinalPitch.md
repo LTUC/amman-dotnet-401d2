@@ -12,10 +12,10 @@ Think up ideas of what you want to create. This can be anything within the .NET 
 	- [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/)
 	- [AWS Chatbot](https://github.com/aws-samples/aws-lex-net-chatbot)
 	- [AWS Tutorial](https://aws.amazon.com/getting-started/projects/bots-just-got-better-net-toolkit-lex-lambda-cognito/)
-2. [Signal R](http://signalr.net/)
+1. [Signal R](http://signalr.net/)
 	- [MSFT Docs](https://www.asp.net/signalr)
 	- [GH repo](https://github.com/SignalR/SignalR/wiki)
-3. [.NET Core Blazor](https://blazor.net/docs/tutorials/build-your-first-blazor-app.html)
+1. [.NET Core Blazor](https://blazor.net/docs/tutorials/build-your-first-blazor-app.html)
 	- [.NET Curry Blazor](https://www.dotnetcurry.com/dotnet/1460/blazor-getting-started)
 
 
@@ -54,5 +54,5 @@ Please have your top choice listed first, and second choice listed last.
 <u>Name of Project</u>
 1. What problem or pain point does it solve?
    a. Keep it high level without going into too much detail. 
-2. Why is it interesting?
-3. Minimum MVP defined.
+1. Why is it interesting?
+1. Minimum MVP defined.

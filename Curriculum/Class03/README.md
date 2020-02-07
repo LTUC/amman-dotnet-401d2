@@ -8,8 +8,8 @@
 ## Lecture Outline
 
 ### System IO Library
- - What is it
- - Why do we use it
+ - What is it?
+ - Why do we use it?
 
 #### Writing a file
 
@@ -48,9 +48,9 @@ File.Delete(path);
 ```
 
 ## File Stream
- - What is a stream
-	- StreamReader
-	- StreamWriter
+ - What is a stream?
+	1. StreamReader
+	1. StreamWriter
 
 ## File Types
 - CSV

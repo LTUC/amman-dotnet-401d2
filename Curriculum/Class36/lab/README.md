@@ -7,8 +7,8 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 ## User Stories & Guidance:
 
 1. (Developer 1) As a user, I would like to use AUTH.NET as my automatic payment processing system
-2. (Developer 2)As a user, I would like a fake Credit card drop down to be used for every transaction that occurs in my site.
-3. (Developer 2, 3) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
+1. (Developer 2)As a user, I would like a fake Credit card drop down to be used for every transaction that occurs in my site.
+1. (Developer 2, 3) As a User, I would like to have a checkout page that captures basic information before being redirected to my order summary page. 
 
 
 ### Guidance

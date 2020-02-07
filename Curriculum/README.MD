@@ -2,8 +2,8 @@
 
 The ASP.NET curriculum is broken up into three main modules:
 1. Intro to C#
-2. ASP.NET Web Development
-3. E-Commerce Project
+1. ASP.NET Web Development
+1. E-Commerce Project
 
 ## Module 1 - Into to C#
 This module consists of introduction to C#. You will spend the next 10 classes
@@ -15,31 +15,31 @@ console apps and focus on practicing the c# concepts taught daily.
 ### Week 1 - Fundamentals
 1. Exception Handling
    - LAB: About Me
-2. Unit Testing
+1. Unit Testing
    - LAB: ATM
-3. System.IO
+1. System.IO
    - LAB: Word Guess Game
-4. Classes, Stack/Heap, Garbage Collector
+1. Classes, Stack/Heap, Garbage Collector
    - LAB: Tic-Tac-Toe
-5. OOP Principles
+1. OOP Principles
    - LAB: Zoo Part 1
 
 Data Structures: 
 	- How to Approach a DS
 	- String & Array manipulation
-6. Quiz 1
+1. Quiz 1
 
 ### Week 2 - Advanced Concepts
 
 1. Interfaces
    - LAB: Zoo Part 2
-2. Collections (Generic) & Enums
+1. Collections (Generic) & Enums
    - LAB: Deck of Cards
-3. LINQ & Lambda Expressions
+1. LINQ & Lambda Expressions
    - LAB: LINQ in Manhattan
-4. Design Patterns
+1. Design Patterns
    - LAB: Design Patterns
-5. Stacks & Queues // Recursion
+1. Stacks & Queues // Recursion
    - LAB: None
 
 Data Structure: Linked Lists
@@ -56,15 +56,15 @@ with an intro to REST APIs in ASP.NET and building out their own API server.
 ### Week 3 - MVC & Entity Framework Core
 1. MVC Intro
    - TIME person of the year MVC App
-2. Relational Databases & schemas
+1. Relational Databases & schemas
    - Lab: System Design//Design a schema
-3. CRUD Intro to Entity Framework
+1. CRUD Intro to Entity Framework
    - Lab: `AsyncInn` Hotel Project Part 1
 	- Create Models from DB schema
 	- Identify Primary Keys/Foreign Keys/Composite Keys
-4. Entity Framework part 2
+1. Entity Framework part 2
    - LAB: EFCore Seeding/View Models/Tag Helpers
-5. Career Coaching
+1. Career Coaching
 
 Data Structure: Stacks/Queues
 
@@ -74,13 +74,13 @@ Quiz 3
 1. Dependency Injection & Repository Design Pattern
    - Incorporate the Repository Design Pattern into lab
    - Introduce Singleton Design Pattern
-2. Azure Deployment & Unit Tests
+1. Azure Deployment & Unit Tests
 	- Deploy app to Azure and write basic tests
-2. API Introduction
+1. API Introduction
    - TODO List Part 1
-3. API - API part 2
+1. API - API part 2
    - LAB: Making a call out to an API
-5. Midterm Project Kickoff
+1. Midterm Project Kickoff
 
 Data Structures: Trees (Binary, BST, K-ary)
 
@@ -89,15 +89,15 @@ Quiz 4
 ### Week 5 - Midterm Project
 Midterm Project week
 1. Build a Full CRUD web app
-2. Build a custom API
-3. Make the Web app call out to the API
+1. Build a custom API
+1. Make the Web app call out to the API
 
 ## Module 3: E-Commerce Project
 
 The second half of the class focuses on one major project. The students
 and a partner work together to build out an E-Commerce store. The second half
 is broken up into (3) 1-week sprints. Each week is broken into daily milestones. 
-Each milestone consists of 3-5 user stories that are divided amoungst all developers
+Each milestone consists of 3-5 user stories that are divided amongst all developers
 in a team. 
 
 Each day, the developers will complete their respective user stories. Each day builds
@@ -111,20 +111,20 @@ team where in an agile environment, they are given until the end of the sprint t
 tasks that are assigned to them each day. 
 
 Students will use Azure Dev Ops (ADO) as their project management tool and Azure Repos as their source control. They will 
-use the ADO kanban board to create and mananage user stories. 
+use the ADO kanban board to create and manage user stories. 
 
 
-### Week 6 - Sprint 1: Authenticaion/Authorization
+### Week 6 - Sprint 1: Authentication/Authorization
 1. Intro to E-Com project and PM Tool "Azure DevOps"
 	- Beginning of Sprint 1: Create a basic MVC app with database
-2. Intro to Identity: Setup & Registration
+1. Intro to Identity: Setup & Registration
 	- Implement Identity API and create use registration
-3. Login and Claims
+1. Login and Claims
 	- Add Login page to E-Com and capture specific claims
-4. Custom Policies
+1. Custom Policies
 	- Create policies to customize access across the site with previous claims
 	- END OF SPRINT 1
-5. Career Coaching
+1. Career Coaching
 
 Data Structure: Hash Tables
 
@@ -144,14 +144,14 @@ Quiz 5
 	- SPRINT 2 START
 	- Add a "Basket" component to E-Com site
 	- System Design exercise - Integrate basket capabilities into the site with DB tables
-2. OAUTH
+1. OAUTH
 	- Add 2 3rd party providers as login to project
-3. AUTH.NET (How to read 3rd party Docs)
+1. AUTH.NET (How to read 3rd party Docs)
 	- Incorporate "fake" payment processing into project
-4. Razor Pages 
+1. Razor Pages 
 	- Add in user profile & admin dashboard page as Razor Page
 	- END OF SPRINT 2
-5. Review Day
+1. Review Day
 
 Data Structure: Graphs 
 
@@ -180,7 +180,7 @@ Quiz 7
 ### Week 9 - MISC.
 1. .NET 4.8 MVC & Web Forms
 1. General Overall Review
-3. Ethics in Technology
+1. Ethics in Technology
 1. Open Source Contribution 
 	- Learn, Investigate, and Contribute to an open source project
 1. Final Project Kickoff

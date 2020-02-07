@@ -5,9 +5,9 @@
 1. Properties look like fields from the outside, but internally they contain logic, like methods do.
 1. A property is declared like a field, but with a get/set block added
 1. A `get` property accessor is used to return the property value, and a `set` property accessor is used to assign a new value.
-2. The value keyword is used to define the value being assigned by the `set` accessor.
-3. Properties can be read-write (they have both a `get` and a `set` accessor), read-only (they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). Write-only properties are rare and are most commonly used to restrict access to sensitive data.
-4.  A backing field is just a field that is used by properties when you want to modify or use that private field data.  In other words, a property is just a reference to another private variable. 
+1. The value keyword is used to define the value being assigned by the `set` accessor.
+1. Properties can be read-write (they have both a `get` and a `set` accessor), read-only (they have a `get` accessor but no `set` accessor), or write-only (they have a `set` accessor, but no `get` accessor). Write-only properties are rare and are most commonly used to restrict access to sensitive data.
+1.  A backing field is just a field that is used by properties when you want to modify or use that private field data.  In other words, a property is just a reference to another private variable. 
        
 ```csharp
 class Person
@@ -116,8 +116,10 @@ public string Name{
 
 ### Backing Fields
 
-whenever we have a property that gets or sets the value of a specific instance variable, that instance variable is called a backing field. 
-Backing fields are typiaclly private. Backing fields are not required within properties, but are still sometimes used. 
+Whenever we have a property that gets or sets the value of a specific instance variable, that instance variable is called a backing field. 
+<br>
+Backing fields are typically private. Backing fields are not required within properties, but are still sometimes used. 
+<br>
 Here is what a property with a backing field looks like:
 
 ```csharp

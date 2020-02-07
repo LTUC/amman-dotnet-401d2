@@ -20,8 +20,8 @@ go over the OOP principles. There is also the code base when converting the diag
 ## Lab Notes
 Today is part 1 of a 2 part lab. In today's lab they will:
 1. Draw/plan out a hierarchy chart of classes. This drawing should be present in their lab README.
-2. Implement the classes and behaviors within Visual Studio. The hierarchy chart should match the implementation.
-3. Tests to prove the OOP principles.
+1. Implement the classes and behaviors within Visual Studio. The hierarchy chart should match the implementation.
+1. Tests to prove the OOP principles.
 
 ## What changed from yesterday? 
 N/A

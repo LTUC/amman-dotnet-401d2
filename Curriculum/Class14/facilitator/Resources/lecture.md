@@ -4,16 +4,16 @@
 
 Hour 1:
 1. Scaffold a Controller
-2. Review the pre-created code.
-3. Add data to the DB from a user form
+1. Review the pre-created code.
+1. Add data to the DB from a user form
 
 Hour 2:
 1. Data Annotations
-2. Seed the database
+1. Seed the database
 
 Hour 3:
 1. Turn an enum into a DDL
-2. Layouts
+1. Layouts
 
 ### Scaffold a controller
 This is going to teach the students how to read
@@ -23,14 +23,14 @@ to making CRUD operations within a web app.
 
 Go and create a new "Student" controller by scaffolding out the controller
 1. Right click on the `Controllers` folder
-2. select `Controller`
-3. select `MVC Controllers with Views using Entity Framework`
-4. Select the appropriate model, select the existing DBContext, and adjust the Controller Name as needed
+1. select `Controller`
+1. select `MVC Controllers with Views using Entity Framework`
+1. Select the appropriate model, select the existing DBContext, and adjust the Controller Name as needed
 
 Once the scaffold is finished, you will notice some additions to the code:
 1. New folder in the "Views" folder for the name of the new controller
-2. New razor views for each of the CRUD operations
-3. code in the new controller for basic crud operations
+1. New razor views for each of the CRUD operations
+1. code in the new controller for basic crud operations
 
 Dissect the code with the class. Explain the `DbContext` that is being
 injected in. Go over a few of the actions and discuss how items are being added/manipulated in the DB.
@@ -38,10 +38,10 @@ injected in. Go over a few of the actions and discuss how items are being added/
 Create additional controllers for the other models following the same process.
 
 
-### Taghelpers
-What are taghelpers? Why do we need them?
+### Tag Helpers
+What are tag helpers? Why do we need them?
 
-Review Taghelpers [Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.2)
+Review Tag helpers [Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.2)
 
 Enable tag helpers in your view folder by adding a `_ViewImports.cshtml` file
 
@@ -55,7 +55,7 @@ Look specifically at the `@model` coming in, and
 the input tags with the `asp-for` attribute.
 
 ### Data Annotations
-1.[Review Data Annotations](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-2.2)
+- [Review Data Annotations](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-2.2)
 
 Show the user input from the "Create" page on the new Student controller.
 Show that we want to make some of the fields "required".

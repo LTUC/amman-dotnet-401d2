@@ -19,7 +19,7 @@ The *O* stands for Output
 
 By default, the root of your project is located in your `\bin\Debug\netcoreapp2.0` location. This is the same location where your `.dll` gets generated, which is why they consider this the default root. 
 
-We can make this file more accesible though by moving it up the 3 levels. Simply make your filePath to `../../../myFile.txt` and your newly created file will appear right under your `Program.cs` file. 
+We can make this file more accessible though by moving it up the 3 levels. Simply make your filePath to `../../../myFile.txt` and your newly created file will appear right under your `Program.cs` file. 
 
 ### Writing a File
 
@@ -77,7 +77,7 @@ static void FileAppendText(string path)
     string[] words = {
         "to think of many things!",
         "of ships and shoes and ceiling wax",
-        "and cabages and kings!"
+        "and cabbages and kings!"
     };
     File.AppendAllLines(path, words);
 
@@ -191,7 +191,7 @@ using (StreamReader sr = File.OpenText(path))
     ```
       -OR-
 ```csharp
-        string[] worrds = File.ReadAllLines(path);
+        string[] words = File.ReadAllLines(path);
 ```
 
   1. Write to the end of a file:

@@ -11,7 +11,7 @@ This is part 2 of a 2 part assignment.
 	- Have at least one class implement more than one interface
 - Test your code with Unit testing
 - Label interfaces as `<interface>`
-- Do not implement your interfaces on your highest base class. The interfaces should be scattered amoung the application.
+- Do not implement your interfaces on your highest base class. The interfaces should be scattered among the application.
 
 - When running your application, it should output each of the concrete animals and one behavior that it has inherited without any direct code manipulation
 

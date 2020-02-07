@@ -11,10 +11,10 @@ For example, Your team received feedback that you need to fix an error in one or
 You will each individually submit the following into Canvas as a text entry:
 
 1. A deployed link to your azure website
-2. Collaborate with each other and come up with 
+1. Collaborate with each other and come up with 
     - What you did well
     - What you will do differently next sprint
-3. Do you need anything from the instructional staff?
+1. Do you need anything from the instructional staff?
 
 The instructional staff will review your current master branch in VSTS/Azure Dev Ops and evaluate you accordingly.
 

@@ -28,12 +28,12 @@ Below are the requirements specific to each project, followed by requirements th
 	  - No scaffolding or templating of controller with CRUD operations.
 	  - Do not have your `DbContext` injected into your controllers. Your D.I. should be injecting your interface into the controllers for the basic CRUD operations.
 
-2. Documentation (README)
+1. Documentation (README)
      - Provide documentation for your web app. Include
      the work-flow, screen shots of the app, DB Schema, and basic
     functionality directions on how to use the site.
 
-3. API Calls
+1. API Calls
 	- You web app should make a call to at least 2 controllers from the API project. 
 
 ### Custom API
@@ -51,14 +51,14 @@ Both the Full stack MVC project and Web API project should **EACH** contain:
 
 1. Written in C#
 
-2. Testing:
+1. Testing:
   - Unit Tests
 	- XUnit
 	- Getters/Setters
 	- API Endpoints (for API Team)
 	- CRUD operations
 
-3. Clearly commented code
+1. Clearly commented code
 	- Clearly document your code 
 	- What does this code do?
 	- Why do you have it?
@@ -66,7 +66,7 @@ Both the Full stack MVC project and Web API project should **EACH** contain:
 	- What is the request expected response?
     - Use Summary Comments!
 
-4. Database
+1. Database
   - SQL Server Database
   - At least 2 tables
   - Digital DB Schema (should be present in your Readme)

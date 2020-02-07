@@ -1,11 +1,11 @@
 ### Setup
 1. Walk through creating empty MVC app
-2. Add Middleware
+1. Add Middleware
 
 ### Controller Defaults
 1. When creating an empty web app in Core, you will automatically get a home page that says "Hello World"
-    - This will run everytime it a controller isnt found. 
-    - if you dont want this, just remove it.
+    - This will run every time it a controller isn't found. 
+    - if you don't want this, just remove it.
     - This is through this section of code in the Startup Class:
     ```csharp
     app.Run(async (context) =>
@@ -14,7 +14,7 @@
     });
     ```
 
-2. If you want to set a default location modify your app.UseMvc():
+1. If you want to set a default location modify your app.UseMvc():
     ```csharp
       app.UseMvc(route =>
             {
@@ -28,9 +28,9 @@
 
 ### Routing
 1. What if we want special Routing? 
-2. Create an `ErrorController` class
-3. add a `public string Support()` method that returns string "Error on page";
-   - This will create the url /Error/Support url for us, but what if we don't wnat peole to know that our action is named "Support"?
+1. Create an `ErrorController` class
+1. add a `public string Support()` method that returns string "Error on page";
+   - This will create the url /Error/Support url for us, but what if we don't want people to know that our action is named "Support"?
    - Change the name of the method to "Index" and add routing:
     ```csharp
         [Route("Error")]
@@ -43,14 +43,14 @@
             }
         }
     ```
-4. Got to .../Error/Support and the error page will show
+1. Got to .../Error/Support and the error page will show
 
 
 ### Manipulate Data
 
 1. Let's manipulate data from the browser in the controller.
 
-2. "Actions" in Controllers can take paramters
+1. "Actions" in Controllers can take parameters
 
 Add this Code
 
@@ -63,17 +63,17 @@ Add this Code
    ```
 #### How does it know?
 
-- the MVC Model binding system automatically maps the named parameters from the query string in the address bar to parameters in your method. 
+- The MVC Model binding system automatically maps the named parameters from the query string in the address bar to parameters in your method. 
 
 #### How Model Binding Works:
 1. When MVC receives an HTTP request, it routes it to a specific action method of a controller.
-2. It determines which action method to run based on what is in the route data, then binds it to the HTTP request to that action method's parameters.
+1. It determines which action method to run based on what is in the route data, then binds it to the HTTP request to that action method's parameters.
 
-3. Let's go back to the Route Template:
+1. Let's go back to the Route Template:
    - `{controller=Home}/{action=Index}/{id?}`
 
-4. movies/edit/2 --> 
-  - rotues to the Movies Controller
+1. movies/edit/2 --> 
+  - routes to the Movies Controller
   - Edit is the Action
   - accepts an ID (of 2 in this case. )
   - It defaults to whatever is after the '/' to id, unless otherwise specified
@@ -97,24 +97,24 @@ Add this Code
 
 - Views that are specific to a Controller are created in 'Views/[Controller Name] folder. 
 - Views that are shared amongst multiple controllers are in /Views/Shared folder.
-- Name the View in association with the Controller aciton (i.e. To create an About view for hte Home Controller, create /Views/Home/About.cshtml)
+- Name the View in association with the Controller action (i.e. To create an About view for hte Home Controller, create /Views/Home/About.cshtml)
 
 
 ### Razor Syntax:
-- Razor Code is donoted by: `@` symbol. 
+- Razor Code is denoted by: `@` symbol. 
 - c# code is run within Razor code blocks set up by `{}` curly braces.
 
 ### Controllers & Views
 - Views are returned in Controllers from as actions through `ViewResult`. 
-- You action method can create and return a `ViewResult` direclty, but if your Controller inherits from `Controller`, you'll simply just use `View` helper method:
+- You action method can create and return a `ViewResult` directly, but if your Controller inherits from `Controller`, you'll simply just use `View` helper method:
 
 ```csharp
 return View();
 ```
 
 1. In the above example, View Discovery is used to automatically find the matching view to the controller action.
-2. The Views are search by the system in these locations first:
+1. The Views are search by the system in these locations first:
     - Views/<\ControllerName>/<\ViewName>.cshtml
     - Views/Shared/<\ViewName>.cshtml
-3. You can explicitily tell it to go to another view by `return View("MyView") and it will look for a view named "MyView"
-4. You can also explicity tell it to look in a specific location `return View("Views/Home/About.cshtml")`
+1. You can explicitly tell it to go to another view by `return View("MyView") and it will look for a view named "MyView"
+1. You can also explicitly tell it to look in a specific location `return View("Views/Home/About.cshtml")`

@@ -7,7 +7,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 ## Instructions:
 Please read this document, in it's entirety, before beginning.
 
-We are going to start this project by scaffolding out a basic MVC application. Divide the following tasks out amoungst you and your partner(s) to ensure that you are ready for the remainder of the sprint:
+We are going to start this project by scaffolding out a basic MVC application. Divide the following tasks out amongst you and your partner(s) to ensure that you are ready for the remainder of the sprint:
 
 1. Have one of the team members create the Azure Dev Ops project and invite the others.
 1. Follow the directions located under "Create a Repo" located in the [Azure DevOps Cheat Sheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet){:target="_blank"}. 

@@ -4,16 +4,14 @@ What is a collection?
 
 There are two ways to create and manage a group of related objects
     1. Create an array of objects
-    2. creating a collection of objects
+    2. Creating a collection of objects
 
 1. What is a collection?
-   1. Collections provide a more flexible way to work with groups of objects. Unlike arrays, 
+   - Collections provide a more flexible way to work with groups of objects. Unlike arrays, 
    the group of objects you work with can grow and shrink dynamically as the needs of the application change. 
-   For some collections, you can assign a key to any object that you put into the collection so that you can quickly 
-   retrieve the object by using the key.
-A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
-
-2. If your collection contains elements of only one data type, you can use a Generic. 
+   - For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key.
+    - A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
+    - If your collection contains elements of only one data type, you can use a Generic. 
 
 #### Generics
    1. One type of generic collection is a List<T>; 

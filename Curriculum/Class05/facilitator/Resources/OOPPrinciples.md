@@ -39,17 +39,17 @@ is to maybe "plan a party". I like opening up a drawing pad and start listing
 all the things that a party has. Use these guidelines if you get stuck:
 
 1. What behaviors or properties do all parties have?
-2. What different TYPES of parties are there?
-3. Are there any similarities between these parties?
+1. What different TYPES of parties are there?
+1. Are there any similarities between these parties?
 
 Once you have identified a list of the different types of parties, and the 
 shared list of behaviors, start breaking it up. 
 
 1. Create a `Party` class. 
-2. Add all the shared behaviors to this class
-3. Create the types of parties (i.e. `Birthday`, `Graduation`, etc...)
-4. Add properties and behaviors that are unique to the specialty parties
-5. Make the specialty/unique parties inherit from the Party class. 
+1. Add all the shared behaviors to this class
+1. Create the types of parties (i.e. `Birthday`, `Graduation`, etc...)
+1. Add properties and behaviors that are unique to the specialty parties
+1. Make the specialty/unique parties inherit from the Party class. 
 
 
 ## Abstraction
@@ -60,7 +60,7 @@ that will soon be derived and instantiated.
 
 There are 2 types of classes in Object Oriented Programming:
 1. Abstract classes
-2. Concrete classes 
+1. Concrete classes 
 
 This means that a class can be one or the other...not both. 
 
@@ -80,9 +80,9 @@ This demo will be a quick one...you will be building off of your party demo from
 inheritance. 
 
 1. Take your code base and start identifying if more information is required. 
-2. you should identify that "Party" requires more information...so make `Party` abstract
-3. Determine if the unique parties can be clarified further (i.e. Birthday party - is it for an adult or a child?).
-4. Try and identify and implement 2 or 3 abstract classes into your code base. Can you attach labels on which classes 
+1. you should identify that "Party" requires more information...so make `Party` abstract
+1. Determine if the unique parties can be clarified further (i.e. Birthday party - is it for an adult or a child?).
+1. Try and identify and implement 2 or 3 abstract classes into your code base. Can you attach labels on which classes 
 are abstract versus concrete? 
 
 ## Polymorphism
@@ -90,13 +90,13 @@ are abstract versus concrete?
 Polymorphism is the ability to be able to change/manipulate the behavior of the 
 classes that it is derived from. 
 
-Breaking down polymorphism...poly means many. morphism means to change. Putting this together
+Breaking down polymorphism...poly means many. Morphism means to change. Putting this together
 solidifies the ability to change certain methods and properties as needed or required. 
 
 Polymorphism usually targets methods specifically. There are 3 different types of methods:
 1. concrete - cannot be overridden, contains functionality for the class
-2. abstract - just a method signature, and required to override
-3. virtual - optional to override
+1. abstract - just a method signature, and required to override
+1. virtual - optional to override
 
 In addition to being able to override behavior from base classes....Polymorphism also allows us the ability to 
 see if a class `is a` another type. For example, Is a cat an Animal? If Cat is derived from Animal, then the answer is yes. 
@@ -109,5 +109,5 @@ and properties.
 
 Encapsulation breaks down to 3 most common access modifiers:
 1. Public - Everyone has access to it
-2. Private - only the class it is located in has access to it
-3. Protected - only the class itself and it's derived classes have access
+1. Private - only the class it is located in has access to it
+1. Protected - only the class itself and it's derived classes have access

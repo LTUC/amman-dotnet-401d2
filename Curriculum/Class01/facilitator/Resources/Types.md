@@ -103,7 +103,7 @@ There are two different types of typecasting:
 	long b = 1000001;
 	long answer = a + b;
 	```
-2. explicit casting - you have to explicitly tell the type to change. 
+1. explicit casting - you have to explicitly tell the type to change. 
 	- Example of explicit casting: 
 	```csharp
 	 long myNumber = 20;

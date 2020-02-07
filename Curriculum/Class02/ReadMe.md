@@ -16,11 +16,11 @@
 - Theories
 	- Conditionally True
 - Why is it important?
-	- Confidently refactor, make it agile
-	- High Quality Code
-	- Documentation
-	- Assists in Debugging
-	- Reduce company cost
+	1. Confidently refactor, make it agile
+	1. High Quality Code
+	1. Documentation
+	1. Assists in Debugging
+	1. Reduce company cost
 
 ### Demo
 - Build/add a testing solution

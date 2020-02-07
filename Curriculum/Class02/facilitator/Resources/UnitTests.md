@@ -18,7 +18,7 @@ This rule breaks down to the following requirements:
 some sort of condition within your code to make your test pass. This can be as simple as hardcoding a string
 into the return value if necessary.
 
-2. When your test is **Green** (it is passing), you have 2 options, you can write another passing test, or you can
+1. When your test is **Green** (it is passing), you have 2 options, you can write another passing test, or you can
 **refactor** the code so that it is more efficient. You should only ever refactor while you are in the green. Once you write 
 a refactored test that turns red, you must go back to the **red** condition and make the test pass.
 
@@ -55,7 +55,7 @@ You must structure your tests so that it will always complete as a "green" test.
 
 ## Demo
 
-Incrementally build out your code following the Red/Green/Refactor technique. Start with Facts, then after a while workign with facts and following TDD, then show the students Theories and how they can make the process go a bit quicker when we have paramterized data.
+Incrementally build out your code following the Red/Green/Refactor technique. Start with Facts, then after a while working with facts and following TDD, then show the students Theories and how they can make the process go a bit quicker when we have parametrized data.
 
 Your final code should look like so:
 

@@ -8,15 +8,15 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 1. (Developer 2) As a user, I would like to have specific roles within my site so that I can determine the difference between an "Admin" and a "Member"
 
-2. (Developer 1 & 2)  As a user, I would like a dedicated location for Administrators so that they can securely manage the site. 
+1. (Developer 1 & 2)  As a user, I would like a dedicated location for Administrators so that they can securely manage the site. 
 
-3. (Developer 1) As an administrator, I would like the ability to create, view, update, and delete products from my inventory so that i can manage the stock.
+1. (Developer 1) As an administrator, I would like the ability to create, view, update, and delete products from my inventory so that i can manage the stock.
 
 
 ### Guidance
 
-**User story 1:** Much like we did in the demo, add default roles to your application. Add both "Member" and "Admin" at minimim. 
-Do not hardcode each user into the roles, have an Enum or an external class with constant values. 
+**User story 1:** Much like we did in the demo, add default roles to your application. Add both "Member" and "Admin" at minimum. 
+Do not hard code each user into the roles, have an Enum or an external class with constant values. 
 
 Update both your registration and login to either assign a role to a user, or capture the role of the user. If 
 they are an admin, redirect them to the Admin Dashboard US2 is creating. If they are a member, redirect them 

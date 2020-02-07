@@ -64,11 +64,11 @@ Your submissions must be digital. You may take a picture of your diagram from a 
 
 5 points: Only ERD is present. No explanation for tables
 
-3 points: Only expalantion of tables, no ERD diagram present
+3 points: Only explanation of tables, no ERD diagram present
 
 0 points: No Submission. 
 
-No late submissions will be accepted for this assignment. Submit your assigment before the posted due date.
+No late submissions will be accepted for this assignment. Submit your assignment before the posted due date.
 
 ## To Submit this Assignment
 

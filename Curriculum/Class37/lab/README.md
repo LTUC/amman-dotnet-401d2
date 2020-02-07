@@ -7,7 +7,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 ## User Stories & Guidance:
 
 1. (Developer 2 & 3) As an administrator, I would like my product images to be quickly and easily accessible. 
-2. (Developer 1 ) As an administrator, I would like to manually upload images for a specific product.
+1. (Developer 1 ) As an administrator, I would like to manually upload images for a specific product.
 
 ### Guidance
 

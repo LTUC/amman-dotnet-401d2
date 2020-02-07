@@ -35,7 +35,7 @@ Your "Checkout" button on this page should not link to anything just yet.
 
 
 ### Tests
-Test your serivces that are implementing your interface.
+Test your services that are implementing your interface.
 
 
 ## To Submit this Assignment
