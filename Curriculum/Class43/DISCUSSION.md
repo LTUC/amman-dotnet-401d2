@@ -36,6 +36,7 @@ Go through these resources, and create a wiki entry in your fork of the class re
 1. [Will democracy survive big data and AI?](https://www.scientificamerican.com/article/will-democracy-survive-big-data-and-artificial-intelligence/){:target="_blank"}
 
 ### Tech Company Principles
+
 1. [Microsoft AI Principles](https://www.microsoft.com/en-us/AI/our-approach-to-ai){:target="_blank"}
 1. [Ethical OS Toolkit](https://ethicalos.org/){:target="_blank"}
 1. [Google AI Principles](https://www.blog.google/technology/ai/ai-principles/){:target="_blank"}
