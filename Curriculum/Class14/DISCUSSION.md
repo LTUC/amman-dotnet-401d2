@@ -7,8 +7,8 @@ Below you will find some reading material, code samples, and some additional res
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
 ## Readings
-1. [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding)
-1. [Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio)
+1. [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} 
+1. [Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio){:target="_blank"} 
 1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
 1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
 1. (Keep as a resource, read through if you have time) [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/){:target="_blank"} 
