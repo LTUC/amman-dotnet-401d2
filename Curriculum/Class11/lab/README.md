@@ -18,12 +18,16 @@ Create a web app that will allow a user to put in a span of 2 different years, a
     - Use Tag Helpers to help redirect you from results page to the Home page. (HINT: the `_ViewImports.cshtml` file may be required)
 1. Include HTML/CSS in your final product. **This is required.** 
     - It doesn't have to be fancy, just make it look nice.
-1. Enable use of Static Files in your website and create a style sheet and incorporate some creativity into your application. 
+1. Enable use of static files in your website and create a style sheet and incorporate some creativity into your application. 
 1. A model class named `TimePerson` that contains the following properties(these are the headers of the csv file):
 1. Create a static method within this model named `GetPersons` that brings in the range of years, and returns `List<TimePerson>`.  
 1. Create the internal logic to read in the file, filter the data from the given inputted range using LINQ queries and Lambda expressions, and return the final filtered list of persons.
+1. Deploy your finished application to Azure
+   - Provide the deployed link in your repository README.
+   - **This is required.**, Your lab must be deployed in order to receive a grade.
 
  Provided is a csv file of all the "Time" Persons of the year from 1927 - 2016. 
+
 ```csharp
 	public int Year { get; set; }
 	public string Honor { get; set; }
@@ -47,8 +51,7 @@ Create a web app that will allow a user to put in a span of 2 different years, a
 
 1. Use the debugger to get a visible look at what is being imported and confirm the format. This will help you visualize what you need to do. 
 
-Remember - This could go on your portfolio, employers may be viewing it, make it something you are proud of. We will be deploying
-this site to Azure by the end of the week.
+Remember - This could go on your portfolio, employers may be viewing it, make it something you are proud of.
 
 
 ## Unit Tests

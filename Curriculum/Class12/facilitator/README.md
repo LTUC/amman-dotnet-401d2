@@ -19,15 +19,18 @@ Today primarily focuses on an introduction to databases. This should be a combin
    - Review the MVC lab 
    - Show the students the solution to reading in a csv file and converting it to an object
    - Review turnery operators
-1. Review data persistance
-   - What is data persistance? 
+1. Review data persistence
+   - What is data persistence? 
    - What are databases? Why do we need them?
+1. Introduce DB Context and setup in an MVC project
 1. Introduce ERDs
 1. In-Class exercise to build out ERD for student enrollment demo
 
 ## Lab Notes
 
-This lab is timed and is attempt based. They should be able to read through the problem domain and come up with an ERD for the database as well as provide an explanation. You will provide and review the solution with them at the start of the next class.
+This lab will require that the students create an ERD and also create a scaffold template of their Hotel API application with an empty database. 
+
+This ERD portion of this lab is timed and is attempt based. They should be able to read through the problem domain and come up with an ERD for the database as well as provide an explanation. You will provide and review the solution with them at the start of the next class.
 
 ## What changed from yesterday? 
 No code is written today. Just reviewing diagrams.

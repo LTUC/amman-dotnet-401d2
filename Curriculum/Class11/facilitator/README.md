@@ -19,6 +19,9 @@
 1. How to create an MVC application
 	- Start the Demo steps
 1. Share the MVCSetup steps with the students
+1. Deploy App to Azure!
+   - Have the students create an Azure Account. If this is their first time creating an account, they can utilize the 30 day free trial
+    - Right click on the project >> Select Publish >> follow the prompts to publish the site to Azure
 
 ## Lab Notes
 This lab requires that they use the System.IO content from class 03 to read in a .csv file, convert each line to a Person object and then load it into a list. They will then filter this list given the search criteria and send that data back to view.
