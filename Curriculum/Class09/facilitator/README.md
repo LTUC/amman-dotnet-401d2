@@ -1,23 +1,24 @@
-# Class 09: Recursion & Design Patterns
+# Class 09
 
 ## How do I prep for today?
-1. Review the recursion documentation and be familiar with teaching the concept to the students.
-1. Obtain a general understanding of design patterns and why they are important. (optional if you think the students are ready for it).
+1. Review the readings for the day. Be prepared to answer questions if the students have questions.
+1. Review the topics in the Resources folder.
+1. Review the demo code. Be comfortable with rebuilding it in class with the students.
 
-### Lecture
-1. Code Review
-1. [Recursion](./Resources/Recursion.md) 
-1. You may optionally choose to teach the design patterns lecture this day in addition to recursion. The Design Pattern lecture is located in the `Extra_Lectures` folder. The reading for the day still introduces design patterns. You may choose how it is introduced and discussed in the class.
+## Lecture
+1. Introduce Delegates
+1. Introduce LINQ
+1. Show LINQ Queries and LINQ Method calls
+1. Talk about Anonymous Delegate Types (Func and Actions)
 
 ## What changed from yesterday? 
-- N/A
+Building off of collections from yesterday. We will/can use `IEnumerable<T>` today for our result of our queries. May not hurt to re-review.
 
 ## What might students struggle with today?  
-1. Concept of Design Patterns is new. Introduce it so they understand where these solutions come from.
-1. Historically, recursion is not something that is easily grasped. I recommend showing the callstack through each of the examples, draw out each stack frame if you can. 
+Delegates. It can be a lot. Delegates make more sense when we start using LINQ method calls. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 - N/A
 
 ## General comments
-No Lab on this day. Just teach the Design Pattern Concept and show what the Factory Design Pattern is. 
+Delegates really jump our complexity level. Students will understand what they are for right away...

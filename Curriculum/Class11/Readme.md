@@ -1,10 +1,22 @@
-# Class 11: Intro to MVC and Core
+# Introduction to Model-View-Controller (MVC)
+
+Welcome to the world of MVC! We will learn about the Model-View-Controller (MVC) architectural pattern! 
 
 ## Learning Objectives
-1. The student will implement their own MVC web application
-1. The student will practice the separation of concerns concepts through the MVC architectural pattern.
 
-## Lecture Outline
+### Students will be able to
+
+#### Describe and Define
+
+- The student will be able to successfully describe the separation of concerns concepts through the MVC architectural pattern.
+- The student will be able to successfully define the required components of the web request response cycle with the integration of MVC.
+
+#### Execute
+
+- The student will implement their own full stack web application using the MVC architectural pattern
+- The student will deploy a web application to Azure App Services
+
+## Today's Outline
 
 ### MVC
 MVC is an architectural pattern used in web applications. 
@@ -32,6 +44,3 @@ The controller is the routing part of MVC. A controller contains
 Actions, that maps to specific views. Each unique action is it's own 
 view page. 
 
-### Create an MVC Site
-
-In the `Resources` folder within the class repository is an MVC Setup doc. Use this resource to guide you how to create a basic MVC application.

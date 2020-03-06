@@ -1,30 +1,30 @@
 # Class 07
 
 ## Overview
-Today, the students will build off of interfaces and see how a built in interface can apply to generic collections. They will see the use of enums and how they are used in code, and create their own generic collection and learn what actually happens when they get instantiated.
+Today is an extension off of class 05. We extend from the OOP principles into interfaces. 
 
 ## How do I prep for today?
-1. Read through the daily readings.
-1. Review the `Resources` folder with the Collections.md file.
-1. Get familiar with IEnumerable and IEnumerator. Be able to explain the difference between them.
-1. Introduce Enums.
+1. Review the readings. Be prepared to answer questions if the students have questions
+1. Review the contents in the Resources folder. Be familiar with the content and the demo code to build out for the students.
 
 ## Lecture
 1. Code Review
-1. [Enums](./Resources/Enums)
-1. [Collections](./Resources/Collections) (Generic vs Non-Generic)
+   - Review the OOP principles from Class 05
+1. Introduce interfaces [Notes Here](Resources/Interfaces)
 
-## Lab Notes
-The lab directions contain some code snippets to assist students if needed. They are allowed to use this code, if they wish, but they must comment the code to show understanding.
+Be sure to stress the differences between an abstract class and an interface. This is a super common interview question. 
+
+Use the provided Demo code as a baseline of what to code out during class.
 
 ## What changed from yesterday? 
-Nothing.
+We are just building off of the previous days class.
 
 ## What might students struggle with today? 
-IEnumerator IEnumerable.
+Interfaces are sometimes difficult for students to understand. It is important to
+stress the differences between a class and an interface. The differences between an Abstract class and an interface.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-- N/A
+- n/a
 
 ## General comments
-- N/A
+- n/a

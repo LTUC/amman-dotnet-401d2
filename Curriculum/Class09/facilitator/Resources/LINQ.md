@@ -1,4 +1,4 @@
-# Class 08: LINQ
+# Class 09: LINQ
 
 ## Learning Objectives
 1. Students will be able to successfully write LINQ queries against a collection to extract data.

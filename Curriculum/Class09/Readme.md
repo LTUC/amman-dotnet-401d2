@@ -1,57 +1,89 @@
-# Class 09: Recursion
+# Class 09: LINQ
 
 ## Learning Objectives
-1. Students will know how to implement recursion.
-1. Students will know and understand the bounds and limitations of recursion.
-
+1. Students will be able to successfully write LINQ queries against a collection to extract data.
+1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
+ 
 ## Lecture Outline
+1. Review Collections
+1. Create a collection
+  - Add data to the collection
+  - Iterate through the collection
 
-### Recursion
-1. What is Recursion?
-	- Recursion occurs when a method calls itself. 
-		- Direct: the method calls itself
-		- Indirect: method calls some other method that then calls the first method
-1. Recursion is not a 'fix all' solution:
-	- it can suffer performance of an application because of using call stack again and again is not always a good choice. 
+3. What is an easier way to iterate through a collection?
 
+### What Is LINQ?
+- Language Integrated Query
 
-1. The Factorial of N is written N! (pronounced "N Factorial")
+1. Imperative vs Declarative
+   - What is Imperative
+      - Foreach Loop
+   - What is Declarative
+      - LINQ statement
+
+1. What is a 'query'?
+   - A query is an expression that, when enumerated, transforms sequences with query operators. 
+   - The standard query operators are implemented as *extension methods*, so we can call 'WHERE' directly onto names.
+
+### Query Expressions 
+   
 ```csharp
-0! = 1
-1! = 1
-2! = 2 * 1! = 2
-3! = 3 * 2! = 3 * 2* 2 * 0! = 3 * 2* 1* 1
+string[] names = { "Tom", "Dick", "Harry" };
+
+IEnumerable<string> filteredNames = from n in names
+                                        where n.Contains("a")
+                                        select n;
+
+IEnumerable<string> filteredNames = System.Linq.Enumerable.Where(names, n => n.Length >= 4);
+
+foreach (string n in filteredNames){Console.WriteLine (n);}
 ```
-Code for a non recursive approach:
+
+
+### Lambda Statements
 
 ```csharp
-
-public long Factorial(int n)
-{
-    if (n == 0)
-        return 1;
-    long value = 1;
-    for (int i = n; i > 0; i--)
-    {
-        value *= i;
-    }
-    return value;
-}
+n => n.Length >= 4
 ```
 
-Recursive approach:
 
 ```csharp
-Long Factorial (Integer: n)
+IEnumerable<string> filtered = names.Where(n => n.Contains("a"));
+IEnumerable<string> sorted = filtered.OrderBy(n => n.Length);
+IEnumerable<string> finalQuery = sorted.Select(n => n.ToUpper());
 
-If(n==0) Then Return 1
-Return n * Factorial(n-1)
-End Factorial
 
-public long Factorial(int n)
-{
-    if (n == 0) 
-        return 1;
-    return n * Factorial(n - 1);
-}
+foreach (string name in filtered)
+    Console.Write (name + "|");        // Harry|Mary|Jay|
+
+Console.WriteLine();
+foreach (string name in sorted)
+    Console.Write (name + "|");        // Jay|Mary|Harry|
+
+Console.WriteLine();
+foreach (string name in finalQuery)
+    Console.Write (name + "|");        // JAY|MARY|HARRY|
+
 ```
+
+### Anonymous Types & Anonymous Objects
+   
+An anonymous type is specified through a `var` type:
+
+```csharp 
+    var filteredNames = names.Where (n => n.Length >= 4); 
+```
+
+An anonymous object is an object that is a "modified" object that is the result from a LINQ search: 
+
+```csharp
+var bookAuthorCollection = from b in books
+                    select new { Book: b,
+                                Author: b.Authors[0]
+                                };
+    
+foreach (var x in bookAuthorCollection)
+    Console.WriteLine("Book title - {0}, First author {1}", 
+                            x.Book.Title, x.Author.FirstName);
+```
+

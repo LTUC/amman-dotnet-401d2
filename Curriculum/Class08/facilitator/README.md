@@ -1,24 +1,30 @@
 # Class 08
 
+## Overview
+Today, the students will build off of interfaces and see how a built in interface can apply to generic collections. They will see the use of enums and how they are used in code, and create their own generic collection and learn what actually happens when they get instantiated.
+
 ## How do I prep for today?
-1. Review the readings for the day. Be prepared to answer questions if the students have questions.
-1. Review the topics in the Resources folder.
-1. Review the demo code. Be comfortable with rebuilding it in class with the students.
+1. Read through the daily readings.
+1. Review the `Resources` folder with the Collections.md file.
+1. Get familiar with IEnumerable and IEnumerator. Be able to explain the difference between them.
+1. Introduce Enums.
 
 ## Lecture
-1. Introduce Delegates
-1. Introduce LINQ
-1. Show LINQ Queries and LINQ Method calls
-1. Talk about Anonymous Delegate Types (Func and Actions)
+1. Code Review
+1. [Enums](./Resources/Enums)
+1. [Collections](./Resources/Collections) (Generic vs Non-Generic)
+
+## Lab Notes
+The lab directions contain some code snippets to assist students if needed. They are allowed to use this code, if they wish, but they must comment the code to show understanding.
 
 ## What changed from yesterday? 
-Building off of collections from yesterday. We will/can use `IEnumerable<T>` today for our result of our queries. May not hurt to re-review.
+Nothing.
 
-## What might students struggle with today?  
-Delegates. It can be a lot. Delegates make more sense when we start using LINQ method calls. 
+## What might students struggle with today? 
+IEnumerator IEnumerable.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 - N/A
 
 ## General comments
-Delegates really jump our complexity level. Students will understand what they are for right away...
+- N/A
