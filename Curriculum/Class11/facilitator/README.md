@@ -7,19 +7,19 @@ First day of web development! This is the first day the students get to learn ab
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous classes we've specifically worked with only the C# language. 
+In the previous classes we've specifically worked with only the C# language. We have only made console apps and have not yet talked about how C# works in the world of web development. 
 
 **What are we focusing on today**:
-Today, we'll be doing ...
+Today, we'll be starting the very first day of web development with C# and .NET Core. Today is an introduction to MVC and how this architectural pattern works within an application.  
 
 **Where we're headed**:
-Next class will focus on ...
+We will be building off of these principles every single day for the remainder of the class. Starting in Class 12, we will 
 
 ## Learning Objectives
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+> Our primary outcomes and goals for the day are to show and expose the students what the MVC architectural pattern is and how it works. They should understand that MVC is not "magic", but primarily convention.
 
 ## Preparation
 

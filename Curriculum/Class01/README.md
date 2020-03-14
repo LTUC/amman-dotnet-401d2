@@ -1,23 +1,30 @@
-# Class 01: Intro to C#
+# Intro to C#
+
+Welcome to class! Today we will learn about C# and how to handle errors and exceptions within our code. 
 
 ## Learning Objectives
-1. The student will successfully request user input and output a response to the console.
-1. The student will implement try-catch statements as a form of exception handling within their code.
-1. Set-up a debugger within Visual Studio Community.
-1. Understand and be comfortable with debugging through code to identify potential bugs and errors. 
 
-## Lecture Outline
+### Students will be able to
+
+#### Describe and Define
+
+- What and how to use exception handling
+- Best practices when implementing exception handling
+- Where to start when encountering an error 
+
+#### Execute
+
+- The student will successfully request user input and output a response to the console.
+- The student will implement try-catch statements as a form of exception handling within their code.
+- Set-up a debugger within Visual Studio
+
+## Today's Outline
 
 ## Review
 1. Syllabus
 1. Grade Break down
 1. Coding Challenges and Expectations
 1. Due Dates
-
-
-## Welcome to 401: Advanced Software Development in ASP.NET MVC Core
-Welcome to Class! Please be sure read through the syllabus and get comfortable with both Visual Studio and Canvas.
-Introduce yourself to your classmates, and come to class ready to learn!
 
 ### C# Basics
 - What is C#
