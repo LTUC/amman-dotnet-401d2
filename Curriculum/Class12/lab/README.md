@@ -54,7 +54,6 @@ Your submissions must be digital. You may take a picture of your diagram from a 
 ## Stretch Goals
 - There are no Stretch Goals for this assignment.
 
-
 ## Additional Resources
 - There are no Additional Resources provided for this assignment.
 

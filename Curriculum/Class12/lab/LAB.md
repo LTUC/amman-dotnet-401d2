@@ -23,6 +23,11 @@ To the best of your ability, create a system design of a database ERD diagram th
 	- The number of rooms for each hotel varies. Some hotels have only a few rooms, while others may have dozens.
 
 ## Guidance
+
+There are 2 parts to this assignment
+
+### Part 1
+
 Build your ERD (Entity Relationship Diagram) so that it has at least:
 1. (1) Joint Entity Table with Payload
 1. (1) Pure Join Table
@@ -37,18 +42,82 @@ Within your ERD identify/label the following as necessary:
 
 In a external document, please provide an explanation of the components in your database ERD diagram. 
 
-This assignment is **attempt based**. Submit, before the next class start, a healthy attempt on the database design. 
+The ERD Design is **attempt based**. Submit, before the next class start, a healthy attempt on the database design must be completed with all of the required details described.
 
-You may work together and collaborate on this lab, but everyone is responsible for turning in their own DB diagram and external file (this can be a link, please make sure names exist on the top). 2-3 sentences for each table is sufficient for an explanation. 
+You may work together and collaborate on this ERD, but everyone is responsible for turning in their own DB diagram and explanation. 2-3 sentences for each table is sufficient for an explanation. 
 
-Your submissions must be digital. You may take a picture of your diagram from a white board, but if you decide to stick with your db diagram, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
+Your ERD diagram must be digital. You may take a picture of your diagram from a white board, but if you decide to stick with your db diagram, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
+
+### Part 2
+
+Create a brand new "empty" web application project in Visual Studio. 
+
+1. Set up the routing for an MVC project 
+1. Make a "Data" folder
+1. Create a DBContext for your database in your "Data" folder
+   - No models required
+   - Don't forget the constructor!
+1. Set your connection string into your "appsettings.json" file
+1. Register your DBContext in your startup file
+1. Setup your application to accept Dependency Injection (hint: Don't forget to add the "IConfiguration" to your constructor)
+1. If your UseSqlServer library is not registering as a library, install the `Microsoft.EntityFrameworkCore.SqlServer` package on your project.
+1. Add a migration `add-migration nameOfMigration`
+1. Create the database through an `update-database` command
+
+** Don't forget summary comments where appropriate. 
 
 ## Stretch Goals
 
+1. No stretch goals for this lab
+
 ## Additional Resources
+
+Refer to the class GH repo for the reference sheet on how to create an MVC site
 
 ## ReadMe
 
+Create a basic README with:
+1. The name of your project
+2. Your Name
+3. Today's date
+4. Place an image of your ERD with explanation of each of the tables
+   - Don't worry, we will fix this later :) 
+
 ## Rubric
 
+### Part 1
+
+5 points: ERD created, explanation provided for each table. 
+
+3 points: Only ERD is present. No explanation for tables
+
+1 point: Only explanation of tables, no ERD diagram present
+
+0 points: No Submission. 
+
+No late submissions will be accepted for Part 1. Submit your diagram before the posted due date.
+
+### Part 2
+
+5 points: Part 2 completed in it's entirety. Tests not required.
+
+3 points: Part 2 mostly completed
+
+1 point: Part 2 partially completed
+
+0 points: No Submission
+
+
 ## To Submit this Assignment
+
+- Create a new repository on your personal GitHub account
+- Name your repo `Async-Inn`
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in Canvas
+- Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described above)

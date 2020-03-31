@@ -1,9 +1,6 @@
 ﻿using d8MVCDemo.Models;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace d8MVCDemo.Controllers
 {
@@ -20,13 +17,13 @@ namespace d8MVCDemo.Controllers
             List<Student> students = new List<Student>
             {
                 new Student{FirstName = "Kate", LastName="Austin", Age=50, FavoriteColor="Blue"},
-            new Student { FirstName = "James", LastName = "Ford", Age = 46, FavoriteColor = "Red" },
-            new Student{FirstName = "Hugo", LastName="Reyes", Age=63, FavoriteColor="Orange"},
-              new Student{FirstName = "Jack", LastName="Shepard", Age=23, FavoriteColor="Yellow"},
-              new Student{FirstName = "Juliet", LastName="Burke", Age=35, FavoriteColor="Purple"},
+                new Student { FirstName = "James", LastName = "Ford", Age = 46, FavoriteColor = "Red" },
+                new Student{FirstName = "Hugo", LastName="Reyes", Age=63, FavoriteColor="Orange"},
+                new Student{FirstName = "Jack", LastName="Shepard", Age=23, FavoriteColor="Yellow"},
+                new Student{FirstName = "Juliet", LastName="Burke", Age=35, FavoriteColor="Purple"},
         };
 
-                       
+
             return View(students);
         }
 
@@ -48,7 +45,7 @@ namespace d8MVCDemo.Controllers
                 FavoriteColor = favoriteColor
             };
 
-            return RedirectToAction("Results", student );
+            return RedirectToAction("Results", student);
             // return RedirectToAction("Results", new {startYear, endYear});
             // MethodSig = public IActionResult Results(int startYear, int endYear)
 
