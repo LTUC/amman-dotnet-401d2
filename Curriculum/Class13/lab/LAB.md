@@ -28,8 +28,7 @@ Your application should include the following upon completion:
 
 Using your ERD Diagram, convert each entity into a model within your newly created MVC web application.
 
-Following the steps provided, in addition to what we did in class, create a new `DbContext` named `AsyncInnDbContext`. 
-Within this DbContext, declare your Database tables and set your composite keys.
+Within your DbContext, declare your Database tables and set your composite keys for the required tables
 
 ## Steps:
 

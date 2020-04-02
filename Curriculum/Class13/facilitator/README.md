@@ -17,10 +17,8 @@ Resources
 
 ## Lecture
 1. Intro to Entity Framework Core
-1. Build out an MVC app with default home page
 1. Build out Entity Models (with nav props)
-1. Creation of DBContext
-1. Register the DBContext in Startup
+1. Add DBSet's to the DbContext
 1. Create relationships between entities
 
 ## What changed from yesterday? 
