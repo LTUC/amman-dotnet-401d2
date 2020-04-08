@@ -9,6 +9,8 @@ The Routes, Responses, and DTOS are included below. Refactor your code to match 
 
 ### Routes and Responses
 
+#### HotelsController
+
 Route (GET): api/Hotels/{id}:
 
 ```
@@ -68,13 +70,13 @@ Route (GET): api/Hotels/{id}:
 }
 ```
 
-
 Route: (GET) :  'api/Hotels'
 
 ```
 An array of individual hotels. (See result from api/Hotels/{id})
 ``` 
 
+#### HotelRooms Controller
 
 Route: (Get/Put/) : `api/hotel/room/{hotelId}/{roomNumber}`
 - This is the HotelRooms Controller
@@ -110,6 +112,8 @@ Route: (POST) : `api/hotel/room/{hotelId}`
 - Add a new Hotel Room to a hotel
 - HotelRoomDTO will be included in RequestBody
 
+#### Rooms Controller
+
 Route (Get/Put) : `api/rooms/{roomId}`
 - Get a specific room
 - Update a room
@@ -138,6 +142,7 @@ Route: (GET/POST) : `api/rooms/`
 -  Post request will create a new room
 - Post request will have the room DTO included in request
 
+#### Amenities Controller
 Route: (Get) `api/amenities/{id}`
 - Get specific amenity
 
