@@ -1,53 +1,223 @@
-# Lab 17: Searching, Sorting & View Models
+# Lab 17: DTOs and Routing
 
 ## Assignment Specifications
 
-Building off of your Async Inn web application, include the following:
-1. Add data annotations to your existing models to validate basic user input fields as appropriate.
-1. Add a layout that will be inherited/utilized on all of your pages (if you haven't already). 
-1. Implement a "search box" or filter on all of your model landing pages (Hotels, Rooms, and Amenities) 
-	- Use [this resource](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-2.1){:target="_blank"} for assistance
-1. While adding partials is not required, see if you can find a way to utilize them within your layouts
+1. Refactor your code to output a modified version of your entity. This improves both security and readability on your data to your client. 
 
-1. Allow the functionality on your `HotelController` to display the total number of hotels that exist in the database, as well as the number of Rooms that each hotel has. 
-1. Allow the functionality in your `RoomController` to see the number of Amenities that each room has
-1. At the top of all 3 of your base controllers (`Hotel`, `Room`, `Amenities`) include a total count of the asset. 
-	- Example: if you have a total of 5 Hotels, the top of your Hotel home page should say that you have 5 total hotels in the system.
+The Routes, Responses, and DTOS are included below. Refactor your code to match what is provided. 
+
+
+### Routes and Responses
+
+Route (GET): api/Hotels/{id}:
+
+```
+{
+    "id": 1,
+    "name": "My really cool Hotel",
+    "streetAddress": "123 CandyCane Lane",
+    "city": "Seattle",
+    "state": "WA",
+    "phone": "123-456-8798",
+    "rooms": [
+        {
+            "hotelID": 1,
+            "roomNumber": 101,
+            "rate": 75.00,
+            "petFriendly": false,
+            "roomID": 2,
+            "room": {
+                "id": 2,
+                "name": "Queen Suite",
+                "layout": "TwoBedroom",
+                "amenities": [
+                    {
+                        "id": 1,
+                        "name": "Coffee Maker"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Mini Bar"
+                    }
+                ]
+            }
+        },
+        {
+            "hotelID": 1,
+            "roomNumber": 123,
+            "rate": 120.00,
+            "petFriendly": true,
+            "roomID": 1,
+            "room": {
+                "id": 1,
+                "name": "Princess Suite",
+                "layout": "OneBedroom",
+                "amenities": [
+                    {
+                        "id": 1,
+                        "name": "Coffee Maker"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Mini Bar"
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
+
+Route: (GET) :  'api/Hotels'
+
+```
+An array of individual hotels. (See result from api/Hotels/{id})
+``` 
+
+
+Route: (Get/Put/) : `api/hotel/room/{hotelId}/{roomNumber}`
+- This is the HotelRooms Controller
+- Retrieve and update a hotel room
+- PUT will include the HotelRoomDTO in the request
+
+```
+{
+    "hotelID": 1,
+    "roomNumber": 101,
+    "rate": 75.00,
+    "petFriendly": false,
+    "roomID": 2,
+    "room": {
+        "id": 2,
+        "name": "Queen Suite",
+        "layout": "TwoBedroom",
+        "amenities": [
+            {
+                "id": 1,
+                "name": "Coffee Maker"
+            },
+            {
+                "id": 2,
+                "name": "Mini Bar"
+            }
+        ]
+    }
+}
+```
+
+Route: (POST) : `api/hotel/room/{hotelId}`
+- Add a new Hotel Room to a hotel
+- HotelRoomDTO will be included in RequestBody
+
+Route (Get/Put) : `api/rooms/{roomId}`
+- Get a specific room
+- Update a room
+
+```
+{
+    "id": 1,
+    "name": "Princess Suite",
+    "layout": "OneBedroom",
+    "amenities": [
+        {
+            "id": 1,
+            "name": "Coffee Maker"
+        },
+        {
+            "id": 2,
+            "name": "Mini Bar"
+        }
+    ]
+}
+```
+
+Route: (GET/POST) : `api/rooms/`
+- Get an array of RoomDTO objects
+- refer to request above for formatting
+-  Post request will create a new room
+- Post request will have the room DTO included in request
+
+Route: (Get) `api/amenities/{id}`
+- Get specific amenity
+
+```
+{
+    "id": 1,
+    "name": "Coffee Maker"
+}
+```
+
+Route: (GET/POST) - `api/amenities/`
+- Get all Amenities 
+- Response will be an array of amenities
+- Post is adding a new general amenity
+- Post will include the Amenities DTO in the request
+
+#### RoomAmenities Controller
+
+Route: (POST) `api/room/amenities/{roomId}/{amenitiesId}`
+- Add a amenity to a specific room
+- No request body, just the amenity ID
+
+### DTOs
+
+```csharp
+    public class HotelDTO
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string StreetAddress { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Phone { get; set; }
+        public List<HotelRoomDTO> Rooms { get; set; }
+    }
+
+
+    public class HotelRoomDTO
+    {
+        public int HotelID { get; set; }
+        public int RoomNumber { get; set; }
+        public decimal Rate { get; set; }
+        public bool PetFriendly { get; set; }
+        public int RoomID { get; set; }
+        public RoomDTO Room { get; set; }
+    }
+
+    public class RoomDTO
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Layout { get; set; }
+        public List<AmenityDTO> Amenities { get; set; }
+    }
+
+    public class AmenityDTO
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+    }
+```
+
 
 ## Guidance
 - There is no additional guidance for this assignment.
 
 ## Unit Tests
 
-There are no additional Unit Tests required for this assignment.
 
-I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
 
 ## Stretch Goals
-- There are no Stretch Goals for this assignment.
+
+- Implement Cascade deletion?
 
 ## Additional Resources
 - There are no additional resources provided for this assignment.
 
 ## README
 
-You're README should include:
-1. Introduction to your application
-1. Database ERD
 
-Your job is to
-
-1. Tell them what it is (with context)
-1. Show them what it looks like in action
-1. Show them how they use it
-1. Tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
- <br />
- Refer to the sample-README in the class repo for an example. 
-
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 
