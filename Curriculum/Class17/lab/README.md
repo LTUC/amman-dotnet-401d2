@@ -211,7 +211,7 @@ Route: (POST) `api/room/amenities/{roomId}/{amenitiesId}`
 
 ## Unit Tests
 
-
+N/A
 
 ## Stretch Goals
 
