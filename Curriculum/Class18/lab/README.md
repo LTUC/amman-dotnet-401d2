@@ -24,7 +24,7 @@ Your final app should contain:
     - Action to display information about a specific hotel
  3. CSS For all pages
  4. Page layouts
- 5. Deployment to Azure
+ 5. Deployment to Azure (both your local app and api server)
 
 Overall, the look and feel of your site should provide a good client experience.
 
