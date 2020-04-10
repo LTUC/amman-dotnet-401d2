@@ -11,6 +11,12 @@
 1. Test APIs
    - Demonstrate how to test api endpoints.
    
+
+1. Data Modeling
+5. Deployment
+6. Bootstrap
+
+
 If you are not able to complete the demo in class, it is ok to share the provided demo to the students so they can see the finished product. 
 
 ## Lab Notes

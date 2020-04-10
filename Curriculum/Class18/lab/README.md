@@ -1,49 +1,44 @@
-# Lab 18: Finish up!
+# Lab 18: WEB App for API Calls
 
 ## The Problem Domain
-Finish up your `Async Inn` Hotel Management project.
+Create a frontend application using ASP.NET Core MVC.
 
 ## Application Specifications
-- Your application should include the following:
-1. Deploy to Azure (reference link in your Readme)
-	- Application *MUST* be deployed to Azure. No grade will be given to non-deployed apps.
-1. Implement User Secrets instead of the default configurations
-1. CSS/HTML should be present on **all** pages of the project.
-	- Utilize "layouts"
-	- Use "partials" as needed
-1. Update/Edit your `RoomAmentities` page to not allow edits. 
-	- You should only have the option to create associations and delete associations for specific Rooms.
-	- This will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
-1. Leverage the use TagHelpers and View Models to identify the correct association to remove.
-1. Modify the existing code to edit a `HotelRoom`.
-	 - Allow a user to edit the `HotelRoom` details for a specific hotel. 
-	 - Do not create a new service for the modification of HotelRoom, instead, refactor your existing interfaces and services to include this functionality.
-	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
-	 - View Models and TagHelpers may be used to send the data back and forth from the server
-1. Add/Confirm functionality that if you "remove" a room or a hotel, all of it's associations are also removed
-	- If you delete a Hotel, all of the `HotelRoom` associations with that hotel should be removed.
-	- If you delete a Room template, all of the `HotelRoom`s that have that room template need to be removed as well as the RoomAmenity associations
 
-1. Write Tests (listed below)
-1. The site should be functional, with no errors being thrown. Exceptions handled appropriately, and redirects occurring where they are needed. 
+Build out an MVC Application that calls out to your previously created Async Inn API.
 
+1. Start out with an empty web app and set up the routing and dependencies.
+2. Implement into your application the repository design pattern (add interfaces, services, and mappings)
+3. Set your app up to make requests for:
+   - Displaying all the hotels that are in the api server's database
+   - Displaying information specific to an individual hotel
+
+
+Your final app should contain:
+ 1. Home Controller
+    - Index action
+    - View with navigation to view all hotels
+ 2. Hotels Controller
+    - Action to display all the hotels
+    - Action to display information about a specific hotel
+ 3. CSS For all pages
+ 4. Page layouts
+ 5. Deployment to Azure
 
 Overall, the look and feel of your site should provide a good client experience.
 
 
 ## Guidance
-- There is no extra guidance for this assignment.
+- Use [this documentation](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient) as a reference on making API calls
+- [Tag Helpers](https://docs.microsoft.com/en-US/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1)
 
 
 ## Unit Tests
-- Test your application for the following functionality:
-1. Test Getters/Setters on all Models
-1. Test Standard CRUD operations on all tables (test your services!)
+No Tests
 
 
 ## Stretch Goals
 - There are no Stretch Goals for this assignment.
-
 
 ## Additional Resources
 - There are no additional resources provided for this assignment.

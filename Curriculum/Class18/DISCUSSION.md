@@ -7,10 +7,15 @@ Below you will find some reading material, code samples, and some additional res
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
 ## Readings
-1. [User Secrets](../../Resources/UserSecrets.md){:target="_blank"}
-1. [YouTube - Intro to APIs (60 min)](https://youtu.be/aIkpVzqLuhA){:target="_blank"}
-1. [Unit Testing](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs){:target="_blank"} 
-1. [Testing Controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-2.1){:target="_blank"} 
-1. [Intro to APIs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1){:target="_blank"} 
+
+1. [Calling a Web API](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient)
+1. [View Layouts](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-2.1){:target="_blank"}
+1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"}
+1. [Partial Views](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial?view=aspnetcore-2.1){:target="_blank"}
+
+1. [View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
+
+
+
 
 

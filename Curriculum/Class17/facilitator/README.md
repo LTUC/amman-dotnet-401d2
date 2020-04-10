@@ -21,6 +21,9 @@ Today's Topics:
    - Emphasize the importance of View Models and why we like them. 
 
 
+
+
+
 ## What changed from yesterday? 
 You will spend a majority of this day reviewing what yesterday's content was. The trick to assisting in the understanding of DI and the Repo Design Pattern is to keep repeating what is happening and drawing the demo image. Keep reviewing the code and going through the data flow (listed in the PPT). The more you walk through bit by bit the better it will be for the students to make the connections. 
 

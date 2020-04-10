@@ -19,6 +19,15 @@ Have an Azure account ready to go that you can demonstrate how to deploy both a 
    - Draw out the Web Request Response Cycle with an outline of the data being sent and received.
    - Create a a simple API Controller.
    - If you are not able to complete this section, it can easily be covered in Class 19.
+
+
+1. Review MVC
+1. Create a home Controller
+6. Add CSS
+7. TagHelpers
+7. Add a Layout
+8. DataModeling
+
 ## What changed from yesterday? 
 Wrapping up with deployment! Starting APIs
 
