@@ -1,7 +1,8 @@
 # Lab 18: WEB App for API Calls
 
 ## The Problem Domain
-Create a frontend application using ASP.NET Core MVC.
+
+Create a frontend application using ASP.NET Core MVC that makes request to an existing API
 
 ## Application Specifications
 
