@@ -4,9 +4,8 @@
 
 Today's Topics:
 1. Review: Interfaces and Dependency Injection
-1. HTML/CSS assistance
 1. Testing assistance
-1. Search & Filter results (Tutorial in reading)
+1. Deployment
 
 ## Lecture
 1. Code Review
@@ -19,9 +18,6 @@ Today's Topics:
    - Remind them about getter and setter tests
 1. Review the Search/Filter Tutorial
    - Emphasize the importance of View Models and why we like them. 
-
-
-
 
 
 ## What changed from yesterday? 

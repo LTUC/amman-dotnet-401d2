@@ -14,7 +14,7 @@ Building off of your current project for the `AsyncInn`:
 1. Within each service, don't forget to inject the your `DbContext` into your services, so that you have access to the database.
 1. Register each of the services with the appropriate Dependency Injection Lifetime in the `Startup.cs` class.
 1. Refactor all of your scaffolded controllers to utilize the newly created services. Remove the need for the database in the controllers, inject the services as needed, and keep the controllers "loosely coupled" by offloading the CRUD functionality to the services you previously defined. (Do not have your `DBContext` injected into your controllers, make it the appropriate interface(s) instead!)
-1. Within your Room interface, make sure that you can see a list of all it's `Amenities`, and within the Hotels interface, you can see a list of all the `HotelRooms` associated with it. (Only need to display the name of the hotel, room number, and room name) 
+
 1. Within your HotelRoom Interface, be sure include CRUD operations, as well as `GetByRoomNumber(int hotelID, int roomNumber)`
 1. Your RoomAmenities controller will only be able to add and delete associations. No need to allow for updating or retrieving. The room controller will "Retrieve" for you.
 1. Test and make sure that each of these actions still work in Postman when complete. 

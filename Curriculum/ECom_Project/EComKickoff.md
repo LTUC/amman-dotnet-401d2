@@ -25,11 +25,7 @@ The project will be broken up into 3  sprints. Each sprint consists of 4 or 5 cl
 
 Sprints will end on Fridays (Mon-Thursday Lectures), in which you will also have your weekly check-in. 
 
-Every Monday and Wednesday you will do a "Goals" post within your team. You will write down your goals for the next couple days. This includes what user stories you hope to accomplish and any other tasks you think are feasible.
-
-Every Wednesday and Friday you will report on reflections within a discussion post. In this post you will reflect on what you did, what you could have done better, and how you plan to improve your process. 
-
-Review the Goals/Reflections assignments below for more details on what is required. 
+After every milestone, you will do a retro on your progress so far and what is left on your tasks.
 
 At the end of each week, you will conduct a Peer Review on a few of your partner's user stories. Be sure to understand what exactly was completed and input any feedback or suggestions for optimizations or alternative approaches. Remember, this is just feedback and review -- keep it respectable and professional. 
 
