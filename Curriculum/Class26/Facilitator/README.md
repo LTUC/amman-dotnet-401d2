@@ -24,8 +24,6 @@ Here is checklist of items that you should complete before the start of lecture:
 
 ### Lecture
 1. Introduce the ECom project by reviewing each week's expectations (30min)
-   - Monday goals (to plan ahead)
-   - Friday reflections (what did you complete that week? What would you do differently?)
    - Peer reviews at the end of each sprint
    - Show an example of Day 1's (and 2's if they need to see the "guidance" section) user stories and how they are split up
    - Everyone is responsible for their own submission (no "group" submissions)
