@@ -1,5 +1,7 @@
 # Facilitators Guide: Class Title
 
+(this file is in construction. Refer to README doc)
+
 ## Overview
 
 Today we introduce the concept of relational databases and ERD's. We review with the students what a database is and have the students create their own ERD based off of a demo problem domain.
@@ -30,7 +32,7 @@ Review the detailed objectives in today's [student-facing readme](../README.md).
 
 ## Lecture Outline
 
-Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../LECTURE-NOTES.md) notes.
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../Resources/Databases.md) notes.
 
 ### Code Review
 
@@ -39,7 +41,7 @@ Below is the expected lecture outline and flow. One possible way to present this
 ### ERD
 
 - **Why** (5 min)
-  - Thing
+  - We need a way to plan how our data is going to be stored. We need to know 
 - **What** (10 min)
   - An ERD stands for Entity Relationship Diagram. This is how developers plan out what their database is going to look like and how they are going to store and categorize their data. ERDs give us a visual of where our data is stored and the relationship between each of the entities. 
 - **How** (30 min)
