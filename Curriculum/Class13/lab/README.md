@@ -2,7 +2,7 @@
 
 ## The Problem Domain
 
-Now that you have a solid understanding of your database schema for your hotel management system, today you will build off of your initial web application from lab 12 and integrate in our API Controllers and Models for our database. 
+Now that you have a solid understanding of your database schema for your hotel management system, today you will build off of your initial web application from lab 12 and integrate into it our database tables from our ERD. 
 
 ## Application Specifications
 
@@ -12,49 +12,42 @@ Your application should include the following upon completion:
 	- Explicit routing of MVC 
 	- MVC dependency in ConfigureServices
 	- DBContext registered in ConfigureServices
-1. Controller
-	- Home Controller
 1. Data
 	- DBContext present and properly configured
 	- DB Tables for each entity model (`DbSet<T>`)
 	- Composite key association present in `OnModelCreating` override.
 	- `appsettings.json` file present with name of database updated
+    - Default data seeded
+    
 1. Models
 	- Each Entity from the DB Table converted into a Model
 	- Proper naming conventions of Primary keys
 	- Navigation properties present in each Model where required
 	- Enum present in appropriate model
 
-1. Test out your application by calling it into postman and make sure that the following data transfer objects get returned:
-
-```
-Hotel
-
-```
-
-```
-Rooms
-```
-
-```
-HotelRooms
-```
-
-```
-Amentities
-```
-
-```
-RoomAmenities
-```
 
 ## Guidance
 
-Create a basic MVC web application using the steps provided from class 11 & 12. Include a Home Controller with a basic Index action. No need to add any content to the Index view, just have it load a greeting for now. You will work more on the Home Controller a little further down.
+
 Using your ERD Diagram, convert each entity into a model within your newly created MVC web application.
 
-Following the steps provided, in addition to what we did in class, create a new `DbContext` named `AsyncInnDbContext`. 
-Within this DbContext, declare your Database tables and set your composite keys. 
+Within your DbContext, declare your Database tables and set your composite keys for the required tables
+
+1. Add default data to your database by seeding your database. Be sure have at least:
+    - 5 default Hotel Locations
+   	- 6 Room Types
+   	- 5 Amenities. 
+1. Don't forget to add a new migration and update your database when completed!
+
+## Steps:
+
+1. For each Entity that you have in your ERD, create a new class in your Models folder. 
+2. Inside your DbContext, create a new table/`DbSet<T>` for each of your created entity classes
+3. Add your composite key associations to your overridden `OnModelCreating` method.
+4. Run the command `add-migration {nameOfMigration}`
+5. Run the command `Update-database` and confirm your database now has the appropriate tables.
+6. Add Summary comments to your code where necessary.
+ 
  
 ##### README
 

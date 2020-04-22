@@ -2,55 +2,23 @@
 
 ## The Problem Domain
 To continue with your AsyncInn Hotel Management System, you need to seed hotel data to display in your application. 
-For Today's branch, focus on working within the existing code base that was scaffolded out (If you chose to scaffold). Practice learning and understanding a code base that you didn't write, but need to make modifications too.
+For Today's branch, focus on working within the existing code base from prior labs. Today, we practice learning and understanding a code base that you didn't write, but need to make modifications too.
 
 ## Application Specifications
 
-##### Design
-Think about the design of your website. What will it look like? What pages will exist? How do the pages interact and link to each other? For our website, we will have the following pages:
-1. Home Page to greet the Hotel Admin. This page will also serve as a dashboard for the other locations of the site.
-1. Hotels page that will allow the Admin to create and edit new or existing hotels
-1. Rooms page where the Admin will be able to create or edit new or existing rooms
-1. Amenities page that will allow the Admin to add to their list of existing amenities
-1. A page where they can link the Amenities to the rooms that currently exist
-1. A page where they can add existing rooms to hotels
 
-Following the design, Create a controller for each of the pages listed above. You should "Add >> Controller" on the controllers folder and scaffold out the basic CRUD operations.
-
-
-Your application should include the following:
-1. Seed your database with at least 
-	- 5 default Hotel Locations
-	- 6 Room Types
-	- 5 Amenities. 
-1. *Do not* make any seeded associations with `HotelRoom` or `RoomAmenities`.
-1. Update the dropdown lists to include the `Layout` enum, and associations between the `Room` and `Hotel`, as well as the `Room` and `Amenities`. Be sure to display user friendly information in your views (example: display string names instead of ids).
-1. Based off of the readings from day 14, either utilize bootstrap (download it into your project from NuGet), or remove all bootstrap specific classes in your HTML. (clean it up!)
-1. Add your own styling to the Hotel creation page, Room Creation Page, and Amenities creation page.
-1. On the Home Page, create a navigation to the Hotel, Room, and Amenities pages that display all of the contents in the database respectively. 
-1. On the Rooms, Hotels, and Amenities landing page, be sure to include a link that allows you to create a new room within the overall lists. 
-1. Create a page named `HotelRooms` that allows you to associate a specific Room with a specific hotel. Refer to the Wireframes `HotelRooms/Update/id&rn=201` wireframe as an exampe
-1. Refer to the provided wireframes as examples of what these pages should look like and function. Feel free to use the automatic scaffolding. Don't forget to modify/remove any extra code that is not needed. 
-
-## Guidance
-- There is no extra guidance for this assignment.
-
+1. Scaffold out a controller for each of your entity models. Choose the "API Controller with actions, using Entity Framework" and choose one of your 5 entities as your data source and your existing DBContext as your "Data context class." You should have a total of 5 scaffolded Controllers when completed.
+1. Test your routes in Postman to confirm you are retrieving data correctly from the seeded data.
+1. To keep your application secure, enable the use of UserSecrets in your application. Update your constructor in your `Startup.cs` file as required.
 
 ## Unit Tests
 - There are no Unit Tests required for this assignment.
 
-I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}. 
+Unit tests to come in a future lab.
 
 ## Stretch Goals
-These goals will be required in an upcoming lab, but feel free to start a bit "early":
-1. Update/Edit your `RoomAmentities` page to not allow edits. 
-	- You should only have the option to create associations, and delete associations.
-	- If you scaffolded the controller, this will require the removal of the actions and view pages from the scaffold code, as well as existing links. 
-1. Leverage the use TagHelpers and View Models to identify the correct association to remove.
-1. Modify the existing code to edit a `HotelRoom`.
-	 - Allow a user to edit a `HotelRoom` combination. 
-	 - Remember that a Hotel cannot have more than one of the same RoomNumber. Be sure to either implement error handling or some other way to prevent the user from doing so. 
-	 - View Models and TagHelpers will be required to send the data back and forth from the server
+
+- Try and add data to your database through postman and your API endpoints. 
 
 ## Additional Resources
 - There are no additional resources provided for this assignment.

@@ -22,7 +22,6 @@ Today primarily focuses on an introduction to databases. This should be a combin
 1. Review data persistence
    - What is data persistence? 
    - What are databases? Why do we need them?
-1. Introduce Entity Framework Core
 1. Introduce DB Context and setup in an MVC project
    - start with an empty web app and add the MVC service. No need to do an MVC route right away.
    - Create a Data folder

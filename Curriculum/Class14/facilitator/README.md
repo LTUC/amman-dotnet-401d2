@@ -8,12 +8,16 @@ provide for them the official demo code if you don't get all the way through. Th
 
 ## Lecture Outline
 
-1. Seed your database with default data
 1. Intro to APIS
    - What are they?
+   - APIs doc in resources
 1. Scaffolding out controllers
+   - Review the code
+   - notice the DBContext getting "injected"
 1. Postman Requests
+   - Use postman to make requests to your API server
 1. User Secrets
+   - Enable them in Startup
 
 
 ## What changed from yesterday? 
