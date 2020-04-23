@@ -8,14 +8,13 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Calling a Web API](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient)
+
 1. [View Layouts](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-2.1){:target="_blank"}
-1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"}
 1. [Partial Views](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial?view=aspnetcore-2.1){:target="_blank"}
-
 1. [View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
-
-
-
+1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
+1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
+1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"} 
+1. [Tag Helpers with Forms](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-2.1){:target="_blank"} 
 
 

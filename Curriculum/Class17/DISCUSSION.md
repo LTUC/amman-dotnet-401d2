@@ -8,5 +8,3 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-3.1
-1. 1.  [Model Validation](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1){:target="_blank"}

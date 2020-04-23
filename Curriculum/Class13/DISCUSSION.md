@@ -11,7 +11,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 1. [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/){:target="_blank"}
 
 
-1. [YouTube - Intro to APIs (60 min)](https://youtu.be/aIkpVzqLuhA){:target="_blank"}
+
 
 1. 1. [User Secrets](../../Resources/UserSecrets.md){:target="_blank"}
 

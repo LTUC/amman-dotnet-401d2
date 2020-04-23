@@ -9,9 +9,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 ## Readings
 1. [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} 
 1. [Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio){:target="_blank"} 
-1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
-1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
-1. (Keep as a resource, read through if you have time) [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/){:target="_blank"} 
-1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"} 
-1. [Tag Helpers with Forms](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-2.1){:target="_blank"} 
+
+1. [YouTube - Intro to APIs (60 min)](https://youtu.be/aIkpVzqLuhA){:target="_blank"}
+
 
