@@ -15,11 +15,13 @@ This is the end of sprint 1. please refer to the Sprint 1 assignment to confirm 
 
 ### Guidance
 
-**User Story 1:** This is page that shows all the products within the Inventory. Create a new Razor Page and display all of the products that you have in your Products table. Incorporate the functionality that upon clicking each product, it will redirect to an individual product page to show the details (User story 2). Refer to the suggested wireframes if you are having trouble determining a layout.
+**User Story 1:** This is page that shows all the products within the Inventory. Create a new Razor Page named `shop` and display all of the products that you have in your Products table. Incorporate the functionality that upon clicking each product, it will redirect to an individual product page to show the details (User story 2). Refer to the suggested wireframes if you are having trouble determining a layout.
 
 *Stretch goal* - Implement pagination! 
 
 **User Story 2:** For this story, create a new product details page that shows the products image, name, price, and any other relevant details. Refer to the suggested wireframes if you are having trouble determining a layout. Don't worry about linking the "Add to Cart" button to anything just yet. 
+
+Need some help on targeting an individual product with an id? Check [This tutorial out](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/da1?view=aspnetcore-3.1)
 
 *Stretch* - Implement the ability to have multiple images on a products details page.
 
