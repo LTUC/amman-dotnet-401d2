@@ -1,4 +1,4 @@
-# Readings: DB Seeding and Tag Helpers
+# Readings: DB Seeding and Intro to APIs
 
 ## Submission Requirements
 
@@ -9,7 +9,6 @@ Review the Submission Instructions for guidance on completing and submitting thi
 ## Readings
 1. [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} 
 1. [Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio){:target="_blank"} 
-
 1. [YouTube - Intro to APIs (60 min)](https://youtu.be/aIkpVzqLuhA){:target="_blank"}
 
 
