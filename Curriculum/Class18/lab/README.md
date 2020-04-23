@@ -2,29 +2,13 @@
 
 ## The Problem Domain
 
-Create a frontend application using ASP.NET Core MVC that makes request to an existing API
+Create a Web app with a home page. 
 
 ## Application Specifications
 
-Build out an MVC Application that calls out to your previously created Async Inn API.
+1. Start out with an empty web app and set up the routing and dependencies for a default Home controller with the Index action as default. 
 
-1. Start out with an empty web app and set up the routing and dependencies.
-2. Implement into your application the repository design pattern (add interfaces, services, and mappings)
-3. Set your app up to make requests for:
-   - Displaying all the hotels that are in the api server's database
-   - Displaying information specific to an individual hotel
-
-
-Your final app should contain:
- 1. Home Controller
-    - Index action
-    - View with navigation to view all hotels
- 2. Hotels Controller
-    - Action to display all the hotels
-    - Action to display information about a specific hotel
- 3. CSS For all pages
- 4. Page layouts
- 5. Deployment to Azure (both your local app and api server)
+Using Layouts, HTML, and CSS, build out a very basic site that introduces the user to the Hotel Asset Management System. In Lab 19, we will make calls to the API Server you built previously.
 
 Overall, the look and feel of your site should provide a good client experience.
 
