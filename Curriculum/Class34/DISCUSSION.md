@@ -1,4 +1,4 @@
-# Readings: SCSS
+# Readings: Class 34
 
 ## Submission Requirements
 
@@ -7,5 +7,5 @@ Below you will find some reading material, code samples, and some additional res
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
 ## Readings
-- [OAUTH MSFT Docs](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1){:target="_blank"}
-- [OAUTH](https://www.jerriepelser.com/blog/authenticate-oauth-aspnet-core-2){:target="_blank"}
+
+-  [Signal R](https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-3.1)
