@@ -1,7 +1,7 @@
 # Calculator 
 
 Complete as much of the assignment as possible before class starts on day 1. 
-This assignment is graded on weather or not a healthy attempt was made.
+This assignment is graded on whether or not a healthy attempt was made.
 
 ## The Assignment
 Create a Calculator. Use everything that you have learned from the prework tutorials. 
@@ -17,9 +17,19 @@ Upon completion, your calculator should contain the following:
 	- Divide()
 
 Each of these methods should take in 2 parameters, and return the solution of those 2 numbers. (i.e if you are adding
-2 numbers than your return would be the sum of the 2 numbers added together. )
+2 numbers then your return would be the sum of the 2 numbers added together. )
 
-Output to the console the answer to the proposed math problem. 
+Output to the console the answer to the proposed math problem.
+You may assume valid input.
+
+### Example Output
+
+```text
+First number: 1
+Operation: +
+Second number: 2
+Result: 3
+```
 
 ## Documentation
 1. Comment your code. 
