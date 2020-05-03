@@ -4,8 +4,8 @@
   "description": "This *private* repo is a work in progress. You may extract the contents of the `/Public` & `/Labs` folder in this repo to use in your course as necessary. The `Lectures` is designed to hold specific class related notes\r that should *not* be public facing.",
   "main": "index.js",
   "scripts": {
-    "lint:fix": "markdownlint --fix --ignore-path .gitignore .",
-    "lint": "markdownlint --ignore-path .gitignore ."
+    "lint:fix": "markdownlint --fix .",
+    "lint": "markdownlint ."
   },
   "repository": {
     "type": "git",
