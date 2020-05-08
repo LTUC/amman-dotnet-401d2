@@ -55,13 +55,9 @@ Authorize.NET is present and hooked up within the application. The checkout page
 Azure blog storage is properly configured within the application. Images for all products are stored within cloud storage
 
 
-#### Admin Dashboard (10 points)
+#### Admin Dashboard (15 points)
 
-Admin dashboard is present within the application. Admins are redirected to the admin dashboard upon login. The Admin has the ability to CRUD on basic products. View all orders that have been placed within the system/
-
-
-#### Profile Page (5 points)
-Personal Profile page exists and is accessible to users. They can view their personal information (not change their email). view the last 5 orders that were submitted, and change their password. 
+Admin dashboard is present within the application. Admins are redirected to the admin dashboard upon login. The Admin has the ability to CRUD on basic products. View all orders that have been placed within the system. Admins are redirected to the admin dashboard upon login.
 
 
 #### User Experience (5 points)
