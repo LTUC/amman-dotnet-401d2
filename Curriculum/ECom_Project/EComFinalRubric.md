@@ -30,9 +30,6 @@ CSS/Design of page is professional and clean. Only accessible by logged in/autho
 ## Receipt/Order Confirmation Page - 5pts
 Order Confirmation page has clean and professional looking CSS. Only accessible by logged in/authorized users. Contains a summary, by line item, of items purchased by the user, including order total. Receipt is emailed to user of summary of order. Text of email is professional
  
-## Personal Profile Page - 5pts
-Page consists of clean/professional CSS and Design. User is able to access their last 5 orders that were placed. Profile contains user's information for visibility. User has the ability to change basic information (not email) from profile page. New information successfully saves back to database and updates the user information appropriately. Personal Profile page is using the razor pages and is located in the "Pages" directory.
- 
 ## Vulnerability Report - 4pts
 Repo consists of a vulnerability report that outlines at least 4 potential vulnerabilities. Vulnerabilities are formatted within the provided template and each section contains relevant and appropriate information.
 
@@ -45,14 +42,14 @@ Readme is present in repo and contains 1. Intro to the site 2. product that is b
 ## Code Quality - 5pts
 Quality of code is up to industry standard. Summary comments are present above each method and action. Comments are present when more explanation is needed. Variables are named appropriately, and there isnt' any unnecessary code classes or blocks that are not being used.
  
-## Email Sender - 1pt
+## Email Sender - 5pt
 Email sender uses SendGrid and implements the IEmailSender Interface
 
-## Site Skeleton - 2pts
+## Site Skeleton - 3pts
 Site uses MVC architectural pattern(Model, View, Controller folders) as well as Razor pages (pages directory). Site utilizes .NET Core's Identity Framework for authentication and authorization.
 
 ## Policies - 3pts
-Site has and enforces a 1. Custom Claims based policy (with a separate handler and requirement, as well as registered in startup), 2. Role based policy (i.e. Admin only), Claims are being enforced on at least one page each, and are registered in the Startup.cs file
+Site has and enforces a role based policy (i.e. Admin only), Claims are being enforced on at least one page, and are registered in the Startup.cs file
 
 ## Site Functionality - 5pts
 Site does not contain broken links or uncompleted pages. Site does not throw 500 errors during basic functionality and usages. Site contains a custom 400 error page to mask errors. (not required) , No developer errors are present to user.

@@ -29,9 +29,9 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 1. Registration Page
    - Create an account
    - Anonymous Accessibility
-1. Admin Dashboard - (Razor Page)
+1. Admin Dashboard 
    - Only accessible by users who hold the role of admin
-   - Manage Products (Full CRUD) (Razor Pages)
+   - Manage Products (Full CRUD)
    - View Last 10 submitted by users
      - Each order detail page should contain:
        - Name of Customer
@@ -53,9 +53,6 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 9. Receipt/Order Confirmation Page
    - Must be logged in/Authorized
    - Summary of the order that the user just completed. 
-1. Personal Profile Page - (Razor Page)
-    - Shows user's last 5 orders
-    - Displays user information
 1. [Vulnerability](VulnerabilityReport.md){:target="_blank"} report present in Repo 
 
 ### Shared
