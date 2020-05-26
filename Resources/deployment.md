@@ -54,12 +54,8 @@
 	 - Once your initial production database has successfully been created and deployed, you may modify your DBContext registration to the following to help with local and production environments:
 
 ``` csharp
-string connectionString = Environment.IsDevelopment()
-                    ? Configuration[s"ConnectionStrings:DefaultConnection"]
-                    : Configuration["ConnectionStrings:ProductionConnection"];
-
 services.AddDbContext<StudentEnrollmentDbContext>(options =>
-options.UseSqlServer(connectionString));
+options.UseSqlServer(Configuration[s"ConnectionStrings:DefaultConnection"]));
 ```
 
 ## Deploying the Web App
