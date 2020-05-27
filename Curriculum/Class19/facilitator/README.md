@@ -4,35 +4,25 @@
 
 ## Lecture
 1. Code Review
-   - Review what an API is and what RESTful means.
-   - Code out a basic API while using the Repository Design Pattern and SQL Server Database.
-1. Add a 2nd Controller and Join Table
-   - Show how to use a join table when extracting data from an API endpoint from the database.
-1. Test APIs
-   - Demonstrate how to test api endpoints.
-   
+   - Review Views, Taghelpers, Layouts, and Routes.
+1. **API Calls**
+	- using [This document](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient) as a resource, teach the students how to make an api call from a service to their Hotel Async API.
+	- Make an API call to your API server. Make sure the students have:
+		- Model class to mimic the dto coming in. 
+		- Make note how the dto does automatic model binding that happens with the incoming DTO. 
+	- Other resources: 
+		- [Http Flurl](https://flurl.dev/)
+		- [Rest Sharp](http://restsharp.org/)
+1. **Bootstrap**
+	- Ther readings from class 17 do a pretty good job at an intro, but review it with the students on how to enable it and use it within the site. 
+		- [How to use Bootstrap with .NET Core](https://www.bootstrapdash.com/asp-net-core-with-bootstrap-4/)
 
-1. Data Modeling
-5. Deployment
-6. Bootstrap
-
-
-If you are not able to complete the demo in class, it is ok to share the provided demo to the students so they can see the finished product. 
+1. Review the "right click publish" deployment to Azure. 
 
 ## Lab Notes
 
-This lab can be made optional at the instructor's discretion. The lab should still be published and available for the student's, but it is up to the instructor if they want it completed before the midterm project starts. The midterm project requires knowledge of APIs, so students will be able to apply this lecture regardless if this lab is completed. 
-
-
-## What changed from yesterday? 
-This is a build off from yesterday, 2nd part of the lecture. 
-
-## What might students struggle with today?  
-Nothing "new" is being taught today. This is all review of what they learned during week three for creating controllers. The biggest difference being the name of the individual actions within the controllers and the different HTTP action tags. 
-
-## What bugs, issues, or surprises have come up in the past for this class?
-Sometimes Postman doesn't act as expected. This is usually due to misc updates.
+The lab is set to have the students finish up a frontend web app that makes calls to their api from last week. This will wrap up a clear picture of the web request response cycle as a whole. 
 
 ## General comments
 
-We only touch APIs for a day and a half, but it is a requirement for half of the midterm. Really emphasize how much "simplified" an API controller is from what they have been building. This day is a great way to test the student's overall knowledge of MVC and how it all relates to one another. 
+Studetns will not 100% feel comfortable with the frontend, but with a little practice, they will be ready for midterms :) 
