@@ -22,14 +22,18 @@ Next, Now that we have a baseline, let's add in identity:
 
 1. Add the Identity DB Context (`UsersDbContext`)
 1. Add the Application User
-	- Add any additional info we need such as firstname or lastname. Show them the "tree" of how it is all derived.
+	- Add any additional info we need such as firstname or lastname. 
+	- Show them the "tree" of how it is all derived.
 1. Register the DbContext
 1. Register Identity
 1. Create a migration for the new database
 	- notice the error of needing to knwo what context?
 	- `add-migration -context usersdbcontext`
 	- `update-dateabase -context usersdbcontext`
+	- Notice the contents of the migration that got added. The tables?
 1. Notice the 7 tables that identity gives us within the database. Explore them. 
+
+1. If there is time, deploy the app to Azure.
 
 
 The end result should be:
