@@ -8,3 +8,4 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 1. [JWT Authentication](https://medium.com/@vaibhavrb999/jwt-authentication-authorization-in-net-core-3-1-e762a7abe00a){:target="_blank"} 
+1. [Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html)
