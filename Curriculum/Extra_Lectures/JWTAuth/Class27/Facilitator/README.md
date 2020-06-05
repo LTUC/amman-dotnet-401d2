@@ -1,4 +1,4 @@
-# Facilitators Guide: Authoenticaion
+# Facilitators Guide: Authentication
 
 ## Overview
 
