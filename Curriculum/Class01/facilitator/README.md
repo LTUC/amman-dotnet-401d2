@@ -89,6 +89,23 @@ Below is the expected lecture outline and flow. One possible way to present this
 - **Experimentation and Discovery Ideas**
   - Showcase how the call stack is involved with exception handling. `throw` the exceptions through methods back and forth to request flow of how the exceptions are handled. 
 
+
+**In-Class Exercises**
+
+  - Exercise 1 (20 minutes):
+    1. Build an application, with a partner, that asks the user to enter a single number. 
+    2. Save that number in a string variable.
+    3. Ask the user to enter a 2nd number.
+    4. Save that number in a new string variable. 
+    5. Convert each of the string numbers into an integer
+    6. Be prepared to `catch` a `FormatException` if the value entered cannot be converted to a number
+    7. Within the `catch` output a message to the console that shows the user what they inputted.
+
+  - Exercise 2 (15 minutes):
+    1. Building off of exercise 1, ask the user if they want to add,subract,multiply, or divide. (a/s/m/d)
+    2. Depending on their answer conduct that math equation with the two numbers. 
+    3. What exceptions should we expect? Create as many catch statemetns as you feel are needed to fully cover the exception handling for this problem.
+
 ### Debugging
 
 - **Why** (5 min)
@@ -103,6 +120,10 @@ Below is the expected lecture outline and flow. One possible way to present this
   - Play with the different breakpoint settings. Create errors and fix them/find them using debugging.
 
 ## Lab Notes
+- There are 3 different lab assignments
+     - Calculator app - Optional. This is a great exercise if you are conducting afternoon lecture and need an assignment in the morning. 
+     - Practice debugging - This is a required assignment that will be due the next day. Students can expect to spend 2 hours on this assignment. 
+     - Exception Handling - This is the core assignment for the day and reflects what was taught in lecture. 
 
 - This lab primarily focuses on reading and following the directions with a small math twist towards the end. this lab shows the students the power of the call stack as well as the usage of variable scope and method management. 
 

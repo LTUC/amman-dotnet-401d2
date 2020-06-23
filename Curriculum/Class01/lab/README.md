@@ -1,4 +1,4 @@
-Numbers Game
+# Numbers Game
 =====================================
 
 ## The Problem Domain
