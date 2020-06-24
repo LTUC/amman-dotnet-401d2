@@ -1,11 +1,10 @@
-Lab 02: Unit Testing
+# Lab 02: Unit Testing
 =====================================
 
 ## The Problem Domain
 - Create a bank "ATM" program within a console application
 
-
-## Program Specificaitons
+## Program Specifications
 - Your solution should include the following:
     - Main method
 	- Testable external methods
