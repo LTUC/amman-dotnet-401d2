@@ -37,7 +37,19 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 - Review the prior day's lab. Dive into each of the methods and syntax to get the students comfortable with C#. 
 
-### Unit Test [1 hour]
+### Comments & ReadMes (15 minutes)
+
+- **Why** (5 min)
+  - Developers need to be able to read code written by others. It helps communicate the intention of the codebase to anyone else working on the team. 
+  - ReadMes are important because they help communicate the problem domain and use of a library or repository. 
+- **What** (10 min)
+  - Summary Comments live within the code base to help build documentation
+  - ReadMes live at the root level of projects
+- **How** (30 min)
+  - Summary Comments can be auto created by adding `///` above a method where the template will automatically generate. 
+  - README template are located in the Resources folder
+
+### Unit Test [45 minutes]
 
 - **Why** (5 min)
   - We need to make sure that new code that we write will work with current code base. Nothing is more stressful then finding that you introduced new bugs into your system. 
