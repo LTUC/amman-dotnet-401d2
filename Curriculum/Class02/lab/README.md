@@ -25,7 +25,7 @@ Using Test Driven Development, build out a console application that mocks the fu
 			- **Functionality**: Adds money to the balance
 			- Do not allow the user to deposit a negative amount
 		- Variable to hold the current Balance of the account. 
-			- Make this a `static public Balance` variable, declared *above* the `Main()` method. This will allow you to access the `Balance` variable anywhere in this `Program.cs` file. 
+			- Make this a `static public decimal Balance` variable, declared *above* the `Main()` method. This will allow you to access the `Balance` variable anywhere in this `Program.cs` file. 
 	- User interface that prompts the user for standard ATM operations that links to each of the above external methods
 		- **Return** : void
 		- Keep asking the user to choose a transaction until they choose to 'exit' the application. (while loop??)
@@ -35,7 +35,9 @@ Using Test Driven Development, build out a console application that mocks the fu
 		- Make sure the user can't go below a zero balance.
 		- You **cannot** unit test console `WriteLine` or `Readline`s. 
 		- Make sure your methods are just returning values and not reading input from the console. 
+		- Remember to use the proper data types while working within the program. Money is usually represented by decimals.
 		- All methods within the program class should start their method signature with `static public` followed by the return type and method name. Example `public static void UserInterface()`
+		
 
 - When running your application, it should activate the user interface without any direct code manipulation.
 
@@ -54,6 +56,7 @@ Here are the testing requirements:
 
 
 ## Stretch Goals
+
 - Record each transaction the user records and when they exit, provide a receipt for every transaction they conducted. 
 
 
