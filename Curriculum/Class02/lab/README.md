@@ -1,24 +1,43 @@
-Lab 02: Unit Testing
+# Lab 02: Unit Testing
 =====================================
+
+Read the lab, in its entirety, before continuing.
 
 ## The Problem Domain
 - Create a bank "ATM" program within a console application
 
-
-## Program Specificaitons
-- Your solution should include the following:
-    - Main method
-	- Testable external methods
-	- User interface that prompts the user for standard ATM operations
-		- View Balance
-		- Withdraw Money
-		- Add Money (not standard, but for this exercise it will be....)
-		- Keep asking the user to choose a transaction until they choose to 'exit' the application.
-	- Exception Handling. Implement `try`, `catch`, `finally` and a `throw` within your program.
-- A few things to keep in mind:
-	- Make sure the user can't go below a zero balance.
-	- You **cannot** unit test console `WriteLine` or `Readline`s. 
-	- Make sure your methods are just returning values and not reading input from the console. 
+## Program Specifications
+Using Test Driven Development, build out a console application that mocks the functionality of an ATM. Your solution should include the following methods:
+    - `Main` method
+		- Call the user interface method to activate the application
+	- Testable external methods:
+		- `ViewBalance()`
+			- **Functionality**: Returns the value of the current balance
+			- **Return**: decimal
+			- Test to ensure that the balance properly shows the correct amount after each transaction
+		- `Withdraw()`
+			- **Functionality**: Subtracts money from the balance
+			- **Return**: decimal
+			- Do not allow the user to withdraw more money than what's available.
+			- Do not allow the user to withdraw a value less than zero. 
+		- `Deposit()`
+			- **Return**: decimal
+			- **Functionality**: Adds money to the balance
+			- Do not allow the user to deposit a negative amount
+		- Variable to hold the current Balance of the account. 
+			- Make this a `static public decimal Balance` variable, declared *above* the `Main()` method. This will allow you to access the `Balance` variable anywhere in this `Program.cs` file. 
+	- User interface that prompts the user for standard ATM operations that links to each of the above external methods
+		- **Return** : void
+		- Keep asking the user to choose a transaction until they choose to 'exit' the application. (while loop??)
+		- This method is where you will want to hold all of your `Console.ReadLine`s. 
+		- This method does NOT need to be tested.
+	- A few things to keep in mind:
+		- Make sure the user can't go below a zero balance.
+		- You **cannot** unit test console `WriteLine` or `Readline`s. 
+		- Make sure your methods are just returning values and not reading input from the console. 
+		- Remember to use the proper data types while working within the program. Money is usually represented by decimals.
+		- All methods within the program class should start their method signature with `static public` followed by the return type and method name. Example `public static void UserInterface()`
+		
 
 - When running your application, it should activate the user interface without any direct code manipulation.
 
@@ -28,13 +47,16 @@ Lab 02: Unit Testing
 
 
 ## Unit Tests
-Test that your program has the following functionality:
+
+Write unit tests in a new project using the XUnit library. Test the functionality for the above application. 
+Here are the testing requirements:
 - Test every method/action (that does not require user input); there should be a passing valid input, and a passing invalid input.
 - Have at least 2 tests for every non-void method.
 - **A failing test, is not a valid test** - even if the failure is expected. 
 
 
 ## Stretch Goals
+
 - Record each transaction the user records and when they exit, provide a receipt for every transaction they conducted. 
 
 
@@ -73,3 +95,4 @@ The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"}
 - Submit a link to your PR in canvas
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
+
