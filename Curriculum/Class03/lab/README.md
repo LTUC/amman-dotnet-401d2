@@ -16,8 +16,10 @@ If the user puts in more than 3 numbers, only multiply the first 3.
 
 Example: 
 
-> Please enter 3 numbers: 4 8 15
-> The product of these 3 numbers is: 480
+```
+Please enter 3 numbers: 4 8 15
+The product of these 3 numbers is: 480
+```
 
 Hint: Consider using the [split method](https://docs.microsoft.com/en-us/dotnet/csharp/how-to/parse-strings-using-split){:target="_blank"}
 
@@ -39,11 +41,14 @@ Specs:
 
 Example:
 
-> Please enter a number between 2-10: 4
-> 1 of 4 - Enter a number: 4
-> 2 of 4 - Enter a number: 8
-> 3 of 4 - Enter a number: 15
-> 4 of 4 - Enter a number: 16
+```
+Please enter a number between 2-10: 4
+
+1 of 4 - Enter a number: 4
+2 of 4 - Enter a number: 8
+3 of 4 - Enter a number: 15
+4 of 4 - Enter a number: 16
+```
 
 The average of these 4 numbers is: 10
 
@@ -79,8 +84,10 @@ Write a method that brings in an integer array and returns the number that appea
 If there are no duplicates, return the first number in the array.
 If more than one number show up the same amount of time, return the first found.
 
-> Example: Input: [1,1,2,2,3,3,3,1,1,5,5,6,7,8,2,1,1]
-> output: 1
+```
+ Example: Input: [1,1,2,2,3,3,3,1,1,5,5,6,7,8,2,1,1]
+ output: 1
+ ```
 
 Tests:
 1. Input different size arrays
@@ -93,9 +100,11 @@ Tests:
 
 Write a method in that finds the maximum value in the array. The array is not sorted. You may not use `.Sort()`
 
-> Example: input [5, 25, 99, 123, 78, 96, 555, 108, 4]
-> return: 555
+```
+Example: input [5, 25, 99, 123, 78, 96, 555, 108, 4]
 
+return: 555
+```
 
 Tests:
     1. Negative numbers
@@ -127,9 +136,10 @@ Stretch:
 ### Challenge 9
 
 Write a method that asks the user to input a sentence and returns an array that with the word and the number of characters each word has:
-
-> Example: input: "This is a sentance about important things"
-> output: ["this: 4","is: 2", "a: 1", "sentance: 8", "about: 5", "important: 9", "things: 6"]
+```
+Example: input: "This is a sentance about important things"
+Output: ["this: 4","is: 2", "a: 1", "sentance: 8", "about: 5", "important: 9", "things: 6"]
+```
 
 Tests:
     1. Input a sentance, and it returns the correct array
