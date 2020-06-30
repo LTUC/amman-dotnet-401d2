@@ -31,7 +31,7 @@ Using Test Driven Development, build out a console application that mocks the fu
 		- Keep asking the user to choose a transaction until they choose to 'exit' the application. (while loop??)
 		- This method is where you will want to hold all of your `Console.ReadLine`s. 
 		- This method does NOT need to be tested.
-	-4. A few things to keep in mind:
+	4. A few things to keep in mind:
 		- Make sure the user can't go below a zero balance.
 		- You **cannot** unit test console `WriteLine` or `Readline`s. 
 		- Make sure your methods are just returning values and not reading input from the console. 
