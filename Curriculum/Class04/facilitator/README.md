@@ -7,22 +7,64 @@ Introduce the concept of Classes and Object Oriented Programming as well as the 
 1. Upload the starter code for today's lab to the daily class repository in GitHub.
 1. Be comfortable with the demo code and lecture content.
 
-### Lecture
-1. Code Review
-   - Keep it short if possible, there is a lot to cover today!
-1. Classes and Properties
-	- Classes [Lecture](./Resources/Classes.md)
-	- Properties [Lecture](./Resources/Properties.md)
-1. Value Types and Reference Types 
-	- [Lecture](./Resources/ValRefTypes.md)
-1. Callstack and Heap
-	- [Lecture](./Resources/StackHeap.md)
-1. Garbage Collection. 
-   - [Lecture](./Resources/GarbageCollection.md)
-   - Garbage Collection itself is kind of a big topic, and is
-a lot to review on top of everything else that is being taught this day. So just go over the fundamentals.
-You do not have to go over each generation in depth, if you think it is too much to digest. This lecture can always be moved to another 
-day if you don't have time to complete it. 
+## Lecture
+
+### Code Review
+
+Try and keep it short today. There are a lot of topics to cover!
+
+### Classes and Properties (90 minutes)
+
+- **Why** (5 min)
+  - Item
+- **What** (10 min)
+  -	Classes [Lecture](./Resources/Classes.md)
+  - Properties [Lecture](./Resources/Properties.md)
+- **How** (30 min)
+  - Item 1
+- **Experimentation and Discovery Ideas**
+  - Create different classes with properties. 
+- **In-Class Exercise** (30 minutes)
+  - Create a program and implement the following:
+	- A "Pizza" Store Class
+		- Properties that describe the store (Name, Address, Size)
+		- Constructor to specify the name of the store
+		- OrderPizza - -returns pizza
+	- A "Pizza" Class
+		- Constructor that specifies the type of pizza
+		- Properties for the ingredients
+		- Bake() Method
+		- Cut() Method - 
+		- Order() Method
+
+
+### Value/Reference Types (15 minutes)
+
+- **Why** (5 min)
+  - N/A
+- **What** (10 min)
+  - [Lecture](./Resources/ValRefTypes.md)
+- **How** (30 min)
+  - N/A
+- **Experimentation and Discovery Ideas**
+  - N/A
+- **In-Class Exercise**
+  - N/A
+	
+
+### Stack/Heap/Garbage Collection ( 30 minutes)
+
+- **Why** (5 min)
+  - N/A
+- **What** (10 min)
+  - [Lecture](./Resources/StackHeap.md)
+  - [Lecture](./Resources/GarbageCollection.md)
+- **How** (30 min)
+  - N/A
+- **Experimentation and Discovery Ideas**
+  - Draw out each and show how a program executes with both working
+- **In-Class Exercise**
+  - N/A
 
 ## Lab Notes
 The Lab contains starter code. This will give them a look of what a console app with many classes could potentially look like.
