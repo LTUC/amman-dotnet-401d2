@@ -1,52 +1,77 @@
-# Class 03
+# Facilitators Guide: File Manipulation
+
+## Overview
+
+Today, we will learn about streams and how to write to and from a file within the stream. 
+
+### How does this topic fit?
+
+**Where we've been**:
+In the previous class we learned about unit testing and how to write programs using test driven development.
+
+**What are we focusing on today**:
+Today, we'll be switching over to file manipulation with streams.
+
+**Where we're headed**:
+Next class will focus on introducing classes and objects!
 
 ## Learning Objectives
-* The student will be introduced and implement the FileStream class
-* The student will know how to Create, Read, Update, and Delete file using the FileStream
-* The student will know how to properly open and close a file from an external location
 
-## How do I prep for today?
-Review the System.IO.md in the Resources Folder. This is a great outline to become familiar with System.IO and 
-a good template to use when presenting the lecture. 
+Review the detailed objectives in today's [student-facing readme](../README.md).
 
-## Lecture
-1. Code Review of TDD
-   - Code out lab together possibly
-1. System IO File Class
-	- Lecture Notes [here]("./Resources/SystemIO.md")
-1. Domain Modeling
-   - Review what it is
-   - What does it look like?
-1. Lab Review
-    - Expectations of lab
-    - This is a challenging lab, extended due date to be right before classes 06. 
+> Our primary outcomes and goals for the day are to showcase how files and their contents get passed back and forth within a server side application.
+
+## Preparation
+
+- Read up on ...
+- Get ready for questions about
+- Look at previous course student submissions for insight as to what you might see in code review.
+- Practice [the demo](../demo/demo-name) on whatever.
+
+## Lecture Outline
+
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../LECTURE-NOTES.md) notes.
+
+### Code Review
+
+- Review the ATM lab. It may be useful to either finish up a student's code, or recreate the lab from scratch.
+- To prep for the in-class exercise later, have the students create a brand new console application. Have them complete the following:
+	- Create a brand new method that brings in an integer, and returns a string array. 
+	- Within that method, have the students instantiate an array equal to the size of the int parameter
+	- populate the array with "anything" they want, but make sure it's a string value. (Example: Flavors of ice cream, different colors, or even pet names)
+	- Within the main method, output to the console each value in the array. 
+
+### File Streams
+
+- **Why** (5 min)
+  - When working as a server side application we need a way a way to manage file uploads and file manipulation. The best way and safest way to do this is through Streams. 
+- **What** (10 min)
+  - System.IO is an available library through .NET that allows for reading and writing to files and data streams. The i stands for input and the o stands for output.
+- **How** (30 min)
+  - Review the [System.IO](/Resources/System.IO)
+- **Experimentation and Discovery Ideas**
+  - introducing the `using(){}` statements
+  - incrementally read and write to an external text file. 
+- **In-Class Exercise**
+  - Have the students write a program that writes and reads to to a file
+  - Problem domain:
+	- Building off of the warm up exercise, create a new method that brings in the string array.
+	- Using System.IO, write the array to an external text file
+	- Create another method that returns a string array that returns the contents of the text file.
+	- Within the main method, output to the console all of the text contained within the file.
+	- STRETCH: Update or delete specific lines in the text?
+	
 
 ## Lab Notes
 
-The lab for this day is intentionally challenging. This lab is designed to test the students on the planning of a project (domain modeling), and the application of everything they have learned in the language so far. They are not allowed to use classes in this lab, as we cover that in class 04.
+This lab should be done solo.
 
-The due date for this lab should be extended to right before class 06. Students traditionally need this time to finish up the assignment. 
+This lab is a series of challenges that summarize all of the content up to this day. The objective of this lab is to provide additional practice of the language and fundamental exercises. 
 
-This is a great lab to help them practice their debugging skills. Here are some tips:
-1. Make sure they are using breakpoints within Visual Studio.
-1. When asking a question, encourage students to avoid comments like "it doesn't work". Determine "what" doesn't work. Have them break
-down the specific method, and code line that isn't giving them what they want. This is difficult for most students. 
-1. When planning out their program, students can use this opportunity on "how" to approach the problem. What needs to 
-created first, then how do you build out from there?
+## What might students struggle with today?
 
-## What changed from yesterday? 
-They are expected to test their code now moving forward.
+- N/A
 
-## What might students struggle with today? 
-- System IO is a pretty simple concept that most students get right away. File manipulation with the CRUD operations 
-is pretty straight forward, especially when you break it down into 4 parts. 
-The biggest challenge that they get is file location and accessing it. This can be different depending on the machine. I usually strongly 
-encourage the students to have the file located on the root of their project. 
+## Past bugs, issues or surprises...
 
-## What bugs, issues, or surprises have come up in the past for this class?
-N/A
-
-## General comments
-- This is a great lecture to incorporate the exception handling to pull together everything from the past 2 days into the lecture
-and show the students how everything works together. This is their first big project, and can be equivalent to a "test" and they really get a chance to practice the fundamentals before
-moving into Classes and OOP on days 4 and 5. 
+## General Comments and Notes

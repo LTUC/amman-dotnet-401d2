@@ -1,68 +1,138 @@
-# Lab 03
+# Lab 03: Review of C#
 
-
+Let's spend this lab assignment evaluating your overall comfort level with C# from what we have learned so far. 
 
 ## Problem Domain
-You have been tasked with making and persisting a list. You get to pick the topic! Think of different lists that can be created.
 
-1. Grocery List
-2. Tasks/To-Do
-3. Favorite Movies
+Create a single Console Application Project within Visual Studio. Write all of your code in the `Program.cs` file. with a method for each of the challenge below. Call each of these methods in your main method.
 
-Get creative, think up you own!
+Be sure to use exception handling where appropriate, and write tests as outlined in each of the challenges.
 
-## Problem Specifications
+### Challenge 1
 
-Your `Program.cs` file have the following functionality:
+Write a program that asks the user for 3 numbers. Return the product of these 3 numbers multiplied together.
+If the user puts in less than 3 numbers, return 0; 
+If the user puts in more than 3 numbers, only multiply the first 3. 
 
-   1. Create a "user menu for different actions that asks the user to
-          - Add an item to a list
-          - Remove an item from the list
-          - View the list
-          - "Exit" the program
-          - The user interface should re-appear after each action. 
-   
-2. Exception handling - log the errors into a log file as they come up. Make up custom errors as well! 
+Example: 
 
-3. Write out to another file your individual list items. Allow CRUD operations 
+> Please enter 3 numbers: 4 8 15
+> The product of these 3 numbers is: 480
 
-## Unit Tests
+Hint: Consider using the [split method](https://docs.microsoft.com/en-us/dotnet/csharp/how-to/parse-strings-using-split){:target="_blank"}
 
-1. Test for the ability to properly do CRUD operations to a text file. This may consist of you writing to a file locally in your test project and confirming that the method does as expected. Consider bringing in the path to each method. 
+Tests:
+    1. Input a string of numbers and it returns a product of all numbers
+    2. Input more than 3 numbers
+    3. Input of less than 3 numbers
+    4. Can it handle negative numbers
 
-2. Test any non void methods that are not requesting user input
+### Challenge 2
 
-## README
-**A Readme is a requirement. No Readme == No Grade.** 
-Here are the requirements for a valid readme:
+Create a method that asks the user to enter a number between 2-10. Then, prompt the user that number of times for random numbers. 
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+After the user has inputted all of the numbers. Find the average of all the numbers inputted. 
 
-Your job is to
+Specs:
+    1. Do not let the user put in negative numbers
+    2. Confirm each input is a real number
 
-1. tell them what it is (with context, provide a summary)
-1. show them what it looks like in action (Visuals)
-1. show them how they use it (Step by step directions, "Happy Path" walk through)
-1. tell them any other relevant details
-<br />
+Example:
 
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+> Please enter a number between 2-10: 4
+> 1 of 4 - Enter a number: 4
+> 2 of 4 - Enter a number: 8
+> 3 of 4 - Enter a number: 15
+> 4 of 4 - Enter a number: 16
 
-Refer to the README templates in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
+The average of these 4 numbers is: 10
 
-## Rubric
+Tests:
+    1. Input different ranges of numbers and confirm averages
+    2. Confirm input
+    3. All numbers are 0s
 
-The lab rubric can be found [HERE](../../Resources/rubric){:target="_blank"} 
+### Challenge 3
 
-## To Submit this Assignment
-- Create a new repo on your personal GitHub account
-- Name your repo `Lab##-TITLE`
-- Create a branch named `NAME-LAB##`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back to master
-- Submit a link to your PR in canvas
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described above)
+Create a method that will output to the console the following design. Pay attention to spacing.
+
+```javascript
+
+    * 
+   *** 
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    * 
+
+```
+
+Tests:
+1. No tests are required
+
+### Challenge 4
+
+Write a method that brings in an integer array and returns the number that appears the most times. 
+If there are no duplicates, return the first number in the array.
+If more than one number show up the same amount of time, return the first found.
+
+> Example: Input: [1,1,2,2,3,3,3,1,1,5,5,6,7,8,2,1,1]
+> output: 1
+
+Tests:
+1. Input different size arrays
+2. All numbers in the array are the same value
+3. No duplicates exist in the array
+4. There multiple numbers that show up the same amount of times.
+
+
+### Challenge 5
+
+Write a method in that finds the maximum value in the array. The array is not sorted. You may not use `.Sort()`
+
+> Example: input [5, 25, 99, 123, 78, 96, 555, 108, 4]
+> return: 555
+
+
+Tests:
+    1. Negative numbers
+    2. All values are the same
+
+### Challenge 6
+
+Write a method that asks the user to input a word, and then saves that word into an external file named `words.txt`
+
+Hint: Have a file already saved in the root of your directory with a couple of words already present in the file.
+
+Stretch:
+    1. Tests are optional for this challenge
+
+### Challenge 7
+
+Write a method that reads the file in from Challenge 6, and outputs the contents to the console.
+
+Stretch:
+    1. Tests are optional for this challenge
+
+### Challenge 8
+
+Write a method that reads in the file from Challenge 6. Removes one of the words, and rewrites it back to the file. 
+
+Stretch:
+    1. Tests are optional for this challenge
+
+### Challenge 9
+
+Write a method that asks the user to input a sentence and returns an array that with the word and the number of characters each word has:
+
+> Example: input: "This is a sentance about important things"
+> output: ["this: 4","is: 2", "a: 1", "sentance: 8", "about: 5", "important: 9", "things: 6"]
+
+Tests:
+    1. Input a sentance, and it returns the correct array
+    2. Inut a sentance and confirm it returns an array
+    3. Use different sentances with differnt symbols
+
