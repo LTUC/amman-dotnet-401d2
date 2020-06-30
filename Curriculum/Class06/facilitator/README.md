@@ -17,6 +17,25 @@
 Included in the DemoCode folder is an example of a diagram that you can draw with the class as you 
 go over the OOP principles. There is also the code base when converting the diagram to Visual Studio. 
 
+
+### OOP Principles (90 minutes)
+
+- **Why** (5 min)
+  - Item
+- **What** (10 min)
+  - Item 
+- **How** (30 min)
+  - See Resource
+- **Experimentation and Discovery Ideas**
+  - item
+- **In-Class Exercise** (30 minutes)
+  - Inheritance: Using the same problem domain as we did on class 04, Build out a pizza store class and have it inherit down a new pizza store
+  - Abstraction: Make the parent level pizza store abstract
+  - Polymorphism: SEt methods such as "OrderPizza" virtual to allow different ways to order
+    - Allow methods like "MakePizza" abstract to require each store to set their own reqs on how to make the pizza
+  - Encapsulation: Set the appropariate internal information private vs general props and methods public
+
+
 ## Lab Notes
 Today is part 1 of a 2 part lab. In today's lab they will:
 1. Draw/plan out a hierarchy chart of classes. This drawing should be present in their lab README.

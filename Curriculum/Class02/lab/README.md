@@ -8,9 +8,9 @@ Read the lab, in its entirety, before continuing.
 
 ## Program Specifications
 Using Test Driven Development, build out a console application that mocks the functionality of an ATM. Your solution should include the following methods:
-    - `Main` method
+	1. `Main` method
 		- Call the user interface method to activate the application
-	- Testable external methods:
+	2. Testable external methods:
 		- `ViewBalance()`
 			- **Functionality**: Returns the value of the current balance
 			- **Return**: decimal
@@ -26,12 +26,12 @@ Using Test Driven Development, build out a console application that mocks the fu
 			- Do not allow the user to deposit a negative amount
 		- Variable to hold the current Balance of the account. 
 			- Make this a `static public decimal Balance` variable, declared *above* the `Main()` method. This will allow you to access the `Balance` variable anywhere in this `Program.cs` file. 
-	- User interface that prompts the user for standard ATM operations that links to each of the above external methods
+	3. User interface that prompts the user for standard ATM operations that links to each of the above external methods
 		- **Return** : void
 		- Keep asking the user to choose a transaction until they choose to 'exit' the application. (while loop??)
 		- This method is where you will want to hold all of your `Console.ReadLine`s. 
 		- This method does NOT need to be tested.
-	- A few things to keep in mind:
+	-4. A few things to keep in mind:
 		- Make sure the user can't go below a zero balance.
 		- You **cannot** unit test console `WriteLine` or `Readline`s. 
 		- Make sure your methods are just returning values and not reading input from the console. 
