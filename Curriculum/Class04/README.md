@@ -38,3 +38,16 @@ Constructors are created by default with each class. They are the "requirements"
 ### Keyword Static
 - What does static mean?
 	- if it is marked as static, it lives at the class level, not the object level.
+
+## Terminology:
+
+1. Class: 
+2. Object:  
+3. Constructor:  
+4. Method Overload:  
+5. Stack: 
+6. Heap: 
+7. Garbage Collector:  
+8. Value Type:  
+9. Reference Type:  
+10. Property: 

@@ -21,7 +21,7 @@ Try and keep it short today. There are a lot of topics to cover!
   -	Classes [Lecture](./Resources/Classes.md)
   - Properties [Lecture](./Resources/Properties.md)
 - **How** (30 min)
-  - Item 1
+  - See Resource
 - **Experimentation and Discovery Ideas**
   - Create different classes with properties. 
 - **In-Class Exercise** (30 minutes)
