@@ -13,6 +13,7 @@ Be sure to use exception handling where appropriate, and write tests as outlined
 Write a program that asks the user for 3 numbers. Return the product of these 3 numbers multiplied together.
 If the user puts in less than 3 numbers, return 0; 
 If the user puts in more than 3 numbers, only multiply the first 3. 
+If the number is not a number, default that value to 1. 
 
 Example: 
 

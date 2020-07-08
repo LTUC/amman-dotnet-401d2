@@ -22,7 +22,7 @@ Review the detailed objectives in today's [student-facing readme](../README.md).
 > Our primary outcomes and goals for the day are to continue to practice the C# language and how to create functional console applications. While exception handling is important, use this day to get students comfortable with the environment.
 
 ## Preparation
-
+    
 - Read the daily posted readings
 - Get ready for questions about the prework. 
 - Practice [the demo](../../DemoCode).

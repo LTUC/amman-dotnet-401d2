@@ -81,6 +81,11 @@ namespace Lab02_ATM
 
 
 
+        /// <summary>
+        /// Withdraws money from ATM. Sets balance to a lower amount
+        /// </summary>
+        /// <param name="amount">amount to be withdrawn</param>
+        /// <returns>total balance affter transcation</returns>
         public static string Withdraw(double amount)
         {
             if (amount > Balance)

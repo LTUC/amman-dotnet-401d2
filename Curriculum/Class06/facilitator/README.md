@@ -31,7 +31,7 @@ go over the OOP principles. There is also the code base when converting the diag
 - **In-Class Exercise** (30 minutes)
   - Inheritance: Using the same problem domain as we did on class 04, Build out a pizza store class and have it inherit down a new pizza store
   - Abstraction: Make the parent level pizza store abstract
-  - Polymorphism: SEt methods such as "OrderPizza" virtual to allow different ways to order
+  - Polymorphism: Set methods such as "OrderPizza" virtual to allow different ways to order
     - Allow methods like "MakePizza" abstract to require each store to set their own reqs on how to make the pizza
   - Encapsulation: Set the appropariate internal information private vs general props and methods public
 

@@ -21,7 +21,6 @@ namespace Lab01Solution
                 Console.WriteLine("Program is complete.");
             }
 
-            Console.Read();
         }
 
         public static void StartSequence()
@@ -100,6 +99,9 @@ namespace Lab01Solution
                 Console.WriteLine(e.Message);
                 throw;
             }
+
+   
+
 
         }
 

@@ -14,6 +14,9 @@ Today, the students will build off of interfaces and see how a built in interfac
 1. [Enums](./Resources/Enums)
 1. [Collections](./Resources/Collections) (Generic vs Non-Generic)
 
+* In-Class Exercise
+	
+
 ## Lab Notes
 The lab directions contain some code snippets to assist students if needed. They are allowed to use this code, if they wish, but they must comment the code to show understanding.
 
