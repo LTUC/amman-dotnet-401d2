@@ -8,6 +8,8 @@ Create a single Console Application Project within Visual Studio. Write all of y
 
 Be sure to use exception handling where appropriate, and write tests as outlined in each of the challenges.
 
+Whiteboard at least one of the challenges and include it in your readme. If you are working in groups, every person in the group must have their own whiteboard for a different problem.
+
 ### Challenge 1
 
 Write a program that asks the user for 3 numbers. Return the product of these 3 numbers multiplied together.
@@ -25,10 +27,10 @@ The product of these 3 numbers is: 480
 Hint: Consider using the [split method](https://docs.microsoft.com/en-us/dotnet/csharp/how-to/parse-strings-using-split){:target="_blank"}
 
 Tests:
-    1. Input a string of numbers and it returns a product of all numbers
-    2. Input more than 3 numbers
-    3. Input of less than 3 numbers
-    4. Can it handle negative numbers
+   1. Input a string of numbers and it returns a product of all numbers
+   2. Input more than 3 numbers
+   3. Input of less than 3 numbers
+   4. Can it handle negative numbers
 
 ### Challenge 2
 
@@ -54,9 +56,9 @@ Please enter a number between 2-10: 4
 The average of these 4 numbers is: 10
 
 Tests:
-    1. Input different ranges of numbers and confirm averages
-    2. Confirm input
-    3. All numbers are 0s
+   1. Input different ranges of numbers and confirm averages
+   2. Confirm input
+   3. All numbers are 0s
 
 ### Challenge 3
 
