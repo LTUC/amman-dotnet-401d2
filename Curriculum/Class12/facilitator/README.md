@@ -1,4 +1,4 @@
-# Class 12: Relational Database and ERDs
+# Class 12: Intro to EF Core and API Scaffolding
 
 ## Overview
 This is the first day that the students will dive into the "Async Inn Inventory Management" website. Do not show the students the wire frames or resources for the site just yet. Make sure they complete the ERD for this lab assignment before showing them what they will be building. 

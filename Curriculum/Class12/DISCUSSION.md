@@ -1,4 +1,4 @@
- # Readings: Intro to ERDs
+# Readings: EF Core & APIs
 
 Below you will find some reading material, code samples, and some additional resources that support today's topic and the upcoming lecture.
 
@@ -6,20 +6,10 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"} 
-1. [DBMS](https://www.tutorialspoint.com/dbms/dbms_overview.htm){:target="_blank"} 
-1. Do some research on what a Database Schema is. 
-	- What is a Schema?
-	- Why do we use them?
-	- What do they look like?
-
-1. What are the different types of Database Keys?
-	- What is a Primary Key?
-	- What is a Foreign Key?
-	- What is a Composite Key?
-	- How are they different? When do you use 1 over the others?
-
-1. What are Relationships in a relational database?
-	- What is a 1:1 relationship?
-	- What is a Many:Many relationship?
-	- How about a 1: Many or a Many:1?
+1. [MVC with EF Get Started](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro){:target="_blank"} 
+	- If you have time, read the preceding articles under this category as well.
+1. [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/){:target="_blank"}
+1. [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} 
+1. [Entity Framework Core](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio){:target="_blank"} 
+1. [YouTube - Intro to APIs (60 min)](https://youtu.be/aIkpVzqLuhA){:target="_blank"}
+1. [User Secrets](../../Resources/UserSecrets.md){:target="_blank"}

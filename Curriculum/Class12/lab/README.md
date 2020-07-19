@@ -1,111 +1,108 @@
-# Lab 12: Databases and ERDs
+# Lab 12: Async Inn Management System
 
-## Problem Domain
+## The Problem Domain
 
-Today will the be the beginning of a multi-lab project where you will build out the API server for a Hotel Asset Management system.
-
-The owners of "Async Inn" have approached you with plans to renovate their hotel chain. Currently they are tracking all the different locations and rooms in spreadsheets and binders. They currently have about 10 binders full of paperwork that consists of the difference between each location and the pricing for each room. The amount of time and paperwork it takes to manage the rooms and locations is costing the company both time and money. They are currently looking for a  "better way" to maintain their business model. 
-
-They are currently looking for a RESTful API server that will allow them to better manage the assets in their hotels. They are anticipating the ability to modify and manage rooms, amenities, and new hotel locations as they are built. They have turned to you to assist them in persisting their data across a relational database and maintain its integrity as they make changes to the system. 
-
-After your meeting with the team, you have extracted some basic requirements about the data and how it should be represented in a database. You are going to attempt a first draft at a database diagram to share with the team later on today. 
-
-To the best of your ability, create a system design of a database ERD diagram that meets all of the requirements below. The diagram should take all of the requirements into consideration and allow a baseline for starting the creation of the web application. 
+Now that you have a solid understanding of your database schema for your hotel management system, today you will build off of your initial web application from lab 11 and integrate into it our database tables from our ERD. 
 
 ## Application Specifications
 
-- You have been tasked with creating a web based API for a local hotel chain. Here are the requirements that you obtained from your client during your exploration and requirements meeting.
+This lab will be a "tutorial" style, meaning it is encouraged that you follow along with the steps and notice how the data evolves as you move through the instructions. A few things for you to notice:
 
-	- The hotel is named "Async Inn" and has many nationwide locations. Each location will have a name, city, state, address, and phone number.
-	- Async Inn prides themselves on their unique layout designs of each hotel room. They advertise as it being your "apartment for the night". This means they have invested a lot of resources into how each room looks and feels. Some have one bedroom, others have 2 bedrooms, while a few are more of a cozy studio. The team mentioned that they like to label each room with a nickname to better tell the difference between each of the layouts and amenities each room has to offer. (for example, the Seattle location has two 2-bedroom suites, but one is named "Seahawks Snooze" while the other is named "Restful Rainier", each with their own amenities.) 
-	- They also take pride in the amenities that each room has to offer. This can consist of features like "air conditioning", "coffee maker", "ocean view", "mini bar", the list goes on...They requested that they would like the amenities associated with each of the rooms as they do vary. 
-	- The rooms vary in price, per location, as well as per room number. They also have a few rooms that they want to advertise as pet friendly.
-	- The number of rooms for each hotel varies. Some hotels have only a few rooms, while others may have dozens.
+1. The creation of the migration scripts and how they are applied to the database
+1. The simple models and how they define the shape of each database table
+1. The creation of the controllers and how they control the routing of the api
 
-## Guidance
+Let's begin...
 
-There are 2 parts to this assignment
+### Startup File
 
-### Part 1
+1. Create a new Empty .NET Core Web Application to and implement the basic setup to create your API server: 
+	- Add explicit routing of Controllers in your 'Configure' method
+	- Enable the use of MVC controllers in your `ConfigureServices` method
+	- DBContext registered in `ConfigureServices`
 
-Build your ERD (Entity Relationship Diagram) so that it has at least:
-1. (1) Joint Entity Table with Payload
-1. (1) Pure Join Table
-1. (1) Enum 
+### Simple Models & The Database
 
-Within your ERD identify/label the following as necessary:
-1. Primary Keys
-1. Foreign Keys 
-1. Composite Keys (where they exist)
-1. Navigation Properties (What other entities are related? Why?)
-1. Relationships between tables (1:1, 1:Many, Many:1, Many:Many etc...)
+1. Create a new Models folder that will contain your basic entities from your ERD
+	- Create a `Hotels` model that contains the same propertied defined in your ERD
+	- Don't worry about adding the Navigation properties just yet. We will add those in later. 
 
-In a external document, please provide an explanation of the components in your database ERD diagram. 
+1. After your first simple model is created, Create a new `Data` folder and add a new `AsyncInnDbContext` file. Make your new class derive from the `DbContext` class, as well as creating the constructor with the proper parameters. Use the demo code as an example.
 
-The ERD Design is **attempt based**. Submit, before the next class start, a healthy attempt on the database design must be completed with all of the required details described.
+1. Register your DbContext in your startup file. Configure your `appsettings.json` file to include your connection string. 
 
-You may work together and collaborate on this ERD, but everyone is responsible for turning in their own DB diagram and explanation. 2-3 sentences for each table is sufficient for an explanation. 
+1. Go back to your `AsyncInnDbContext` file, and add a new property to include a new table into your database. `public DbSet<Hotel> Hotels {get; set;}`. Be sure to include the Models namespace into our current cs file. 
 
-Your ERD diagram must be digital. You may take a picture of your diagram from a white board, but if you decide to stick with your db diagram, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
+1. Now that you have your database registered, and a single table property inside of your dbContext file, create a new migration to see the script that creates and adds that table to the databse: `add-migration initial` 
 
-### Part 2
+1. Once you create the migration, run the `update-database` script and watch the script get run against your database.
 
-Create a brand new "empty" web application project in Visual Studio. 
+1. Confirm in your local database that the `Hotels` table has been added. 
 
-1. Set up the routing for an MVC project 
-1. Make a "Data" folder
-1. Create a DBContext for your database in your "Data" folder
-   - No models required
-   - Don't forget the constructor!
-1. Set your connection string into your "appsettings.json" file
-1. Register your DBContext in your startup file
-1. Setup your application to accept Dependency Injection (hint: Don't forget to add the "IConfiguration" to your constructor)
-1. If your UseSqlServer library is not registering as a library, install the `Microsoft.EntityFrameworkCore.SqlServer` package on your project.
-1. Add a migration `add-migration nameOfMigration`
-1. Create the database through an `update-database` command
+1. You just successfully created and added your first table to your local DB! Now, let's add the other two tables, except this time, we can just add the tables at the same time and have the script include both of them when adding to the database
 
-** Don't forget summary comments where appropriate. 
+1. Go back to your `Models` folder and add two new class files; `Room` and `Amenity`. 
 
-## Stretch Goals
+1. Populate each of these classes with the same properties that you have defined inside of your ERD. Don't worry about adding the Navigation properties yet. We will add those later. 
 
-1. No stretch goals for this lab
+1. Go back into your `AsyncInnDbContext` file and add the two additional properties to represent the Room and the Amenity models. 
+	- `public DbSet<Room> Rooms {get; set;}`
+	- `public DbSet<Amenity> Amenities {get; set;}`
 
-## Additional Resources
+1. Create a new migration to include the creation of these two new tables within your Package Manager Console: `add-migration addingRoomAndAmenity`
 
-Refer to the class GH repo for the reference sheet on how to create an MVC site
+1. Finally, run `update-database` and watch those two new tables get added to the database. Confirm locally that the tables exist.
 
-## ReadMe
+### Seeding data
 
-Create a basic README with:
-1. The name of your project
-2. Your Name
-3. Today's date
-4. Place an image of your ERD with explanation of each of the tables
-   - Don't worry, we will fix this later :) 
+Let's add some default data into our tables on it's initial launch. 
+
+1. Within your `AsyncInnDbContext` add a new override method for the `OnModelCreating` method under your constructor. 
+1. Seed in some default data for all three of your simple models
+	- 3 hotels
+	- 3 rooms
+	- 3 amenities
+
+Here is an example of adding a single default item to a table: (source [HERE](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"} 
+
+```
+modelBuilder.Entity<Blog>().HasData(new Blog {BlogId = 1, Url = "http://sample.com"});
+
+```
+ 
+After creating the seeded data, you will now want to create a new migration so that the seeded data can get added to the databse tables
+
+1. Within package manager console, create a new migration `add-migration addSeededData`
+
+1. Notice how the migration scripts created include the default data for all 3 tables.
+
+1. Run `update-database` so that the data gets added to the table
+
+1. Confirm that the data was added to your local database for all 3 tables. 
+
+### Controllers
+
+Now that we have completed our "Code First Migrations" in the directions above. Let's add some routes so that we can access the data through an API.
+
+1. Create a new folder named `Controllers` in your project.
+2. Right click on the folder, and choose Add >> Controller
+3. Choose the Entity Framework Scaffold for API option
+4. Select the `Hotels` Entity
+1. After it's been scaffolded, confirm through POSTMAN that your can do basic CRUD operations on the Hotels route
+
+1. Follow the instructions above for the `Room` and `Amenity` Models. 
+
+
+Once you have all 3 controllers created, and have manually tested the CRUD operations within Postman, your lab is completed. We will continue to build off of this lab over the next few days. 
+
+ 
+##### README
+
+Your README should be in introduction to your web app. Provide in your README, your ERD Diagram and an overview of the relationships and how each entity is related to another. 
 
 ## Rubric
 
-### Part 1
-
-5 points: ERD created, explanation provided for each table. 
-
-3 points: Only ERD is present. No explanation for tables
-
-1 point: Only explanation of tables, no ERD diagram present
-
-0 points: No Submission. 
-
-No late submissions will be accepted for Part 1. Submit your diagram before the posted due date.
-
-### Part 2
-
-5 points: Part 2 completed in it's entirety. Tests not required.
-
-3 points: Part 2 mostly completed
-
-1 point: Part 2 partially completed
-
-0 points: No Submission
+The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
 
 ## To Submit this Assignment
@@ -121,3 +118,6 @@ No late submissions will be accepted for Part 1. Submit your diagram before the 
 - Merge your PR back into master
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
+
+
+

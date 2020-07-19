@@ -1,15 +1,25 @@
-# Readings: Intro to MVC
+# Readings: Intro to ERDs
 
 Below you will find some reading material, code samples, and some additional resources that support today's topic and the upcoming lecture.
 
 Review the Submission Instructions for guidance on completing and submitting this assignment.
+
 ## Readings
 
-NOTE: These videos are in .NET Core 1.1 - but the main concepts are still the same. 
-When we build 2.1 apps in class, you will notice some structure differences...
-1. READ: [Intro to MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-2.2){:target="_blank"} 
-1. WATCH: [Videos 1, 2, 3](https://mva.microsoft.com/en-US/training-courses/introduction-to-aspnet-core-with-visual-studio-2017-16841?l=LU6ABeE6C_8206218965){:target="_blank"} 
-1. SKIM: [MVC Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/){:target="_blank"} 
-1. [VS Dev Essentials (Azure Account)](https://visualstudio.microsoft.com/dev-essentials/){:target="_blank"}
-	- Under Dev Essentials: Create a new an Azure Account. You will get $200 free for the first month, as well as 12 months of free services. A Credit Card is required for identity purposes. 
-	- Feel free to explore other benefits through Dev Essentials (Including free training videos!)
+1. [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"} 
+1. [DBMS](https://www.tutorialspoint.com/dbms/dbms_overview.htm){:target="_blank"} 
+1. Do some research on what a Database Schema is. 
+	- What is a Schema?
+	- Why do we use them?
+	- What do they look like?
+
+1. What are the different types of Database Keys?
+	- What is a Primary Key?
+	- What is a Foreign Key?
+	- What is a Composite Key?
+	- How are they different? When do you use 1 over the others?
+
+1. What are Relationships in a relational database?
+	- What is a 1:1 relationship?
+	- What is a Many:Many relationship?
+	- How about a 1: Many or a Many:1?

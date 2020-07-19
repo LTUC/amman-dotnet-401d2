@@ -38,32 +38,32 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 - Notes here
 
-### ERD
+### Intro to Entity Framework
 
 - **Why** (5 min)
-  - We need a way to plan how our data is going to be stored. We need to know 
-- **What** (10 min)
-  - An ERD stands for Entity Relationship Diagram. This is how developers plan out what their database is going to look like and how they are going to store and categorize their data. ERDs give us a visual of where our data is stored and the relationship between each of the entities. 
+- **What** (10 min) 
 - **How** (30 min)
-  - ERDs mostly consist of UML. We don't necessarily have to "know" UML like a professional to build and understand the diagram...but it is helpful. 
-    - Break down for the students what an ERD consists of (Keys, Nav properties, relationships). Show them that each "entity" is a box. Don't forget to stress on how to READ ERDs. They will want to know how to properly read and understand an ERD to fully determine the relationships.
 - **Experimentation and Discovery Ideas**
   - Thing
   
-- ### DBCOntext Structure in MVC App
+### Simple Models
 
 - **Why** (5 min)
   - Thing
 - **What** (10 min)
-  - Thing
+  - Simple models are the entities that we will ahve stored in our database. These entities will represent what our tables in our database will look like with it's shape. 
 - **How** (30 min)
   - Thing
 - **Experimentation and Discovery Ideas**
   - Thing
 
+### Migration Scripts
+
+### Api Scaffold
+
 ## Lab Notes
 
-- Words
+- This is the initial implementaiton of Async Inn project. Today, they will start the code application and start building out the models with a very basic database. 
 
 ## What might students struggle with today?
 
