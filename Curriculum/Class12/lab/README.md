@@ -4,15 +4,17 @@
 
 Now that you have a solid understanding of your database schema for your hotel management system, today you will build off of your initial web application from lab 11 and integrate into it our database tables from our ERD. 
 
-## Application Specifications
-
 This lab will be a "tutorial" style, meaning it is encouraged that you follow along with the steps and notice how the data evolves as you move through the instructions. A few things for you to notice:
 
 1. The creation of the migration scripts and how they are applied to the database
 1. The simple models and how they define the shape of each database table
 1. The creation of the controllers and how they control the routing of the api
 
+Don't forget to use the class demo code as an example of how to structure specific code or syntax.
+
 Let's begin...
+
+## Application Specifications
 
 ### Startup File
 
