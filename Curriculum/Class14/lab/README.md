@@ -6,7 +6,6 @@ For Today's branch, focus on working within the existing code base from prior la
 
 ## Application Specifications
 
-
 1. Scaffold out a controller for each of your entity models. Choose the "API Controller with actions, using Entity Framework" and choose one of your 5 entities as your data source and your existing DBContext as your "Data context class." You should have a total of 5 scaffolded Controllers when completed.
 1. Test your routes in Postman to confirm you are retrieving data correctly from the seeded data.
 1. To keep your application secure, enable the use of UserSecrets in your application. Update your constructor in your `Startup.cs` file as required.

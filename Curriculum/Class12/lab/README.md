@@ -106,7 +106,6 @@ Your README should be in introduction to your web app. Provide in your README, y
 
 The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
-
 ## To Submit this Assignment
 
 - Create a new repository on your personal GitHub account
