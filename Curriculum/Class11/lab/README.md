@@ -26,8 +26,6 @@ To the best of your ability, create a system design of a database ERD diagram th
 
 There are 2 parts to this assignment
 
-### Part 1
-
 Build your ERD (Entity Relationship Diagram) so that it has at least:
 1. (1) Joint Entity Table with Payload
 1. (1) Pure Join Table
@@ -47,24 +45,6 @@ The ERD Design is **attempt based**. Submit, before the next class start, a heal
 You may work together and collaborate on this ERD, but everyone is responsible for turning in their own DB diagram and explanation. 2-3 sentences for each table is sufficient for an explanation. 
 
 Your ERD diagram must be digital. You may take a picture of your diagram from a white board, but if you decide to stick with your db diagram, and not use the solution provided for your web application, you will be required to transfer your white board image into a cleaner format. 
-
-### Part 2
-
-Create a brand new "empty" web application project in Visual Studio. 
-
-1. Set up the routing for an MVC project 
-1. Make a "Data" folder
-1. Create a DBContext for your database in your "Data" folder
-   - No models required
-   - Don't forget the constructor!
-1. Set your connection string into your "appsettings.json" file
-1. Register your DBContext in your startup file
-1. Setup your application to accept Dependency Injection (hint: Don't forget to add the "IConfiguration" to your constructor)
-1. If your UseSqlServer library is not registering as a library, install the `Microsoft.EntityFrameworkCore.SqlServer` package on your project.
-1. Add a migration `add-migration nameOfMigration`
-1. Create the database through an `update-database` command
-
-** Don't forget summary comments where appropriate. 
 
 ## Stretch Goals
 
@@ -95,17 +75,7 @@ Create a basic README with:
 
 0 points: No Submission. 
 
-No late submissions will be accepted for Part 1. Submit your diagram before the posted due date.
-
-### Part 2
-
-5 points: Part 2 completed in it's entirety. Tests not required.
-
-3 points: Part 2 mostly completed
-
-1 point: Part 2 partially completed
-
-0 points: No Submission
+No late submissions will be accepted. Submit your diagram before the posted due date.
 
 
 ## To Submit this Assignment
