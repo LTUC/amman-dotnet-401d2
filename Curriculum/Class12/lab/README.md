@@ -89,10 +89,11 @@ Now that we have completed our "Code First Migrations" in the directions above. 
 1. Create a new folder named `Controllers` in your project.
 2. Right click on the folder, and choose Add >> Controller
 3. Choose the Entity Framework Scaffold for API option
-4. Select the `Hotels` Entity
+4. Select the `Hotels` Entity for your model
+5. Select your `AsyncInnDbContext` as your DbContext
 1. After it's been scaffolded, confirm through POSTMAN that your can do basic CRUD operations on the Hotels route
 
-1. Follow the instructions above for the `Room` and `Amenity` Models. 
+1. Follow the instructions above to scaffold out the `Room` and `Amenity` Controllers.
 
 
 Once you have all 3 controllers created, and have manually tested the CRUD operations within Postman, your lab is completed. We will continue to build off of this lab over the next few days. 

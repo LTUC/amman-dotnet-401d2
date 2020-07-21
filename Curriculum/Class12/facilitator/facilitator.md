@@ -1,6 +1,4 @@
-# Facilitators Guide: Class Title
-
-(this file is in construction. Refer to README doc)
+# Facilitators Guide: Intro to Entity Framework
 
 ## Overview
 
@@ -36,13 +34,21 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Code Review
 
-- Notes here
+- Review the solution for the ERD of Async Inn. Spend about 30 minutes on this, and then move into lecture.
 
 ### Intro to Entity Framework
 
 - **Why** (5 min)
+	We need a way to manage our DB safely and effectively. We can offload the performance and overall management of the db to EF Core
 - **What** (10 min) 
+	EF Core is our ORM that is used to connect and manage our databases. EFCore can take care of our migrations, relationships, and just about anything within the DB.
 - **How** (30 min)
+	- You will need the following:
+		- DbContext class with a constructor that brings in the DbContextOptions
+		- Connection string to where the db lives
+		- Register the dbcontext in the `Startup.cs` file
+		- create a migration script
+		- update the database. 
 - **Experimentation and Discovery Ideas**
   - Thing
   
@@ -59,7 +65,22 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Migration Scripts
 
+Migration scripts are used to generate the changes that need to occur when a change is ready to be applied to the database. 
+
+Format: `add-migration [name of migration]`
+
 ### Api Scaffold
+
+To add a new scaffolded API controller, pick the following options:
+
+1. Create a new `Controllers` folder
+2. Select Add >> Controller
+3. Select API Controller with actions, using Entity Framework.
+4. Select one of the entities for your model class
+5. Select the DbContext you just created
+6. Keep the defualt name the same
+7. See the new controller get made and review what was scaffolded.
+8. Confirm functionality through Postman
 
 ## Lab Notes
 
