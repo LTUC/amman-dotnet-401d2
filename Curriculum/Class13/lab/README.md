@@ -1,33 +1,28 @@
-# Lab 13: Async Inn Management System
+# Lab 13: Dependency Injection
 
 ## The Problem Domain
 
-Now that you have a solid understanding of your database schema for your hotel management system, today you will build off of your initial web application from lab 12 and integrate into it our database tables from our ERD. 
+Building off of your current project, refactor your project to allow and implement dependency injection. We want to keep the current behavior of our API server the same, and only refactoring the architecture. 
 
 ## Application Specifications
 
-Your application should include the following upon completion:
+### Repository Design Pattern
 
-## Guidance
+1. Using Dependency Injection, refactor your `Hotels`, `Rooms`, and `Amenities` Controllers to depend on an interface rather than the dbcontext.
 
-Using your ERD Diagram, convert each entity into a model within your newly created MVC web application.
+1. Build an interface for each of the controllers that contain the required method signatures to all for CRUD operations to the database directly
 
-Within your DbContext, declare your Database tables and set your composite keys for the required tables
+1. Update each of the controllers to inject the interface rather than the DBContext
 
-1. Add default data to your database by seeding your database. Be sure have at least:
-    - 5 default Hotel Locations
-   	- 6 Room Types
-   	- 5 Amenities. 
-1. Don't forget to add a new migration and update your database when completed!
+1. Create a service for each of the controllers that implement the appropriate interface. Build out the logic to satisfy the interface by making the appropriate calls to the db for each action. 
 
+1. Update your Controller to use the appropraite methosd from the interface rather than the DBContext direclty. 
 
-## Stretch Goals
-
-- There are no Stretch Goals for this assignment.
+1. Confirm in POSTMAN that your controllers are returning the same logic as they did in Lab 12. 
 
 ## README
 
-Update your ERD image in your README
+Update your README to contain information about your architecture. Add a section that, in your own words, discusses what the architecture pattern is and how it is used in the app.
 
 ## Rubric
 

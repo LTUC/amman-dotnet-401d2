@@ -8,8 +8,7 @@
 
 
 ## Review MVC Life Cycle
-Talk about what each of the MVC components look like. do the drawing from 
-class 11 again if needed.
+Talk about what each of the MVC components look like. do the drawing from class 11 again if needed.
 
 Scaffold out, from an empty web app, an MVC web app. Don't add the models yet though,
 as those will tie directly into today's lecture. 
