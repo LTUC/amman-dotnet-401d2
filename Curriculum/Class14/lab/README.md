@@ -1,46 +1,48 @@
-# Lab 14: Entity Framework & Seeding
+# Lab 14: Navigation Properties & Routing
 
 ## The Problem Domain
-To continue with your AsyncInn Hotel Management System, you need to seed hotel data to display in your application. 
-For Today's branch, focus on working within the existing code base from prior labs. Today, we practice learning and understanding a code base that you didn't write, but need to make modifications too.
 
-## Application Specifications
+Continue working on your AsyncInn and add the following:
 
-1. Scaffold out a controller for each of your entity models. Choose the "API Controller with actions, using Entity Framework" and choose one of your 5 entities as your data source and your existing DBContext as your "Data context class." You should have a total of 5 scaffolded Controllers when completed.
-1. Test your routes in Postman to confirm you are retrieving data correctly from the seeded data.
-1. To keep your application secure, enable the use of UserSecrets in your application. Update your constructor in your `Startup.cs` file as required.
+### RoomAmenities
 
-## Unit Tests
-- There are no Unit Tests required for this assignment.
+1. Add onto your `RoomsController` the ability to add and remove amenities to a specific room
+	- Routes: POST/DELETE: `[Route("{roomId}/Amenity/{amenityId}")]`
+	- Add to your `IRoom` Interface the method signatures to `AddAmenityToRoom(int roomId, int amenityId)` and `RemoveAmentityFromRoom(int roomId, int amenityId)`
+	- Add the logic for the above methods into your `RoomRepository.cs` Service. 
+2. Add to your `Room.cs`, `Amenity.cs`, and `RoomAmenity.cs` file the navigation properties that we defined in your ERD.
+3. On the `Get()` based call in your `RoomRepository.cs` and your 'AmenityRepository.cs` file, use the `Include()` to populate the navigation property details within the return object. 
 
-Unit tests to come in a future lab.
+
+### HotelRoom
+
+1. Create a new interface named `IHotelRoom` that contains basic CRUD operations for manipulating a HotelRoom. 
+2. Create a service named `HotelRepository` that implements the `IHotelRoom` interface. Add the logic for each of the methods to satisfy the CRUD operations on a HotelRoom.
+3. Scaffold out a new HotelController that will inject the IHotelInterface. Update/customize the logic to use the interface instead of the DBContext
+4. Modify the routes of this controller for the following:
+- GET all the rooms for a hotel: `/api/Hotels/{hotelId}/Rooms`
+- POST to add a room to a hotel: `/api/Hotels/{hotelId}/Rooms`
+- GET all room details for a specific room: `/api/Hotels/{hotelId}/Rooms/{roomNumber}`
+- PUT update the details of a specific room: `/api/Hotels/{hotelId}/Rooms/{roomNumber}`
+- DELETE a specific room from a hotel: `/api/Hotels/{hotelId}/Rooms/{roomNumber}`
+
+
+### Misc
+
+1. Be sure that all navigation properties are present in all models.
+1. Be sure that when you query a room, you get all the amenities attached to it
+1. BE sure that when you query an Amenity, you get all the rooms associated with it.
+1. Be sure that when you query a HotelRoom, you get all the Rooms that are associated with it(which should also have all the amenitites)
+1. Be sure that when you query a Hotel, you get all the Rooms (which should contain all the information from the option above)
+
 
 ## Stretch Goals
 
-- Try and add data to your database through postman and your API endpoints. 
-
-## Additional Resources
-- There are no additional resources provided for this assignment.
+1. Add the ability within your HotelController to "find a hotel by name"
 
 ## README
-**A Readme is a requirement. No Readme == No Grade.** 
-Here are the requirements for a valid readme:
 
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-
-Your job is to
-
-1. Tell them what it is (with context, provide a summary)
-1. Show them what it looks like in action (Visuals)
-1. Show them how they use it (Step by step directions, "Happy Path" walk through)
-1. Tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-Refer to the README templates in the class repo `Resources` folder for an example. 
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"} 
-
+Update your README to showcase all of your routes with example data objects that get returned. 
 
 ## Rubric
 
