@@ -18,7 +18,7 @@ Continue working on your AsyncInn and add the following:
 
 1. Create a new interface named `IHotelRoom` that contains basic CRUD operations for manipulating a HotelRoom. 
 2. Create a service named `HotelRepository` that implements the `IHotelRoom` interface. Add the logic for each of the methods to satisfy the CRUD operations on a HotelRoom.
-3. Scaffold out a new HotelController that will inject the IHotelInterface. Update/customize the logic to use the interface instead of the DBContext
+3. Scaffold out a new HotelController that will inject the IHotelRoomInterface. Update/customize the logic to use the interface instead of the DBContext
 4. Modify the routes of this controller for the following:
 - GET all the rooms for a hotel: `/api/Hotels/{hotelId}/Rooms`
 - POST to add a room to a hotel: `/api/Hotels/{hotelId}/Rooms`
