@@ -1,5 +1,4 @@
-﻿using AspNetCore;
-using AsyncInn.Data;
+﻿using AsyncInn.Data;
 using AsyncInn.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;

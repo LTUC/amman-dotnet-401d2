@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AsyncInn.Migrations
 {
@@ -12,8 +11,8 @@ namespace AsyncInn.Migrations
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -25,10 +24,10 @@ namespace AsyncInn.Migrations
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    Address = table.Column<string>(nullable: true),
-                    Phone = table.Column<string>(nullable: true)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: false),
+                    Address = table.Column<string>(nullable: false),
+                    Phone = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -36,17 +35,17 @@ namespace AsyncInn.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Rooms",
+                name: "Room",
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(nullable: false),
                     Layout = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Rooms", x => x.ID);
+                    table.PrimaryKey("PK_Room", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -54,8 +53,8 @@ namespace AsyncInn.Migrations
                 columns: table => new
                 {
                     HotelID = table.Column<int>(nullable: false),
-                    RoomID = table.Column<int>(nullable: false),
                     RoomNumber = table.Column<int>(nullable: false),
+                    RoomID = table.Column<int>(nullable: false),
                     Rate = table.Column<decimal>(nullable: false),
                     PetFriendly = table.Column<bool>(nullable: false)
                 },
@@ -69,9 +68,9 @@ namespace AsyncInn.Migrations
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_HotelRooms_Rooms_RoomID",
+                        name: "FK_HotelRooms_Room_RoomID",
                         column: x => x.RoomID,
-                        principalTable: "Rooms",
+                        principalTable: "Room",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -93,11 +92,23 @@ namespace AsyncInn.Migrations
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_RoomAmenities_Rooms_RoomID",
+                        name: "FK_RoomAmenities_Room_RoomID",
                         column: x => x.RoomID,
-                        principalTable: "Rooms",
+                        principalTable: "Room",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Amenities",
+                columns: new[] { "ID", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Mini Bar" },
+                    { 2, "Coffee Maker" },
+                    { 3, "Jacuzzi Tub" },
+                    { 4, "Netflix" },
+                    { 5, "Petting Zoo" }
                 });
 
             migrationBuilder.InsertData(
@@ -107,18 +118,22 @@ namespace AsyncInn.Migrations
                 {
                     { 1, "123 Seattle Way", "Emerald City Stay", "123-456-7654" },
                     { 2, "123 LasVegas Strip Way", "Las Vegas Strip", "123-876-1946" },
-                    { 3, "987 Dizney Way", "Disney Adventures", "481-512-3421" }
+                    { 3, "987 Dizney Way", "Disney Adventures", "481-512-3421" },
+                    { 4, "84 Treasure Way", "Pirates Life", "975-588-9621" },
+                    { 5, "123 Fancy Way", "Grand Excursion", "493-396-9785" }
                 });
 
             migrationBuilder.InsertData(
-                table: "Rooms",
+                table: "Room",
                 columns: new[] { "ID", "Layout", "Name" },
                 values: new object[,]
                 {
                     { 1, 0, "Seahawks Snooze" },
                     { 2, 0, "Restful Rainier" },
                     { 3, 1, "Couples Retreat" },
-                    { 4, 2, "Officially Business" }
+                    { 4, 2, "Officially Business" },
+                    { 5, 0, "The Playhouse" },
+                    { 6, 1, "The Staycation" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -147,7 +162,7 @@ namespace AsyncInn.Migrations
                 name: "Amenities");
 
             migrationBuilder.DropTable(
-                name: "Rooms");
+                name: "Room");
         }
     }
 }

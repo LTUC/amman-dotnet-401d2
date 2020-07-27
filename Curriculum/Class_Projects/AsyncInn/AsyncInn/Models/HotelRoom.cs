@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AsyncInn.Models
 {
@@ -9,6 +10,7 @@ namespace AsyncInn.Models
         public int HotelID { get; set; }
 
         [Required]
+        
         [Display(Name = "Room Type")]
         public int RoomID { get; set; }
 

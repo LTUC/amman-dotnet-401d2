@@ -13,6 +13,7 @@ namespace AsyncInn.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // composite key associations
+            // fluid API
             modelBuilder.Entity<HotelRoom>().HasKey(hr => new { hr.HotelID, hr.RoomNumber });
             modelBuilder.Entity<RoomAmenities>().HasKey(ce => new { ce.RoomID, ce.AmenitiesID });
 
@@ -48,11 +49,9 @@ namespace AsyncInn.Data
 
         public DbSet<HotelRoom> HotelRooms { get; set; }
 
-        public DbSet<Room> Rooms { get; set; }
+        public DbSet<AsyncInn.Models.Amenities> Amenities { get; set; }
 
-        public DbSet<Amenities> Amenities { get; set; }
 
-        public DbSet<RoomAmenities> RoomAmenities { get; set; }
 
 
     }

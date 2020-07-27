@@ -7,6 +7,8 @@ Add onto your current Async Inn application by cleaning up input and outputs of 
 In addition, add tests to a single service. If you have time, test the other services.
 
 Hint: Order you should consider building your DTOs:
+DTOs stand for data trasfer objects
+
 1. Amentities,
 2. Rooms
 3. HotelRooms
