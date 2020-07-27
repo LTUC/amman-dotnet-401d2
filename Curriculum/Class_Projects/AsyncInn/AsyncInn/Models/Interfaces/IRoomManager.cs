@@ -1,18 +1,23 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace AsyncInn.Models.Interfaces
 {
-    interface IRoomManager
+   public interface IRoomManager
     {
-        void CreateRoom();
+        Task<Room> CreateRoom(Room room);
 
-        void UpdateRoom(int id);
+        Task UpdateRoom(Room room);
 
-        void DeleteRoom(int id);
+        Task DeleteRoom(int id);
 
-        List<Room> GetRooms();
+        Task<List<Room>> GetRooms();
 
-        Room GetRoom(int id);
+        Task<Room> GetRoom(int id);
+
+        Task AddAmenityToRoom(int roomId, int amenityId);
+
+        Task RemoveAmenityFromRoom(int roomId, int amenityId);
 
     }
 }

@@ -32,7 +32,12 @@ namespace AsyncInn.Models.Services
 
         public async Task<Hotel> GetHotel(int id)
         {
-            var hotel = await _context.Hotels.FindAsync(id);
+            var hotel = await _context.Hotels.Where(x => x.ID == id)
+                                             .Include(x => x.HotelRooms)
+                                             .ThenInclude(x => x.Room)
+                                             .ThenInclude(x => x.RoomAmenities)
+                                             .ThenInclude(x => x.Amenities)
+                                             .FirstOrDefaultAsync();
             return hotel;
         }
 

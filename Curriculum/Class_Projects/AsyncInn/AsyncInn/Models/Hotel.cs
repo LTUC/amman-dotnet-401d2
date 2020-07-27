@@ -19,6 +19,6 @@ namespace AsyncInn.Models
         [DataType(DataType.PhoneNumber)]
         public string Phone { get; set; }
 
-        public ICollection<HotelRoom> Rooms { get; set; }
+        public ICollection<HotelRoom> HotelRooms { get; set; }
     }
 }

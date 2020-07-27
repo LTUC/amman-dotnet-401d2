@@ -49,7 +49,11 @@ namespace AsyncInn.Data
 
         public DbSet<HotelRoom> HotelRooms { get; set; }
 
-        public DbSet<AsyncInn.Models.Amenities> Amenities { get; set; }
+        public DbSet<Amenities> Amenities { get; set; }
+        public DbSet<RoomAmenities> RoomAmenities { get; set; }
+
+        public DbSet<Room> Rooms { get; set; }
+
 
 
 

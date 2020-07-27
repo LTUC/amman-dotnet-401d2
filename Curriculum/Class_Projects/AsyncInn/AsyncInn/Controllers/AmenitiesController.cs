@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AsyncInn.Data;
 using AsyncInn.Models;
+using AsyncInn.Models.DTOs;
+using AsyncInn.Models.Interfaces;
 
 namespace AsyncInn.Controllers
 {
@@ -15,24 +17,26 @@ namespace AsyncInn.Controllers
     public class AmenitiesController : ControllerBase
     {
         private readonly HotelDbContext _context;
+        private readonly IAmenityManager _amenity;
 
-        public AmenitiesController(HotelDbContext context)
+
+        public AmenitiesController(IAmenityManager amenity)
         {
-            _context = context;
+            _amenity = amenity;
         }
 
         // GET: api/Amenities
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Amenities>>> GetAmenities()
+        public async Task<ActionResult<IEnumerable<AmenityDTO>>> GetAmenities()
         {
-            return await _context.Amenities.ToListAsync();
+            return await _amenity.GetAmenities();
         }
 
         // GET: api/Amenities/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Amenities>> GetAmenities(int id)
+        public async Task<ActionResult<AmenityDTO>> GetAmenities(int id)
         {
-            var amenities = await _context.Amenities.FindAsync(id);
+            var amenities = await _amenity.GetAmentity(id);
 
             if (amenities == null)
             {
@@ -78,12 +82,11 @@ namespace AsyncInn.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Amenities>> PostAmenities(Amenities amenities)
+        public async Task<ActionResult<AmenityDTO>> PostAmenities(AmenityDTO amenity)
         {
-            _context.Amenities.Add(amenities);
-            await _context.SaveChangesAsync();
+            await _amenity.CreateAmenity(amenity);
 
-            return CreatedAtAction("GetAmenities", new { id = amenities.ID }, amenities);
+            return CreatedAtAction("GetAmenities", new { id = amenity.ID }, amenity);
         }
 
         // DELETE: api/Amenities/5

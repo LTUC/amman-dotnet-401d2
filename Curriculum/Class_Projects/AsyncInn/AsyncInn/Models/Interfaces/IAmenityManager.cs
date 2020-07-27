@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AsyncInn.Models.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,10 +8,9 @@ namespace AsyncInn.Models.Interfaces
 {
     public interface IAmenityManager
     {
-        void CreateAmenity();
-        void UpdateAmentity(int id);
-        void DeleteAmentity(int id);
-        List<Hotel> GetAmenities();
-        Room GetAmentity(int id);
+        Task<AmenityDTO> CreateAmenity(AmenityDTO amenity);
+        Task DeleteAmentity(int id);
+        Task<List<AmenityDTO>> GetAmenities();
+        Task<AmenityDTO> GetAmentity(int id);
     }
 }
