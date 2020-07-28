@@ -170,11 +170,6 @@ Route: (GET/POST) - `api/amenities/`
 - Post is adding a new general amenity
 - Post will include the Amenities DTO in the request
 
-#### RoomAmenities Controller
-
-Route: (POST) `api/room/amenities/{roomId}/{amenitiesId}`
-- Add a amenity to a specific room
-- No request body, just the amenity ID
 
 ## Guidance
 
