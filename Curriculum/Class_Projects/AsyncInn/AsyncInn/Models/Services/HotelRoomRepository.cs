@@ -11,10 +11,12 @@ namespace AsyncInn.Models.Services
     public class HotelRoomRepository : IHotelRoom
     {
         private HotelDbContext _context;
+        private IRoomManager _room;
 
-        public HotelRoomRepository(HotelDbContext context)
+        public HotelRoomRepository(HotelDbContext context, IRoomManager room)
         {
             _context = context;
+            _room = room;
         }
         public async Task<HotelRoom> Create(HotelRoom hotelRoom, int hotelId)
         {
@@ -50,9 +52,11 @@ namespace AsyncInn.Models.Services
             var room = await _context.HotelRooms.Where(x => x.HotelID == hotelId && x.RoomNumber == roomNumber)
                                                  .Include(x => x.Hotel)
                                                  .Include(x => x.Room)
-                                                 .ThenInclude(x => x.RoomAmenities)
-                                                 .ThenInclude(x => x.Amenities)
                                                  .FirstOrDefaultAsync();
+
+            // Find the rooomId and then call _room.GetRoom(id) to retrieve the room details and the amenityt details
+            // RoomDTO roomdto = await _room.GetRoom(room.RoomID);
+            /// set dto.Room = roomdto
 
             return room;
         }
