@@ -30,6 +30,7 @@ Your midterm project will require your team to build out an API server that will
 1. Identity
 	- Authentication/Authorization
 	- at least 2 different roles for users
+	- Permission based routes for anonymous users and authenticated users
 
 1. Swagger
 	- [Here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1)
