@@ -1,29 +1,40 @@
-# Lab 18: WEB App for API Calls
+# Lab 18: Roles 
 
 ## The Problem Domain
 
-Create a Web app with a home page. 
+Keep building off of your Async Inn and add roles to your app
 
 ## Application Specifications
 
-1. Start out with an empty web app and set up the routing and dependencies for a default Home controller with the Index action as default. 
+Add 3 new roles to your application with the following permissions:
 
-Using Layouts, HTML, and CSS, build out a very basic site that introduces the user to the Hotel Asset Management System. In Lab 19, we will make calls to the API Server you built previously.
+1. District Manager
+- District manager can do full CRUD operations on all Hotel, HotelRoom, Room, and Amenity entities. 
+- The district manager can create accounts for all other roles
+2. Property Manager
+- Property Manager's can add/update/read new HotelRooms to hotels, and amenities to rooms. A property manager cannot create new room entities or hotel entities. 
+- The property manager can only create accounts for Agents
+3. Agent
+- An agent can only update/read a HotelRoom and add/delete amenities to rooms
+4. Anonymous users
+- anonymous users can only view all hotel information DTO. 
 
-Overall, the look and feel of your site should provide a good client experience.
+All routes should be locked down to Authorize. Override the `[AllowAnonymous]`on the appropriate routes for anonymous users. 
 
+The District Manager and Property
 
 ## Guidance
-- Use [this documentation](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient) as a reference on making API calls
-- [Tag Helpers](https://docs.microsoft.com/en-US/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1)
-
+1. Be sure to seed your roles into the database
+2. Seed in a default district manager account into your database
+3. Use the JWT token setup to return a JWT token after every login. 
+4. Test your routes through Postman
 
 ## Unit Tests
-No Tests
-
+1. Write tests for at least one service, covering all the public methods. 
 
 ## Stretch Goals
-- There are no Stretch Goals for this assignment.
+- Test more services
+- add additional permissions/routes onto your controllers for additional functionality. 
 
 ## Additional Resources
 - There are no additional resources provided for this assignment.
@@ -55,7 +66,7 @@ The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"}
 
 ## To Submit this Assignment
 
-- Create a new branch named `NAME-ASyncFinal` in your `AsyncInn` repository
+- Create a new branch named `NAME-AsyncFinal` in your `AsyncInn` repository
 - Write your code
 - Commit often
 - Push to your repository
