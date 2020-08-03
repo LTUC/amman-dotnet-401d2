@@ -1,41 +1,20 @@
-# Lab 19: API Calls
+# Lab 19: Finish up the app
 
 ## The Problem Domain
 
-Have your application make a RESTful API call to your Async Inn Hotel API Server
+Review your current project and ensure the following is met:
 
-## Application Specifications
-
-Add a new controller onto your Web App named `HotelsController`.
-
-Implement into your application the repository design pattern (add interfaces, services, and mappings)
-
-Have this controller contain a variety of actions.
-1. Action to display all the hotels
-2. Action to display information about a specific hotel
-3. Display information about a specific Room
-4. Display the list of all amenities
-
-
-Deployment to Azure (both your local app and api server)
-
-Overall, the look and feel of your site should provide a good client experience.
-
-
-## Guidance
-- Use [this documentation](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient) as a reference on making API calls
-- [Tag Helpers](https://docs.microsoft.com/en-US/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1)
-
-
-## Unit Tests
-No Tests
+1. Summary Comments on all services and interfaces
+2. Test at least 2 services to ensure the CRUD operations work as expected
+3. Deploy the app to Azure
+4. Test your routes on Postman to confirm you are getting the correct data
 
 
 ## Stretch Goals
-- There are no Stretch Goals for this assignment.
 
-## Additional Resources
-- There are no additional resources provided for this assignment.
+1. Add "personal profiles" for each agent
+2. Allow agents to "favorite" hotels for quick access
+
 
 ## README
 

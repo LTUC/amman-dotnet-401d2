@@ -9,10 +9,6 @@ Review the Submission Instructions for guidance on completing and submitting thi
 ## Readings
 
 
-1. [View Layouts](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-2.1){:target="_blank"}
-1. [Partial Views](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial?view=aspnetcore-2.1){:target="_blank"}
-1. [View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
-1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"} 
-1. [Tag Helpers with Forms](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-2.1){:target="_blank"} 
 
-
+1. [Claims-Based auth](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.1){:target="_blank"} 
+1. [Intro to Claims](https://andrewlock.net/introduction-to-authentication-with-asp-net-core/){:target="_blank"} 

@@ -7,4 +7,7 @@ Below you will find some reading material, code samples, and some additional res
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
 ## Readings
-1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"} 
+Learn Bootstrap:
+1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
+1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
+1. [Bootstrap](https://getbootstrap.com/)

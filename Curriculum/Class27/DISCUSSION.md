@@ -13,3 +13,11 @@ Review the Submission Instructions for guidance on completing and submitting thi
 - [Razor Pages](https://gunnarpeipman.com/aspnet/razor-pages/){:target="_blank"}
 - [Getting started with Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1){:target="_blank"}
 - [Razor Pages vs MVC](https://jonhilton.net/razor-pages-or-mvc-a-quick-comparison/){:target="_blank"}
+
+
+
+1. [View Layouts](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-2.1){:target="_blank"}
+1. [Partial Views](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial?view=aspnetcore-2.1){:target="_blank"}
+1. [View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
+1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"} 
+1. [Tag Helpers with Forms](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-2.1){:target="_blank"} 

@@ -8,9 +8,5 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [DTOs](https://docs.microsoft.com/en-us/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-5)
-
-Learn Bootstrap:
-1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
-1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
-1. [Bootstrap](https://getbootstrap.com/)
+1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"} 
+1. [Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html){:target="_blank"}

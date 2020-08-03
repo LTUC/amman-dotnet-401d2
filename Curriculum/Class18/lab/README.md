@@ -17,7 +17,7 @@ Add 3 new roles to your application with the following permissions:
 3. Agent
 - An agent can only update/read a HotelRoom and add/delete amenities to rooms
 4. Anonymous users
-- anonymous users can only view all hotel information DTO. 
+- anonymous users can only view all GET routes
 
 All routes should be locked down to Authorize. Override the `[AllowAnonymous]`on the appropriate routes for anonymous users. 
 
