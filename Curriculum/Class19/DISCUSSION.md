@@ -1,4 +1,4 @@
-# Class 19: Readings: Web APIs PT. 2
+# Class 19: Testing and Swagger
 
 ## Submission Requirements
 
