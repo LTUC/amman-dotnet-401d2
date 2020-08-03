@@ -1,4 +1,4 @@
-# Readings: Views & Azure Deployment
+# Readings: Intro to Identity
 
 ## Submission Requirements
 
