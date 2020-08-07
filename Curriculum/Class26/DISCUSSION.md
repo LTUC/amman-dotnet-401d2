@@ -8,6 +8,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 Learn Bootstrap:
+1. [Azure Dev Ops](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops)
 1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
 1. [Build sites with Bootstrap](https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap){:target="_blank"} 
 1. [Bootstrap](https://getbootstrap.com/)
