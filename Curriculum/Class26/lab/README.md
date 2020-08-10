@@ -1,24 +1,50 @@
-# Lab 26: Sprint 1 - Milestone #1
+# Lab 26: Sprint 1 - MVC
 
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
-
-Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
 ## Instructions:
-Please read this document, in it's entirety, before beginning.
 
-We are going to start this project by scaffolding out a basic MVC application. Divide the following tasks out amongst you and your partner(s) to ensure that you are ready for the remainder of the sprint:
+Buid out an application that has the folowing pages:
 
-1. Have one of the team members create the Azure Dev Ops project and invite the others.
-1. Follow the directions located under "Create a Repo" located in the [Azure DevOps Cheat Sheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet){:target="_blank"}. 
-1. When scaffolding out the basic MVC application complete the following tasks:
-    - Scaffold out an MVC website with default routing to `Home` controller and `Index` action
-    - Add a `.gitignore`
-    - Create Controllers and Views folder
-    - Create a new `index.html` file in a `Home` folder inside `Views`
-    - Create basic HTML greeting
-1. Once you have confirmed your code works locally and all tasks are done, push the code back up to Azure Repos.
-1. Have one team member deploy your application to Azure.
+1. Home Page
+1. Products Page
+
+### Home Page
+
+Clean and simple home page design with CSS. Include on this home page a link to the "Products" page. 
+
+### Products Page
+
+The products page will display for the user a list of the data provided inside the `cereal.csv` file. Include a link to return to the home page. The page's functionality should acheive the following:
+
+1. Display all of the products to the page
+1. Allow to search by name
+1. Sort the data by ascending or descending
+
+
+A few things to note:
+
+1. You do not need to display pictures of the products, just line items will suffice. 
+1. CSS is required. Use Bootstrap if you can. 
+1. No database exists in today's lab. Your data source will be your csv file
+1. Use the repository design pattern and dependency injection within the `ProductsController.cs`. Keep note that as we move through this project we will be chnging the data source. The interface should be generic enough to support both the products in the cereal dataset and any future products. Consider the use of abstract classes and inheritence.
+
+
+Some hints on reading in the CSV file:
+1. Look at the header of the csv file to determine the properties required for the class
+1. Hardcoding the field number with the property is allowed.
+1. Logic to read a file from the `wwwroot` folder is: 
+```
+string path = Environment.CurrentDirectory;
+string newPath = Path.GetFullPath(Path.Combine(path, @"wwwroot\cereal.csv"));
+string[] myFile = File.ReadAllLines(newPath);
+```
+
+## Stretch 
+
+1. Allow for pagination
+1. Add additional search params
+1. Add more style!
+1. Write tests
 
 ## Tests
 
@@ -26,14 +52,18 @@ No tests are required for today.
 
 ## Rubric
 
-Review the final Sprint 1 submission for rubric/breakdown of all user stories
+The lab rubric can be found [Here](../../Resources/rubric){:target="_blank"} 
 
 ## To Submit this Assignment
 
-Submit the answer to the following questions:
-1. What suprised you most about this milestone?
-1. How long did it take you to complete this milestone?
-1. How long did you expect to take?
-1. What did you find most challenging about this milestone?
-1. What do you need to continue to work on during this project?
-1. Any Concerns that the instructional staff should be aware of?
+- Create a new repository on Azure Dev Ops
+- Name your repo `Ecommerce-App`
+- Create a branch named `NAME-LAB##`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `master` branch.
+- Submit a link to your PR in Canvas
+- Merge your PR back into master
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described above)
