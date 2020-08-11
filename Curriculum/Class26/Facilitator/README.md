@@ -10,6 +10,26 @@ By the end of lecture, students should have seen:
 2. A complete workflow using Azure Dev Ops and Azure Repos
 3. Integration of Identity into an existing project
 
+
+Sprint 1:
+
+1. Intro to MVC
+2. Razor  /// Login/REgistration
+3. Blob Storage and pipelineing
+4. 
+
+Sprint 2:
+1. Email Sender
+2. Serverless Functions
+3. Veiw Components
+4.  
+
+Sprint 3:
+
+
+
+Sprint 3:
+
 ## Preparation
 Here is checklist of items that you should complete before the start of lecture: 
 1. If you have chosen to utulize the Canvas Pages, follow the instructions in the [Canvas file](./Canvas.md)
@@ -18,8 +38,7 @@ Here is checklist of items that you should complete before the start of lecture:
     - [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
 3. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
     tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well. 
-4. Review the [Intro to Identity](./Identity.md) lecture.
-   - [Microsoft's Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
+
 5. Be Comfortable with the demo code and all of the different moving components 
 
 ### Lecture
