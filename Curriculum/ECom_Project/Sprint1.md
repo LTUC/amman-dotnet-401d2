@@ -51,22 +51,20 @@ Startup.cs file.
 #### Home Page (3 points)
 Introduction to the site with HTML/CSS. Anonymous accessibility. Home page contains login/register links as well as custom greeting for logged in users This area will be used by the assessor to leave comments related to this criterion.
 
-#### Login Page (2 points)
+#### Login Page (3 points)
 Login page consists of username and password form with password masked of visibility. Login page redirect to home page after successful login. Login page access is anonymous allowed. Login page utilizes ASP.NET Core Identity.
 
 #### Registration Page (3 points)
 Registration page consists of a form that successfully creates a new account while utilizing ASP.NET Core Identity. Custom claims are properly captured within registration. User is automatically logged in and redirects user to home page after registration. Registration is accessible by anonymous users.  
 
-**If readme does not contain list of custom claims that are being captured, no points for this category will be awarded**
-
-#### Shopping Page (5 points)
+#### Products Page (5 points)
 Shopping page is accessible by anonymous users as well as fully displays all products existing in the database. 
 Each product is evenly displayed on the page and shopping page has a clean professional appearance.
 
-#### Product Details Page (2 points)
-Each product has a clean details page that displays relevent information important for a consumer to see when reviewing. This page should be accessible from the Shopping page.
+#### Azure Blob (10 points)
+All images are stored in Azure. Admin panel exists where an admin can create new products.
 
-#### User Experience (5 points)
+#### User Experience (6 points)
 HTML/CSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.
 
 #### Azure DevOps Process (10 points)

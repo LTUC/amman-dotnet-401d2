@@ -1,66 +1,36 @@
-# Class 28 Claims
+# Class 28: File Uploads and Azure Blob
 
 ## Overview
-Today we will break down the individual components of identity and 
-add individual claims into the ongoing project. 
+Today, the students get a look at how to conduct file uploads and storage using Azure Blob Storage. They will implement this functionality into their E-commerce project to allow for product details manipulation.
 
-By the end of lecture, students should:
-1. Discussed the difference between a Claim/Identity/Principle
-1. What an individual claim is and why we use them
-1. How to create and add claims to a user
-1. Inject specific claims into a view
+## How do I prep for today?
+1. Review the readings
+1. Review the demo code
+1. Have access to Azure Storage Account
+1. Have a pre-created Razor Page web app with a basic home route and enabled user secrets. No database is required for this app. 
 
+## Lecture Outline
 
-## Preparation?
+### Code Review
 
-Here is a checklist of items that you should complete before starting today's lecture:
-1. Complete the day's readings. These are great resources to help understand the content for today's lecture.
-1. Confirm that the demo code from class 27 is complete and error free
+1. Review Razor Pages and complete the registration/login process demo code if you didn't finish the day prior.
+1. Go over Azure Pipelining
+1. Review Merge Sort
 
-## Lecture: 
-1. Code Review (1 hour)
-   - If you did not get to Login capabilities on Class 27, do that during
-   code review
-   - Show how to add Logout capabilities
-     - Provided Demo code in `Pages/Logout.cshtml` 
-   - Show what `Authorize` and `AllowAnonymous` tags do
-     - [Authorization Tags](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-2.2)
-     - We are not doing Roles "yet", so just focus on the [Authorize] and [AllowAnonymous] tags. The demo code only has [Allow Anonymous] but play with the two tags to show the difference. We will add more [Authorize] tags as the project evolves. 
-     - You will need to add `app.UseAuthorization();` To the `Configure()` method in the `Startup.cs`. Place this bit of code under the `app.UseAuthorization()`. This bit of code will allow you to be authorized on specific pages.
+1. Introduce File uploads
+   - Why
+     - It is pretty popular to have the ability for file management within a web application. This can be due to something as small as uploading a profile picture, or a bit more complicated such as uploading a resume or cover letter to a potential job opportunity. Web applications should be setup to handle these types of functionality quickly and efficiently so that users can share and upload documents as needed.
+   - What
+     - File upload is the ability for a user to take a document or file from their personal machine and transfer it to the web server hosting the site. Ideally, this document should be accessible in the future within the application. 
+   - How
+     - When implementing file upload capabilities, you have to take into consideration security of the types and sizes of files that are being uploaded to your server. Review the demo code on implementing a basic file upload app. 
 
-1. [Claims](./claims.md) (60-90 minutes)
-   - What are claims? 
-   - How to implement them
-   - How to add them to a user
+    Implement for the students a very basic file upload app using Razor Pages. This application isn't going to "do" anything with the file that was uploaded just yet, that we will showcase that when introducing Azure Blob Storage. Utilize breakpoints when demoing with the students when proving that the file was accepted by the web app. 
 
-1. Injecting claims into views (30-45 minutes)
-   - We need the ability to inject our claims into our views for 
- personalization purposes. You can inject claims in either view specific pages or in _layout pages. Here is an example of what that may look like in our code for our view in a shared layout view: (This code is present in the provided demo code)
+1. Introduce Azure Blob Storage
+   - Why
+   - What 
+   - How
 
-```csharp
-@using Microsoft.AspNetCore.Identity
-@using CMSDemo.Models
-@inject UserManager<ApplicationUser> UserManager
-@inject SignInManager<ApplicationUser> SignInManager
-
-    @if (SignInManager.IsSignedIn(User))
-    {
-        <span style="float: right"> Welcome  @User.Claims.First(c => c.Type == "FullName").Value! </span>
-                <form  class="form-inline" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home")">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-        </form>
-
-    }
-    else
-    {
-        <span style="float: right"> <a asp-page="/Account/Login">Login</a> </span>
-        <span style="float: right"> <a asp-page="/Account/Register">Register</a> </span>
-    }
-
-``` 
-
-## What changed from yesterday? 
-Building off of yesterday's lab
-
-## What might students struggle with today?  
-Claims//Identities//Principles is a lot of concept that isn't really seen. They may struggle with what role each of these play with. The students are not required to write their own identity or principle,  but they should know and understand what is happening under the hood. 
+## Lab Notes
+In lab, they will add file upload capabilities to their Products manipulation in their Admin dashboard. They should be able to create or update product images. They will store their images in Azure Blob Storage, and save the URL references in the database attached to the product. 

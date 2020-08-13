@@ -1,13 +1,9 @@
 # Class 29: Policies
 
 ## Overview
-By the end of lecture, students should have:
-1. Seen how to add roles to the application
-1. Assign roles to specific users
-1. Check if a user is in a specific role
-1. Register a role based policy in the Startup.cs file
-1. Create and register a custom claims based policy and register it with
-Dependency Injection in the startup file 
+This is is a catch up day. 
+
+Spend lecture 
 
 ## Preparation
 Here is a checklist of items that should be completed by the instructor
