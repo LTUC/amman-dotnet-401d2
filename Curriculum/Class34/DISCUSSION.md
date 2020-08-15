@@ -8,4 +8,3 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
--  [Signal R](https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-3.1)
