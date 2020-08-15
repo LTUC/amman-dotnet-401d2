@@ -1,4 +1,4 @@
-# Readings: Sending Emails
+# Readings: OAUTH
 
 ## Submission Requirements
 

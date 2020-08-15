@@ -1,4 +1,4 @@
-# Readings: Class 34
+# Readings: Review DSA
 
 ## Submission Requirements
 
@@ -8,3 +8,4 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
+- Dive deeper into a data structure that you are still trying to understand

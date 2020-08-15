@@ -1,4 +1,4 @@
-# Readings: View Components
+# Readings: SendGrid
 
 ## Submission Requirements
 
