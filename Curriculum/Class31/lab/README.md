@@ -8,34 +8,20 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 Here are the user stories for Milestone 1:
 
-1. (Developer 1 & 2) As a user, I would like dedicated location where I can see all the products I wish to purchase. 
+1. (Developer 1 & 2) As a user, I would like to receive a notification after i register for an account on the site
 
-1. (Developer 1) As a user, I would like to see the current items in my basket while browsing the site.
-
-1. (Developer 2 & 3) As a user, I would like to quickly add items to my basket on the product details page
+1. (Developer 1 & 2) As a user, I would like to view specific product details
 
 
 ### Guidance
 
-**User story 1:** You and your partner need to figure out how you are going to capture a user's cart items. This is going to required a database change. You will need to take into consideration that each user will have their own cart, and that they could potentially have a quantity of a specific product to be larger than 1. 
+**User story 1:** Using the SendGrid tutorial, integrate it into your application so that after registration an email gets sent to the user. Use the repository design pattern.
 
-Refer to the Store DB ERD in your ECommerce assets as a suggestion on how to lay out your database. This is just a suggestion and you may chose to follow it if you are unsure how to restructure your database to handle cart items. 
-
-After you have setup your database to handle the storage of items in a cart, create a dedicated route of `/Cart`. You may chose to have thi be a controller or a razor page. 
-
-Within this dedicated cart page, make sure that you can edit the qty of the product, delete the item from the cart, or click on the product directly and be redirected to the product details page. 
-
-Refer to the suggested checkout wireframe on how to layout your page. 
-
-Your "Checkout" button on this page should not link to anything just yet. 
-
-**User story 2:** This is where view components come in. Create a view component that queries the database for all the items/products that the user has in their cart, and displays it on more than one page of the site. Display your "mini-basket" on the individual product landing pages. 
-	
-**User Story 3:**  This is just adding a button to onto the product landing page. This button will have the text "Add to Cart". When this button is clicked, it will execute the post method and add that product to the user's cart. This should all take place on the database side. _**You will need**_ to setup your cart to use an interface for cart CRUD operations. Similar to how you are getting products...do the same for cart manipulation. 
+**User story 2:** On the browse page that shows all of the products, allow the user to click on a specific product and be redirected to an individual page with the product details. Show all the required information to the user for them to make an informed decision about the product. Use Razor Pages for this task. Don't add an "add to basket" button just yet. we will do that soon.
 
 
 ### Tests
-Test your services that are implementing your interface.
+no additional test required for today
 
 
 ## To Submit this Assignment
