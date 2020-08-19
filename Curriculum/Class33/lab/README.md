@@ -6,33 +6,43 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 
 ## User Stories & Guidance:
 
-1. (Developer 1 & 2 & 3) As an administrator, I would like the ability to send emails so that I can communicate with my users of the site
-1. (Developer 2) As a user, I would like an email confirmation to be sent to me after I have registered for an account on the site. 
-1. (Developer 1 & 2) As a user,  I would like to see a summary of my purchase after completing my checkout process.
+1. (Developer 1 & 2 & 3): As a user, I would like to checkout with my purchases using electronic payment options on my site during the checkout process
+1. (Developer 2) As a user,  I would like to see a summary of my purchase after completing my checkout process.
 1. (Developer 1) As a user, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
 
 
 ### Guidance
 
-**User Story 1:** Utilize the .Net Core's IEmailSender interface. 
-Create a model that implements this interface that will create and send emails 
-through SendGrid. You will need to implement the IEmailSender interface on a new 
-class model and create the logic to connect your SendGrid account and send out any
-email that gets sent in  through the arguments. 
+**User Story 1:** This user story will require that you create a "checkout" page. This checkout page should appear after the user selects "Checkout" on their cart/basket page. 
 
-**User Story 2:** Building off of US1, Make an email get sent after 
-registration of a new account. Have this email be a simple Welcome message to the user. 
+ Using Authorize.Net, integrate payment into your application. Use the sandbox account to prevent usage of real credit card charges. Integrate the payment using the repository design pattern, and have it injected into your razor page. 
 
-**User Story 3:** Refer to the suggested wireframes as a guideline of how to format the receipt page. This page should be generated and presented to the user after they select the "Checkout" button on the Cart page. 
+ When completing an order, capture the following information about the user:
 
-In the suggested wireframe, it shows order information. Don't worry about displaying that now, only show the actual products and the total cost. You will add order specific information in Sprint 3.
+ 1. First Name
+ 2. Last Name
+ 3. Billing/Shipping Address
+ 4. Billing/Shipping City
+ 5. Billing/Shipping State
+ 6. Billing/Shipping Zip
 
-**User Story 4:** When the user selects "Checkout" on their cart page, this should trigger an email to be sent to the user with a summary of their purchases. 
+ Generally, each order has it's own "Id", is connected to a specific user, and each order contains a number of order items. A user could potentially have many orders. 
+
+ Keeping this in mind, expand your database to accept orders for the checkout process. In the next couple labs, we will be showcasing a specific user's order to them within their profile page. 
+  
+
+**User Story 2:** After the checkout process is complete, redirect the user to a "receipt" page that shows a summary of the items that they purcahsed, as well as the order number ,shipping/billing information, and anything else that may be relevant.  
+
+**User Story 3:** When the user has completed the checkout process, email them a confirmation of their order. 
+
+Hint: When creating the email, consider using the SendGrid design templates. Not required, but encouraged. 
+
+Also consider using `StringBuilder` when creating the text for the email, this is much more efficient than concatinating a string together. 
 
 
 ## Tests
 
-No tests are required for today. 
+No additional tests are required for today. 
 
 
 ## Rubric
