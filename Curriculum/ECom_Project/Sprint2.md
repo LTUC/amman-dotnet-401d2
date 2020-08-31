@@ -47,7 +47,7 @@ Review the rubric below to know and understand the overall expectations
 "Mini Basket" exists on product landing pages. 
 Mini Basket holds a current view of all the existing items the user has in their cart. A view component is used to implement the mini cart across the site. 
 
-#### Cart (10 points)
+#### Cart (5 points)
 
 A dedicated cart page that consists of all the user's current products. Items in the cart can be modified in quantity or removed.  Home page consists of a link to the cart page for easability. 
 Cart page contains a "Checkout" button that redirects to the Receipt page. The user must be logged in to access the cart page.
@@ -62,6 +62,12 @@ A welcome email is sent to the user upon a new registration. A receipt email is 
 
 #### Admin Dashboard (5 points)
 Admin Dashboard exists with a landing page directing users to Products Controller. An admin can execute full CRUD operations on the products. Only useres with a role of "Admin" can acess this page. Credentials to an admin account are provided to grader in canvas note.
+
+#### Auth.NET/Checkout Page (5 points)
+
+Authorize.NET is present and hooked up within the application. The checkout page is present and prompts the user to "complete"
+ their order by selecting either a drop down menu of a test credit card or just has as a checkout button present. *NO POITNS WILL BE AWARDED FOR THE ENTIRE SPRINT IF THERE EXISTS A CREDIT CARD BOX ALLOWING FOR REAL NUMBERS*
+
 
 #### User Experience (5 points)
 HTML/CSS/SCSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.

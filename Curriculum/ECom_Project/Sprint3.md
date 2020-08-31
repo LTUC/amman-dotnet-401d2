@@ -41,24 +41,18 @@ Grades are distributed separately per student. Refer to the rubric below for eva
 
 ## Rubric
 
-### E-Com Sprint 3 (50 points)
+### E-Com Sprint 3 (30 points)
 
 Review the rubric below to know and understand the overall expectations
 
 
-#### Auth.NET/Checkout Page (5 points)
+#### Personal Profile Page (5 points)
 
-Authorize.NET is present and hooked up within the application. The checkout page is present and prompts the user to "complete"
- their order by selecting either a drop down menu of a test credit card or just has as a checkout button present. *NO POITNS WILL BE AWARDED FOR THE ENTIRE SPRINT IF THERE EXISTS A CREDIT CARD BOX ALLOWING FOR REAL NUMBERS*
+Within the profie page, a user can see their personal information and all the orders they have personaly submitted. 
 
-#### Blob Storage (10 points)
-Azure blog storage is properly configured within the application. Images for all products are stored within cloud storage
+#### Admin Dashboard (5 points)
 
-
-#### Admin Dashboard (15 points)
-
-Admin dashboard is present within the application. Admins are redirected to the admin dashboard upon login. The Admin has the ability to CRUD on basic products. View all orders that have been placed within the system. Admins are redirected to the admin dashboard upon login.
-
+Admins are able to access the admin dashboard and view all orders that have been placed
 
 #### User Experience (5 points)
 HTML/CSS/SCSS is present across the site. Site is clean and professional looking. Pages are properly linked and the overall experience and flow of the site is usable. Site does not contain any unhandled exceptions.

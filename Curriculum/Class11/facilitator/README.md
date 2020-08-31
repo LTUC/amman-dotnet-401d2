@@ -16,9 +16,7 @@ Today primarily focuses on an introduction to databases. This should be a combin
 ## Lecture
 
 1. Code Review
-   - Review the MVC lab 
-   - Show the students the solution to reading in a csv file and converting it to an object
-   - Review turnery operators (this may be what they needed to use in their for lab 11 when reading in data from the csv file)
+   - No Code Review this day
 1. Review data persistence
    - What is data persistence? 
    - What are databases? Why do we need them?
