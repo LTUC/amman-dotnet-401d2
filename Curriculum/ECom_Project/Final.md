@@ -7,10 +7,6 @@ There will be no resubmits available for this Project. Keep an eye on the due an
 
 Focus on your product presentation for this phase. Make sure everything works as expected and there are no exceptions or broken pages. 
 
-## Additional Content
-
-In addition to the previous sprints, Please create a Vulnerability report: [Directions Here](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/VulnerabilityReport){:target="_blank"}
-
 
 ## Azure Dev Ops to Github:
 
@@ -33,11 +29,6 @@ Upon completion of this Project, Your E-commerce site should contain the followi
    - Only accessible by users who hold the role of admin
    - Manage Products (Full CRUD)
    - View Last 10 submitted by users
-     - Each order detail page should contain:
-       - Name of Customer
-       - Items ordered
-       - Total
-       - Date
 1. Shopping Page
    - Shows all products in inventory for users to browse
    - Anonymous Access
@@ -53,7 +44,6 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 9. Receipt/Order Confirmation Page
    - Must be logged in/Authorized
    - Summary of the order that the user just completed. 
-1. [Vulnerability](VulnerabilityReport.md){:target="_blank"} report present in Repo 
 
 ### Shared
 - CSS/HTML
@@ -83,5 +73,4 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 Submit into Canvas a link to your GH repo. 
 
 ## Rubric
-- 100 pts. 
-- View Rubric in Canvas Assignment
+- 50 pts. 
