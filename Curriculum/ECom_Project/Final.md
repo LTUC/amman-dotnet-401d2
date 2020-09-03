@@ -28,7 +28,10 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 1. Admin Dashboard 
    - Only accessible by users who hold the role of admin
    - Manage Products (Full CRUD)
-   - View Last 10 submitted by users
+   - View all orders submitted
+1. Profile Page
+	- View personal orders
+	- View personal information
 1. Shopping Page
    - Shows all products in inventory for users to browse
    - Anonymous Access
@@ -56,7 +59,6 @@ Upon completion of this Project, Your E-commerce site should contain the followi
   - Introduction to your ecommerce site
   - What is the product you are selling?
   - What claims are you capturing? Why?
-  - What policies are you enforcing? Why?
   - Structure/Database Schema for your store DB (not identity)
   - Explanation of your DB Schema (mostly interested in your basket/order tables)
   - Link to your deployed website
@@ -64,7 +66,6 @@ Upon completion of this Project, Your E-commerce site should contain the followi
   - Name of Contributors
 
 - Tests
-	- Test all getter/setters
 	- Test all methods that live in your services that implement your interface
 	- You do not have to test identity API or the identity DB.
   
