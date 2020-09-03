@@ -38,10 +38,8 @@ This lab larger and more complex in size than previous labs. The students will b
 
 
 ## What might students struggle with today?  
-This is a very heavy day. We are introducing two new major concepts
-that blend into each other. 
+This is a very heavy day. We are introducing two new major concepts that blend into each other. 
 
-Students will likely not get these concepts right away.  Historically, they understand these concepts after exposure, repitition, and constant explanation. Don't be suprised if you find yourself repeating the same thing over and over again. Eventually
-they will get it!
+Students will likely not get these concepts right away.  Historically, they understand these concepts after exposure, repitition, and constant explanation. Don't be suprised if you find yourself repeating the same thing over and over again. Eventually they will get it!
 
-Be prepared to review this concept again on class 17. This day's demo should have consisted of refactoring only 1 controller with a new interface and service. It is reccomended that you also do a second controller with interface and service on Day 17 to solidify the concepts. 
+Be prepared to review this concept again in the following classes. This day's demo should have consisted of refactoring only 1 controller with a new interface and service. It is reccomended that you also do a second controller with interface and service on Day 17 to solidify the concepts. 
