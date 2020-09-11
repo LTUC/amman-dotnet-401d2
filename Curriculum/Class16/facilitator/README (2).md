@@ -1,34 +1,28 @@
-# Facilitators Guide: Introduction to MVC
+# Facilitators Guide: DTOs and Testing
 
 ## Overview
 
-First day of web development! This is the first day the students get to learn about web development. You will draw out for them the MVC request flow and create for them a full stack application utilizing the MVC pattern.
+Today, we will clean up the output from the API server, and make them a bit more client friendly. We will introduce the concept of DTOs to have more control over what data gets sent out and is accepted into the server.
 
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous classes we've specifically worked with only the C# language. We have only made console apps and have not yet talked about how C# works in the world of web development. 
+In the previous classes we've build out the API server and customized the routing
 
 **What are we focusing on today**:
-Today, we'll be starting the very first day of web development with C# and .NET Core. Today is an introduction to MVC and how this architectural pattern works within an application.  
+Today, we'll be customizing the data that comes in and out of the server through DTOs
 
 **Where we're headed**:
-We will be building off of these principles every single day for the remainder of the class. Starting in Class 12, we will 
+We will be soon adding authentication and authorization to our app to finalize the api server.
 
 ## Learning Objectives
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are to show and expose the students what the MVC architectural pattern is and how it works. They should understand that MVC is not "magic", but primarily convention.
+> Our primary outcomes and goals for the day are to have the students refactor their current codebase to customize and create DTOs
 
 ## Preparation
 
-- Review the day's readings. Included in the readings is a video introduction to .NET Core.
-- Review MVC and how the components work with each other in ASP.NET.
-- Upload to the GitHub class repository the appropriate .csv file for whichever lab you are choosing to use for this day.
-- Upload to the MVCSetup.md file to the `Resources` folder in your GH class repository. 
-- Look at previous course student submissions for insight as to what you might see in code review.
-- Practice [the demo](../demo/demo-name) on the construction of MVC.
 
 ## Lecture Outline
 
@@ -36,47 +30,28 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Code Review
 
-- Skip code review today, as there shouldn't be a lab to review. You will likely need the entire lecture time to teach today's content. 
+- Review lab 14's routing and Dependency Injection
 
-### Intro to MVC
+### DTOs
 
 - **Why** (5 min)
-  - Separation of Concerns. This means that we need the ability to separate out each component of an application so that they can be independently worked on. MVC allows us to separate out each component and make changes without the fear of affecting others in the process.  
+  - We don't want to expose our database entities to the outside world, also the data coming into the server will not always match 1:1 with the entities we created. We want the ability to customize the incoming and outgoing data.
 - **What** (10 min)
-  - MVC is an architectural pattern that allows us to separate out the presentation layer from the service layer of a web application. 
-  - Draw out the MVC web request diagram for the students. Include the request flow for MVC Core specifically. 
+  - DTOs stand for Data Transfer Objects. These are custom objects that contain data that are sent and received from the server. This helps us control what routes get what data with minimal restrictions.
 - **How** (30 min)
-  - Build out the demo application from scratch.
-    - Start with an empty web app
-    - Add middleware and routing
-    - Create Controllers
-      - Introduce actions
-      - Introduce Model Binding and URL Query
-    - Create View
-      - Discuss the folder structure of the View from the controller
-      - Introduce Razor Syntax
-    - Create a model
-      - Use the model in the controller and send it to the view. 
+  - Build out a class and have it hold all of hte properties for the DTO. make either the return type or the parameter of the action/route be the designated DTO.
 - **Experimentation and Discovery Ideas**
-  - Continually build your project and show errors as you expect them to showcase possible situations the students may come across
-  - Make the structure of your demo very similar to the lab requirements. This lab is about getting exposure to MVC and building their first MVC site. 
-  - Deploy the app to Azure!
+  - Create different DTOs
+  - Customize the data that is shown on an API rseponse and make them more readable for the client.
 
 ## Lab Notes
-
-- The lab requires that they use System.IO for reading in a CSV file. This may be a good thing to review in Code Review in class 12. 
-- The students will depend heavily on the resources provided during lecture. This is a heavy day, so be clear on where to find the resources and the structure of MVC. 
-- Expect many questions on the request flow. 
+- A lot of refactoring
 
 ## What might students struggle with today?
-
-- Request flow of MVC. The students will struggle with the models in the views and how to utilize them. 
-
-- Make sure students have the proper SDK installed for .NET Core
+- Concept of what a DTO is
 
 ## Past bugs, issues or surprises...
 
-ASP.NET Core MVC is always changing. stay up to date with any recent releases. 
 
 ## General Comments and Notes
 
