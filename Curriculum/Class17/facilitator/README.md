@@ -18,21 +18,7 @@
   - **How** (30 minutes)
         - Update the HTTP Action Tags above each controller action: `[HttpGet,Route('my/new/route`)]` (this will make the route `/api/[controller]/my/new/route). You can also add in special ids into the routes like so: `Route("route/{myId}")`, just make sure you accept an `int myId` as a parmater in the action so the modelBinding can bind.  
 
-2. **Testing**
-    - **Why** (5 minutes)
-        - We need to make sure our code is reliable and behaves as we expect. 
-  - **What** (10 minutes)
-        - Testing allows us to make sure that our methods within our service work exactly as we expect. 
-  - **How** (30 minutes)
-        - Create a new Xunit project, similar to how you did it before with your console apps. Show how to explicietly test the service for the CRUD calls. 
 
-3. **Deployment to Azure**
-    - **Why**
-        - we need our app to be globally accessible. to do this, we use Azure to host our database, and our server side application. 
-    - **What**
-        - 
-    - **How**
-         - In addition to "right click publish", we also need to deploy our database. Refer to the "deploy cheat sheet" doc on directions. (Resources/deployment), share this doc with the students
 
 ## What changed from yesterday? 
 
