@@ -5,33 +5,31 @@
 
 ## Code Review
  Code Review
-   - Expect to walk through the creation of a 2nd service and interface. Inject that interface into the controller and refactor the controller to use the interface instead of the DBContext.
-   - Show what the "join table controllers" look like. They will be injecting more than one interface into that controller. Show them how to use both to get different pieces of data from different injected data. 
+   - Review the refactor from the DTOs
 
 ## Lecture
 
-1. **Routing**
+1. **Identity**
     - **Why** (5 minutes)
-        - We don't always want to expose our controller endpoints when working with clients. We also want to keep our endpoints RESTful and clean. 
+        - Identity is used primarily for user management. This includes the security and manipulation of users within the application. Within Identity, we can restrict access to specific parts of the site through policies, assign specific roles to users, and allow for 3rd party authenticaion using OAUTH. 
   - **What** (10 minutes)
-        - We can change a the route specifically in ASPNET Core by adding the `Route()` to the HTTPAction tag. We control what the routes look like from the client side.
+        - Identity is the ability to add Authentication and Authorization to your web application. This includes registrations, logins, restricted access to specific members, and authentication through Facebook, Google, Twitter, etc...
+        ASP.NET Core Identity was created to help with the security and management of users. It provides this abstraction layer between the application and the users/role data. We can use the API in it's entirety, or just bits and pieces as we need (such as the salting/hashing by itself) or email services. There is a lot of flexibility within ASP.NET Core Identity. We have the ability to take or leave whatever we want. Identity combines well with EFCore and SQL Server. 
   - **How** (30 minutes)
-        - Update the HTTP Action Tags above each controller action: `[HttpGet,Route('my/new/route`)]` (this will make the route `/api/[controller]/my/new/route). You can also add in special ids into the routes like so: `Route("route/{myId}")`, just make sure you accept an `int myId` as a parmater in the action so the modelBinding can bind.  
-
+        - See Identity.md doc
 
 
 ## What changed from yesterday? 
 
-Use lots of visuals. Show physical code. Navigate around the code base with them so they know no "magic" is actually happening. 
-
+Adding onto our current code base
 
 ## What might students struggle with today?  
 
-They are just trying to understand DI and the Repo Design Pattern. 
+setup of identity
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 
 ## General comments
-The students have until the night before project week starts to complete this assignment. They have some time to complete their tasks and add some CSS to the pages to make it look professional. 
+ 
 
 
