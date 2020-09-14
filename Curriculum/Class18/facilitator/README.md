@@ -1,33 +1,24 @@
-# Class 18: Review of Views
+# Class 18: Roles
 
 ## How do I prep for today?
 
 
 ## Lecture
 1. Code Review
-   - Review/write some tests with the class
-   - Introduce User Secrets
-     - In the Curriculum Resources folder, refer to the User Secrets. Walk
-   the students through how to enable User Secrets before deployment. 
+- Review identity and implement login/register if you were not able to finish it from the day before
 
+**Claims**
+- Why
+- What
+- How
 
-1. **Review of MVC**
-    - Review what MVC is 
-    - Create some basic controllers with models and a database.
+**Roles**
+- **Why/What/How**
+	- see `roles.md`
 
-1. **Intro to Views**
-    - Build off of the Review of MVC to add views
-    - Create Views and re-introduce the `@model` directive
-    -
-
-2. **Taghelpers**
-    - Create a basic form using Taghelpers
-    - Post to the controller
-    - Showcase other tag helper tags
-
-3. ** Layouts ** 
-    - Show layouts with Views
-    - Add CSS
+**Policies**
+- **Why/What/How**
+	- see `policies.md`
 
 
 ## What changed from yesterday? 
