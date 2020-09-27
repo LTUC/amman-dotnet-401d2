@@ -1,4 +1,4 @@
-# Lab 28: Sprint 1 - Milestone #2
+# Lab 28: Sprint 1 - Milestone #3
 
 Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
 
