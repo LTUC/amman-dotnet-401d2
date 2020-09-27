@@ -1,5 +1,6 @@
-# Lab 26: Sprint 1 - MVC
+# Lab 26: Sprint 1 - Milestone 1 MVC
 
+This lab should be done independent 
 
 ## Instructions:
 

@@ -1,85 +1,47 @@
-# Class 26 Intro to Identity
+# Class 26 - Sprint 1:  Intro to MVC
 
 ## Overview
 This is the kickoff to the ECommerce Project. There is quite a bit of setup that is
-required for this second half. Review the prep section below to confirm you are ready
-for Classes 26 - 45.
- 
-By the end of lecture, students should have seen:
-1. Introduction to Azure Dev Ops
-2. A complete workflow using Azure Dev Ops and Azure Repos
-3. Integration of Identity into an existing project
+required for this second half. Review the prep section below to confirm you are ready.
 
-
-Sprint 1:
-
-1. Intro to MVC
-2. Razor  /// Login/REgistration
-3. Blob Storage and pipelineing
-4. 
-
-Sprint 2:
-1. Email Sender
-2. Serverless Functions
-3. Veiw Components
-4.  
-
-Sprint 3:
-
-
-
-Sprint 3:
+1. Be sur that you are comfortable with Azure Dev Ops
+1. Divide the class into teams/pairs of 2
+1. Each day, they will work together and build towards a larger project.
 
 ## Preparation
 Here is checklist of items that you should complete before the start of lecture: 
-1. If you have chosen to utulize the Canvas Pages, follow the instructions in the [Canvas file](./Canvas.md)
-2. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
+
+1. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
     - [Azure Dev Ops](https://dev.azure.com/)
     - [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
-3. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic 
-    tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well. 
+2. Refer to the [Cheat Sheet](/../ECom_Project/VSTS_CheatSheet.md) as steps on how to complete some of the basic tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well. 
 
-5. Be Comfortable with the demo code and all of the different moving components 
+3. Be comfortable with the demo code and all of the different moving components 
 
 ### Lecture
+
+1. Introduce Azure Dev OPS project management tool & VS extension  (30 minutes)
+   - Walk through the creation of a repo and cloning it down to your Visual Studio. 
+   - Create a basic scaffolded MVC app w/ a database in class following the Azure Dev Ops work flow
+        - The demo provided is using User Secrets, so don't forget to include the User secrets file and Connection String file! 
+
 1. Introduce the ECom project by reviewing each week's expectations (30min)
    - Peer reviews at the end of each sprint
    - Show an example of Day 1's (and 2's if they need to see the "guidance" section) user stories and how they are split up
    - Everyone is responsible for their own submission (no "group" submissions)
    - Show the grading rubric for sprint 1
 
-2. Introduce Azure Dev OPS project management tool & VS extension  (max 1 hour)
-   - Use the cheat sheet from the prep section as steps on how to create and complete tasks within ADO.
-   - Walk through the creation of a repo and cloning it down to your Visual Studio. 
-   - Create a basic scaffolded MVC app w/ a database in class following the Azure Dev Ops work flow
-        - The demo provided is using User Secrets, so don't forget to include the User secrets file and Connection String file! 
-        - Your initial demo should match the `ADO_Scaffold_Demo` located in the Demo Folder. 
+1. Introduce MVC
+    - Review what MVC stands for. Use the Resources of MVC, and the Diagram to assist
+    - Lab will create a basic MVC app and use the "ceareal.csv" file as day's data set. They should build out a Products page using MVC controller views from the dataset.
 
-3. [Intro to Identity](./Identity.md) (max 90 min)
-   - Review the doc for the Why/What/How of identity. Use this as a suggested outline of the flow of lecture. 
 
 ### LAB Prep
 Have student pairs ready to be posted in Canvas. For lab, each group should be expected to:
 - Create a Dev Ops account
   - Only one person needs to do this. Have them invite their partner.
-- Think up a product to sell
-  - It's an ECommerce store...what will they sell? Make sure it's an appropriate product and that they
-  can "seed" in at least 10 products
-- Scaffold out an MVC application with a SQL database (w/o Identity) and with a default home page
-- Deploy the basic app to Azure (only on one of the accounts)
+  - Deploy the basic app to Azure (only on one of the accounts)
 
 ## What changed from yesterday? 
-New Topic. Just coming off of Project week. Students should be refreshed and ready to start the second half.
 
 ## What might students struggle with today? 
-Documentation. It is not always clear. This is usually because of updates to the .NET Core SDK. the docs for identity have specifically changed since 1.1. There is a lot of documentation out there that 
-is outdated. There are some great docs out there, and many of them are shared through-out these facilitators guide.
-
-Really encourage the students to troubleshoot and use what knowledge and information they have about the framework to solve any problems/issues they have. This
-may include piecing bits and pieces from external documentation to come up with a solid solution. 
-
-## What bugs, issues, or surprises have come up in the past for this class?
-- Identity can sometimes be challenging to research. Documentation has gotten better over time, but this is not always guaranteed. 
-
-## General comments
-This is a multi-week project broken up into 3 sprints. This is focusing mostly on half process and half code. At the end of every week, they will have a sprint due. After 3 sprints, the project is completed. 
