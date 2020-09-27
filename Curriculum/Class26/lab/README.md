@@ -1,6 +1,6 @@
 # Lab 26: Sprint 1 - Milestone 1 MVC
 
-This lab should be done independent 
+Work together with your partner(s) to complete this lab. 
 
 ## Instructions:
 
