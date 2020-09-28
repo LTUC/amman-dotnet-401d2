@@ -15,7 +15,7 @@ Your team will be evaluated and graded at the end of every sprint for the indivi
 ### Guidance
 
 **User Story 1:** Use Azure to store all of your assets.
-1. Create a new page that allows the user to upload an image. 
+1. Create a new page that allows authorized the user to modify products. 
 2. Lock this page down so that only admins can access (dependency: user story 4 for Developer 1)
 3. Have the saved images go straight to Azure Blob.
 4. You will receive a url back from Azure, that should be stored in your database, and referenced as the image for your product. 
