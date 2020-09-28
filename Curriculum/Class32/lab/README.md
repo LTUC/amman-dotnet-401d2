@@ -4,25 +4,20 @@ Your whole workflow will live in Azure Dev Ops. Use this tool to store your proj
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
-### User Stories
+## User Stories & Guidance:
 
-1. (Developer 2) As a user, I would like a way to store the items i wish to purchase in a cart within the application
+Here are the user stories for Milestone 1:
 
-1. (Developer 1 & 2)  As a use, I would like the ability to view my desired purchases while browsing the other products on the site.
+1. (Developer 1 & 2) As a user, I would like to receive an email notification after I register for an account on the site
 
-1. (Developer 1) As a user i would like a dedicated page where i can view all the products i wish to purpose all in one location. 
+1. (Developer 1 & 2) As a user, I would like an email sent to me at checkout with a summary of all the items that i've purchased.
 
 
 ### Guidance
 
-**User story 1:**  On your indivual product landing page that showcases a single product, add an "Add to Cart" that will place that individual product to the user's cart. 
+**User story 1:** Using the SendGrid tutorial, integrate it into your application so that after registration an email gets sent to the user. Use the repository design pattern.
 
-**User Story 2:** Create the view component that will show all the current items in the cart. Place this on the individual product page, and later to be put in the checkout page.
-
-**User Story 3:** Create a specific basket/cart page that shows all the items the user wishes to purchase. Remember to include the qty and the ability to do basic CRUD operations. 
-
-
-**NOTE**: refer to the class GH repo on suggested wireframes and ERD for the cart structure.
+**User story 2:** On the checkout page, When the user selects the "Checkout" button, have that trigger an email to be sent to the user with a summary of their products. Redirect the page to a summary page of the items ordered as well.
 
 
 ## Tests

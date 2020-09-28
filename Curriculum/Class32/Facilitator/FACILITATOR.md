@@ -1,20 +1,19 @@
-# Class 32 : View Components
+# Class 32 : Email Sender
 
 ## How do I prep for today?
 
 
 ## Lecture Outline:
-1. Code Review
-    - Review the data structure for the day
-    - Do some data structure practice in class!
-1. [View Components](./viewComponents.md)
-   - What:
-     - View Componenets are often referred to as "mini controllers" that can be inserted/injected into an cshtml page. This means that we can use these "mini controllers" to access data and manipulate objects as needed. 
-   - Why: 
-     - Reusability of specific components to be inserted on cshtml pages is fairly common. This can be something as simple as a login screen, or interactive such as a mini cart within an e-commerce project. 
-   - How:
-     - View Components are created by creating individual components often located in a "Components" folder within the models. These compents then act as mini controllers where you can access and return specific data from models. To insert a specific component into a page, call the component direclty onto the .cshtml page. 
-    - Review the demo code for implementation details
+1. Review View Components (max 1 hour)
+   - Go over with students how to structure their baskets
+1. Code Challenge (1 hour)
+   - Go over the daily code challenge or give them a practice problem to help them prep for interviewing!
+2. IEmailSender(1 hour)
+   - Discuss what email servers are
+   - Why do we need them?
+   - How can we add one to our site?
+   - Setup [SendGrid](email.md)
+     - Note - we only use SendGrid as an option, there are many many others!
 
 ## What changed from yesterday? 
 Building off of yesterday's demo

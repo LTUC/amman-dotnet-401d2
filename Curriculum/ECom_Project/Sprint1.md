@@ -39,14 +39,12 @@ Review the rubric below to know and understand the overall expectations
 ### E-Com Sprint 1 (50 points)
 
 #### Readme & Documentation (5 points)
-Readme contains an introduction to the web application. ReadMe contains all required questions as well as a link to the 
-deployed site. All contributors are referenced and cited within the ReadMe. 
+Readme contains an introduction to the web application. ReadMe contains all required questions as well as a link to the deployed site. All contributors are referenced and cited within the ReadMe. 
 **NO POINTS WILL BE GIVEN FOR THE ASSIGNMENT IF DEPLOYMENT LINKS ARE NOT PRESENT OR IS NOT FUNCTIONAL*
 
 #### MVC Skeleton & Scaffold (5pts)
 Site contains basic MVC Scaffold including a DBContext with basic products seeded into database. 
-Site implements the repository design pattern with appropriate interfaces and services. D.I. is properly registered in 
-Startup.cs file.
+Site implements the repository design pattern with appropriate interfaces and services. D.I. is properly registered in Startup.cs file.
 
 #### Home Page (3 points)
 Introduction to the site with HTML/CSS. Anonymous accessibility. Home page contains login/register links as well as custom greeting for logged in users This area will be used by the assessor to leave comments related to this criterion.

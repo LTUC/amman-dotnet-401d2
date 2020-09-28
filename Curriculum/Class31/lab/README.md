@@ -4,20 +4,24 @@ Your whole workflow will live in Azure Dev Ops. Use this tool to store your proj
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
-## User Stories & Guidance:
 
-Here are the user stories for Milestone 1:
+## User Stories
 
-1. (Developer 1 & 2) As a user, I would like to receive a notification after i register for an account on the site
+1. (Developer 2 & 3) As a user, I would like a way to store the items I wish to purchase in a cart within the application.
 
-1. (Developer 1 & 2) As a user, I would like to view specific product details
+1. (Developer 1 & 2)  As a user, I would like the ability to view my desired purchases while browsing the other products on the site.
+
+1. (Developer 1 & 3) As a user I would like a dedicated page where I can view all the products I wish to purpose all in one location. 
 
 
 ### Guidance
 
-**User story 1:** Using the SendGrid tutorial, integrate it into your application so that after registration an email gets sent to the user. Use the repository design pattern.
+**User story 1:**  On your indivual product landing page that showcases a single product, add an "Add to Cart" that will place that individual product to the user's cart. 
 
-**User story 2:** On the browse page that shows all of the products, allow the user to click on a specific product and be redirected to an individual page with the product details. Show all the required information to the user for them to make an informed decision about the product. Use Razor Pages for this task. Don't add an "add to basket" button just yet. we will do that soon.
+**User Story 2:** Create the view component that will show all the current items in the cart. Place this on the individual product page, and later to be put in the checkout page.
+
+**User Story 3:** Create a specific basket/cart page that shows all the items the user wishes to purchase. Remember to include the qty and the ability to do basic CRUD operations. Add a "Checkout" button at the bottom of this page. Don't have it link to anything yet. We will do that tomorrow.
+
 
 
 ### Tests
