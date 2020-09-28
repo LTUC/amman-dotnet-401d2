@@ -40,4 +40,5 @@ to our application
 Razor pages are new and a little different than what they are used to. Ideally, after creating a Register and Login page, they should get the idea of what a Razor Page is. 
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-Often students forget the `.UseAuthentication()` in the configure method in the startup file.
+
+If taghelpers are not working, make sure you have the `_ViewImports` file with the tag helper declaration in it within that folder. Be sure to use the wizard/generator to create the `_ViewImports` and not manually create it. 
