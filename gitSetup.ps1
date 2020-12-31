@@ -21,7 +21,7 @@ for($num = 1 ; $num -le 45; $num++)
 
 		New-Item -Path $fullpath -ItemType Directory
 		copy-item $classpath/README.md $fullpath
-		
+
 		if($num -eq 4)
 		{
 			New-Item -Path (join-path -path $classCode -childpath $folder/lab/"StarterCode") -ItemType Directory
@@ -30,20 +30,20 @@ for($num = 1 ; $num -le 45; $num++)
 
 		}
 	}
-	
+
 }
 
 	#Class resources
 	New-Item -Path (join-path -path $classCode -childpath "Class_Resources") -ItemType Directory
 
 	# Readme Templates
-	Copy-Item "code-401-dotnet-guide/Resources/ReadMe_Templates" -Recurse $classCode/"Class_Resources"
-	
+	Copy-Item "code-401-dotnet-guide/resources/ReadMe_Templates" -Recurse $classCode/"Class_Resources"
+
 	## Types file
-	copy-item $repoSource/Class01/facilitator/Resources/Types.md $classCode/"Class_Resources"
+	copy-item $repoSource/Class01/facilitator/resources/Types.md $classCode/"Class_Resources"
 
 	#project req
 	copy-item "code-401-dotnet-guide/Projects/Midterm/ProjReqs.md" $classCode/"Class_Resources"
-	
+
 	#Git ignore
 	copy-item "code-401-dotnet-guide/.gitignore" $classCode
