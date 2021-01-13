@@ -1,32 +1,62 @@
-# Demos: Intro to C# / Exception Handling
+# Demos: File Manipulation / System.io
 
 Note: Demos as they exist in the `/demo` folder are provided in their **completed** state.
 
 ## Demo
 
-- Start with an empty repository at Github
-- Scaffold out a basic working environment
-  - `npm init`
-  - Create your basic app structure
-    - .eslintrc.json (from configs)
-    - .gitignore (from configs)
-    - `index.js`
-    - `lib/http.js`
-    - `lib/input.js`
-- Begin coding with index.js requiring input.js
-  - First, create a simple object.
-  - Create an `object.function = () => {}` and an `object.value="something"` and export `object`
-  - Witness how the index can use the function or the value (you can export anything)
-  - Now, create a constructor function you export instead and instantiate that from index
-  - Note how you can export a constructor, too
-- Describe the mechanics of `module.exports` and how that relates to `require()`
-- Extend the functionality of the module, using TDD to set command line options
-  - Use the `minimist` library to read the `-u`, etc args
-    - A chance to talk through 3rd party dependencies ...
-  - Each of the prototype functions takes input, returns a value, making them easy to test later
-  - Implement a final `valid()` method to make an overall assertion on the object's validity
+### System.IO
+
+- Start with a .NET Core application
+- Create a text file and add some content to it (maybe some comma delimited data)
+- Using a custom method for each thing in the demo ...
+- Using System.IO, read in the file contents
+  - `ReadAllText()`
+  - Just use the obvious path to the file. Note that you'll get a bug
+  - Where is the file in relation the actual application (.exe)??
+    - `../../../` because the .exe and .dll are in the bin folder
+  - Now, introduce `string[] = ReadAllLines(file)`
+    - Returns an array.
+    - You can iterate that with a for loop, or ...
+      - You can split it with `String.Join('', contents)`
+ - Writing is the same operations, but in reverse.
+  - `File.WriteAllLines(array)`
+  - `File.WriteAllText(text)`
+  - `File.AppendAllInes(array)`
+
+### Streams
+
+- Code a simple example to create a file using the Stream writer.
+- The syntax is one thing, but more important is HOW a stream works
+- Think TCP, where it's going through a process in chunks, as bytes, and being handled on a lower level.
+
+```charp
+// Note that this file has no ../../ ... it'll save where the .dll is!
+string path = "file.txt";
+string[] words = { "I", "Am", "Cool" };
+
+try {
+  using( StreamWriter sw = new StreamWriter(path) )
+  {
+    sw.Write( String.Join("\n", words));
+  }
+}
+catch( Exception )
+{
+  throw;
+}
+finally
+{
+  // We have to deal with the heap/memory ourselves
+  sw.Close();
+}
+```
+
 
 ## Takeaways
 
-- `module.exports` can return anything
-- `require()` gets whatever `module.exports` gave you
+- Difference between Write and Append
+- Coding this out modularly, so the students are used to making new methods to do each new operation
+- Stream Writer, with `using(){}` statement
+
+
+

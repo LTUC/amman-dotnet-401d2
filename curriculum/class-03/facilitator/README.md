@@ -1,4 +1,4 @@
-# Facilitators Guide: File Manipulation
+# Facilitators Guide: File Manipulation / System.io
 
 ## Overview
 
@@ -44,9 +44,14 @@ Below is the expected lecture outline and flow. One possible way to present this
 ### File Streams
 
 - **Why** (5 min)
-  - When working as a server side application we need a way a way to manage file uploads and file manipulation. The best way and safest way to do this is through Streams.
+  - When working as a server side application we need a way a way to manage file uploads and file manipulation.
+    - Logging
+    - Saving data/configurations
+    - Uploading a file (using a stream)
 - **What** (10 min)
-  - System.IO is an available library through .NET that allows for reading and writing to files and data streams. The i stands for input and the o stands for output.
+  - System.IO is an available library through .NET that allows for reading and writing to files and data streams.
+    - `i` stands for input and
+    - `o` stands for output.
 - **How** (30 min)
   - Review the [System.IO](/resources/System.IO)
 - **Experimentation and Discovery Ideas**
