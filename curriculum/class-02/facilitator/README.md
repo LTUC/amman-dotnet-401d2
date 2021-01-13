@@ -8,10 +8,10 @@ Today consists of learning how to write unit tests using XUnit. The students wil
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous class we were introduced to C# and learned about exception handling. 
+In the previous class we were introduced to C# and learned about exception handling.
 
 **What are we focusing on today**:
-Today, we'll be going one step further and implementing tests using TDD and XUnit. 
+Today, we'll be going one step further and implementing tests using TDD and XUnit.
 
 **Where we're headed**:
 Next class will focus on file manipulation with Streams.
@@ -35,24 +35,24 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Code Review ( 45 minutes)
 
-- Review the prior day's lab. Dive into each of the methods and syntax to get the students comfortable with C#. 
+- Review the prior day's lab. Dive into each of the methods and syntax to get the students comfortable with C#.
 
 ### Comments & ReadMes (15 minutes)
 
 - **Why** (5 min)
-  - Developers need to be able to read code written by others. It helps communicate the intention of the codebase to anyone else working on the team. 
-  - ReadMes are important because they help communicate the problem domain and use of a library or repository. 
+  - Developers need to be able to read code written by others. It helps communicate the intention of the codebase to anyone else working on the team.
+  - ReadMes are important because they help communicate the problem domain and use of a library or repository.
 - **What** (10 min)
   - Summary Comments live within the code base to help build documentation
   - ReadMes live at the root level of projects
 - **How** (30 min)
-  - Summary Comments can be auto created by adding `///` above a method where the template will automatically generate. 
+  - Summary Comments can be auto created by adding `///` above a method where the template will automatically generate.
   - README template are located in the Resources folder
 
 ### Unit Test [45 minutes]
+  - We need to make sure that new code that we write will work with current code base. Nothing is more stressful then finding that you introduced new bugs into your system.
 
 - **Why** (5 min)
-  - We need to make sure that new code that we write will work with current code base. Nothing is more stressful then finding that you introduced new bugs into your system. 
 - **What** (10 min)
   - Unit testing is the act of writing tests for the code you wrote to ensure no new issues are introduced. It is a way to validate that your code functions properly within the system.
 - **How** (30 min)
@@ -60,10 +60,10 @@ Below is the expected lecture outline and flow. One possible way to present this
   - Code out "FizzBuzz" using the TDD approach
 
 - **Experimentation and Discovery Ideas**
-  - Show students the full "red-green-refactor" lifecycle. 
+  - Show students the full "red-green-refactor" lifecycle.
 
 ### In-Class Exercise (45 minutes)
-	- Have the students build out a calculator using TDD 
+	- Have the students build out a calculator using TDD
 	- Have them plan before they code what the functionality of a single feature should be
 		1. Write a test
 		2. Code it out
