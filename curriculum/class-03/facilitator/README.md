@@ -77,7 +77,7 @@ Below is the expected lecture outline and flow. One possible way to present this
   - `using (FileStream fs = File.Create(path)){}` to work with a stream
     - Streams are for working with larger, binary files, typically over a network
     - File Handles are opened, data is transferred as a stream and then reassembled
-  - Review the [System.IO](/resources/System.IO)
+  - Review the [System.IO](../resources/system-io.md)
 - **Experimentation and Discovery Ideas**
   - introducing the `using(){}` statements
   - incrementally read and write to an external text file.
