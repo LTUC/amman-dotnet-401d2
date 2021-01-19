@@ -1,4 +1,4 @@
-# Facilitators Guide: File Manipulation / System.io
+# Facilitators Guide: File Manipulation / System.IO
 
 ## Overview
 
@@ -34,37 +34,63 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Code Review
 
+- Code Challenge Review
+  - This is a great pre-cursor to Linked Lists.
+  - Point out that having to copy the entire array and make a new one is painful
+    - Extra memory
+    - Extra processing
+    - Extra mental load for you
+    - Linked Lists largely solve this (we'll get there in a few days)
 - Review the ATM lab. It may be useful to either finish up a student's code, or recreate the lab from scratch.
-- To prep for the in-class exercise later, have the students create a brand new console application. Have them complete the following:
-	- Create a brand new method that brings in an integer, and returns a string array.
-	- Within that method, have the students instantiate an array equal to the size of the int parameter
-	- populate the array with "anything" they want, but make sure it's a string value. (Example: Flavors of ice cream, different colors, or even pet names)
-	- Within the main method, output to the console each value in the array.
+  - Things to explore and look for:
+    - Passing `balance` around and returning it vs using a Class level field ("global")
+    - Using a `while` to keep the menu re-drawing
+    - Common methods for common things
+      - i.e. Using `getAmount()` for both Deposit and Withdraw
+    - Breaking the problem down into many methods, each with a single purpose
+    - Testability!
 
-### File Streams
+### Topic 1: Files
 
 - **Why** (5 min)
-  - When working as a server side application we need a way a way to manage file uploads and file manipulation.
+  - Server Side applications very often need to deal with raw files
     - Logging
-    - Saving data/configurations
+    - Storing Configurations
+    - Saving data or images or pdfs, or anything
     - Uploading a file (using a stream)
+    - PERSISTENCE
 - **What** (10 min)
+  - What are files?
+    - Collection of data (bytes)
+    - Persistent Memory
+    - Just like RAM, a file system (drive) has slots for data, where it stores information
+    - Files take contiguous slots (just like an array)
   - System.IO is an available library through .NET that allows for reading and writing to files and data streams.
     - `i` stands for input and
     - `o` stands for output.
 - **How** (30 min)
-  - Review the [System.IO](/resources/System.IO)
+  - `using System.IO` gives you access to `File.*()` methods.
+    - These Open, Operate, and Close files
+    - The method you choose (`.ReadAllText()` etc) are the "Operate" phase
+    - Quick, easy, and work synchronously or asynchronously
+    - Work on the file as a whole, complete chunk of data
+  - `using (FileStream fs = File.Create(path)){}` to work with a stream
+    - Streams are for working with larger, binary files, typically over a network
+    - File Handles are opened, data is transferred as a stream and then reassembled
+  - Review the [System.IO](../resources/system-io.md)
 - **Experimentation and Discovery Ideas**
   - introducing the `using(){}` statements
   - incrementally read and write to an external text file.
 - **In-Class Exercise**
+  - **Online/Virtual**: Use a breakout room
   - Have the students write a program that writes and reads to to a file
   - Problem domain:
-	- Building off of the warm up exercise, create a new method that brings in the string array.
-	- Using System.IO, write the array to an external text file
-	- Create another method that returns a string array that returns the contents of the text file.
-	- Within the main method, output to the console all of the text contained within the file.
-	- STRETCH: Update or delete specific lines in the text?
+	  - Building off of the warm up exercise:
+      - create a new method that brings in the string array.
+	    - Using System.IO, write the array to an external text file
+	    - Create another method that returns a string array that returns the contents of the text file.
+	    - Within the main method, output to the console all of the text contained within the file.
+	    - STRETCH: Update or delete specific lines in the text?
 
 
 ## Lab Notes

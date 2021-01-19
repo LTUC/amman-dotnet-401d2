@@ -1,4 +1,4 @@
-# Class 03: File Manipulation / System.io
+# Class 03: File Manipulation / System.IO
 
 ## Learning Objectives
 1. The student will be introduced and implement the FileStream.
