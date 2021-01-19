@@ -1,4 +1,4 @@
-# Facilitators Guide: File Manipulation / System.io
+# Facilitators Guide: File Manipulation / System.IO
 
 ## Overview
 
@@ -69,7 +69,7 @@ Below is the expected lecture outline and flow. One possible way to present this
     - `i` stands for input and
     - `o` stands for output.
 - **How** (30 min)
-  - `using System.io` gives you access to `File.*()` methods.
+  - `using System.IO` gives you access to `File.*()` methods.
     - These Open, Operate, and Close files
     - The method you choose (`.ReadAllText()` etc) are the "Operate" phase
     - Quick, easy, and work synchronously or asynchronously
