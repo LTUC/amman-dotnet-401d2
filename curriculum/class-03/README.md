@@ -1,4 +1,4 @@
-# Class 03
+# Class 03: File Manipulation / System.IO
 
 ## Learning Objectives
 1. The student will be introduced and implement the FileStream.
@@ -41,7 +41,7 @@ string myFile = File.ReadAllText("/path/to/file.txt");
 
 #### Deleting a file
 
-To delete a file, just tell the library to delete the location by inputting the path. 
+To delete a file, just tell the library to delete the location by inputting the path.
 
 ```csharp
 File.Delete(path);

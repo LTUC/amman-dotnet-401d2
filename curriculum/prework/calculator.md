@@ -1,13 +1,13 @@
-# Calculator 
+# Calculator
 
-Complete as much of the assignment as possible before class starts on day 1. 
+Complete as much of the assignment as possible before class starts on day 1.
 This assignment is graded on whether or not a healthy attempt was made.
 
 ## The Assignment
-Create a Calculator. Use everything that you have learned from the prework tutorials. 
+Create a Calculator. Use everything that you have learned from the prework tutorials.
 
-Create a *very basic, 4 function* calculator within a console application. 
-
+Create a *very basic, 4 function* calculator within a console application.
+a
 ### Specs
 Upon completion, your calculator should contain the following:
 1. Inside the Program.cs file of your console application you should have 4 external methods plus the `Main` method:
@@ -32,10 +32,10 @@ Result: 3
 ```
 
 ## Documentation
-1. Comment your code. 
+1. Comment your code.
 2. Provide screen captures in your Readme of what you application looks like during basic execution.
 
 ### Submitting Your Assignment
 1. Create a new repository in your Github for this assignment.
 2. Name the repository `Prework-Calculator`.
-2. Submit the link to your repository in the designated assignment in Canvas.  
+2. Submit the link to your repository in the designated assignment in Canvas.

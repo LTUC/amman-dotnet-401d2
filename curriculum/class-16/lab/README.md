@@ -1,70 +1,264 @@
-# Lab 16 : Dependency Injection & Repository Pattern
+# Lab 16: DTOs and Testing
 
 ## The Problem Domain
-Continue working on your hotel management application.  As a developer, you would like to follow modern design principles by implementing the repository and singleton design patterns, and by using dependency injection.
+
+Add onto your current Async Inn application by cleaning up input and outputs of your controllers to be DTOs.
+
+In addition, add tests to a single service. If you have time, test the other services.
+
+Hint: Order you should consider building your DTOs:
+DTOs stand for data trasfer objects
+
+1. Amentities,
+2. Rooms
+3. HotelRooms
+4. Hotels
+
+### Routes and Responses
+
+#### HotelsController
+
+Route (GET): api/Hotels/{id}:
+
+Here is the expected output when calling Hotels:
+
+```
+{
+    "id": 1,
+    "name": "My really cool Hotel",
+    "streetAddress": "123 CandyCane Lane",
+    "city": "Seattle",
+    "state": "WA",
+    "phone": "123-456-8798",
+    "rooms": [
+        {
+            "hotelID": 1,
+            "roomNumber": 101,
+            "rate": 75.00,
+            "petFriendly": false,
+            "roomID": 2,
+            "room": {
+                "id": 2,
+                "name": "Queen Suite",
+                "layout": "TwoBedroom",
+                "amenities": [
+                    {
+                        "id": 1,
+                        "name": "Coffee Maker"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Mini Bar"
+                    }
+                ]
+            }
+        },
+        {
+            "hotelID": 1,
+            "roomNumber": 123,
+            "rate": 120.00,
+            "petFriendly": true,
+            "roomID": 1,
+            "room": {
+                "id": 1,
+                "name": "Princess Suite",
+                "layout": "OneBedroom",
+                "amenities": [
+                    {
+                        "id": 1,
+                        "name": "Coffee Maker"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Mini Bar"
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
+Route: (GET) :  'api/Hotels'
+
+```
+An array of individual hotels. (See result from api/Hotels/{id})
+```
+
+#### HotelRooms Controller
+
+Route: (Get/Put/Delete) : `/api/Hotels/{hotelId}/Rooms/{roomNumber}`
+- This is the HotelRooms Controller
+- Create, Read, Update, Delete a hotel room
+- THe PUT request will include the HotelRoomDTO in the incoming request from the client
+
+Route: (Get/Post) : `/api/Hotels/{hotelId}/Rooms`
+- Get all the rooms for a hotel
+- Add a single room to a hotel
+    - When adding a room, the HotelRoomDTO will be the incoming request from the client
+
+```
+{
+    "hotelID": 1,
+    "roomNumber": 101,
+    "rate": 75.00,
+    "petFriendly": false,
+    "roomID": 2,
+    "room": {
+        "id": 2,
+        "name": "Queen Suite",
+        "layout": "TwoBedroom",
+        "amenities": [
+            {
+                "id": 1,
+                "name": "Coffee Maker"
+            },
+            {
+                "id": 2,
+                "name": "Mini Bar"
+            }
+        ]
+    }
+}
+```
 
 
-## Application Specifications
-Building off of your current project for the `AsyncInn`:
-1. Implement the repository architechural design pattern using dependency injection into your current code base.
-1. Create three interfaces to contract minimum CRUD operations that are required for functionality and maintenance of Hotels, Rooms, and Amenities.
-1. Build out a service for each of the interfaces and implement them appropriately.
-1. Within each service, don't forget to inject the your `DbContext` into your services, so that you have access to the database.
-1. Register each of the services with the appropriate Dependency Injection Lifetime in the `Startup.cs` class.
-1. Refactor the `RoomsController`, `HotelsController`, and `AmenitiesController` to utilize the newly created services. Remove the need for the database in the controllers, inject the services as needed, and keep the controllers "loosely coupled" by offloading the CRUD functionality to the services you previously defined. (Do not have your `DBContext` injected into your controllers, make it the appropriate interface(s) instead!)
-1. Within your Room interface, make sure that you can see a list of all it's `Amenities`, and within the Hotels interface, you can see a list of all the `HotelRooms` associated with it. (Only need to display the name of the hotel, room number, and room name)
-1. Confirm that all of your `Index` and `Create` actions still work after your refactor
-1. Confirm that your `Edit` and `Delete` actions still function as expected in your `Rooms`, `Hotels`, and `Amenities` controllers after your refactor.
+#### Rooms Controller
 
-_*Note: Don't worry about the HotelRooms or the RoomAmenities just yet. We will modify those controllers/pages in the upcoming days.*_
+Route (Get/Put) : `api/rooms/{roomId}`
+- Get a specific room
+- Update a room
 
-## Tests
+```
+{
+    "id": 1,
+    "name": "Princess Suite",
+    "layout": "OneBedroom",
+    "amenities": [
+        {
+            "id": 1,
+            "name": "Coffee Maker"
+        },
+        {
+            "id": 2,
+            "name": "Mini Bar"
+        }
+    ]
+}
+```
 
-We will cover testing in Class 18.
+Route: (GET/POST) : `api/rooms/`
+- Get an array of RoomDTO objects
+- refer to request above for formatting
+-  Post request will create a new room
+- Post request will have the room DTO included in request
 
-I **strongly** encourage you to research how to write tests for a .NET Core MVC application. Attempt to write some tests, as they will eventually be required.  Research, start here: [Testing a Controller](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing){:target="_blank"}.
+#### Amenities Controller
+Route: (Get) `api/amenities/{id}`
+- Get specific amenity
 
+```
+{
+    "id": 1,
+    "name": "Coffee Maker"
+}
+```
+
+Route: (GET/POST) - `api/amenities/`
+- Get all Amenities
+- Response will be an array of amenities
+- Post is adding a new general amenity
+- Post will include the Amenities DTO in the request
+
+
+## Guidance
+
+Create DTOs that will be accepted and returned to the user:
+
+
+```csharp
+    public class HotelDTO
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string StreetAddress { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Phone { get; set; }
+        public List<HotelRoomDTO> Rooms { get; set; }
+    }
+
+
+    public class HotelRoomDTO
+    {
+        public int HotelID { get; set; }
+        public int RoomNumber { get; set; }
+        public decimal Rate { get; set; }
+        public bool PetFriendly { get; set; }
+        public int RoomID { get; set; }
+        public RoomDTO Room { get; set; }
+    }
+
+    public class RoomDTO
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Layout { get; set; }
+        public List<AmenityDTO> Amenities { get; set; }
+    }
+
+    public class AmenityDTO
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+    }
+```
+
+
+
+## Unit Tests
+
+Test one of your services. only test the basic CRUD operations
 
 ## Stretch Goals
 
-There are no Stretch Goals for this assignment.
-
-## Additional Resources
-
-Utulize the provided wireframes as a guideline of what the pages should look like. Keep in mind that some wireframes will require features from future labs.
+- Test your other methods
+- Figure out how to cascade delete
 
 ## README
+**A Readme is a requirement. No Readme == No Grade.**
+Here are the requirements for a valid readme:
 
-Create a well structured README that outlines and introduces the web app. Include in your README your database ERD.
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
 
-Your job is to:
+Your job is to
 
-1. Tell them what it is (with context)
-1. Show them what it looks like in action
-1. Show them how they use it
-1. Tell them any other relevant details
+1. tell them what it is (with context, provide a summary)
+1. show them what it looks like in action (Visuals)
+1. show them how they use it (Step by step directions, "Happy Path" walk through)
+1. tell them any other relevant details
 <br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
- <br />
- Refer to the sample-README in the class repo for an example.
 
+Refer to the README templates in the class repo `Resources` folder for an example.
 - [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
+
 
 ## Rubric
 
-The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
+The lab rubric can be found [HERE](../../resources/rubric){:target="_blank"}
+
 
 ## To Submit this Assignment
 
-- Create a new branch named `NAME-DependencyInjection` in your `AsyncInn` repository
+- Create a branch named `NAME-LAB##`
 - Write your code
 - Commit often
 - Push to your repository
 - Create a pull request from your branch back your `master` branch.
-- Submit a link to your PR in Canvas
+- Submit a link to your PR in canvas
 - Merge your PR back into master
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
-
 

@@ -9,13 +9,13 @@
 1. Code Review
    - Review the basics of classes and objects
 1. Introduce OOP
-     - Inheritance 
+     - Inheritance
      - Abstraction
      - Polymorphism
      - Encapsulation
 
-Included in the DemoCode folder is an example of a diagram that you can draw with the class as you 
-go over the OOP principles. There is also the code base when converting the diagram to Visual Studio. 
+Included in the DemoCode folder is an example of a diagram that you can draw with the class as you
+go over the OOP principles. There is also the code base when converting the diagram to Visual Studio.
 
 
 ### OOP Principles (90 minutes)
@@ -23,9 +23,9 @@ go over the OOP principles. There is also the code base when converting the diag
 - **Why** (5 min)
   - Item
 - **What** (10 min)
-  - Item 
+  - Item
 - **How** (30 min)
-  - See Resource
+  - See [Resource](../resources/oop-principles.md)
 - **Experimentation and Discovery Ideas**
   - item
 - **In-Class Exercise** (30 minutes)
@@ -42,11 +42,11 @@ Today is part 1 of a 2 part lab. In today's lab they will:
 1. Implement the classes and behaviors within Visual Studio. The hierarchy chart should match the implementation.
 1. Tests to prove the OOP principles.
 
-## What changed from yesterday? 
+## What changed from yesterday?
 N/A
 
-## What might students struggle with today? 
-- The actual reasoning and implementation behind the OOP principles usually go pretty smoothly. I have found 
+## What might students struggle with today?
+- The actual reasoning and implementation behind the OOP principles usually go pretty smoothly. I have found
 breaking it down by each principle and showing how it looks in both the diagram and the VS code helps concrete the idea/concept.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
