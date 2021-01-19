@@ -16,27 +16,6 @@
 
 Included in the demo folder is an example of a diagram that you can draw with the class as you go over the OOP principles. There is also the code base when converting the diagram to Visual Studio.
 
-### Warm-Up
-
-Have the students build out a new Pizza Store Console as directed below. They will be practicing with it all day. This should re-cement what they learned last week. Encourage them to start from zero, giving them about :30 to complete
-
-- Pizza Store Class Properties
-  - Properties
-     - Name, Address, Phone
-  - Methods
-    - Order Pizza() -> Returns a Pizza Object, using the Pizza Constructor
-    - OpenStore()
-    - CloseStore()
-- Pizza Class
-  - Properties
-    - Name
-    - Ingredients - String Array
-    - Price
-  - Methods
-    - Prepare()
-    - Bake()
-    - Deliver()
-    - Eat()
 
 When they return from the exercise, build this out for them (with them) as a means of having everyone on the same page. Great opportunity to stack learn!
 
@@ -45,11 +24,11 @@ When they return from the exercise, build this out for them (with them) as a mea
 
 The "Object Oriented Principles" (Pillars, Foundations)
 
-[Resources](./resources/oop-principles.md)
+[Resources](../resources/oop-principles.md)
 
 - **Why** (5 min)
   - These are the princiles of how we code with Objects
-- **What** (10 min)
+- **What** (30 min)
   - Inheritance
     - Derivatives
     - Parent is the base. Child is derived (often called "Sub-Classes").
@@ -71,10 +50,22 @@ The "Object Oriented Principles" (Pillars, Foundations)
     - Note: Concrete Classes are the default.
       - They can be instantiated, and therefore have structure.
       - They can also be derived from, but do not have enforcement
-  - Encapsulation
   - Polymorphism
+    - Poly = Many, Morph = Change
+    - Ability to change behaviors and properties
+    - Group data together, but change what we want
+    - Applies to classes and methods
+    - Types:
+      - Concrete - Standard, able to be implemented/used
+      - Abstract - Templated, method signature only, required but not specified
+      - Virtual - Allowed to be overridden
+      - Sealed - Locked for change
+  - Encapsulation
   - These allow us to more deeply describe and differentiate related classes/objects
 - **How** (30 min)
+  - Lead a UML exercise, modeling a party type heirarchy
+  - Call out what/when things differ, what might be abstract
+- **Demo** (45min)
   - Inheritance
     - We create sub-classes (identify inheritance) using the `:` in the class definition
       - i.e. `public class Student : Person { ... }`
@@ -82,7 +73,6 @@ The "Object Oriented Principles" (Pillars, Foundations)
         - Constructor: `public Student( string name ):base(name) `
 
 - **Experimentation and Discovery Ideas**
-  - item
 - **In-Class Exercise** (30 minutes)
 
   > Do each of these after the relevant part of the lecture.
