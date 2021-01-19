@@ -1,4 +1,4 @@
-# Demos: File Manipulation / System.io
+# Demos: File Manipulation / System.IO
 
 Note: Demos as they exist in the `/demo` folder are provided in their **completed** state.
 
