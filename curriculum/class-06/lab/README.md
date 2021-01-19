@@ -16,7 +16,7 @@ Here are some UML resources to help get you started:
 
 Next, create a new console application that will instantiate each of your concrete animals, and prove that they are inheriting traits/features from their various parent classes.
 
-Your lab should showcase all 4 of the Object Oriented Principles (OOPs).
+Your lab should showcase all 4 of the Object-Oriented Principles (OOPs).
 
 1. Implement each of the classes you showcased in your UML within Visual Studio.
 	- There should be at least 3 layers of inheritance with at least 5 different types of animals.

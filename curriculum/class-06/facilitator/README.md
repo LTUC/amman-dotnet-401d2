@@ -9,44 +9,105 @@
 1. Code Review
    - Review the basics of classes and objects
 1. Introduce OOP
-     - Inheritance 
+     - Inheritance
      - Abstraction
      - Polymorphism
      - Encapsulation
 
-Included in the DemoCode folder is an example of a diagram that you can draw with the class as you 
-go over the OOP principles. There is also the code base when converting the diagram to Visual Studio. 
+Included in the demo folder is an example of a diagram that you can draw with the class as you go over the OOP principles. There is also the code base when converting the diagram to Visual Studio.
+
+### Warm-Up
+
+Have the students build out a new Pizza Store Console as directed below. They will be practicing with it all day. This should re-cement what they learned last week. Encourage them to start from zero, giving them about :30 to complete
+
+- Pizza Store Class Properties
+  - Properties
+     - Name, Address, Phone
+  - Methods
+    - Order Pizza() -> Returns a Pizza Object, using the Pizza Constructor
+    - OpenStore()
+    - CloseStore()
+- Pizza Class
+  - Properties
+    - Name
+    - Ingredients - String Array
+    - Price
+  - Methods
+    - Prepare()
+    - Bake()
+    - Deliver()
+    - Eat()
+
+When they return from the exercise, build this out for them (with them) as a means of having everyone on the same page. Great opportunity to stack learn!
 
 
 ### OOP Principles (90 minutes)
 
+The "Object Oriented Principles" (Pillars, Foundations)
+
+[Resources](./resources/oop-principles.md)
+
 - **Why** (5 min)
-  - Item
+  - These are the princiles of how we code with Objects
 - **What** (10 min)
-  - Item 
+  - Inheritance
+    - Derivatives
+    - Parent is the base. Child is derived (often called "Sub-Classes").
+    - Children implement each of the props and methods of the parent
+      - ... and they can add/override as needed to make them unique
+    - This really helps to keep things DRY
+    - Think `<X> is a <Y>, with "these differences"`
+  - Abstraction
+    - Traditionally: **Difficult** to Understand, but **Easy** to implement
+    - Broken down to basics (no form, no explicit use)
+    - No Specific Use
+    - No Specific Implementation
+    - (We all see "art" in different ways, but it's still art)
+    - In C#, we use an "Abstract Class"
+      - An "Abstract Class" is created when more information is required
+      - Think of it as a template for classes of a certain type
+      - "I'm not going to tell you how to exist, only that you must"
+      - **Cannot be instantiated**
+    - Note: Concrete Classes are the default.
+      - They can be instantiated, and therefore have structure.
+      - They can also be derived from, but do not have enforcement
+  - Encapsulation
+  - Polymorphism
+  - These allow us to more deeply describe and differentiate related classes/objects
 - **How** (30 min)
-  - See Resource
+  - Inheritance
+    - We create sub-classes (identify inheritance) using the `:` in the class definition
+      - i.e. `public class Student : Person { ... }`
+      - Parent methods are `base()`, so you can call those as needed
+        - Constructor: `public Student( string name ):base(name) `
+
 - **Experimentation and Discovery Ideas**
   - item
 - **In-Class Exercise** (30 minutes)
-  - Inheritance: Using the same problem domain as we did on class 04, Build out a pizza store class and have it inherit down a new pizza store
-  - Abstraction: Make the parent level pizza store abstract
-  - Polymorphism: Set methods such as "OrderPizza" virtual to allow different ways to order
+
+  > Do each of these after the relevant part of the lecture.
+
+  - **Inheritance**: Using the same problem domain as we did on class 04, Build out a pizza store class and have it inherit down a new pizza store
+  - **Abstraction**: Make the parent level pizza store abstract
+  - **Polymorphism**: Set methods such as "OrderPizza" virtual to allow different ways to order
     - Allow methods like "MakePizza" abstract to require each store to set their own reqs on how to make the pizza
-  - Encapsulation: Set the appropariate internal information private vs general props and methods public
+  - **Encapsulation**: Set the appropriate internal information private vs general props and methods public
 
 
 ## Lab Notes
+
 Today is part 1 of a 2 part lab. In today's lab they will:
 1. Draw/plan out a hierarchy chart of classes. This drawing should be present in their lab README.
 1. Implement the classes and behaviors within Visual Studio. The hierarchy chart should match the implementation.
 1. Tests to prove the OOP principles.
 
-## What changed from yesterday? 
+## What changed from yesterday?
+
 N/A
 
-## What might students struggle with today? 
-- The actual reasoning and implementation behind the OOP principles usually go pretty smoothly. I have found 
+## What might students struggle with today?
+
+- The actual reasoning and implementation behind the OOP principles usually go pretty smoothly. I have found
 breaking it down by each principle and showing how it looks in both the diagram and the VS code helps concrete the idea/concept.
 
 ## What bugs, issues, or surprises have come up in the past for this class?

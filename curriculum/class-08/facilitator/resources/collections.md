@@ -7,162 +7,156 @@ There are two ways to create and manage a group of related objects
     2. Creating a collection of objects
 
 1. What is a collection?
-   - Collections provide a more flexible way to work with groups of objects. Unlike arrays, 
-   the group of objects you work with can grow and shrink dynamically as the needs of the application change. 
+   - Collections provide a more flexible way to work with groups of objects. Unlike arrays, the group of objects you work with can grow and shrink dynamically as the needs of the application change.
    - For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key.
     - A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
-    - If your collection contains elements of only one data type, you can use a Generic. 
+    - If your collection contains elements of only one data type, you can use a Generic.
 
 #### Generics
-   1. One type of generic collection is a List<T>; 
+   1. One type of generic collection is a List<T>;
 	- `T` represents the type that will be stored in the Collection. In this case, it's a list.
    2. Example of a List:
 
-```csharp 
-	var princesses = new List<\string>();
+      ```csharp
+	    var princesses = new List<\string>();
 
-    princesses.Add("Snow White");
-    princesses.Add("Cinderella");
-    princesses.Add("Aurora");
-    princesses.Add("Repunzel");
-    princesses.Add("Ariel");
-```
+      princesses.Add("Snow White");
+      princesses.Add("Cinderella");
+      princesses.Add("Aurora");
+      princesses.Add("Repunzel");
+      princesses.Add("Ariel");
+      ```
 
 You can ues a foreach loop to traverse through a collection
 
 ```csharp
-    foreach(var princess in princesses)
-    {
-       Console.WriteLine($"Princess: {princess}");
-    }
+foreach(var princess in princesses)
+{
+   Console.WriteLine($"Princess: {princess}");
+}
 ```
 
  To add values directly to a collection upon instantiation, use a *collection initializer*
 
 ```csharp
-	var princes = new List<string>{"Eric", "Charming", "Aladdin"};
+var princes = new List<string>{"Eric", "Charming", "Aladdin"};
 
-    foreach(string p in prince)
-    {
-       Console.WriteLine($"Prince: {p}");
-    }
-
-
+foreach(string p in prince)
+{
+   Console.WriteLine($"Prince: {p}");
+}
 ```
 
 If you want to use a for loop, you can. Here is the alternative:
 
 ```csharp
-   var princess = new List<strings> {"Jasmine","Moana","Merida", "Anna", "Elsa"}
+ var princess = new List<strings> {"Jasmine","Moana","Merida", "Anna", "Elsa"}
 
-   for (var index = 0; index < princess.Count; index++)  
-   {  
-      Console.Write(princess[index] + " ");  
-	} 
+ for (var index = 0; index < princess.Count; index++)
+ {
+    Console.Write(princess[index] + " ");
+}
 ```
 
 
-To remove an item from a list, simply `Remove()` it. 
+To remove an item from a list, simply `Remove()` it.
 
 ```csharp
+//(same as above)
+princess.Remove("Elsa");
 
-	//(same as above)
-    princess.Remove("Elsa");  
-
-        // Iterate through the list.  
-        foreach (var p in princess)  
-        {  
-            Console.Write(p + " ");  
-        }  
-
+// Iterate through the list.
+foreach (var p in princess)
+{
+    Console.Write(p + " ");
+}
 ```
 
 You can also use a for loop to decrement a collection/list. The below example removes an item from the list without the built in remove method.
 
 ```csharp
-        var numbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };  
+var numbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-        // Remove odd numbers.  
-        for (var index = numbers.Count - 1; index >= 0; index--)  
-        {  
-            if (numbers[index] % 2 == 1)  
-            {  
-                // Remove the element by specifying  
-                // the zero-based index in the list.  
-                numbers.RemoveAt(index);  
-            }  
-        }  
+// Remove odd numbers.
+for (var index = numbers.Count - 1; index >= 0; index--)
+{
+    if (numbers[index] % 2 == 1)
+    {
+        // Remove the element by specifying
+        // the zero-based index in the list.
+        numbers.RemoveAt(index);
+    }
+}
 
-        // Iterate through the list.  
-        // A lambda expression is placed in the ForEach method  
-        // of the List(T) object.  
-        numbers.ForEach(  
-            number => Console.Write(number + " "));  
-        // Output: 0 2 4 6 8  
+// Iterate through the list.
+// A lambda expression is placed in the ForEach method
+// of the List(T) object.
+numbers.ForEach(
+    number => Console.Write(number + " "));
+// Output: 0 2 4 6 8
 ```
-  
+
 
 
 1. For the type of elements in the List<T>, you can also define your own class, you do not only have to use string,int,bool etc...Any data type can be used.
 
 ```csharp
-        private static void IterateThroughList()  
-        {  
-            var snowWhiteDwarves = new List<Dwarves>  
-                {  
-                    new Disney() { Name="Doc", age=400},  
-                    new Disney() { Name="Happy", age=25},  
-                    new Disney() { Name="Dopey", age=100},  
-                    new Disney() { Name="Grumpy", age=53}  
-                };  
+private static void IterateThroughList()
+{
+    var snowWhiteDwarves = new List<Dwarves>
+        {
+            new Disney() { Name="Doc", age=400},
+            new Disney() { Name="Happy", age=25},
+            new Disney() { Name="Dopey", age=100},
+            new Disney() { Name="Grumpy", age=53}
+        };
 
-            foreach (Disney dwarf in snowWhiteDwarves)  
-            {  
-                Console.WriteLine(snowWhiteDwarves.Name + "  " + snowWhiteDwarves.Age);  
-            }  
+    foreach (Disney dwarf in snowWhiteDwarves)
+    {
+        Console.WriteLine(snowWhiteDwarves.Name + "  " + snowWhiteDwarves.Age);
+    }
 
-        }  
+}
 
-        public class Disney  
-        {  
-            public string Name { get; set; }  
-            public int age { get; set; }  
-        }  
+public class Disney
+{
+    public string Name { get; set; }
+    public int age { get; set; }
+}
 
 ```
 
 #### ***Demo** - Let's create our own Generic Collection (List<T>):*
 
-To start us out, we don't actually have to use `T`. We can use whatever letter we want. It just has to stay consistent through the whole class. 
+To start us out, we don't actually have to use `T`. We can use whatever letter we want. It just has to stay consistent through the whole class.
 
 ```csharp
 
-	class NumberList<Y> 
+class NumberList<Y>
+{
+    Y[] items = new Y[5];
+    int count;
+    public void Add(Y item)
     {
-        Y[] items = new Y[5];
-        int count;
-        public void Add(Y item)
+        if(count == items.Length)
         {
-            if(count == items.Length)
-            {
-                Array.Resize( ref items, items.Length * 2);
-            }
-            items[count++] = item;
+            Array.Resize( ref items, items.Length * 2);
         }
+        items[count++] = item;
     }
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World!");
 
-            NumberList<int> numberList = new NumberList<int>();
+        NumberList<int> numberList = new NumberList<int>();
 
-            numberList.Add(10);
-            numberList.Add(15);
-            numberList.Add(25);
-            numberList.Add(28);
-        }
-
+        numberList.Add(10);
+        numberList.Add(15);
+        numberList.Add(25);
+        numberList.Add(28);
+    }
+}
 ```
 
 
@@ -171,8 +165,8 @@ To start us out, we don't actually have to use `T`. We can use whatever letter w
  ```
 Error	CS1579	foreach statement cannot operate on variables of type 'NumberList<string>' because 'NumberList<string>' does not contain a public instance definition for 'GetEnumerator'
  ```
-This means that you need to add the `GetEnumerator` method into your custom generic class. 
- 
+This means that you need to add the `GetEnumerator` method into your custom generic class.
+
  You need `GetEnumerator` in your custom generic class to iterate through with a foreach loop. Add the following code to your collection:
 
  ```
@@ -185,9 +179,9 @@ This means that you need to add the `GetEnumerator` method into your custom gene
  }
  ```
 
- The above code will essentially "Enumerate" through the collection and do a `yield return` on each item and return it one by one. 
+ The above code will essentially "Enumerate" through the collection and do a `yield return` on each item and return it one by one.
 
- With a foreach loop, we can "pause" and do something with each individual index of the internal array of the collection. 
+ With a foreach loop, we can "pause" and do something with each individual index of the internal array of the collection.
 
 
 #### Yield Return
@@ -200,9 +194,9 @@ This means that you need to add the `GetEnumerator` method into your custom gene
 You use a `yield break` statement to end an iteration
     - Clean way to end a loop from executing
 
-**There is much more to `yield return` and `yield break` then what we may go over. 
-  - if there is time in class we can go over the details of whats 'under the hood' 
-   of the `yield` statements, or just direct the student to do some self research on it. 
+**There is much more to `yield return` and `yield break` then what we may go over.
+  - if there is time in class we can go over the details of whats 'under the hood'
+   of the `yield` statements, or just direct the student to do some self research on it.
 
 
 #### Collection Initializers
@@ -225,7 +219,7 @@ If you attempt to conduct a collection initializer with the current state of the
 Error	CS1922	Cannot initialize type 'Library<string>' with a collection initializer because it does not implement 'System.Collections.IEnumerable'
 ```
 
-You must then implement the `IEnumerable` interface onto your custom collections generic. This will inevitably require you to implement the non-generic version of `GetEnumerator`.  
+You must then implement the `IEnumerable` interface onto your custom collections generic. This will inevitably require you to implement the non-generic version of `GetEnumerator`.
 
 ```csharp
   IEnumerator IEnumerable.GetEnumerator()
@@ -234,7 +228,7 @@ You must then implement the `IEnumerable` interface onto your custom collections
   }
 ```
 
-The return type of this implementation should simply just call your already existing generic `GetEnumerator`. 
+The return type of this implementation should simply just call your already existing generic `GetEnumerator`.
 
 
 ```csharp
@@ -246,9 +240,9 @@ The return type of this implementation should simply just call your already exis
 
 #### Why
 
-The non-generic IEnumerable is actually from C# 1.0. It is present purely for legacy code purposes. The IEnumerable interface requires it to be used, and the IEnumerable is what is used to allow us to use a collection initializer. Because of this requirement/dependency we must include it in our collection and simply have it call our other generic GetEnumerator to allow us to use the foreach loop. 
+The non-generic IEnumerable is actually from C# 1.0. It is present purely for legacy code purposes. The IEnumerable interface requires it to be used, and the IEnumerable is what is used to allow us to use a collection initializer. Because of this requirement/dependency we must include it in our collection and simply have it call our other generic GetEnumerator to allow us to use the foreach loop.
 
-- IEnumerable 
+- IEnumerable
 - Foreach does not require IEnumerable
 - only requires a IEnumerator GetEnumerator();
 
@@ -301,37 +295,36 @@ The non-generic IEnumerable is actually from C# 1.0. It is present purely for le
 - Because the interface of IEnumerable requires the non-generic GetEnumerator, VS will auto add what is missing. Here is the after result:
 
 ```csharp
-   class NumberList<Y> : IEnumerable<Y>
-    {
-        Y[] items = new Y[5];
-        int count;
-        public void Add(Y item)
-        {
-            if(count == items.Length)
-            {
-                Array.Resize( ref items, items.Length * 2);
-            }
-            items[count++] = item;
-        }
+ class NumberList<Y> : IEnumerable<Y>
+ {
+      Y[] items = new Y[5];
+      int count;
+      public void Add(Y item)
+      {
+          if(count == items.Length)
+          {
+              Array.Resize( ref items, items.Length * 2);
+          }
+          items[count++] = item;
+      }
 
-        public IEnumerator<Y> GetEnumerator()
-        {
-            for (int i = 0; i < count; i++)
-            {
-                yield return items[i];
-            }
-        }
+      public IEnumerator<Y> GetEnumerator()
+      {
+          for (int i = 0; i < count; i++)
+          {
+              yield return items[i];
+          }
+      }
 
-        //This is new, but GetEnumerator will call the Generic GetEnumerator above.
+      //This is new, but GetEnumerator will call the Generic GetEnumerator above.
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
+      IEnumerator IEnumerable.GetEnumerator()
+      {
+          return GetEnumerator();
+      }
 
-        //Can create Custom Enumerator Method here that the GetEnumerator returns
-    }
-
+      //Can create Custom Enumerator Method here that the GetEnumerator returns
+ }
 ```
 
 
@@ -341,14 +334,14 @@ The non-generic IEnumerable is actually from C# 1.0. It is present purely for le
 ### Generics vs. Non-Generics
 
 #### Generics
-- List< T>
-- Dictionary< T>
-- SortedList< T>
-- Queue< T>
-- IEnumerable< T>
-- IList< T>
-- Collection< T>
-- LinkedList< T>
+- List<T>
+- Dictionary<T>
+- SortedList<T>
+- Queue<T>
+- IEnumerable<T>
+- IList<T>
+- Collection<T>
+- LinkedList<T>
 
 #### Non-Generics
 

@@ -8,44 +8,44 @@
 
 ### Procedural Programming (imperative programming)
 Procedural programming is a list of instructions that tells program what to do step by step.
-Procedural relies on a series of computational steps to be carried to completion. This is usually done telling 
+Procedural relies on a series of computational steps to be carried to completion. This is usually done telling
 the program what to do first at the beginning, and what to do at the end. it is a bit more intuitive and simple
 to read from top to bottom. Procedural programming languages are also called "top down "
 
-### What is Object Oriented Programming?
-Object oriented programming is mimicking real world objects in code. 
-Everything in C# is essentially a class, and we can instantiate objects from 
-classes that we can manage at a smaller level. 
+### What is Object-Oriented Programming?
+Object-Oriented programming is mimicking real world objects in code.
+Everything in C# is essentially a class, and we can instantiate objects from
+classes that we can manage at a smaller level.
 
 OOP objects are created to interact with other elements of the program regardless of where the command
-is being called from. 
+is being called from.
 
 ## OOP Principles
-Object Oriented Programming (OOP) principles are the fundamentals that help us define objects and use them
-within our system. 
+Object-Oriented Programming (OOP) principles are the fundamentals that help us define objects and use them
+within our system.
 
 ### Inheritance
 
-Inheritance is the process by which one class takes on the attributes and methods of another. 
-Newly formed classes are called child classes, and the classes that child classes are derived from 
+Inheritance is the process by which one class takes on the attributes and methods of another.
+Newly formed classes are called child classes, and the classes that child classes are derived from
 are called parent classes.
 
-It's important to note that child classes override or extend the functionality (e.g., attributes and behaviors) of parent classes. In other words, child classes inherit all of the parent's attributes and behaviors but can also specify different behavior to follow. The most basic type of class is an object, 
+It's important to note that child classes override or extend the functionality (e.g., attributes and behaviors) of parent classes. In other words, child classes inherit all of the parent's attributes and behaviors but can also specify different behavior to follow. The most basic type of class is an object,
 which generally all other classes inherit as their parent.
 
 #### Single Inheritance
-When you do single inheritance, you are only passing on one class's behavior onto a derived class. This is 
+When you do single inheritance, you are only passing on one class's behavior onto a derived class. This is
 the most common type of inheritance amongst programming languages. (C# only support single inheritance)
 
 
 ### Abstraction
 
 in OOP - Abstract classes are not supposed to be instantiated. They are only supposed to be used as a template that can be
-derived further down for more clarity. 
+derived further down for more clarity.
 
-Abstract classes cannot be instantiated. 
+Abstract classes cannot be instantiated.
 
-Abstract methods must be overridden. 
+Abstract methods must be overridden.
 
 ### Polymorphism
 Breaking down the work "Polymorphism":
@@ -54,20 +54,20 @@ Breaking down the work "Polymorphism":
 
 *Morph means to change*
 
-Within polymorphism, we want the ability to change the behavior of a specific class. We also want to be able to target specific types of classes (classes that are derived from specific classes). Polymorphism also helps us target any and all classes that implement specific interfaces. 
+Within polymorphism, we want the ability to change the behavior of a specific class. We also want to be able to target specific types of classes (classes that are derived from specific classes). Polymorphism also helps us target any and all classes that implement specific interfaces.
 
-The ability to override an abstract or virtual method is polymorphism. 
+The ability to override an abstract or virtual method is polymorphism.
 
 
 ### Encapsulation
 
 Encapsulation is the process of hiding implementation details from the user.
 Encapsulation is the act of hiding methods and attributes that should not be exposed to unauthorized or unneeded
-classes or methods. Examples of encapsulation are Public, private, and protected. 
+classes or methods. Examples of encapsulation are Public, private, and protected.
 
-Access Modifiers: 
+Access Modifiers:
 1. Public - Everyone has access
 1. Private - Only the class has access to it
-1. Protected - the class and any of it's derived children have access. 
+1. Protected - the class and any of it's derived children have access.
 
 
