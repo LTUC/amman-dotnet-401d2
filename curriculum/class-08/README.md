@@ -1,4 +1,4 @@
-# Class 08: Collections
+# Class 08: Collections & Enums
 
 ## Learning Objectives
 1. The student will understand and implement their own enums into their programs and classes.
