@@ -78,13 +78,13 @@ To add a new scaffolded API controller, pick the following options:
 3. Select API Controller with actions, using Entity Framework.
 4. Select one of the entities for your model class
 5. Select the DbContext you just created
-6. Keep the defualt name the same
+6. Keep the default name the same
 7. See the new controller get made and review what was scaffolded.
 8. Confirm functionality through Postman
 
 ## Lab Notes
 
-- This is the initial implementaiton of Async Inn project. Today, they will start the code application and start building out the models with a very basic database.
+- This is the initial implementation of Async Inn project. Today, they will start the code application and start building out the models with a very basic database.
 
 ## What might students struggle with today?
 

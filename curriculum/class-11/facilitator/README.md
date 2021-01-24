@@ -1,64 +1,118 @@
-# Class 12: Relational Database and ERDs
+# Facilitators Guide: Introduction to Databases and ERDs
 
 ## Overview
-This is the first day that the students will dive into the "Async Inn Inventory Management" website. Do not show the students the wire frames or resources for the site just yet. Make sure they complete the ERD for this lab assignment before showing them what they will be building. 
 
+This is the first day that the students will dive into the "Async Inn Inventory Management" website. Do not show the students the wire frames or resources for the site just yet. Make sure they complete the ERD for this lab assignment before showing them what they will be building.
+
+### How does this topic fit?
+
+**Where we've been**:
+To this point, the students have a solid foundatin in C# language fundamentals, but have not yet built a full application.
+
+**What are we focusing on today**:
 Today primarily focuses on an introduction to databases. This should be a combination of review from 301, as well as some new content such as composite keys and join tables.
 
-## How do I prep for today?
-1. If you are unfamiliar with Databases and their relationships, a good place to start is [Here](https://www.tutorialspoint.com/dbms/index.htm)
-1. Review the MSFT docs for complex data models [Here](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0) 
-    - Start from the Overview and work your way through the whole tutorial if you can. 
-1. Review what an ERD is. The "Databases.md" located in the `Resources` folder is an outline of the lecture for that day. 
-1. I recommend also reviewing the Microsoft docs of the "Complex" data model. This doc provides a good background of what the ERD should consist of. 
-1. Adjust the lab assignment for the day in Canvas. This is a timed assignment. Make it open up at the beginning of lab time, and due/closed at the end of lab time (total time approx. 5 hours). You will review the solution with the students at the very beginning of Class 13. 
+**Where we're headed**:
+Next class will focus on creating the scaffolding for an MVC application that will use an ERD to work with a live database.
 
-## Lecture
+## Learning Objectives
 
-1. Code Review
-   - No Code Review this day
+Review the detailed objectives in today's [student-facing readme](../README.md).
+
+> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+
+## Preparation
+
+- If you are unfamiliar with Databases and their relationships, a good place to start is [Here](https://www.tutorialspoint.com/dbms/index.htm)
+- Review the MSFT docs for complex data models [Here](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0)
+  - Start from the Overview and work your way through the whole tutorial if you can.
+- Review the [ERD](../resources/databases.md) and [SQL](../resources/sql.md) resources to assist with details. These are to be provided to students as well.
+
+## Lecture Outline
+
+### Code Review
+
+No Code Review Today, this is the start of a new module
+
+### Topic 1: Databases
+
 1. Review data persistence
-   - What is data persistence? 
-   - What are databases? Why do we need them?
-1. Introduce DB Context and setup in an MVC project
-   - start with an empty web app and add the MVC service. No need to do an MVC route right away.
-   - Create a Data folder
-   - Create a class for the DbContext
-   - Derive the class from `DbContext`
-   - Add the constructor
-   - Register the DBContext in the Startup Class
-   - Add the connection string to the appsettings.json file
-   - Add the migration
-   - update the database
-   - verify the database was created with a "Migration History" table.
+  - What is data persistence?
+  - What are databases? Why do we need them?
 1. Introduce ERDs
-   - What are they?
-   - Why do we need them?
-   - What do relationships look like?
-1. In-Class exercise to build out ERD for student enrollment demo
-   - Dedicate about 20 minutes for the students to come up with their own sol
+  - What are they?
+  - Why do we need them?
+  - What do relationships look like?
+- **Why** (5 min)
+  - Apps are largely meaningless without persistence
+  - User Lists so you can login and find your friends
+  - Banking History
+- **What** (10 min)
+  - A database is a set of related information, stored
+  - Generally indexed so we can find things fast
+  - Generally grouped by related information/types
+    - Users, Posts, Likes, etc, ...
+  - Generally describes relationships between data types
+    - i.e. Users might make Posts
+  - There are 2 types of databases: SQL (Relational) and NoSQL (Document)
+    - Relational, Table Based DBs are well suited to an OOP Framework
+      - Classes can be seen as tables, which ties code and logic right to a DB
+      - Vertically scaled
+    - NoSQL Databases are shapeless, document stores
+      - Excellent for non-schematic data
+      - Horizontally scaled
+- **How** (30 min)
+  - Start to map out pros and cons of each database type
+
+### Topic 2: ERDs
+
+- **Why** (5 min)
+  - Proper Planning!
+  - Database Tables::Classes
+    - Need to know the relationships ahead of development
+- **What** (10 min)
+  - ERD Is a visual design construct
+  - Entity Relationship Diagram
+  - Definitions
+    - Relations
+      - 1:1
+      - 1:Many
+      - Many:Many
+      - Many:1
+    - Keys
+      - Primary Keys (Unique Keys to our table)
+      - Foreign Keys (References primary keys in other tables)
+      - Composite Keys
+- **How** (30 min)
+  - In-Class exercise to build out ERD for student enrollment demo
+  - The (demo)[./DEMO.md] has good overview of a sample problem domain along with talking points about working with ERD tooling
+- **Experimentation and Discovery Ideas**
 
 ## Lab Notes
 
-This lab will require that the students create an ERD and also create a scaffold template of their Hotel API application with an empty database. 
+Put your students into teams of 3 for today's planning lab. They will be on their own through the next series of labs to implement the group design.
 
-This ERD portion of this lab is timed and is attempt based. They should be able to read through the problem domain and come up with an ERD for the database as well as provide an explanation. You will provide and review the solution with them at the start of the next class.
+This lab will require that the students create an ERD and also create a scaffold template of their Hotel API application with an empty database.
 
-## What might students struggle with today?  
-Nothing major. Overall ERDs are straight forward to break down.
-Adding in a DbContext to your application is mostly convention. 
+This ERD portion of this lab is timed (4 Hours Max) and is effort based. They should be able to read through the problem domain and come up with an ERD for the database as well as provide an explanation. You will provide and review the solution with them at the start of the next class.
 
-## What bugs, issues, or surprises have come up in the past for this class?
-Database key relationships for composite keys are brand new. Foreign and primary keys are review. 
+## What might students struggle with today?
 
-## General comments
-Spend the last 45 minutes to an hour of lecture time having the students attempt to make an ERD based off of the problem domain (located in the bottom of the `Database.md` file) and review the results.
+- Nothing major. Overall ERDs are straight forward to break down.
+- Adding in a DbContext to your application is mostly convention.
 
-Spend a few minutes  reviewing the requirement. Have the students group off
-and attempt the ERD (20 minutes or so), and spend the last 15 having the students present their
-ideas and reviewing the solution. 
+## Past bugs, issues or surprises...
 
-Be sure to share this solution with the students, as that is what our demo for the next
-few days will be tied to.
+- Database key relationships for composite keys are brand new. Foreign and primary keys are review.
+
+## General Comments and Notes
+
+- Spend the last 45 minutes to an hour of lecture time having the students attempt to make an ERD based off of the problem domain (located in the bottom of the `Database.md` file) and review the results.
+
+- Spend a few minutes  reviewing the requirement. Have the students group off and attempt the ERD (20 minutes or so), and spend the last 15 having the students present their ideas and reviewing the solution.
+
+Be sure to share this solution with the students, as that is what our demo for the next few days will be tied to.
 
 Stress to them that there is more than "one right answer", this is just one possible way.
+
+
