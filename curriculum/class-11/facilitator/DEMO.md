@@ -2,7 +2,7 @@
 
 Note: Demos as they exist in the `/demo` folder are provided in their **completed** state.
 
-This demo feels like a lecture and is a lot of the "Resource" material repeated. It's important to use this sequence to solidify the core Database and ERD concepts in an organized fashion, by building it out as an active and interactive part of lecture.
+This demo feels like a lecture and is a lot of the "Resource" material repeated. It's important to use this sequence to solidify the core Database and ERD concepts in an organized fashion, by building it out as an active and interactive part ofkk lecture.
 
 ![ERD Demo Image](../demo/erd.png)
 
