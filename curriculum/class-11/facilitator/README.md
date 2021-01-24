@@ -84,9 +84,13 @@ No Code Review Today, this is the start of a new module
       - Foreign Keys (References primary keys in other tables)
       - Composite Keys
 - **How** (30 min)
-  - In-Class exercise to build out ERD for student enrollment demo
+  - In-Class exercise to build out ERD for any problem domain you'd like to talk through
   - The (demo)[./DEMO.md] has good overview of a sample problem domain along with talking points about working with ERD tooling
 - **Experimentation and Discovery Ideas**
+  - Have the students break off into groups and implement a student enrollment system
+  - 20-30 minute exercise
+  - [Instructions](../demo/school.md)
+  - Allow them to struggle with that and then do a quick review of one team's work
 
 ## Lab Notes
 

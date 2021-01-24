@@ -140,27 +140,25 @@ instructor in the table could be working in the same department.
 
 ### And/OR
 The logical connectives of
-1. and
-1. or
-1. not
+1. `and`
+1. `or`
+1. `not`
 
 are allowed in the where clause. The comparison operators that are allowed are:
-1. < (less than)
-1. > (greater than)
-1. <= (less than or equal to)
-1. >= (greater than or equal to)
-1. = (equal)
-1. <> (not equal)
+1. `<` (less than)
+1. `>` (greater than)
+1. `<=` (less than or equal to)
+1. `>=` (greater than or equal to)
+1. `=` (equal)
+1. `<>` (not equal)
 
 ### Where
-The `where` clause allows us to filter out more specifically within the relation
-of what exactly we want to see.
+The `where` clause allows us to filter out more specifically within the relation of what exactly we want to see.
 
 ```
 select name
 from instructor
 where dept_name = 'Comp Sci' and salary > 70000;
-
 ```
 
 The above query will filter out the results from the instructor relation
@@ -180,8 +178,7 @@ where instructor.dept_name = department.dept_name
 
 A few things to note about this query:
 -  We can assume that by looking at this query that dept_name exists in both
-- The department and the instructor relations. We know this because we had to "note" this
-above with the "instructor.dept_name" to specify exactly what relation we are referring too.
+- The department and the instructor relations. We know this because we had to "note" this above with the "instructor.dept_name" to specify exactly what relation we are referring too.
 
 ### Select => Where
 
@@ -255,12 +252,10 @@ from instructor as T, teaches as S
 where T.ID = S.ID
 ```
 
-In the above example, we are allowed to specify the new name of the attribute name before specifying the
-name in the from clause.
+In the above example, we are allowed to specify the new name of the attribute name before specifying the name in the from clause.
 
 
-Another reason to rename is if we want to compare one tuple against the same table.
-The following query is an example
+Another reason to rename is if we want to compare one tuple against the same table. The following query is an example
 
 "Find the names of all instructors whose salary is greater than at least one instructor in the Biology department"
 ```
@@ -290,8 +285,7 @@ select *
 from instructor
 order by salary desc, name asc
 ```
-the above query will say to order by salary, but if there are multiple with the same salary
-order them by name asc.
+the above query will say to order by salary, but if there are multiple with the same salary order them by name asc.
 
 ### LIKE
 
