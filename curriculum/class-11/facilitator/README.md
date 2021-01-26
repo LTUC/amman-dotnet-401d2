@@ -34,15 +34,28 @@ Review the detailed objectives in today's [student-facing readme](../README.md).
 
 No Code Review Today, this is the start of a new module
 
-### Topic 1: Databases
+### Topic 1: MVC Applications
 
-1. Review data persistence
-  - What is data persistence?
-  - What are databases? Why do we need them?
-1. Introduce ERDs
-  - What are they?
-  - Why do we need them?
-  - What do relationships look like?
+- **Why** (5 min)
+  - Standardization and familiarity for developers
+  - Source trees that follow a common convention and format are easy to consume
+- **What** (5 min)
+  - Models: Data/Tables/Business Rules
+  - Controllers: What do we do, how does it get done (Traffic Cop)
+  - Views: Presenting data to the user
+    - JSON
+    - HTML
+    - Reporting
+    - Native app
+- **How** (5 min)
+  - In .NET we use an MVC framework and ORMs to assist the process
+  - Do a brief overview image to show the concept
+  - For the next couple of classes, we'll be focusing on the Models
+
+![MVC](./mvc.png)
+
+### Topic 2: Databases (Models)
+
 - **Why** (5 min)
   - Apps are largely meaningless without persistence
   - User Lists so you can login and find your friends
@@ -64,7 +77,7 @@ No Code Review Today, this is the start of a new module
 - **How** (30 min)
   - Start to map out pros and cons of each database type
 
-### Topic 2: ERDs
+### Topic 3: ERDs
 
 - **Why** (5 min)
   - Proper Planning!

@@ -1,66 +1,95 @@
-# Class 12: Intro to EF Core and API Scaffolding
+# Facilitators Guide: Intro to Entity Framework
 
 ## Overview
-This is the first day that the students will dive into the "Async Inn Inventory Management" website. Do not show the students the wire frames or resources for the site just yet. Make sure they complete the ERD for this lab assignment before showing them what they will be building. 
 
-Today primarily focuses on an introduction to databases. This should be a combination of review from 301, as well as some new content such as composite keys and join tables.
+Today we introduce the concept of relational databases and ERD's. We review with the students what a database is and have the students create their own ERD based off of a demo problem domain.
 
-## How do I prep for today?
-1. If you are unfamiliar with Databases and their relationships, a good place to start is [Here](https://www.tutorialspoint.com/dbms/index.htm)
-1. Review the MSFT docs for complex data models [Here](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0) 
-    - Start from the Overview and work your way through the whole tutorial if you can. 
-1. Review what an ERD is. The "Databases.md" located in the `Resources` folder is an outline of the lecture for that day. 
-1. I recommend also reviewing the Microsoft docs of the "Complex" data model. This doc provides a good background of what the ERD should consist of. 
-1. Adjust the lab assignment for the day in Canvas. This is a timed assignment. Make it open up at the beginning of lab time, and due/closed at the end of lab time (total time approx. 5 hours). You will review the solution with the students at the very beginning of Class 13. 
+### How does this topic fit?
 
-## Lecture
+**Where we've been**:
+We previously covered the basics of MVC and specifically the role of models and databases. Students constructed the ERD for the Async Inn web app
 
-1. Code Review
-   - Review the MVC lab 
-   - Show the students the solution to reading in a csv file and converting it to an object
-   - Review turnery operators (this may be what they needed to use in their for lab 11 when reading in data from the csv file)
-1. Review data persistence
-   - What is data persistence? 
-   - What are databases? Why do we need them?
-1. Introduce DB Context and setup in an MVC project
-   - start with an empty web app and add the MVC service. No need to do an MVC route right away.
-   - Create a Data folder
-   - Create a class for the DbContext
-   - Derive the class from `DbContext`
-   - Add the constructor
-   - Register the DBContext in the Startup Class
-   - Add the connection string to the appsettings.json file
-   - Add the migration
-   - update the database
-   - verify the database was created with a "Migration History" table.
-1. Introduce ERDs
-   - What are they?
-   - Why do we need them?
-   - What do relationships look like?
-1. In-Class exercise to build out ERD for student enrollment demo
-   - Dedicate about 20 minutes for the students to come up with their own sol
+**What are we focusing on today**:
+We will be creating our first .NET Web App, using Entity framework to map our models to a SQL Server Database and create a few REST routes for our models.
+
+**Where we're headed**:
+In the next class, we'll be using Dependency Injection to clean up our Controllers and introduce the Repository Pattern.
+
+## Learning Objectives
+
+Review the detailed objectives in today's [student-facing readme](../README.md).
+
+> Our primary outcomes and goals for the day are to teach the students how to read a problem domain and come up with an initial plan of how to store data in an ERD. Use today to enforce the students to analytically think instead of just "jumping into code".
+
+## Preparation
+
+- Practice [the demo](./DEMO.md) which is a complete step by step creation of a core API server using Entiry Framework.
+  - There's a lot of steps involved, each of which will be **magic** for the students.
+  - Be sure to understand the inner workings and be ready for questions
+
+## Lecture Outline
+
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../resources/databases.md) notes.
+
+### Code Review
+
+- Review the solution for the ERD of Async Inn. Spend about 30 minutes on this, and then move into lecture.
+
+### Intro to Entity Framework
+
+- **Why** (5 min)
+ - We need a way to manage our DB safely and effectively.
+ - We can offload the performance and overall management of the db to EF Core
+   - In other words, we let the framework handle the dirty work for us
+- **What** (10 min)
+  - EF Core serves as an object-relational mapper (O/RM)
+  - Enables .NET developers to work with a database using .NET objects
+  - Eliminates the need for most of the data-access code they usually need to write.
+  - EFCore allows us to make calls and queries to our database through this ORM allowing for efficiency and ease of use.
+    - Connect to a database
+    - Manage our databases.
+    - Handle Migrations
+    - Handle Table Relationships
+- **How** (30 min)
+  - Interactive [DEMO](./DEMO.md)
+
+### Simple Models
+
+- **Why** (5 min)
+  - Use your ERD to run theory into data
+- **What** (10 min)
+  - Simple models are the entities that we will have stored in our database.
+    - These entities will represent what our tables in our database will look like (data types/columns)
+  - Each entity in your ERD becomes a Model Class
+  - Each Model Class will map directly to a database table
+- **How** (30 min)
+  - Interactive [DEMO](./DEMO.md)
+
+### Migration Scripts
+
+- **Why** (5 min)
+  - Each time we make a change to our model, our DB will likely have to change
+  - We frequently update the table structure (New/Changed Columns) or add Constraints
+  - When these changes get made, they need to safely be applied to the database so we don't destroy currently stored data
+- **What** (10 min)
+  - Migration scripts are used to generate the changes that need to occur when a change is ready to be applied to the database.
+  - Code First Migration
+    - Our code (Model classes) might be the impetus for a DB Change
+    - We will generate more code to alter the database and apply those changes
+  - Add a new migration: `Add-Migration [name of migration]`
+  - Update the database: `Update-Database`
+- **How** (30 min)
+  - These are created and run as a part of your interactive [DEMO](./DEMO.md)
+
 
 ## Lab Notes
 
-This lab will require that the students create an ERD and also create a scaffold template of their Hotel API application with an empty database. 
+- This is the initial implementation of Async Inn project. Today, they will start the code application and start building out the models with a very basic database.
 
-This ERD portion of this lab is timed and is attempt based. They should be able to read through the problem domain and come up with an ERD for the database as well as provide an explanation. You will provide and review the solution with them at the start of the next class.
+## What might students struggle with today?
 
-## What might students struggle with today?  
-Nothing major. Overall ERDs are straight forward to break down.
-Adding in a DbContext to your application is mostly convention. 
+- There is a lot of **boilerplate** code today. Much more wiring than actual code. This is traditionally a blocker for the students.
 
-## What bugs, issues, or surprises have come up in the past for this class?
-Database key relationships for composite keys are brand new. Foreign and primary keys are review. 
+## Past bugs, issues or surprises...
 
-## General comments
-Spend the last 45 minutes to an hour of lecture time having the students attempt to make an ERD based off of the problem domain (located in the bottom of the `Database.md` file) and review the results.
-
-Spend a few minutes  reviewing the requirement. Have the students group off
-and attempt the ERD (20 minutes or so), and spend the last 15 having the students present their
-ideas and reviewing the solution. 
-
-Be sure to share this solution with the students, as that is what our demo for the next
-few days will be tied to.
-
-Stress to them that there is more than "one right answer", this is just one possible way.
+## General Comments and Notes
