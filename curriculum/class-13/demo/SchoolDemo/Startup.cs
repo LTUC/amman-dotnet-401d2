@@ -1,4 +1,4 @@
-uasing ef_demo.Data;
+using SchoolDemo.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -10,8 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SchoolDemo.Models.Interfaces;
+using SchoolDemo.Models.Interfaces.Services;
 
-namespace ef_demo
+namespace SchoolDemo
 {
   public class Startup
   {
@@ -34,6 +36,12 @@ namespace ef_demo
         string connectionString = Configuration.GetConnectionString("DefaultConnection");
         options.UseSqlServer(connectionString);
       });
+
+      // Register my Dependency Injection services
+      // This mapps the Dependency (IStudent) to the correct Service (StudentRepository)
+      // "Whenever I see IStudent, use StudentRepository
+      // This makes StudentRepository swappapble with any alternate implementation
+      services.AddTransient<IStudent, StudentRepository>();
 
       // Bring in our controllers
       services.AddMvc();

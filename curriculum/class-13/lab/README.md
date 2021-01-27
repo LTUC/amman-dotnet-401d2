@@ -1,4 +1,4 @@
-# Lab 13: Dependency Injection
+# Lab 13: Dependency Injection & Repository Design Pattern
 
 ## The Problem Domain
 

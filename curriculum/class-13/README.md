@@ -1,1 +1,1 @@
-# Class 13: Depenedency Injection
+# Class 13: Dependency Injection & Repository Design Pattern
