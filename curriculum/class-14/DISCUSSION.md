@@ -1,4 +1,4 @@
-# Readings: DB Seeding and Intro to APIs
+# Readings: Navigation Properties and Routing
 
 ## Submission Requirements
 

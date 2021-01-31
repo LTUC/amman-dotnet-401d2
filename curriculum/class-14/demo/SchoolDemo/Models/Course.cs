@@ -13,5 +13,8 @@ namespace SchoolDemo.Models
     public string CourseCode { get; set; }
     public int Technology { get; set; }
     public float Price { get; set; }
+
+    public List<Enrollment> Enrollments { get; set; }
+
   }
 }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using SchoolDemo.Data;
+using SchoolDemo.Models;
 using SchoolDemo.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace SchoolDemo.Models.Interfaces.Services
+namespace SchoolDemo.Services
 {
   public class GradeRepository : IGrade
   {

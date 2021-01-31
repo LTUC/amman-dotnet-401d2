@@ -22,7 +22,7 @@ namespace SchoolDemo.Controllers
       _transcript = transcript;
     }
 
-    // GET: api/Transcripts
+    // GET: api/transcripts
     [HttpGet]
     public async Task<IActionResult> GetTranscripts()
     {
@@ -30,10 +30,10 @@ namespace SchoolDemo.Controllers
     }
 
     // GET: api/Transcripts/5
-    [HttpGet("{id}")]
-    public async Task<ActionResult<Transcript>> GetTranscript(int id)
+    [HttpGet("{studentId}/Course/{courseId}")]
+    public async Task<ActionResult<Transcript>> GetTranscript(int studentId, int courseId)
     {
-      Transcript transcript = await _transcript.GetOne(id);
+      Transcript transcript = await _transcript.GetOne(studentId, courseId);
       return transcript;
     }
 
@@ -63,14 +63,14 @@ namespace SchoolDemo.Controllers
       await _transcript.Create(transcript);
       // Returns a 201 Header
       // The body will be the result of calling GetTranscript with the id
-      return CreatedAtAction("Get†ranscript", new { id = transcript.Id }, transcript);
+      return CreatedAtAction("GetTranscript", new { studentId = transcript.StudentId, courseId = transcript.CourseId}, transcript);
     }
 
     // DELETE: api/Transcripts/5
-    [HttpDelete("{id}")]
-    public async Task<ActionResult> DeleteTranscript(int id)
+    [HttpDelete("{studentId}/Course/{courseId}")]
+    public async Task<ActionResult> DeleteTranscript(int studentId, int courseId)
     {
-      await _transcript.Delete(id);
+      await _transcript.Delete(studentId, courseId);
       return NoContent();
     }
   }

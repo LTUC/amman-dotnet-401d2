@@ -26,5 +26,9 @@ namespace SchoolDemo.Models.Interfaces
     // Delete
     Task Delete(int id);
 
+    Task AddStudent(int courseId, int studentId);
+
+    Task RemoveStudentFromCourse(int courseId, int studentId);
+
   }
 }

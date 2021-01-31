@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using SchoolDemo.Models.Interfaces;
-using SchoolDemo.Models.Interfaces.Services;
+using SchoolDemo.Services;
 
 namespace SchoolDemo
 {
@@ -50,6 +50,12 @@ namespace SchoolDemo
       // Bring in our controllers
       services.AddMvc();
       services.AddControllers();
+
+
+      services.AddControllers().AddNewtonsoftJson(options =>
+        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+      );
+
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -72,8 +78,8 @@ namespace SchoolDemo
 
         endpoints.MapGet("/hello", async context =>
         {
-          throw new InvalidOperationException("/hello isn't really working yet");
-          // await context.Response.WriteAsync("Hey, John");
+          // throw new InvalidOperationException("/hello isn't really working yet");
+          await context.Response.WriteAsync("Hey, John");
         });
       });
     }

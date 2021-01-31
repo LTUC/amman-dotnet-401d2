@@ -73,5 +73,24 @@ namespace SchoolDemo.Controllers
       await _course.Delete(id);
       return NoContent();
     }
+
+    // POST: api/Courses/5/7
+    [HttpPost]
+    [Route("{courseId}/{studentId}")]
+    public async Task<IActionResult> AddStudentToCourse(int courseId, int studentId)
+    {
+      await _course.AddStudent(courseId, studentId);
+      return NoContent();
+    }
+
+    // DELETE: api/Courses/5/7
+    [HttpDelete]
+    [Route("{courseId}/{studentId}")]
+    public async Task<IActionResult> DeleteStudentFromCourse(int courseId, int studentId)
+    {
+      await _course.RemoveStudentFromCourse(courseId, studentId);
+      return NoContent();
+    }
+
   }
 }

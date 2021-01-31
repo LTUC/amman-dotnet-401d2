@@ -22,6 +22,12 @@ namespace SchoolDemo.Data
         new Technology { Id = 1, Name = ".NET " },
         new Technology { Id = 2, Name = "Node.js" }
       );
+
+      // This creates the composite primary key for the enrollments table
+      modelBuilder.Entity<Enrollment>().HasKey(
+        // Create a new "anonymous" type (like a JS object)
+        enrollment => new { enrollment.CourseId, enrollment.StudentId }
+      );
     }
 
     public DbSet<Student> Students { get; set; }
@@ -29,5 +35,9 @@ namespace SchoolDemo.Data
     public DbSet<Grade> Grades { get; set; }
     public DbSet<Course> Courses { get; set; }
     public DbSet<Transcript> Transcripts { get; set; }
+
+    // This will fail the first time when you try to make a migration because there's no primary key (id)
+    // Do a modelbuilder override, and then add it
+    public DbSet<Enrollment> Enrollments { get; set; }
   }
 }

@@ -41,6 +41,21 @@ namespace SchoolDemo.Migrations
                     b.ToTable("Courses");
                 });
 
+            modelBuilder.Entity("SchoolDemo.Models.Enrollment", b =>
+                {
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CourseId", "StudentId");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("Enrollments");
+                });
+
             modelBuilder.Entity("SchoolDemo.Models.Grade", b =>
                 {
                     b.Property<int>("Id")
@@ -59,9 +74,9 @@ namespace SchoolDemo.Migrations
 
             modelBuilder.Entity("SchoolDemo.Models.Student", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("DateOfBirth")
@@ -129,7 +144,41 @@ namespace SchoolDemo.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("StudentId");
+
                     b.ToTable("Transcripts");
+                });
+
+            modelBuilder.Entity("SchoolDemo.Models.Enrollment", b =>
+                {
+                    b.HasOne("SchoolDemo.Models.Course", "Course")
+                        .WithMany("Enrollments")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SchoolDemo.Models.Student", "Student")
+                        .WithMany("Enrollments")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SchoolDemo.Models.Transcript", b =>
+                {
+                    b.HasOne("SchoolDemo.Models.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SchoolDemo.Models.Student", "Student")
+                        .WithMany("Transcripts")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

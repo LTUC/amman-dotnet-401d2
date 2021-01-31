@@ -2,7 +2,8 @@
 
 ## Overview
 
-Topic summary ...
+Dependency Injection (DI) allows us to keep our applications loosely coupled. Within MVC, it's a pretty standard architectural pattern that is followed. DI allows us to separate the controllers and the functionality away from specific services. Giving us the ability to easily switch out dependencies with minimal overhead of refactoring code.
+
 
 ### How does this topic fit?
 
@@ -76,7 +77,10 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### TOPIC 2: Repository Design Pattern
 - **Why**
-  - When working with Data Access Objects, primarily with our Models within our Database, we find that we get a lot of the same method signatures, Create, Read/Get, Update, and Delete. The Repository Design Pattern allows for us to have a layer of abstraction when working with dependency injection. Instead of direclty injecting a dependency into a service or controller. we would instead inject an interface that outlines the required behavior.
+  - When working with Data Access Objects, primarily with our Models within our Database, we find that we get a lot of the same method signatures
+    - Create, Read/Get, Update, and Delete.
+  - The Repository Design Pattern allows for us to have a layer of abstraction when working with dependency injection.
+  - Instead of directly injecting a dependency into a service or controller. we would instead inject an interface that outlines the required behavior.
 - **What**
   - The Repository Design Pattern is an **architectural design pattern**
   - Assists in the overall layout and data flow of a web application.

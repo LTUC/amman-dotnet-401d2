@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using SchoolDemo.Data;
+using SchoolDemo.Models;
 using SchoolDemo.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace SchoolDemo.Models.Interfaces.Services
+namespace SchoolDemo.Services
 {
   public class StudentRepository : IStudent
   {
@@ -25,14 +26,38 @@ namespace SchoolDemo.Models.Interfaces.Services
 
     public async Task<Student> GetOne(int id)
     {
+
+      // Better With LINQ!
+      return await _context.Students
+               .Include(s => s.Enrollments)
+               .ThenInclude(e => e.Course)
+               .Include(s => s.Transcripts)
+               .ThenInclude(t => t.Course)
+               .FirstOrDefaultAsync(s => s.Id == id);
+
+
+      // Manually Tying it Together ...
+      /*
       Student student = await _context.Students.FindAsync(id);
+      var enrollments = await _context.Enrollments.Where(x => x.StudentId == id)
+                                             .Include(x => x.Course)
+                                             .ToListAsync();
+      student.Enrollments = enrollments;
+
       return student;
+      */
+
     }
 
     public async Task<List<Student>> GetAll()
     {
-      var students = await _context.Students.ToListAsync();
-      return students;
+
+      return await _context.Students
+                     .Include(s => s.Enrollments)
+                     .ThenInclude(e => e.Course)
+                     .Include(s => s.Transcripts)
+                     .ThenInclude(t => t.Course)
+                     .ToListAsync();
     }
 
     public async Task<Student> Update(int id, Student student)
