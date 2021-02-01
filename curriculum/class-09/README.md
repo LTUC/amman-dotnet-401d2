@@ -1,9 +1,9 @@
-# Class 09: LINQ
+# Class 09: LINQ & Delegates
 
 ## Learning Objectives
 1. Students will be able to successfully write LINQ queries against a collection to extract data.
 1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
- 
+
 ## Lecture Outline
 1. Review Collections
 1. Create a collection
@@ -22,11 +22,11 @@
       - LINQ statement
 
 1. What is a 'query'?
-   - A query is an expression that, when enumerated, transforms sequences with query operators. 
+   - A query is an expression that, when enumerated, transforms sequences with query operators.
    - The standard query operators are implemented as *extension methods*, so we can call 'WHERE' directly onto names.
 
-### Query Expressions 
-   
+### Query Expressions
+
 ```csharp
 string[] names = { "Tom", "Dick", "Harry" };
 
@@ -67,23 +67,23 @@ foreach (string name in finalQuery)
 ```
 
 ### Anonymous Types & Anonymous Objects
-   
+
 An anonymous type is specified through a `var` type:
 
-```csharp 
-    var filteredNames = names.Where (n => n.Length >= 4); 
+```csharp
+    var filteredNames = names.Where (n => n.Length >= 4);
 ```
 
-An anonymous object is an object that is a "modified" object that is the result from a LINQ search: 
+An anonymous object is an object that is a "modified" object that is the result from a LINQ search:
 
 ```csharp
 var bookAuthorCollection = from b in books
                     select new { Book: b,
                                 Author: b.Authors[0]
                                 };
-    
+
 foreach (var x in bookAuthorCollection)
-    Console.WriteLine("Book title - {0}, First author {1}", 
+    Console.WriteLine("Book title - {0}, First author {1}",
                             x.Book.Title, x.Author.FirstName);
 ```
 

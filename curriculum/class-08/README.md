@@ -1,4 +1,4 @@
-# Class 08: Collections
+# Class 08: Collections & Enums
 
 ## Learning Objectives
 1. The student will understand and implement their own enums into their programs and classes.
@@ -13,68 +13,65 @@
 ### Enums
 
 1. What are enums?
-   - Enumeration types ("also called enums"), provide an 
-   efficient way to define a set of named integral constants that may be assigned 
-   to a variable. 
+   - Enumeration types ("also called enums"), provide an efficient way to define a set of named integral constants that may be assigned to a variable.
 
-```csharp
-            enum Days 
-            { 
-                Sunday,
-                Monday, 
-                Tuesday, 
-                Wednesday, 
-                Thursday, 
-                Friday, 
-                Saturday 
-            };
+   ```csharp
+   enum Days
+   {
+      Sunday,
+      Monday,
+      Tuesday,
+      Wednesday,
+      Thursday,
+      Friday,
+      Saturday
+   };
 
-            enum Months : byte 
-            { 
-                Jan, 
-                Feb, 
-                Mar, 
-                Apr, 
-                May, 
-                Jun, 
-                Jul, 
-                Aug, 
-                Sep, 
-                Oct, 
-                Nov, 
-                Dec 
-            }; 
-```
+   enum Months : byte
+   {
+      Jan,
+      Feb,
+      Mar,
+      Apr,
+      May,
+      Jun,
+      Jul,
+      Aug,
+      Sep,
+      Oct,
+      Nov,
+      Dec
+   };
+   ```
 
-   - Count starts at 0, if you do not specify a value. 
+   - Count starts at 0, if you do not specify a value.
    - default type of enum is int, but you can specify alt with a :type (such as byte);
 
-```csharp
-            Days today = Days.Monday;  
-            int dayNumber =(int)today;  
-            Console.WriteLine("{0} is day number #{1}.", today, dayNumber);  
+   ```csharp
+    Days today = Days.Monday;
+    int dayNumber =(int)today;
+    Console.WriteLine("{0} is day number #{1}.", today, dayNumber);
 
-            Months thisMonth = Months.Dec;  
-            byte monthNumber = (byte)thisMonth;  
-            Console.WriteLine("{0} is month number #{1}.", thisMonth, monthNumber);  
+    Months thisMonth = Months.Dec;
+    byte monthNumber = (byte)thisMonth;
+    Console.WriteLine("{0} is month number #{1}.", thisMonth, monthNumber);
 
-            // Output:  
-            // Monday is day number #1.  
-            // Dec is month number #11.  
+    // Output:
+    // Monday is day number #1.
+    // Dec is month number #11.
+   ```
 
-```
+    - You can create and set your custom values
 
-            - You can create and set your custom values
-
- ```csharp
-            enum MachineState
-            {
-                PowerOff = 0,
-                Running = 5,
-                Sleeping = 10,
-                Hibernating = Sleeping + 5
-            }
-```
+    ```csharp
+    enum MachineState
+    {
+        PowerOff = 0,
+        Running = 5,
+        Sleeping = 10,
+        Hibernating = Sleeping + 5
+    }
+   ```
 
 ### Collections
 
@@ -95,7 +92,7 @@ A collection is a class, so you must declare an instance of the class before you
 	};
 ```
 
-```csharp 
+```csharp
     var princesses = new List<string>();
     princesses.Add("Snow White");
     princesses.Add("Cinderella");

@@ -10,8 +10,9 @@ namespace LINQDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            // BasicLINQ();
-            GroupingBy();
+            BasicLINQ();
+            MethodCalls();
+            // GroupingBy();
         }
 
         static void BasicLINQ()
@@ -47,9 +48,10 @@ namespace LINQDemo
                          select new { person.FirstName, person.LastName };
 
             // Filtering
-            var filterr = from person in persons
+            // Note the anonymous object here has custom key names
+            var filter = from person in persons
                           where person.Age > 21
-                          select new { person.FirstName, person.LastName };
+                          select new { fn = person.FirstName, ln = person.LastName };
 
             // sorting
             var sorting = from person in persons
@@ -93,10 +95,10 @@ namespace LINQDemo
                         .OrderByDescending(person => person.Age)
                         .Select(person => new { person.FirstName, person.LastName });
 
-            // technically, select can be present anywhere in a method call. 
-            // methods execute in the order they are listed though...so be careful with ordering. 
+            // technically, select can be present anywhere in a method call.
+            // methods execute in the order they are listed though...so be careful with ordering.
 
-            // in query syntax...select is required, a method calls, the select statemetn is not requried if no modifications are being done. 
+            // in query syntax...select is required, a method calls, the select statemetn is not requried if no modifications are being done.
 
             var noSelect = persons.Where(person => person.Age > 21);
 
@@ -163,7 +165,7 @@ namespace LINQDemo
 
         static void Performance()
         {
-            // Deferred Execution = 
+            // Deferred Execution =
             /*
              * Deffered execution is when items are not loaded up until they are needed. This distributes the perforamce across the whole traversal and not all at once (foreach loop)
              */
@@ -173,7 +175,7 @@ namespace LINQDemo
 
 
             // .WHERE does not execute unit we access it in a loop
-            // .SUM() executes immediatly. 
+            // .SUM() executes immediatly.
             var list = new List<int> { 1, 2, 3, 4, 5 };
             var sum = list.Sum(); // executes immediatly
         }
