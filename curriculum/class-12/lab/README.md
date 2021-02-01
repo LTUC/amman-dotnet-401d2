@@ -14,6 +14,15 @@ Don't forget to use the class demo code as an example of how to structure specif
 
 Let's begin...
 
+## Reference Material
+
+[Demo Build Checklist](../resources/ef-web-app.md)
+
+Async Inn ERD:
+
+![Async Inn ERD](./async-inn-erd.png)
+
+
 ## Application Specifications
 
 ### Startup File

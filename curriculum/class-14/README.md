@@ -1,22 +1,23 @@
-# Class 14
+# Navigation Properties and Routing
+
+Description Here
 
 ## Learning Objectives
-1. A student will be able to understand and use Taghelpers within a ASP.NET Core web application. 
-1. Students can quickly and scaffold out a controller using EFCore templating
-1. Students will be able to seed the database with default data 
 
-## Lecture Outline
+### Students will be able to
 
-Hour 1:
-1. Scaffold a Controller
-1. Review the pre-created code.
-1. Add data to the DB from a user form
+#### Describe and Define
 
-Hour 2:
-1. Data Annotations
-1. Seed the database
+- A
+- B
+- C
 
-Hour 3:
-1. Turn an enum into a DDL
-1. Layouts
+#### Execute
 
+- A
+- B
+- C
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->
