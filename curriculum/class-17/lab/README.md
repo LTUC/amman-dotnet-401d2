@@ -1,21 +1,17 @@
-# Lab 19: Finish up the app
+# Lab: Testing and Swagger and Deployment
 
-## The Problem Domain
-
-Review your current project and ensure the following is met:
+Bring your current AsyncInn project "up to spec"
 
 1. Summary Comments on all services and interfaces
-2. Test at least 2 services to ensure the CRUD operations work as expected
-3. Deploy the app to Azure
-4. Test your routes on Postman to confirm you are getting the correct data
+1. Add Swagger Documentation
+1. Test at least 2 services to ensure the CRUD operations work as expected
+   - Have your tests running in automated fashion at GitHub, using Actions
+1. Deploy the app to Azure
+1. Test your routes on Postman as well as Swagger to confirm you are getting the correct data
 
+## Submission Notes:
 
-## Stretch Goals
-
-1. Add "personal profiles" for each agent
-2. Allow agents to "favorite" hotels for quick access
-
-
+> Provide a LIVE (Deployed) link to your app running at Azure, with the Swagger Docs as the home page. We will use this to make our grading assertions on your routes.
 ## README
 
 **A Readme is a requirement. No Readme == No Grade.**
