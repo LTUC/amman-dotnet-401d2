@@ -1,12 +1,22 @@
-# Class 16
+# Data Transfer Objects (DTOs)
+
+Data Transfer Objects allow us to adhere to stricter and more curated data contract between the client code and the API.
 
 ## Learning Objectives
-1. The student will learn about dependency injection and when to use it
-1. The still will learn and implement the repository architectural pattern within their code base to keep the web app loosely coupled. 
 
+### Students will be able to
 
-## Lecture Outline
-1. Dependency Injection
-   - Dependency Injection is extremely useful and important when loosely coupling dependencies within our code base. Dependency Injection allows us to work directly with the service provider and incorporate third parties without the fear of tightly coupling them into the web application. 
-1. Repository Design Pattern
-   - The repository architectural design pattern has slowly become more and more popular over the past few years. This pattern allows us to implement a layer of abstraction into our code base to not repeat basic operations such as CRUD to ensure we are meeting the basic functionality needs. This pattern is showcased through interfaces and services. 
+#### Describe and Define
+
+- Why DTOs are necessary
+- What problems DTOs solve
+- The proper wiring of inbound and outbound DTOs
+
+#### Execute
+
+- Apply an outbound DTO to a complex API route, that involves joined data
+- Apply an inbound DTO to a POST route that affects multiple tables
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->

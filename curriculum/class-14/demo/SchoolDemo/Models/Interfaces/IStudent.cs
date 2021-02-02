@@ -24,5 +24,8 @@ namespace SchoolDemo.Models.Interfaces
     // Delete
     Task Delete(int id);
 
+    // Add Grade
+    Task AddGradeToTranscript(int studentId, Transcript grade);
+
   }
 }

@@ -1,15 +1,13 @@
-# Lab 16: DTOs and Testing
+# Lab 16: Data Transfer Objects (DTOs)
 
 ## The Problem Domain
 
 Add onto your current Async Inn application by cleaning up input and outputs of your controllers to be DTOs.
 
-In addition, add tests to a single service. If you have time, test the other services.
-
 Hint: Order you should consider building your DTOs:
-DTOs stand for data trasfer objects
+DTOs stand for data transfer objects
 
-1. Amentities,
+1. Amenities,
 2. Rooms
 3. HotelRooms
 4. Hotels
@@ -218,7 +216,7 @@ Create DTOs that will be accepted and returned to the user:
 
 ## Unit Tests
 
-Test one of your services. only test the basic CRUD operations
+Not Required.
 
 ## Stretch Goals
 
@@ -237,7 +235,6 @@ Your job is to
 1. show them what it looks like in action (Visuals)
 1. show them how they use it (Step by step directions, "Happy Path" walk through)
 1. tell them any other relevant details
-<br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 

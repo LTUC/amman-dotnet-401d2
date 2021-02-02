@@ -1,21 +1,36 @@
-# Lab 17: Identity
+# Lab: Testing and Swagger and Deployment
 
-## Assignment Specifications
+Bring your current AsyncInn project "up to spec"
 
-Building off of your Async Inn API, integrate identity by completing the following:
+1. Summary Comments on all services and interfaces
+1. Add Swagger Documentation
+1. Test at least 2 services to ensure the CRUD operations work as expected
+   - Have your tests running in automated fashion at GitHub, using Actions
+1. Deploy the app to Azure
+1. Test your routes on Postman as well as Swagger to confirm you are getting the correct data
 
-1. Create an Applicaiton User `ApplicationUser:IdentityUser`
-2. Update your `DbContext` to derive from `IdentityDbContext<ApplicationUser>
-3. Update your database to integrate in the Identity database tables
-4. Register Identity into your Startup file `services.AddIdentity....`
-5. Create an Account Controller and add both Register and Login actions
-6. Confirm that you can register a user successfully in the database
-7. Confirm that you can login with the credentials of an existing user
+## Submission Notes:
 
-
+> Provide a LIVE (Deployed) link to your app running at Azure, with the Swagger Docs as the home page. We will use this to make our grading assertions on your routes.
 ## README
 
-Update your README with description of what identity is.
+**A Readme is a requirement. No Readme == No Grade.**
+Here are the requirements for a valid readme:
+
+A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+
+Your job is to
+
+1. Tell them what it is (with context, provide a summary)
+1. Show them what it looks like in action (Visuals)
+1. Show them how they use it (Step by step directions, "Happy Path" walk through)
+1. Tell them any other relevant details
+<br />
+
+This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+
+Refer to the README templates in the class repo `Resources` folder for an example.
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 
 ## Rubric
@@ -24,7 +39,7 @@ The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
 
 ## To Submit this Assignment
 
-- Create a new branch named `NAME-Lab#` in your `AsyncInn` repository
+- Create a new branch named `NAME-ASyncFinal` in your `AsyncInn` repository
 - Write your code
 - Commit often
 - Push to your repository

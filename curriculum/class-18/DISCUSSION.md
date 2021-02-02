@@ -1,4 +1,4 @@
-# Readings: Claims and JWT tokens
+# Readings: Intro to Identity
 
 ## Submission Requirements
 
@@ -8,6 +8,5 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Claims-Based auth](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.1){:target="_blank"} 
-1. [Intro to Claims](https://andrewlock.net/introduction-to-authentication-with-asp-net-core/){:target="_blank"} 
-1. [JWT Authentication](https://codeburst.io/jwt-to-authenticate-servers-apis-c6e179aa8c4e){:target="_blank"} 
+1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"} 
+1. [Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html){:target="_blank"}

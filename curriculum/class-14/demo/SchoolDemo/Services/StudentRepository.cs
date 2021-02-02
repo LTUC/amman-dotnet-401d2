@@ -75,5 +75,19 @@ namespace SchoolDemo.Services
     }
 
 
+    public async Task AddGradeToTranscript(int studentId, Transcript grade)
+    {
+      var transcript = new Transcript
+      {
+        StudentId = studentId,
+        CourseId = grade.CourseId,
+        Grade = grade.Grade,
+        Passed = (int)grade.Grade >= 3
+      };
+
+      _context.Transcripts.Add(transcript);
+      await _context.SaveChangesAsync();
+    }
+
   }
 }

@@ -1,12 +1,32 @@
-# Class 17
+# Testing and Swagger and Deployment
 
 ## Learning Objectives
 
-1. A student will learn how to test methods within services of an MVC web application
-1. A student will know how to utilize view models when searching and sorting data.
+### Students will be able to
 
-## Lecture Outline
+#### Describe and Define
 
-1. Review the Repository Architectural design pattern
-1. Testing in XUnit our Interfaces
-1. Follow the reading tutorial of View Models and Search/Filtering
+- Test Mocks (What, Why)
+- Swagger Documentation
+- The Cloud
+
+#### Execute
+
+- Write CRUD tests using services
+- Deploy an application to Azure
+- Generate "living" documentation with Swagger
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->
+
+
+## NOTES
+
+### Swagger
+
+The [Swagger Quickstart](./resources/swagger-quickstart.md) will provide some basic steps help us to create live documentation using Swagger definitions.
+
+The [Testing Example](./resources/api-testing.md) will provide some starter code to get your testing started
+
+The [AzureDeployment](./resources/azure-deployment.md) notes will assist you in getting your API up and running in the cloud

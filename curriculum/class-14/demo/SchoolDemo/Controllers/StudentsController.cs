@@ -73,5 +73,13 @@ namespace SchoolDemo.Controllers
       await _student.Delete(id);
       return NoContent();
     }
+
+    // POST api/Students/5/Grades
+    [HttpPost("{studentId}/Grades")]
+    public async Task<ActionResult<Transcript>> AddGradeToTranscript(int studentId, [FromBody] Transcript transcript)
+    {
+      await _student.AddGradeToTranscript(studentId, transcript);
+      return Ok();
+    }
   }
 }

@@ -1,63 +1,21 @@
-# Lab 18: Roles
+# Lab 17: Identity
 
-## The Problem Domain
+## Assignment Specifications
 
-Keep building off of your Async Inn and add roles to your app
+Building off of your Async Inn API, integrate identity by completing the following:
 
-## Application Specifications
+1. Create an Applicaiton User `ApplicationUser:IdentityUser`
+2. Update your `DbContext` to derive from `IdentityDbContext<ApplicationUser>
+3. Update your database to integrate in the Identity database tables
+4. Register Identity into your Startup file `services.AddIdentity....`
+5. Create an Account Controller and add both Register and Login actions
+6. Confirm that you can register a user successfully in the database
+7. Confirm that you can login with the credentials of an existing user
 
-Add 3 new roles to your application with the following permissions:
-
-1. District Manager
-- District manager can do full CRUD operations on all Hotel, HotelRoom, Room, and Amenity entities.
-- The district manager can create accounts for all other roles
-2. Property Manager
-- Property Manager's can add/update/read new HotelRooms to hotels, and amenities to rooms. A property manager cannot create new room entities or hotel entities.
-- The property manager can only create accounts for Agents
-3. Agent
-- An agent can only update/read a HotelRoom and add/delete amenities to rooms
-4. Anonymous users
-- anonymous users can only view all GET routes
-
-All routes should be locked down to Authorize. Override the `[AllowAnonymous]`on the appropriate routes for anonymous users.
-
-The District Manager and Property
-
-## Guidance
-1. Be sure to seed your roles into the database
-2. Seed in a default district manager account into your database
-3. Use the JWT token setup to return a JWT token after every login.
-4. Test your routes through Postman
-
-## Unit Tests
-1. Write tests for at least one service, covering all the public methods.
-
-## Stretch Goals
-- Test more services
-- add additional permissions/routes onto your controllers for additional functionality.
-
-## Additional Resources
-- There are no additional resources provided for this assignment.
 
 ## README
 
-**A Readme is a requirement. No Readme == No Grade.**
-Here are the requirements for a valid readme:
-
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-
-Your job is to
-
-1. Tell them what it is (with context, provide a summary)
-1. Show them what it looks like in action (Visuals)
-1. Show them how they use it (Step by step directions, "Happy Path" walk through)
-1. Tell them any other relevant details
-<br />
-
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
-
-Refer to the README templates in the class repo `Resources` folder for an example.
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
+Update your README with description of what identity is.
 
 
 ## Rubric
@@ -66,7 +24,7 @@ The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
 
 ## To Submit this Assignment
 
-- Create a new branch named `NAME-AsyncFinal` in your `AsyncInn` repository
+- Create a new branch named `NAME-Lab#` in your `AsyncInn` repository
 - Write your code
 - Commit often
 - Push to your repository
