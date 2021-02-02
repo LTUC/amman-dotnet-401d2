@@ -1,12 +1,30 @@
-# Class 19: Review
+# Class 18: Roles
 
 ## How do I prep for today?
 
+
 ## Lecture
-1. Review the week and wrap up any lingering questions for Async Inn
+1. Code Review
+- Review identity and implement login/register if you were not able to finish it from the day before
+
+**Claims**
+- Why
+- What
+- How
+
+**Roles**
+- **Why/What/How**
+	- see `roles.md`
+
+**Policies**
+- **Why/What/How**
+	- see `policies.md`
 
 
-## Lab Notes
+## What changed from yesterday? 
 
+## What might students struggle with today?  
+
+## What bugs, issues, or surprises have come up in the past for this class?
 
 ## General comments

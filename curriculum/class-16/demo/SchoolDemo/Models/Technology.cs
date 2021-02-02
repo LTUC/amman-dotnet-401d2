@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolDemo.Models
 {
-  public class Grade
+  public class Technology
   {
     public int Id { get; set; }
     [Required]

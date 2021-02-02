@@ -6,46 +6,59 @@ using SchoolDemo.Data;
 using SchoolDemo.Models;
 using SchoolDemo.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using SchoolDemo.Models.Api;
 
 namespace SchoolDemo.Services
 {
   public class StudentRepository : IStudent
   {
     private SchoolDbContext _context;
+    private ICourse _courses;
 
-    public StudentRepository(SchoolDbContext context)
+    public StudentRepository(SchoolDbContext context, ICourse courseService)
     {
       _context = context;
+      _courses = courseService;
     }
-    public async Task<Student> Create(Student student)
+    public async Task<Student> Create(NewStudentDto inboundData)
     {
+
+      // Add the student
+      Student student = new Student()
+      {
+        FirstName = inboundData.Name.Split(" ").First<string>(),
+        LastName = inboundData.Name.Split(" ").Last<string>(),
+        DateOfBirth = inboundData.Dob
+      };
+
       _context.Entry(student).State = Microsoft.EntityFrameworkCore.EntityState.Added;
       await _context.SaveChangesAsync();
+
+      // Use the Courses Service to get a course from the course service
+      Course course = await _courses.GetOneByCourseCode(inboundData.CourseCode);
+
+      // Use the Courses Service to add an enrollment for the student and course
+      await _courses.AddStudent(course.Id, student.Id);
+
       return student;
     }
 
-    public async Task<Student> GetOne(int id)
+    public async Task<StudentDto> GetOne(int id)
     {
 
-      // Better With LINQ!
       return await _context.Students
-               .Include(s => s.Enrollments)
-               .ThenInclude(e => e.Course)
-               .Include(s => s.Transcripts)
-               .ThenInclude(t => t.Course)
-               .FirstOrDefaultAsync(s => s.Id == id);
-
-
-      // Manually Tying it Together ...
-      /*
-      Student student = await _context.Students.FindAsync(id);
-      var enrollments = await _context.Enrollments.Where(x => x.StudentId == id)
-                                             .Include(x => x.Course)
-                                             .ToListAsync();
-      student.Enrollments = enrollments;
-
-      return student;
-      */
+          .Select(student => new StudentDto
+          {
+            Id = student.Id,
+            FirstName = student.FirstName,
+            LastName = student.LastName,
+            Grades = student.Transcripts
+              .Select(t => new StudentGradeDto
+              {
+                CourseCode = t.Course.CourseCode,
+                Grade = t.Grade.ToString(),
+              }).ToList()
+          }).FirstOrDefaultAsync(s => s.Id == id);
 
     }
 
@@ -69,9 +82,9 @@ namespace SchoolDemo.Services
 
     public async Task Delete(int id)
     {
-      Student student = await GetOne(id);
-      _context.Entry(student).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
-      await _context.SaveChangesAsync();
+      // Student student = await GetOne(id);
+      // _context.Entry(student).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+      // await _context.SaveChangesAsync();
     }
 
 

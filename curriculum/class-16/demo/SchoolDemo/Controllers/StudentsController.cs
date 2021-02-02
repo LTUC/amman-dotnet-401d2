@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SchoolDemo.Data;
 using SchoolDemo.Models;
+using SchoolDemo.Models.Api;
 using SchoolDemo.Models.Interfaces;
 
 namespace SchoolDemo.Controllers
@@ -31,9 +32,9 @@ namespace SchoolDemo.Controllers
 
     // GET: api/Students/5
     [HttpGet("{id}")]
-    public async Task<ActionResult<Student>> GetStudent(int id)
+    public async Task<ActionResult<StudentDto>> GetStudent(int id)
     {
-      Student student = await _student.GetOne(id);
+      StudentDto student = await _student.GetOne(id);
       return student;
     }
 
@@ -58,12 +59,12 @@ namespace SchoolDemo.Controllers
     // To protect from overposting attacks, enable the specific properties you want to bind to, for
     // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
     [HttpPost]
-    public async Task<ActionResult<Student>> PostStudent(Student student)
+    public async Task<ActionResult<Student>> PostStudent(NewStudentDto student)
     {
-      await _student.Create(student);
+      Student newStudent = await _student.Create(student);
       // Returns a 201 Header
       // The body will be the result of calling GetStudent with the id
-      return CreatedAtAction("GetStudent", new { id = student.Id }, student);
+      return CreatedAtAction("GetStudent", new { id = newStudent.Id }, newStudent);
     }
 
     // DELETE: api/Students/5

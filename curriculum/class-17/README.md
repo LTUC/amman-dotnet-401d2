@@ -1,12 +1,17 @@
-# Class 17
+# Class 19
 
 ## Learning Objectives
-
-1. A student will learn how to test methods within services of an MVC web application
-1. A student will know how to utilize view models when searching and sorting data.
+1. The student will learn how to use join tables in association with APIs.
+1. The student will learn how to test HTTP status codes within an API.
 
 ## Lecture Outline
 
-1. Review the Repository Architectural design pattern
-1. Testing in XUnit our Interfaces
-1. Follow the reading tutorial of View Models and Search/Filtering
+1. Code Review
+   - What is an API?
+   - What does REST stand for?
+   - When someone says an API is RESTful, what does that mean?
+1. Build off of yesterday's code
+   - Add a 2nd controller
+1. Test APIs
+   - Demonstrate how to test api endpoints
+   

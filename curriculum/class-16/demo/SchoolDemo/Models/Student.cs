@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace SchoolDemo.Models
 {
-  public class Course
+  public class Student
   {
     public int Id { get; set; }
     [Required]
-    public string CourseCode { get; set; }
-    public int TechnologyId { get; set; }
-    public float Price { get; set; }
+    public string FirstName { get; set; }
+    [Required]
+    public string LastName { get; set; }
+    public DateTime DateOfBirth { get; set; }
 
     public List<Enrollment> Enrollments { get; set; }
-
-    public Technology Technology { get; set; }
-
+    public List<Transcript> Transcripts { get; set; }
   }
 }

@@ -5,21 +5,21 @@ using System.Threading.Tasks;
 
 namespace SchoolDemo.Models.Interfaces
 {
-  public interface IGrade
+  public interface ITechnology
   {
     // Create
-    Task<Grade> Create(Grade grade);
+    Task<Technology> Create(Technology technology);
 
     // Read
 
     // Get all
-    Task<List<Grade>> GetAll();
+    Task<List<Technology>> GetAll();
 
     // Get one by id
-    Task<Grade> GetOne(int id);
+    Task<Technology> GetOne(int id);
 
     // Update
-    Task<Grade> Update(int id, Grade grade);
+    Task<Technology> Update(int id, Technology technology);
 
     // Delete
     Task Delete(int id);
