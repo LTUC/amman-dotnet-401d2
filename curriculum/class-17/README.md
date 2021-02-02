@@ -1,17 +1,32 @@
-# Class 19
+# Testing and Swagger and Deployment
 
 ## Learning Objectives
-1. The student will learn how to use join tables in association with APIs.
-1. The student will learn how to test HTTP status codes within an API.
 
-## Lecture Outline
+### Students will be able to
 
-1. Code Review
-   - What is an API?
-   - What does REST stand for?
-   - When someone says an API is RESTful, what does that mean?
-1. Build off of yesterday's code
-   - Add a 2nd controller
-1. Test APIs
-   - Demonstrate how to test api endpoints
-   
+#### Describe and Define
+
+- Test Mocks (What, Why)
+- Swagger Documentation
+- The Cloud
+
+#### Execute
+
+- Write CRUD tests using services
+- Deploy an application to Azure
+- Generate "living" documentation with Swagger
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->
+
+
+## NOTES
+
+### Swagger
+
+The [Swagger Quickstart](./resources/swagger-quickstart.md) will provide some basic steps help us to create live documentation using Swagger definitions.
+
+The [Testing Example](./resources/api-testing.md) will provide some starter code to get your testing started
+
+The [AzureDeployment](./resources/azure-deployment.md) notes will assist you in getting your API up and running in the cloud

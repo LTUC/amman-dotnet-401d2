@@ -1,4 +1,4 @@
-# Class 19: Testing and Swagger and Deployment
+# Readings: Testing and Swagger and Deployment
 
 ## Submission Requirements
 
