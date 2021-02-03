@@ -27,7 +27,6 @@ Todays demo will be done workshop style, so ensure that the students have access
 
 You'll find this in the `demo` folder under `workshop-starter-code`
 
-As you will do, have the students create a new repository and copy the demo files there, as you'll be deploying from this repo to Azure
 
 ## Lecture Outline
 

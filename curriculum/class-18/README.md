@@ -1,12 +1,23 @@
-# Class 17
+# Identity
+
+Description Here
 
 ## Learning Objectives
 
-1. A student will learn how to test methods within services of an MVC web application
-1. A student will know how to utilize view models when searching and sorting data.
+### Students will be able to
 
-## Lecture Outline
+#### Describe and Define
 
-1. Review the Repository Architectural design pattern
-1. Testing in XUnit our Interfaces
-1. Follow the reading tutorial of View Models and Search/Filtering
+- Registration and Authentication Processes
+- Password Hashing
+- Use of Inbound and Outbound DTOs for state transfer
+- Microsoft Identify Framework Basics
+
+#### Execute
+
+- Register and Login Routes
+- Wiring up Identity Core
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->

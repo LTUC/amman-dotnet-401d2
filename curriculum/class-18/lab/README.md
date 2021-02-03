@@ -1,4 +1,4 @@
-# Lab 17: Identity
+# Lab: Identity
 
 ## Assignment Specifications
 
@@ -15,7 +15,9 @@ Building off of your Async Inn API, integrate identity by completing the followi
 
 ## README
 
-Update your README with description of what identity is.
+Update your README with description of what identity is and attach a full report (including images) explaining the process flow surrounding User Registration and Login
+
+This should be conceptual (steps followed) as well as practical (UML)
 
 
 ## Rubric

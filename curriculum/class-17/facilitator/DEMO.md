@@ -2,7 +2,24 @@
 
 Use this document to describe the demo(s). Generally, this is going to take the format of either how to build the demo step by step, or less specifically, talking points surrounding the outcomes of the demo segment and code snippets to highlight.
 
-## Tests
+## A Workshop in 3 Parts ...
+
+Be sure and push the contents of the `workshop-starter-code` to a new repository today. You'll be iterating from there, and demonstrating the proper means of deploying and testing from a bespoke repository.
+
+In today's demos, we'll be backing up each lecture segment with live code, workshop style.
+
+You can run these demos in one of 3 ways:
+
+1. Code it out as you normally would, allowng the students to watch and take notes
+1. Code it slowly, workshop style, allowing the students to follow along with you.
+   - You might want to provide them the "resources" code ahead of time to facilitate typos
+1. For each segment, select a different student to pair program with, and navigate them.
+   - This is highly interactive and instructive
+
+If you choose option 3, remember that each student has gotten the same, working starter code, so there's no fear of bugs. Additionally, these segments don't depend on one another, so any student starting from scratch with you can pair with you.
+
+
+## Testing
 
 Questions:
 
