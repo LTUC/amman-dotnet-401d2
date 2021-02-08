@@ -1,34 +1,23 @@
-# Class 18
+# Roles, Claims and JWT Tokens
+
+Description Here
 
 ## Learning Objectives
-1. A student will know and understand the usage of environmental variables within a web application and production environment.
-1. A student will know how to migrate a local database to production using web deploy in Azure.
-1. A student will learn and understand what an API is and how to use them within an application.
 
-## Lecture Outline
+### Students will be able to
 
-1. User Secrets
-   - Utulizing Environmental variables to store secrets for the web app.
-1. Deployment to Azure
-   - Refer to the resources folder of this GH repo for instructions on how to deploy to Azure.
-1. Intro to Web APIs
-   - What is an API?
-   - Why do we use them?
-   - What are status codes?
+#### Describe and Define
 
+- Authorization
+  - 3 LEvels
+- Role Based Access Control
+- Claims
+- Policies
 
-### Status Codes
-- 200 - OK
+#### Execute
 
-- 300 - Redirect
+- Implement RBAC using JWT, Roles, Claims, and Policies
 
-- 400 - Client Error
+## Today's Outline
 
-- 500 - Server Error
-
-
-### HTTP Verbs
-- GET - Retrieve an item
-- POST - Add/Save a resource
-- PUT - Update a resource
-- DELETE - Remove a resource
+<!-- To Be Completed By Instructor -->

@@ -7,6 +7,7 @@ using SchoolDemo.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace SchoolDemo.Services
@@ -14,10 +15,12 @@ namespace SchoolDemo.Services
   public class IdentityUserService : IUserService
   {
     private UserManager<ApplicationUser> userManager;
+    private JwtTokenService tokenService;
 
-    public IdentityUserService(UserManager<ApplicationUser> manager)
+    public IdentityUserService(UserManager<ApplicationUser> manager, JwtTokenService jwtTokenService)
     {
       userManager = manager;
+      tokenService = jwtTokenService;
     }
 
     public async Task<UserDto> Register(RegisterUser data, ModelStateDictionary modelState)
@@ -34,10 +37,14 @@ namespace SchoolDemo.Services
 
       if (result.Succeeded)
       {
+        // Because we have a "Good" user, let's add them to their proper role
+        await userManager.AddToRolesAsync(user, data.Roles);
         return new UserDto
         {
           Id = user.Id,
-          Username = user.UserName
+          Username = user.UserName,
+          Token = await tokenService.GetToken(user, System.TimeSpan.FromMinutes(15)),
+          Roles = await userManager.GetRolesAsync(user)
         };
       }
 
@@ -56,6 +63,11 @@ namespace SchoolDemo.Services
 
     }
 
+    private TimeSpan TimeSpan(object p)
+    {
+      throw new NotImplementedException();
+    }
+
     public async Task<UserDto> Authenticate(string username, string password)
     {
       var user = await userManager.FindByNameAsync(username);
@@ -66,11 +78,26 @@ namespace SchoolDemo.Services
         {
           Id = user.Id,
           Username = user.UserName,
+          Token = await tokenService.GetToken(user, System.TimeSpan.FromMinutes(15)),
+          Roles = await userManager.GetRolesAsync(user)
         };
       }
 
       return null;
     }
+
+    // Use a "claim" to get a user
+    public async Task<UserDto> GetUser(ClaimsPrincipal principal)
+    {
+      var user = await userManager.GetUserAsync(principal);
+      return new UserDto
+      {
+        Id = user.Id,
+        Username = user.UserName,
+        Roles = await userManager.GetRolesAsync(user)
+      };
+    }
+
 
   }
 }
