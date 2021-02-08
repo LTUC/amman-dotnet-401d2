@@ -1,7 +1,5 @@
 # User Stories
 
-Create at least 10 user stories in VSTS, 
-divided amongst your two applications. 
 
 
 ## What are User Stories?
@@ -15,7 +13,7 @@ divided amongst your two applications.
 - **Valuable** to users or Customers: a user story must deliver value to the end user
 - **Estimable**: You must always be able to estimate the size of a user story.
 - **Small**: User stories should not be so big as to become impossible to plan/task/prioritize  with a certain level of certainty
-- **Testable**: the user story or it's related description must provide the necessary information to make test development possible. 
+- **Testable**: the user story or it's related description must provide the necessary information to make test development possible.
 
 ## What Does It Look like?
 - "As a \<role>, I want \<goal> so that \<benefit>" ("so that ..." is optional if no explanation is needed)
