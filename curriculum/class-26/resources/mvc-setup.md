@@ -1,6 +1,6 @@
 # Default MVC Application
 
-Below are the directions to scaffold out a bare minimum MVC project for class 11. Each project you create will be different given the problem domain, but most of them should start with these steps to get started.
+Below are the directions to scaffold out a stock/core MVC project.
 
 ## Set-Up
 
@@ -18,7 +18,7 @@ app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
-	endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");	
+	endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
 });
 ```
 
@@ -44,13 +44,10 @@ app.UseEndpoints(endpoints =>
 1. Create a new .cshtml page in the Home folder that you just created
 	a. Right click on Home Folder
 	b. Add -> New Item ->
-	c. search for "View" 
+	c. search for "View"
 	d. select "Razor View"
 	e. Name the View the same page as your action (Keep it Index for this example)
 1. Add Text to your Index.cshtml file
 1. Run the app and make sure it loads your Home page.
 1. If it runs -> YAAY!, if not troubleshoot steps 1-21.
 
-### Next Steps
-
-Your next steps are to add the appropriate additional routes and view pages given the problem domain of the lab.

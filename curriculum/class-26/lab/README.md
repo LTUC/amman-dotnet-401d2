@@ -1,10 +1,10 @@
-# Lab 26: Sprint 1 - Milestone 1 MVC
+# Ecommerce Sprint 1 - Milestone 1 MVC
 
 Work together with your partner(s) to complete this lab.
 
 ## Instructions:
 
-Buid out an application that has the folowing pages:
+Build out an application that has the folowing pages:
 
 1. Home Page
 1. Products Page
