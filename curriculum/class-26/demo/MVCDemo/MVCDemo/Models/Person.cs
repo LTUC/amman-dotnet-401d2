@@ -11,4 +11,5 @@ namespace MVCDemo.Models
     public string Name { get; set; }
     public string Advice { get; set; }
   }
+
 }

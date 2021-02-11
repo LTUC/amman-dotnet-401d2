@@ -30,8 +30,8 @@ The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
 - Write your code
 - Commit often
 - Push to your repository
-- Create a pull request from your branch back your `master` branch.
+- Create a pull request from your branch back your `main` branch.
 - Submit a link to your PR in Canvas
-- Merge your PR back into master
+- Merge your PR back into main
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)

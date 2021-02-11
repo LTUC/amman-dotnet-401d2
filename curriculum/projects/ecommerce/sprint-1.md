@@ -8,7 +8,7 @@ You will only have 48 hours from the initial due date of this sprint to submit y
 
 Re-Submits for this sprint will only be accepted upon evaluation of sprint 2:
 
-For example, Your team received feedback that you need to fix an error in one or two of your milestones. Instead of doing a submission and pushing to master halfway through your sprint 2, you will be required to **explicitly** tell your grader what you want them to regrade from sprint 1 when you submit for sprint 2. You will not be able to do any additional "resubmits" for sprint 1 once sprint 2 is due and graded. Plan accordingly.
+For example, Your team received feedback that you need to fix an error in one or two of your milestones. Instead of doing a submission and pushing to main halfway through your sprint 2, you will be required to **explicitly** tell your grader what you want them to regrade from sprint 1 when you submit for sprint 2. You will not be able to do any additional "resubmits" for sprint 1 once sprint 2 is due and graded. Plan accordingly.
 
 You will each individually submit the following into Canvas as a text entry:
 
@@ -18,7 +18,7 @@ You will each individually submit the following into Canvas as a text entry:
     - What you will do differently next sprint
 3. Do you need anything from the instructional staff? (these comments are confidential and only shared with instructional staff)
 
-The instructional staff will review your current master branch in Azure Dev Ops and evaluate you based on the rubric below.
+The instructional staff will review your current main branch in Azure Dev Ops and evaluate you based on the rubric below.
 
 **Only push to main on sprint check-ins**
 
