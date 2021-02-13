@@ -1,4 +1,28 @@
-# Class 33: IEmailSender/Sendgrid
+# IEmailSender/Sendgrid
+
+One of the more basic functions web applications must adopt is the ability to send emails to users, or allow users to email the site owners (for example, a "Contact Us" form)
+
+Traditionally, servicing emails is very hard to setup on the server side, but many providers, such as **Sendgrid** have made this process far less painful for software developers to plug into with easy to use SDKs
+
+## Learning Objectives
+
+### Students will be able to
+
+#### Describe and Define
+
+- The process by which emails are sent
+- SendGrid's email workflow
+
+#### Execute
+
+- Sending emails using the Sendgrid API
+- Customizing emails with templates
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->
+
+
 
 ## Learning Objectives
 1. Students will learn about generating and sending emails from their site.

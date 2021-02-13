@@ -1,4 +1,4 @@
-# Class 33: Emails
+# Facilitators Guide: IEmailSender/Sendgrid
 
 ## How do I prep for today?
 1. Review he SendGrid documentation. Pre-create an account and make sure that everything works for you beforehand
@@ -17,13 +17,13 @@
    - Setup [SendGrid](email.md)
      - Note - we only use SendGrid as an option, there are many many others!
 
-## What changed from yesterday? 
+## What changed from yesterday?
 Still building off of demos from prior days
 
-## What might students struggle with today?  
-Getting SendGrid setup in their Azure Accoutn and getting emails to send. 
+## What might students struggle with today?
+Getting SendGrid setup in their Azure Accoutn and getting emails to send.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
-see above. 
+see above.
 
 ## General comments

@@ -1,4 +1,4 @@
-# Readings: Razor Pages
+# Readings: Authentication, Authorization, Cookies
 
 ## Submission Requirements
 
@@ -8,11 +8,11 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-2.2&tabs=visual-studio){:target="_blank"} 
-- [Intro to Razor Pages (~60min)](https://www.youtube.com/watch?v=yyBijyCI5Sk){:target="_blank"}
-- [Razor Pages](https://gunnarpeipman.com/aspnet/razor-pages/){:target="_blank"}
-- [Getting started with Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1){:target="_blank"}
-- [Razor Pages vs MVC](https://jonhilton.net/razor-pages-or-mvc-a-quick-comparison/){:target="_blank"}
+- [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies){:target="_blank"}
+- [HTTP Cookies Explained](https://humanwhocodes.com/blog/2009/05/05/http-cookies-explained/){:target="_blank"}
 
+### Predict ...
+
+How can use cookies in our web application in a similar manner to how we used Bearer Tokens to make direct API calls?
 
 

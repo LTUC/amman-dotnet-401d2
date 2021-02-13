@@ -1,4 +1,4 @@
-# Readings: OAUTH
+# Readings: Sendgrid
 
 ## Submission Requirements
 
@@ -8,5 +8,5 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [OAUTH MSFT Docs](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.1){:target="_blank"}
-- [OAUTH](https://www.jerriepelser.com/blog/authenticate-oauth-aspnet-core-2){:target="_blank"}
+1. [Sendgrid with .NET](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)
+

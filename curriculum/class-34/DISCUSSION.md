@@ -1,4 +1,4 @@
-# Readings: Review DSA
+# Readings: Payment Processing
 
 ## Submission Requirements
 
@@ -8,4 +8,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- Dive deeper into a data structure that you are still trying to understand
+- [How Credit Card Processing Works](https://wallethub.com/edu/cc/credit-card-transaction/25511){:target="_blank"}
+- [How ONLINE Credit Card Processing Works](https://www.eventrebels.com/online-credit-card-processing-work/){:target="_blank"}
+- [Authorize.net Developer Docs](https://developer.authorize.net/api/reference/index.html){:target="_blank"} (bookmark this)
+- [Authorize.net .NET SDK](https://github.com/AuthorizeNet/sdk-dotnet){:target="_blank"} (bookmark this)

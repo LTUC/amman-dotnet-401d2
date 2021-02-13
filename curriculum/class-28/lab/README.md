@@ -1,46 +1,46 @@
-# Lab 28: Sprint 1 - Milestone #3
+# Ecommerce Sprint 1 - Milestone 3:  CRUD / MVC Forms
 
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+Work together with your partner(s) to complete this lab.
+
+> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. [Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet)
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
+## Admin Dashboard
 
-### User Stories
+Using Forms and CRUD Enabled Routes, add the ability for administrators to add, edit, delete new product categories, products, and assign products to categories. This will allow us to completely "set up" our inventory for selling on the storefront.
 
-1. (Developer 2) As a User, I would like the images of my products to be stored securely and external to the project. 
-1. (Developer 1 & 3) As a user, I would like the home page to showcase and reflect the products that we are selling.
-1. (Developer 1) As a user, I would like to be able to easily login and register for the site from the home page so that the user can quickly get started.
-1. (Developer 1) As a user, I would like to have an administrative role available within the application. 
+### User Stories and Tasks
+
+Divide your work evenly amongst your team members.
+
+1. As an administrator I would like add and save a new category so that I can expand my product lines
+1. As an administrator I would like add and save a new produc so that I can expand my inventory
+1. As an administrator I would like to associate a product to a category so that my users can more easily browse our inventory
+1. As an administrator I would like to be able to delete products and categories as needed
+1. As an administrator I would like to be able to edit/modify categories so that I can change my storefront structure in real time
+1. As an administrator I would like to be able to edit/modify products so that I can change my inventoryt in real time
 
 ### Guidance
 
-**User Story 1:** Use Azure to store all of your assets.
-1. Create a new page that allows authorized the user to modify products. 
-2. Lock this page down so that only admins can access (dependency: user story 4 for Developer 1)
-3. Have the saved images go straight to Azure Blob.
-4. You will receive a url back from Azure, that should be stored in your database, and referenced as the image for your product. 
-
-**User Story 2:** Add some HTML and CSS to your home page. Customize it so that it is tailored to your product you are selling. 
-Some ideas may be to "feature" products on your homepage! Have fun, make it look professional. In addition, add navigation to all of your external pages. Don't worry about showcasing all 10 products, we will make a page for that in lab 29. Just introduce your product on this home page.
-
-**User Story 3:** Within your Homepage, include a link to easily Register or Login. Traditionally, these are located in your 
-homepage navigation. This link can just redirect to the appropriate page. We will build onto this functionality once the user is logged in during Milestone 3, so don't stress about customizing the login/logout experience just yet. 
-
-**User Story 4:**  Set your application up so that at minimum single role of Admin, and an administrative user is pre-populated into the application. Register a new policy named "AdminOnly" that only allows the Admin role access to specific pages. Use your AsyncInn labs as a resource.
+- Use **strongly typed**, **model bound**, **MVC Forms** to retrieve user input for each data model
+- Use proper messaging and redirects as the users interact with the forms
 
 ## Tests
-No tests for today. Confirm that all of your services/repositories are being tested.
 
-## Rubric
-
-Review the final Sprint 1 submission for rubric/breakdown of all user stories
+1. Test the CRUD capabilities of your controllers
 
 ## To Submit this Assignment
 
-Submit the answer to the following questions:
-1. What suprised you most about this milestone?
-1. How long did it take you to complete this milestone?
-1. How long did you expect to take?
-1. What did you find most challenging about this milestone?
-1. What do you need to continue to work on during this project?
-1. Any Concerns that the instructional staff should be aware of?
+- Continue to work in your `Ecommerce-App` repository
+- Create a branch named `sprint-#-milestone-#`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `main` branch.
+- Submit a link to your PR in Canvas
+- Merge your PR back into main
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described above)
+
+

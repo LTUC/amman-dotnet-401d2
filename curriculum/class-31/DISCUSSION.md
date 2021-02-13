@@ -1,4 +1,4 @@
-# Readings: SendGrid
+# Readings: Razor Pages
 
 ## Submission Requirements
 
@@ -8,6 +8,13 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Intro to View Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1){:target="_blank"} 
-1. [View Components](https://blog.mariusschulz.com/2015/11/26/view-components-in-asp-net-mvc-6){:target="_blank"}
+- [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-2.2&tabs=visual-studio){:target="_blank"}
+- [Intro to Razor Pages (~60min)](https://www.youtube.com/watch?v=yyBijyCI5Sk){:target="_blank"}
+- [Razor Pages](https://gunnarpeipman.com/aspnet/razor-pages/){:target="_blank"}
+- [Getting started with Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1){:target="_blank"}
+- [Razor Pages vs MVC](https://jonhilton.net/razor-pages-or-mvc-a-quick-comparison/){:target="_blank"}
+
+
+
+
 

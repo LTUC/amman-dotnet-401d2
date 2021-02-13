@@ -1,5 +1,18 @@
-# Class 40:
+## Career Coaching
 
-## Learning Objectives
+- Workshop #6
 
-## Lecture Outline
+## DS&A
+
+- Full Review
+
+
+## Xamarin Project
+
+- Presentations, Demos and Code Review
+
+## E-Commerce Project
+
+- Final Submission Due
+- Final Peer Review
+- Vulnerability Assessment

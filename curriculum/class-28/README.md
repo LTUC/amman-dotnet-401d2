@@ -1,24 +1,23 @@
-# Class 28: Claims
+# MVC Forms
+
+Performing CRUD Operations on a set of database tables requires us to build Forms that are bound to our data models and our data sources. This will allow our users to easily work with the database through our Web UI
 
 ## Learning Objectives
-1. Students will be introduced to the differences between a Claim/Identity/Principle
-1. Students will learn what a Claim is and why they are used. 
-1. Students will learn how to Add/Create a Claim for a user and inject them into a View.
 
-## Lecture Outline
+### Students will be able to
 
-### Authorize Tags
+#### Describe and Define
 
-There may be use-cases where you want to make specific pages within your web-app to only be accessible by registered users who are logged in. These tags are placed either at the top, above the class declaration, or above the individual actions within a controller.
+- MVC Forms
+- Model Binding
+- Authorization
 
-1. `[Authorize]`: Only registered logged in users can access
-2. `[AllowAnonymous]`: Users who are not logged in can access these page. This is the default behavior. 
+#### Execute
 
+- CRUD Forms using MVC and Model Binding
+- Role Based Access Control
 
-### Identity Components
-The Identity API is made up of three main components:
+## Today's Outline
 
-1. Claims - A claim is an individual piece of information that can be attached to a user for security or authentication purposes.
-2. Identity - An identity contains many claims.
-3. Principle - A principle contains many identities. 
+<!-- To Be Completed By Instructor -->
 
