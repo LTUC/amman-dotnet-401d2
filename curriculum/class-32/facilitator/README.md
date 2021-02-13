@@ -1,3 +1,5 @@
+# Facilitators Guide: View Components
+
 # Class 32 : Email Sender
 
 ## How do I prep for today?
@@ -15,14 +17,18 @@
    - Setup [SendGrid](email.md)
      - Note - we only use SendGrid as an option, there are many many others!
 
-## What changed from yesterday? 
+## What changed from yesterday?
 Building off of yesterday's demo
 
-## What might students struggle with today?  
-The lab is requiring they start to build out the architecture of their database 
-to hold the Basket items and basket for the user. 
+## What might students struggle with today?
+The lab is requiring they start to build out the architecture of their database
+to hold the Basket items and basket for the user.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
 
 
 ## General comments
+
+Guidance:
+
+- How does adding something to your cart change what's visible on the storefront?

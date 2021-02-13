@@ -1,39 +1,49 @@
-# Lab 31: Sprint 2 - Milestone # 1
+# Ecommerce Sprint 2 - Milestone 1:  Storefront
 
-Your whole workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. 
+Work together with your partner(s) to complete this lab.
+
+> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. [Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet)
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
+## Consumer Site (The Storefront)
 
-## User Stories
+We'll now switch our attention to the consumer side of our online storefront, building out a system whereby our potential customers can register for an account and shop for products. While we'll allow them to shop and browse, it's imperative that shoppers not be permitted to add an item to their cart until they've both registered for an account and are logged in.
 
-1. (Developer 2 & 3) As a user, I would like a way to store the items I wish to purchase in a cart within the application.
+### User Stories and Tasks
 
-1. (Developer 1 & 2)  As a user, I would like the ability to view my desired purchases while browsing the other products on the site.
+Divide your work evenly amongst your team members.
 
-1. (Developer 1 & 3) As a user I would like a dedicated page where I can view all the products I wish to purpose all in one location. 
+1. As a user, I would like to see products available for sale so that I can browse through the inventory for purchase.
+1. As a user, I would like to register for an account on the site, so that I can make purchases
+1. As a user, I would like to securely login to my account so that I can add products to my shopping cart
 
+### Guidance / Questions
 
-### Guidance
+- Scaffold out the shopper dashboard workflow using Razor Pages
+  - What are all of the desired user pathways through the site?
+  - What pages do you need?
+  - What data do you need to make each page function properly?
+- How can we allow users to browse anonymously, but only add to cart once registered?
 
-**User story 1:**  On your indivual product landing page that showcases a single product, add an "Add to Cart" that will place that individual product to the user's cart. 
+## Tests
 
-**User Story 2:** Create the view component that will show all the current items in the cart. Place this on the individual product page, and later to be put in the checkout page.
-
-**User Story 3:** Create a specific basket/cart page that shows all the items the user wishes to purchase. Remember to include the qty and the ability to do basic CRUD operations. Add a "Checkout" button at the bottom of this page. Don't have it link to anything yet. We will do that tomorrow.
-
-
-
-### Tests
-no additional test required for today
-
+1. Test the ability to browse categories
+1. Test the inability to add items to a shopping cart without being logged in
 
 ## To Submit this Assignment
 
-Submit the answer to the following questions:
-1. What suprised you most about this milestone?
-1. How long did it take you to complete this milestone?
-1. How long did you expect to take?
-1. What did you find most challenging about this milestone?
-1. What do you need to continue to work on during this project?
-1. Any Concerns that the instructional staff should be aware of?
+- Continue to work in your `Ecommerce-App` repository
+- Create a branch named `sprint-#-milestone-#`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `main` branch.
+- Submit a link to your PR in Canvas
+- Merge your PR back into main
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described above)
+
+
+
+

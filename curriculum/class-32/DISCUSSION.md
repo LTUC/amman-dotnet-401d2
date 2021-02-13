@@ -1,4 +1,4 @@
-# Readings: SendGrid
+# Readings: View Components
 
 
 ## Submission Requirements
@@ -9,4 +9,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Sendgrid with .NET](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)
+1. [Intro to View Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1){:target="_blank"}
+1. [View Components](https://blog.mariusschulz.com/2015/11/26/view-components-in-asp-net-mvc-6){:target="_blank"}
+
+

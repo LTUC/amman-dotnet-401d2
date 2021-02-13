@@ -1,17 +1,21 @@
-# Class 32: View Components
+# View Components
+
+View Components perform a similar role to Tag Helpers and Partial Pages. They generate HTML and are designed to represent reusable snippets of UI that can help break up and simplify complex layouts, or that can be used in multiple pages
 
 ## Learning Objectives
-1. Students will learn about View Component rendering.
-1. Students will learn about the logic manipulation of View Components
-1. Students will learn about how View Components can be used as "mini controllers"
 
-## Lecture Outline
+### Students will be able to
 
-1. Sprint 1 is due!
-   - Review the rubric for sprint 1 before submitting. Confirm you have met all of the requirements.
-    - All submissions MUST be deployed to Azure! 
-    
-2. Welcome to Sprint 2!
+#### Describe and Define
 
-2. View Components - Small reusable components that can be seperated out into it's own "mini controller" that can be called as needed on cshtml pages.
+- View Components
+  - Best Practices
+  - Use Cases
 
+#### Execute
+
+- Build a reusable, data-backed view component
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->

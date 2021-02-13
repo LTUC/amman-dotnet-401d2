@@ -1,34 +1,23 @@
-# Class 29: Policies
+# Azure Blob Storage
+
+Azure (and AWS) is a cloud provider that offers a storage medium where we can upload and store files. Much like a virtual, remote hard disk, we can use this safely and securely to store files for our web applications
 
 ## Learning Objectives
-1. Students will be able to Add/Assign roles to the application and user.
-1. Students will be able to verify a user fits in a specific role.
-1. Students will be able to Register a role based policy.
-1. Students will be able to Create/Register custom claims based policies and register them with Dependency Injection.
 
-## Lecture Outline
+### Students will be able to
 
-### Roles
+#### Describe and Define
 
-Roles are important to applications because it allows us to group together users and give specific permissions to that group. Some companies use Azure Active Directory to manage their roles of their users, while others will create their own built in within the application. Since we don't have Azure Active Directory access, we will implement the roles manually into our app.
+- Cloud Storage Mechanisms
+- Blobs
+- CDNs
+- Cloud Storage Security
 
-To add a user to role, we can add the following code. `user` must refer to a full ApplicationUser.
-```csharp
-await _userManager.AddToRoleAsync(user, ApplicationRoles.Admin);
-```
+#### Execute
 
-To check if a user is in a specific role, we can do that like this:
+- Upload a file into Azure Storage Blobs
 
-```csharp
-await _userManager.IsInRoleAsync(user, ApplicationRoles.Admin)
-```
+## Today's Outline
 
-### Policies
+<!-- To Be Completed By Instructor -->
 
-Policies are important for us to be able to manage who accesses what parts of our site through certain "Rules" that we have in place. Much like a policy being a specific rule that must be followed within a business, a policy within a .NET Core Web App can be implemented on specific pages to restrict access to specific users given some claim or defining feature (for example: email address or age of user).
-
-### Vocabulary
-
-1.  IdentityRole: 
-2.  Handler:
-3.  Requirement:

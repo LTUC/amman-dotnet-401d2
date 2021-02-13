@@ -1,11 +1,12 @@
-# Class 35: Review
+## Career Coaching
 
-## Lecture Outline
+- Workshop #5
 
-Review/Reflect on sprint 2. 
+## DS&A
 
-- What went well?
-- What could have gone better?
-- What are you still struggling with?
+- Graphs
 
-Spend today working with your partner and trouble shooting any issues you have have with your code or catching up on any prior milestones. 
+## E-Commerce Project
+
+- Sprint 2 Due
+- Peer Review 3 Due
