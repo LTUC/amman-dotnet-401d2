@@ -1,6 +1,23 @@
-# Class 39: Web Security ad HTTPs
+# Navigation Properties
+
+Description Here
 
 ## Learning Objectives
-1. Students will learn about HTTPs and its key concepts.
-1. Students will lean how to apply OWASP concepts to their applications.
-## Lecture Outline
+
+### Students will be able to
+
+#### Describe and Define
+
+- A
+- B
+- C
+
+#### Execute
+
+- A
+- B
+- C
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->

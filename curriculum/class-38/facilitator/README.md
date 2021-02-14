@@ -1,32 +1,61 @@
-# Class 38: Web Security
+# Facilitators Guide: Xamarin: Device Features
 
-This is web security day! most of this day is class discussion about what HTTP is and what SSL is.
+## Overview
 
-## How do I prep for today?
-1. Review the daily readings
-2. Review the slide deck and the associated markdown to know how to teach the content.
+Today's mobile devices give us a wide array of hardware features such as the Accelerometer, Camera, GPS, etc. By tapping into these features, we can add new dimensions to our applications.
 
-## Lecture
+### How does this topic fit?
 
-For both slide decks, feel free to mix it up a bit and use your own experiences when discussing the topics.
+**Where we've been**:
+In the previous classes, the students will have built a basic application that can use Xamarin forms or other input to save data to the device.
 
-1. Code Review of someone's ECOM project. (1 hour)
-   - Help 1 or 2 groups work thorough any obstacles they are encountering.
-1. Web Security PPT (45 minutes) [NOTES](/resources/https.md)
-2. OWASP powerpoint (45 minutes) [NOTES](/resources/owasp.md)
+**What are we focusing on today**:
+Today, we'll be tapping into hardware features to make our apps more than simply doing mobile CRUD
 
-There is an extra DiffieHelman.md file if you want to review it. It's
-a fun activity to show the students an example of how the Symmetric key algorithm works.
+**Where we're headed**:
+The students will have a full day ahead of them to make a mobile application of their own design and feature set.
 
-## What changed from yesterday?
-Nothing. New topic.
+## Learning Objectives
+
+Review the detailed objectives in today's [student-facing readme](../README.md).
+
+> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+
+## Preparation
+
+- Read up on ...
+- Practice the demo
+
+## Lecture Outline
+
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../LECTURE-NOTES.md) notes.
+
+### Code Review
+
+- Notes here
+
+### TOPIC 1
+
+Continue to do your demo workshop or mob-programming style with the students. Because the demos are short, everyone should be able to follow along and enter their own lab time with a working self-written demo.
+
+- **Why** (5 min)
+  - Thing
+- **What** (10 min)
+  - Thing
+- **How** (30 min)
+  - Thing
+- **Experimentation and Discovery Ideas**
+  - Thing
+
+## Lab Notes
+
+- Words
 
 ## What might students struggle with today?
-Nothing
 
-## What bugs, issues, or surprises have come up in the past for this class?
-Nothing.
+- Words
 
-## General comments
+## Past bugs, issues or surprises...
 
-The "Lab" for this assignment is to create a [vulnerability report](/../../ecom-project.md) for their ECOM project. This will be included in the final submission.
+## General Comments and Notes
+

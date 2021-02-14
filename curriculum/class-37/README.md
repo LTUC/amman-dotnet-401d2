@@ -1,6 +1,24 @@
-# Class 37: Azure Blob Storage
+# Xamarin: Forms & Data Services
+
+Using Xamarin Forms, we can save data either to the cloud (via APIs) or locally using SQLite or Files, allowing your application to persist state and store data
 
 ## Learning Objectives
-1. Students will learn about Azure Blob storage and its implementation.
-1. Students will learn about the steps to create Blob containers and storing their sites information in Blob storage.
-## Lecture Outline
+
+### Students will be able to
+
+#### Describe and Define
+
+- Xamarin Forms
+- Using Files, Local Storage, and SQLite on a mobile device
+- Use cases for saving data to a phone
+- Security Concerns
+
+#### Execute
+
+- Save data to a file
+- Save data to local storage
+- Save data using SQLite
+
+## Today's Outline
+
+<!-- To Be Completed By Instructor -->
