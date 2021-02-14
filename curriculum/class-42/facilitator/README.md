@@ -1,26 +1,72 @@
-# Class 42: Web Security
+# Facilitators Guide: Unity - Game Play
 
-## How do I prep for today?
-This is web security day! most of this day is class discussion about what HTTP is and what SSL is.
+## Overview
 
-1. Code Review of Someone's E-COM project. Help 1 or 2 groups work thorough any
-obstacles they are encountering. (1 hour)
-1. Web Security PPT (45 minutes) [NOTES](./resources/https.md)
-1. OWASP powerpoint (45 minutes) [NOTES](./resources/owasp.md)
+Topic summary ...
 
-There is an extra DiffieHelman.md file if you want to review it. It's
-a fun activity to show the students an example of how the Symmetric key algorithm works.
+### How does this topic fit?
 
-## What changed from yesterday?
-Nothing. New topic.
+**Where we've been**:
+In the previous class ...
+
+**What are we focusing on today**:
+Today, we'll be doing ...
+
+**Where we're headed**:
+Next class will focus on ...
+
+## Learning Objectives
+
+Review the detailed objectives in today's [student-facing readme](../README.md).
+
+> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+
+## Preparation
+
+- Read up on ...
+- Get ready for questions about
+- Look at previous course student submissions for insight as to what you might see in code review.
+- Practice [the demo](../demo/demo-name) on whatever.
+
+## Lecture Outline
+
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../LECTURE-NOTES.md) notes.
+
+### Code Review
+
+- Notes here
+
+<!-- Keep this here "as is" for 201/301 only ... other courses can remove! this section) -->
+### Shred Talk
+
+- **Why**
+  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
+- **What**
+  - Refer to the [challenge documentation](../challenges/README.md)
+- **How** (10 min)
+  - Follow the [Demo Code](../challenges/DEMO.md)
+- **Note**
+  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
+
+### TOPIC 1
+
+- **Why** (5 min)
+  - Thing
+- **What** (10 min)
+  - Thing
+- **How** (30 min)
+  - Thing
+- **Experimentation and Discovery Ideas**
+  - Thing
+
+## Lab Notes
+
+- Words
 
 ## What might students struggle with today?
-Nothing
 
-## What bugs, issues, or surprises have come up in the past for this class?
-Nothing.
+- Words
 
-## General comments
+## Past bugs, issues or surprises...
 
-The "Lab" for this assignment is to create a [vulnerability report](/../../ecom-project.md) for their E-COM project. This
-will be included in the final submission.
+## General Comments and Notes

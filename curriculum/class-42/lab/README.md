@@ -1,6 +1,5 @@
-# Lab: Unity
+# Lab: Unity - Game Play
 
 ## Overview
 
 ## Requirements
-
