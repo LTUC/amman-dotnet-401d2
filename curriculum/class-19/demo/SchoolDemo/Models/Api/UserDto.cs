@@ -1,15 +1,15 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+erSING SYSTEM.COLLECTIONS.GENERIC;
+USING SYSTEM.LINQ;
+USING SYSTEM.THREADING.TASKS;
 
-namespace SchoolDemo.Models.Api
+NAMESPACE SCHOOLDEMO.MODELS.API
 {
-  public class UserDto
+  PUBLIC CLASS USERDTO
   {
-    public string Id { get; set; }
-    public string Username { get; set; }
-    public string Token { get; set; }
-    public IList<string> Roles { get; internal set; }
+    PUBLIC STRING ID { GET; SET; }
+    PUBLIC STRING USERNAME { GET; SET; }
+    PUBLIC STRING TOKEN { GET; SET; }
+    PUBLIC ILIST<STRING> ROLES { GET; INTERNAL SET; }
   }
 }

@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using SchoolDemo.Models;
-using SchoolDemo.Models.Api;
+using CookiesDemo.Auth.Models.Dto;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace SchoolDemo.Services.Interfaces
+namespace CookiesDemo.Auth.Services.Interfaces
 {
   public interface IUserService
   {
@@ -19,3 +18,4 @@ namespace SchoolDemo.Services.Interfaces
 
   }
 }
+

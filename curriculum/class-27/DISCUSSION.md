@@ -10,6 +10,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 - [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies){:target="_blank"}
 - [HTTP Cookies Explained](https://humanwhocodes.com/blog/2009/05/05/http-cookies-explained/){:target="_blank"}
+- [.NET Cookies Simplified](https://asp.mvc-tutorial.com/httpcontext/cookies/){:target="_blank"}
 
 ### Predict ...
 
