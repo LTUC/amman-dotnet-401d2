@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using CookiesDemo.Auth.Models;
 
-namespace SchoolDemo.Data
+namespace CookiesDemo.Data
 {
   public class DemoDbContext : IdentityDbContext<AuthUser>
   {

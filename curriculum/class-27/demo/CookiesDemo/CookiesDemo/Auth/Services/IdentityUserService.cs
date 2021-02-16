@@ -2,10 +2,10 @@ using CookiesDemo.Auth.Models;
 using CookiesDemo.Auth.Models.Dto;
 using CookiesDemo.Auth.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -15,13 +15,11 @@ namespace CookiesDemo.Auth.Services
   {
     private UserManager<AuthUser> userManager;
     private SignInManager<AuthUser> signInManager;
-    private JwtTokenService tokenService;
 
-    public IdentityUserService(UserManager<AuthUser> manager, SignInManager<AuthUser> managers, JwtTokenService jwtTokenService)
+    public IdentityUserService(UserManager<AuthUser> manager, SignInManager<AuthUser> sim)
     {
       userManager = manager;
-      tokenService = jwtTokenService;
-      signInManager = managers;
+      signInManager = sim;
     }
 
     public async Task<UserDto> Register(RegisterUser data, ModelStateDictionary modelState)
@@ -44,7 +42,6 @@ namespace CookiesDemo.Auth.Services
         {
           Id = user.Id,
           Username = user.UserName,
-          Token = await tokenService.GetToken(user, System.TimeSpan.FromMinutes(15)),
           Roles = await userManager.GetRolesAsync(user)
         };
       }
@@ -82,9 +79,6 @@ namespace CookiesDemo.Auth.Services
         {
           Id = user.Id,
           Username = user.UserName,
-
-          // If we're not using JWTs, we can remove these lines from here and the DTO
-          Token = await tokenService.GetToken(user, System.TimeSpan.FromMinutes(15)),
           Roles = await userManager.GetRolesAsync(user)
         };
       }

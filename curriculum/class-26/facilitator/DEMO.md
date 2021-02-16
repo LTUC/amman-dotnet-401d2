@@ -280,6 +280,12 @@ The Layout file is going to be rendered on every MVC page and will inject your "
 
 Use your final demo time to mess around with CSS and make the site start to have just a bit of flair. Note that you can add a common header/footer/style
 
+Remember to add "Static File Support" in startup.cs
+
+```csharp
+app.UseStaticFiles();
+```
+
 Sample Layout:
 
 ```html

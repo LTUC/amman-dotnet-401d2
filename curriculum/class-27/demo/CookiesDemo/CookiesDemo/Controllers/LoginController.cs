@@ -1,4 +1,4 @@
-using CookiesDemo.Auth.Models.Dto;
+﻿using CookiesDemo.Auth.Models.Dto;
 using CookiesDemo.Auth.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,9 +8,12 @@ using System.Linq;
 using System.Web;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace CookiesDemo.Controllers
 {
+
+
   public class LoginController : Controller
   {
 
@@ -36,8 +39,6 @@ namespace CookiesDemo.Controllers
     {
       return View();
     }
-
-
 
 
     // Takes a post to "/register"
@@ -66,14 +67,6 @@ namespace CookiesDemo.Controllers
         return Redirect("/login");
       }
 
-      // If we were to use the JWT Tokens instead of default identity, we'd need to
-      // set our own cookie here, so that the startup.cs code can read it on page load
-      /*
-      CookieOptions cookieOptions = new CookieOptions();
-      cookieOptions.Expires = new DateTimeOffset(DateTime.Now.AddDays(7));
-      HttpContext.Response.Cookies.Append("auth", user.Token, cookieOptions);
-      */
-
       return Redirect("/login/welcome");
     }
 
@@ -81,13 +74,15 @@ namespace CookiesDemo.Controllers
     // and return a user based on the claim/principal within...
     // [Authorize]
     // [Authorize(Roles = "Guest")]
-    [Authorize(Policy = "create")]
+    [Authorize(Policy = "read")]
     public async Task<ActionResult<UserDto>> Me()
     {
       // Following the [Authorize] phase, this.User will be ... you.
       // Put a breakpoint here and inspect to see what's passed to our getUser method
-      return View(this.User);
+      UserDto user = await userService.GetUser(this.User);
+      return View(user);
     }
+
   }
 
 }

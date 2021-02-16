@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CookiesDemo.Migrations
 {
-    public partial class id : Migration
+    public partial class initialize : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -163,6 +163,11 @@ namespace CookiesDemo.Migrations
                 values: new object[] { "editor", "00000000-0000-0000-0000-000000000000", "Editor", "EDITOR" });
 
             migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[] { "guest", "00000000-0000-0000-0000-000000000000", "Guest", "GUEST" });
+
+            migrationBuilder.InsertData(
                 table: "AspNetRoleClaims",
                 columns: new[] { "Id", "ClaimType", "ClaimValue", "RoleId" },
                 values: new object[,]
@@ -171,7 +176,8 @@ namespace CookiesDemo.Migrations
                     { 2, "permissions", "update", "administrator" },
                     { 3, "permissions", "delete", "administrator" },
                     { 4, "permissions", "create", "editor" },
-                    { 5, "permissions", "update", "editor" }
+                    { 5, "permissions", "update", "editor" },
+                    { 6, "permissions", "read", "guest" }
                 });
 
             migrationBuilder.CreateIndex(

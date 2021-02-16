@@ -1,21 +1,14 @@
 using CookiesDemo.Auth.Models;
 using CookiesDemo.Auth.Services;
 using CookiesDemo.Auth.Services.Interfaces;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using CookiesDemo.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SchoolDemo.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CookiesDemo
 {
@@ -50,34 +43,7 @@ namespace CookiesDemo
       })
       .AddEntityFrameworkStores<DemoDbContext>();
 
-
-      // NOTE: We could use our JWT service and manually create and read tokens via cookie ...
-      /*
-      services.AddScoped<JwtTokenService>();
-      services.AddAuthentication(options =>
-      {
-        options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-      })
-        .AddJwtBearer(options =>
-        {
-          // Tell the authenticaion scheme "how/where" to validate the token + secret
-          options.TokenValidationParameters = JwtTokenService.GetValidationParameters(Configuration);
-
-          options.Events = new JwtBearerEvents
-          {
-            OnMessageReceived = context =>
-            {
-              context.Token = context.Request.Cookies["auth"];
-              return Task.CompletedTask;
-            }
-          };
-
-        });
-      */
-
-      // Alternatively to JWT, use the built-in authentication system
+      // Alternative to JWT, use the built-in authentication system
       services.AddAuthentication();
 
       // Policies
@@ -95,7 +61,7 @@ namespace CookiesDemo
 
       services.ConfigureApplicationCookie(options =>
       {
-        options.AccessDeniedPath = "/login";
+        options.AccessDeniedPath = "/login/index";
       });
 
     }
@@ -108,6 +74,7 @@ namespace CookiesDemo
         app.UseDeveloperExceptionPage();
       }
 
+      app.UseStaticFiles();
       app.UseRouting();
 
       app.UseAuthentication();

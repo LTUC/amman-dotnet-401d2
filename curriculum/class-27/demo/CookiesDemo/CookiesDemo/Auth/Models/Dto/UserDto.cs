@@ -9,7 +9,6 @@ namespace CookiesDemo.Auth.Models.Dto
   {
     public string Id { get; set; }
     public string Username { get; set; }
-    public string Token { get; set; }
     public IList<string> Roles { get; internal set; }
   }
 }
