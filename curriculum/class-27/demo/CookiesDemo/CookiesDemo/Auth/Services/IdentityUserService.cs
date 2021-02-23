@@ -24,7 +24,6 @@ namespace CookiesDemo.Auth.Services
 
     public async Task<UserDto> Register(RegisterUser data, ModelStateDictionary modelState)
     {
-      // throw new NotImplementedException();
       var user = new AuthUser
       {
         UserName = data.Username,
@@ -47,6 +46,9 @@ namespace CookiesDemo.Auth.Services
       }
 
       // What about our errors?
+      // We can feed modelState with our errors, and then use a tag helper to show them:
+      // <div asp-validation-summary="All"></div>
+
       foreach (var error in result.Errors)
       {
         var errorKey =

@@ -1,34 +1,72 @@
 # Facilitators Guide: View Components
 
-# Class 32 : Email Sender
+## Overview
 
-## How do I prep for today?
+Topic summary ...
 
+### How does this topic fit?
 
-## Lecture Outline:
-1. Review View Components (max 1 hour)
-   - Go over with students how to structure their baskets
-1. Code Challenge (1 hour)
-   - Go over the daily code challenge or give them a practice problem to help them prep for interviewing!
-2. IEmailSender(1 hour)
-   - Discuss what email servers are
-   - Why do we need them?
-   - How can we add one to our site?
-   - Setup [SendGrid](email.md)
-     - Note - we only use SendGrid as an option, there are many many others!
+**Where we've been**:
+In the previous class ...
 
-## What changed from yesterday?
-Building off of yesterday's demo
+**What are we focusing on today**:
+Today, we'll be doing ...
+
+**Where we're headed**:
+Next class will focus on ...
+
+## Learning Objectives
+
+Review the detailed objectives in today's [student-facing readme](../README.md).
+
+> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+
+## Preparation
+
+- Read up on ...
+- Get ready for questions about
+- Look at previous course student submissions for insight as to what you might see in code review.
+- Practice [the demo](../demo/demo-name) on whatever.
+
+## Lecture Outline
+
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../LECTURE-NOTES.md) notes.
+
+### Code Review
+
+- Notes here
+
+<!-- Keep this here "as is" for 201/301 only ... other courses can remove! this section) -->
+### Shred Talk
+
+- **Why**
+  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
+- **What**
+  - Refer to the [challenge documentation](../challenges/README.md)
+- **How** (10 min)
+  - Follow the [Demo Code](../challenges/DEMO.md)
+- **Note**
+  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
+
+### TOPIC 1
+
+- **Why** (5 min)
+  - Thing
+- **What** (10 min)
+  - Thing
+- **How** (30 min)
+  - Thing
+- **Experimentation and Discovery Ideas**
+  - Thing
+
+## Lab Notes
+
+- Words
 
 ## What might students struggle with today?
-The lab is requiring they start to build out the architecture of their database
-to hold the Basket items and basket for the user.
 
-## What bugs, issues, or surprises have come up in the past for this class?
+- Words
 
+## Past bugs, issues or surprises...
 
-## General comments
-
-Guidance:
-
-- How does adding something to your cart change what's visible on the storefront?
+## General Comments and Notes

@@ -1,3 +1,6 @@
-@model CookiesDemo.Auth.Models.Dto.UserDto
+<h1>Admin: @User.IsInRole("admin").ToString()</h1>
+<h1>Editor: @User.IsInRole("editor").ToString()</h1>
+<h1>Guest: @User.IsInRole("guest").ToString()</h1>
 
-<h1>This is your life, @Model.Username</h1>
+
+<div>@if( @User.Identity.IsAuthenticated ) { <span>Welcome Back, @User.Identity.Name</span> } </div>

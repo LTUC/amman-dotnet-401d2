@@ -1,4 +1,4 @@
-﻿using CookiesDemo.Auth.Models.Dto;
+using CookiesDemo.Auth.Models.Dto;
 using CookiesDemo.Auth.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -43,7 +43,7 @@ namespace CookiesDemo.Controllers
 
     // Takes a post to "/register"
     [HttpPost]
-    public async Task<ActionResult<UserDto>> Register(RegisterUser data)
+    public async Task<ActionResult<UserDto>> Signup(RegisterUser data)
     {
       // Hardcoding FTW
       data.Roles = new List<string>() { "guest" };
@@ -54,7 +54,7 @@ namespace CookiesDemo.Controllers
         return Redirect("/login/welcome");
       }
 
-      return Redirect("/login");
+      return View();
     }
 
     [HttpPost]
@@ -64,7 +64,8 @@ namespace CookiesDemo.Controllers
 
       if (user == null)
       {
-        return Redirect("/login");
+        this.ModelState.AddModelError(String.Empty, "Invalid Login");
+        return RedirectToAction("Index");
       }
 
       return Redirect("/login/welcome");
@@ -77,12 +78,10 @@ namespace CookiesDemo.Controllers
     [Authorize(Policy = "read")]
     public async Task<ActionResult<UserDto>> Me()
     {
-      // Following the [Authorize] phase, this.User will be ... you.
-      // Put a breakpoint here and inspect to see what's passed to our getUser method
-      UserDto user = await userService.GetUser(this.User);
-      return View(user);
+      return View();
     }
 
   }
 
 }
+
