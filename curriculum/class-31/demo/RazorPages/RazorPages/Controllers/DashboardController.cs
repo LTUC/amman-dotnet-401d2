@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RazorPages.Controllers
 {
-  public class HomeController : Controller
+  public class DashboardController : Controller
   {
     public IActionResult Index()
     {

@@ -2,31 +2,30 @@
 
 ## Overview
 
-Topic summary ...
+View components are small, self-contained "sections" or "components" of a page, backed by a model and rendered using a view. They're excellent for intertwining dynamic content over many pages
 
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous class ...
+In the previous class, students were introduced to Razor Pages and got some experience in scaffolding out a basic web application, backed by data services
 
 **What are we focusing on today**:
-Today, we'll be doing ...
+Today, we'll be adding the "View Component" concept, which will allow them to break up their site into smaller parts, where re-usability is a requirement
 
 **Where we're headed**:
-Next class will focus on ...
+Next class will focus on integrating some 3rd party APIs as we close our the E-Commerce Project
 
 ## Learning Objectives
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+> Our primary outcomes and goals for the day is to have students confident in wiring up a single data-backed view component for use throughout their application
 
 ## Preparation
 
-- Read up on ...
-- Get ready for questions about
-- Look at previous course student submissions for insight as to what you might see in code review.
-- Practice [the demo](../demo/demo-name) on whatever.
+The documentation for View Components is actually pretty good. You should read the documentation in it's entirety before the lecture to get familiar with the content: [Documentation Here](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1)
+
+- Practice the demo.
 
 ## Lecture Outline
 
@@ -36,24 +35,25 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 - Notes here
 
-<!-- Keep this here "as is" for 201/301 only ... other courses can remove! this section) -->
-### Shred Talk
-
-- **Why**
-  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
-- **What**
-  - Refer to the [challenge documentation](../challenges/README.md)
-- **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md)
-- **Note**
-  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
-
-### TOPIC 1
+### TOPIC 1: View Components
 
 - **Why** (5 min)
-  - Thing
+  - Re-Usability of components, especially those backed by data
+    - Login/Logout in a header or as a panel
+    - Shopping cart counter, or a full "mini-cart"
+    - "Welcome User" messages
+    - Ads
+  - Essentially, if there is a section of the page that requires rendering and logic  manipulation, then a VC is a good choice.
+  - View Components solve the issue of having reusable sections on our pages that require data logic.
+    - This allows us to separate out the reusable code into it's own file and just call the component wherever it is needed
+
 - **What** (10 min)
-  - Thing
+  - Razor View Components are often referred to as "Mini-Controllers"
+  - View Components can process logic and make calls to a database, external APIs
+  - They are comprised of:
+    - A Component, which implements a specific interface
+    - A view which renders the data for that component
+  - These differ from fragments, in that fragments are purely markup, whereas views have logic and data
 - **How** (30 min)
   - Thing
 - **Experimentation and Discovery Ideas**
@@ -61,11 +61,7 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ## Lab Notes
 
-- Words
-
 ## What might students struggle with today?
-
-- Words
 
 ## Past bugs, issues or surprises...
 
