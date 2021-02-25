@@ -1,4 +1,4 @@
-using EmailDemo.Services.Interfaces;
+using EmailDemo.Services.Email.Interfaces;
 using Microsoft.Extensions.Configuration;
 using SendGrid;
 using SendGrid.Helpers.Mail;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmailDemo.Services
+namespace EmailDemo.Services.Email
 {
   public class SendGridEmailer : IEmailSender
   {
