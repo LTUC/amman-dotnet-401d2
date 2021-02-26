@@ -1,33 +1,22 @@
-# Class 38: Web Security
+# Xamarin: Xamarin: Device Features
+
+Todays mobile devices give us a wide array of hardware features such as the Accelerometer, Camera, GPS, etc. By tapping into these features, we can add new dimensions to our applications.
 
 ## Learning Objectives
-1. The students will learn the basics of Web Security with HTTP and SSL/TLS
-1. The students will learn about the OWASP top ten and how to prevent threats
- 
-## Lecture Outline
 
-### Terminology: 
-- **HTTP**: Hyper Text Transfer Protocol
-- **SSL**: Secure Socket Layer
-- **TLS**: Transport Layer Security
+### Students will be able to
 
-### Summary of HTTPS
-1. HTTP is just a HTTP protocol but with data encryption
-using SSL/TLS
-1. The "s" in HTTPS is "secure".
-1. SSL was the original and now deprecated protocol created by netscape in the 90s.
-1. TLS is the new protocol for security encryption on the web
-1. The web is maintained by the IETF
+#### Describe and Define
 
-### OWASP Top 10
-OWASP - Open Web Application Security Project
+- Hardware Features
 
-OWASP is a non-profit that focuses on improving the security web software. 
-Every few years a new list of top 10 security threats get released for different 
-frameworks. We can use these top ten threats as guidelines to help keep our web
-applications secure from threats. 
+#### Execute
 
+- Using multiple features
+  - Vibrate
+  - GPS
+  - etc.
 
+## Today's Outline
 
-
-
+<!-- To Be Completed By Instructor -->
