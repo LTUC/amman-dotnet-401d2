@@ -4,36 +4,31 @@ Use this document to describe the demo(s). Generally, this is going to take the 
 
 ## MVC Demo
 
-
-1. Scaffold an empty MVC app
-   - Folders for controllers, models, views, wwwroot
-   - Configurations in the Startup.cs file
-   - Basic Controller (Home)
-     - What does `return View()` do?
-     - What is `View` (it's just a string) ... `View()` must return a string ...
-     - Demonstrate model binding by messing with the query string right in the controller
-     - `?name=whatever` binds the QS data to the controller (Model Binding)
-
-Where do things go? Why? How do URLs map to these files?
-
---------------
-
 ### Empty Site
 
-### Startup Class
-The startup class is where you will be putting in a majority of your changes and configuration in code. The startup class consists of where we register any required middleware of dependencies that required for our application to run the way we expect. In addition to changes or settings to the HTTP pipeline.
+Create a new ASP.NET Web Application, Empty
 
-Get comfortable with the startup class, because you will be spending a lot of time in here.
+### Startup Class
+
+The startup class is where you will be putting in a majority of your changes and configuration in code. The startup class consists of where we register any required middleware of dependencies that required for our application to run the way we expect. In addition to changes or settings to the HTTP pipeline.
 
 #### Middleware
 
-Start the demo out by adding `.AddMVC`to the Configure() method. This will add the MVC dependencies to the application.
+Start the demo out by adding MVC to the `ConfigureServices()` method.
+
+```csharp
+public void ConfigureServices(IServiceCollection services)
+{
+  services.AddMvc();
+}
+```
+
 
 #### HTTP Pipeline
 
 In addition to actually letting the HTTP pipeline know about MVC, we also need to tell it what our default template will be. For example, we have to tell it what is the default location to look for if no page, other than the root domain, is specified.
 
-We do this by adding a "Route Map". to the ConfigureServices. Set your Default route template to be a Home controller with an 'index' action, and a nullable id.
+We do this by adding a "Route Map". to the `Configure()` method. Set your Default route template to be a Home controller with an 'index' action, and a nullable id.
 
 ```csharp
 app.UseEndpoints(endpoints =>
@@ -54,13 +49,10 @@ Start out the demo by walking through how to create a controller.
 
 **Wizard Method:** Add Controller - MVC ... Empty
 
-**By Hand ...**
-
-1. Start by creating a class
-1. Make the class inherit from `Controller`
+1. NOTE: the class inherits from `Controller`
 1. Talk about how "methods" in controllers are called "Actions"
 1. Create a new action, with the return type of string
-1. return a string from the method.
+1. Return a string from the method.
 1. Go to the appropriate page on the site and see the string outputted
 
 Pretty cool huh?
@@ -69,9 +61,17 @@ Now play with the query strings in the url.
 
 Go back to your action and require that the action take in a string or an int. go to the url, and append to it the proper parameters and values using the url query syntax.
 
-Make the action within the controller relay back out to the user the values they put in.
+i.e. `http://localhost:44375?name=Fred&job=Sailor`
 
-Show them what it looks like when you append a url, they should be able to see the values that are being brought in.
+Make the `Index` action within the controller relay back out to the user the values they put in.
+
+```csharp
+public string Index(string name)
+{
+  return $"Hello, {name}";
+}
+```
+
 
 This is called "Model Binding." the model is able to see the values it is supposed to accept, and then associates them to the correct parameters from the query, assuming the names are exactly the same.
 
@@ -261,56 +261,46 @@ We can use these to link between views given dynamic information (like an ID)
    ```
 4. Once you've done that, add a new Action in the controller to receive `name` and `advice`, create a new `Person` and send it to a `Person` detail view.
 
+### Layouts
 
-### Using a FORM to POST data back to a view
+Thus far, we've been working only with Views that match our models. We're getting output and model binding, but no "page" ... we need a common header, footer, style, etc.
 
-1. Create a new controller action, `Add` with the following view:
+1. Right click on the "Views" folder and choose "Add Item"
+1. Choose "Razor Layout"
+   - Visual Studio will prompt you and let you know that it'll add some dependencies. This is OK
 
-```csharp
-<form method="post" action="/Home/Create">
-  <div class="form-group">
-    <label for="Name">Name:</label>
-    <input class="form-control" name="Name" />
-  </div>
-  <div class="form-group">
-    <label for="Country">Advice:</label>
-    <input class="form-control" name="Advice" />
-  </div>
-  <button type="submit" bs-button-color="danger">Add</button>
-  <a class="btn btn-primary" href="/Home/Index">Cancel</a>
-</form>
-```
+Once it's completed the setup, you'll find a number of relevant items in your project tree:
 
-This intake form maps the name attribute and model binds that to the appropriate property for our model
-1. If you did bring in a `@model`, then the for will bind to the property
-1. If you did not, then the for will bind to the parameter that you have set in the controller within the `[HTTPPOST]` action.
+- `wwwroot` folder, and within, some starter CSS and JS
+- `Views/Shared` folder andn within, a file called `_Layout.cshtml`
 
-Once you add the submit button, you will need to make an additional action in the controller that has an
-`HttpPost` flag at the top.
+The Layout file is going to be rendered on every MVC page and will inject your "View" in place of `@RenderBody()`.  You can use this layout to bring in your CSS and JS as needed.
 
-### Redirects
+> Anything in the `wwwroot` folder is referenced as **/** in the browser. So a file under `wwwroot\css\site.css` is called by the URL: `/css/site.css`
 
+Use your final demo time to mess around with CSS and make the site start to have just a bit of flair. Note that you can add a common header/footer/style
 
-Finally, add the new user and then show the redirect capability from one action to another
+Remember to add "Static File Support" in startup.cs
 
 ```csharp
-// Show the add user form
-public IActionResult Add()
-{
-  return View();
-}
-
-// Accept a new user and then show their details
-[HttpPost]
-public IActionResult Create(string name, string advice)
-{
-  Person person = new Person()
-  {
-    Name = name,
-    Advice = advice
-  };
-
-  return RedirectToAction("Person", person);
-}
+app.UseStaticFiles();
 ```
 
+Sample Layout:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="/css/site.css" />
+  <title>@ViewBag.Title</title>
+</head>
+<body>
+  <h1>This is my site!</h1>
+  <div>
+    @RenderBody()
+  </div>
+</body>
+</html>
+```

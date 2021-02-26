@@ -18,4 +18,4 @@ namespace SchoolDemo.Services.Interfaces
     public Task<UserDto> GetUser(ClaimsPrincipal user);
 
   }
-lai
+}

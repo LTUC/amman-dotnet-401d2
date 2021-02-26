@@ -10,25 +10,16 @@ namespace MVCDemo.Controllers
 {
   public class HomeController : Controller
   {
-    public IActionResult Index()
-    {
-      Person person = new Person()
-      {
-        Name = "John",
-        Advice = "Drink lots of milk"
-      };
-
-      return View(person);
-    }
 
     // MODEL BINDING:
     // what happens if we put ?name=John in the browser?
     // This is using the query string
     // In our MVC framework, we call this "Model Binding"
-    //public string Index(string name)
-    //{
-    //  return $"Hello, {name}";
-    //}
+
+    public string Index(string name)
+    {
+      return $"Hello, {name}";
+    }
 
     public IActionResult People()
     {
@@ -57,19 +48,6 @@ namespace MVCDemo.Controllers
     public IActionResult Add()
     {
       return View();
-    }
-
-    // Accept a new user and then show their details
-    [HttpPost]
-    public IActionResult Create(string name, string advice)
-    {
-      Person person = new Person()
-      {
-        Name = name,
-        Advice = advice
-      };
-
-      return RedirectToAction("Person", person);
     }
 
 

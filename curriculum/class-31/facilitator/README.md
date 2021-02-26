@@ -1,40 +1,65 @@
 # Facilitators Guide: Razor Pages
 
+## Overview
 
-# Class 31 : View Components
+Razor Pages is a newer, simplified web application programming model. It removes much of the ceremony of ASP.NET MVC by adopting a file-based routing approach. This presents a departure from MVC, which we'll be using for this sprint to build out the customer facing pages of our stores.
 
-## How do I prep for today?
-This is the start of Sprint #2.
+### How does this topic fit?
 
-You can start the demo for today by extending the Demo from class 29. Don't forget to setup user secrets!
+**Where we've been**:
+At this point, the students used MVC to build a complete CMS, with full CRUD to manage the categories and inventory for an online store. They should have Identity services as well as a full DbContext with data wired up.
 
-## Lecture Outline:
-1. Code Review
-   - Review Sprint 1
-   - Request one or two students showcase their sprint 1 with the class and discuss what they are proud of and what they struggled with.
-1. [View Components](./viewComponents.md)
-   - What:
-     - View Componenets are often referred to as "mini controllers" that can be inserted/injected into an cshtml page. This means that we can use these "mini controllers" to access data and manipulate objects as needed.
-   - Why:
-     - Reusability of specific components to be inserted on cshtml pages is fairly common. This can be something as simple as a login screen, or interactive such as a mini cart within an e-commerce project.
-   - How:
-     - View Components are created by creating individual components often located in a "Components" folder within the models. These compents then act as mini controllers where you can access and return specific data from models. To insert a specific component into a page, call the component direclty onto the .cshtml page.
-    - Review the demo code for implementation details
+**What are we focusing on today**:
+Today, we'll be shifting gears and looking at the consumer side of the site, starting with the basics of Razor Pages as a view pattern.
 
-## What changed from yesterday?
-Building off of yesterday's demo
+**Where we're headed**:
+Next class will focus on Razor Components, which will have students wiring up small, reusable bits of view state into the application
+
+## Learning Objectives
+
+Review the detailed objectives in today's [student-facing readme](../README.md).
+
+> Our primary outcomes and goals for the day are to gain an understanding of the Razor Pages rendering cycle
+
+## Preparation
+
+- Practice the demo
+- Work on a good list of pros/cons and differentiators between MVC and Razor
+
+## Lecture Outline
+
+Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../LECTURE-NOTES.md) notes.
+
+### TOPIC 1: Razor Pages
+
+- **Why** (5 min)
+  - Simplifies the data flow by "removing" the middleman
+  - Create Single Page Apps with ease and with control
+    - SPA vs Static
+      - Yes, MVC is static even though the data is dynamic
+- **What** (10 min)
+  - More of an MVVM Model than MVC
+  - Model - View - View Model
+  - New to .NET Core (previous version)
+  - MS is trying to make this the new standard
+    - There's still some "Best Practices" being fought over
+  - A "Razor Page" is a single page
+    - Contains the view and the model and the logic
+    - This really helps with keeing things Single Responsibilty and asking questions like "What controller should this belong to?"
+- **How** (30 min)
+  - `viewname.cshtml`
+    - Still the view, still has a @model
+  - `viewname.cshtml.cs`
+    - This is the Model and the Controller combined into one
+    - Still has DI, still can call services, etc.
+    - But this is "FOR" a single page
+- **Experimentation and Discovery Ideas**
+  - Thing
+
+## Lab Notes
 
 ## What might students struggle with today?
-The lab is requiring they start to build out the architecture of their database
-to hold the Basket items and basket for the user.
 
-## What bugs, issues, or surprises have come up in the past for this class?
+## Past bugs, issues or surprises...
 
-
-## General comments
-
-### Guidance / Questions
-
-- On your indivual product landing page that showcases a single product, add an "Add to Cart" that will place that individual product to the user's cart.
-- Create the view component that will show all the current items in the cart. Place this on the individual product page, and later to be put in the checkout page.
-- Create a specific basket/cart page that shows all the items the user wishes to purchase. Remember to include the qty and the ability to do basic CRUD operations. Add a "Checkout" button at the bottom of this page. Don't have it link to anything yet. We will do that tomorrow.
+## General Comments and Notes

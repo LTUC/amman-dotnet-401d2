@@ -1,6 +1,0 @@
-# Lab: Xamarin
-
-## Overview
-
-## Requirements
-
