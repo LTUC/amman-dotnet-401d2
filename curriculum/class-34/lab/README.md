@@ -22,8 +22,8 @@ We'll want to see a ne page with a list of all orders that were successfully pai
 Divide your work evenly amongst your team members.
 
 
-1. As a user,  I would like to see a summary of my purchase after completing my checkout process.
-1. As a user, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
+1. As a user,  I would like to see a summary of my purchase after completing my checkout process with a successful transaction
+1. As a user, following a successful transaction, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
 1. As a user, I would like to be thanked for my purchase following completion of order processing
 1. As a user, I would like to be notified if my payment failed so that I can try again.
 1. As an administrator, I would like to see a listing of all paid/processed orders
@@ -31,6 +31,10 @@ Divide your work evenly amongst your team members.
 
 ### Guidance / Questions
 
+1. Follow a tactical approach to wiring in the payment processing
+1. Do we want to save this information anywhere in the database?
+  - should we keep track of all the transactions?
+  - what information should we save (or not save)?
 
 ## Tests
 

@@ -30,7 +30,8 @@ Divide your work evenly amongst your team members.
 
 - Does each person in the emails require the same information?
 - When creating emails, consider using the SendGrid design templates. Not required, but encouraged.
-- Also consider using `StringBuilder` when creating the text for the email, this is much more efficient than concatinating a string together.
+- Also consider using `StringBuilder` when creating the text for the email, this is much more efficient than concatenating a string together.
+- Question: At what point in the process do emails get sent?
 
 ## Tests
 
