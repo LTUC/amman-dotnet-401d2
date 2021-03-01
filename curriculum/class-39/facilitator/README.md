@@ -1,4 +1,4 @@
-# Facilitators Guide: Class Title
+# Facilitators Guide: Xamarin Project Presentations
 
 ## Overview
 
