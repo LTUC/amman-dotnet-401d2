@@ -44,9 +44,13 @@ Async Inn ERD:
 
 1. Go back to your `AsyncInnDbContext` file, and add a new property to include a new table into your database. `public DbSet<Hotel> Hotels {get; set;}`. Be sure to include the Models namespace into our current cs file.
 
-1. Now that you have your database registered, and a single table property inside of your dbContext file, create a new migration to see the script that creates and adds that table to the databse: `add-migration initial`
+1. Now that you have your database registered, and a single table property inside of your dbContext file, create a new migration to see the script that creates and adds that table to the database:
+    - Terminal: `dotnet ef migrations add AddHotelsTable`
+    - Package Manager Console: `Add-Migration AddHotelsTable`
 
-1. Once you create the migration, run the `update-database` script and watch the script get run against your database.
+1. Once you create the migration, apply it to your database:
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 
 1. Confirm in your local database that the `Hotels` table has been added.
 
@@ -60,9 +64,13 @@ Async Inn ERD:
     - `public DbSet<Room> Rooms {get; set;}`
     - `public DbSet<Amenity> Amenities {get; set;}`
 
-1. Create a new migration to include the creation of these two new tables within your Package Manager Console: `add-migration addingRoomAndAmenity`
+1. Create a new migration to include the creation of these two new tables:
+    - Terminal: `dotnet ef migrations add AddRoomsAndAmenitiesTables`
+    - Package Manager Console `Add-Migration AddRoomsAndAmenitiesTables`
 
-1. Finally, run `update-database` and watch those two new tables get added to the database. Confirm locally that the tables exist.
+1. Finally, apply migrations and watch those two new tables get added to the database. Confirm locally that the tables exist.
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 
 ### Seeding data
 
@@ -83,11 +91,15 @@ modelBuilder.Entity<Blog>().HasData(new Blog {BlogId = 1, Url = "http://sample.c
 
 After creating the seeded data, you will now want to create a new migration so that the seeded data can get added to the databse tables
 
-1. Within package manager console, create a new migration `add-migration addSeededData`
+1. Create a new migration:
+    - Terminal: `dotnet ef migrations add AddSeedData`
+    - Package Manager Console `Add-Migration AddSeedData`
 
 1. Notice how the migration scripts created include the default data for all 3 tables.
 
-1. Run `update-database` so that the data gets added to the table
+1. Apply migrations so that the data gets added to the table
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 
 1. Confirm that the data was added to your local database for all 3 tables.
 

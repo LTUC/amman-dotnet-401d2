@@ -53,7 +53,7 @@ This will allow for us to connect to our database
 
 #### Install `ef` command line tool
 
-From the Developer Powershell Window, run these commands. Once verified, you can use the command line to issue Entity Framework commands
+From a terminal, run these commands. Once verified, you can use the command line to issue Entity Framework commands
 
 - [ ] `dotnet tool install --global dotnet-ef`
 - [ ] `dotnet ef`
@@ -109,7 +109,10 @@ From the Developer Powershell Window, run these commands. Once verified, you can
     });
   }
   ```
-- [ ] Run the `Update-Database` command again, and you should see a big error talking about the Connection String
+
+- [ ] Apply migrations again, and you should see a big error talking about the Connection String
+      - Terminal: `dotnet ef database update`
+      - Package Manager Console `Update-Database`
 - [ ] Finally, add the actual connection string to the `appsettings.json` file
   - Change **DBNAMEHERE** to the name of the database for your project
 
@@ -120,7 +123,8 @@ From the Developer Powershell Window, run these commands. Once verified, you can
     }
   }
   ```
-- [ ] Run the `Update-Database` command again ...
+
+- [ ] Apply migrations again ...
   - You should see "Done." ... indicating your app is connected to a running local SQL Server
 - [ ] Open The SQL Server Object Explorer Window
 - [ ] Navigate to the `(localdb)` Server and browse to find your database
@@ -143,7 +147,7 @@ Now, we create C# Classes that automagically link to and become database tables
 
 - [ ] Create a "Migration"
   - Terminal: `dotnet ef migrations add AddStudentsTable`
-  - Package Manager: `Add-Migration AddStudentsTable`
+  - Package Manager Console `Add-Migration AddStudentsTable`
   - Lots of things just happened:
     - [ ] In the Migrations folder, we find a set of instructions for building a SQL Table
       - Each model change requires a new migration
