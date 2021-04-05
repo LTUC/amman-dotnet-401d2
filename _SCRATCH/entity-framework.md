@@ -43,12 +43,14 @@ At this point, run the `Add-Migration initial` script. You will get a misleading
 All this means that you haven't registered the DB Context yet...so let's do that...
 
 1. Register the DBContext in Startup
+
    ```csharp
    services.AddDbContext<EnrollmentDbContext>(options =>
      options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
    );
    ```
-1. Add the connectionstring logic into the appsettings.json file
+
+1. Add the `ConnectionStrings` value into the `appsettings.json` file
 
 During the registration of your DBContext, you will have to set you app up for Dependency Injection, meaning you need to add a constructor to the startup file and bring in `IConfiguration`. You can explain to them at a high level what this is doing (The service provider is bringing in the default configurations into the app), but we will talk more about it on Day 16 with DI.
 

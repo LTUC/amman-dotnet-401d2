@@ -57,8 +57,8 @@ Async Inn ERD:
 1. Populate each of these classes with the same properties that you have defined inside of your ERD. Don't worry about adding the Navigation properties yet. We will add those later.
 
 1. Go back into your `AsyncInnDbContext` file and add the two additional properties to represent the Room and the Amenity models.
-	- `public DbSet<Room> Rooms {get; set;}`
-	- `public DbSet<Amenity> Amenities {get; set;}`
+    - `public DbSet<Room> Rooms {get; set;}`
+    - `public DbSet<Amenity> Amenities {get; set;}`
 
 1. Create a new migration to include the creation of these two new tables within your Package Manager Console: `add-migration addingRoomAndAmenity`
 
