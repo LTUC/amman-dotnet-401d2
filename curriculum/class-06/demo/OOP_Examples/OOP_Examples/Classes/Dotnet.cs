@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Examples.Classes
 {
-    class Dotnet : CodeFellows
+    class Dotnet : School
     {
         public override int MaxNumberOfGuest { get; set; } = 50;
         public override decimal Budget

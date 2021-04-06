@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Examples.Classes
 {
-  abstract class CodeFellows : Graduation
+  abstract class School : Graduation
     {
         public int NumberOfStudents { get; set; }
         public string InstructorName { get; set; }
@@ -18,7 +18,7 @@ namespace OOP_Examples.Classes
         {
            // tear stuff down
         }
-        
+
         public void PresentDemo()
         {
             //presenting demo
