@@ -42,16 +42,21 @@ This will allow for us to connect to our database
 
 #### Visually
 
-- [ ] Tools -> Manage NuGet Packages
+- [ ] In **Solution Explorer**, right-click project **Dependencies** and pick **Manage NuGet Packages...**
 - [ ] `Microsoft.EntityFrameworkCore.SqlServer`
 - [ ] `Microsoft.EntityFrameworkCore.Tools`
 
 #### With Package Manager Console
 
-- [ ] `PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer`
-- [ ] `PM> Install-Package Microsoft.EntityFrameworkCore.Tools`
+- [ ] `Install-Package Microsoft.EntityFrameworkCore.SqlServer`
+- [ ] `Install-Package Microsoft.EntityFrameworkCore.Tools`
 
-#### Install `ef` command line tool
+#### With `dotnet`
+
+- [ ] `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+- [ ] `dotnet add package Microsoft.EntityFrameworkCore.Tools`
+
+### Install `ef` command line tool
 
 From a terminal, run these commands. Once verified, you can use the command line to issue Entity Framework commands
 
@@ -126,7 +131,7 @@ From a terminal, run these commands. Once verified, you can use the command line
 
 - [ ] Apply migrations again ...
   - You should see "Done." ... indicating your app is connected to a running local SQL Server
-- [ ] Open The SQL Server Object Explorer Window
+- [ ] Open **View > SQL Server Object Explorer**
 - [ ] Navigate to the `(localdb)` Server and browse to find your database
 
 ## Phase 4: Data Models and SQL Tables
@@ -135,14 +140,14 @@ Now, we create C# Classes that automagically link to and become database tables
 
 ### Add Basic Models
 
-- [ ] Create a folder called "Models"
-- [ ] Create a class for one of our ERD entities (Students)
+- [ ] Create a folder called `Models"
+- [ ] Create a class for one of our ERD entities (`Student.cs`)
 - [ ] Include their properties from the ERD
 - [ ] Add A `DbSet` to the `DbContext` for this model
 
   ```csharp
   // there should be a students table with student records in it.
-  public DbSet<Student> Students {get; set; }
+  public DbSet<Student> Students { get; set; }
   ```
 
 - [ ] Create a "Migration"
@@ -187,24 +192,23 @@ Now, we create C# Classes that automagically link to and become database tables
 
 ## Phase 5: API Routes
 
-- [ ] Add a folder called "Controllers"
-- [ ] Add a Controller (Right click the folder)
-- [ ] Choose "API" - API Controller with actions, using Entity Framework
+- [ ] Add a folder called `Controllers`
+- [ ] Right-lick the folder and choose **Add > Controller...**
+- [ ] Choose **Common > API** and add **API Controller with actions, using Entity Framework**
 - [ ] Use the wizard, follow the prompts
-- [ ] Call it "TechnologiesController"
+- [ ] Call it `TechnologiesController`
 - [ ] Visual Studio will create the controller class for you
-- [ ] Add the "MVC" and "Controllers" services to the `ConfigureServices()` in `Startup.cs`
+- [ ] Add the "Controllers" services to the `ConfigureServices()` in `Startup.cs`
 
   ```csharp
-  services.AddMvc();
   services.AddControllers();
   ```
 
-- [ ] Add controller mapping to the `app.UseEndpoints()` declaration
+- [ ] Add controller mapping inside the `app.UseEndpoints()` declaration, above `endpoints.MapGet("/", …)`
 
   ```csharp
   endpoints.MapControllers();
   ```
 
 - [ ] Start your application
-- [ ] Browse to `/api/technologies` to see the data we seeded into that model
+- [ ] Browse to `/api/Technologies` to see the data we seeded into that model

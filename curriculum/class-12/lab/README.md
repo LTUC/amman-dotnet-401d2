@@ -35,7 +35,7 @@ Async Inn ERD:
 ### Simple Models & The Database
 
 1. Create a new Models folder that will contain your basic entities from your ERD
-	- Create a `Hotels` model that contains the same propertied defined in your ERD
+	- Create a `Hotel` model that contains the same propertied defined in your ERD
 	- Don't worry about adding the Navigation properties just yet. We will add those in later.
 
 1. After your first simple model is created, Create a new `Data` folder and add a new `AsyncInnDbContext` file. Make your new class derive from the `DbContext` class, as well as creating the constructor with the proper parameters. Use the demo code as an example.
@@ -110,9 +110,9 @@ Now that we have completed our "Code First Migrations" in the directions above. 
 1. Create a new folder named `Controllers` in your project.
 2. Right click on the folder, and choose Add >> Controller
 3. Choose the Entity Framework Scaffold for API option
-4. Select the `Hotels` Entity for your model
+4. Select the `Hotel` Entity for your model
 5. Select your `AsyncInnDbContext` as your DbContext
-1. After it's been scaffolded, confirm through POSTMAN that your can do basic CRUD operations on the Hotels route
+1. After it's been scaffolded, confirm through [Postman](https://www.postman.com/download) that your can do basic CRUD operations on the Hotels route
 
 1. Follow the instructions above to scaffold out the `Room` and `Amenity` Controllers.
 
