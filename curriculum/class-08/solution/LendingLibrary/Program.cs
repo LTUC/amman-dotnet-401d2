@@ -1,52 +1,96 @@
-using LendingLibrary.Classes;
 using System;
 using System.Collections.Generic;
+using LendingLibrary.Classes;
 
 namespace LendingLibrary
 {
-  class Program
-  {
-    public static Library<Book> Library { get; set; }
-    public static List<Book> BookBag { get; set; }
 
-    static void Main(string[] args)
+    class Program
     {
-      Library = new Library<Book>();
-      BookBag = new List<Book>();
+        private static readonly Library library = new Library();
+        private static readonly Backpack<Book> bookBag = new Backpack<Book>();
 
-      LoadBooks();
-      UserInterface();
-    }
-
-    static void UserInterface()
-    {
-      bool exit = false;
-      while (!exit)
-      {
-        Console.WriteLine();
-
-        Console.WriteLine("WELCOME to Phil's lending library!");
-        Console.WriteLine("pick an option...");
-        Console.WriteLine("1. View All Books");
-        Console.WriteLine("2. Add New Book");
-        Console.WriteLine("3. Borrow a Book");
-        Console.WriteLine("4. Return a Book");
-        Console.WriteLine("5. View Book Bag");
-        Console.WriteLine("6. Exit");
-        Console.WriteLine();
-
-        string answer = System.Console.ReadLine();
-
-        switch (answer)
+        static void Main(string[] args)
         {
-          case "1":
-            Console.Clear();
+            LoadBooks();
+            UserInterface();
+        }
 
-            OutputBooks();
+        static void UserInterface()
+        {
+            while (true)
+            {
+                Console.WriteLine("WELCOME to Phil's lending library!");
+                Console.WriteLine("pick an option...");
+                Console.WriteLine("1. View All Books");
+                Console.WriteLine("2. Add New Book");
+                Console.WriteLine("3. Borrow a Book");
+                Console.WriteLine("4. Return a Book");
+                Console.WriteLine("5. View Book Bag");
+                Console.WriteLine("6. Exit");
+                Console.WriteLine();
 
-            break;
-          case "2":
-            Console.Clear();
+                string answer = Console.ReadLine();
+
+                switch (answer)
+                {
+                    case "1":
+                        Console.Clear();
+                        Console.WriteLine("Library");
+                        Console.WriteLine("=======");
+                        OutputBooks(library);
+                        break;
+                    case "2":
+                        Console.Clear();
+                        AddBook();
+                        Console.Clear();
+                        break;
+                    case "3":
+                        Console.Clear();
+                        BorrowBook();
+                        Console.Clear();
+                        break;
+                    case "4":
+                        Console.Clear();
+                        ReturnBook();
+                        Console.Clear();
+                        break;
+                    case "5":
+                        Console.Clear();
+                        Console.WriteLine("Book Bag");
+                        Console.WriteLine("========");
+                        OutputBooks(bookBag);
+                        break;
+                    case "6":
+                        return;
+                    default:
+                        Console.WriteLine("Invalid option...");
+                        Console.WriteLine();
+                        break;
+                }
+            }
+        }
+
+        static void LoadBooks()
+        {
+            library.Add("Alice in Wonderland", "Lewis", "Carol", 146);
+            library.Add("The Great Gatsby", "F. Scott", "Fitzgerald", 218);
+            library.Add("To Kill a Mockingbird", "Harper", "Lee", 281);
+            library.Add("Lord of the Flies", "William", "Golding", 224);
+        }
+
+        static void OutputBooks(IEnumerable<Book> books)
+        {
+            int counter = 1;
+            foreach (Book book in books)
+            {
+                Console.WriteLine($"{counter++}. {book}");
+            }
+            Console.WriteLine();
+        }
+
+        private static void AddBook()
+        {
             Console.WriteLine("Please enter the following details:");
             Console.Write("Book Title: ");
             string title = Console.ReadLine();
@@ -61,123 +105,33 @@ namespace LendingLibrary
             string numberOfPages = Console.ReadLine();
             int.TryParse(numberOfPages, out int result);
 
-            AddABook(title, firstName, lastName, result);
-            break;
-          case "3":
-            Console.Clear();
-
-            Dictionary<int, string> books = new Dictionary<int, string>();
-            Console.WriteLine("Which book would you like to borrow? Please only select the number.");
-            int counter = 1;
-            foreach (Book book in Library)
-            {
-              books.Add(counter, book.Title);
-              Console.WriteLine($"{counter++}. {book.Title} - {book.Author.FirstName} {book.Author.LastName}");
-            }
-            string response = Console.ReadLine();
-            int.TryParse(response, out int selection);
-            books.TryGetValue(selection, out string borrowedtitle);
-            Borrow(borrowedtitle);
-            break;
-          case "4":
-            ReturnBook();
-            break;
-          case "5":
-            Console.Clear();
-
-            foreach (Book book in BookBag)
-            {
-              System.Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName}");
-            }
-            break;
-          case "6":
-            exit = true;
-            Environment.Exit(1);
-            break;
-          default:
-            System.Console.WriteLine("Invalid option...");
-            break;
+            library.Add(title, firstName, lastName, result);
         }
-      }
 
-
-
-    }
-
-    static void AddABook(string title, string firstName, string lastName, int numberOfPages)
-    {
-      Book book = new Book() { Title = title, Author = new Author() { FirstName = firstName, LastName = lastName }, NumberOfPages = numberOfPages, Genre = Genre.Romance };
-      Library.Add(book);
-    }
-
-    static void OutputBooks()
-    {
-      int counter = 1;
-      foreach (Book book in Library)
-      {
-        System.Console.WriteLine($"{counter++}.{book.Title} - {book.Author.FirstName} {book.Author.LastName}");
-      }
-    }
-    static void LoadBooks()
-    {
-
-
-      // Create Books
-      Book a = new Book { Title = "Alice in Wonderland", Author = new Author() { FirstName = "Lewis", LastName = "Carol" }, Genre = Genre.Mystery };
-      Book b = new Book
-      {
-        Title = "The Great Gatsby",
-        Author = new Author() { FirstName = "F. Scott", LastName = "Fitzgerald" },
-        Genre = Genre.Drama
-      };
-      Book c = new Book { Title = "To Kill a Mockingbird", Author = new Author() { FirstName = "Harper", LastName = "Lee" }, Genre = Genre.SciFi };
-      Book d = new Book { Title = "Lord of the Flies", Author = new Author() { FirstName = "William", LastName = "Golding" }, Genre = Genre.Drama };
-      Book e = new Book { Title = "Harry Potter and the Prison of Azkaban", Author = new Author() { FirstName = "JK", LastName = "Rowling" }, Genre = Genre.Mystery };
-
-      // Add all the books to the library
-      Library.Add(a);
-      Library.Add(b);
-      Library.Add(c);
-      Library.Add(d);
-      Library.Add(e);
-
-
-    }
-
-    static void ReturnBook()
-    {
-      Dictionary<int, Book> books = new Dictionary<int, Book>();
-      Console.WriteLine("Which book would you like to return");
-      int counter = 1;
-      foreach (var item in BookBag)
-      {
-        books.Add(counter, item);
-        Console.WriteLine($"{counter++}. {item.Title} - {item.Author.FirstName} {item.Author.LastName}");
-
-      }
-
-      string response = Console.ReadLine();
-      int.TryParse(response, out int selection);
-      books.TryGetValue(selection, out Book returnedBook);
-      BookBag.Remove(returnedBook);
-      Library.Add(returnedBook);
-    }
-
-    public static Book Borrow(string title)
-    {
-      Book borrowedBook = null;
-      foreach (Book book in Library)
-      {
-        if (book.Title == title)
+        private static void BorrowBook()
         {
-          borrowedBook = book;
-          BookBag.Add(Library.Remove(borrowedBook));
-          break;
+            foreach (Book book in library)
+            {
+                Console.WriteLine(book);
+            }
 
+            Console.WriteLine();
+            Console.WriteLine("Which book would you like to borrow?");
+
+            string selection = Console.ReadLine();
+            Book borrowed = library.Borrow(selection);
+            bookBag.Pack(borrowed);
         }
-      }
-      return borrowedBook;
-    }
 
-  }
+        static void ReturnBook()
+        {
+            OutputBooks(bookBag);
+
+            Console.WriteLine("Which book would you like to return?");
+
+            int selection = Convert.ToInt32(Console.ReadLine());
+            Book bookToReturn = bookBag.Unpack(selection - 1);
+            library.Return(bookToReturn);
+        }
+    }
 }
