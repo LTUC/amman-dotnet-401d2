@@ -35,7 +35,7 @@ Async Inn ERD:
 ### Simple Models & The Database
 
 1. Create a new Models folder that will contain your basic entities from your ERD
-	- Create a `Hotels` model that contains the same propertied defined in your ERD
+	- Create a `Hotel` model that contains the same propertied defined in your ERD
 	- Don't worry about adding the Navigation properties just yet. We will add those in later.
 
 1. After your first simple model is created, Create a new `Data` folder and add a new `AsyncInnDbContext` file. Make your new class derive from the `DbContext` class, as well as creating the constructor with the proper parameters. Use the demo code as an example.
@@ -44,9 +44,13 @@ Async Inn ERD:
 
 1. Go back to your `AsyncInnDbContext` file, and add a new property to include a new table into your database. `public DbSet<Hotel> Hotels {get; set;}`. Be sure to include the Models namespace into our current cs file.
 
-1. Now that you have your database registered, and a single table property inside of your dbContext file, create a new migration to see the script that creates and adds that table to the databse: `add-migration initial`
+1. Now that you have your database registered, and a single table property inside of your dbContext file, create a new migration to see the script that creates and adds that table to the database:
+    - Terminal: `dotnet ef migrations add AddHotelsTable`
+    - Package Manager Console: `Add-Migration AddHotelsTable`
 
-1. Once you create the migration, run the `update-database` script and watch the script get run against your database.
+1. Once you create the migration, apply it to your database:
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 
 1. Confirm in your local database that the `Hotels` table has been added.
 
@@ -57,12 +61,16 @@ Async Inn ERD:
 1. Populate each of these classes with the same properties that you have defined inside of your ERD. Don't worry about adding the Navigation properties yet. We will add those later.
 
 1. Go back into your `AsyncInnDbContext` file and add the two additional properties to represent the Room and the Amenity models.
-	- `public DbSet<Room> Rooms {get; set;}`
-	- `public DbSet<Amenity> Amenities {get; set;}`
+    - `public DbSet<Room> Rooms {get; set;}`
+    - `public DbSet<Amenity> Amenities {get; set;}`
 
-1. Create a new migration to include the creation of these two new tables within your Package Manager Console: `add-migration addingRoomAndAmenity`
+1. Create a new migration to include the creation of these two new tables:
+    - Terminal: `dotnet ef migrations add AddRoomsAndAmenitiesTables`
+    - Package Manager Console `Add-Migration AddRoomsAndAmenitiesTables`
 
-1. Finally, run `update-database` and watch those two new tables get added to the database. Confirm locally that the tables exist.
+1. Finally, apply migrations and watch those two new tables get added to the database. Confirm locally that the tables exist.
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 
 ### Seeding data
 
@@ -83,11 +91,15 @@ modelBuilder.Entity<Blog>().HasData(new Blog {BlogId = 1, Url = "http://sample.c
 
 After creating the seeded data, you will now want to create a new migration so that the seeded data can get added to the databse tables
 
-1. Within package manager console, create a new migration `add-migration addSeededData`
+1. Create a new migration:
+    - Terminal: `dotnet ef migrations add AddSeedData`
+    - Package Manager Console `Add-Migration AddSeedData`
 
 1. Notice how the migration scripts created include the default data for all 3 tables.
 
-1. Run `update-database` so that the data gets added to the table
+1. Apply migrations so that the data gets added to the table
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 
 1. Confirm that the data was added to your local database for all 3 tables.
 
@@ -98,9 +110,9 @@ Now that we have completed our "Code First Migrations" in the directions above. 
 1. Create a new folder named `Controllers` in your project.
 2. Right click on the folder, and choose Add >> Controller
 3. Choose the Entity Framework Scaffold for API option
-4. Select the `Hotels` Entity for your model
+4. Select the `Hotel` Entity for your model
 5. Select your `AsyncInnDbContext` as your DbContext
-1. After it's been scaffolded, confirm through POSTMAN that your can do basic CRUD operations on the Hotels route
+1. After it's been scaffolded, confirm through [Postman](https://www.postman.com/download) that your can do basic CRUD operations on the Hotels route
 
 1. Follow the instructions above to scaffold out the `Room` and `Amenity` Controllers.
 

@@ -76,8 +76,12 @@ Below is the expected lecture outline and flow. One possible way to present this
   - Code First Migration
     - Our code (Model classes) might be the impetus for a DB Change
     - We will generate more code to alter the database and apply those changes
-  - Add a new migration: `Add-Migration [name of migration]`
-  - Update the database: `Update-Database`
+  - Add a new migration:
+    - Terminal: `dotnet ef migrations add NameOfMigration`
+    - Package Manager Console: `Add-Migration NameOfMigration`
+  - Update the database:
+    - Terminal: `dotnet ef database update`
+    - Package Manager Console `Update-Database`
 - **How** (30 min)
   - These are created and run as a part of your interactive [DEMO](./DEMO.md)
 

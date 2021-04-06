@@ -38,21 +38,26 @@ Be sure to talk about what the constructor is doing (the base class also has a c
 
 Now try and script out the models to build the database. **Your are going to get an error....**
 
-At this point, run the `Add-Migration initial` script. You will get a misleading error.
+At this point, try to create a migration. You will get a misleading error.
+
+- Terminal: `dotnet ef migrations add AddStudentsTable`
+- Package Manager Console `Add-Migration AddStudentsTable`
 
 All this means that you haven't registered the DB Context yet...so let's do that...
 
 1. Register the DBContext in Startup
+
    ```csharp
    services.AddDbContext<EnrollmentDbContext>(options =>
      options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
    );
    ```
-1. Add the connectionstring logic into the appsettings.json file
+
+1. Add the `ConnectionStrings` value into the `appsettings.json` file
 
 During the registration of your DBContext, you will have to set you app up for Dependency Injection, meaning you need to add a constructor to the startup file and bring in `IConfiguration`. You can explain to them at a high level what this is doing (The service provider is bringing in the default configurations into the app), but we will talk more about it on Day 16 with DI.
 
-Now, try and run the `Add-Migration initial` command again. You will get another error that you didn't add primary keys to some of the models.
+Now, try to create the migration again. You will get another error that you didn't add primary keys to some of the models.
 
 Go back and add the `ID` properties to the Transcripts, Students, and Courses.
 You also need to register the composite key binding in the DBContext.
@@ -70,12 +75,17 @@ After you add the composite key, don't forget to go back and add the navigation 
 
 Talk about the connections between the nav properties and why we need them.
 
-Now run `Add-Migration initial` and watch the magical database scripts get created.
+Now create your initial migration one last time, and watch the magical database scripts get created:
+
+- Terminal: `dotnet ef migrations add AddStudentsTable`
+- Package Manager Console `Add-Migration AddStudentsTable`
 
 Review the scripts. talk about what migrations are and what is being generated.
 
-Run `Update-Database` and confirm the creation of the DB.
+Apply the migration and confirm creation of the database:
 
+- Terminal: `dotnet ef database update`
+- Package Manager Console `Update-Database`
 
 ### Shadow Properties
 
