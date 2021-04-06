@@ -1,5 +1,6 @@
 {
   "line-length": false,
+  "no-emphasis-as-header": false,
   "no-trailing-punctuation": false,
   "no-inline-html": {
     "allowed_elements": [
