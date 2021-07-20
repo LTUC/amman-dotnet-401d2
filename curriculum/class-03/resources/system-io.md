@@ -4,7 +4,6 @@ Sometimes we need to manipulate an external file. C# offers options
 within the language to allow this flexibility. One of the libraries that it
 offers is called System.IO.
 
-
 ## What is System.IO
 
 System.IO is an available library through .NET that allows for reading and writing
@@ -34,8 +33,8 @@ static void WriteAllText(string filePath)
     File.WriteAllText(filePath, myInfo);
 }
 ```
-If you choose to re-run the program, the text will be simply overwritten from the previous attempt. We will talk about "adding" to the file a little later....
 
+If you choose to re-run the program, the text will be simply overwritten from the previous attempt. We will talk about "adding" to the file a little later....
 
 ### Reading a File
 
@@ -69,7 +68,7 @@ static void FileReadAllLines(string path)
 
 To append text to a file, we can do it either by adding an of lines, or just individual strings.
 
-To add a full array to a text file (each index is it's onw line):
+To add a full array to a text file (each index is it's own line):
 
 ```csharp
 static void FileAppendText(string path)
@@ -89,11 +88,11 @@ static void FileAppendText(string path)
 #### Writing/Reading to a CSV
 
 Within the File Class, you are not restricted to just text files, it is possible to expand
-it out to csv files as well. The most important part about csv files is to note that each piece of data
+it out to .csv files as well. The most important part about .csv files is to note that each piece of data
 is separated by a comma. You must also note line endings by noting a '\n'. This indicates to start the next column
-of the csv.
+of the .csv.
 
-So what does this look like? Here is a code example of reading/writing to a csv:
+So what does this look like? Here is a code example of reading/writing to a .csv:
 
 ```csharp
 string catInformation = "Name,Age\n";
@@ -106,14 +105,16 @@ string[] catNames = File.ReadAllLines(/path/to/file.csv);
 
 for(int i = 1; i < catNames.Length; index++)
 {
-	string fields = catNames[i].Split(',');
-	string name = fields[0];
-	int age = Convert.ToInt32(fields[1]);
-	Console.WriteLine($"Name: {name} Age: {age}");
+ string fields = catNames[i].Split(',');
+ string name = fields[0];
+ int age = Convert.ToInt32(fields[1]);
+ Console.WriteLine($"Name: {name} Age: {age}");
 }
 
 ```
+
 ## Text Based Files
+
 If you want to have more control over your reading and writing, there is a way to do so in text based files using the FileStream.
 
 When using FileStream, we are essentially working with individual bytes, which can sometimes get complicated. It is much easier to wrap the FileStream into
@@ -169,12 +170,12 @@ using (FileStream fs = File.Create(path))
 ```
 
 Let's break down this code snippet
-1.  First off - What is this 'using' statement
-  1. it is a statement that forces the `Dispose` to be called - even if an exception is hit.
-  1. When using a 'using' statement, you establish a connection to something (db, file, etc...), and do something with that connection.
-  1. in this case, we are creating a txt file from the path noted, and writing to the file with a message.
-  1. `Write()` is a class within the Filestream Class within System.IO
 
+1. First off - What is this 'using' statement
+1. it is a statement that forces the `Dispose` to be called - even if an exception is hit.
+1. When using a 'using' statement, you establish a connection to something (db, file, etc...), and do something with that connection.
+1. in this case, we are creating a txt file from the path noted, and writing to the file with a message.
+1. `Write()` is a class within the Filestream Class within System.IO
 
 #### Scenario #2: File Already exists, now we just need to find and read it in!
 
@@ -191,13 +192,14 @@ using (StreamReader sr = File.OpenText(path))
 }
 ```
 
-        -OR-
+-OR-
 
 ```csharp
 string[] words = File.ReadAllLines(path);
 ```
 
 Write to the end of a file:
+
 ```csharp
 using (StreamWriter sw = File.AppendText(path))
 {
@@ -205,7 +207,7 @@ using (StreamWriter sw = File.AppendText(path))
 }
 ```
 
- ### Delete a file:
+### Delete a file:
 
 ```csharp
 File.Delete(completePath);
@@ -238,7 +240,7 @@ File.Copy(Path.Combine(sourceDir, fName), Path.Combine(backupDir, fName));
 
 1. Why do we need to use arrays?
 1. `Split()` your file
-    1. Read by line vs splitting by a deliminator
+    1. Read by line vs splitting by a delimiter
        1. ``char[] delimiterChars = { ' ', ',', '.', ':', '\t' };``
 
 ```csharp
@@ -254,7 +256,6 @@ foreach (string s in words)
     System.Console.WriteLine(s);
 }
 ```
-
 
 ### Writing a file
 

@@ -18,10 +18,10 @@ Note: Demos as they exist in the `/demo` folder are provided in their **complete
     - Returns an array.
     - You can iterate that with a for loop, or ...
       - You can split it with `String.Join('', contents)`
- - Writing is the same operations, but in reverse.
-  - `File.WriteAllLines(array)`
-  - `File.WriteAllText(text)`
-  - `File.AppendAllInes(array)`
+- Writing is the same operations, but in reverse.
+- `File.WriteAllLines(array)`
+- `File.WriteAllText(text)`
+- `File.AppendAllInes(array)`
 
 ### Streams
 
@@ -51,12 +51,8 @@ finally
 }
 ```
 
-
 ## Takeaways
 
 - Difference between Write and Append
 - Coding this out modularly, so the students are used to making new methods to do each new operation
 - Stream Writer, with `using(){}` statement
-
-
-

@@ -21,9 +21,11 @@ When building out a class, you should follow a prescribed order:
 Defined with "getters" and "setters"
 
 1. Auto Generate a few
+
    ```csharp
    public string Age {get; set; }
    ```
+
 1. Manually create with a "backing field
 
 #### Constructor
@@ -34,6 +36,7 @@ Defined with "getters" and "setters"
 - May be overloaded
 
 Default Constructor: No Args. This is what you get if you don't define one
+
 ```csharp
 public Person() { }
 ```
@@ -62,7 +65,6 @@ void GetJob() {
 }
 ```
 
-
 ### Instances
 
 Create some instances of the object, using all means
@@ -87,7 +89,6 @@ Using an object inintializer
 Person john = new Person() { FirstName = "John", Age = 52 };
 ```
 
-
 ##### Static Properties and Methods
 
 Without "static", methods belong to the instances
@@ -107,7 +108,6 @@ john.Feed(); // Fails, static methods don't work on instances
 Person.Feed(); // Works, but it's a method on "the People class", but not on any one person
 ```
 
-
 ## Multiple Classes
 
 Now, create another class and connect them.
@@ -115,6 +115,3 @@ Now, create another class and connect them.
 For example, have a property of one class be an instance of another
 
 - e.g. A book, where the Author is an instance of Person
-
-
-

@@ -1,6 +1,6 @@
-# Lab 03: Review of C#
+# Lab 03: Review
 
-Let's spend this lab assignment evaluating your overall comfort level with C# from what we have learned so far. 
+Let's spend this lab assignment evaluating your overall comfort level with C# from what we have learned so far.
 
 ## Problem Domain
 
@@ -13,13 +13,13 @@ Whiteboard at least one of the challenges and include it in your readme. If you 
 ### Challenge 1
 
 Write a program that asks the user for 3 numbers. Return the product of these 3 numbers multiplied together.
-If the user puts in less than 3 numbers, return 0; 
-If the user puts in more than 3 numbers, only multiply the first 3. 
-If the number is not a number, default that value to 1. 
+If the user puts in less than 3 numbers, return 0;
+If the user puts in more than 3 numbers, only multiply the first 3.
+If the number is not a number, default that value to 1.
 
-Example: 
+Example:
 
-```
+```text
 Please enter 3 numbers: 4 8 15
 The product of these 3 numbers is: 480
 ```
@@ -27,6 +27,7 @@ The product of these 3 numbers is: 480
 Hint: Consider using the [split method](https://docs.microsoft.com/en-us/dotnet/csharp/how-to/parse-strings-using-split){:target="_blank"}
 
 Tests:
+
    1. Input a string of numbers and it returns a product of all numbers
    2. Input more than 3 numbers
    3. Input of less than 3 numbers
@@ -34,9 +35,9 @@ Tests:
 
 ### Challenge 2
 
-Create a method that asks the user to enter a number between 2-10. Then, prompt the user that number of times for random numbers. 
+Create a method that asks the user to enter a number between 2-10. Then, prompt the user that number of times for random numbers.
 
-After the user has inputted all of the numbers. Find the average of all the numbers inputted. 
+After the user has inputted all of the numbers. Find the average of all the numbers inputted.
 
 Specs:
     1. Do not let the user put in negative numbers
@@ -44,7 +45,7 @@ Specs:
 
 Example:
 
-```
+```text
 Please enter a number between 2-10: 4
 
 1 of 4 - Enter a number: 4
@@ -56,6 +57,7 @@ Please enter a number between 2-10: 4
 The average of these 4 numbers is: 10
 
 Tests:
+
    1. Input different ranges of numbers and confirm averages
    2. Confirm input
    3. All numbers are 0s
@@ -66,44 +68,45 @@ Create a method that will output to the console the following design. Pay attent
 
 ```javascript
 
-    * 
-   *** 
+    *
+   ***
   *****
  *******
 *********
  *******
   *****
    ***
-    * 
+    *
 
 ```
 
 Tests:
+
 1. No tests are required
 
 ### Challenge 4
 
-Write a method that brings in an integer array and returns the number that appears the most times. 
+Write a method that brings in an integer array and returns the number that appears the most times.
 If there are no duplicates, return the first number in the array.
 If more than one number show up the same amount of time, return the first found.
 
-```
+```text
  Example: Input: [1,1,2,2,3,3,3,1,1,5,5,6,7,8,2,1,1]
  output: 1
  ```
 
 Tests:
+
 1. Input different size arrays
 2. All numbers in the array are the same value
 3. No duplicates exist in the array
 4. There multiple numbers that show up the same amount of times.
 
-
 ### Challenge 5
 
 Write a method in that finds the maximum value in the array. The array is not sorted. You may not use `.Sort()`
 
-```
+```text
 Example: input [5, 25, 99, 123, 78, 96, 555, 108, 4]
 
 return: 555
@@ -131,7 +134,7 @@ Stretch:
 
 ### Challenge 8
 
-Write a method that reads in the file from Challenge 6. Removes one of the words, and rewrites it back to the file. 
+Write a method that reads in the file from Challenge 6. Removes one of the words, and rewrites it back to the file.
 
 Stretch:
     1. Tests are optional for this challenge
@@ -139,13 +142,13 @@ Stretch:
 ### Challenge 9
 
 Write a method that asks the user to input a sentence and returns an array that with the word and the number of characters each word has:
-```
+
+```text
 Example: input: "This is a sentance about important things"
 Output: ["this: 4","is: 2", "a: 1", "sentance: 8", "about: 5", "important: 9", "things: 6"]
 ```
 
 Tests:
-    1. Input a sentance, and it returns the correct array
-    2. Inut a sentance and confirm it returns an array
-    3. Use different sentances with differnt symbols
-
+    1. Input a sentence, and it returns the correct array
+    2. Input a sentence and confirm it returns an array
+    3. Use different sentences with different symbols

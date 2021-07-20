@@ -1,7 +1,9 @@
-## Stack/Heap
+# Stack/Heap
+
 Both are stored on computers RAM
 
 ## Stack
+
 1. Imagine it like a stack of shoe boxes
 1. Keeps track of what is being executed in the code
 1. Variables allocated to the stack are stored directly to the memory, making it very fast for access.
@@ -11,6 +13,7 @@ Both are stored on computers RAM
    1. static memory allocation
 
 ## Heap
+
 1. Dynamic memory allocation
 1. Have their memory allocated at runtime.
 1. Accessing is a bit slower than on the stack.
