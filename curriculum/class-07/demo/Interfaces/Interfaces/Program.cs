@@ -1,9 +1,8 @@
-using Class06Demo.Interfaces;
 using System;
+using Interfaces.Classes;
+using Interfaces.Interfaces;
 
-using Class06Demo.Classes;
-
-namespace Class06Demo
+namespace Interfaces
 {
   class Program
   {
@@ -14,7 +13,8 @@ namespace Class06Demo
       Employee john = new Employee(1000000, "WA");
       john.Drive(mazda);
 
-      IDriveExample(data);
+      data.Brake();
+      IDriveExample(john);
     }
 
     public static void IDriveExample(IDrive driver)

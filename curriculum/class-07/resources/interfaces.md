@@ -6,7 +6,6 @@ The obligation that the class has extends out to all of the properties and metho
 
 When implementing an interface, the class must, no exceptions, implement each of those items defined in the interface. If you choose not too...the compiler will error and you will be unable to continue.
 
-
 ## Why use an interface?
 
 Interfaces are traditionally used on more than one class, or better yet, have the ability to be used on more than one class. Interfaces tell a class what it can do, versus inheritance, which tells a class what it has.
@@ -18,35 +17,38 @@ Most commonly, in the development world, when working across teams, your team wi
 The interface defines what exactly this other team is expecting, and it is your job to define the functionality for each of those methods and properties.
 
 Why do you need them?
-	- Sometimes you need to group your objects together based on the **things they can do** rather than the classes they inherit from.
-  - That is where interfaces come in - they let you work with any class that can do the job.
-  - Any class that implements an interface must promise to 'fulfill it's obligations' or the compiler will get upset.
-  - Think of interfaces like 'actions' or 'protocols' that can be implemented on other classes
+
+- Sometimes you need to group your objects together based on the **things they can do** rather than the classes they inherit from.
+- That is where interfaces come in - they let you work with any class that can do the job.
+- Any class that implements an interface must promise to 'fulfill it's obligations' or the compiler will get upset.
+- Think of interfaces like 'actions' or 'protocols' that can be implemented on other classes
 
 Thinking back to the OOP principles, Polymorphism helps us utilize and understand interfaces a bit more. When we *implement* an interface onto a class, we are allowing any future functionality that requires that interface to accept the class, or its descendants to be used. With polymorphism, the class we have just implemented the interface on is now a specific "type" and we can treat it accordingly.
-
 
 ## Interface References
 
 1. You can't instantiate an interface, but you can **reference** an interface
+
 - This is not allowed:
+
 ```csharp
-	ICatAttack kitcat = new ICatAttack();
+ ICatAttack kitcat = new ICatAttack();
 ```
 
 This *is* allowed:
 
 ```csharp
-	KittyCat kitty = new KittyCat();
+ KittyCat kitty = new KittyCat();
     ICatAttack kitcat = kitty;
 ```
+
 - A new reference is created using the variable ICatAttack.
 - This reference can point to an instance of **any class that implements ICatAttack**
 
 1. You can create a new object and assign it straight to an interface reference variable:
 
 ```csharp
-	IKittyCat = kitcat = new Kitty();
+ IKittyCat = kitcat = new Kitty();
 ```
 
 1. "is" Keyword can determine if a specific class implements an interface
@@ -68,14 +70,14 @@ if(x is Kitty)
 - Interfaces contain no implementation of methods.
 - A class or struct can implement multiple interfaces. A class can inherit a base class and also implement one or more interfaces.
 
-
-
 ## Example
 
 ### Demo
+
 Walk through the Demo located in the DEMO folder
 
 ### Overview
+
 Let's dive into an example that may show interfaces a bit more clearly.
 
 Imagine you have an application that creates automobiles. You structure your program so that it has an abstract Automobile class with a derived class of `Car`.

@@ -1,12 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using Class06Demo.Interfaces;
+using Interfaces.Interfaces;
 
-
-namespace Class06Demo.Classes
+namespace Interfaces.Classes
 {
-  class Car : IDrivable
+  public class Car : IDrivable
   {
     public void Accelerate()
     {

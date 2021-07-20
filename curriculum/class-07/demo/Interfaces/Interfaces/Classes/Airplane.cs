@@ -1,11 +1,9 @@
-using Class06Demo.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using Interfaces.Interfaces;
 
-namespace Class06Demo.Classes
+namespace Interfaces.Classes
 {
-  class Airplane : IDrivable
+  public class Airplane : IDrivable
   {
     public int Wingspan { get; set; }
     public int NumberOfPassengers { get; set; }

@@ -1,14 +1,16 @@
 # Lab 07: Interfaces
 
 ## The Problem Domain
+
 Build out a zoo.  Your program will instantiate each of your concrete animals, and prove that they are inheriting traits/features from their various parent classes.
 
 This is part 2 of a 2 part assignment.
 
 ## Instructions
+
 - Create a minimum of 2 interfaces.
-	- Each interface created should be implemented by more than one class.
-	- Have at least one class implement more than one interface
+  - Each interface created should be implemented by more than one class.
+  - Have at least one class implement more than one interface
 - Test your code with Unit testing
 - Label interfaces as `<interface>`
 - Do not implement your interfaces on your highest base class. The interfaces should be scattered among the application.
@@ -16,39 +18,45 @@ This is part 2 of a 2 part assignment.
 - When running your application, it should output each of the concrete animals and one behavior that it has inherited without any direct code manipulation
 
 ## Unit Tests
+
 Test that your program has the following functionality:
+
 1. Test that the classes that implement the interface actually implement it
 1. Test inheritance
 1. Test Polymorphism
-	- Prove methods have been overridden
-	- Prove that one of your concrete animals `is an` Animal
+   - Prove methods have been overridden
+   - Prove that one of your concrete animals `is an` Animal
 
 ## Stretch Goals
 
 No additional stretch goals are available for this assignment.
 
 ## Additional Resources
+
 Please refer to the in-class diagram and code base as an example of the expectation.
 
 ## README
 
-**A Readme is a requirement. No Readme == No Grade.** <br />
-Here are the requirements for a valid readme: <br />
+**A Readme is a requirement. No Readme == No Grade.**
+
+Here are the requirements for a valid readme:
 
 Add the following to your current readme from Lab 5/Part 1:
+
 1. Define what an interface is in your own words
 1. Describe what your interfaces are, where are they being implemented, and why. Provide Examples.
 1. Updated diagram with your interfaces mapped out.
 
 Refer to the README templates in the class repository `Resources` folder for an example.
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 
 The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
 
 ## To Submit this Assignment
+
 - Build off of your repository from Lab 05
 - Create a branch named `NAME-LAB##`
 - Write your code

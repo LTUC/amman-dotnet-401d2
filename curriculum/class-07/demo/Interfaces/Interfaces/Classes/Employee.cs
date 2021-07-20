@@ -1,11 +1,9 @@
-using Class06Demo.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using Interfaces.Interfaces;
 
-namespace Class06Demo.Classes
+namespace Interfaces.Classes
 {
-  class Employee : Person, IDrive
+  public class Employee : Person, IDrive
   {
     public int AnnualSalary { get; set; }
     public int VacationLeft { get; set; }
