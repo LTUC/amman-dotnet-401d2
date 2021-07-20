@@ -2,11 +2,10 @@
 
 Today is an we extend Class 06, introducing Interfaces.
 
-
 ## Code Review
+
 - Review the OOP principles from Class 06
 - Quiz, Draw, Build
-
 
 ## Lecture
 
@@ -25,7 +24,7 @@ Today is an we extend Class 06, introducing Interfaces.
     - To the compiler, it's actually "I Must" once you implement an Interface
   - Naming Convention
     - Starts with `I`
-    - Ofent ends with `able` (i.e. Flyable, Driveable)
+    - Often ends with `able` (i.e. Flyable, Driveable)
 - **How** (30 min)
   - An interface represents a functionality/behavioral contract
   - Similar to Inheritance, but it presents a common "API" to seemingly unrelated things
@@ -43,16 +42,12 @@ Today is an we extend Class 06, introducing Interfaces.
 - **Experimentation and Discovery Ideas**
   - Be sure to stress the differences between an abstract class and an interface. This is a super common interview question.
 
-
 ## Lab Notes
 
 ## What might students struggle with today?
 
 Interfaces are sometimes difficult for students to understand. It is important to stress the differences between a class and an interface. The differences between an Abstract class and an interface.
 
-
-
 ## What bugs, issues, or surprises have come up in the past for this class?
 
 ## General comments
-

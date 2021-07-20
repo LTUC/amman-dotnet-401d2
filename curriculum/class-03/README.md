@@ -1,6 +1,7 @@
 # Class 03: File Manipulation / System.IO
 
 ## Learning Objectives
+
 1. The student will be introduced and implement the FileStream.
 1. The student will know how to Create, Read, Update, and Delete file using the FileStream.
 1. The student will know how to properly open and close a file from an external location.
@@ -8,8 +9,9 @@
 ## Lecture Outline
 
 ### System IO Library
- - What is it?
- - Why do we use it?
+
+- What is it?
+- Why do we use it?
 
 #### Writing a file
 
@@ -37,6 +39,7 @@ string myFile = File.ReadAllText("/path/to/file.txt");
 ```
 
 #### Creating a file
+
 (Check out the demo. There are 2 different ways to achieve this!)
 
 #### Deleting a file
@@ -48,11 +51,13 @@ File.Delete(path);
 ```
 
 ## File Stream
- - What is a stream?
-	1. StreamReader
-	1. StreamWriter
+
+- What is a stream?
+  1. StreamReader
+  1. StreamWriter
 
 ## File Types
+
 - CSV
 - Text
 - Binary

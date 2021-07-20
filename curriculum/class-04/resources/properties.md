@@ -9,7 +9,7 @@
 1. Properties can be:
    1. read-write (they have both a `get` and a `set` accessor)
    1. read-only (they have a `get` accessor but no `set` accessor)
-   1.  write-only (they have a `set` accessor, but no `get` accessor).
+   1. write-only (they have a `set` accessor, but no `get` accessor).
        1. Write-only properties are rare and are most commonly used to restrict access to sensitive data.
 1. A backing field is just a field that is used by properties when you want to modify or use that private field data.  In other words, a property is just a reference to another private variable.
 
@@ -41,13 +41,12 @@ class Person
 Logic can exist in the Get/Set accessors. We have the ability to check/confirm values before
 they get set into the object. we can do it like so below:
 
-
 ```csharp
         public class Date
         {
-		    private int month = 7;  // Backing store
+      private int month = 7;  // Backing store
 
-		        public int Month
+          public int Month
                 {
                     get
                     {
@@ -63,18 +62,19 @@ they get set into the object. we can do it like so below:
                 }
             }
 ```
+
 ```csharp
-		class Employee
-		{
-			private string name;
-			public string Name
-			{
-				get
-				{
-					return name != null ? name : "NA";
-				}
-			}
-		}
+  class Employee
+  {
+   private string name;
+   public string Name
+   {
+    get
+    {
+     return name != null ? name : "NA";
+    }
+   }
+  }
 ```
 
 ### Not Good Practice
@@ -82,14 +82,14 @@ they get set into the object. we can do it like so below:
 When getting the value from a property, don't let it be manipulated.
 
 ```csharp
-	private int number;
-	public int Number
-	{
-		get
-		{
-			return number++;   // Don't do this
-		}
-	}
+ private int number;
+ public int Number
+ {
+  get
+  {
+   return number++;   // Don't do this
+  }
+ }
 ```
 
 ### Value keyword
@@ -98,9 +98,9 @@ The `value` keyword is used to indicate the value that is supposed to be getting
 For example:
 
 ```csharp
-	Player player = new Player();
-	player.Name = "Amanda"; // this "SETS" the players name in the Name property
-	string name = player.Name; // This "Gets" the players age from the Name property
+ Player player = new Player();
+ player.Name = "Amanda"; // this "SETS" the players name in the Name property
+ string name = player.Name; // This "Gets" the players age from the Name property
 
 ```
 
@@ -110,12 +110,12 @@ The property layout for the above code looks like this:
 private string name;
 
 public string Name{
-	get{
-		return name;
-	}
-	set{
-		name = value
-	}
+ get{
+  return name;
+ }
+ set{
+  name = value
+ }
 }
 
 
@@ -133,15 +133,15 @@ Here is what a property with a backing field looks like:
 
 Class Time
 {
-	private int seconds;
-	public int Seconds{
-		get{
-			return seconds;
-		}
-		set{
-			seconds = value;
-		}
-	}
+ private int seconds;
+ public int Seconds{
+  get{
+   return seconds;
+  }
+  set{
+   seconds = value;
+  }
+ }
 }
 
 ```
@@ -151,7 +151,7 @@ Class Time
 If you do not want to create a backing field, C# offers us an alternative to not including them when we create properties. This is called auto-implemented properties, and they look like this:
 
 ```csharp
-	public string FirstName { get; set; } = "Jane";
+ public string FirstName { get; set; } = "Jane";
 ```
 
 Under the hood, a backing field is created anyway, we just don't have direct access to it. This is a nice shortcut we, as developers, can take advantage of.
@@ -160,10 +160,9 @@ If we plan on actually having logic in the getters or the setters, we must creat
 
 > Pro Tip: Typing `prop<tab><tab>` will auto-create your auto-implemented fields!
 
-
 ## Accessibility Levels
-It is possible for you to have the `get` be one accessibility level, while the `set` is different. This will allow the getter to be accessible by anyone (public) and the set to only be changed from within the class (private)
 
+It is possible for you to have the `get` be one accessibility level, while the `set` is different. This will allow the getter to be accessible by anyone (public) and the set to only be changed from within the class (private)
 
 ### Resources:
 

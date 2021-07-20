@@ -23,8 +23,8 @@ shared list of behaviors, start breaking it up.
 1. Add properties and behaviors that are unique to the specialty parties
 1. Make the specialty/unique parties inherit from the Party class.
 
-
 ## Abstraction
+
 This demo will be a quick one...you will be building off of your party demo from inheritance.
 
 1. Take your code base and start identifying if more information is required.

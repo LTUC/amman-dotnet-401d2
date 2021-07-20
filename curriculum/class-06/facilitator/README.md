@@ -1,11 +1,13 @@
 # Class 06
 
 ## How do I prep for today?
+
 1. Upload the demo code to the class repository. This will serve as an example for the students on what is expected for their lab.
 1. Be prepared to go over the required data structure this day. Refer to the Common Curriculum Day 5 implementation on what data structure to teach.
 1. There is an alternative lab that you may optionally choose. The initial lab is creating a zoo, the alternative lab is creating a vehicle dealership. Both have the same requirements, just different problem domains.
 
 ## Lecture
+
 1. Code Review
    - Review the basics of classes and objects
 1. Introduce OOP
@@ -16,9 +18,7 @@
 
 Included in the demo folder is an example of a diagram that you can draw with the class as you go over the OOP principles. There is also the code base when converting the diagram to Visual Studio.
 
-
 When they return from the exercise, build this out for them (with them) as a means of having everyone on the same page. Great opportunity to stack learn!
-
 
 ### OOP Principles (90 minutes)
 
@@ -27,7 +27,7 @@ The "Object Oriented Principles" (Pillars, Foundations)
 [Resources](../resources/oop-principles.md)
 
 - **Why** (5 min)
-  - These are the princiles of how we code with Objects
+  - These are the principles of how we code with Objects
 - **What** (30 min)
   - Inheritance
     - Derivatives
@@ -63,14 +63,14 @@ The "Object Oriented Principles" (Pillars, Foundations)
   - Encapsulation
   - These allow us to more deeply describe and differentiate related classes/objects
 - **How** (30 min)
-  - Lead a UML exercise, modeling a party type heirarchy
+  - Lead a UML exercise, modeling a party type hierarchy
   - Call out what/when things differ, what might be abstract
 - **Demo** (45min)
   - Inheritance
     - We create sub-classes (identify inheritance) using the `:` in the class definition
       - i.e. `public class Student : Person { ... }`
       - Parent methods are `base()`, so you can call those as needed
-        - Constructor: `public Student( string name ):base(name) `
+        - Constructor: `public Student( string name ):base(name)`
 
 - **Experimentation and Discovery Ideas**
 - **In-Class Exercise** (30 minutes)
@@ -83,10 +83,10 @@ The "Object Oriented Principles" (Pillars, Foundations)
     - Allow methods like "MakePizza" abstract to require each store to set their own reqs on how to make the pizza
   - **Encapsulation**: Set the appropriate internal information private vs general props and methods public
 
-
 ## Lab Notes
 
 Today is part 1 of a 2 part lab. In today's lab they will:
+
 1. Draw/plan out a hierarchy chart of classes. This drawing should be present in their lab README.
 1. Implement the classes and behaviors within Visual Studio. The hierarchy chart should match the implementation.
 1. Tests to prove the OOP principles.
@@ -101,7 +101,9 @@ N/A
 breaking it down by each principle and showing how it looks in both the diagram and the VS code helps concrete the idea/concept.
 
 ## What bugs, issues, or surprises have come up in the past for this class?
+
 - N/A
 
 ## General comments
+
 This is a good day to encourage class interaction while building out the demo code together.
