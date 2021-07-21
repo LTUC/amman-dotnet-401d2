@@ -16,7 +16,7 @@ The simplest and most obvious example is months and days of the week.
 
 - Lists and Dictionaries
 - Create some lists and dictionaries and iterate
-- Talk through tye `<type>` that you declare as you create them.
+- Talk through the `<type>` that you declare as you create them.
 - Add to a list both explicitly (`.Add()`) and automatically `{x,x,x}`
 - Iterate
 - Add to a dictionary

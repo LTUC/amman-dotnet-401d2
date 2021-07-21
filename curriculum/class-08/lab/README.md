@@ -1,6 +1,7 @@
 # Lab 08: Phil's Lending Library
 
 ## The Problem Domain
+
 Use TDD to create your own Lending Library filled with Books, and a Backpack to hold borrowed Books.
 
 ## Program Specifications
@@ -94,6 +95,7 @@ Test that your program has the following functionality:
     - Use individual methods to implement each option
 
 ## README
+
 **A Readme is a requirement. No Readme == No Grade.**
 
 Here are the requirements for a valid readme:
@@ -110,6 +112,7 @@ Your job is to:
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 Refer to the sample-README in the class repo `Resources` folder for an example.
+
 - [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
@@ -117,6 +120,7 @@ Refer to the sample-README in the class repo `Resources` folder for an example.
 The lab rubric can be found [HERE](../../resources/rubric){:target="_blank"}
 
 ## To Submit this Assignment
+
 - Create a new repo on your personal GitHub account
 - Name your repo `Lab##-TITLE`
 - Create a branch named `NAME-LAB##`

@@ -7,18 +7,16 @@ namespace CollectionsAndEnums.Classes
   class Date
   {
     public int DayOfMonth { get; set; }
-    public DayOfWeek DayOfWeek { get; set; }
-
-    public Months Month { get; set; }
+    public DayOfTheWeek Day { get; set; }
   }
 
-  enum DayOfWeek
+  enum DayOfTheWeek
   {
-    Sunday = 15,
-    Monday = 4,
-    Tuesday,
+    Sunday, // 0
+    Monday, // 1
+    Tuesday, // ...
     Wednesday,
-    Thursday = 11,
+    Thursday,
     Friday,
     Saturday
   }
@@ -27,10 +25,15 @@ namespace CollectionsAndEnums.Classes
   {
     Jan,
     Feb,
-    March,
-    April,
+    Mar,
+    Apr,
     May,
-    June = March + Jan,
-    July
+    Jun,
+    Jul,
+    Aug,
+    Sep,
+    Oct,
+    Nov,
+    Dec
   }
 }

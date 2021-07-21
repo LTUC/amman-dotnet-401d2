@@ -1,5 +1,4 @@
-
-### Enums
+# Enums
 
 1. What are enums?
    - Enumeration types ("also called enums"), provide an
@@ -33,8 +32,9 @@
         Dec
     };
 ```
-   - Count starts at 0, if you do not specify a value.
-   - default type of enum is int, but you can specify alt with a :type (such as byte);
+
+- Count starts at 0, if you do not specify a value.
+- default type of enum is int, but you can specify alt with a :type (such as byte);
 
 ```csharp
 
@@ -52,7 +52,7 @@
 
 ```
 
- - You can create and set your custom values
+- You can create and set your custom values
 
 ```csharp
     enum MachineState

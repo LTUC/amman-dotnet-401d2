@@ -1,129 +1,104 @@
-using CollectionsAndEnums.Classes;
 using System;
 using System.Collections.Generic;
+using CollectionsAndEnums.Classes;
 
-namespace CollectionsAndEnums
+namespace EnumsAndCollections
 {
   class Program
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
-
       EnumExample();
-      GenericExample();
+      ListExample();
       DictionaryExample();
       CustomCollectionExample();
-
     }
 
     static void EnumExample()
     {
-      Classes.DayOfWeek dow = Classes.DayOfWeek.Saturday;
-      Console.WriteLine($" Convert to int {(int)dow}"); // output 6
-      Console.WriteLine($" Convert to Day of Week { (Classes.DayOfWeek)6}"); // output Saturday
+      DayOfTheWeek dow = DayOfTheWeek.Wednesday;
+      Console.WriteLine($"Today is {dow}");
+      Console.WriteLine($"Todays number is {(int)dow}");
+      Console.WriteLine($"Convert to Day of Week { (DayOfWeek)42}");
 
-      Date date = new Date()
-      {
-        DayOfMonth = 12,
-        Month = Classes.Months.July,
-        DayOfWeek = Classes.DayOfWeek.Thursday,
-      };
-
-      Console.WriteLine(date.Month);
-
+      Date date = new Date();
+      date.DayOfMonth = 15;
+      date.Day = DayOfTheWeek.Saturday;
     }
 
-
-    static void GenericExample()
+    static void ListExample()
     {
-      List<string> myList = new List<string>();
+      // "Make a variable called "family" using a List of strings, by creating a new instance of the List Collection, specifying type string"
+      List<string> family = new List<string>();
+      family.Add("John");
+      family.Add("Cathy");
+      family.Add("Zach");
+      family.Add("Allie");
+      family.Add("Rosie");
 
-      myList.Add("Amanda");
-      myList.Add("Greg");
-      myList.Add("Meggan");
-      myList.Add("Jon");
-      myList.Add("Richard");
-      myList.Add("Evan");
 
-      // traverse through the list and output the items
-      foreach (string item in myList)
+      foreach (string person in family)
       {
-        Console.WriteLine(item);
+        Console.WriteLine(person);
       }
 
-      // Collection initializers, just like arrays
-      List<int> myNumbers = new List<int>
-            {
-                4,8,15,16,23,42
-            };
-
-      Console.WriteLine("============");
-      foreach (int number in myNumbers)
+      List<int> numbers = new List<int>() { 2, 4, 6, 8 };
+      foreach (int num in numbers)
       {
-        Console.WriteLine(number);
+        Console.WriteLine($"{num} * {num} is {num * num}");
+
       }
-
-      Console.WriteLine("===========");
-
-      myList.Remove("Greg");
-      Console.WriteLine("Removing Greg");
-
-      // traverse through the list and output the items
-      foreach (string item in myList)
-      {
-        Console.WriteLine(item);
-      }
-
-
-
     }
 
     static void DictionaryExample()
     {
       Dictionary<int, string> myDictionary = new Dictionary<int, string>();
-      myDictionary.Add(1, "Cat");
-      myDictionary.Add(2, "Dog");
-      myDictionary.Add(3, "Bird");
 
-      myDictionary.TryGetValue(3, out string answer);
-      Console.WriteLine(answer);
+      myDictionary.Add(1, "Slayer");
+      myDictionary.Add(2, "Slipknot");
+      myDictionary.Add(3, "Megadeth");
+      myDictionary.Add(4, "J Cole");
+      myDictionary.Add(5, "Ice-T");
+      myDictionary.Add(6, "AbbA");
 
-      foreach (KeyValuePair<int, string> animal in myDictionary)
+      myDictionary.TryGetValue(3, out string band);
+      Console.WriteLine(band);
+      Console.WriteLine(myDictionary[5]);
+
+      Dictionary<string, int> myStuff = new Dictionary<string, int>();
+      myStuff.Add("Computers", 3);
+      myStuff.Add("Cars", 2);
+      myStuff.Add("Guitars", 4);
+      Console.WriteLine(myStuff["Cars"]);
+
+      // JS: Object.keys.forEach( key => {} );
+      foreach (KeyValuePair<int, string> theBand in myDictionary)
       {
-        Console.WriteLine("Key: {0}, Value: {1}", animal.Key, animal.Value);
+        Console.WriteLine("Key: {0}, Value: {1}", theBand.Key, theBand.Value);
       }
-
     }
 
     static void CustomCollectionExample()
     {
-      NumberList<int> list = new NumberList<int>();
-      list.Add(4);
-      list.Add(8);
-      list.Add(15);
-      list.Add(16);
-      list.Add(23);
-      list.Add(42);
-
-      foreach (int number in list)
-      {
-        Console.WriteLine(number);
-      }
-
-      NumberList<int> numbers = new NumberList<int>
-            {
-                1,2,3,4,5,6,7
-            };
-
-      Console.WriteLine("========");
+      CustomCollection<int> numbers = new CustomCollection<int>();
+      numbers.Add(2);
+      numbers.Add(4);
+      numbers.Add(6);
+      numbers.Add(8);
+      numbers.Add(10);
 
       foreach (int number in numbers)
       {
-        Console.WriteLine(number);
+        Console.WriteLine($"The number is {number}");
       }
 
+      CustomCollection<int> ages = new CustomCollection<int>() { 15, 22, 50, 52 };
 
+      foreach (int age in ages)
+      {
+        Console.WriteLine($"The age is {age}");
+
+      }
     }
   }
 }
