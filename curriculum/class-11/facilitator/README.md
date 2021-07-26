@@ -7,7 +7,7 @@ This is the first day that the students will dive into the "Async Inn Inventory 
 ### How does this topic fit?
 
 **Where we've been**:
-To this point, the students have a solid foundatin in C# language fundamentals, but have not yet built a full application.
+To this point, the students have a solid foundation in C# language fundamentals, but have not yet built a full application.
 
 **What are we focusing on today**:
 Today primarily focuses on an introduction to databases. This should be a combination of review from 301, as well as some new content such as composite keys and join tables.
@@ -98,7 +98,7 @@ No Code Review Today, this is the start of a new module
       - Composite Keys
 - **How** (30 min)
   - In-Class exercise to build out ERD for any problem domain you'd like to talk through
-  - The (demo)[./DEMO.md] has good overview of a sample problem domain along with talking points about working with ERD tooling
+  - The [demo](./DEMO.md) has good overview of a sample problem domain along with talking points about working with ERD tooling
 - **Experimentation and Discovery Ideas**
   - Have the students break off into groups and implement a student enrollment system
   - 20-30 minute exercise
@@ -131,5 +131,3 @@ This ERD portion of this lab is timed (4 Hours Max) and is effort based. They sh
 Be sure to share this solution with the students, as that is what our demo for the next few days will be tied to.
 
 Stress to them that there is more than "one right answer", this is just one possible way.
-
-
