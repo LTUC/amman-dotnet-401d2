@@ -53,6 +53,11 @@ namespace LINQDemo
                           where person.Age > 21
                           select new { fn = person.FirstName, ln = person.LastName };
 
+            foreach (var person in filter)
+            {
+              Console.WriteLine("Filtered Person: {0} {1}", person.fn, person.ln);
+            }
+
             // sorting
             var sorting = from person in persons
                           where person.Age > 21

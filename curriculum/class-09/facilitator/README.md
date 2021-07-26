@@ -39,10 +39,13 @@ Time Box to ~ :30 minutes
   - We declare them outside of classes
   - Make a function that matches the delegate's signature exactly
     - Return Type, Args
+
 - **Experimentation and Discovery Ideas**
+
   -
 
 ### TOPIC 2: LINQ
+
 - **Why** (5 min)
   - Not all data comes directly from a database
   - LINQ allows us to query in-memory data, json, xml, arrays, collections
@@ -82,9 +85,10 @@ Time Box to ~ :30 minutes
   - Eager Loading
     - Front-Load your data
     - Query Methods like `.Take()` do this, so that they can create the dataset
-- **Experimentation and Discovery Ideas**
-  -
 
+- **Experimentation and Discovery Ideas**
+
+  -
 
 ## Lab Notes
 
@@ -97,5 +101,3 @@ Delegates. It can be a lot. Delegates make more sense when we start using LINQ m
 ## General Comments and Notes
 
 Delegates really jump our complexity level. Students will understand what they are for right away...
-
-

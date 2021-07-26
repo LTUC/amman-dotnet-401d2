@@ -1,18 +1,20 @@
 # Class 09: LINQ & Delegates
 
 ## Learning Objectives
+
 1. Students will be able to successfully write LINQ queries against a collection to extract data.
 1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
 
 ## Lecture Outline
+
 1. Review Collections
 1. Create a collection
-  - Add data to the collection
-  - Iterate through the collection
-
-3. What is an easier way to iterate through a collection?
+   - Add data to the collection
+   - Iterate through the collection
+1. What is an easier way to iterate through a collection?
 
 ### What Is LINQ?
+
 - Language Integrated Query
 
 1. Imperative vs Declarative
@@ -31,21 +33,19 @@
 string[] names = { "Tom", "Dick", "Harry" };
 
 IEnumerable<string> filteredNames = from n in names
-                                        where n.Contains("a")
-                                        select n;
+                                    where n.Contains("a")
+                                    select n;
 
 IEnumerable<string> filteredNames = System.Linq.Enumerable.Where(names, n => n.Length >= 4);
 
 foreach (string n in filteredNames){Console.WriteLine (n);}
 ```
 
-
 ### Lambda Statements
 
 ```csharp
 n => n.Length >= 4
 ```
-
 
 ```csharp
 IEnumerable<string> filtered = names.Where(n => n.Contains("a"));
@@ -78,12 +78,11 @@ An anonymous object is an object that is a "modified" object that is the result 
 
 ```csharp
 var bookAuthorCollection = from b in books
-                    select new { Book: b,
-                                Author: b.Authors[0]
-                                };
+                           select new {
+                             Book: b,
+                             Author: b.Authors[0]
+                           };
 
 foreach (var x in bookAuthorCollection)
-    Console.WriteLine("Book title - {0}, First author {1}",
-                            x.Book.Title, x.Author.FirstName);
+    Console.WriteLine("Book title - {0}, First author {1}", x.Book.Title, x.Author.FirstName);
 ```
-

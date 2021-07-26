@@ -10,26 +10,8 @@ namespace LinqInManhatten
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            GetData();
-        }
-
-        /// <summary>
-        /// Reading JSON data and conerting to C# object
-        /// </summary>
-        static void GetData()
-        {
-            using (StreamReader sr = File.OpenText("../../../data.json"))
-            {
-                string jsonData = sr.ReadLine();
-                // convert JSON to classes
-
-                //gives me 147 neighborhoods
-                RootObject deserializedProduct = JsonConvert.DeserializeObject<RootObject>(jsonData);
-
-                Questions(deserializedProduct);
-
-            }
+            RootObject data = GetData();
+            Questions(data);
         }
 
         /// <summary>
@@ -50,8 +32,9 @@ namespace LinqInManhatten
                 Console.WriteLine($"{++count}. {answer.properties.neighborhood}");
             }
 
-            Console.WriteLine("====== Q2 ==========");
+
             //2.Filter out all the neighborhoods that do not have any names
+            Console.WriteLine("====== Q2 ==========");
 
             // Total of 143 neighborhoods.
             var q2 = q1.Where(x => x.properties.neighborhood != "");
@@ -105,35 +88,61 @@ namespace LinqInManhatten
             }
 
         }
+
+
+        /// <summary>
+        /// Reading JSON data and conerting to C# object
+        /// </summary>
+        static RootObject GetData()
+        {
+          using (StreamReader sr = File.OpenText("../../../data.json"))
+          {
+            string jsonData = sr.ReadLine();
+            // convert JSON to classes
+
+            // gives me 147 neighborhoods
+            // Note that we specify a type <RootObject> that JsonConvert will map all properties into
+            // This is a class which maps the entire JSON object
+            RootObject deserializedProduct = JsonConvert.DeserializeObject<RootObject>(jsonData);
+
+            // Questions(deserializedProduct);
+            return deserializedProduct;
+
+          }
+        }
     }
 
-    public class Geometry
-    {
-        public string type { get; set; }
-        public List<double> coordinates { get; set; }
-    }
-
-    public class Properties
-    {
-        public string zip { get; set; }
-        public string city { get; set; }
-        public string state { get; set; }
-        public string address { get; set; }
-        public string borough { get; set; }
-        public string neighborhood { get; set; }
-        public string county { get; set; }
-    }
-
-    public class Feature
-    {
-        public string type { get; set; }
-        public Geometry geometry { get; set; }
-        public Properties properties { get; set; }
-    }
 
     public class RootObject
     {
         public string type { get; set; }
         public List<Feature> features { get; set; }
     }
+
+    public class Feature
+    {
+      public string type { get; set; }
+      public Geometry geometry { get; set; }
+      public Properties properties { get; set; }
+    }
+
+
+    public class Properties
+    {
+      public string zip { get; set; }
+      public string city { get; set; }
+      public string state { get; set; }
+      public string address { get; set; }
+      public string borough { get; set; }
+      public string neighborhood { get; set; }
+      public string county { get; set; }
+    }
+
+    public class Geometry
+    {
+      public string type { get; set; }
+      public List<double> coordinates { get; set; }
+    }
+
+
 }
