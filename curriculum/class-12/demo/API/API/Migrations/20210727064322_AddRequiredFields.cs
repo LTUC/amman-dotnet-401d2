@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ef_demo.Migrations
+namespace API.Migrations
 {
-    public partial class reqname : Migration
+    public partial class AddRequiredFields : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

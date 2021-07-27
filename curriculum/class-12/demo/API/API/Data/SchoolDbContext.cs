@@ -1,14 +1,17 @@
-﻿using ef_demo.Models;
+﻿using API.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ef_demo.Data
+namespace API.Data
 {
   public class SchoolDbContext : DbContext
   {
+
+    public DbSet<Student> Students { get; set; }
+    public DbSet<Technology> Technologies { get; set; }
     public SchoolDbContext(DbContextOptions options) : base(options)
     {
     }
@@ -24,7 +27,6 @@ namespace ef_demo.Data
       );
     }
 
-    public DbSet<Student> Students { get; set; }
-    public DbSet<Technology> Technologies { get; set; }
   }
+
 }

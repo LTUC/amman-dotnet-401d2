@@ -26,13 +26,13 @@ Our goal is to change this setup to:
 1. Create a folder called `Interfaces` under `Models`
 1. Within, create an interface, called `IStudent`
 1. Define the required methods as a starting point (Likely to evolve this)
-  - `Student Create(Student student)`
-  - `List<Student> GetStudents()`
-  - `Student GetStudent(int id)`
-  - `Student UpdateStudent(int id, Student student)`
-  - `Delete(int id)`
-  - `Student Create(Student student)`
 
+- `Student Create(Student student)`
+- `List<Student> GetStudents()`
+- `Student GetStudent(int id)`
+- `Student UpdateStudent(int id, Student student)`
+- `Delete(int id)`
+- `Student Create(Student student)`
 
 ### Phase 2: Build a basic service
 
@@ -40,6 +40,7 @@ Our goal is to change this setup to:
 1. Create a class in this folder called `StudentRepository.cs`
 1. Implement the `IStudent` interface we just created
 1. **Inject** our DbContext into this service in a constructor
+
    ```csharp
    private SchoolDbContext _context;
 
@@ -57,62 +58,78 @@ Because `_context` is a reference to our database
 1. We get our database calls directly as a part of `_context`
 1. Put the new student object into pending state for the DB
 1. Asynchronously call the save method
+
    ```csharp
    _context.Entry(student).State = Microsoft.EntityFrameworkCore.EntityState.Added;
    await _context.SaveChangesAsync();
    ```
+
 1. Note the error that happens after you add `await`
-  - Add `async` to the method
-  - Return a `Task<>` which is how C# holds onto the async actions
-  - `public async Task<Student> Create(Student student)`
+
+- Add `async` to the method
+- Return a `Task<>` which is how C# holds onto the async actions
+- `public async Task<Student> Create(Student student)`
+
 1. You'll still have an error in your Interface implementation ...
-  - Edit the IStudent.cs and change the Create signature to return a task
+
+- Edit the IStudent.cs and change the Create signature to return a task
 
 ### Phase 4 Database Logic: Get All
 
 1. `await` again. This time, we call the `ToListAsync()` method on our table
+
    ```csharp
    var students = await _context.Students.ToListAsync();
    return students;
    ```
+
 1. Again, fix the async errors
 1. But this time, we're nesting the `Task`
+
 - It's a list of students
 - `Task<List<Student>>`
-
 
 ### Phase 5 Database Logic: Get One
 
 1. LINQ Query!
+
    ```csharp
    // The system knows we have a primary key and will use it
    Student student = await _context.Students.FindAsync(id);
    return student
    ```
+
 1. Note the error ... it's an `await` thing again.
-  - Perform the proper fixes as we did in the previous steps
+
+- Perform the proper fixes as we did in the previous steps
 
 ### Phase 5: Database Logic: Delete
 
 1. First, Get the student by ID
+
    ```csharp
    Student student = await GetStudent(id);
    _context.Entry(student).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
    await _context.SaveChangesAsync();
    ```
-1. Note the error ... it's an `await` thing again.
-- Perform the proper fixes as we did in the previous steps
 
+1. Note the error ... it's an `await` thing again.
+
+- Perform the proper fixes as we did in the previous steps
 
 ### Phase 6 Database Logic: Update
 
 1. Update it in place
-  - Put the record into a "Modified" state
+
+- Put the record into a "Modified" state
+
    ```csharp
    _context.Entry(student).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
    await _context.SaveChangesAsync();
    ```
+
 1. Note the error ... it's an `await` thing again.
+
 - Perform the proper fixes as we did in the previous steps
 
 ### Summary
@@ -123,6 +140,7 @@ Right now, we've created an IStudent interface that is implemented in the Studen
 
 1. Change the constructor to bring in `IStudent` instead of `DbContext`
 1. Change the private variable to `_student`
+
    ```csharp
    // private readonly DbSchoolContext _constructor;
    private readonly IStudent _student;
@@ -132,6 +150,7 @@ Right now, we've created an IStudent interface that is implemented in the Studen
       _student = student;
    }
    ```
+
 > HINT: At this point, you'll have a load of errors, wherever `_context` is in this file ... Leave those there, so that we have a visual "To Do List" of things to refactor
 
 ### Phase 8: Refactor the Controller: CRUD Methods
@@ -183,5 +202,3 @@ The fix: We need to tell the Startup system to register the correct dependency t
 ```csharp
   services.AddTransient<IStudent, StudentRepository>();
 ```
-
-

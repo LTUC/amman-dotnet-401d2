@@ -4,15 +4,19 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ef_demo.Models
+namespace API.Models
 {
   public class Student
   {
-    public long Id { get; set; }
+
+    public int Id { get; set; }
+
     [Required]
     public string FirstName { get; set; }
+
     [Required]
     public string LastName { get; set; }
+
     public DateTime DateOfBirth { get; set; }
   }
 }

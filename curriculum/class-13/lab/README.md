@@ -16,7 +16,7 @@ Building off of your current project, refactor your project to allow and impleme
 
 1. Create a service for each of the controllers that implement the appropriate interface. Build out the logic to satisfy the interface by making the appropriate calls to the db for each action.
 
-1. Update your Controller to use the appropraite methosd from the interface rather than the DBContext direclty.
+1. Update your Controller to use the appropriate method from the interface rather than the DBContext directly.
 
 1. Confirm in POSTMAN that your controllers are returning the same logic as they did in Lab 12.
 
@@ -39,6 +39,3 @@ The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
 - Merge your PR back into main
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
-
-
-

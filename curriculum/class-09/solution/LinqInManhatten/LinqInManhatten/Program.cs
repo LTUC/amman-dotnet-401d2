@@ -20,9 +20,9 @@ namespace LinqInManhatten
         /// <param name="data">JSON converted data of neighborhood data</param>
         static void Questions(RootObject data)
         {
-            //1.Output all of the neighborhoods in this data list
-
+            // QUESTION 1.Output all of the neighborhoods in this data list
             // total of 147 neighborhoods with 4 as "empties"
+            Console.WriteLine("====== Q1 ==========");
             var q1 = from neighborhood in data.features
                           select neighborhood;
 
@@ -33,7 +33,7 @@ namespace LinqInManhatten
             }
 
 
-            //2.Filter out all the neighborhoods that do not have any names
+            // QUESTION 2.Filter out all the neighborhoods that do not have any names
             Console.WriteLine("====== Q2 ==========");
 
             // Total of 143 neighborhoods.
@@ -45,9 +45,8 @@ namespace LinqInManhatten
 
             }
 
-            //3.Remove the Duplicates
+            // QUESTION 3.Remove the Duplicates
             // gives me 39 unique neighborhoods
-
             Console.WriteLine("====== Q3 ==========");
             var q3 = q2.GroupBy(x => x.properties.neighborhood)
                        .Select(grp => grp.First());
@@ -59,7 +58,7 @@ namespace LinqInManhatten
 
             }
 
-            //4.Rewrite the queries from above, and consolidate all into one single query.
+            // QUESTION 4.Rewrite the queries from above, and consolidate all into one single query.
 
             Console.WriteLine("====== Q4 ==========");
 
@@ -73,9 +72,12 @@ namespace LinqInManhatten
 
             }
 
-            //5.Rewrite at least one of these questions only using the opposing method(example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
-           
+            // QUESTION 5.Rewrite at least one of these questions only using the opposing method
+            // (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
             // rewriting 2nd question
+
+            Console.WriteLine("====== Q5 ==========");
+
             var rewrite = from name in q1
                           where name.properties.neighborhood != ""
                           select name;
@@ -95,20 +97,9 @@ namespace LinqInManhatten
         /// </summary>
         static RootObject GetData()
         {
-          using (StreamReader sr = File.OpenText("../../../data.json"))
-          {
-            string jsonData = sr.ReadLine();
-            // convert JSON to classes
-
-            // gives me 147 neighborhoods
-            // Note that we specify a type <RootObject> that JsonConvert will map all properties into
-            // This is a class which maps the entire JSON object
-            RootObject deserializedProduct = JsonConvert.DeserializeObject<RootObject>(jsonData);
-
-            // Questions(deserializedProduct);
-            return deserializedProduct;
-
-          }
+          string jsonData = File.ReadAllText("../../../data.json");
+          RootObject deserializedProduct = JsonConvert.DeserializeObject<RootObject>(jsonData);
+          return deserializedProduct;
         }
     }
 

@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ef_demo.Data;
-using ef_demo.Models;
+using API.Data;
+using API.Models;
 
-namespace ef_demo.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -43,8 +43,7 @@ namespace ef_demo.Controllers
         }
 
         // PUT: api/Technologies/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTechnology(int id, Technology technology)
         {
@@ -75,8 +74,7 @@ namespace ef_demo.Controllers
         }
 
         // POST: api/Technologies
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Technology>> PostTechnology(Technology technology)
         {
@@ -88,7 +86,7 @@ namespace ef_demo.Controllers
 
         // DELETE: api/Technologies/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Technology>> DeleteTechnology(int id)
+        public async Task<IActionResult> DeleteTechnology(int id)
         {
             var technology = await _context.Technologies.FindAsync(id);
             if (technology == null)
@@ -99,7 +97,7 @@ namespace ef_demo.Controllers
             _context.Technologies.Remove(technology);
             await _context.SaveChangesAsync();
 
-            return technology;
+            return NoContent();
         }
 
         private bool TechnologyExists(int id)

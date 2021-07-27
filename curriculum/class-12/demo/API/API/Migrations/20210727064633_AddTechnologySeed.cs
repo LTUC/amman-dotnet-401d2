@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ef_demo.Migrations
+namespace API.Migrations
 {
-    public partial class technology : Migration
+    public partial class AddTechnologySeed : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
