@@ -2,9 +2,9 @@
 
 Today, the students will build off of interfaces and see how a built in interface can apply to generic collections. They will see the use of enums and how they are used in code, and create their own generic collection and learn what actually happens when they get instantiated.
 
-
 ## Code Review
-- Review the OOP principles from Class 06
+
+- Review the OOP principles from Class 06 & 07
 - Quiz, Draw, Build
 
 ## Lecture
@@ -29,6 +29,7 @@ Today, the students will build off of interfaces and see how a built in interfac
     - Great for switch statements, filling web forms, etc
 - **How** (30 min)
   - Declare an enum in a class with an optional numeric type and constant values and allow the language to assign your numeric index
+
     ```csharp
     enum Months : byte
     {
@@ -38,7 +39,9 @@ Today, the students will build off of interfaces and see how a built in interfac
       ...
     }
     ```
+
     Or, explicityly:
+
     ```csharp
     enum Months : byte
     {
@@ -48,15 +51,13 @@ Today, the students will build off of interfaces and see how a built in interfac
       ...
     }
     ```
+
   - Use that enum to enforce a value by matching the names
     - Here, our `Month` property must have a value from the enum `Months`
+
     ```csharp
      public Months Month { get; set; }
     ```
-- **Demo** (45min)
-  -
-- **Experimentation and Discovery Ideas**
-  -
 
 ### Topic 2: Collections
 
@@ -93,6 +94,7 @@ Today, the students will build off of interfaces and see how a built in interfac
     - You can `foreach`, loop, `Remove()`, etc
 - **Demo** (45min)
   - Demo as you go ... collections are best seen as they're created
+
 - **Experimentation and Discovery Ideas**
   -
 
@@ -105,4 +107,3 @@ The lab directions contain some code snippets to assist students if needed. They
 ## Past bugs, issues or surprises...
 
 ## General comments
-

@@ -1,12 +1,14 @@
 # Class 08: Collections & Enums
 
 ## Learning Objectives
+
 1. The student will understand and implement their own enums into their programs and classes.
 1. The student will be able to identify and implement their own generic collection.
 
 ## Lecture Outline
 
-#### Overview:
+### Overview:
+
 1. Review the coding challenge from the previous day, this will directly tie into today's lecture.
 1. We will go over both generic and non-generic, but they will be implementing their own generic collection as their lab assignment.
 
@@ -76,20 +78,19 @@
 ### Collections
 
 There are two ways to create and manage a group of related objects
+
 1. Create an array of objects
 2. Creating a collection of objects
 
-
 A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
 
-
 ```csharp
-	Library<string> secondLib = new Library<string>
-	{
-	  "The Great Gatsby",
-	  "Where the Red Fern Grows",
-	  "Of Mice and Men"
-	};
+ Library<string> secondLib = new Library<string>
+ {
+   "The Great Gatsby",
+   "Where the Red Fern Grows",
+   "Of Mice and Men"
+ };
 ```
 
 ```csharp
@@ -101,10 +102,10 @@ A collection is a class, so you must declare an instance of the class before you
     princesses.Add("Ariel");
 ```
 
-
 ### Generics vs. Non-Generics
 
 #### Generics
+
 - List< T>
 - Dictionary< T>
 - SortedList< T>
@@ -119,7 +120,7 @@ A collection is a class, so you must declare an instance of the class before you
 *are not really used much anymore*
 
 - ArrayList
-- Hashtable
+- HashTable
 - SortedList
 - Queue
 - Stack

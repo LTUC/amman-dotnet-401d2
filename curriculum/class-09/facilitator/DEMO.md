@@ -68,4 +68,3 @@ public void ExampleDelegateCall(MyDelegate del)
 Finally, create a generic function that does stuff with an IEnumerable set of numbers, and then a bunch of delegates that it can be called with to find things like evens, odds, etc
 
 ## LINQ
-

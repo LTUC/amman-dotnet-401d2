@@ -42,6 +42,7 @@ If we want to now invoke/call this method we can do so by either
 ```csharp
 del();
 ```
+
 OR
 
 ```csharp
@@ -73,13 +74,13 @@ We can pass delegates as well.
 
 ```csharp
 static void Main(){
-	MyDelegate del = MyMethod;
-	PassingADelegate(del);
+ MyDelegate del = MyMethod;
+ PassingADelegate(del);
 }
 
 static void PassingADelegate(MyDelegate delly)
 {
-	delly();
+ delly();
 }
 ```
 
@@ -88,18 +89,16 @@ i can also remove the delegate instantiation completely and just do this:
 ```csharp
 static void Main(){
 
-	PassingADelegate(MyMethod);
+ PassingADelegate(MyMethod);
 }
 
 static void PassingADelegate(MyDelegate delly)
 {
-	delly();
+ delly();
 }
 ```
 
-Since our method requires a delegate we can just pass th method name in to make equal to that delegate reference without having to explicitly say `new`.
-
-
+Since our method requires a delegate we can just pass the method name in to make equal to that delegate reference without having to explicitly say `new`.
 
 #### Another Example:
 
@@ -116,7 +115,6 @@ foreach(int i in result){cwl(i)}
 But What if we needed something to get odd numbers?
 
 We could copy/paste and redo it to change the logic, but that isn't effective because the only thing we are doing is changing the inner logic of the if statement.
-
 
 What we need to do is parametrize the code of that if statement so that we have the flexibility to have this method do w/e we want, or by having it call these  external methods that are essentially the same thing, but with small logic changes.
 
@@ -139,10 +137,10 @@ static IEnumerable<int> GenerateNumbers(IENumerable<int> numbers, MyDelegate act
 {
     foreach(int number in numbers)
     {
-	     if(action(number))
-	     {
-	 	     yield return number
-	     }
+      if(action(number))
+      {
+        yield return number
+      }
     }
 }
 ```
@@ -150,9 +148,10 @@ static IEnumerable<int> GenerateNumbers(IENumerable<int> numbers, MyDelegate act
 ### Generic Delegates
 
 If we decide that we don't want to make our own delegates but use generic delegates we can do so.
-Ths is where `Action` and `Func` come into the picture.
+This is where `Action` and `Func` come into the picture.
 
 #### Func
+
 You use action, as a generic delegate if you want to have specific parameters for a method, with one specific data type returning. These can hold up to 16 parameters, with one data type/variable returning.
 
 ```csharp
@@ -164,13 +163,4 @@ static bool ThisTakesInTwoIntsAsArgumentsAndReturnsABool(int a, int b){return tr
 #### Action
 
 Action return void and can take 0 - 16 arguments.
-Funcs do not have return arguments. Other than that, they are essentially the same as Funcs.
-
-
-
-
-
-
-
-
-
+`Funcs` do not have return arguments. Other than that, they are essentially the same as `Funcs`.

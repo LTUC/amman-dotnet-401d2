@@ -6,7 +6,6 @@ This demo feels like a lecture and is a lot of the "Resource" material repeated.
 
 ## Interfaces
 
-
 1. Start Demo by creating the Person Class
 2. Then create the Student and Employee. Use this opportunity to review the OOP principles
 
@@ -16,7 +15,7 @@ This demo feels like a lecture and is a lot of the "Resource" material repeated.
 
 5. There is no relationship between Robot and Employee..but now both can drive!
 
-6. Create a method in the Program class that accepts IDrive as a paramater. Now Employee and Robot can be accepted into it.
+6. Create a method in the Program class that accepts IDrive as a parameter. Now Employee and Robot can be accepted into it.
 
 7. Create a new interface named IDrivable that make it implemented onto another few classes such as Boat and Airplane
 
