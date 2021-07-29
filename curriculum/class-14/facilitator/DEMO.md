@@ -23,7 +23,7 @@ Prior to starting the demo, add some records to the Student, Course, and Technol
    - Service methods use context to talk to the DB
    - Route returns the data
 1. Wiring
-   - We use dependency injection to "feed" each system (controller, etc) the correct subystem or dependency
+   - We use dependency injection to "feed" each system (controller, etc) the correct subsystem or dependency
 
 ## Goals for this demo:
 
@@ -39,7 +39,6 @@ How?
 1. Create CRUD methods for the join tables
 1. Create a new Interface/Service/Controller for the payload join table, which is a special case
 
-
 ### Add the Enrollments Table
 
 This will implement the enrollment entity (the box in the drawing, or the table in our db)
@@ -48,6 +47,7 @@ This will implement the enrollment entity (the box in the drawing, or the table 
 - If you migrate (try it), you'll get an error because there's no primary key (id)
   - The actual primary key should be the composite key: StudentId + CourseId
   - This can be handled in the DbContext:
+
   ```csharp
   // This creates the composite primary key for the enrollments table
   modelBuilder.Entity<Enrollment>().HasKey(
@@ -55,6 +55,7 @@ This will implement the enrollment entity (the box in the drawing, or the table 
     enrollment => new { enrollment.CourseId, enrollment.StudentId }
   );
   ```
+
 - Once you migrate and update the database, inspect the migration class to see the new PK constraint as well as the table itself
 
 ### Add the connections
@@ -71,15 +72,16 @@ Once we have the enrollments table, use **Navigation Properties** to connect it 
   public Student Student { get; set; }
   public Course Course { get; set; }
   ```
+
 - Run a migration and update
 - Inspect the migration class to see the new foreign keys being created
 
 > Notice that it "figured out" how to hook the `id` fields up. This is done by convention. `StudentId` is mapped to the `id` column in the `students` table by the framework automatically
 
 If you now browse to the table in SQL Explorer, you can add some rows manually that tie students and courses together in the enrollments table.
-  - What happens if you try and add a bad student or course id?
-    - Error: Referential Integrity fails on the constraint!
 
+- What happens if you try and add a bad student or course id?
+  - Error: Referential Integrity fails on the constraint!
 
 #### Reverse Navigation Properties for the "Source" tables
 
@@ -104,7 +106,7 @@ If you now restart your server and browse to `/api/students/1`, you'll see that 
 
 #### Engage the live connections
 
-Target: http://localhost:port/api/students/1
+Target: <http://localhost:port/api/students/1>
 
 We'll want to alter our `GetOne()` and `GetAll()` methods to include the relevant data from the join table, instead of `null`
 
@@ -161,7 +163,6 @@ services.AddControllers().AddNewtonsoftJson(options =>
 
 Following this change, you should be able to browse to a student by id and see their enrollments. Additionally, you can apply the same logic on the Course side of things and have the course present a list of student enrollments (see CourseRepository.cs)
 
-
 ### Manage the Join-Table Data with code (CRUD)
 
 Now, we've been able to manually go to the database and add records to the Enrollments table to test out our basic wiring. Let's add a code path to have our Controllers be able to do this for us using a route.
@@ -174,8 +175,8 @@ ICourse.cs
 Task AddStudent(int studentId, int courseId);
 ```
 
-
 CourseRepository.cs
+
 ```csharp
 public async Task AddStudent(int studentId, int courseId)
 {
@@ -216,8 +217,8 @@ ICourse.cs
 Task RemoveStudentFromCourse(int courseid, int studentId);
 ```
 
-
 CourseRepository.cs
+
 ```csharp
 public async Task RemoveStudentFromCourse(int courseId, int studentId)
 {
@@ -232,6 +233,7 @@ public async Task RemoveStudentFromCourse(int courseId, int studentId)
 ```
 
 CoursesController.cs
+
 ```csharp
 public async Task RemoveStudentFromCourse(int courseId, int studentId)
 {

@@ -8,7 +8,7 @@ Building off of your current project, refactor your project to allow and impleme
 
 ### Repository Design Pattern
 
-1. Using Dependency Injection, refactor your `Hotels`, `Rooms`, and `Amenities` Controllers to depend on an interface rather than the dbcontext.
+1. Using Dependency Injection, refactor your `Hotels`, `Rooms`, and `Amenities` Controllers to depend on an interface rather than the DbContext.
 
 1. Build an interface for each of the controllers that contain the required method signatures to all for CRUD operations to the database directly
 
