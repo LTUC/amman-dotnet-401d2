@@ -8,8 +8,8 @@ Create new "models" that define what our API will be returning
 
 - Under models, create a new folder
   - `api` or `dto` is appropriate
--  Within, create a new Class
-  - `StudentDto.cs`
+- Within, create a new Class
+- `StudentDto.cs`
 - Define what we actually want to show the end user
   - What data is appropriate?
   - What data is relevant?
@@ -53,6 +53,7 @@ public async Task<ActionResult<StudentDto>> GetStudent(int id)
 ### Alter the Interface to implement that DTO
 
 1. Change the IStudentRepository to specify the new return type
+
    ```csharp
    // Get one by id
    Task<StudentDto> GetOne(int id);
@@ -65,6 +66,7 @@ Here, we'll be writing a large LINQ query that joins the students and transcript
 You'll need to walk the students through the models and their navigation properties, looking at the data to ensure that everyone has a complete understanding of where this data is coming from.
 
 Some highlights
+
 - The `ToString()` call on the grade is using the Enum to convert the number value to a string
 - We get the technology name from the navigation property that joins the course to the technology table
 - We're making grades a "Select" from the other DTO we created, rather than hand-filling each field
@@ -98,7 +100,7 @@ public async Task<StudentDto> GetOne(int id)
 
 ### Test a route
 
-i.e. http://localhost:PORT/api/students/1
+i.e. <http://localhost:PORT/api/students/1>
 
 ```json
 {
@@ -121,7 +123,6 @@ i.e. http://localhost:PORT/api/students/1
 }
 ```
 
-
 ## DTOs - INBOUND
 
 Just as we can create and adhere to an **outbound data contract** using DTOs in our APIs, we can similarly create a contract for data coming into our API, either through a **POST** or a **PUT/PATCH**
@@ -130,7 +131,7 @@ Doing so, allows us to shield the API client from having to handle every field o
 
 For example, rather than adding a student, and then enrolling them in a course as 2 separate API calls, why not allow a POST like this:
 
-**http://api.com/api/student/course**
+**<http://api.com/api/student/course>**
 
 ```json
 {
@@ -145,6 +146,7 @@ For example, rather than adding a student, and then enrolling them in a course a
    - Create a class in your `/Models/Api/` folder for the DTO
    - Identify the fields you'll be requiring
      - Note, that these can be nested, using Navigation Properties
+
    ```csharp
    public class NewStudentDto
    {
@@ -154,7 +156,9 @@ For example, rather than adding a student, and then enrolling them in a course a
      public string CourseCode { get; set; }
    }
    ```
+
 1. Change your Controller to require this on the incoming POST (or PUT)
+
    ```csharp
     [HttpPost]
     public async Task<ActionResult<Student>> PostStudent(NewStudentDto student)
@@ -163,8 +167,10 @@ For example, rather than adding a student, and then enrolling them in a course a
       return CreatedAtAction("GetStudent", new { id = newStudent.Id }, newStudent);
     }
    ```
+
 1. Change your Service to use the DTO, and create the requisite database entries from it
    - Code this out iteratively, in steps
+
    ```csharp
    public async Task<Student> Create(NewStudentDto inboundData)
    {
@@ -200,18 +206,22 @@ For example, rather than adding a student, and then enrolling them in a course a
 That's fine for 'getting it to work', but this is a great opportunity to talk through making this method more of a "strategy" and instead of having it do everything, bring in the course service as a dependency, and offload the work to that service, where we not only already have code wired up, but where it belongs ...
 
 1. Alter the Courses Service, adding the `GetOneByCourseCode` method
-  - Why are we moving this to the Courses Service (Semantics)
-  - Remember to add it to the `ICourses` interface!
+
+- Why are we moving this to the Courses Service (Semantics)
+- Remember to add it to the `ICourses` interface!
+
    ```csharp
     public async Task<Course> GetOneByCourseCode(string courseCode)
     {
       return await _context.Courses.FirstOrDefaultAsync(s => s.CourseCode == courseCode);
     }
    ```
+
 1. Inject the Course Service into the Student Service
-   - Utilize Dependeny Injection to inject the Course Service
+   - Utilize Dependency Injection to inject the Course Service
      - Reminder, the students controller knows it needs the students service. The service provider "sees" that it now has 2 params, and then locates & injects them for us
    - Make the following changes to your Student Service file, which identifies the new dependency and initializes it as `_courses`
+
    ```csharp
    public class StudentRepository : IStudent
    {
@@ -225,9 +235,11 @@ That's fine for 'getting it to work', but this is a great opportunity to talk th
      }
      ...
    ```
+
 1. Given access to the Courses Service, we can now call on its methods to refactor the `Create` method
    - This allows to properly separate concerns (courses deal with their own enrollments and find methods)
    - This also allows us to revisit the Dependency Injection lifecycle
+
    ```csharp
    public async Task<Student> Create(NewStudentDto inboundData)
    {

@@ -48,21 +48,22 @@ Below is the expected lecture outline and flow. One possible way to present this
   - These are custom objects that contain data that are sent and received from the server.
   - This helps us control what routes get what data with minimal restrictions.
 - **How** (30 min)
-  - Build out a class and have it hold all of hte properties for the DTO.
+  - Build out a class and have it hold all of the properties for the DTO.
   - Make the return type, and the parameter of the action/route be the designated DTO.
 - **Experimentation and Discovery Ideas**
   - Create different DTOs
   - Customize the data that is shown on an API response and make them more readable for the client.
 
 ## Lab Notes
+
 - A lot of refactoring
 
 ## What might students struggle with today?
+
 - Concept of what a DTO is
 - Wiring and re-wiring
 
 ## Past bugs, issues or surprises...
-
 
 ## General Comments and Notes
 

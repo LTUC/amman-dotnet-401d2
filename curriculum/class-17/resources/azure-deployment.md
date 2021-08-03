@@ -22,7 +22,6 @@ This is a good time to show students how to add an Env Variable to the app. Noti
 
 `ASPNETCORE_Environment=Development`
 
-
 ## Auto-Migrate on start
 
 Change your `Program.cs` file from this:

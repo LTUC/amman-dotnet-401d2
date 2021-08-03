@@ -19,14 +19,13 @@ We will be soon adding authentication and authorization to our app to finalize t
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are to have the students refactor their current codebase to customize and create DTOs
+> Our primary outcomes and goals for the day are to have the students experience testing, swagger usage and seeing a live deployment
 
 ## Preparation
 
 Todays demo will be done workshop style, so ensure that the students have access to the starter code in the class repository
 
 You'll find this in the `demo` folder under `workshop-starter-code`
-
 
 ## Lecture Outline
 
@@ -37,15 +36,17 @@ Below is the expected lecture outline and flow. One possible way to present this
 - Review lab 14's routing and Dependency Injection
 
 ### TESTING
+
 - **Why** (5 minutes)
   - We need to make sure our code is reliable and behaves as we expect.
 - **What** (10 minutes)
   - Testing allows us to make sure that our methods within our service work exactly as we expect.
 - **How** (30 minutes)
-  - Create a new Xunit project, similar to how you did it before with your console apps.
+  - Create a new XUnit project, similar to how you did it before with your console apps.
   - Show how to explicitly test the service for the CRUD calls.
 
 ### SWAGGER
+
 - **Why** (5 minutes)
   - Documentation is an imperative
   - Living Documentation is actually useful
@@ -56,6 +57,7 @@ Below is the expected lecture outline and flow. One possible way to present this
   - Add Swagger to the school application, per the demo
 
 ### DEPLOYMENT (AZURE)
+
 - **Why**
   - we need our app to be globally accessible. to do this, we use Azure to host our database, and our server side application.
 - **What**
@@ -65,13 +67,14 @@ Below is the expected lecture outline and flow. One possible way to present this
   - In addition to "right click publish", we also need to deploy our database.
 
 ## Lab Notes
+
 - A lot of refactoring
 
 ## What might students struggle with today?
-- Concept of what a DTO is
+
+- Testing with mocks is always a brain bender for students the first time they encounter it
 
 ## Past bugs, issues or surprises...
-
 
 ## General Comments and Notes
 

@@ -10,7 +10,7 @@ In today's demos, we'll be backing up each lecture segment with live code, works
 
 You can run these demos in one of 3 ways:
 
-1. Code it out as you normally would, allowng the students to watch and take notes
+1. Code it out as you normally would, allowing the students to watch and take notes
 1. Code it slowly, workshop style, allowing the students to follow along with you.
    - You might want to provide them the "resources" code ahead of time to facilitate typos
 1. For each segment, select a different student to pair program with, and navigate them.
@@ -18,12 +18,12 @@ You can run these demos in one of 3 ways:
 
 If you choose option 3, remember that each student has gotten the same, working starter code, so there's no fear of bugs. Additionally, these segments don't depend on one another, so any student starting from scratch with you can pair with you.
 
-
 ## Testing
 
 Questions:
 
 Where do we test?
+
 - Local Computer?
 - What about on Github actions?
 - What about somewhere else?
@@ -148,14 +148,13 @@ namespace SchoolTests
 
 Create a GitHub action (there are templates provided) to auto-run your tests when you check in  your code.
 
-
 ## Swagger
 
 The following steps help us to create live documentation using Swagger definitions.
 
-
 1. Install Dependency: Swashbuckle.AspnetCore
 1. In `Startup.cs`, configure a new service dependency
+
    ```csharp
    public void ConfigureServices()
    {
@@ -172,24 +171,25 @@ The following steps help us to create live documentation using Swagger definitio
 
    }
    ```
+
 1. Create the new routes so that swagger "works"
 1. In `Startup.cs`, add this to `Configure()`
+
    ```csharp
    app.UseSwagger( options => {
     options.RouteTemplate = "/api/{documentName}/swagger.json";
    });
    ```
-  - `documentName` is the `version` you gave in the previous step
 
+- `documentName` is the `version` you gave in the previous step
 
 Now ...
 
-https://localhost:PORT/api/v1/swagger.json
+<https://localhost:PORT/api/v1/swagger.json>
 
 Boom! You get a fully configured Swagger compatible JSON definition.
 
 You can plug this directly into Swagger.io and see your live API
-
 
 ### Even better, let's serve our own docs...
 
@@ -202,10 +202,9 @@ app.UseSwaggerUI( options => {
 
 Now ...
 
-http://localhost:PORT/docs is the actual documentation for your API.
+<http://localhost:PORT/docs> is the actual documentation for your API.
 
 You can set `RoutePrefix` to "" to make your API Documentation the Home Page for your API
-
 
 ## Azure Deployment
 
@@ -213,9 +212,10 @@ You can set `RoutePrefix` to "" to make your API Documentation the Home Page for
 1. Create a "Subscription"
 1. Right click your app, and choose "Publish"
 1. Follow the wizard
-  - Database Creation
-  - Username/Password
-  - Deployment Slots, etc
+
+- Database Creation
+- Username/Password
+- Deployment Slots, etc
 
 Things to focus on:
 
@@ -230,7 +230,6 @@ The basics will work, API will not because of Migration.
 This is a good time to show students how to add an Env Variable to the app. Notice that the 500 error gives no information. If we add this env var, we can see the developer page:
 
 `ASPNETCORE_Environment=Development`
-
 
 ### Auto-Migrate on start
 

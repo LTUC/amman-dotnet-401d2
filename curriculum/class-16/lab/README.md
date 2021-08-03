@@ -20,7 +20,7 @@ Route (GET): api/Hotels/{id}:
 
 Here is the expected output when calling Hotels:
 
-```
+```json
 {
     "id": 1,
     "name": "My really cool Hotel",
@@ -79,23 +79,25 @@ Here is the expected output when calling Hotels:
 
 Route: (GET) :  'api/Hotels'
 
-```
+```text
 An array of individual hotels. (See result from api/Hotels/{id})
 ```
 
 #### HotelRooms Controller
 
 Route: (Get/Put/Delete) : `/api/Hotels/{hotelId}/Rooms/{roomNumber}`
+
 - This is the HotelRooms Controller
 - Create, Read, Update, Delete a hotel room
 - THe PUT request will include the HotelRoomDTO in the incoming request from the client
 
 Route: (Get/Post) : `/api/Hotels/{hotelId}/Rooms`
+
 - Get all the rooms for a hotel
 - Add a single room to a hotel
-    - When adding a room, the HotelRoomDTO will be the incoming request from the client
+  - When adding a room, the HotelRoomDTO will be the incoming request from the client
 
-```
+```json
 {
     "hotelID": 1,
     "roomNumber": 101,
@@ -120,14 +122,14 @@ Route: (Get/Post) : `/api/Hotels/{hotelId}/Rooms`
 }
 ```
 
-
 #### Rooms Controller
 
 Route (Get/Put) : `api/rooms/{roomId}`
+
 - Get a specific room
 - Update a room
 
-```
+```json
 {
     "id": 1,
     "name": "Princess Suite",
@@ -146,16 +148,19 @@ Route (Get/Put) : `api/rooms/{roomId}`
 ```
 
 Route: (GET/POST) : `api/rooms/`
+
 - Get an array of RoomDTO objects
 - refer to request above for formatting
--  Post request will create a new room
+- Post request will create a new room
 - Post request will have the room DTO included in request
 
 #### Amenities Controller
+
 Route: (Get) `api/amenities/{id}`
+
 - Get specific amenity
 
-```
+```json
 {
     "id": 1,
     "name": "Coffee Maker"
@@ -163,16 +168,15 @@ Route: (Get) `api/amenities/{id}`
 ```
 
 Route: (GET/POST) - `api/amenities/`
+
 - Get all Amenities
 - Response will be an array of amenities
 - Post is adding a new general amenity
 - Post will include the Amenities DTO in the request
 
-
 ## Guidance
 
 Create DTOs that will be accepted and returned to the user:
-
 
 ```csharp
     public class HotelDTO
@@ -212,8 +216,6 @@ Create DTOs that will be accepted and returned to the user:
     }
 ```
 
-
-
 ## Unit Tests
 
 Not Required.
@@ -224,6 +226,7 @@ Not Required.
 - Figure out how to cascade delete
 
 ## README
+
 **A Readme is a requirement. No Readme == No Grade.**
 Here are the requirements for a valid readme:
 
@@ -239,13 +242,12 @@ Your job is to
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 Refer to the README templates in the class repo `Resources` folder for an example.
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 
 The lab rubric can be found [HERE](../../resources/rubric){:target="_blank"}
-
 
 ## To Submit this Assignment
 
@@ -258,4 +260,3 @@ The lab rubric can be found [HERE](../../resources/rubric){:target="_blank"}
 - Merge your PR back into main
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
-

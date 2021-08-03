@@ -3,17 +3,18 @@
 Questions:
 
 Where do we test?
-  - Local Computer?
-  - What about on Github actions?
-  - What about somewhere else?
+
+- Local Computer?
+- What about on Github actions?
+- What about somewhere else?
 
 You can't just pull in a DbContext, which is the actual connection...
 
 Let's create and use an Abstract "Mock Database Test Class", which lets use setup and tear down a testing database in memory for each test.
 
-  - DB is "created"
-  - DB is "used" by the tests
-  - DB gets destroyed
+- DB is "created"
+- DB is "used" by the tests
+- DB gets destroyed
 
 This can run agnostically in any environment!
 
@@ -123,4 +124,3 @@ namespace SchoolTests
 }
 
 ```
-
