@@ -23,7 +23,7 @@ Review the detailed objectives in today's [student-facing readme](../README.md).
 
 ## Preparation
 
-- Practice [the demo](./DEMO.md) which is a complete step by step creation of a core API server using Entiry Framework.
+- Practice [the demo](./DEMO.md) which is a complete step by step creation of a core API server using Entity Framework.
   - There's a lot of steps involved, each of which will be **magic** for the students.
   - Be sure to understand the inner workings and be ready for questions
 
@@ -38,9 +38,9 @@ Below is the expected lecture outline and flow. One possible way to present this
 ### Intro to Entity Framework
 
 - **Why** (5 min)
- - We need a way to manage our DB safely and effectively.
- - We can offload the performance and overall management of the db to EF Core
-   - In other words, we let the framework handle the dirty work for us
+- We need a way to manage our DB safely and effectively.
+- We can offload the performance and overall management of the db to EF Core
+  - In other words, we let the framework handle the dirty work for us
 - **What** (10 min)
   - EF Core serves as an object-relational mapper (O/RM)
   - Enables .NET developers to work with a database using .NET objects
@@ -84,7 +84,6 @@ Below is the expected lecture outline and flow. One possible way to present this
     - Package Manager Console `Update-Database`
 - **How** (30 min)
   - These are created and run as a part of your interactive [DEMO](./DEMO.md)
-
 
 ## Lab Notes
 

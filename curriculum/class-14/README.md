@@ -8,15 +8,15 @@ Description Here
 
 #### Describe and Define
 
-- A
-- B
-- C
+- Table relationships
+- Navigation Properties
+- Dynamic Routing
+- Route Parameters
 
 #### Execute
 
-- A
-- B
-- C
+- Joining Tables/Models using Navigation Properties
+- Routes with dynamic parameters
 
 ## Today's Outline
 

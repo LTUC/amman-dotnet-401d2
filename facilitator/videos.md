@@ -9,6 +9,7 @@
 - [Class 05 - Big O / LL](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98e69)
 
 ## Week 2
+
 - [Class 06 - OOP](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98e72)
 - [Class 07 - Interfaces](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98e81)
 - [Class 08 - Collections](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98e90)
@@ -16,6 +17,7 @@
 - [Class 10 - Stacks/Queues](https://frontrowviews.com/Home/Event/Play/5f122f59ab0d2b12b0f11829)
 
 ## Week 3
+
 - [Class 11 - Databases](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98eb2)
 - [Class 12 - Entity Framework](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98ec0)
 - [Class 13 - Dependency Injection](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98ecf)
@@ -23,6 +25,7 @@
 - [Class 15]()
 
 ## Week 4
+
 - [Class 16a - Refactoring with DTOs](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98ef0)
   - [Class 16b](https://frontrowviews.com/Home/Event/Play/5f2106ba66269116a8e6325c)
 - [Class 17 - Identity](https://frontrowviews.com/Home/Event/Play/5ef39b7c8a269e1be8b98efd)
@@ -40,6 +43,7 @@
 - [Class 30 - Hash Tables]()
 
 ## Week 7 (React?)
+
 - [Class 31 - View Components]()
 - [Class 32 - Emailing]()
 - [Class 33 - Email with sendgrid]()
@@ -47,12 +51,14 @@
 - [Class 35 - Graphs](https://frontrowviews.com/Home/Event/Play/5ef39b7d8a269e1be8b98fd2)
 
 ## Week 8
+
 - [Class 36 - Docs / Authorize.net]()
 - [Class 37 - Uploads again]()
 - [Class 38 - Web Security]()
 - [Class 39 - Web Security Again]()
 
 ## Week 9
+
 - [Class 41 - Xamarin]()
 - [Class 42 - Web Security]()
 - [Class 43 - Ethics (Common)]()

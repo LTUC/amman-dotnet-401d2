@@ -11,14 +11,9 @@ Begin by showing the [build checklist](../resources/ef-web-app.md). They will fo
 1. Build the full application, explaining as you go, as you normally would
    - Finish with a working "API" that can hit a route
 1. Break the students up into small groups, and have them re-create the demo themselves, following the steps.
-  - Have them follow each "Phase" of the workshop checklist and then check in with you as to their progress.
-  - It helps to have your TAs guiding a small group through this so that it goes quicker.
+   - Have them follow each "Phase" of the workshop checklist and then check in with you as to their progress.
+   - It helps to have your TAs guiding a small group through this so that it goes quicker.
 
 At the end, they will have both witnessed and created the days' demo
 
 When they begin lab, they should have a great starting point to execute the same code, but using the **Async Inn models** as directed by the lab.
-
-
-
-
-

@@ -94,7 +94,7 @@ From a terminal, run these commands. Once verified, you can use the command line
 - [ ] Add a constructor to receive our configuration (a bit of magic here)
 
    ```csharp
-   public Startup(Iconfiguration configuration)
+   public Startup(IConfiguration configuration)
    {
      Configuration = configuration;
    }
@@ -118,14 +118,12 @@ From a terminal, run these commands. Once verified, you can use the command line
 - [ ] Apply migrations again, and you should see a big error talking about the Connection String
       - Terminal: `dotnet ef database update`
       - Package Manager Console `Update-Database`
-- [ ] Finally, add the actual connection string to the `appsettings.json` file
-  - Change **DBNAMEHERE** to the name of the database for your project
+- [ ] Finally, add the actual connection string to the end of the `appsettings.json` file
+  - NOTE: Change **DBNAMEHERE** to the name of the database for your project
 
   ```json
-  {
-    "ConnectionStrings": {
-      "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=DBNAMEHERE;Trusted_Connection=True;MultipleActiveResultSets=true"
-    }
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=DBNAMEHERE;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
   ```
 

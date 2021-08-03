@@ -22,21 +22,22 @@ Async Inn ERD:
 
 ![Async Inn ERD](./async-inn-erd.png)
 
-
 ## Application Specifications
 
 ### Startup File
 
 1. Create a new Empty .NET Core Web Application to and implement the basic setup to create your API server:
-	- Add explicit routing of Controllers in your 'Configure' method
-	- Enable the use of MVC controllers in your `ConfigureServices` method
-	- DBContext registered in `ConfigureServices`
+
+- Add explicit routing of Controllers in your 'Configure' method
+- Enable the use of MVC controllers in your `ConfigureServices` method
+- DBContext registered in `ConfigureServices`
 
 ### Simple Models & The Database
 
 1. Create a new Models folder that will contain your basic entities from your ERD
-	- Create a `Hotel` model that contains the same propertied defined in your ERD
-	- Don't worry about adding the Navigation properties just yet. We will add those in later.
+
+- Create a `Hotel` model that contains the same propertied defined in your ERD
+- Don't worry about adding the Navigation properties just yet. We will add those in later.
 
 1. After your first simple model is created, Create a new `Data` folder and add a new `AsyncInnDbContext` file. Make your new class derive from the `DbContext` class, as well as creating the constructor with the proper parameters. Use the demo code as an example.
 
@@ -78,18 +79,18 @@ Let's add some default data into our tables on it's initial launch.
 
 1. Within your `AsyncInnDbContext` add a new override method for the `OnModelCreating` method under your constructor.
 1. Seed in some default data for all three of your simple models
-	- 3 hotels
-	- 3 rooms
-	- 3 amenities
+
+- 3 hotels
+- 3 rooms
+- 3 amenities
 
 Here is an example of adding a single default item to a table: (source [HERE](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding){:target="_blank"}
 
-```
+```csharp
 modelBuilder.Entity<Blog>().HasData(new Blog {BlogId = 1, Url = "http://sample.com"});
-
 ```
 
-After creating the seeded data, you will now want to create a new migration so that the seeded data can get added to the databse tables
+After creating the seeded data, you will now want to create a new migration so that the seeded data can get added to the database tables
 
 1. Create a new migration:
     - Terminal: `dotnet ef migrations add AddSeedData`
@@ -108,19 +109,17 @@ After creating the seeded data, you will now want to create a new migration so t
 Now that we have completed our "Code First Migrations" in the directions above. Let's add some routes so that we can access the data through an API.
 
 1. Create a new folder named `Controllers` in your project.
-2. Right click on the folder, and choose Add >> Controller
-3. Choose the Entity Framework Scaffold for API option
-4. Select the `Hotel` Entity for your model
-5. Select your `AsyncInnDbContext` as your DbContext
+1. Right click on the folder, and choose Add >> Controller
+1. Choose the Entity Framework Scaffold for API option
+1. Select the `Hotel` Entity for your model
+1. Select your `AsyncInnDbContext` as your DbContext
 1. After it's been scaffolded, confirm through [Postman](https://www.postman.com/download) that your can do basic CRUD operations on the Hotels route
 
-1. Follow the instructions above to scaffold out the `Room` and `Amenity` Controllers.
-
+Follow the instructions above to scaffold out the `Room` and `Amenity` Controllers.
 
 Once you have all 3 controllers created, and have manually tested the CRUD operations within Postman, your lab is completed. We will continue to build off of this lab over the next few days.
 
-
-##### README
+#### README
 
 Your README should be in introduction to your web app. Provide in your README, your ERD Diagram and an overview of the relationships and how each entity is related to another.
 
@@ -141,6 +140,3 @@ The lab rubric can be found [Here](../../resources/rubric){:target="_blank"}
 - Merge your PR back into main
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
-
-
-

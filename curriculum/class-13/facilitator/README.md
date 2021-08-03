@@ -4,7 +4,6 @@
 
 Dependency Injection (DI) allows us to keep our applications loosely coupled. Within MVC, it's a pretty standard architectural pattern that is followed. DI allows us to separate the controllers and the functionality away from specific services. Giving us the ability to easily switch out dependencies with minimal overhead of refactoring code.
 
-
 ### How does this topic fit?
 
 **Where we've been**:
@@ -55,27 +54,34 @@ Below is the expected lecture outline and flow. One possible way to present this
         - Possibly different inbound/outbound data
   - For example:
     - we wire up some code to search yahoo.
+
       ```csharp
       // Fetch some data from our favorite search engine
       yahoo.search('stuff');
       ```
+
     - Then google replaces Yahoo, so we have to change our implementation
+
       ```csharp
       // Fetch some data from our favorite search engine
       // yahoo.search('stuff');
       google.search('stuff');
       ```
+
     - Now, DuckDuckGo becomes popular. We're repeating ourselves, and potentially introducing issues. Better:
+
       ```csharp
       // Use an "internet search interface" to let us toggle what's being used for real
       internet.search('stuff');
       ```
+
 - **How** (30 min)
-  -  Any and all dependencies will need to be registered with the service provider through the `Startup.cs` class.
+  - Any and all dependencies will need to be registered with the service provider through the `Startup.cs` class.
   - These registrations will map directly to which classes get instantiated when specific dependencies are getting called.
 - **Experimentation and Discovery Ideas**
 
 ### TOPIC 2: Repository Design Pattern
+
 - **Why**
   - When working with Data Access Objects, primarily with our Models within our Database, we find that we get a lot of the same method signatures
     - Create, Read/Get, Update, and Delete.
