@@ -1,14 +1,14 @@
-using Microsoft.Data.Sqlite;
+﻿using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
-using SchoolDemo.Data;
-using SchoolDemo.Models;
+using SchoolAPI.Data;
+using SchoolAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace SchoolTests
+namespace SchoolApiTests
 {
   public abstract class Mock : IDisposable
   {
@@ -45,7 +45,7 @@ namespace SchoolTests
 
     protected async Task<Course> CreateAndSaveTestCourse()
     {
-      var course = new Course { CourseCode = "test", TechnologyId = 1, Price = 1000 };
+      var course = new Course { CourseCode = "test", TechnologyId = 1 };
       _db.Courses.Add(course);
       await _db.SaveChangesAsync();
       Assert.NotEqual(0, course.Id); // Sanity check

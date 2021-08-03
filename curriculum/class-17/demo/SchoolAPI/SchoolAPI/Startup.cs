@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using SchoolAPI.Data;
 using SchoolAPI.Models.Interfaces;
 using SchoolAPI.Models.Services;
@@ -36,6 +37,16 @@ namespace SchoolAPI
         options.UseSqlServer(connectionString);
       });
 
+      // SWAGGER: Definition Generator
+      services.AddSwaggerGen(options =>
+      {
+        options.SwaggerDoc("v1", new OpenApiInfo()
+        {
+          Title = "School Demo",
+          Version = "v1",
+        });
+      });
+
       // This map the dependency (IStudent) to the correct service (StudentService)
       // "Whenever I see "IStudent" use "StudentService"
       // This means that I can swap out StudentService for ANYTHING
@@ -59,15 +70,20 @@ namespace SchoolAPI
 
       app.UseRouting();
 
+      // SWAGGER - JSON DEFINIION
+      app.UseSwagger(options => {
+        options.RouteTemplate = "/api/{documentName}/swagger.json";
+      });
+
+      // SWAGGER: Interactive Documentation
+      app.UseSwaggerUI(options => {
+        options.SwaggerEndpoint("/api/v1/swagger.json", "Student Demo");
+        options.RoutePrefix = "";
+      });
+
       app.UseEndpoints(endpoints =>
       {
-
         endpoints.MapControllers();
-
-        endpoints.MapGet("/", async context =>
-              {
-                await context.Response.WriteAsync("Hello World!");
-              });
       });
     }
   }
