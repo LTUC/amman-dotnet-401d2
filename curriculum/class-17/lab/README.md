@@ -12,6 +12,7 @@ Bring your current AsyncInn project "up to spec"
 ## Submission Notes:
 
 > Provide a LIVE (Deployed) link to your app running at Azure, with the Swagger Docs as the home page. We will use this to make our grading assertions on your routes.
+
 ## README
 
 **A Readme is a requirement. No Readme == No Grade.**
@@ -25,13 +26,12 @@ Your job is to
 1. Show them what it looks like in action (Visuals)
 1. Show them how they use it (Step by step directions, "Happy Path" walk through)
 1. Tell them any other relevant details
-<br />
 
 This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
 Refer to the README templates in the class repo `Resources` folder for an example.
-- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
+- [Reference](https://github.com/noffle/art-of-readme){:target="_blank"}
 
 ## Rubric
 
