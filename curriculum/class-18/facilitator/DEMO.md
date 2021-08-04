@@ -49,11 +49,15 @@ namespace SchoolDemo.Models
 
 What data? Our model is empty ... actually, we changed it to Inherit from Identity, so let's see what it did
 
-`PM> add-migration identity`
+PM Console: `PM> add-migration identity`
+
+Power Shell: `dotnet ef migrations add Identity`
 
 Look all the tables it's about to create!
 
-`PM> update-database`
+PM Console: `PM> update-database`
+
+Power Shell: `dotnet ef database update`
 
 Now, inspect your DB to see the users tables. They will all be prefixed with `dbo.AspNet`
 
@@ -80,7 +84,50 @@ Before we can do anything in our controllers, we need to register the proper ser
 
 1. Create an empty `IUserService` Interface
    - Think: What methods do we probably need to manage a user?
+
+   ```csharp
+   public Task<UserDto> Register(RegisterUser data, ModelStateDictionary modelState);
+   public Task<UserDto> Authenticate(string username, string password);
+   ```
+
 1. Create am empty `IdentityUserService` Service Class that implements the above interface
+
+## DTO's
+
+We will need 2 DTOs ...
+
+### `UserDto` - Outbound
+
+Returned by the service when we register and authenticate
+
+```csharp
+public class UserDto
+{
+  public string Id { get; set; }
+  public string Username { get; set; }
+}
+```
+
+### `RegisterUserDto` - Inbound
+
+Used by the Register() method to add a user to the Identity database
+
+```csharp
+public class RegisterUser
+{
+  [Required]
+  public string Username { get; set; }
+
+  [Required]
+  public string Password { get; set; }
+
+  [Required]
+  public string Email { get; set; }
+
+  public string PhoneNumber { get; set; }
+}
+```
+
 1. Create a new controller `UsersController` (Empty)
    - Use DI to have IUserService injected
 
@@ -89,7 +136,6 @@ Building out the API ... for the first route, work backward
 1. Start in the controller and build out the `Register()` method
    - Use `HttpPost("register")` as the method
    - It should take in a specialized data shape as the POST BODY
-1. Build a new DTO for this, called `RegisterUser` under `models/api`
 1. Next, build the base method in `IdentityUserService` called `Register()` that takes in this DTO and (for now) doesn't implement it
    - Fix the bugs by adding that method signature to the Interface
 

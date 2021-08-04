@@ -1,8 +1,25 @@
 # Identity
 
+Identity is the ability to add Authentication and Authorization to your web application. This includes registrations, logins, restricted access to specific members, and authentication through Facebook, Google, Twitter, etc...
+
+ASP.NET Core Identity was created to help with the security and management of users. It provides this abstraction layer between the application and the users/role data. We can use the API in it's entirety, or just bits and pieces as we need (such as the salting/hashing by itself) or email services. There is a lot of flexibility within ASP.NET Core Identity. We have the ability to take or leave whatever we want. Identity combines well with EFCore and SQL Server.
+
+## Integration Steps
+
+1. Install Dependency: Identity Framework
+1. Create a new user model, inheriting from `IdentityUser`
+1. Add that model to your `DbContext`
+1. Migrate the data, to create all of the Identity tables
+1. Create related DTO's for login, register, user for use in services and controllers
+   - This is part of pre-planning your application architecture
+1. Create an IUser Interface to handle `Authentication()` and `Register()`
+   - Should use the identity framework to log users in
+1. Add the `IUser` service to your services configuration
+1. Add an empty controller and add the `/register` and `/signin` routes, using your new service
+
 ## Installing and Configuring "Identity"
 
-1. Add Dependency: **Microsoft.AspNetCore.Identity.EntityFrameWorkCore** (@version 3.1)
+1. Add Dependency: **Microsoft.AspNetCore.Identity.EntityFrameWorkCore**
    - Installs libraries as well as models for identities
 
 ## Add an "Application User" Model
@@ -47,11 +64,15 @@ namespace SchoolDemo.Models
 
 What data? Our model is empty ... actually, we changed it to Inherit from Identity, so let's see what it did
 
-`PM> add-migration identity`
+PM Console: `PM> add-migration identity`
+
+Power Shell: `dotnet ef migrations add Identity`
 
 Look all the tables it's about to create!
 
-`PM> update-database`
+PM Console: `PM> update-database`
+
+Power Shell: `dotnet ef database update`
 
 Now, inspect your DB to see the users tables. They will all be prefixed with `dbo.AspNet`
 
@@ -78,7 +99,50 @@ Before we can do anything in our controllers, we need to register the proper ser
 
 1. Create an empty `IUserService` Interface
    - Think: What methods do we probably need to manage a user?
+
+   ```csharp
+   public Task<UserDto> Register(RegisterUser data, ModelStateDictionary modelState);
+   public Task<UserDto> Authenticate(string username, string password);
+   ```
+
 1. Create am empty `IdentityUserService` Service Class that implements the above interface
+
+## DTO's
+
+We will need 2 DTOs ...
+
+### `UserDto` - Outbound
+
+Returned by the service when we register and authenticate
+
+```csharp
+public class UserDto
+{
+  public string Id { get; set; }
+  public string Username { get; set; }
+}
+```
+
+### `RegisterUserDto` - Inbound
+
+Used by the Register() method to add a user to the Identity database
+
+```csharp
+public class RegisterUser
+{
+  [Required]
+  public string Username { get; set; }
+
+  [Required]
+  public string Password { get; set; }
+
+  [Required]
+  public string Email { get; set; }
+
+  public string PhoneNumber { get; set; }
+}
+```
+
 1. Create a new controller `UsersController` (Empty)
    - Use DI to have IUserService injected
 
@@ -87,7 +151,6 @@ Building out the API ... for the first route, work backward
 1. Start in the controller and build out the `Register()` method
    - Use `HttpPost("register")` as the method
    - It should take in a specialized data shape as the POST BODY
-1. Build a new DTO for this, called `RegisterUser` under `models/api`
 1. Next, build the base method in `IdentityUserService` called `Register()` that takes in this DTO and (for now) doesn't implement it
    - Fix the bugs by adding that method signature to the Interface
 
@@ -153,16 +216,16 @@ How can we modify this entire process to be more user friendly?
 - For the Happy Path, Let's make a new DTO that returns a simplified new user
   - Ref: `Models/Api/UserDto.cs`
 
-    ```csharp
-    namespace SchoolDemo.Models.Api
-    {
-      public class UserDto
+      ```csharp
+      namespace SchoolDemo.Models.Api
       {
-        public string Id { get; set; }
-        public string Username { get; set; }
+        public class UserDto
+        {
+          public string Id { get; set; }
+          public string Username { get; set; }
+        }
       }
-    }
-    ```
+      ```
 
   - Add another fake user to see that the below DTO is being returned right
 - For errors, we're going to use a feature of EF called a ModelStateDictionary

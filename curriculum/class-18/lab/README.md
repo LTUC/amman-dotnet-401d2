@@ -2,23 +2,18 @@
 
 ## Assignment Specifications
 
-Building off of your Async Inn API, integrate identity by completing the following:
+Building from your Async Inn API, integrate identity by completing the following:
 
-1. Create an Applicaiton User `ApplicationUser:IdentityUser`
-2. Update your `DbContext` to derive from `IdentityDbContext<ApplicationUser>
-3. Update your database to integrate in the Identity database tables
-4. Register Identity into your Startup file `services.AddIdentity....`
-5. Create an Account Controller and add both Register and Login actions
-6. Confirm that you can register a user successfully in the database
-7. Confirm that you can login with the credentials of an existing user
-
+1. Integrate the Identity Framework into your API
+   - Reference: [identity.md](../resources/identity.md){:target="_blank"}
+1. Confirm that you can register a user successfully in the database
+1. Confirm that you can login with the credentials of an existing user
 
 ## README
 
 Update your README with description of what identity is and attach a full report (including images) explaining the process flow surrounding User Registration and Login
 
 This should be conceptual (steps followed) as well as practical (UML)
-
 
 ## Rubric
 
