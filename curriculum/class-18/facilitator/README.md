@@ -69,5 +69,3 @@ Below is the expected lecture outline and flow. One possible way to present this
 ## Past bugs, issues or surprises...
 
 ## General Comments and Notes
-
-

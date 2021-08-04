@@ -1,10 +1,8 @@
-# Demos: Identity
-
-Use this document to describe the demo(s). Generally, this is going to take the format of either how to build the demo step by step, or less specifically, talking points surrounding the outcomes of the demo segment and code snippets to highlight.
+# Identity
 
 ## Installing and Configuring "Identity"
 
-1. Add Dependency: **Microsoft.AspNetCore.Identity.EntityFrameWorkCore**
+1. Add Dependency: **Microsoft.AspNetCore.Identity.EntityFrameWorkCore** (@version 3.1)
    - Installs libraries as well as models for identities
 
 ## Add an "Application User" Model
@@ -155,16 +153,16 @@ How can we modify this entire process to be more user friendly?
 - For the Happy Path, Let's make a new DTO that returns a simplified new user
   - Ref: `Models/Api/UserDto.cs`
 
-      ```csharp
-      namespace SchoolDemo.Models.Api
+    ```csharp
+    namespace SchoolDemo.Models.Api
+    {
+      public class UserDto
       {
-        public class UserDto
-        {
-          public string Id { get; set; }
-          public string Username { get; set; }
-        }
+        public string Id { get; set; }
+        public string Username { get; set; }
       }
-      ```
+    }
+    ```
 
   - Add another fake user to see that the below DTO is being returned right
 - For errors, we're going to use a feature of EF called a ModelStateDictionary
