@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using SchoolAPI.Data;
+using SchoolAPI.Models;
 using SchoolAPI.Models.Interfaces;
 using SchoolAPI.Models.Services;
 using System;
@@ -36,6 +38,14 @@ namespace SchoolAPI
         string connectionString = Configuration.GetConnectionString("DefaultConnection");
         options.UseSqlServer(connectionString);
       });
+
+      services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+      {
+        options.User.RequireUniqueEmail = true;
+        // There are other options like this
+      }).AddEntityFrameworkStores<SchoolDbContext>();
+
+      services.AddTransient<IUser, IdentityUserService>();
 
       // SWAGGER: Definition Generator
       services.AddSwaggerGen(options =>
