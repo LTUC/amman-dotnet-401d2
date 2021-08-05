@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolAPI.Models.DTO;
 using SchoolAPI.Models.Interfaces;
@@ -48,6 +49,18 @@ namespace SchoolAPI.Controllers
       }
 
       return user;
+    }
+
+    // Whoa! New annotation that will be able to Read the bearer token
+    // and return a user based on the claim/principal within...
+    // [Authorize(Roles = "Administrator")]
+    [Authorize(Policy = "create")]
+    [HttpGet("me")]
+    public async Task<ActionResult<UserDto>> Me()
+    {
+      // Following the [Authorize] phase, this.User will be ... you.
+      // Put a breakpoint here and inspect to see what's passed to our getUser method
+      return await userService.GetUser(this.User);
     }
 
   }

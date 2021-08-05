@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -45,7 +46,27 @@ namespace SchoolAPI
         // There are other options like this
       }).AddEntityFrameworkStores<SchoolDbContext>();
 
-      services.AddTransient<IUser, IdentityUserService>();
+
+      services.AddAuthentication(options =>
+      {
+        options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+      })
+      .AddJwtBearer(options =>
+        {
+          // Tell the authenticaion scheme "how/where" to validate the token + secret
+          options.TokenValidationParameters = JwtTokenService.GetValidationParameters(Configuration);
+        });
+
+      services.AddAuthorization(options =>
+      {
+        // Add "Name of Policy", and the Lambda returns a definition
+        options.AddPolicy("create", policy => policy.RequireClaim("permissions", "create"));
+        options.AddPolicy("update", policy => policy.RequireClaim("permissions", "update"));
+        options.AddPolicy("delete", policy => policy.RequireClaim("permissions", "delete"));
+      });
+
 
       // SWAGGER: Definition Generator
       services.AddSwaggerGen(options =>
@@ -64,6 +85,8 @@ namespace SchoolAPI
       services.AddTransient<IStudent, StudentService>();
       services.AddTransient<ICourse, CourseService>();
       services.AddTransient<ITechnology, TechnologyService>();
+      services.AddScoped<JwtTokenService>();
+      services.AddTransient<IUser, IdentityUserService>();
 
       services.AddControllers().AddNewtonsoftJson(options =>
         options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
@@ -79,6 +102,8 @@ namespace SchoolAPI
       }
 
       app.UseRouting();
+      app.UseAuthentication();
+      app.UseAuthorization();
 
       // SWAGGER - JSON DEFINIION
       app.UseSwagger(options => {
