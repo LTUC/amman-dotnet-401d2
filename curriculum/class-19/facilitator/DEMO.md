@@ -16,12 +16,13 @@ Use this document to describe the demo(s). Generally, this is going to take the 
 ### Wire up a basic **JWT Token Service**
 
 1. New Service Class: `JwtTokenService`
-   - This will be responsible for all things related to Jwt Tokens
+   - This will be responsible for all things related to JWT Tokens
 1. Register our new service in startup
    - Note: No Interface here, just the service itself, which will be very limited in scope
    - `services.AddScoped<JwtTokenService>();`
 1. Also, add the `JwtTokenService` as a dependency of our `IdentityUserService`
    - Ref: `Services/IdentityUserService.cs`
+
    ```csharp
    public class IdentityUserService : IUserService
    {
@@ -38,10 +39,10 @@ Use this document to describe the demo(s). Generally, this is going to take the 
 
 Given that everything is "wired up", now is a good time to start the server and check our Register/Login routes again, so that we know we didn't break anything.
 
-
 ### More wiring: Setup "Secret" Validation in the JWT service and add to the App Configuration
 
 1. Ref: `Services/JwtTokenService.cs`
+
    ```csharp
     // Validate that our "secrets" are actually secrets and that they match
     // This will be used by the validator
@@ -67,9 +68,11 @@ Given that everything is "wired up", now is a good time to start the server and 
       return new SymmetricSecurityKey(secretBytes);
     }
    ```
+
 1. Once we have the ability to validate secrets, we'll need to add the Authentication Service
    - Ref: `ConfigureServices` in `Startup.cs`
    - This is very much boilerplate, so it's ok to see this as "Copy/Paste"
+
    ```csharp
     // Add the wiring for adding "Authentication" for our API
     // "We want the system to always use these "Schemes" to authenticate us
@@ -86,8 +89,10 @@ Given that everything is "wired up", now is a good time to start the server and 
         });
 
    ```
+
 1. Finally, tell our app to use these services
    - Ref: `Configure()` in `Startup.cs`
+
    ```csharp
    app.UseAuthentication();
    app.UseAuthorization();
@@ -148,11 +153,11 @@ return new UserDto
 
 At this point, you should have a token. Inspect it and witness the "claims" ... any application that can read JWTs can see and use this token. Generally, this is
 
-
 ### Use the token to Login instead of sending Username+Password
 
 1. Setup a `GetUser()` method for the IdentityUserService that takes in a "ClaimsPrincipal"
    - This will effectively be the way that we can turn those "Claims" into a User
+
    ```csharp
     // Use a "claim" to get a user
     public async Task<UserDto> GetUser(ClaimsPrincipal principal)
@@ -165,7 +170,9 @@ At this point, you should have a token. Inspect it and witness the "claims" ... 
       };
     }
    ```
+
 1. Create a route in the controller that will allow you to "Get Yourself"
+
    ```csharp
    // Whoa! New annotation that will be able to Read the bearer token
    // and return a user based on the claim/principal within...
@@ -183,13 +190,13 @@ At this point, you should have a token. Inspect it and witness the "claims" ... 
 
 Can you edit/modify the token by hand? Sure (try it at jwt.io) ... But it'll fail muster.
 
-
 ## Roles
 
 1. Seed some data in our DbContext
    - Some things, like these roles, will remain constant, so it's fine to pre-fill our database with them.
    - Create a helper method that creates Identity roles and then uses the `.HasData()` method to put those into the database as we did with the other models.
    - Ref: SchoolDbContext.cs
+
    ```csharp
    SeedRole(modelBuilder, "Administrator");
    SeedRole(modelBuilder, "Editor");
@@ -205,12 +212,14 @@ Can you edit/modify the token by hand? Sure (try it at jwt.io) ... But it'll fai
      modelBuilder.Entity<IdentityRole>().HasData(role);
    }
    ```
+
    - Run a migration to get these roles inserted into the Database
 1. Update the `Register` route in the controller to let us add a role
    - Note: This is bad practice. Normally, this would be a manual or automated process. Users cannot just "decide" to be an "Administrator"
    - Add them to the roles table
    - Add their roles to the DTO (and copy that addition around, and into the DTO itself)
    - Ref: UsersController.cs `Register()`
+
    ```csharp
    if (result.Succeeded)
      {
@@ -225,6 +234,7 @@ Can you edit/modify the token by hand? Sure (try it at jwt.io) ... But it'll fai
        };
      }
    ```
+
    - Launch the app and add a new user, with a role specified
 
 ### Further protecting our routes ...
@@ -234,7 +244,6 @@ Can you edit/modify the token by hand? Sure (try it at jwt.io) ... But it'll fai
 Yep. That's it.
 
 Play around by adding that decorator to various routes with different roles being specified and see what your user can and cannot access.
-
 
 ## POLICIES
 
@@ -255,15 +264,19 @@ services.AddAuthorization(options =>
     options.AddPolicy("delete", policy => policy.RequireClaim("permissions", "delete"));
   });
 ```
+
 1. Next, let's modify the DbContext to be able to identify the "claims" on the roles as we seed them
    - First, let's write out the code we'd like to be able to implement
+
    ```csharp
    SeedRole(modelBuilder, "Administrator", "create", "update", "delete");
    SeedRole(modelBuilder, "Editor", "create", "update");
    SeedRole(modelBuilder, "Writer", "create");
    ```
+
    - Next, we'll alter the `SeedRole` method to allow that.
      - Notice the use of `params string[]` to handle the multiple inbound params
+
      ```csharp
 
      private int nextId = 1; // we need this to generate a unique id on our own
@@ -292,9 +305,11 @@ services.AddAuthorization(options =>
        modelBuilder.Entity<IdentityRoleClaim<string>>().HasData(roleClaims);
      }
      ```
+
 1. Because we altered the DbContext, we need to migrate and update the database
 
 ### Validate
+
 1. Delete all of your users
 1. Add new users with admin, editor, writer permissions
 1. Add a series of varying Authorization annotations on the routes, and login as different users
