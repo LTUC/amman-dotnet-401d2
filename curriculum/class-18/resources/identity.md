@@ -1,6 +1,21 @@
-# Demos: Identity
+# Identity
 
-Use this document to describe the demo(s). Generally, this is going to take the format of either how to build the demo step by step, or less specifically, talking points surrounding the outcomes of the demo segment and code snippets to highlight.
+Identity is the ability to add Authentication and Authorization to your web application. This includes registrations, logins, restricted access to specific members, and authentication through Facebook, Google, Twitter, etc...
+
+ASP.NET Core Identity was created to help with the security and management of users. It provides this abstraction layer between the application and the users/role data. We can use the API in it's entirety, or just bits and pieces as we need (such as the salting/hashing by itself) or email services. There is a lot of flexibility within ASP.NET Core Identity. We have the ability to take or leave whatever we want. Identity combines well with EFCore and SQL Server.
+
+## Integration Steps
+
+1. Install Dependency: Identity Framework
+1. Create a new user model, inheriting from `IdentityUser`
+1. Add that model to your `DbContext`
+1. Migrate the data, to create all of the Identity tables
+1. Create related DTO's for login, register, user for use in services and controllers
+   - This is part of pre-planning your application architecture
+1. Create an IUser Interface to handle `Authentication()` and `Register()`
+   - Should use the identity framework to log users in
+1. Add the `IUser` service to your services configuration
+1. Add an empty controller and add the `/register` and `/signin` routes, using your new service
 
 ## Installing and Configuring "Identity"
 

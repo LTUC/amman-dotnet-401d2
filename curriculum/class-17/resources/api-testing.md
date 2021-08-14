@@ -18,6 +18,9 @@ Let's create and use an Abstract "Mock Database Test Class", which lets use setu
 
 This can run agnostically in any environment!
 
+- Install SQLite Dependencies into your test project
+  - Microsoft.EntityFrameworkCore.Sqlite
+  - Microsoft.Data.Sqlite
 - Start by creating the Mock
 - Notice how we implement the Test Base Class!
 - Need to add a test student and a test course before we can test
