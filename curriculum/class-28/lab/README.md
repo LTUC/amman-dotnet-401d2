@@ -1,4 +1,4 @@
-# Ecommerce Sprint 1 - Milestone 3:  CRUD / MVC Forms
+# E-Commerce Sprint 1 - Milestone 3:  CRUD / MVC Forms
 
 Work together with your partner(s) to complete this lab.
 
@@ -32,7 +32,7 @@ Divide your work evenly amongst your team members.
 
 ## To Submit this Assignment
 
-- Continue to work in your `Ecommerce-App` repository
+- Continue to work in your `E-Commerce-App` repository
 - Create a branch named `sprint-#-milestone-#`
 - Write your code
 - Commit often

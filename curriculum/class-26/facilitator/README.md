@@ -1,7 +1,8 @@
 # Facilitators Guide: Intro to MVC
 
 ## Overview
-This is the kickoff to the ECommerce Project. There is quite a bit of setup that is required for this second half. Review the prep section below to confirm you are ready.
+
+This is the kickoff to the E-Commerce Project. There is quite a bit of setup that is required for this second half. Review the prep section below to confirm you are ready.
 
 1. Be sure that you are comfortable with Azure Dev Ops (ADO)
 1. Divide the class into teams/pairs of 2
@@ -25,12 +26,13 @@ Review the detailed objectives in today's [student-facing readme](../README.md).
 > Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
 
 ## Preparation
+
 Here is checklist of items that you should complete before the start of lecture:
 
 1. Become familiar with Azure Dev Ops project management tool & the VS Team Explorer Extension
     - [Azure Dev Ops](https://dev.azure.com/)
     - [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
-1. Refer to the [Cheat Sheet](../../projects/ecommerce/azure-devops-cheatsheet.md) as steps on how to complete some of the basic tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well.
+1. Refer to the [Cheat Sheet](../../projects/E-Commerce/azure-devops-cheatsheet.md) as steps on how to complete some of the basic tasks within ADO. Walk through the creation of a repo and with some basic tasks. You will do these steps in lecture as well.
 1. Be comfortable with the demo code and all of the different moving components
 
 ## Lecture Outline
@@ -45,7 +47,7 @@ Below is the expected lecture outline and flow. One possible way to present this
   - MVC Roles
   - ERDs and UML
 
-### TOPIC: Ecommerce Project
+### TOPIC: E-commerce Project
 
 - **Why** (5 min)
   - In a multi-module project, students will need to know the progressions
@@ -84,18 +86,15 @@ Below is the expected lecture outline and flow. One possible way to present this
 - **Experimentation and Discovery Ideas**
   - Thing
 
-
 ### Lecture
-
-
 
 1. Introduce MVC
     - Review what MVC stands for. Use the Resources of MVC, and the Diagram to assist
 
-
 ### LAB Prep
 
 Have student pairs ready to be posted in Canvas. For lab, each group should be expected to:
+
 - Create an Azure Dev Ops account
   - Only one person needs to do this. Have them invite their partner.
   - Deploy the basic app to Azure (only on one of the accounts)

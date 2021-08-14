@@ -22,17 +22,20 @@
 ## Notes
 
 ### MVC
+
 MVC is an architectural pattern used in web applications.
 MVC is extremely helpful when it comes to separation of concerns.
 This allows us to make changes to the front-end (view) without
 affecting the business logic or the routes.
 
 #### Model
+
 The model holds the business logic. This is where
 we will create new classes and "models" for any objects
 we wish to use within our web application
 
 #### View
+
 This is our front-end. HTML and CSS is displayed on
 the views. In addition, on the View, we reference the "Model" that was sent to the view from the controller.
 
@@ -58,6 +61,6 @@ You will learn how to make User Story cards, manage them through the
 KanBan board provided through weekly sprints.
 
 Resources:
+
 1. [Azure Dev Ops](https://dev.azure.com/)
 1. [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
-

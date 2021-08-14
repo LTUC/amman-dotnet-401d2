@@ -1,4 +1,4 @@
-# Ecommerce Sprint 2 - Milestone 4:  Payment Processing
+# E-Commerce Sprint 2 - Milestone 4:  Payment Processing
 
 Work together with your partner(s) to complete this lab.
 
@@ -42,7 +42,7 @@ Divide your work evenly amongst your team members.
 
 ## Workflow
 
-- Continue to work in your `Ecommerce-App` repository
+- Continue to work in your `E-Commerce-App` repository
 - Create a branch named `sprint-#-milestone-#`
 - Write your code
 - Commit often

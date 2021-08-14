@@ -1,4 +1,4 @@
-# Ecommerce Sprint 1 - Milestone 1:  MVC
+# E-commerce Sprint 1 - Milestone 1:  MVC
 
 Work together with your partner(s) to complete this lab.
 
@@ -32,7 +32,7 @@ Divide your work evenly amongst your team members.
 ## To Submit this Assignment
 
 - Create a new repository on Azure Dev Ops
-- Name your repo `Ecommerce-App`
+- Name your repo `E-Commerce-App`
 - Create a branch named `sprint-#-milestone-#`
 - Write your code
 - Commit often

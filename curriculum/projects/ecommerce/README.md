@@ -1,4 +1,4 @@
-# Ecommerce Store Application
+# E-Commerce Store Application
 
 ## Problem Domain
 
