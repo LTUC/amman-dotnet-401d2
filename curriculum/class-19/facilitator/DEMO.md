@@ -41,6 +41,9 @@ Given that everything is "wired up", now is a good time to start the server and 
 
 ### More wiring: Setup "Secret" Validation in the JWT service and add to the App Configuration
 
+What's a secret? It's a way to validate that a token was created by a known source. Both parties have the secret so it "unlocks" the door. Demonstrate what a JWT looks like at jwt.io
+
+1. Add the key: `"JWT":{ "Secret":"somethingsecrethere" }` to the `appsettings.json` file;
 1. Ref: `Services/JwtTokenService.cs`
 
    ```csharp
@@ -101,6 +104,8 @@ Given that everything is "wired up", now is a good time to start the server and 
 ### Get/Create Token for a User when they login
 
 As you create these, reference jwt.io, to see where these things are used in a real token
+
+JwtTokenService.cs:
 
 ```csharp
 public async Task<string> GetToken(ApplicationUser user, TimeSpan expiresIn)

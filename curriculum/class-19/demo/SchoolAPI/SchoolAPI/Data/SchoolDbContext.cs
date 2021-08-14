@@ -14,7 +14,6 @@ namespace SchoolAPI.Data
     public DbSet<Student> Students { get; set; }
     public DbSet<Technology> Technologies { get; set; }
     public DbSet<Course> Courses { get; set; }
-
     public DbSet<Enrollment> Enrollments { get; set; }
 
     public SchoolDbContext(DbContextOptions options) : base(options)
