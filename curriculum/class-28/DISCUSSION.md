@@ -1,4 +1,4 @@
-# Readings: MVC Forms
+# Readings: Authentication, Authorization, Cookies
 
 ## Submission Requirements
 
@@ -8,5 +8,12 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
-1. [4 Ways to make a form in .NET MVC](https://www.completecsharptutorial.com/asp-net-mvc5/4-ways-to-create-form-in-asp-net-mvc.php)
+- [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies){:target="_blank"}
+- [HTTP Cookies Explained](https://humanwhocodes.com/blog/2009/05/05/http-cookies-explained/){:target="_blank"}
+- [.NET Cookies Simplified](https://asp.mvc-tutorial.com/httpcontext/cookies/){:target="_blank"}
+
+### Predict ...
+
+How can use cookies in our web application in a similar manner to how we used Bearer Tokens to make direct API calls?
+
+

@@ -1,8 +1,8 @@
-# Ecommerce Sprint 1 - Milestone 1:  MVC
+# E-commerce Sprint 1 - Milestone 1:  MVC
 
 Work together with your partner(s) to complete this lab.
 
-> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. [Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet)
+> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. [Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/curriculum/projects/ecommerce/azure-devops-cheatsheet)
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
@@ -32,7 +32,7 @@ Divide your work evenly amongst your team members.
 ## To Submit this Assignment
 
 - Create a new repository on Azure Dev Ops
-- Name your repo `Ecommerce-App`
+- Name your repo `E-Commerce-App`
 - Create a branch named `sprint-#-milestone-#`
 - Write your code
 - Commit often

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,9 +7,7 @@ namespace MVCDemo.Models
 {
   public class Person
   {
-
     public string Name { get; set; }
-    public string Advice { get; set; }
+    public int Age { get; set; }
   }
-
 }

@@ -1,10 +1,12 @@
-@model MVCDemo.Models.ViewModels.BlogPostVm
+﻿@model MVCDemo.Models.View_Models.BlogPostVm
 
 <h1>@Model.Blog.Title</h1>
-<div>@Model.Blog.Description</div>
+<blockquote>@Model.Blog.Description</blockquote>
 
-<article>
-  <title><h2>@Model.Post.Title</h2></title>
-  <aside>@Model.Post.Author on @Model.Post.PostTime</aside>
-  <p>@Model.Post.Article</p>
-</article>
+<hr />
+
+<section>
+    <h2>@Model.Article.Title</h2>
+    <h3>@Model.Article.Author / @Model.Article.Posted</h3>
+    <article>@Model.Article.Text</article>
+</section>

@@ -1,6 +1,6 @@
-# Final Ecommerce
+# Final E-Commerce
 
-This is your final submission for your Ecommerce site. Your Final Ecommerce site must be transferred to GH with your history of commits. See below on how to do this.
+This is your final submission for your E-Commerce site. Your Final E-Commerce site must be transferred to GH with your history of commits. See below on how to do this.
 
 There will be no resubmits available for this Project. Keep an eye on the due and close date. **These are final.**
 
@@ -58,7 +58,7 @@ Upon completion of this Project, Your E-commerce site should contain the followi
 - Deployed to Azure
 - Your readme should contain the following:
 - Readme should contain the following:
-  - Introduction to your ecommerce site
+  - Introduction to your E-Commerce site
   - What is the product you are selling?
   - What claims are you capturing? Why?
   - Structure/Database Schema for your store DB (not identity)
