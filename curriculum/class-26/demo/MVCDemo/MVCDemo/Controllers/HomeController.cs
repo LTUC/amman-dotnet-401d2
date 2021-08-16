@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MVCDemo.Models;
-using MVCDemo.Models.ViewModels;
+using MVCDemo.Models.View_Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,72 +10,53 @@ namespace MVCDemo.Controllers
 {
   public class HomeController : Controller
   {
-
-    // MODEL BINDING:
-    // what happens if we put ?name=John in the browser?
-    // This is using the query string
-    // In our MVC framework, we call this "Model Binding"
-
-    public string Index(string name)
+    // Query String params: ?name=Martha&age=21
+    public IActionResult Index(string name, int age)
     {
-      return $"Hello, {name}";
+      // You can also just hard code the names
+      Person person = new Person()
+      {
+        Name =  name,
+        Age = age
+      };
+
+      return View(person);
     }
 
     public IActionResult People()
     {
-      List<Person> people = new List<Person>()
-      {
-        new Person() { Name="John", Advice="Eat"},
-        new Person() { Name="Cathy", Advice="Walk"},
-        new Person() { Name="Allie", Advice="Study"},
-        new Person() { Name="Zach", Advice="Work"},
-      };
-
+      List<Person> people = new List<Person>();
+      people.Add(new Person() { Name = "Susan", Age = 20 });
+      people.Add(new Person() { Name = "Micha", Age = 30 });
+      people.Add(new Person() { Name = "Fred", Age = 40 });
       return View(people);
     }
-
-    public IActionResult Person(string name, string advice)
-    {
-      Person person = new Person()
-      {
-        Name = name,
-        Advice = advice
-      };
-      return View(person);
-    }
-
-    // Show the add user form
-    public IActionResult Add()
-    {
-      return View();
-    }
-
 
     public IActionResult Article()
     {
       Blog blog = new Blog()
       {
-        Title = "The World According To John",
-        Description = "Wisdom from the bald one..."
+        Title = "The World According To JJ",
+        Description = "Wisdom from an unexpected source"
       };
 
-      Post post = new Post()
+      Article article = new Article()
       {
         Title = "Broccoli should be banned",
-        Author = "John Cokos",
-        Article = "It's gross, just get rid of it.",
-        PostTime = new DateTime(2021, 2, 8)
+        Author = "JJ",
+        Text = "The stuff is awful, just get rid of it, please",
+        Posted = new DateTime(2021, 7, 4)
       };
 
-      BlogPostVm blogpost = new BlogPostVm()
+      BlogPostVm post = new BlogPostVm()
       {
         Blog = blog,
-        Post = post
+        Article = article
       };
 
-      return View(blogpost);
+
+      return View(post);
 
     }
-
   }
 }
