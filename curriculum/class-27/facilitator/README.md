@@ -1,30 +1,30 @@
-# Facilitators Guide:  Authentication, Authorization, Cookies
+# Facilitators Guide:  MVC Forms
 
 ## Overview
 
-We'll be introducing students to 2 major web app features in this class: Cookies as a general means of local storage and Login/Authentication
+Proper execution of forms, tying them to data models and handling errors ... getting forms right is the key to CRUD!
 
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous class students created an Admin Dashboard scaffold, mapping out an administrator's various workflows.
+In the previous class students created an Admin Dashboard scaffold, mapping out an administrator's various workflows, and have "protected" their routes with Authorization as well as perhaps some conditional logic in the views to hide/show elements based on role.
 
 **What are we focusing on today**:
-Today, we'll be adding Login and Authentication to the system, using cookies to maintain our login status between sessions, using Identity
+Today, we'll be getting into the rendering of Forms that are bound to our data models so that we can easily save data to the DB as well as to provide a solid user experience
 
 **Where we're headed**:
-Next class will have the students wiring up all of the CRUD operations for the admin dashboard, behind the authentication wall.
+Next class will have the students connecting to Azure Blog Storage to upload images of their products in the store. This will be the first time dealing with a true 3rd party api
 
 ## Learning Objectives
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are a core understanding of how cookies work in general, and specifically how Identity uses them in a .net web application
+> Our primary outcomes and goals for the day are to be familiar with CRUD forms programming patterns, POSTing data, and general user workflow.
 
 ## Preparation
 
 - Practice the demo
-- Be prepared to discuss cookie security and issues
+- Be prepared to discuss error handling
 
 ## Lecture Outline
 
@@ -40,49 +40,42 @@ Use code review to reinforce that process, and then to help them unwind.
 - Try to unblock students, but don't provide answers
 
 
-### TOPIC 1: Cookies
+### TOPIC 1: Forms
 
 - **Why** (5 min)
-  - We often have a need to persist data between sessions
-  - That data should be easily shared between browser and server
+  - Forms are the #1 method for transmitting data from the Client to the Server
+    - Query Strings (exposed on the URL -- GET requests)
+    - Cookies (part of the header, sent on all requests)
+  - Cookie and Query strings are nice, but the are limited in size and scope
 - **What** (10 min)
-  - Local storage is a programmatic key/value pair of data in the browser
-  - Cookies are also a programmatic key/value pair of data in the browser
-  - The differences are:
-    - The server can "Set" a cookie on any response
-    - The client (browser) will send back it's cookies on every request
-  - There are security concerns
-    - What is safe to store?
-    - Who can see, read, access cookies?
-    - We can use session ids instead of data
+  - Forms take direct user input and place it (usually in Query String format) in the **body** of a request
+  - Data in the body can be of unlimited size
+  - Data is always a string
+  - Students could use a simple reminder of the 3 main ways to transmit data
+    - Wiring up a form during demo and looking at the body, the format of the body and how the server receives it
 - **How** (30 min)
-  - The demo will have you set, read, and display cookie data in an MVC App
+  - C# Forms can really be done in 2 major ways
+    1. Loosely Typed
+       - These are simply forms, with an action that matches a controller method
+       - The controller method takes in, as params, each form field (by name, exactly matched)
+       - The controller then uses the `ViewData` or `ViewBag` built-in models to transmit data back to the view
+       - This is quick and dirty, and decidedly not OOP. But sometimes, you need to operate that way
+    1. Strongly Typed
+       - Your form matches fields with a data model (by name, exactly)
+       - Your controller method then can take as a param, the Data Model type
+       - This way, you can then communicate using the data model (or a view model) between controller and view
+       - Much more robust and there's an inherent "trust" between the 2 aspects of the application
 - **Experimentation and Discovery Ideas**
-  - Work socratically with the students to devise a session cookie system
-    - They don't have to implement it, but knowing it works is great for interviews
-
-### TOPIC 2: Authentication via Identity
-
-- **Why** (5 min)
-  - While we can manually set and retrieve login cookies and do this manually...
-  - .Net MVC + Identity wires this in for us and allows us to "just work"
-- **What** (10 min)
-  - 95% of the implementation is the same as with Bearer Auth
-  - In fact, we can re-implement Bearer Auth with manual cookies if we choose
-  - However, Using `SignInManager` to validate our users an set the cookie is a breeze
-  - ... and it works with our Authorization (RBAC) system natively
-- **How** (30 min)
-  - Mob program with the students the core authentication/Identity pieces
-    - Treat this as a review
-  - Once built, add in the MVC forms and pages to do this in the browser
-- **Experimentation and Discovery Ideas**
-  - What must be done to "Log Out" a user?
-  - How can we transmit our login status to the Page Layout?
+  - While the general wiring of forms in .NET MVC is relatively simple, take your time to build it up
+    - Work from loose forms to strong
+    - Add in field level binding so that you can show how "magically" the framework can tie real model data to a field
+      - This is where our tag-helpers really help us!
 
 ## Lab Notes
 
-- Demo will give them 90% of what they need to get Authentication working.
-- Ensure that their wiring is very tight, and that they're writing tests
+- Students today will be using forms in MVC to add the ability to perform CRUD operations on their CMS
+- Note that your demo does NOT show them how to do that, only how to wire up a form to a data model
+- They will need to "figure out" how to get their DbContext re-wired as they did in Async Inn, and make their controller methods that accept the form submissions call on their Service to save the data.
 
 ## What might students struggle with today?
 

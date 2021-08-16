@@ -67,7 +67,6 @@ Below is the expected lecture outline and flow. One possible way to present this
 - **What** (10 min)
   - Thing
 - **How** (30 min)
-  - Lab will create a basic MVC app and use the "ceareal.csv" file as day's data set.
   - They should build out a Products page using MVC controller views from the dataset.
 - **Experimentation and Discovery Ideas**
   - Note that the next day, we will "Swap Out" the data source from  CSV to SQL using the Repository Pattern!

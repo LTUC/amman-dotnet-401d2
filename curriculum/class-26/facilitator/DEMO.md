@@ -23,7 +23,6 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-
 #### HTTP Pipeline
 
 In addition to actually letting the HTTP pipeline know about MVC, we also need to tell it what our default template will be. For example, we have to tell it what is the default location to look for if no page, other than the root domain, is specified.
@@ -72,7 +71,6 @@ public string Index(string name)
 }
 ```
 
-
 This is called "Model Binding." the model is able to see the values it is supposed to accept, and then associates them to the correct parameters from the query, assuming the names are exactly the same.
 
 It is important for the students to know that Controller are in charge of the routing. I like to put in the analogy of the "Traffic Cop". They tell any requests coming in exactly where they need to go (which controller).
@@ -94,6 +92,7 @@ appropriate view to get rendered. The `View()` request flow does the following:
 1. Finds the `.cshtml` file with the same name as the action
 
 Create an appropriately named Razor View in the views folder
+
 - i.e. `Views/Home/Index.cshtml`
 - Add a new Entity (Razor View - Empty)
 
@@ -109,9 +108,11 @@ Let's send some data into our view. To do this, we'll create a simple Model clas
 ### Model
 
 1. What is a Model?
-  - The model in an MVC application represents the state of the application and any business logic or operations that should be performed by it.
-  - Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the application.
-  - Strongly typed views will typically use ViewModel types specifically designed to contain data to display on that view. The controller will create and populate these ViewModels from the model.
+
+- The model in an MVC application represents the state of the application and any business logic or operations that should be performed by it.
+- Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the application.
+- Strongly typed views will typically use ViewModel types specifically designed to contain data to display on that view. The controller will create and populate these ViewModels from the model.
+
 1. The model classes you'll create are known as POCO classes (from "plain-old CLR objects") because they don't have any dependency on EF Core. They just define the properties of the data that will be stored in the database.
 
 Create a new folder named `Models` (The name of the folder doesn't actually matter, but convention tells us to call it Models).
@@ -192,7 +193,7 @@ You can now traverse through the `Model` within the view:
 
 We can even make multiple models and combine them into a "View Model". In this example, we can make a Blog an Article Model, and then a View Model (under `Models/ViewModels/BlogPostVm.cs`) that composes these 2 models into something for the view, like a DTO, but for the View.
 
-#### Controller
+#### Controllers
 
 ```csharp
 public IActionResult Article()
@@ -220,7 +221,8 @@ public IActionResult Article()
   return View(blogpost);
 ```
 
-#### View
+#### Views
+
 ```csharp
 @model MVCDemo.Models.ViewModels.BlogPostVm
 
@@ -243,10 +245,13 @@ We can use these to link between views given dynamic information (like an ID)
 1. Add a new file by going to add ... Razor View Imports, which adds `_ViewImports.cshtml` to your views folder
    - This will now be a part of all your view files
 2. Add the helper enabler to this file
+
    ```csharp
    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
    ```
+
 3. Now, in the file where you're rendering the list of people, we can show a detail view by creating a tag helper that links to a person. In this example, we're literally sending all of the data back to the controller action just to prove that we can...Change the simple `<li>` from the earlier example to this:
+
    ```csharp
    @model IEnumerable<MVCDemo.Models.Person>
 
@@ -259,6 +264,7 @@ We can use these to link between views given dynamic information (like an ID)
      }
    </ul>
    ```
+
 4. Once you've done that, add a new Action in the controller to receive `name` and `advice`, create a new `Person` and send it to a `Person` detail view.
 
 ### Layouts
