@@ -1,19 +1,27 @@
-@model FormsDemo.Models.Dog
+﻿@model FormsDemo.Models.Pet
+<!-- This gives us access internally to the enum -->
+@using FormsDemo.Models
 
+<label>
+    <span>Type</span>
+    <select asp-for="@Model.Type" asp-items="Html.GetEnumSelectList<PetType>()"></select>
+</label>
+<label>
+    <span>Name</span>
+    <input asp-for="@Model.Name" />
+</label>
+<label>
+    <span>Owner</span>
+    <input asp-for="@Model.Owner" />
+</label>
+<label>
+    <span>Age</span>
+    <input asp-for="@Model.Age" />
+</label>
 
-<div>
-  Name:<input asp-for="@Model.Name" />
-</div>
+@if( Model.Id > 0 )
+            {
+                <input type="hidden" name="id" value="@Model.Id" />
+            }
 
-<div>
-  Breed::<input asp-for="@Model.Breed" />
-</div>
-
-<div>
-  Owner::<input asp-for="@Model.Owner" />
-</div>
-
-<input type="submit" value="Save Dog" />
-
-<div asp-validation-summary="All"></div>
-
+<button type="submit">Save</button>

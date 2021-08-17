@@ -1,8 +1,10 @@
-@model FormsDemo.Models.Dog
+﻿@model FormsDemo.Models.Pet
 
-<h1>Add Dog</h1>
+<!-- This gives us access internally to the enum -->
+@using FormsDemo.Models
+ 
+<h2>Add Pet</h2>
 
 <form asp-controller="Home" asp-action="Add" method="post">
-  <partial name="_Form" />
+    <partial name="_Form" />
 </form>
-

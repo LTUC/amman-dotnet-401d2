@@ -1,7 +1,10 @@
-Hello World
+﻿@model IEnumerable<FormsDemo.Models.Pet>
 
-<form method="post" asp-controller="Home" asp-action="formtest">
-  <input name="firstname" />
-  <input name="lastname" />
-  <button>Submit</button>
-</form>
+<h2>Pets</h2>
+
+<ul>
+    @foreach( var pet in Model )
+      {
+        <li><a asp-controller="Home" asp-action="edit" asp-route-id=@pet.Id>@pet.Name</a></li>
+      }
+</ul>

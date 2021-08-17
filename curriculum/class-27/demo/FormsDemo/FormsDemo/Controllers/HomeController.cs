@@ -1,6 +1,6 @@
-using FormsDemo.Models;
+﻿using FormsDemo.Models;
+using FormsDemo.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,55 +11,50 @@ namespace FormsDemo.Controllers
   public class HomeController : Controller
   {
 
-    public IActionResult Index()
+    private readonly IPets _pets;
+
+    public HomeController(IPets p)
     {
-      return View();
+      _pets = p;
     }
 
-    [HttpPost]
-    // Weakly Typed Form -- no moddel, just named params
-    public IActionResult FormTest(string firstname, string lastname)
+    public async Task<ActionResult<IEnumerable<Pet>>> Index()
     {
-      ViewData.Add("first", firstname);
-      ViewData.Add("last", lastname);
-      return View();
+      // You should count the list ...
+      var list = await _pets.GetAll();
+      return View(list);
     }
-
 
     [HttpGet]
     public IActionResult Add()
     {
-      return View();
-    }
-
-
-    [HttpPost]
-    public IActionResult Add(Dog dog)
-    {
-
-      if (!ModelState.IsValid) { return View(dog); }
-
-      return Content("Dog Added");
-
-    }
-
-    public IActionResult Edit()
-    {
-      Dog dog = new Dog()
-      {
-        Name = "Rosie",
-        Breed = "Mutt"
-      };
-
-      return View(dog);
+      Pet pet = new Pet();
+      return View(pet);
     }
 
     [HttpPost]
-    public IActionResult Update()
+    public async Task<IActionResult> Add(Pet pet)
     {
-      return null;
+      await _pets.Create(pet);
+      if(!ModelState.IsValid) { return View(pet);  }
+      return Content("Pet Added");
     }
 
+    [HttpGet]
+    public async Task<IActionResult> Edit(int id)
+    {
+
+      Pet pet = await _pets.GetOne(id);
+      return View(pet);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Update( Pet pet )
+    {
+      await _pets.Update(pet);
+      if (!ModelState.IsValid) { return View(pet); }
+      return Content("Pet Updated");
+    }
 
   }
 }
