@@ -17,7 +17,7 @@ To this point, students have built a full REST API, using SQL Server backed mode
 Today, we'll be starting a full stack application using MVC, deployed through Azure Dev Ops
 
 **Where we're headed**:
-Next class will focus on the UI, using Razor Pages
+Next class will focus on the UI, specifically building forms and sending user data to the views and back
 
 ## Learning Objectives
 

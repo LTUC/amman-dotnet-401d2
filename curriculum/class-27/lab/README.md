@@ -15,11 +15,11 @@ Using Forms and CRUD Enabled Routes, add the ability for administrators to add, 
 Divide your work evenly amongst your team members.
 
 1. As an administrator I would like add and save a new category so that I can expand my product lines
-1. As an administrator I would like add and save a new produc so that I can expand my inventory
+1. As an administrator I would like add and save a new product so that I can expand my inventory
 1. As an administrator I would like to associate a product to a category so that my users can more easily browse our inventory
 1. As an administrator I would like to be able to delete products and categories as needed
 1. As an administrator I would like to be able to edit/modify categories so that I can change my storefront structure in real time
-1. As an administrator I would like to be able to edit/modify products so that I can change my inventoryt in real time
+1. As an administrator I would like to be able to edit/modify products so that I can change my inventory in real time
 
 ### Guidance
 
@@ -42,5 +42,3 @@ Divide your work evenly amongst your team members.
 - Merge your PR back into main
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
-
-

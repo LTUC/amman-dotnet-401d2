@@ -86,7 +86,6 @@ Because we're using a model with some basic error checking, we can use a special
 
 This will render any validation errors for you, with the text-danger class applied
 
-
 ### Update an existing Dog
 
 Repeat the above steps for Update. The only real difference is that the form Action will need to POST to `Update` instead of `Add`
@@ -129,3 +128,13 @@ Add.cshtml  (Edit.chtml will be the same except for the action):
 
 @Html.ValidationSummary(false, "", new { @class = "text-danger" })
 ```
+
+## Stage 2: Connecting to the Database and performing CRUD Operations
+
+- Install Entity Framework
+- Create a DogsService
+- Wire up a DbContext and setup the Dependency Injection in the Startup
+
+Once you have the wiring complete (that should be build socratically by the students, as it's all review from modules 3 & 4), call the service methods from the controllers as you add data to the forms.
+
+In the controller method, we'll be calling methods in the PetsService now to do database operations
