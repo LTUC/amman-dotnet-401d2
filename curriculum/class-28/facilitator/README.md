@@ -13,7 +13,10 @@ In the previous class students created an Admin Dashboard scaffold, mapping out 
 Today, we'll be adding Login and Authentication to the system, using cookies to maintain our login status between sessions, using Identity
 
 **Where we're headed**:
-Next class will have the students wiring up all of the CRUD operations for the admin dashboard, behind the authentication wall.
+
+Next class will have the students connecting to Azure Blog Storage to upload images of their products in the store. This will be the first time dealing with a true 3rd party API
+
+Additionally, the students will be completing the wiring of all CRUD operations for the admin dashboard, behind the authentication wall.
 
 ## Learning Objectives
 
@@ -38,7 +41,6 @@ Use code review to reinforce that process, and then to help them unwind.
 
 - The goal for this module is to be very self directed in terms of application wiring.
 - Try to unblock students, but don't provide answers
-
 
 ### TOPIC 1: Cookies
 

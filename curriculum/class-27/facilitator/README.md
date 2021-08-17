@@ -7,13 +7,13 @@ Proper execution of forms, tying them to data models and handling errors ... get
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous class students created an Admin Dashboard scaffold, mapping out an administrator's various workflows, and have "protected" their routes with Authorization as well as perhaps some conditional logic in the views to hide/show elements based on role.
+In the previous class students created an Admin Dashboard scaffold, mapping out an administrator's various workflows
 
 **What are we focusing on today**:
 Today, we'll be getting into the rendering of Forms that are bound to our data models so that we can easily save data to the DB as well as to provide a solid user experience
 
 **Where we're headed**:
-Next class will have the students connecting to Azure Blog Storage to upload images of their products in the store. This will be the first time dealing with a true 3rd party api
+We will be incorporating Identity and Cookies so that we can have "protected" routes with Authorization as well as perhaps some conditional logic in the views to hide/show elements based on role.
 
 ## Learning Objectives
 
@@ -38,7 +38,6 @@ Use code review to reinforce that process, and then to help them unwind.
 
 - The goal for this module is to be very self directed in terms of application wiring.
 - Try to unblock students, but don't provide answers
-
 
 ### TOPIC 1: Forms
 
