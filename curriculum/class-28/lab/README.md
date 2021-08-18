@@ -23,8 +23,8 @@ Divide your work evenly amongst your team members.
 ### Guidance
 
 - You'll need to wire up Identity, Roles, Policies and JWT within your application
-- **Seed** your admin users with phony passwords.
-  - Remember, we don't want to let people just register as administrators
+- Update the register route handler so that you can change the Role that is assigned as you create users from the form
+  - You'll need to hard-code it each time you want to add a new user
 - Store a cookie in the browser on login.
 - Read the token from that cookie on every inbound request so you can protect your routes
 
