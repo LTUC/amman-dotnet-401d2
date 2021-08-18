@@ -2,7 +2,7 @@
 
 Work together with your partner(s) to complete this lab.
 
-> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. [Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet)
+> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow.[Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/curriculum/projects/ecommerce/azure-devops-cheatsheet)
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
