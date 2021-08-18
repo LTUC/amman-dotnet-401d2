@@ -6,12 +6,12 @@ Use this document to describe the demo(s). Generally, this is going to take the 
 
 Create 2 routes in the Home Controller -- one to set a cookie, one to read it, along with 2 views that will show the cookie value
 
-1. `Index` will look for a `name` query string and store it as a cookie
+1. `Remember` will look for a `name` query string and store it as a cookie
    - Create this route and view first. Load it up, and add `?name=Your+Name` to the url
    - Once you do this, open the Browser Inspector and then the "Application" tab and see that the cookie called `name` is present
    - Repeat the process, proving that you can change the cookie value
    - Note that you can also change the key as well, by altering the Controller
-1. `Me` will read that cookie, add it to `ViewData` and render it out.
+1. `Iam` will read that cookie, add it to `ViewData` and render it out.
    - Build this route and the associated view
    - When you visit `/home/me` in the browser, it'll show the users name
    - NOTE: ViewData is a "global" and default dictionary that you can use to feed unstructured data to the view.
@@ -21,7 +21,7 @@ Create 2 routes in the Home Controller -- one to set a cookie, one to read it, a
 HomeController.cs
 
 ```csharp
-public IActionResult Index(string name)
+public IActionResult Remember(string name)
 {
   if (name != null)
   {
@@ -32,7 +32,7 @@ public IActionResult Index(string name)
   return View();
 }
 
-public IActionResult Me()
+public IActionResult Iam()
 {
   string name = HttpContext.Request.Cookies["name"];
 
@@ -42,26 +42,18 @@ public IActionResult Me()
 }
 ```
 
-Index.cshtml
-
-> Note: build the login links later, when you're demo'ing Identity
-
-```html
-<h1>Home Page</h1>
-<h1>Home Page</h1>
-<nav>
-  <ul>
-    <li><a href="/home/me">Go to the Cookie Test Page</a></li>
-    <li><a href="/login">Login</a></li>
-    <li><a href="/login/me">Go to the user page (only works after a login)</a></li>
-  </ul>
-</nav>
-```
-
-Me.cshtml
+Iam.cshtml
 
 ```html
 <h1>Welcome Back, @ViewData["name"]</h1>
+```
+
+Index.cshtml
+
+> This seems silly and simple, but we'll use this later to prove authentication
+
+```html
+<h2>Welcome!</h2>
 ```
 
 ### Cookie Security
@@ -79,9 +71,13 @@ But there are ways around this ... Discuss!
 
 Internally, the Identity authentication scheme uses Cookies.
 
-For this part of the demo, you'll need to get Auth and Identity setup. The steps are noted below, but this is a review of the **Async Inn** project from earlier in the course as well as mid-term projects. Students should be able to guide you through this. Build the core bits up socratically ... and treat this as a live code review/mob session with your class
+For this part of the demo, we'll be focusing on the MVC aspects of Authentication and Authorization. As we've previously built out an entire Identity system, we'll be bringing in the bulk of that
 
-> Differences and talking points are noted below in these callouts
+### Auth Folder
+
+This folder contains all of the Auth Models and services pre-wired. Note that students are permitted to use this as they pseudo-library as they build their own stores. Note that the namespace in the files might cause them issues, so warn them to change appropriately.
+
+> Differences and talking points are noted below
 
 ### Getting Started
 
@@ -107,18 +103,18 @@ In your startup file, we'll want to add the services for Identity and Authentica
   })
   .AddEntityFrameworkStores<DemoDbContext>();
 
+  // Invalid user redirects
+  services.ConfigureApplicationCookie(options =>
+  {
+    options.AccessDeniedPath = "/auth/index";
+  });
+
   // Alternative to JWT, use the built-in authentication system
   services.AddAuthentication();
+  services.AddAuthorization();
+  services.AddTransient<IUserService, IdentityUserService>();
+  services.AddMvc();
 
-  // Policies
-  services.AddAuthorization(options =>
-  {
-    // Add "Name of Policy", and the Lambda returns a definition
-    options.AddPolicy("create", policy => policy.RequireClaim("permissions", "create"));
-    options.AddPolicy("read", policy => policy.RequireClaim("permissions", "read"));
-    options.AddPolicy("update", policy => policy.RequireClaim("permissions", "update"));
-    options.AddPolicy("delete", policy => policy.RequireClaim("permissions", "delete"));
-  });
 ```
 
 In the `Configure()` method, add the following middleware, after `use.Routing()`
@@ -130,11 +126,11 @@ app.UseAuthorization();
 
 ### DbContext
 
-Ref: `data\DemoDbContext.cs`
+Ref: `data\AuthDbContext.cs`
 
-The DbContext is the same as it was for our previous project. The only real difference is the addition of a "guest" user type.
+The DbContext is the same as it was for our previous project.
 
-### Users Model and Dto's
+### Users Model and DTO's
 
 Note that we're putting the "Auth" specific stuff in a sub-folder here to keep it as segregated as we can from the core sytem.
 
