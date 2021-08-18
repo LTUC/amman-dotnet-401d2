@@ -26,7 +26,7 @@
        - Select "Review + Create"
        - Review your configurations
        - Select `Create`
-  
+
 1. Wait for your database to complete creation.
 1. You can view your SQL Database by either selecting "Go to Resource" or reselecting the "SQL Database" on the sidebar
 1. Once you are in your resource click the `Show database connection strings`
@@ -37,7 +37,7 @@
      - Add the password of the server you just created to your connection string after `Password=` (delete the `{your_password}` and replace it with your password)
      - Paste the connection strings into user secrets as `ProductionConnection`
      - Transfer your `DefaultConnection` from the `appsettings.json` file into user secrets.
-	 - Delete your `appsettings.json` file.
+  - Delete your `appsettings.json` file.
      - Use the `ConnectionStrings:ProductionConnection` string in your `Startup.cs` file.
          - `options.UseSqlServer(Configuration["ProductionConnection"])`
          - If this doesn't work. Just use `ProductionConnection` as Configuration's argument.
@@ -51,7 +51,7 @@
      - Once the firewall error is completed, you should be able to update your database remotely.
      - Use a database manager to access your created server (You can get your server name in azure. It should end in `database.windows.net`)
      - This should effectively deploy your database.
-	 - Once your initial production database has successfully been created and deployed, you may modify your DBContext registration to the following to help with local and production environments:
+  - Once your initial production database has successfully been created and deployed, you may modify your DBContext registration to the following to help with local and production environments:
 
 ``` csharp
 services.AddDbContext<StudentEnrollmentDbContext>(options =>
@@ -80,15 +80,16 @@ options.UseSqlServer(Configuration[s"ConnectionStrings:DefaultConnection"]));
        - Connection Strings go in here
      - Add a connection string (type should be SQLAzure)
        - Remove the quotes from the connection string.
-1. Find your App Server's virtual IP address and add that to your firewall rules within your SQL database. 
+1. Find your App Server's virtual IP address and add that to your firewall rules within your SQL database.
     - Within your specific Azure App Service overview, select the "Properties" tab (located under Settings).
     - Locate your virtual IP address
     - Navigate back to your SQL database and add a new Firewall rule
-    - Add the virtual IP address into the rule. Save the rule. 
+    - Add the virtual IP address into the rule. Save the rule.
 1. Test your URL and confirm your website is running. Don't forget to test a page that requires a database call.
-  
+
 ## How to update your deployed Application
-  - Databases
-    - Run the update database command in Package Manager Console
-  - Web App
-    - Right click and re-click the `Publish` button.
+
+- Databases
+  - Run the update database command in Package Manager Console
+- Web App
+  - Right click and re-click the `Publish` button.
