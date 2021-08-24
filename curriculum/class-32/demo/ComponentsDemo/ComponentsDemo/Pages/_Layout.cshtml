@@ -14,6 +14,7 @@
           asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
           asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
     <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+  </environment>
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -27,7 +28,6 @@
         </button>
         <a asp-page="/index" class="navbar-brand">Home</a>
         <a asp-page="/settings/index" class="navbar-brand">Settings</a>
-        @await Component.InvokeAsync("LoggedInUser")
         <vc:logged-in-user></vc:logged-in-user>
       </div>
       <div class="navbar-collapse collapse">

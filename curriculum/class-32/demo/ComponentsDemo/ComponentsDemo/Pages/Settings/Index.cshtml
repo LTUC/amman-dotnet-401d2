@@ -10,9 +10,7 @@
   </div>
   <div>
     <label asp-for="Settings.Mode">Display Mode:</label>
-    <select asp-for="Settings.Mode" asp-items="Html.GetEnumSelectList<ComponentsDemo.Pages.Settings.IndexModel.DisplayMode>()">
-      <option selected="selected" value="">Please select</option>
-    </select>
+    <input asp-for="Settings.Mode" />
   </div>
   <div><button>Save Settings</button></div>
 </form>
