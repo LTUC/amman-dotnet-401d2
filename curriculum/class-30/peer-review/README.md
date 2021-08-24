@@ -9,17 +9,20 @@ Once completed, read [this article and the comments](https://blog.codinghorror.c
 ## Read
 
 After reading these articles complete these 2 tasks:
+
 1. Share, in your own words, 3 important take-a-ways from the "Humanizing Peer Reviews" above. 3-5 sentences minimum for each take-a-way is expected/required. (15 points)
 1. Write a peer review on your partner's code. Review a few of the different user stories your partner has completed and take what you learned from the above to formulate and share a peer review of your partner's work. (15 points)
 
 ## Peer Review Requirements
+
 When creating your peer review for your partner, include the following:
+
 1. The user story you are reviewing. (be specific)
 1. Is the code readable? If so, why? If not, how can you make it readable?
 1. Describe the implementation.
-	- What is the code doing?
-	- Describe the input/output of the requests
-	- Why is this code important/needed
+ - What is the code doing?
+ - Describe the input/output of the requests
+ - Why is this code important/needed
 1. Do you see any bugs/issues within the code?
 1. What did you like about the implementation? Please elaborate on why.
 1. Would you suggest anything to be done differently? How would you refactor?
@@ -27,13 +30,17 @@ When creating your peer review for your partner, include the following:
 Review the list below of the user stories you can conduct a review on:
 
 #### Developer 1
+
 Developer 1 can review any of the following user stories that Developer 2 completed:
+
 1. Custom Claims based policy
 1. Repository Design Pattern
 1. Login Page
 
 #### Developer 2
+
 Developer 2 can review any of the following user stories that Developer 1 completed:
+
 1. Registration process
 1. Greeted after login with custom first and last name
 1. Administrators can perform CRUD operations on products
