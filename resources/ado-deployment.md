@@ -17,7 +17,7 @@
      - Select the server
      - Select "No" to use SQL Elastic Pool
      - Configure Database: This option will have you choose the server plan
-       - Select "Basic" from the drop down list. This is the cheapest option
+       - Select "Basic" from the dropdown list. This is the cheapest option
          - Be sure and review the pricing shown before you continue!
      - Once the database is built, open it from the Azure Portal screen
        - Click the "Connection Strings" link from the left menu
