@@ -4,8 +4,8 @@
 
 > NOTE: Regions are important. Choose a region close to you, geographically, and always choose the same region for all of your services.
 
-1. Login to portal.azure.com.
-1. Create or select a resource group.
+1. Login to portal.azure.com
+1. Create or select a resource group
 1. Add a database
    - Choose "Azure SQL"
    - When prompted, choose the "Single Database" option from the "SQL Databases" box
