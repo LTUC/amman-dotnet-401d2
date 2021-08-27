@@ -43,7 +43,3 @@ Divide your work evenly amongst your team members.
 - Merge your PR back into main
 - In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
 - Include a `README.md` (contents described above)
-
-
-
-

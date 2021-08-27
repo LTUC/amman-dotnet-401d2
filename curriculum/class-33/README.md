@@ -22,13 +22,7 @@ Traditionally, servicing emails is very hard to setup on the server side, but ma
 
 <!-- To Be Completed By Instructor -->
 
-
-
-## Learning Objectives
-1. Students will learn about generating and sending emails from their site.
-1. Students will learn about SendGrid email crafting.
-
-## Lecture Outline
+## Notes
 
 ### Sendgrid
 
@@ -38,7 +32,6 @@ Traditionally, servicing emails is very hard to setup on the server side, but ma
 4. What is SendGrid?
 
 Sendgrid is used as an email service for many sites. This allows us to send emails from our web app. ASP.NET Core can successfully do this through installing the right NuGet package of SendGrid and setting up some basic code send out an email:
-
 
 ```csharp
 SendGridClient client = new SendGridClient(Configuration["SendGridKey"]);

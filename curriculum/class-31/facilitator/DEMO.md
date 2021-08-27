@@ -13,10 +13,12 @@ Use this document to describe the demo(s). Generally, this is going to take the 
 > This should be a complete "review" for your students as this is the EF and MVC basics we've been building out each day
 
 1. Modify the startup file to allow for "Razor Page Routing
+
    ```csharp
    // Above the MVC Mapping
    endpoints.MapRazorPages();
    ```
+
 1. Create a new Razor Page
    - NOTES:
      - It automatically creates a `.cshtml.cs` file for you
@@ -40,4 +42,3 @@ Use this document to describe the demo(s). Generally, this is going to take the 
    - Account/Index (or, use the main index): List all people in the database
    - Accounts/Register: Add a person to the database
    - Accounts/Person: The details for a single person
-

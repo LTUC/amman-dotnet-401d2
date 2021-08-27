@@ -16,13 +16,11 @@ For this milestone, our goal is simply to create the final 2 pages in the workfl
 
 Divide your work evenly amongst your team members.
 
-
 1. As a user,  I would like to see a summary of my purchase after completing my checkout process.
 1. As a user, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
 1. As a user, I would like to be thanked for my purchase following completion of order processing
 1. As an administrator, I would like a copy of all purchases emailed to our sales department so that they can update our accounting system
 1. As an administrator, I would like a copy of all purchases emailed to our warehouse so that they can begin the fulfillment process
-
 
 ### Guidance / Questions
 

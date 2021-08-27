@@ -10,6 +10,7 @@ While view components can be data-backed by SQL or Identity ... in today's demo,
 
 1. Scaffold out a basic, empty Razor Pages application
    - Startup.cs
+
      ```csharp
      // ConfigureServices...
      services.AddRazorPages()
@@ -18,8 +19,10 @@ While view components can be data-backed by SQL or Identity ... in today's demo,
      // Configure
      endpoints.MapRazorPages();
      ```
-  - Create This Directory Structure:
-    ```
+
+- Create This Directory Structure:
+
+    ```bash
     /Pages
       /Index.cshtml
       /Index.cs
@@ -27,8 +30,9 @@ While view components can be data-backed by SQL or Identity ... in today's demo,
         /Index.cshtml
         /Index.cs
     ```
+
 1. Add "Layout" to your application so that we can do some basic styling, and have access to the _Layout.cshtml where we will add components to the header
-1. Edit the layout, adding links to `/` and `/settings` to the header so that we can navigate eaier
+1. Edit the layout, adding links to `/` and `/settings` to the header so that we can navigate easier
 1. In the `/Index.cshtml`, simply add some "Hello World" style text
 
 ### Save Settings to Cookies

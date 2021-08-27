@@ -9,35 +9,41 @@ Review and follow the instructions located in the SendGrid documentation here:
 
 Once you get SendGrid service created and the API Keys saved in your user secrets, start building out the email service:
 
-## Demo
-
 ### Summary of Files
 
 Summary of files being changed.
 
 1. new EmailSender Class
-  - This will contain our new email.
+
+- This will contain our new email.
+
 1. Register Page
-  - we will add `IEmailSender` to our DI and then send the Welcome email in our `OnPost`
+
+- we will add `IEmailSender` to our DI and then send the Welcome email in our `OnPost`
+
 1. Secrets File
-  - Add SendGrid user secrets to our file
+
+- Add SendGrid user secrets to our file
+
 1. Startup File
-  - Register the DI for the EmailSender
 
+- Register the DI for the EmailSender
 
-### Demo
+### Service
 
 Install the SendGrid NuGet package:
 `Install-Package SendGrid -Version 9.11.0`
 [Most Recent](https://www.nuget.org/packages/Sendgrid)
 
 1. Create a new interface called `IEmailSender`
+
    ```csharp
    public async Task SendEmailAsync(string email, string subject, string htmlMessage)
    ```
+
 1. Create a new class model named `SendGrid.cs`
 1. Have this class implement the `IEmailSender` interface.
-  1. Implement the required method signature
+1. Implement the required method signature
 
 The logic for your Method should be as follows:
 
@@ -64,16 +70,15 @@ Let's break down this code:
 1. Finally, we need to register the EmailSender with our Dependency Injection in
    our Startup file.
 
-```
+```csharp
 services.AddScoped<IEmailSender, EmailSender>();
 ```
 
 Now, you can inject the IEmailSender into anything that accepts dependency injection and call the SendEmailAsync method to initiate an email send. Take a look at the Register `OnPost` and see where we are adding the code to send an email:
 
 ```csharp
-await _emailSender.SendEmailAsync(user.Email, "Thank you for logging in", 	"<p>Thank you for logging in </p>");
+await _emailSender.SendEmailAsync(user.Email, "Thank you for logging in",  "<p>Thank you for logging in </p>");
 ```
-
 
 ## Create a Razor Pages form and send some emails!
 

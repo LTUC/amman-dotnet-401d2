@@ -22,7 +22,8 @@ Following the same procedures as for Sendgrid, students will wire in Authorize.n
    - DI Setup in Startup
 
 ## Data Models / DTOs
-   - What models (DTOs) do we need to handle a Payment and a Response?
+
+- What models (DTOs) do we need to handle a Payment and a Response?
 
 ## Views
 
@@ -37,7 +38,6 @@ Following the same procedures as for Sendgrid, students will wire in Authorize.n
 
 - Finally, walk them through the Authorize.net documentation
 - How will we adapt the demo code into our service?
-
 
 ## Workflow
 
