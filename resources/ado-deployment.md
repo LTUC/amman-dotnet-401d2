@@ -15,7 +15,7 @@
        - Give your server a unique name, admin username, and password
        - Choose the same region as your resource group
      - Select the server
-     - Select "No" for use SQL Elastic Pool
+     - Select "No" to use SQL Elastic Pool
      - Configure Database: This option will have you choose the server plan
        - Select "Basic" from the drop down list. This is the cheapest option
          - Be sure and review the pricing shown before you continue!
