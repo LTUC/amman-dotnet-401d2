@@ -11,8 +11,8 @@
    - When prompted, choose the "Single Database" option from the "SQL Databases" box
    - Configuration Screen
      - Give your database a unique name
-     - For the "Server" option, you'll likely need to click "Create New" as you won't yet have a server running.
-       - Give your server a unique name, admin user name, password
+     - For the "Server" option, you'll likely need to click "Create New" as you won't yet have a server running
+       - Give your server a unique name, admin username, and password
        - Choose the same region as your resource group
      - Select the server
      - Select "No" for use SQL Elastic Pool
