@@ -2,29 +2,29 @@
 
 Work together with your partner(s) to complete this lab.
 
-> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow. [Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/ECom_Project/AzureDevOps_CheatSheet)
+> NOTE: Your team workflow will live in Azure Dev Ops. Use this tool to store your project repository code, user stories, and general overall workflow.[Azure DevOps CheatSheet](https://codefellows.github.io/code-401-dotnet-guide/curriculum/projects/ecommerce/azure-devops-cheatsheet)
 
 Your team will be evaluated and graded at the end of every sprint for the individual milestones and overall presentation of the sprint/project. Each day the previous day's milestones build off each other as the project progresses. Stay on top of your work, **Communicate**, and work together.
 
 ## Admin Dashboard
 
-Using Identity, Roles, and Policies, "protect" every screen and feature within the **Admininistrative Dashboard** so that only properly authenticated and authorized users have access to it.
+Using Identity, Roles, and Policies, "protect" every screen and feature within the **Administrative Dashboard** so that only properly authenticated and authorized users have access to it.
 
 ### User Stories and Tasks
 
 Divide your work evenly amongst your team members.
 
 1. As the site owner, I would like to secure the admin dashboard so that only users with an administrative role can access it
-1. As an administrator I would like to ensure that only users with **create** permissions can add categories or products
-1. As an administrator I would like to ensure that only users with **update** permissions can modify categories or products
-1. As an administrator I would like to ensure that only users with **update** permissions can add a product to a category
-1. As an administrator I would like to ensure that only users with **delete** permissions can delete categories or products
+1. As an administrator I would like to ensure that only users in the **Administrator** role can add categories or products
+1. As an administrator I would like to ensure that only users in the **Editor** permissions can modify categories or products
+1. As an administrator I would like to ensure that only users in the **Editor** permissions can add a product to a category
+1. As an administrator I would like to ensure that only users in the **Administrator** permissions can delete categories or products
 
 ### Guidance
 
 - You'll need to wire up Identity, Roles, Policies and JWT within your application
-- **Seed** your admin users with phony passwords.
-  - Remember, we don't want to let people just register as administrators
+- Update the register route handler so that you can change the Role that is assigned as you create users from the form
+  - You'll need to hard-code it each time you want to add a new user
 - Store a cookie in the browser on login.
 - Read the token from that cookie on every inbound request so you can protect your routes
 
