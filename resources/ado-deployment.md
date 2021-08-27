@@ -30,7 +30,7 @@
      - Runtime Stack: .NET 5, Windows
      - Sku and Size: Choose the free "F1" plan
    - Click the Create button to create the app
-1. Once the application is deployed successfully, click it from the Azure portal to open it's details
+1. Once the application is deployed successfully, click it from the Azure portal to open its details
    - Choose the "Deployment Center" link from the left menu
      - Use the form to find your repository and branch
      - Click the "Save" button at the top of the screen to initiate the deployment process
