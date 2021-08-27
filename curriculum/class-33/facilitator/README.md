@@ -10,7 +10,7 @@ SMTP servers (Simple Mail Transfer Protocol) are used for the sending and receiv
 At this point, the students should have a largely working E-Commerce site, with a CMS and a basic user experience where they've got items added to a cart, and a cart page created
 
 **What are we focusing on today**:
-Today, we'll be doing the first of 2 integrations for the "Place Order" phase of the site. Following the clicking of the "Place Order" button, students will initate a number of emails, using **SendGrid**
+Today, we'll be doing the first of 2 integrations for the "Place Order" phase of the site. Following the clicking of the "Place Order" button, students will initiate a number of emails, using **SendGrid**
 
 **Where we're headed**:
 In the next class, and the final phase of the build, students will integrate with **authorize.net** to add payment processing to their E-Commerce App.

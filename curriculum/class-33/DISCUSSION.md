@@ -9,4 +9,3 @@ Review the Submission Instructions for guidance on completing and submitting thi
 ## Readings
 
 1. [Sendgrid with .NET](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)
-

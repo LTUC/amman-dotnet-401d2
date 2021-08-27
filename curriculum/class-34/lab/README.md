@@ -14,53 +14,17 @@ Inject a process between the user "completing" their order and the communication
 
 ## Admin Dashboard
 
-We'll want to see a ne page with a list of all orders that were successfully paid and processed.
-
+We'll want to see a new page with a list of all orders that were successfully paid and processed.
 
 ### User Stories and Tasks
 
 Divide your work evenly amongst your team members.
-
 
 1. As a user,  I would like to see a summary of my purchase after completing my checkout process with a successful transaction
 1. As a user, following a successful transaction, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
 1. As a user, I would like to be thanked for my purchase following completion of order processing
 1. As a user, I would like to be notified if my payment failed so that I can try again.
 1. As an administrator, I would like to see a listing of all paid/processed orders
-
-
-### Guidance / Questions
-
-1. Follow a tactical approach to wiring in the payment processing
-1. Do we want to save this information anywhere in the database?
-  - should we keep track of all the transactions?
-  - what information should we save (or not save)?
-
-## Tests
-
-- Conditionally test the rendering of the receipt and denial pages
-
-## Workflow
-
-- Continue to work in your `E-Commerce-App` repository
-- Create a branch named `sprint-#-milestone-#`
-- Write your code
-- Commit often
-- Push to your repository
-- Create a pull request from your branch back your `main` branch.
-- Submit a link to your PR in Canvas
-- Merge your PR back into main
-- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
-- Include a `README.md` (contents described above)
-
-
---------
-## User Stories & Guidance:
-
-1. (Developer 1 & 2 & 3): As a user, I would like to checkout with my purchases using electronic payment options on my site during the checkout process
-1. (Developer 2) As a user,  I would like to see a summary of my purchase after completing my checkout process.
-1. (Developer 1) As a user, I would like a summary of my purchase to be emailed to me so that I can store the receipt for my records.
-
 
 ### Guidance
 
@@ -81,32 +45,44 @@ Generally, each order has it's own "Id", is connected to a specific user, and ea
 
 Keeping this in mind, expand your database to accept orders for the checkout process. In the next couple labs, we will be showcasing a specific user's order to them within their profile page.
 
-
-**User Story 2:** After the checkout process is complete, redirect the user to a "receipt" page that shows a summary of the items that they purcahsed, as well as the order number ,shipping/billing information, and anything else that may be relevant.
+**User Story 2:** After the checkout process is complete, redirect the user to a "receipt" page that shows a summary of the items that they purchased, as well as the order number ,shipping/billing information, and anything else that may be relevant.
 
 **User Story 3:** When the user has completed the checkout process, email them a confirmation of their order.
 
 Hint: When creating the email, consider using the SendGrid design templates. Not required, but encouraged.
 
-Also consider using `StringBuilder` when creating the text for the email, this is much more efficient than concatinating a string together.
+Also consider using `StringBuilder` when creating the text for the email, this is much more efficient than concatenating a string together.
 
+### Questions
+
+1. Do we want to save this information anywhere in the database?
+1. should we keep track of all the transactions?
+1. what information should we save (or not save)?
 
 ## Tests
 
-No additional tests are required for today.
+- Conditionally test the rendering of the receipt and denial pages
 
+## Workflow
+
+- Continue to work in your `E-Commerce-App` repository
+- Create a branch named `sprint-#-milestone-#`
+- Write your code
+- Commit often
+- Push to your repository
+- Create a pull request from your branch back your `main` branch.
+- Submit a link to your PR in Canvas
+- Merge your PR back into main
+- In Canvas, Include the actual time it took you to complete the assignment as a comment (**REQUIRED**)
+- Include a `README.md` (contents described above)
+  - Include answers to the following questions:
+    1. What surprised you most about this milestone?
+    1. How long did it take you to complete this milestone?
+    1. How long did you expect to take?
+    1. What did you find most challenging about this milestone?
+    1. What do you need to continue to work on during this project?
+    1. Any Concerns that the instructional staff should be aware of
 
 ## Rubric
 
 The lab rubric can be found [HERE](../resources/rubric){:target="_blank"}
-
-
-## To Submit this Assignment
-
-Submit the answer to the following questions:
-1. What suprised you most about this milestone?
-1. How long did it take you to complete this milestone?
-1. How long did you expect to take?
-1. What did you find most challenging about this milestone?
-1. What do you need to continue to work on during this project?
-1. Any Concerns that the instructional staff should be aware of?

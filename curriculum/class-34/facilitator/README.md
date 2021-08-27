@@ -58,7 +58,7 @@ Technical documentation is everywhere, it's how and where we learn more about a 
   - Small Group Exercise: Take a look at the authorize.net developer docs and see if you can figure out together where to start on implementation into your web app.
 - **DEMO**
   - As noted in the demo documentation, you will not be coding an implementation.
-  - Rather, lead the students through a UML and architectue discussion and leave the actual coding implementation to them.
+  - Rather, lead the students through a UML and architecture discussion and leave the actual coding implementation to them.
 
 ## Lab Notes
 
