@@ -43,4 +43,4 @@
 
 At this point, your web app and database should be properly setup for use.
 
-You can find your application's URL on the Web App screen in Azure
+You can find your application's URL on the Web App screen in Azure.
