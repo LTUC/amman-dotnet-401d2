@@ -1,30 +1,40 @@
-# Facilitators Guide: Xamarin: Device Features
+# Facilitators Guide: React II
 
 ## Overview
 
-Today's mobile devices give us a wide array of hardware features such as the Accelerometer, Camera, GPS, etc. By tapping into these features, we can add new dimensions to our applications.
+This class covers the 6 remaining "main topics" of React.
+
+- Conditional Rendering
+- Lists and Keys
+- Forms
+- Lifting State Up
+- Composition vs Inheritance
+- Thinking in React
 
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous classes, the students will have built a basic application that can use Xamarin forms or other input to save data to the device.
+In the previous class React was introduced.
 
 **What are we focusing on today**:
-Today, we'll be tapping into hardware features to make our apps more than simply doing mobile CRUD
+Today, we'll be rounding out basic knowledge of React.
 
 **Where we're headed**:
-The students will have a full day ahead of them to make a mobile application of their own design and feature set.
+Next class will focus on data fetching & authentication.
 
 ## Learning Objectives
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are ... (use this pull quote to call out any instructor facing notes/outcomes that need toe highlighted)
+> Our primary outcomes and goals for the day are ability to add navigation and more advanced rendering to previous class's app.
 
 ## Preparation
 
-- Read up on ...
-- Practice the demo
+- Read up on the remaining "main concepts" in React docs.
+  - Links in [DISCUSSION.md](../DISCUSSION.md)
+- Get ready for questions about how to properly track flow of data.
+- Look at previous course student submissions for insight as to what you might see in code review.
+- Practice [the demo](../demo/magic-eight-ball)
 
 ## Lecture Outline
 
@@ -32,30 +42,46 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Code Review
 
-- Notes here
+- Make note of student questions from previous lab. You can often address those questions when building out the demo from scratch.
 
-### TOPIC 1
+### React Main Concepts - Continued
 
-Continue to do your demo workshop or mob-programming style with the students. Because the demos are short, everyone should be able to follow along and enter their own lab time with a working self-written demo.
-
-- **Why** (5 min)
-  - Thing
-- **What** (10 min)
-  - Thing
-- **How** (30 min)
-  - Thing
+- **Why**
+  - It is much easier to be effective with React if you can "think in React"
+  - For example, Forms in React are often difficult at first. But React forms make sense when you keep in mind that "UI should be a pure projection of state."
+    - In other words, React is declarative.
+- **What**
+  - Cover each of the remaining "main concepts" in React.
+- **How**
+  - Go through each concept, most likely in order. BUT I recommend covering "Thinking in React" first and refer back to it at as you go through the other steps.
 - **Experimentation and Discovery Ideas**
-  - Thing
+  - Have class go through the create-next-app process
+  - See what they can do from scratch with a few minutes in a breakout room.
+
+### Next.js Routing
+
+- **Why**
+  - Devs may call these kinds of apps "single page" but end users don't care.- They want to navigate site the way they're used to.
+- **What**
+  - Next.js gives you routing out of the box.
+  - No browser-router, etc.
+    - Though you can still use tools like that when needed.
+- **How**
+  - Next.js makes it dead simple.
+  - Throw a component file in `pages` folder and you're good to go.
+  - It even works with dynamic routes.
 
 ## Lab Notes
 
-- Words
+- Students will hopefully trust the process from their time with  Django where there were hit with a lot of bewildering code that became familiar with repetition.
+- They may need reminders to trust the process ;)
 
 ## What might students struggle with today?
 
-- Words
+- The combo of Next/React style, JSX and modern JS likely to be overwhelming.
 
-## Past bugs, issues or surprises...
+## Past bugs, issues or surprises
+
+- NPM installation issues occasionally crop up.
 
 ## General Comments and Notes
-

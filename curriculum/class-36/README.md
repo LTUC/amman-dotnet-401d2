@@ -1,6 +1,10 @@
-# Xamarin
+# Salmon Cookies API
 
-Xamarin lets you build native apps for Android, iOS, and macOS using .NET code and platform-specific user interfaces. Xamarin.Forms allows you to build native apps, with shared UI code written in C# or XAML.
+We have created APIs with Authentication and Full Stack Applications using both MVC and MVVM (Razor Pages). We'll now dive into a different stack, the "JAM" Stack
+
+- Javascript
+- API Data
+- Markup
 
 ## Learning Objectives
 
@@ -8,13 +12,18 @@ Xamarin lets you build native apps for Android, iOS, and macOS using .NET code a
 
 #### Describe and Define
 
-- Cross Platform Development
-- "Native" Applications
-- The Xamarin Development/Testing Process
+- Single Page Application (SPA)
+- JSX
+- React Components
+- Application state
 
 #### Execute
 
-- Working (basic) Xamarin Application
+- Create a React application
+- Render React elements
+- Pass data via props
+- Handle application state
+- Handle user input
 
 ## Today's Outline
 

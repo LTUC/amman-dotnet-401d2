@@ -1,32 +1,93 @@
-# Lab: Xamarin
+# Lab: Create an API for the Salmon Cookies Application
 
-## Sprint 1: Milestone 1
+## Overview
 
-In our first milestone, we'll be getting our Xamarin Mobile application designed and scaffolded
+Your job is to create an API suitable for handling the CRUD operations for the Pat's Salmon Cookie Stand operation
 
-## Requirements
+## Feature Tasks and Requirements
 
-### Idea
+1. Create and work in a new repository at GitHub, called: `cookie-stand-api`
+1. Create and setup a Web App and Database at Azure
+   - Use the Free Tier!
+1. Create an API, backed by a database with the following requirements:
 
-Decide on an idea for a mobile application that has the following features:
+### API
 
-1. Runs natively on a mobile device
-1. Can save data to the device, based on user input
-   - i.e. Settings, Name, Log Data, etc
-1. Takes advantage of one native device hardware feature
-   - i.e. Camera, Accelerometer,  Magnitometer, GPS, etc
+1. **POST**: `/api/cookiestand`
+   - Accepts an object with the following shape:
 
-### Design
+     ```json
+     {
+        "location": "Barcelona",
+        "description": "",
+        "minimum_customers_per_hour": 3,
+        "maximum_customers_per_hour": 7,
+        "average_cookies_per_sale": 2.5,
+        "owner": null
+     }
+     ```
 
-Design your mobile application using a visual workflow (images of each screen) to show how you'll design the screens as well as how a user will interact with the application
+1. **GET**: `/api/cookiestands`
+   - Returns a JSON object with the following shape:
 
-### Scaffold
+     ```json
+     [
+       {
+         "id": 336,
+         "location": "Barcelona",
+         "description": "",
+         "hourly_sales": [
+           17,
+           7,
+           7,
+           7,
+           15,
+           17,
+           7,
+           7,
+           12,
+           7,
+           7,
+           10,
+           17,
+           17
+         ],
+         "minimum_customers_per_hour": 3,
+         "maximum_customers_per_hour": 7,
+         "average_cookies_per_sale": 2.5,
+         "owner": null
+       }, ...
+     ]
+     ```
 
-Create the core mobile app and run it on your device
+1. **GET**: `/api/cookiestand/{id}`
+   - Returns an object formatted as above, for a single cookie stand with the given ID
+1. **DELETE**: `/api/cookiestand/{id}`
+   - Deletes a cookie stand with the given ID
+   - Returns no content
+1. **PUT**: `/api/cookiestand{id}`
+   - Accepts a JSON Object formatted as a POST object.
+   - Note: Requires the ID to be included in the object
+   - Return the cookie stand object as saved in the database
 
-1. All screens and navigation between them are created and working
-1. Apply some level of basic style/colors
-1. You should endeavor to "match your design" as closely as possible
+### Notes and Open Questions
 
-> It's not required for your app to "work" at this stage, merely to be bootable and runnable in the most basic form (pages and navigation)
+1. Where are the values (hourly sales) coming from?
 
+### Tests
+
+No testing required.
+
+## Submission Instructions
+
+- Provide a README with proper documentation for the usage of your app
+  - Include your ERD and UML
+- Prove the URL to your deployed API Swagger Documentation
+
+### Stretch Goals
+
+- Add authentication to the API
+- Add a register and a login route to allow users to create accounts and login
+- Require that only users in the Administrative group can perform any of the above actions
+  - The API will need to accept a JWT Token in the headers of all requests
+- TESTS
