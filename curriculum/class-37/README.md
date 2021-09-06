@@ -1,8 +1,8 @@
-# React 2
+# React 1
 
-Let's continue to deepen our understanding of ReactJS.
+Django has the ability to render client side web pages nicely. But an increasingly popular stack is develop your APIs using Django REST Framework and use ReactJS on the client side.
 
-Our goal is to start "thinking in React".
+So it's time to dive back into JavaScript and learn React.
 
 ## Learning Objectives
 
@@ -10,15 +10,18 @@ Our goal is to start "thinking in React".
 
 #### Describe and Define
 
-- Conditional rendering
-- Lifting up state
-- Composition vs. Inheritance
+- Single Page Application (SPA)
+- JSX
+- React Components
+- Application state
 
 #### Execute
 
-- Render components differently based in unique conditions
-- Efficiently render lists of items
-- Handle user input via forms
+- Create a React application
+- Render React elements
+- Pass data via props
+- Handle application state
+- Handle user input
 
 ## Today's Outline
 

@@ -1,40 +1,35 @@
-# Facilitators Guide: React II
+# Facilitators Guide: React I
 
 ## Overview
 
-This class covers the 6 remaining "main topics" of React.
+Introduce students to NextJS and Tailwind.
 
-- Conditional Rendering
-- Lists and Keys
-- Forms
-- Lifting State Up
-- Composition vs Inheritance
-- Thinking in React
+Re/Introduce them to React and ES6 language features.
 
 ### How does this topic fit?
 
 **Where we've been**:
-In the previous class React was introduced.
+In the previous class we reviewed Data Structures & Algorithms. Normally DSA days fall at end of module, but I like to move it up to enable folks taking their white boards a little sooner.
 
 **What are we focusing on today**:
-Today, we'll be rounding out basic knowledge of React.
+Today, we'll be introducing a huge paradigm shift in front end development.
 
 **Where we're headed**:
-Next class will focus on data fetching & authentication.
+Next class will focus on going deeper with NextJS basics.
 
 ## Learning Objectives
 
 Review the detailed objectives in today's [student-facing readme](../README.md).
 
-> Our primary outcomes and goals for the day are ability to add navigation and more advanced rendering to previous class's app.
+> Our primary outcomes and goals for the day are the ability to create a basic react application.
 
 ## Preparation
 
-- Read up on the remaining "main concepts" in React docs.
-  - Links in [DISCUSSION.md](../DISCUSSION.md)
-- Get ready for questions about how to properly track flow of data.
-- Look at previous course student submissions for insight as to what you might see in code review.
-- Practice [the demo](../demo/magic-eight-ball)
+- Read up on latest content in [Main Concepts](https://reactjs.org/docs/hello-world.html) section of React site.
+- Get ready for questions about...
+  - I really saw `map` etc. in 301?
+  - What the heck is this JSX stuff?
+- Practice [demo](../demo/magic-eight-ball)
 
 ## Lecture Outline
 
@@ -42,46 +37,63 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 ### Code Review
 
-- Make note of student questions from previous lab. You can often address those questions when building out the demo from scratch.
+- Last class was a review day to hopefully little to no review. Which is a good thing, because there is a lot to cover.
 
-### React Main Concepts - Continued
-
-- **Why**
-  - It is much easier to be effective with React if you can "think in React"
-  - For example, Forms in React are often difficult at first. But React forms make sense when you keep in mind that "UI should be a pure projection of state."
-    - In other words, React is declarative.
-- **What**
-  - Cover each of the remaining "main concepts" in React.
-- **How**
-  - Go through each concept, most likely in order. BUT I recommend covering "Thinking in React" first and refer back to it at as you go through the other steps.
-- **Experimentation and Discovery Ideas**
-  - Have class go through the create-next-app process
-  - See what they can do from scratch with a few minutes in a breakout room.
-
-### Next.js Routing
+### ES6 Features
 
 - **Why**
-  - Devs may call these kinds of apps "single page" but end users don't care.- They want to navigate site the way they're used to.
+  - JavaScript went a LONG time between updates before ES6. Consequently, ES6 (aka ES 2015) has a LOT of changes that devs had been clamboring for years to get.
 - **What**
-  - Next.js gives you routing out of the box.
-  - No browser-router, etc.
-    - Though you can still use tools like that when needed.
+  - let/const
+  - arrow functions
+  - template literal notation
+  - multi-line strings
+  - for of / for in
 - **How**
-  - Next.js makes it dead simple.
-  - Throw a component file in `pages` folder and you're good to go.
-  - It even works with dynamic routes.
+  - Demo out each feature
+  - Discuss pros (and cons if needed) of each feature.
+
+### React
+
+- **Why**
+  - Discuss limitations of "classic" web sites where each page was a fresh load
+  - Discuss move to "Single Page Applications"
+  - Discuss React moving into lead
+- **What**
+  - JSX
+  - Rendering elements
+  - Components & Props
+  - State & Lifecycle
+  - Handling Events
+- **How**
+  - The readings for class covered all the **what** items listed above.
+  - The demo will show them in action.
+
+### NextJS
+
+- **Why**
+  - React insists that it is **NOT** a framework.
+  - React intentionally leaves many decisions up to the developer.
+  - Which can lead to "reinventing the wheel" when you start a new React project.
+- **What**
+  - Next.js IS a framework.
+  - Though it's still React under the hood.
+  - Next.js makes a lot of smart choices for us.
+- **How**
+  - The `create-next-app` command gets you up and running quickly.
+  - Alternately can use an online tool like [codesandbox.io](https://codesandbox.io/)
 
 ## Lab Notes
 
-- Students will hopefully trust the process from their time with  Django where there were hit with a lot of bewildering code that became familiar with repetition.
-- They may need reminders to trust the process ;)
+- There is a LOT to cover today so keep an eye on time.
+- Encourage students to consult the extendsive docs on Next, React, and ES6.
 
 ## What might students struggle with today?
 
-- The combo of Next/React style, JSX and modern JS likely to be overwhelming.
+- Scale of new concepts.
+  - It's ok for them to feel overwhelmed. It takes practice to switch between languages/stacks.
+- Student my be rusty on the React & ES6 features covered in 301.
 
 ## Past bugs, issues or surprises
-
-- NPM installation issues occasionally crop up.
 
 ## General Comments and Notes

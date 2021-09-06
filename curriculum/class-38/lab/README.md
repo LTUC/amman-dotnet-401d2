@@ -1,45 +1,48 @@
-# Lab: Cookie Stand Admin Version 3
+# Lab: Cookie Stand Admin Version 2
 
 ## Overview
 
 Your job is to continue work on `Cookie Stand Admin` app using [Next.js](https://nextjs.org/){:target="_blank"} and style using [Tailwind CSS](https://tailwindcss.com/){:target="_blank"}.
 
-But now you'll be working with data from a remote API!
-
-## Annoying Change Explanation
-
-The component names have changed slightly since last version. That is intentional. The concepts should map over from previous lab. E.g. `<Header> --> <CookieStandHeader>`. There's a reason for this, and it's not to pester you!
-
-Also, the layout of Cookie Stand Form has changed a bit. This WILL happen all the time as devs. We may as well get used to it now.
-
 ## Feature Tasks and Requirements
 
-- All features from versions 1 an 2 should be complete.
-- The `specs` for lab are screen shots [Cookie Stand Admin Version 3](./cookie-stand-admin-version-3.png){:target="_blank"} and [Cookie Stand Admin Login](./cookie-stand-admin-login.png){:target="_blank"}
-- `pages/Index.js` should export a `<Home>` component.
-- `<Home>` requirements
-  - If user is NOT logged in then `<LoginForm>` should render.
-  - If user IS logged in then `<CookieStandAdmin>` component should render.
-- `<LoginForm>` requirements
-  - Should receive a function passed in to call when form is submitted.
-  - The function should be called with `username` and `password` arguments.
-- `<CookieStandAdmin>` requirements
-  - When user fills out form to add location then the data should be posted to API
-  - While waiting for API response the `<CookieStandTable>` should render the new row in a pending state.
-  - When API response is complete then `<CookieStandTable>` should render latest data.
-- `<CookieStandTable>` requirements
-  - Component should continue to display Cookie Stand info as in version 2
-  - Add a `delete` icon in each stand's location cell.
-  - Clicking `delete` icon should immediately delete the Cookie Stand.
-  - API should be informed that Cookie Stand was deleted.
-- Continue to style all components using TailwindCSS utility classes to match spec.
+- The `specs` for lab are screen shots [Cookie Stand Admin Version 2](./cookie-stand-admin-version-2.png){:target="_blank"} and [Cookie Stand Admin No Stands](./cookie-stand-admin-no-stands.png){:target="_blank"}
+- `pages/Index.js` should return top level component `<CookieStandAdmin>`
+- `<CookieStandAdmin>` details...
+  - Have a `<Head>` component.
+  - Have a custom `<Header>` component that matches spec.
+  - Have a `<main>` component.
+  - Within `<main>` have custom `<CreateForm>` and `<ReportTable>` components.
+  - Have a custom `<Footer>` component that matches spec.
+  - Import time slot data from supplied `data.js` file.
+- `<Head>` should set page title `Cookie Stand Admin`
+- `<Header>` component should have Next `<Link>` to `overview` page.
+- `<CreateForm>` component details...
+  - Receive an `onCreate` function to be called when form is submitted.
+  - `onCreate` should be passed argument object representing new cookie stand.
+    - Object should have `location` property.
+    - Object should have `hourly_sales` property with hard coded `[48, 42, 30, 24, 42, 24, 36, 42, 42, 48, 36, 42, 24, 36]`
+- `<ReportTable>` details...
+  - should receive `hours` on props that is an array cookie stand hours of operation.
+  - should receive `reports` on props that is an array all cookie stand objects.
+  - If `reports` is empty then render `<h2>No Cookie Stands Available</h2>`
+  - If `reports` is not empty then render a `table` with `thead`,`tbody` and `tfoot` components.
+  - Component should render to match spec.
+  - Component is responsible for tallying totals for each cookie stand as well as all cookie stands per hourly slot.
+- `<Footer>` component details...
+  - Should receive `reports` array on props.
+  - Should display `X Locations World Wide` where `X` is number of cookie stands.
+- `<Header>`,`<Footer>`,`<CreateForm>` and `<ReportTable>` should each be in own file inside top level `components` folder.
+- Those components should be imported into `Index.js`
+- `Overview` page details...
+- should live in `pages/overview.js`
+- should render `<Link href="/"><a>Return to Main page</a></Link>`
+- Style all components using TailwindCSS utility classes to match spec.
 
 ## Implementation Notes
 
 - Continue work in `cookie-stand-admin` repository
-- You will be supplied with an API URL by instructor
-- You will be supplied a username/password to use API
-- **IMPORTANT** Complete version 1 & 2 tasks before moving on to version 3 features.
+- **IMPORTANT** Complete version 1 tasks before moving to version 2 features.
 - Pro tip: [Tailwind CSS Extension Pack](https://marketplace.visualstudio.com/items?itemName=andrewmcodes.tailwindcss-extension-pack){:target="_blank"}
 
 ### User Acceptance Tests
@@ -50,12 +53,20 @@ No testing required.
 
 Continue work in `cookie-stand-admin` repository in Github
 
-Refer to [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for detailed instructions.
+## Submission Instructions
+
+- Submit a link to your GitHub Repository
+- Submit a link to a PR with today's code to be merged to your `main` branch
+- Your repository should contain a well constructed README with the following information
+  - If your app was deployed, please include a live link to your deployment
+  - Instructions for installing and running your application locally
+  - Any setup or environment settings required
 
 ### Stretch Goals
 
-- Use your own API instead of supplied one.
-- Add a confirmation dialog when deleting a Cookie Stand.
-- Add a list of Cookie Stand locations to `Overview` page.
-  - There is some trickiness here regarding logged in status. Try to figure it out!
-- Add `edit` feature.
+- Flesh out `Overview` page to do more
+- Remove hard coding from `<CreateForm>` and properly calculate hourly sales per cookie stand.
+- Add delete icons.
+  - Pro Tip: [Heroicons](https://heroicons.com/){:target="_blank"}
+- Really stretch out and make delete icons functional.
+- Persist Cookie Stand data.

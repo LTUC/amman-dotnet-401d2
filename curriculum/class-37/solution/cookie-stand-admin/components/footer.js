@@ -1,7 +1,9 @@
-export default function Footer({ reports }) {
+import React from 'react'
+
+export default function Footer({ year }) {
     return (
-        <footer className="p-4 text-xl text-gray-800 bg-green-500">
-            <p>{reports.length} Locations World Wide</p>
+        <footer className="p-4 bg-green-500">
+            <p className="text-xl">&copy;{year}</p>
         </footer>
     )
 }

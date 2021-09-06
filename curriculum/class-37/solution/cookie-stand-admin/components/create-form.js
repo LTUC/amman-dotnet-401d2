@@ -1,43 +1,38 @@
+import React from 'react'
+
 export default function CreateForm({ onCreate }) {
 
     function submitHandler(event) {
         event.preventDefault();
         onCreate({
-            id: event.target.location.value,
             location: event.target.location.value,
-            hourly_sales: [48, 42, 30, 24, 42, 24, 36, 42, 42, 48, 36, 42, 24, 36]
-        });
-        event.target.reset();
+            minCustomers: parseInt(event.target.minCustomers.value) || 0,
+            maxCustomers: parseInt(event.target.maxCustomers.value) || 0,
+            avgCookies: parseFloat(event.target.averageCookies.value) || 0,
+        })
     }
     return (
-        <form onSubmit={submitHandler} className="flex flex-col w-2/3 gap-2 p-4 mx-auto bg-green-300 border-green-500 rounded">
-
-            <legend className="text-2xl text-center">Create Cookie Stand</legend>
-
-            <div className="flex py-4">
-                <label className="mr-2" htmlFor="location">Location</label>
-                <input className="flex-auto" type="text" name="location" />
-            </div>
-
-            <div className="flex gap-2 text-center item-centereduce">
-
-                <fieldset className="flex flex-col flex-1 min-w-0 p-2 bg-green-200 rounded">
+        <form onSubmit={submitHandler} className="w-3/4 p-4 mx-auto space-y-6 bg-green-300 rounded">
+            <legend className="text-2xl">Create Cookie Stand</legend>
+            <p className="flex gap-4">
+                <label htmlFor="location">Location</label>
+                <input id="location" name="location" type="text" className="flex-1" required />
+            </p>
+            <div className="flex items-stretch gap-8">
+                <div className="flex flex-col flex-1">
                     <label htmlFor="min-customers">Minimum Customers per Hour</label>
-                    <input type="number" name="min-customers" />
-                </fieldset>
-
-                <fieldset className="flex flex-col flex-1 min-w-0 p-2 bg-green-200 rounded">
+                    <input id="min-customers" name="minCustomers" type="number" min="0" required />
+                </div>
+                <div className="flex flex-col flex-1">
                     <label htmlFor="max-customers">Maximum Customers per Hour</label>
-                    <input type="number" name="max-customers" />
-                </fieldset>
-
-                <fieldset className="flex flex-col flex-1 min-w-0 p-2 bg-green-200 rounded">
-                    <label htmlFor="avg-cookies">Average Cookies per Sale</label>
-                    <input type="number" name="avg-cookies" step=".1" />
-                </fieldset>
-                <button type="submit" className="flex-1 min-w-0 bg-green-500 rounded">Create</button>
+                    <input id="max-customers" name="maxCustomers" type="number" min="0" required />
+                </div>
+                <div className="flex flex-col flex-1">
+                    <label htmlFor="average-cookies">Average Cookies per Sale</label>
+                    <input id="average-cookies" name="averageCookies" type="number" step="any" min="0" required />
+                </div>
+                <button className="flex-1 p-2 bg-green-500 rounded">CREATE</button>
             </div>
-
         </form>
     )
 }

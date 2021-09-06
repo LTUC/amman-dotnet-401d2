@@ -1,359 +1,478 @@
-# Lecture NOTES: React III
+# Lecture NOTES: React II
 
-- Project teams will be released during the next class.
-  - Prep assignments to start the following week.
-- Whiteboard interviews will start next week.  I will have full schedule during the next clas.
-  - If you have not giving me your avaliability please do so via slack message in class channel.
+## Library Presentation
+ - Run random name generator 2 times to get 2 people to share their library
 
-## Review the Lab
+## Mock Interviews
 
-- Give example of what we will code out
-- Walk through Home / About
-- Show previous 10
-- Click on the Refer to XKCD API link show the JSON for each
-- For todays implementation we will:
-  - Use Nextjs
-  - Have a way to fetch data
-  - have a way to display data
+- [Geeks for Geeks Question](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
 
-## Lets Build an app
+```text
+Given an array of linked-lists with values of integers, create a function to taverse the list and convert the list to a number, add the 3 lists together and return the total value of all 3 lists.
 
-- We are going to start by installing react with next.  What is NEXT?
-  - Next.js: The React Framework
-  - Next.js has the best-in-class "Developer Experience" and many built-in features; a sample of them are:
-    - An intuitive page-based routing system (with support for dynamic routes)
-    - Pre-rendering, both static generation (SSG) and server-side rendering (SSR) are supported on a per-page basis
-    - Automatic code splitting for faster page loads
-    - Client-side routing with optimized prefetching
-    - Built-in CSS and Sass support, and support for any CSS-in-JS library
-    - Development environment with Fast Refresh support
-    - API routes to build API endpoints with Serverless Functions
+The lists will be passed as parameters.
 
-- Run the following command:
+ll1: [5]->[9]->[9] = 599
+ll2: [2]->[1]->[1] = 211
+ll3: [1]->[4]->[1] = 141
 
-```npx create-next-app xkcd```
-> NOTE: Installing react, react-dom, and next using npm
-> This create-next-app does all of the above. The above will still work, but this is easer.
+Should return 951
+```
 
-- Once the installation is complete, click on the started server at link:
+### React State and Props
 
-- Open the index.js.  Delete everything in the render add in a Hello world
-- Also delete the non global style
-- delete other things that are not needed
+> During our last class we had a slight introduction to State and Props.  It was more of a press the `I believe button` on this one. Today we are going to dig a little deeper into this topic.
+
+- State and Props are ways that we pass data in React.
+- Lets look at state first. 
+- State is an instance of a React componet class. (IE the state object is where your store property values that belong to the componet)
+- When the state of a component changes, the component will automatically re-render and update the DOM if there are any layour or visual changes. If there are no changes, the DOM will NOT be re-rendered. React will manage a virtual DOM for you. When changes are detected, it will only render the updated components on the DOM.  IE if the state of data displayed at body>main>section>p changes, only that component will be re-rendered.  Nothing else gets changed. State is managed within the component itself.
+
+- State is best used when you have a componet that has an interternal value that only affects that component and does not affect the rest of the app. State can be accessed through useState hook in functional components, and through this.state in class based components.
+
+```js
+ const [question, setQuestion] = useState('Your Question Will Go Here!')
+ ```
+
+- In our example from Lcass 37, our component will bind to the value of question.
+- The only want to mutate the state and it's binding is to call the function setQuestion.
+We use the const keyword to protect the state from direct mutation.
+
+- Props get passed to a component as a function argument.  Props are immutable in the child component. The parent component ows the props and therefor that is the only place they can be modified. In functional components, it can be accessed through props, in class based componenets, it is accessed through this.props.
+
+- Open up a Codesandbox and start a react sandbox.
+
+```js
+return (
+    <Header title="Magic 8 Ball"/>
+)
+
+function Header(props){
+    return(
+      <header className="flex p-4 bg-gray-500 text-gray-50">
+        <h1 className="text-4xl border border-color-black">{props.title}</h1>
+      </header>
+    )
+```
+
+- in our example from Class 37 our return calls the Header componnet and passes in a title.  That title is held by the props argument.  Props can hold multiple values that are called by props.xxx.  We could do the follwing:
+
+```js
+return (
+    <Header title="Magic 8 Ball" name='Mark'/>
+)
+
+function Header(props){
+    return(
+      <header className="flex p-4 bg-gray-500 text-gray-50">
+        <h1 className="text-4xl border border-color-black">{props.title} - {props.name}</h1>
+      </header>
+    )
+```
+
+I mentioned that props are immutable in the child element. It will not error if you try to alter, but it does not recognize the change and still renders out Mark 2 times.
+
+
+## Create Project
+
+- [Next + Tailwind Template](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- > npx create-next-app --example with-tailwindcss magic-eight-ball
+- > cd magic-eight-ball
+- > npm run dev
+- Walk around the example a bit
+
+## Customize Project
+
+- Strip out the code/files we won't be using
+  - `pages/api` folder
+  - `public/vercel.svg`
+  - update `name` in `package.json` and `lock`
+  - Remove most of code inside `pages/index.js`
+    - Keep outmost div, `<Head>` and empty `<main>` with blank className attributes.
+    - Update `<Head>` title
+
+```javascript
+import Head from 'next/head'
+
+export default function Home() {
+    return (
+        <div className="">
+            <Head>
+                <title>Magic Eight Ball</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+
+            <main className="">
+            </main>
+        </div>
+    )
+}
+```
+
+## Match the Spec
+
+Take a look at screenshot/spec and work (roughly) from top to bottom, hitting footer sooner.
+
+### Header
+
+```javascript
+<header className="flex items-center justify-between p-4 bg-gray-500 text-gray-50">
+    <h1 className="text-4xl">Magic 8 Ball</h1>
+    <p>1 questions answered</p>
+</header>
+```
+
+Discuss use of Tailwind. The syntax is new but it maps directly to CSS concepts they should be familiar with.
+
+### Footer
+
+Let's jump to Footer next
+
+```javascript
+<footer className="p-4 mt-8 bg-gray-500 text-gray-50 ">
+    <nav>
+        {/* will build out careers page soon */}
+        <a href="careers">Careers</a>
+    </nav>
+</footer>
+```
+
+- Note the funny comment syntax
+- Click on Careers link, should go to 404 page
+
+### Question Form
+
+Just doing the visuals for now, will take another pass and wire it up later.
+
+Inside `<main>` add the form
+
+```javascript
+{/* Question Form */}
+<form className="flex w-1/2 p-2 mx-auto my-4 bg-gray-200">
+  <input name="question" className="flex-auto pl-1" />
+  <button className="px-2 py-1 bg-gray-500 text-gray-50">Ask</button>
+</form>
+```
+
+### Eight Ball
+
+Now let's create the graphics for 8 ball, we'll add interactivity soon.
+
+```javascript
+{/* Eight Ball */}
+<div className="w-96 h-96 mx-auto my-4 bg-gray-900 rounded-full">
+    <div className="relative flex items-center justify-center w-48 h-48 rounded-full bg-gray-50 top-16 left-16">
+        <p className="text-xl text-center">Ask me anything</p>
+    </div>
+</div>
+```
+
+### Responses Table
+
+Let's move on to table that shows the 8 Ball's responses.
+
+Continuing with "just static" plan for now.
+
+``` javascript
+{/* Responses Table */}
+<table className="w-1/2 mx-auto my-4">
+    <thead>
+        <tr>
+            <th className="border border-gray-700">No.</th>
+            <th className="border border-gray-700">Question</th>
+            <th className="border border-gray-700">Response</th>
+        </tr>
+    </thead>
+    <tbody>
+        <td className="pl-2 border border-gray-700">1</td>
+        <td className="pl-2 border border-gray-700">Is Star Wars Better Than Star Trek?</td>
+        <td className="pl-2 border border-gray-700">Yes.</td>
+    </tbody>
+</table>
+```
+
+Acknowledge that there is a lot of repeated markup and prepare for the reasonable/inevitable question of "wouldn't classes be easier"
+
+Let students know there is a common way of keeping styled React DRY that they'll learn soon.
+
+For now go ahead and duplicate a little code.
+
+## Interactivity
+
+### Link component
+
+The easiest interactive functionality is the `careers` link in footer.
+
+- import Link in index.js
+  - > import Link from 'next/link'
+- Modify nav in footer
+
+```javascript
+<nav>
+    <Link href="/careers">
+        <a>Careers</a>
+    </Link>
+</nav>
+```
+
+Now we've got a nice link that will navigate to another page within site but NOT require a new page load, so it's very snappy.
+
+But we don't have a `/careers` page, what to do?
+
+- Create `pages/careers.js`
+- Add a little bit of code that will work for now
+
+```javascript
+import Link from 'next/link'
+export default function Careers() {
+    return (
+        <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+            <h1 className="text-4xl">Careers Page Coming Soon</h1>
+            <Link href="/"><a className="p-4 m-4 text-2xl bg-gray-300 rounded-lg">Back to Home</a></Link>
+        </div>
+    )
+}
+```
+
+### Question Form Input
+
+Now let's wire up the form.
+
+There are a couple ways to do this, the "react" way and the "controlled" way.
+
+Most of the time we'll go the "react" way, but for small cases it is acceptable to do it the older fashioned way for now.
+
+Create a "handler" function that is triggered when form is submitted.
+
+It should be placed **inside** the Home function body, normally at the top.
 
 ```javascript
 export default function Home() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  )
-}
-```
 
-- Refresh the page and see the Hello World
-- Next add in some style inline
-
-```javascript
-  return (
-    <div>
-      <p>Hello World</p>
-
-      // ********* START HERE
-      <style jsx>{`
-      .hello {
-        font: 15px Helvetica, Ariel, sans-serif;
-        background: #eee;
-        padding: 100px;
-        text-align: center;
-        transition: 100mx ease-in background;
-      }
-      `}
-      </style>
-    // ********** END HERE
-
-    </div>
-  )
-```
-
-- We have a Hello world, but we want the xkcd site.
-- Where do we go from here?
-- QUESTION: Does anyone remember from our previous reading there was a Thinking in React.
-- ANSWER [React](https://reactjs.org/docs/getting-started.html)
-- Click on Main Concepts and #12 is Thinking in React
-- The suggest to start from a Mock, well we don't have a Mock, we have "reference". Click on the xkcd site.
-
-- Lets break down our site into some componets.
-  - We have this overall page as a compontet
-  - Then we have this header / nav bar area as a componet.
-  - We have H1 or Title
-  - We have a title of the image
-  - We have the image
-  - We have Previosus.
-- Depending on the Complexity (or simplicity) of your page you may not need break down additional componets.
-- In our example here at a minimum we should do this nav area.
-- And then we should do this area with the comic as well.
-- Lets start with the header componet.
-
-- We can start with Adding a `<Header />` componet.
-
-```javascript
-    <div className="hello">
-      <Header />          <----Add This
-      <h1>Hello World</h1>
-```
-
-- Do a quick
-
-```javascript
-function Header(props){
-  return(
-    <h1>This is a Header</h1>
-  )
-}
-```
-
-- We see this works, but I want this to be avaliable to any page I create.  Instead lets put this in its own file.  We can create a `componets` folder and create a Header.js file in there.
-- In the Header.js file add the following:
-
-```javascript
-export default function Header(props){
-    return(
-        <header>
-            <h1>
-                This is my Header
-            </h1>
-        </header>
-    )
-}
-```
-
-- Save it and reload the page.  Hmm, not working.  Whats going on here?
-- Need to import the file in our index.js
-```import Header from '../componets/Header'```
-
-- Because we have the export default in the Header, we get this easy import.
-- Refresh the page and everything should be working now.
-
-- We also have this notion of a footer with the previous comics listed. but if we look at the about page, there is no footer there. Because this is only on the main page I could easliy add this to the index file and it would work just fine, but I want to think about scaleability. Lets create a footer.js file.
-
-- In our `componets` folder create a Footer.js
-- Add the following code to Footer.js
-
-```javascript
-export default function Footer(props){
-    return(
-        <footer>
-            <p>
-                This is my Footer
-            </p>
-        </footer>
-    )
-}
-```
-
-- Looking at our Example, lets get rid of the hello world and change to `Current Comic Stuff`
-
-- We have not identified our componets for the home page.  We have them mostly isolated.
-- Our next area to spend some time on is this current comic. If we look at our example we have this title of XKCD.  We can easily add that.
-
-```javascript
-<h1>XKCD</h1>
-```
-
-- This is looking good so far.  Now we need an image. We need to fetch the image from the api.
-- We can look at the next.js docs for this.  Google next js.  Click on `Docs` and then on `Data Fetching`.
-- Let's take a look at `getServerSideProps`.
-- Grab this code and add at the end of your index.js
-
-```javascript
-export async function getServerSideProps(context) {
-  return {
-    props: {}, // will be passed to the page component as props
-  }
-}
-```
-
-- Now in here we need to fetch some data.
-- We can just a builtin function called fetch that next gives us without having to inport anything.
-- Fetch wants a url. What is that URL, lets go back to the xkcd api and look at the current comic. We can add that into the fetch
-```fetch('http://xkcd.com/info.0.json')```
-
-This fetch is an asyncrounous operation.  We will use the await async for this. Lets assign the responce to this.
-
-``` const responce = await fetch('http://xkcd.com/info.0.json');```
-
-This allows us to do async calls with out all of the promises. They are still involoved, but handled in a cleaner way under the hood.
-
-Now we need to convert that responce into a data representation. This is also an async operation.
-
-```const data = await response.json();```
-
-- Inside of our props we add a key and it is given the data that comes back
-```comic: data```
-
-- With that we can grab the comic via props.
-- We need to absorb props in the Home(props)
-- Then we add a `<p>{props.comic.title}</p>`
-- > NOTE: Can look at the properties of the JSON.
-
-- If we can get the title, we can get everything listed.
-- Lets change the title to an H2 and get rid of current comic stuff
-- QUESTION: How do we get the image here?
-- ANSWER: `<img src={} alt={} />`
-```<img src={props.comic.img} alt={props.comic.alt} />```
-
-- Now we can move to the footer. In the footer we want to get the previouse 10 comics avaliable. This will change from day to day so not something we want to hard code.
-- If we look at the data we can see there is a number.  This is associated with the id.  Because we have this number, we can use this to get the previous 10.  
-- QUESTION: How do we get this current number to our footer componet.
-- ANSWER: Pass the prop in through the `<Footer>` by:
-- `comicNum={props.comic.num}`
-
-- In the Footer, change the `<p>{props.comicNum}</p>`
-- We should see the number in the footer now.
-
-- Now that we have a number, we can create a simple loop to add the numbers we need to a list.
-- Add the following to Footer above the return():
-
-```javascript
-    const currentNum = props.comicNum;
-    const nums = []
-
-    for(let n = currentNum; n >= currentNum - 10; n--){
-        nums.push(n)
+    function questionAskedHandler(event) {
+        event.preventDefault();
+        alert(event.target.question.value);
     }
+    ...
 ```
 
-- Then update the return with the following:
+Add a reference to the function on the form element
 
-```javascript
-<p>
-  {nums}
-</p>
+``` javascript
+<form onSubmit={questionAskedHandler} ...
 ```
 
-- We can see the length of the array at the bottom. We can adjust the number to 10 by removing the = or changing to - 9.
-- Now we want to make these links and not just a list(array) length.
+Note the curly braces instead of quotation marks.
 
-- We can add an h2 for previous 10.  Use the nums.length for the Previos #
-`<h2>Previous {nums.length}</h2>`
+Type some text into form then click Ask button.
 
-- We can now change the numbers to a `<ul>`
-- We are going to have some number of LI's in there. What do we do?
-- How do we turn an list full of numbers into a bunch of li's with links to refer those numbers.
-- MAP is how we can do this.
-- We will map over nums.
+So now we've got the ability to capture user input. But we need to do something with it.
 
-```javascript
-<ul>
-  {nums.map(num => (
-    <li key={num}>
-      <Link>
-        <a>#{num}</a>
-      </Link>
-    </li>
-  ))}
-</ul>
-```
+Note: make sure `data.js` is handy.
 
-From your reading you may remeber the Link.  We now get a Link is not defined.  How do we define Link? We can inport it into the file by
-`import Link from 'next/Link`
+You can find it in built out demo.
 
-- We see this error
+The file should be in root of project.
 
-```Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.```
+## Generate a reply
 
-This is a little confusing but it is expecting an 'href' in Link.  We can just add a blank one.
-`<Link href=''>`
-As soon as we add that, we see a list of numbers that are in our nums array.
-
-Here we are now going to want to link to another page.  This will be a dynamic page based on what is clicked.  We will want to add in another page in our pages directory.
-We will add [id].js to the folder. Trying to do this through touch command my render some issues because of the symbols. I'll use my editor for this to creat it.
-
-- Make sure the file is created in a num folder.
-- In our [id].js file we add the following:
+- import { replies } from '../data'
+- Update `questionAskedHandler`
 
 ```javascript
-export default function ComicDetail(props){
-    return(
-        <h3>Soon</h3>
-    )
+function questionAskedHandler(event) {
+    event.preventDefault();
+
+    // get a random reply from data
+    const randomReply = replies[Math.floor(Math.random() * replies.length)];
+
+    alert(randomReply);
 }
 ```
 
-- Now we want to update our href to point to the new page
+Click on `Ask` button a few times, marvel at the random responses.
+
+But it's no fun just to alert the reply, let's get it to show in the 8 ball!
+
+## State
+
+In order to do that the React way we need to think about `state`
+
+We want the `state` of our app to include the generated response after a question is asked. The concept of `state` is extremely important in React and it needs to be handled in a particular way.
+
+There are actually 2 supported ways of doing this. The older (but still supported) is to use classes. The newer (and recommended) way is to use a `hook`
 
 ```javascript
-    return(
-        <footer>
-            <h2>Previous {nums.length}</h2>
-            <ul>
-                {nums.map(num => (
-                    <li key={num}>
-                        <Link href="/num/[id].js" as={`/num/${num}`}>
-                            <a>#{num}</a>
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-        </footer>
-    )
+import { useState } from 'react'
 ```
-Comment out the li's and move the key into the Link.  This is looking more like our example.
 
-Now we head over the [id].js.  We need to add some actual content here.  In order to do this we will need to do another async call.
+At top of `Home` function add a line to work with `useState` hook.
 
 ```javascript
-export async function getServerSideProps(context) {
-    const num = context.query.id;
-    const response = await fetch(`https://xkcd.com/${num}/info.0.json`);
-    const comic = await response.json();
+const [reply, setReply] = useState('Ask me anything');
+```
 
-    return {
-        props: {
-            comic
-        }
+The `useState` takes in an optional argument which represents the initial value.
+
+It returns an array. The first item in array is the current value, the second is a function to update the value.
+
+Now change `questionAskedHandler` to update state instead of doing an alert.
+
+```javascript
+setReply(randomReply);
+```
+
+We're almost there, now we need to remove the hard coded "Yes." from the 8 Ball.
+
+Update the inner `<p>` tag to use `{reply}`
+
+```javascript
+<p className="text-xl text-center">{reply}</p>
+```
+
+Now, whenever `reply` is changed (via setReply function) then every place that renders `reply` will update as well.
+
+Run the app and click `Ask` button a few times. See how 8 Ball updates without us needing to explicitly tell it to?
+
+In React, components will re-render whenever it's dependent state changes.
+
+## Stepping Back / Requirements
+
+We're making progress. Let's see how things stand.
+
+See the hard coded `1 questions answered` in upper right?
+
+That's not gonna work. It should start at zero then increment as questions are answered.
+
+In other words, the number of questions answered should be part of our app's `state`
+
+So let's step back and think about our app's state.
+
+Currently we keep track of the latest reply, which works ok for rendering the 8 Ball.
+
+But it works less well for tracking the number of questions answered. And it won't work at all for the table at bottom which tracks the complete history of questions and replies.
+
+## Track Answered Questions
+
+So how about instead of tracking a single reply, we keep track of a list of `answered questions`
+
+Replace
+
+```javascript
+const [reply, setReply] = useState('Ask me anything');
+```
+
+with
+
+```javascript
+const [answeredQuestions, setAnsweredQuestions] = useState([]);
+```
+
+Now were storing a more complete data set in `state`.
+
+Notice that we are now passing in an empty array as initial value.
+
+Modify `questionAskedHandler` to construct an Object representing the answered question, and update state with it.
+
+```javascript
+function questionAskedHandler(event) {
+    event.preventDefault();
+
+    // get a random reply from data
+    const randomReply = replies[Math.floor(Math.random() * replies.length)];
+
+    const answeredQuestion = {
+        question: event.target.question.value,
+        reply: randomReply,
+        id: answeredQuestions.length,
     }
+
+    console.log('answeredQuestion', answeredQuestion);
+
+    setAnsweredQuestions([...answeredQuestions, answeredQuestion]);
 }
 ```
 
-Now we cal look in our h3 for {props.comic.title}
+Note: we're adding an `id` property as well. This will help us when rendering Table as well as be a better simulation of data coming from an API, hint hint.
 
-Now that we see this on our web page we can bring in other things.
+Also note the way `setAnsweredQuestions` requires a **new** array. So we used the `spread` operator to grab all the existing items, then added the new one at the end.
 
-- Update the function to be this:
+Now create a `getReply` function that will get the latest reply in a safe way.
 
 ```javascript
-import Header from '../../componets/Header'
-export default function ComicDetail(props){
-    return(
-        <>
-            <Header />
-            <h1>{props.comic.title}</h1>
-            <img src={props.comic.img} alt={props.comic.alt}></img>
-        </>
-    )
+function getLatestReply() {
+
+    if (answeredQuestions.length === 0) {
+        return 'Ask me anything';
+    }
+
+    return answeredQuestions[answeredQuestions.length - 1].reply;
+
+    // or fancy one liner
+    // answeredQuestions[answeredQuestions.length - 1]?.reply || 'Ask me anything'
 }
 ```
 
-I still see I need to update my header
+Almost there. Now we need to modify the 8 Ball Component to use `getLatestReply` function instead of just `reply`
+
+Update innermost `<p>` tag
+
 ```javascript
-import Link from 'next/link';
-    <nav>
-        <Link href="/">
-            <a>Home</a>
-        </Link>
-        <Link href="/about">
-            <a>About</a>
-        </Link>
-        <style jsx>{`
-            a {
-                margin-right: 15px;
-                color: green;
-            }
-        `}
-        </style>
-    </nav>
+<p className="text-xl text-center">{getLatestReply()}</p>
 ```
 
-We see that is working.  Last thing we need is an about page.  Lets throw that in really quick.
+Run the app and make sure still works.
+
+## Questions Answered Count
+
+It does? Great! Let's get back to the `X questions answered` feature.
+
+Currently it always says 1. Armed with our new app state how could we remove that hard coding?
+
+Update header component's `<p>` tag
+
+```javascript
+<p>{answeredQuestions.length} questions answered</p>
+```
+
+See what's different? The hard coded 1 has been changed to be whatever is the length of `answeredQuestions`
+
+That's exactly what we want, and React will take care of re-rendering the header whenever that value changes.
+
+## Report Table Component
+
+This approach will really payoff when we add the `Report Table`
+
+In order to make this dynamic we need one small, but fundamental, change to the table's `<tbody>`.
+
+```javascript
+<tbody>
+    {/* Before - hard coded
+    <tr>
+        <td className="pl-2 border border-gray-700">1</td>
+        <td className="pl-2 border border-gray-700">Is Falcon and the Winter Soldier worth watching?</td>
+        <td className="pl-2 border border-gray-700">Yes.</td>
+    </tr>
+    */}
+
+    {/* Now - dynamic */}
+          {props.answeredQuestionArray.map(item =>{
+            <tr className="odd:bg-red-400" key={item.id}>
+              console.log(item)
+              <td className="pl-2 border border-black">{item.id}</td>
+              <td className="pl-2 border border-black">{item.question}</td>
+              <td className="pl-2 border border-black">{item.reply}</td>
+            </tr>
+          })}
+</tbody>
+```
+
+## Recap
+
+Phew, we're done!
+
+Ask some questions, get some magical answers. This React app totally works.
+
+Granted, it's not quite 100% the `React` way. Don't worry about that yet though, making it that way won't take too much work and your code will be easier to read, maintain and reuse. But that's for next class.
+
+For now, have fun and make a mess!

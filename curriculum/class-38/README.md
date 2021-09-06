@@ -1,10 +1,8 @@
-# Data Fetching / Authentication
+# React 2
 
-It's time to wire up the Cookie Stand Admin site to an API full of cookie stand data.
+Let's continue to deepen our understanding of ReactJS.
 
-But not only will you need to fetch the data, you'll need to authenticate your API requests.
-
-For those tasks you'll need an http client, the ability to handle JSON Web Tokens and a robust way to manage the data.
+Our goal is to start "thinking in React".
 
 ## Learning Objectives
 
@@ -12,16 +10,16 @@ For those tasks you'll need an http client, the ability to handle JSON Web Token
 
 #### Describe and Define
 
-- axios http client
-- JSON Web Tokens
-- Stale While Revalidate data fetching/caching.
+- Conditional rendering
+- Lifting up state
+- Composition vs. Inheritance
 
 #### Execute
 
-- Log in to a remote API
-- Fetch  API access tokens
-- Handle data updates in a performant way
+- Render components differently based in unique conditions
+- Efficiently render lists of items
+- Handle user input via forms
 
-<!-- ## Today's Outline -->
+## Today's Outline
 
 <!-- To Be Completed By Instructor -->

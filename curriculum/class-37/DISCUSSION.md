@@ -1,25 +1,33 @@
-# Readings: React 2
+# Readings: React 1
 
 Below you will find some reading material, code samples, and some additional resources that support today's topic and the upcoming lecture.
 
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
-## Reading
+## NOTE:
 
-- [React - Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html){:target="_blank"}
-- [React - Lists & Keys](https://reactjs.org/docs/lists-and-keys.html){:target="_blank"}
-- [React - Forms](https://reactjs.org/docs/forms.html){:target="_blank"}
-- [React - Lifting State](https://reactjs.org/docs/lifting-state-up.html){:target="_blank"}
-- [React - Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html){:target="_blank"}
-- [Thinking in React](https://reactjs.org/docs/thinking-in-react.html){:target="_blank"}
+There's a fair amount to read/watch here. So give everything at least a skim and plan on referring back to it later as we learn these new tools.
 
-## Additional Resources
+## ES6 Overview
 
-### Videos
+- [ES6 Syntax and Feature Overview](https://www.taniarascia.com/es6-syntax-and-feature-overview/){:target="_blank"}
 
-- Optional: [Hero Icons](https://www.youtube.com/watch?v=cVa1UiKPJN8){:target="_blank"}
+## React 
 
-### Bookmark/Skim
+- [React - Hello World](https://reactjs.org/docs/hello-world.html){:target="_blank"}
+- [React - JSX](https://reactjs.org/docs/introducing-jsx.html){:target="blank"}
+- [React - Rendering Elements](https://reactjs.org/docs/rendering-elements.html){:target="blank"}
+- [React - Components & Props](https://reactjs.org/docs/components-and-props.html){:target="blank"}
+- [React - State & Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html){:target="blank"}
+- [React - Handling Events](https://reactjs.org/docs/handling-events.html){:target="blank"}
 
-- Review (Optional): [React - Comprehensive Guide](https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/){:target="_blank"}
-- Optional: [Heroicons](https://heroicons.com/){:target="_blank"}
+## Tailwind CSS
+
+- [Utility First CSS](https://tailwindcss.com/docs/utility-first){:target="blank"}
+- [Tailwind in 15 minutes](https://www.youtube.com/watch?v=6zIuAyLZPH0){:target="blank"}
+
+## Next.js
+
+- [Learn Next.js](https://nextjs.org/learn/basics/create-nextjs-app){:target="blank"}
+- [Why to use Next.js](https://www.youtube.com/watch?v=rtgbaKBhdkk){:target="blank"}
+
