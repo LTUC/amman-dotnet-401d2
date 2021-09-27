@@ -13,7 +13,7 @@ Allow yourself more time than you think you will need so that you can take break
 
 ### Set Up
 
-Refer to the [Computer Setup](./prework-computer-setup.md){:target="_blank"}  instructions to confirm your machine is ready for day 1.
+Refer to the [Computer Setup](./computer-setup.md){:target="_blank"}  instructions to confirm your machine is ready for day 1.
 
 ### Reference Materials:
 - [C# 7.0 in a Nutshell: The Definitive Reference](https://www.amazon.com/C-7-0-Nutshell-Definitive-Reference/dp/1491987650/ref=sr_1_1?ie=UTF8&qid=1504228723&sr=8-1&keywords=C%23+7.0+in+a+Nutshell){:target="_blank"}  
