@@ -18,7 +18,7 @@ of the prework contains links and technical resources to learn and understand th
 
 ### Coding Challenges
 
-Utilize what you learned in the [Tutorials](prework-tutorials.md){:target="_blank"} prework and apply them to coding challenges.
+Utilize what you learned in the [Tutorials](tutorials.md){:target="_blank"} prework and apply them to coding challenges.
 
 [Coding Challenges here](code-challenges.md){:target="_blank"}
 
