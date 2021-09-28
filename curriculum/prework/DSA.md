@@ -14,11 +14,11 @@ of the prework contains links and technical resources to learn and understand th
 ### Big O Notation
 1. [Beginners Guide to Big O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){:target="_blank"}  (~10 min)
 2. [Computational Fairy Tales, Understanding Big O and the Wizards' War](http://computationaltales.blogspot.com/2011/04/understanding-big-o-notation-and.html){:target="_blank"} (~20 min)
-3. PODCAST: [S1: E6. A Friendly intro to Big O Notation](https://www.codenewbie.org/basecs){:target="_blank"} (~34min)
+3. PODCAST: [S1: E6. A Friendly intro to Big O Notation](https://www.codenewbie.org/basecs/8){:target="_blank"} (~34min)
 
 ### Coding Challenges
 
-Utilize what you learned in the [Tutorials](prework-tutorials.md){:target="_blank"} prework and apply them to coding challenges.
+Utilize what you learned in the [Tutorials](tutorials.md){:target="_blank"} prework and apply them to coding challenges.
 
 [Coding Challenges here](code-challenges.md){:target="_blank"}
 
