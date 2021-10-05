@@ -24,7 +24,7 @@ It is important that you become familiar with what .NET is and the underlayings 
 
 In addition to the framework and tooling, learn more about the language and how to use it. 
 
-1. [Introduction to the C# Language and the .NET Framework](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework){:target="_blank"} 
+1. [A tour of the C# language](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/){:target="_blank"} 
 
 1. [C# Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/){:target="_blank"} 
 	- Arrays as Objects
