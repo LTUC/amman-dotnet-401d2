@@ -67,9 +67,11 @@ Midterm Project Kickoff
 
 ## Midterm Project
 
-1. Build a Full CRUD web app
-1. Build a custom API
-1. Make the Web app call out to the API
+1. Build a ReST API
+1. Build an app that calls/uses the API
+1. No User Interface Permitted
+
+Ideas: Alexa App, Raspberry Pi, API for future project, Console Game
 
 ## E-Commerce Project: Dashboard
 
