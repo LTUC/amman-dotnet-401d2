@@ -48,7 +48,7 @@ Modules 3 & 4 introduce the concept of web development. The students will dive i
 ### Module 3 - MVC & Entity Framework Core
 
 1. Relational Databases & schemas
-1. CRUD Intro to Entity Framework
+1. CRUD Operations, Intro to Entity Framework
 1. Dependency Injection
 1. Navigation Properties, Routing
 
