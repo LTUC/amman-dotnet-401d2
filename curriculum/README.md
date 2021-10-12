@@ -78,19 +78,18 @@ Ideas: Alexa App, Raspberry Pi, API for future project, Console Game
 The second half starts with (2) 1-week sprints. Each week is broken into daily milestones.  Each milestone consists of 3-5 user stories that are divided amongst all developers
 in a team.
 
-Each day, the developers will complete their respective user stories. Each day builds off the prior, so it is important that all user stories from one day is completed before the next.
+Each day, the developers will complete their respective user stories. Each day builds off the prior, so it is important that all user stories from one day are completed before the next.
 
 *Projects are only submitted at the end of each sprint* - This allows for students to progress towards an "end of week sprint" goal instead of feeling rushed everyday to complete the given tasks. This is also intentional to emulate a real-world team where in an agile environment, they are given until the end of the sprint to complete all the tasks that are assigned to them each day.
 
 Students will use Azure Dev Ops (ADO) as their project management tool and Azure Repos as their source control. They will use the ADO Kanban board to create and manage user stories.
 
 1. Managing a Sprint Backlog
-1. Create User stories with tasks and Acceptance tests
-1. Task Branching
+1. Create user stories with tasks and acceptance tests
 1. Time estimation
 1. PRs within Azure Dev Ops
-1. Peer Reviews
-1. Weekly Goals and Retrospectives
+1. Peer reviews
+1. Weekly goals and retrospectives
 
 ### Module 6 - Sprint 1: Admin Dashboard
 
@@ -118,30 +117,30 @@ Data Structure: Graphs
 
 ### Module 8 - React
 
-1. Deploy CRUD, Data Backed API
+1. Deploy new CRUD API
 1. React with Next.js and Tailwind
 1. React: API Integration
-1. React: Authentication
+1. React: Authentication & Authorization
 
 Career Coaching: Personal Presentation
 
-Data Structure: Sorting Algorithms
+Data Structure: Practice Interviews
 
 ### Module 9 - Unity
 
-1. Unity Basics
-1. Unity Interactions
+1. Unity basics
+1. Unity interactions
 1. Ethics in Technology
-1. Open Source Contribution
+1. Open source contribution
 
 Final Project Kickoff
 
-Data Structures: Mock Interviews
+Data Structures: Final Exam (Whiteboard)
 
 ### Week 10 - Final Project Week
 
 Final Project Week
 
 1. Build a full-stack app with ASP.NET Core
-1. Collaborate as a team with git and VSTS
+1. Collaborate as a team with GitHub
 1. Present on completed project: test coverage, performance, security, and privacy
