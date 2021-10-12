@@ -34,7 +34,6 @@ Quiz 1
 1. Collections (Generic) & Enums
 1. LINQ & Lambda Expressions
 1. Design Patterns
-1. Stacks & Queues // Recursion
 
 Career Coaching: Personal Pitch
 
