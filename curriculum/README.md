@@ -45,7 +45,7 @@ Quiz 2
 
 Modules 3 & 4 introduce the concept of web development. The students will dive into MVC and learn what an MVC application consists of. They will model a database with an ERD and create a hotel asset management system through the course of the 2 weeks using ASP.NET MVC Core and Dependency Injection. They will end this module with an intro to REST APIs in ASP.NET and building out their own API server.
 
-### Week 3 - MVC & Entity Framework Core
+### Module 3 - MVC & Entity Framework Core
 
 1. Relational Databases & schemas
 1. CRUD Intro to Entity Framework
@@ -72,14 +72,14 @@ Midterm Project Kickoff
 
 ## E-Commerce Project: Dashboard
 
-The second half of the class focuses on one major project. The students and a partner work together to build out an E-Commerce store. The second half is broken up into (2) 1-week sprints. Each week is broken into daily milestones.  Each milestone consists of 3-5 user stories that are divided amongst all developers
+The second half starts with (2) 1-week sprints. Each week is broken into daily milestones.  Each milestone consists of 3-5 user stories that are divided amongst all developers
 in a team.
 
 Each day, the developers will complete their respective user stories. Each day builds off the prior, so it is important that all user stories from one day is completed before the next.
 
 *Projects are only submitted at the end of each sprint* - This allows for students to progress towards an "end of week sprint" goal instead of feeling rushed everyday to complete the given tasks. This is also intentional to emulate a real-world team where in an agile environment, they are given until the end of the sprint to complete all the tasks that are assigned to them each day.
 
-Students will use Azure Dev Ops (ADO) as their project management tool and Azure Repos as their source control. They will use the ADO kanban board to create and manage user stories.
+Students will use Azure Dev Ops (ADO) as their project management tool and Azure Repos as their source control. They will use the ADO Kanban board to create and manage user stories.
 
 1. Managing a Sprint Backlog
 1. Create User stories with tasks and Acceptance tests
