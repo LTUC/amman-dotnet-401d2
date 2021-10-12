@@ -23,9 +23,10 @@ The first 2 modules consist of introduction to C#. You will spend the next 10 cl
 1. OOP Principles
 
 Career Coaching: Resumes
+
 Data Structures: Linked Lists
 
-1. Quiz 1
+Quiz 1
 
 ### Module 2 - Advanced C# Concepts
 
@@ -53,6 +54,7 @@ Modules 3 & 4 introduce the concept of web development. The students will dive i
 1. Navigation Properties, Routing
 
 Career Coaching: Targeted Job Search
+
 Data Structure: Trees
 
 ### Module 4 - Repository Design Pattern & APIs
@@ -97,7 +99,9 @@ Students will use Azure Dev Ops (ADO) as their project management tool and Azure
 1. Azure Blob Storage
 
 END OF SPRINT 1
+
 Career Coaching: Behavioral Interviewing
+
 Data Structure: Hash Tables
 
 ### Module 7: Sprint 2: Storefront
@@ -108,6 +112,7 @@ Data Structure: Hash Tables
 1. Authorize.net (Payments)
 
 Career Coaching: Technical Interviewing
+
 Data Structure: Graphs
 
 ### Module 8 - React
@@ -118,6 +123,7 @@ Data Structure: Graphs
 1. React: Authentication
 
 Career Coaching: Personal Presentation
+
 Data Structure: Sorting Algorithms
 
 ### Module 9 - Unity
