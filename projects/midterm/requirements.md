@@ -38,6 +38,44 @@ Your midterm project will require your team to build out a backend service with 
 	 - CRUD operations
 1. You may optionally utilize other 3rd party apis to enhance functionality on your app.
 
+## Ideas
+
+### Remote Services Integration
+
+- Texting when calendars change
+- Change spotify playlists
+- Multi-Service Tweet/Post
+
+### Working with hardware
+
+- Raspberry Pi
+  - Alexa Clone
+  - Weather
+  - Alarm Clock
+- Alexa Skills
+
+### APIs for later
+
+- CRUD Data Source for a full stack application
+  - Store front
+  - Game hub
+  - Character Generation
+  - Flash Cards
+  - REPL.it Clone
+    - Code Runner
+
+### Games
+
+- Eliza
+- Chess
+- Cards
+- Game Engine + Game Nodes
+
+### CLI Apps
+
+- Flash Cards
+- Note Taker
+- API Tester (like httpie)
 
 ## Deployment Platform:
 - Azure
