@@ -1,4 +1,4 @@
-# E-Commerce Sprint 1 - Milestone 2:  Authentication
+# E-Commerce Sprint 1 - Milestone 3:  Authentication
 
 Work together with your partner(s) to complete this lab.
 
