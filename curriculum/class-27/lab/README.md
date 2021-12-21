@@ -1,4 +1,4 @@
-# E-Commerce Sprint 1 - Milestone 3:  CRUD / MVC Forms
+# E-Commerce Sprint 1 - Milestone 2:  CRUD / MVC Forms
 
 Work together with your partner(s) to complete this lab.
 
