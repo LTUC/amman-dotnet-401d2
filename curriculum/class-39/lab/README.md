@@ -1,4 +1,4 @@
-# Lab: Cookie Stand Admin Version 3
+# Lab 39: Cookie Stand Admin Version 3
 
 ## Overview
 
