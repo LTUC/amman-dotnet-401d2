@@ -1,4 +1,4 @@
-# Lab: Create an API for the Salmon Cookies Application
+# Lab 36: Create an API for the Salmon Cookies Application
 
 ## Overview
 
