@@ -1,4 +1,4 @@
-# Lab: Welcome to React, Next.js & TailwindCSS
+# Lab 37: Welcome to React, Next.js & TailwindCSS
 
 ## Overview
 
