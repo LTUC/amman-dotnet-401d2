@@ -1,6 +1,6 @@
 # Unity - Game Play
 
-Description Here
+Once our game is up, running, and the basics are in play, we turn our attention to playability. Smooth movements, basic physics, and detecting collisions. These basics will allow you to plan for and incorporate all basic game play elements into your game and begin creating a great user experience.
 
 ## Learning Objectives
 
@@ -8,15 +8,15 @@ Description Here
 
 #### Describe and Define
 
-- A
-- B
-- C
+- Rigid Bodies
+- Movement
+- Collisions
 
 #### Execute
 
-- A
-- B
-- C
+- Player Movement
+- Basic game physics
+- Collision Detection
 
 ## Today's Outline
 
