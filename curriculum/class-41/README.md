@@ -1,6 +1,11 @@
-# Unity
+# Unity Game Development
 
-Description Here
+Unity is a game engine, development environment, and ecosystem created by Microsoft. It uses a full GUI along with C# to enable developers to create games in a visual and interactive way. Let's get understand the fundamentals and get a basic game created and ready to evolve.
+
+## Class Outline
+
+1. Game Development and Design
+1. Unity Demo and Tutorial
 
 ## Learning Objectives
 
@@ -8,16 +13,16 @@ Description Here
 
 #### Describe and Define
 
-- A
-- B
-- C
+- Usage of the Unity Development Environment
+- Event Driven Development
+- Assets
 
 #### Execute
 
-- A
-- B
-- C
+- Game scaffolding
+- Event handling
+- Addition of assets
 
-## Today's Outline
+## Notes
 
-<!-- To Be Completed By Instructor -->
+Create your Unity Developer account at [Learn.Unity](https://learn.unity.com/){:target="_blank"}
