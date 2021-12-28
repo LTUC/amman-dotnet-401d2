@@ -13,7 +13,7 @@ Challenge yourself. If the tutorial introduces a topic that you are not familiar
 
 ### Microsoft Virtual Academy (ETA: ~4 Hours)
 
-Follow along in the first 12 videos of the Microsoft Virtual Academy C# Video for Absolute Beginners.
+Follow along in the first 12 videos of the [Microsoft Virtual Academy C# Fundamentals](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169){:target="_blank"}.
 Code along with Bob in Visual Studio, and take the assessments after every test.
 
 ### .NET in the Browser (~90 min)
