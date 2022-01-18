@@ -1,64 +1,58 @@
-# Code 401: ASP.NET Core
-
-The ASP.NET curriculum focuses on the following learning outcomes:
-
-- Fundamentals of the C# language and Object-Oriented Programming
-- ReST API Development
-- Entity Framework
-- Authentication and Authorization Using Identity Framework
-- MVC and Razor Pages
-- React / Next.JS
-- Unity Game Development
-
-
-# Course Syllabus
+# Code 401: ASP.NET Core Syllabus
 
 ## Course Information
 
-### Course Number: Code XYZ
-
-### Course Title: Application Development in Language
-
-## Technical Requirements
-
-- Computer
-  - Students are required to bring their own laptop with plenty of free space on the hard drive.
-  - Most students use Macs simply because they are easy to work with, and because that is what nearly all Instructors use.
-  - By the first day of class, students will need:
-- Applications
-  - [Zoom Video Conferencing Software](https://zoom.us)
-  - The latest version of [Google Chrome](https://www.google.com/chrome/browser/desktop/)
-  - A [GitHub](https://github.com) account
-  - [Repl.it](https://repl.it) Account
-  - [AWS](https://console.aws.amazon.com) Account?
-  - [Visual Studio Code](https://code.visualstudio.com/)
-  - [Visual Studio 2019](https://visualstudio.microsoft.com)
-  - [IntelliJ](https://www.jetbrains.com/idea/)
-  - [Android Studio](https://developer.android.com/studio)
-  - Other requirements? Link to the appropriate pre-work or setup guide assignments
-- Internet Connection
-  - Each student is responsible for their access to the internet for purposes of this course and for research. Internet access is a required component of this course and will not be accepted as an excuse for missed work. If you know that you will be traveling, then make sure you plan accordingly.
+- Course Level: Code 401
+- Certificate: Advanced Software Development In ASP.Net
 
 ## Course Prerequisites
 
 - Code 102
 - Code 201
+- Code 301
 
 > Students with previous relevant or equivalent experience can test out of this requirement in their application.
 
 ## Course Description
 
-Describe your course in 2-3 sentences
+Learn to write clean, well-tested, advanced C# code using industry-standard software engineering patterns and Microsoft's powerful, open-source ASP.NET Core framework.
 
-## Course Materials
+## Required Materials
 
-- List any books, materials or cloud services required
+### Hardware
+
+#### Computer
+
+- Students are required to bring their own laptop.
+- It needs to run the latest version of Windows.
+- Administrator-level access required.
+- At least 50GB of free space on the hard drive.
+- At least 16GB of RAM. 32GB RAM strongly preferred.
+- Free of viruses.
+- Zoom-ready (reliable webcam and microphone).
+
+#### Internet Connection
+
+- Each student is responsible for their access to the internet for purposes of this course and for research. Internet access is a required component of this course and will not be accepted as an excuse for missed work. If you know that you will be traveling, then make sure you plan accordingly.
+
+### Software
+
+#### Applications 
+
+- [Zoom Video Conferencing Software](https://zoom.us)
+- The latest version of [Google Chrome](https://www.google.com/chrome/browser/desktop/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio](https://visualstudio.microsoft.com)
+
+#### Accounts
+
+- A [GitHub](https://github.com) account
+- [Repl.it](https://repl.it) account
+- [Azure](https://portal.azure.com) account
 
 ## Program Learning Outcomes
 
-Describe the outcomes for this course as it relates to the overall outcome for a full sequence program graduate
-
-i.e. Develops problem solving and analytical thinking skills that will provide the foundations for architecting complex solutions
+Develops problem solving and analytical thinking skills that will provide the foundations for architecting complex solutions.
 
 ## Student Learning Outcomes
 
@@ -66,15 +60,23 @@ Upon satisfactory completion of this course, a student should be able to:
 
 ### Describe and Define
 
-- All the things
-- All the ways
-- All the time
+- Fundamentals of C# and the .NET Framework
+- Object-Oriented Programming
+- Entity Framework with SQL Server
+- LINQ
+- Authentication and Authorization Using Identity Framework
+- MVC and Razor Pages on IIS
+- React / Next.JS
+- Unity Game Development
 
 ### Execute
 
-- This
-- That
-- Something Else
+- Domain modeling of real-world concepts using object-oriented programming.
+- Development of authenticated REST API with SQL Server and EF db backend.
+- Deployment of a full-stack MVC web app to Azure.
+- Deployment of a Jamstack web app with React and Next.js to Netlify.
+- Source control and deployment via Azure DevOps.
+- Development of a simple 2D game in Unity.
 
 ## Course Schedule
 
