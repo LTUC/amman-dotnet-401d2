@@ -97,7 +97,7 @@ Upon satisfactory completion of this course, a student should be able to:
 | 06 | OOP | UML (Zoo) |
 | 07 | Interfaces | Implement UML |
 | 08 | Collections and Enums | Lending Library |
-| 09 | LinQ, Delegates | LINQQ and JSON query practice |
+| 09 | LinQ, Delegates | LINQ and JSON query practice |
 | 10 | Stacks, Queues, Personal Pitch Workshop | Stack, Queue Implementations |
 
 ### Module 3
