@@ -52,7 +52,7 @@ Learn to write clean, well-tested, advanced C# code using industry-standard soft
 
 ## Program Learning Outcomes
 
-Develops problem solving and analytical thinking skills that will provide the foundations for architecting complex solutions.
+Students will learn to use Visual Studio to create ASP.NET MVC Core applications and work with Azure to deploy the applications onto a live server. The course focuses on fundamental computer science concepts like object-oriented programming, data structures, and the foundations of Microsoft’s ASP.NET Core Framework.
 
 ## Student Learning Outcomes
 
