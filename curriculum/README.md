@@ -1,146 +1,184 @@
-# 401 ASP.NET Core Curriculum Overview
+# Code 401: ASP.NET Core Syllabus
 
-The ASP.NET curriculum focuses on the following learning outcomes
+## Course Information
 
-1. Fundamentals of the C# language and Object Oriented Programming
-1. ReST API Development
-1. Entity Framework
-1. Authentication and Authorization using the Identity Framework
-1. MVC and Razor Pages
-1. React UI
-1. Unity Game Development
+- Course Level: Code 401
+- Certificate: Advanced Software Development In ASP.Net
 
-## C# Fundamentals
+## Course Prerequisites
 
-The first 2 modules consist of introduction to C#. You will spend the next 10 classes teaching the students C# and getting them ready to go into ASP.NET Core web development. ASP.NET Core assumes an intermediate knowledge of C#, so we have 10 classes to get the students to that level. The focus on these 2 weeks is primarily computer-science related and does not work with the web. The lab assignments are all console apps and focus on practicing the c# concepts taught daily.
+- Code 102
+- Code 201
+- Code 301
 
-### Module 1 - C# Basics
+> Students with previous relevant or equivalent experience can test out of this requirement in their application.
 
-1. Exception Handling
-1. Unit Testing
-1. System.IO
-1. Classes, Stack/Heap, Garbage Collector
-1. OOP Principles
+## Course Description
 
-Career Coaching: Resumes
+Learn to write clean, well-tested, advanced C# code using industry-standard software engineering patterns and Microsoft's powerful, open-source ASP.NET Core framework.
 
-Data Structures: Linked Lists
+## Required Materials
 
-Quiz 1
+### Hardware
 
-### Module 2 - Advanced C# Concepts
+#### Computer
 
-1. Interfaces
-1. Collections (Generic) & Enums
-1. LINQ & Lambda Expressions
-1. Design Patterns
+- Students are required to bring their own laptop.
+- It needs to run the latest version of Windows.
+- Administrator-level access required.
+- At least 50GB of free space on the hard drive.
+- At least 16GB of RAM. 32GB RAM strongly preferred.
+- Free of viruses.
+- Zoom-ready (reliable webcam and microphone).
 
-Career Coaching: Personal Pitch
+#### Internet Connection
 
-Data Structure: Stacks and Queues
+- Each student is responsible for their access to the internet for purposes of this course and for research. Internet access is a required component of this course and will not be accepted as an excuse for missed work. If you know that you will be traveling, then make sure you plan accordingly.
 
-Quiz 2
+### Software
 
-## API Development
+#### Applications 
 
-Modules 3 & 4 introduce the concept of web development. The students will dive into MVC and learn what an MVC application consists of. They will model a database with an ERD and create a hotel asset management system through the course of the 2 weeks using ASP.NET MVC Core and Dependency Injection. They will end this module with an intro to REST APIs in ASP.NET and building out their own API server.
+- [Zoom Video Conferencing Software](https://zoom.us)
+- The latest version of [Google Chrome](https://www.google.com/chrome/browser/desktop/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio](https://visualstudio.microsoft.com)
 
-### Module 3 - MVC & Entity Framework Core
+#### Accounts
 
-1. Relational Databases & schemas
-1. CRUD Operations, Intro to Entity Framework
-1. Dependency Injection
-1. Navigation Properties, Routing
+- A [GitHub](https://github.com) account
+- [Repl.it](https://repl.it) account
+- [Azure](https://portal.azure.com) account
 
-Career Coaching: Targeted Job Search
+## Program Learning Outcomes
 
-Data Structure: Trees
+Students will learn to use Visual Studio to create ASP.NET MVC Core applications and work with Azure to deploy the applications onto a live server. The course focuses on fundamental computer science concepts like object-oriented programming, data structures, and the foundations of Microsoft’s ASP.NET Core Framework.
 
-### Module 4 - Repository Design Pattern & APIs
+## Student Learning Outcomes
 
-1. DTOs and Testing
-1. Testing and Swagger
-1. Authentication with Identity Framework
-1. Authorization with Identity Framework
+Upon satisfactory completion of this course, a student should be able to:
 
-Midterm Project Kickoff
+### Describe and Define
 
-## Midterm Project
+- Fundamentals of C# and the .NET Framework
+- Object-Oriented Programming
+- Entity Framework with SQL Server
+- LINQ
+- Authentication and Authorization Using Identity Framework
+- MVC and Razor Pages on IIS
+- React / Next.JS
+- Unity Game Development
 
-1. Build a ReST API
-1. Build an app that calls/uses the API
-1. No User Interface Permitted
+### Execute
 
-Ideas: Alexa App, Raspberry Pi, API for future project, Console Game
+- Domain modeling of real-world concepts using object-oriented programming.
+- Development of authenticated REST API with SQL Server and EF db backend.
+- Deployment of a full-stack MVC web app to Azure.
+- Deployment of a Jamstack web app with React and Next.js to Netlify.
+- Source control and deployment via Azure DevOps.
+- Development of a simple 2D game in Unity.
 
-## E-Commerce Project: Dashboard
+## Course Schedule
 
-The second half starts with (2) 1-week sprints. Each week is broken into daily milestones.  Each milestone consists of 3-5 user stories that are divided amongst all developers
-in a team.
+### Module 1
 
-Each day, the developers will complete their respective user stories. Each day builds off the prior, so it is important that all user stories from one day are completed before the next.
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 01 | Intro to C# | Methods, Debugging |
+| 02 | Unit Testing | Bank ATM - Unit Tests |
+| 03 | Files, System.IO | C# Challenges |
+| 04 | Classes and Objects | Tic-Tac-Toe |
+| 05 | Linked Lists, Big O, Resume Workshop | Linked List Implementation |
 
-*Projects are only submitted at the end of each sprint* - This allows for students to progress towards an "end of week sprint" goal instead of feeling rushed everyday to complete the given tasks. This is also intentional to emulate a real-world team where in an agile environment, they are given until the end of the sprint to complete all the tasks that are assigned to them each day.
+### Module 2
 
-Students will use Azure Dev Ops (ADO) as their project management tool and Azure Repos as their source control. They will use the ADO Kanban board to create and manage user stories.
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 06 | OOP | UML (Zoo) |
+| 07 | Interfaces | Implement UML |
+| 08 | Collections and Enums | Lending Library |
+| 09 | LinQ, Delegates | LINQ and JSON query practice |
+| 10 | Stacks, Queues, Personal Pitch Workshop | Stack, Queue Implementations |
 
-1. Managing a Sprint Backlog
-1. Create user stories with tasks and acceptance tests
-1. Time estimation
-1. PRs within Azure Dev Ops
-1. Peer reviews
-1. Weekly goals and retrospectives
+### Module 3
 
-### Module 6 - Sprint 1: Admin Dashboard
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 11 | Databases and ERDs | Build ERD |
+| 12 | Entity Framework and APIs | API: Scaffold, connect to SQL Server |
+| 13 | Dependency Injection, Reposotories | API: Multiple models via Injecting DBContext |
+| 14 | Navigation Properties and Routing | API: Implementing joins using Navigation Properties |
+| 15 | Trees, Job Search Workshop | Tree Implementation |
 
-1. MVC
-1. Forms
-1. Cookies
-1. Azure Blob Storage
+### Module 4
 
-END OF SPRINT 1
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 16 | DTOs | API: Sanitize input, shape output for API |
+| 17 | Swagger, API Testing | API: Implement swagger, acceptance tests |
+| 18 | Users and Logins | Implement Users, using Identity Framework |
+| 19 | Roles, Claims and JWT Tokens | API: Add access levels |
+| 20 | Project Kickoffs | Team Setup, Ideation, Wireframes, Tooling |
 
-Career Coaching: Behavioral Interviewing
+### Module 5 - Midterm Project
 
-Data Structure: Hash Tables
+| Class # | Deliverables |
+|-----------------|-----------|
+| 16 | Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements|
+| 17 | Phase 1 |
+| 18 | MVP |
+| 19 | Final Polish, Presentation Practice |
+| 20 | Final Project Presentations |
 
-### Module 7: Sprint 2: Storefront
 
-1. Razor Pages
-1. View Components
-1. Sendgrid
-1. Authorize.net (Payments)
+### Module 6
 
-Career Coaching: Technical Interviewing
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 26 | MVC | ECommerce: Scaffold Admin Dashboard |
+| 27 | MVC Forms | ECommerce: Add, Edit products and categories |
+| 28 | Authorization, Cookies | ECommerce: Add login, route protection |
+| 29 | Azure Blob Storage | ECommerce: Allow product image uploads |
+| 30 | Hash Tables, Behavioral Interviewing | Hash Tables Implementation |
 
-Data Structure: Graphs
+### Module 7
 
-### Module 8 - React
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 31 | Razor Pages | ECommerce: Create customer facing storefront |
+| 32 | View Components | ECommerce: Add shopping cart component |
+| 33 | Sendgrid | ECommerce: Integrate with sendgrid - IEmailSender |
+| 34 | Payment Processing | ECommerce: Integrate with authorize.net |
+| 35 | Graphs, Technical Interviewing | Graph Implementation - IPaymentGateway |
 
-1. Deploy new CRUD API
-1. React with Next.js and Tailwind
-1. React: API Integration
-1. React: Authentication & Authorization
+### Module 8
 
-Career Coaching: Personal Presentation
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 36 | API Review | Create new REST API |
+| 37 | React + Next.JS | Create, deploy connected React Appd |
+| 38 | React - Conditional Rendering | CRUD through API |
+| 39 | Authentication | Require login to access the application |
+| 40 | Personal Presentation |  |
 
-Data Structure: Practice Interviews
+### Module 9
 
-### Module 9 - Unity
+| Class # | Topic | Lab |
+|-----------------|-----------|----------|
+| 41 | Unity | Game Scaffold |
+| 42 | Unity | Game Physics, User Actions |
+| 43 | Open Source | Research, contribute to OSS |
+| 44 | Ethics | Final Exam |
+| 45 | Project Kickoffs | Team Setup, Ideation, Wireframes, Tooling |
 
-1. Unity basics
-1. Unity interactions
-1. Ethics in Technology
-1. Open source contribution
 
-Final Project Kickoff
+### Module 10 - Capstone Project
 
-Data Structures: Final Exam (Whiteboard)
+| Class # | Deliverables |
+|-----------------|-----------|
+| 46 | Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements|
+| 47 | Phase 1 |
+| 48 | MVP |
+| 49 | Final Polish, Presentation Practice |
+| 50 | Final Project Presentations |
 
-### Week 10 - Final Project Week
-
-Final Project Week
-
-1. Build a full-stack app with ASP.NET Core
-1. Collaborate as a team with GitHub
-1. Present on completed project: test coverage, performance, security, and privacy
