@@ -8,5 +8,12 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Intro to View Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1){:target="_blank"}
-1. [View Components](https://blog.mariusschulz.com/2015/11/26/view-components-in-asp-net-mvc-6){:target="_blank"}
+- [Intro to View Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.1){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+- [View Components](https://blog.mariusschulz.com/2015/11/26/view-components-in-asp-net-mvc-6){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+<!-- NOTE: "additional resources" may not be relevant for every class. Omit this section or any of the sections below if you don't have anything for your students here -->

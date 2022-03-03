@@ -8,8 +8,24 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Azure Dev Ops](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops){:target="_blank"}
-1. [MVC Basics](https://www.c-sharpcorner.com/article/learn-basics-of-mvc-architecture/){:target="_blank"}
-1. [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"}
-1. [Bootstrap](https://getbootstrap.com/)
-1. [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
+- [Azure Dev Ops](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+- [MVC Basics](https://www.c-sharpcorner.com/article/learn-basics-of-mvc-architecture/){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+- [Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.1){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+- [Bootstrap](https://getbootstrap.com/)
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+- [1 Hour tutorial Bootstrap](https://scrimba.com/g/gbootstrap4){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+<!-- NOTE: "additional resources" may not be relevant for every class. Omit this section or any of the sections below if you don't have anything for your students here -->
