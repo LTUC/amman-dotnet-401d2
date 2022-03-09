@@ -19,34 +19,19 @@ Learn to write clean, well-tested, advanced C# code using industry-standard soft
 
 ## Required Materials
 
-### Hardware
-
-#### Computer
-
-- Students are required to bring their own laptop.
-- It needs to run the latest version of Windows.
-- Administrator-level access required.
-- At least 50GB of free space on the hard drive.
-- At least 16GB of RAM. 32GB RAM strongly preferred.
-- Free of viruses.
-- Zoom-ready (reliable webcam and microphone).
-
-#### Internet Connection
-
-- Each student is responsible for their access to the internet for purposes of this course and for research. Internet access is a required component of this course and will not be accepted as an excuse for missed work. If you know that you will be traveling, then make sure you plan accordingly.
-
 ### Software
+
+#### Operating System
+
+- Latest version of Windows 10 or 11
 
 #### Applications 
 
-- [Zoom Video Conferencing Software](https://zoom.us)
-- The latest version of [Google Chrome](https://www.google.com/chrome/browser/desktop/)
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [Visual Studio](https://visualstudio.microsoft.com)
 
 #### Accounts
 
-- A [GitHub](https://github.com) account
+- [GitHub](https://github.com) account
 - [Repl.it](https://repl.it) account
 - [Azure](https://portal.azure.com) account
 
