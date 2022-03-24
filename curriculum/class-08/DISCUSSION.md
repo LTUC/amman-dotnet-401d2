@@ -6,12 +6,10 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections){:target="_blank"}
+[Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
-- [Enums](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum){:target="_blank"}
+[Enums](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/enum){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
-
-<!-- NOTE: "additional resources" may not be relevant for every class. Omit this section or any of the sections below if you don't have anything for your students here -->

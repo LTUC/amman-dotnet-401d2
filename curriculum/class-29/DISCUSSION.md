@@ -8,16 +8,14 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [Intro to Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction){:target="_blank"}
+[Intro to Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
-- [Blob Storage Quickstart](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=windows){:target="_blank"}
+[Blob Storage Quickstart](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=windows){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
-- [Azure Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/){:target="_blank"}
+[Azure Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
-
-<!-- NOTE: "additional resources" may not be relevant for every class. Omit this section or any of the sections below if you don't have anything for your students here -->

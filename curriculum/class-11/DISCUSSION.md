@@ -6,7 +6,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"}
+[Data Models (Review the DB Schema)](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/complex-data-model?view=aspnetcore-2.0){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
@@ -21,7 +21,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
    - What is a Composite Key?
    - How are they different? When do you use 1 over the others?
 
-- [DBMS](https://www.tutorialspoint.com/dbms/dbms_overview.htm){:target="_blank"}
+[DBMS](https://www.tutorialspoint.com/dbms/dbms_overview.htm){:target="_blank"}
 
 <!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
