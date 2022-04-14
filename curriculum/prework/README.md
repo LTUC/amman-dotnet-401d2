@@ -32,9 +32,10 @@ Below is the **suggested** order in which you complete the prework. Feel free to
 
 #### Required Prework:
 
-- [Prework - Mindset](./mindset.md){:target="_blank"}   (~90 min)
+- [Prework - Mindset](https://codefellows.github.io/common_curriculum/prep_work/Mindset) (~90 min)
 - [Prework - Tutorials](./tutorials.md){:target="_blank"}  (~5.5 hours)
 - [Prework - Readings](./readings.md){:target="_blank"}  (~2.5 hours)
+- [Prework - Introduction to SQL](https://codefellows.github.io/common_curriculum/prep_work/SQL)
 - [Prework - Data Structures & Algorithms](./DSA.md){:target="_blank"} (~5 hours)
 - [Typing Practice](https://typing.io/lessons){:target="_blank"}
   - Sign up with the free account
