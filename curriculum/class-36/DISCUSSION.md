@@ -4,4 +4,8 @@ Below you will find some reading material, code samples, and some additional res
 
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
-- [What is the JAM Stack?](https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/){:target="blank"}
+## Reading
+
+[What is the JAM Stack?](https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/){:target="blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->

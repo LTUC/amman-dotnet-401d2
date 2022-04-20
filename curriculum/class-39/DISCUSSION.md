@@ -6,17 +6,20 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Reading
 
-- [NextJs](https://nextjs.org/learn/basics/getting-started){:target="_blank"}
-  - Through `Assets, Metadata, and CSS` section. 
+[NextJs](https://nextjs.org/learn/basics/getting-started){:target="_blank"}
 
+- Through `Assets, Metadata, and CSS` section
 
-## Additional Resources
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
-### Videos
+<!-- NOTE: "additional resources" may not be relevant for every class. Omit this section or any of the sections below if you don't have anything for your students here -->
 
-- [Why I'm using Next.js in 2020](https://www.youtube.com/watch?v=rtgbaKBhdkk){:target="_blank"}
+## Videos
 
-### Bookmark/Skim
+[Why I'm using Next.js in 2020](https://www.youtube.com/watch?v=rtgbaKBhdkk){:target="_blank"}
 
-- [Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples){:target="_blank"}
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
 
+## Bookmark and Review
+
+[Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples){:target="_blank"}

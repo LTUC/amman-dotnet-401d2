@@ -8,8 +8,20 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [How to read technical documentation](https://www.linkedin.com/pulse/20140730081025-316694350-how-to-read-technical-docs-in-the-minimum-time-possible/){:target="_blank"}
-- [How Credit Card Processing Works](https://wallethub.com/edu/cc/credit-card-transaction/25511){:target="_blank"}
-- [How ONLINE Credit Card Processing Works](https://www.eventrebels.com/online-credit-card-processing-work/){:target="_blank"}
-- [Authorize.net Developer Docs](https://developer.authorize.net/api/reference/index.html){:target="_blank"} (bookmark this)
-- [Authorize.net .NET SDK](https://github.com/AuthorizeNet/sdk-dotnet){:target="_blank"} (bookmark this)
+[How to read technical documentation](https://www.linkedin.com/pulse/20140730081025-316694350-how-to-read-technical-docs-in-the-minimum-time-possible/){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[How Credit Card Processing Works](https://wallethub.com/edu/cc/credit-card-transaction/25511){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[How ONLINE Credit Card Processing Works](https://www.eventrebels.com/online-credit-card-processing-work/){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+## Bookmark and Review
+
+[Authorize.net .NET SDK](https://github.com/AuthorizeNet/sdk-dotnet){:target="_blank"} (bookmark this)
+
+[Authorize.net Developer Docs](https://developer.authorize.net/api/reference/index.html){:target="_blank"} (bookmark this)

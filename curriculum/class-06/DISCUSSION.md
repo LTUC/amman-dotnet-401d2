@@ -6,7 +6,18 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-- [Inheritance](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance){:target="_blank"}
-- [Abstract](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members){:target="_blank"}
-- [Polymorphism](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/polymorphism){:target="_blank"}
-- [OOP Principles](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming){:target="_blank"}
+[Inheritance](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[Abstract](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[Polymorphism](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/polymorphism){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[OOP Principles](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->

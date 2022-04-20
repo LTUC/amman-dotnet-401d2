@@ -8,5 +8,10 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"}
-1. [Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html){:target="_blank"}
+[Intro to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio%2Caspnetcore2x){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[Identity Demystified](https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html){:target="_blank"}
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->

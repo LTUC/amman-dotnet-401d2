@@ -8,5 +8,10 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Readings
 
-1. [View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
-1. [4 Ways to make a form in .NET MVC](https://www.completecsharptutorial.com/asp-net-mvc5/4-ways-to-create-form-in-asp-net-mvc.php)
+[View Models](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-2.2)
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
+
+[4 Ways to make a form in .NET MVC](https://www.completecsharptutorial.com/asp-net-mvc5/4-ways-to-create-form-in-asp-net-mvc.php)
+
+<!-- Mix it up! Create the questions with pointed answers, fill in the blank, or opinion/open ended -->
