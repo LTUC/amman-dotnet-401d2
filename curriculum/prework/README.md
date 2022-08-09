@@ -47,6 +47,5 @@ Here are some inspirational reading/viewing that will help get you in the right 
 
 - [Prework - Tutorials](./tutorials){:target="_blank"}  (~5.5 hours)
 - [Prework - Readings](./readings){:target="_blank"}  (~2.5 hours)
-- [Prework - Data Structures & Algorithms](./DSA){:target="_blank"} (~5 hours)
 - QUIZ - Canvas Assignment (2 attempts, unlimited time)
 
