@@ -1,5 +1,13 @@
 # Testing and Swagger and Deployment
 
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructor -->
+
 ## Learning Objectives
 
 ### Students will be able to
@@ -15,11 +23,6 @@
 - Write CRUD tests using services
 - Deploy an application to Azure
 - Generate "living" documentation with Swagger
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
 
 ## NOTES
 

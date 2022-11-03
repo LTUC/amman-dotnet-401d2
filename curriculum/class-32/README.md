@@ -1,6 +1,12 @@
 # View Components
 
+## Overview
+
 View Components perform a similar role to Tag Helpers and Partial Pages. They generate HTML and are designed to represent reusable snippets of UI that can help break up and simplify complex layouts, or that can be used in multiple pages
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
 
 ## Learning Objectives
 

@@ -1,11 +1,23 @@
 ﻿# Class 06
 
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructors -->
+
 ## Learning Objectives
 
-1. The student will know the difference between procedural and object oriented programming
-1. The student will be introduced and understand the differences between the 4 OOP principles.
+### Students will be able to
 
-## Lecture Outline
+#### Describe and Define
+
+- Know the difference between procedural and object oriented programming
+- Understand the differences between the 4 OOP principles
+
+## Notes
 
 ### Procedural Programming (imperative programming)
 
@@ -14,7 +26,7 @@ Procedural relies on a series of computational steps to be carried to completion
 the program what to do first at the beginning, and what to do at the end. it is a bit more intuitive and simple
 to read from top to bottom. Procedural programming languages are also called "top down "
 
-### What is Object-Oriented Programming?
+### What is Object-Oriented Programming
 
 Object-Oriented programming is mimicking real world objects in code.
 Everything in C# is essentially a class, and we can instantiate objects from

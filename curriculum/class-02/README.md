@@ -1,11 +1,33 @@
 # Class 02: Unit Testing
 
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
+
 ## Learning Objectives
 
-1. Students will be able to successfully create unit tests for their C# console applications using the Red/Green/Refactor approach.
-1. The students will understand and implement code coverage within their programs when testing.
-1. Students will include intuitive comments within their code.
-1. Students will setup readme documentation for each assignment given a specific format.
+### Students will be able to
+
+#### Describe and Define
+
+- Red/Green/Refactor
+- B
+- C
+
+#### Execute
+
+- Create unit tests for C# console applications using the Red/Green/Refactor approach
+- Implement code coverage within their programs when testing
+- Know how to write intuitive comments within their code
+- Setup README documentation for each assignment given a specific format
+
+## Notes
+
+### Topic
 
 ## Lecture Outline
 

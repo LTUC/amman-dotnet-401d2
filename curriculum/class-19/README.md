@@ -1,6 +1,12 @@
 # Roles, Claims and JWT Tokens
 
-Description Here
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructor -->
 
 ## Learning Objectives
 
@@ -17,7 +23,3 @@ Description Here
 #### Execute
 
 - Implement RBAC using JWT, Roles, Claims, and Policies
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

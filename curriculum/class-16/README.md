@@ -1,6 +1,12 @@
 # Data Transfer Objects (DTOs)
 
+## Overview
+
 Data Transfer Objects allow us to adhere to stricter and more curated data contract between the client code and the API.
+
+## Class Outline
+
+<!-- Additional items to be added by Instructor -->
 
 ## Learning Objectives
 
@@ -16,7 +22,3 @@ Data Transfer Objects allow us to adhere to stricter and more curated data contr
 
 - Apply an outbound DTO to a complex API route, that involves joined data
 - Apply an inbound DTO to a POST route that affects multiple tables
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

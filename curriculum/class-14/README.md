@@ -1,6 +1,12 @@
 # Navigation Properties and Routing
 
-Description Here
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- To Be Completed By Instructor -->
 
 ## Learning Objectives
 
@@ -17,7 +23,3 @@ Description Here
 
 - Joining Tables/Models using Navigation Properties
 - Routes with dynamic parameters
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

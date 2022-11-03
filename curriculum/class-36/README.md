@@ -1,10 +1,16 @@
 # Salmon Cookies API
 
+## Overview
+
 We have created APIs with Authentication and Full Stack Applications using both MVC and MVVM (Razor Pages). We'll now dive into a different stack, the "JAM" Stack
 
 - Javascript
 - API Data
 - Markup
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
 
 ## Learning Objectives
 
@@ -24,7 +30,3 @@ We have created APIs with Authentication and Full Stack Applications using both 
 - Pass data via props
 - Handle application state
 - Handle user input
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

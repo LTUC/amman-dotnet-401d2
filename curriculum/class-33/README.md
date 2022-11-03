@@ -1,8 +1,14 @@
 # IEmailSender/Sendgrid
 
+## Overview
+
 One of the more basic functions web applications must adopt is the ability to send emails to users, or allow users to email the site owners (for example, a "Contact Us" form)
 
 Traditionally, servicing emails is very hard to setup on the server side, but many providers, such as **Sendgrid** have made this process far less painful for software developers to plug into with easy to use SDKs
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
 
 ## Learning Objectives
 
@@ -17,10 +23,6 @@ Traditionally, servicing emails is very hard to setup on the server side, but ma
 
 - Sending emails using the Sendgrid API
 - Customizing emails with templates
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
 
 ## Notes
 

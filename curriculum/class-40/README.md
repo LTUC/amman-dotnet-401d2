@@ -1,11 +1,10 @@
-## Career Coaching
+# Career Coaching
 
 - Workshop #6
 
 ## DS&A
 
 - Full Review
-
 
 ## Xamarin Project
 

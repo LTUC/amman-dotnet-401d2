@@ -1,17 +1,33 @@
 # Class 03: File Manipulation / System.IO
 
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
+
 ## Learning Objectives
 
-1. The student will be introduced and implement the FileStream.
-1. The student will know how to Create, Read, Update, and Delete file using the FileStream.
-1. The student will know how to properly open and close a file from an external location.
+### Students will be able to
 
-## Lecture Outline
+#### Describe and Define
+
+- What is System IO Library and why we use it
+- Define what these file types are: CSV, Text, Binary
+- SteamReader
+- SteamWriter
+
+#### Execute
+
+- Implement the FileStream
+- Create, Read, Update and Delete file using FileStream
+- Open and Close a file from an external location
+
+## Notes
 
 ### System IO Library
-
-- What is it?
-- Why do we use it?
 
 #### Writing a file
 
@@ -49,15 +65,3 @@ To delete a file, just tell the library to delete the location by inputting the 
 ```csharp
 File.Delete(path);
 ```
-
-## File Stream
-
-- What is a stream?
-  1. StreamReader
-  1. StreamWriter
-
-## File Types
-
-- CSV
-- Text
-- Binary

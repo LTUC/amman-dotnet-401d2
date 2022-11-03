@@ -1,6 +1,15 @@
-# Intro to c#
+# Intro to `C#`
+
+## Overview
 
 Welcome to class! Today we will learn about C# and how to handle errors and exceptions within our code.
+
+## Class Outline
+
+1. Syllabus
+1. Grade Break down
+1. Coding Challenges and Expectations
+1. Due Dates
 
 ## Learning Objectives
 
@@ -18,14 +27,7 @@ Welcome to class! Today we will learn about C# and how to handle errors and exce
 - The student will implement try-catch statements as a form of exception handling within their code.
 - Set-up a debugger within Visual Studio
 
-## Today's Outline
-
-## Review
-
-1. Syllabus
-1. Grade Break down
-1. Coding Challenges and Expectations
-1. Due Dates
+## Notes
 
 ### C# Basics
 
@@ -44,7 +46,7 @@ Welcome to class! Today we will learn about C# and how to handle errors and exce
     - Type checking occurs at Run time (JS)
   - Object Oriented
 
-### Microsoft Platform:
+### Microsoft Platform
 
 - C# depends on a runtime equipped with a host of features such as automatic memory management and exception handling.
   The design of C# closely maps to the design of Microsoft’s Common Language Runtime (CLR), which provides these runtime
@@ -91,7 +93,7 @@ Welcome to class! Today we will learn about C# and how to handle errors and exce
     }
 ```
 
-### Different types of Exceptions:
+### Different types of Exceptions
 
 There are many different types of exceptions included in the C# language. Here is just a few...
 
@@ -114,7 +116,7 @@ There are many different types of exceptions included in the C# language. Here i
   - Step into
   - Step through
 
-## Error Handling while during Lab:
+### Error Handling while during Lab
 
 - What do you do if you encounter an error (whiteboard // draw it)
 - 15 minute rule
