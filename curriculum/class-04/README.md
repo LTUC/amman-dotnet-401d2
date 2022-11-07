@@ -1,13 +1,31 @@
 # Class 04: Classes and Objects
 
-## Learning Objectives
+## Overview
 
-1. Students will be introduced to Object Oriented Programming.
-1. Students will know the difference between a class and an object.
-1. Students will know the difference between the stack and the heap.
-1. Students will be introduced to Garbage Collection and it's purpose.
+<!-- A few sentences about the day -->
 
-## Lecture Outline
+## Class Outline
+
+<!-- Additional Items to be added by Instructor -->
+
+## Learning Objective
+
+### Students will be able to
+
+#### Define and Describe
+
+1. Class:
+2. Object:
+3. Constructor:
+4. Method Overload:
+5. Stack:
+6. Heap:
+7. Garbage Collector:
+8. Value Type:
+9. Reference Type:
+10. Property:
+
+## Notes
 
 ### Object-Oriented Programming
 
@@ -21,8 +39,7 @@ Everything in C# is essentially a class, and we can instantiate objects from cla
 - We've seen them, now how do we use them?
 
 A class is a blueprint for a specific type or category of object.
-This means that the class will outline what exactly each object will have in regards to
-properties, methods, and general behavior.
+This means that the class will outline what exactly each object will have in regards to properties, methods, and general behavior.
 
 ### Objects
 
@@ -43,16 +60,3 @@ Constructors are created by default with each class. They are the "requirements"
 
 - What does static mean?
   - if it is marked as static, it lives at the class level, not the object level.
-
-## Terminology:
-
-1. Class:
-2. Object:
-3. Constructor:
-4. Method Overload:
-5. Stack:
-6. Heap:
-7. Garbage Collector:
-8. Value Type:
-9. Reference Type:
-10. Property:

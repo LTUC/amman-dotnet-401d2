@@ -1,8 +1,14 @@
 # React 1
 
+## Overview
+
 Django has the ability to render client side web pages nicely. But an increasingly popular stack is develop your APIs using Django REST Framework and use ReactJS on the client side.
 
 So it's time to dive back into JavaScript and learn React.
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
 
 ## Learning Objectives
 
@@ -22,7 +28,3 @@ So it's time to dive back into JavaScript and learn React.
 - Pass data via props
 - Handle application state
 - Handle user input
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

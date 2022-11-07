@@ -1,8 +1,14 @@
 # React 2
 
+## Overview
+
 Let's continue to deepen our understanding of ReactJS.
 
 Our goal is to start "thinking in React".
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
 
 ## Learning Objectives
 
@@ -19,7 +25,3 @@ Our goal is to start "thinking in React".
 - Render components differently based in unique conditions
 - Efficiently render lists of items
 - Handle user input via forms
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

@@ -1,6 +1,12 @@
 # Payment Processing
 
+## Overview
+
 It's the engine of the online economy -- credit card processing allows websites to take payments safely and securely online. There's a myriad of providers that make this process possible. Today, we'll be wiring up one of the oldest and most reliable processors - authorize.net
+
+## Class Outline
+
+<!-- Additional Items To Be Added By Instructor -->
 
 ## Learning Objectives
 
@@ -15,7 +21,3 @@ It's the engine of the online economy -- credit card processing allows websites 
 #### Execute
 
 - Validate credit cards using the Authorize.net API
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->

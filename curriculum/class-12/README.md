@@ -1,6 +1,12 @@
 # Entity Framework and APIs
 
-Description Here
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructor -->
 
 ## Learning Objectives
 
@@ -27,7 +33,7 @@ Description Here
 - .NET Web App Workshop
   - [Build Guide and Checklist](./resources/ef-web-app.md)
 
-## NOTES
+## Notes
 
 ### Entity Framework
 

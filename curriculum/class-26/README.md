@@ -1,5 +1,13 @@
 # Intro to MVC
 
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructor -->
+
 ## Learning Objectives
 
 ### Students will be able to
@@ -15,9 +23,10 @@
 - Code management through ADO
 - Azure Deployment using Pipelines
 
-## Today's Outline
+## Helpful Resources
 
-<!-- To Be Completed By Instructor -->
+- [Azure Dev Ops](https://dev.azure.com/)
+- [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)
 
 ## Notes
 
@@ -59,8 +68,3 @@ We wil use Azure Dev Ops for the entirety of the E-Commerce project.
 You will become comfortable with the environment and the tooling.
 You will learn how to make User Story cards, manage them through the
 KanBan board provided through weekly sprints.
-
-Resources:
-
-1. [Azure Dev Ops](https://dev.azure.com/)
-1. [Team Explorer Reference](https://docs.microsoft.com/en-us/azure/devops/user-guide/work-team-explorer?view=azure-devops)

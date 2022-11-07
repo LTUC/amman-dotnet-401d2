@@ -1,11 +1,26 @@
 # Class 07: Interfaces
 
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructor -->
+
 ## Learning Objectives
 
-1. The student will understand the difference between inheritance and interfaces.
-1. The student will be able to set up a hierarchy of classes that both inherit from a base class and implement at least one interface.
+### Students will be able to
 
-## Lecture Outline
+#### Describe and Define
+
+- The difference between inheritance and interfaces
+
+#### Execute
+
+- Be able to set up a hierarchy of classes that both inherit from a base class and implement at least one interface.
+
+## Notes
 
 ### Interfaces
 

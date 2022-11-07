@@ -1,17 +1,28 @@
 # Class 09: LINQ & Delegates
 
+## Overview
+
+<!-- To be filled out by instructor -->
+
+## Class Outline
+
+- Review Collections
+- Create a collection
+  - Add data to the collection
+  - Iterate through the collection
+- What is an easier way to iterate through a collection?
+
 ## Learning Objectives
 
-1. Students will be able to successfully write LINQ queries against a collection to extract data.
-1. Students will understand the use of a Lambda statement and how to join them with LINQ queries.
+### Describe and Define
 
-## Lecture Outline
+- Describe the use of a Lambda statement and how to join them with LINQ queries.
 
-1. Review Collections
-1. Create a collection
-   - Add data to the collection
-   - Iterate through the collection
-1. What is an easier way to iterate through a collection?
+### Execute
+
+- Write LINQ queries against a collection to extract data
+
+## Notes
 
 ### What Is LINQ?
 

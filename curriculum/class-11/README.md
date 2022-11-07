@@ -1,6 +1,12 @@
 # Introduction to Databases and ERDs
 
-Description Here
+## Overview
+
+<!-- A few sentences about the day -->
+
+## Class Outline
+
+<!-- Additional items to be added by Instructors -->
 
 ## Learning Objectives
 
