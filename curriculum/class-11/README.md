@@ -39,7 +39,7 @@ A database is used to persist and store data across applications. We use databas
    - SQL Server
 
 1. Non-Relational
-   - Mongo
+   - MongoDB
 
 ### Relational vs Non-Relational
 
