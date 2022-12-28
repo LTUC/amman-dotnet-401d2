@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Module 01: Lectures</title>
+</head>
+
+<body>
+  <h1>Course Lecture Videos</h1>
+  <main>
+    <!-- module links go here -->
+  </main>
+
+  <script>
+    fetch('./lectures.json')
+      .then((response) => response.json())
+      .then((data) => document.getElementsByTagName('main')[0].innerHTML = render(data.lectures));
+
+    const formatTitle = (title) => {
+      return title.toLocaleUpperCase();
+    };
+
+    const render = (modules) => {
+      let html = '';
+      const params = (new URL(document.location)).searchParams;
+      const moduleNumber = params.get('module') || "01";
+      const module = `module-${moduleNumber}`;
+      html += `<h2>Module ${moduleNumber}</h2>\n<ul>`
+      for (let classDay in modules[module]) {
+        html += `<li>${classDay}: <a href="${modules[module][classDay].primary.link}">${modules[module][classDay].primary.instructor}</a></li>`;
+      }
+      html += `</ul>`;
+      return html;
+    }
+  </script>
+</body>
+
+</html>
