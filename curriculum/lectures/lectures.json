@@ -1,128 +1,560 @@
 {
   "lectures": {
     "module-01": {
-      "class-01": {
+      "class-01-introduction": {
         "primary": {
-          "link": "https://zoom.us/rec/share/EbkCS6yhtRTcx-ZBFsJ0k6C459ACUxWv696pk8xn_gOyAmE1p5g7qnOKxJo5T3ca.W19_OuVXdZtZvRRB",
-          "date": "1667328828268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=AC8uexe5zso&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=2",
+          "date": "20210111",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-01": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=YfdN6g_QJaw&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=1&t=3s",
+          "date": "20210111",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
       "class-02": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=mulGeuwXM50&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=3",
+          "date": "20210112",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
       "class-03": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=RlVE-6J6L3c&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=4",
+          "date": "20210113",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
       "class-04": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=J6BQGsU-eys&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=5",
+          "date": "20210114",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
-      "class-05": {
+      "class-05-DSA": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=qbJiag3vjfk&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=6",
+          "date": "20210115",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "date": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
-      }
+      },
+      "class-05-career-coaching": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=E_KmDXzn5y0&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=7",
+          "date": "20210115",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
     },
     "module-02": {
       "class-06": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=y1MZU8c626o&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=8",
+          "date": "20210118",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
       "class-07": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=CpHt7smIsdI&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=9",
+          "date": "20210119",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
       "class-08": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=-V04ntgJ53o&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=10",
+          "date": "20210120",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
       "class-09": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=4BqnJ_u2hGE&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=11",
+          "date": "20210121",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
         }
       },
-      "class-10": {
+      "class-10-DSA": {
         "primary": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "https://www.youtube.com/watch?v=7hyvZsXWLJQ&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=12",
+          "date": "20210122",
+          "instructor": "John Cokos"
         },
         "backup": {
-          "link": "https://zoom.us/rec/share/OTHER-URL",
-          "timestamp": "1667328823268",
-          "instructor": "Audrey Patterson"
+          "link": "",
+          "date": "",
+          "instructor": ""
+        },
+        "class-10-career-coaching": {
+          "primary": {
+            "link": "https://www.youtube.com/watch?v=PBYH_RPyyJM&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=13",
+            "date": "20210122",
+            "instructor": "John Cokos"
+          },
+          "backup": {
+            "link": "",
+            "date": "",
+            "instructor": ""
+          }
         }
       }
+    },
+    "module-03": {
+      "class-11": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=1kzs23OYAHw&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=14",
+          "date": "20210125",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-12": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=PNLtVutZLjE&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=15&t=1s",
+          "date": "20210126",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-13": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=_HNgtt-K_QE&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=16",
+          "date": "20210127",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-13-workshop": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=NZN4K0BwwQk&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=17",
+          "date": "20210127",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-14": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=D1lPCkPuUZE&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=18",
+          "date": "20210128",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-15-DSA": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=LGYHilrFaL4&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=20",
+          "date": "20210201",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-15-career-coaching": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=PWLBqtA-C7M&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=19",
+          "date": "20210201",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      }
+    },
+    "module-04": {
+      "class-16": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=LGYHilrFaL4&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=20",
+          "date": "20212021",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-17": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=ZVibw-bUVd0&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=21",
+          "date": "20210202",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-18": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=Lp7JV5-t6LQ&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=22",
+          "date": "20210203",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-19": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=15nY0SFjp2Y&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=23",
+          "date": "20210204",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      }
+    },
+    "module-06": {
+      "class-26": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=mpIdLJSyRn0&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=24",
+          "date": "20210215",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-27": {
+        "primary": {
+          "link": "",
+          "date": "20210216",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-28": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=lrYwbsjvJXk&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=25",
+          "date": "20210218",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-29": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=cm6zZQHSkS4&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=26",
+          "date": "20210218",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-30-DSA": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=coeBkd2Pwfo&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=27",
+          "date": "20210219",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      }
+    },
+    "module-07": {
+      "class-31": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=7946OjIdKA0&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=28",
+          "date": "20210222",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-32": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=UyFohNw8ACQ&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=29",
+          "date": "20210223",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-33": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=3O4UNiiDSMc&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=30",
+          "date": "20210224",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-34": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=u0fnjUfH_oY&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=31",
+          "date": "20210225",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-35-DSA": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=dj9wveHOnXo&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=32",
+          "date": "20210201",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      }
+    },
+    "module-08": {
+      "class-36": {
+        "primary": {
+          "link": "",
+          "date": "20210301",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-37": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=dUbXZtQxLOU&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=33",
+          "date": "20210302",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-38": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=jg0WpowK6IU&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=34",
+          "date": "20210303",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-39": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=9wh9UHuYBGo&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=35",
+          "date": "20210304",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      }
+    },
+    "module-09": {
+      "class-41-preview": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=eYzd1ZLu2Sw&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=36",
+          "date": "20210305",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-41": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=mhkf2NQlDhs&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=37",
+          "date": "20210308",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-42": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=QakDSSDGVls&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=38",
+          "date": "20210309",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-43-ethics": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=uZvdxrsxVUU&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=39",
+          "date": "20210310",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-44": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=JNhU5wF-NF4&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=40",
+          "date": "20210311",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "class-45-ember-q&a": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=6OGat_2W4bc&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=41",
+          "date": "20210312",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
+      "Final Presentations": {
+        "primary": {
+          "link": "https://www.youtube.com/watch?v=gE_WWd2u4nc&list=PLVngfM2hsbi-V0zG_xhAHeEz_-xIUdy4D&index=42",
+          "date": "20210319",
+          "instructor": "John Cokos"
+        },
+        "backup": {
+          "link": "",
+          "date": "",
+          "instructor": ""
+        }
+      },
     }
   }
 }
