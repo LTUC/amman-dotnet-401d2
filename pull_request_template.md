@@ -61,6 +61,7 @@ Does this change affect how the material is taught?
 - [ ] Yes
   - Does this require an LMS change?
     - [ ] No: This is a **minor** version change.
+      - [ ] REQUIRED: Update the lectures.json file in the `curriculum/lectures` folder with the correct video demonstrating this change. 
     - [ ] Yes: This is a **major** version change to a course content. 
       - [ ] REQUIRED: Asana task to update all templates and running courses created, and linked below.
     - [ ] Yes: This is a **major** version change to entrance exam content
