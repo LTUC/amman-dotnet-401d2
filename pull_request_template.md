@@ -8,13 +8,13 @@ Summary: Briefly describe this PR
 
 - [ ] No - Not required
 - [ ] Yes
-   - [ ] File updates are included
+  - [ ] File updates are included
 
 ### Are Facilitator Guide documentation (demo, warm-up, lecture, etc) updates required?
 
 - [ ] No - Not required
 - [ ] Yes
-   - [ ] Documentation updates are included
+  - [ ] Documentation updates are included
 
 ### Does the demo code require an update?
 
@@ -29,11 +29,11 @@ Summary: Briefly describe this PR
   - [ ] The solution code is updated
   - [ ] The tests are updated
 
-### Are Student-facing doucmentation (lab, starter-code, discussion, readme) updates required?
+### Are Student-facing documentation (lab, starter-code, discussion, readme) updates required?
 
 - [ ] No - Not required
 - [ ] Yes
-   - [ ] Documentation updates are included
+  - [ ] Documentation updates are included
 
 ### Does this change affect prework assignments?
 
@@ -61,8 +61,8 @@ Does this change affect how the material is taught?
 - [ ] Yes
   - Does this require an LMS change?
     - [ ] No: This is a **minor** version change.
-      - [ ] REQUIRED: Update the lectures.json file in the `curriculum/lectures` folder with the correct video demonstrating this change. 
-    - [ ] Yes: This is a **major** version change to a course content. 
+          - [ ] REQUIRED: Update the lectures.json file in the `curriculum/lectures` folder with the correct video demonstrating this change.
+    - [ ] Yes: This is a **major** version change to a course content.
       - [ ] REQUIRED: Asana task to update all templates and running courses created, and linked below.
     - [ ] Yes: This is a **major** version change to entrance exam content
       - [ ] REQUIRED: Asana task to update all templates and "-exam courses" created, and linked below.
