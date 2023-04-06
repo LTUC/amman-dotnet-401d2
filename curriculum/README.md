@@ -23,7 +23,11 @@ Learn to write clean, well-tested, advanced C# code using industry-standard soft
 
 #### Operating System
 
-- Latest version of Windows 10 or 11
+- Latest version of Windows Pro
+- All updates and security patches applied
+- At least 50100GB of free space on the hard drive
+- At least 16GB of RAM, 32GB RAM or more strongly preferred
+
 
 #### Applications 
 
