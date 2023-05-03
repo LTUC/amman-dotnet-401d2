@@ -47,13 +47,14 @@
       const module = `module-${moduleNumber}`;
       html += `<h2>Module ${moduleNumber}</h2>\n<ul>`
       for (let classDay in modules[module]) {
-        let [title, classNum] = classDay.split('-');
-        title = title.charAt(0).toUpperCase() + title.slice(1).toLowerCase();
-        let date = new Date(Number(modules[module][classDay].primary.date)).toLocaleDateString();
+        let className = classDay.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+        let title = modules[module][classDay].title || "";
+        let link = modules[module][classDay].link;
+        let instructor = modules[module][classDay].instructor;
+        let date = new Date(Number(modules[module][classDay].date)).toLocaleDateString();
         html += `
           <li>
-            <strong><a href="${modules[module][classDay].primary.link}">${title} ${classNum}</a></strong>:
-            ${modules[module][classDay].primary.instructor} (${date})
+            <strong><a href="${link}">${className} - ${title}</a></strong>, Instructor: ${instructor} - ${date}
           </li>
         `;
       }
