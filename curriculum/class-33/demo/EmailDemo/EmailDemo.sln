@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailDemo", "EmailDemo\EmailDemo.csproj", "{F2A58EE4-5FBF-4026-843C-78075E98E620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailDemo", "EmailDemo\EmailDemo.csproj", "{F2A58EE4-5FBF-4026-843C-78075E98E620}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

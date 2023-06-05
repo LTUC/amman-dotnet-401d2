@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab02-ATM", "Lab02-ATM\Lab02-ATM.csproj", "{069AA77B-2E5D-410A-A9E9-AD7BC7F7247C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMTests", "ATMTests\ATMTests.csproj", "{8267A955-C799-48B1-9EFE-E982E8084C15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATMTests", "ATMTests\ATMTests.csproj", "{8267A955-C799-48B1-9EFE-E982E8084C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -21,7 +21,6 @@ You do not need to do a lot of work every day. Spread it out evenly to do a bit 
 
 - [Introduction to SQL](https://codefellows.github.io/common_curriculum/prework/SQL)
 - [GIT Practice](https://codefellows.github.io/common_curriculum/prework/git){:target="_blank"}
-- [Bash Practice](https://codefellows.github.io/common_curriculum/prework/terminal){:target="_blank"}
 - [Typing Practice](https://codefellows.github.io/common_curriculum/prework/typing){:target="_blank"}
   - Sign up with the free account
   - Go to lessons

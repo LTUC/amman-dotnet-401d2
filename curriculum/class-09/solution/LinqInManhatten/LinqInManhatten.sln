@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqInManhatten", "LinqInManhatten\LinqInManhatten.csproj", "{B6B0BD4F-48D8-4388-AFB6-B5F57718C4CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqInManhatten", "LinqInManhatten\LinqInManhatten.csproj", "{B6B0BD4F-48D8-4388-AFB6-B5F57718C4CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
