@@ -13,7 +13,7 @@
         private static void Squares()
         {
             // 300 Lines of code 
-            int[] events = new int[3] { 2, 4, 8 };
+            int[] events = new int[3] { 2, 4, 8};
 
             foreach (int number in events)
             {
