@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MVCDemo.Models.Person>
+
+
+    <ul>
+        @foreach (var person in Model)
+        {
+           
+
+        <li>
+            <a asp-controller="Home"
+            asp-action="StudentInformation"
+           asp-route-studentName="@person.Name"> @person.Name</a>
+        </li>
+    }
+    </ul>
