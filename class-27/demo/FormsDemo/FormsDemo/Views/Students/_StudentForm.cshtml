@@ -1,0 +1,41 @@
+﻿@model FormsDemo.Models.Student
+
+<label>
+    <span>First name</span>
+    <input asp-for="@Model.FirstName" />
+
+    @* <input type="text" name="FirstName" />*@
+</label>
+
+<label>
+
+    @Html.LabelFor(x => x.LastName)
+    <input asp-for="@Model.LastName" />
+</label>
+
+<label>
+    <span>Age</span>
+    <input asp-for="@Model.Age" />
+</label>
+
+
+<label>
+    <span>GPA</span>
+    <input asp-for="@Model.GPA" />
+</label>
+
+@if(Model.Id > 0)
+{
+    <input type="hidden" name="Id" value="@Model.Id" />
+}
+
+
+<div asp-validation-summary="All"></div>
+
+@if (Model.Id > 0)
+{
+    <button type="submit"> Update</button>
+}
+else{
+    <button type="submit"> Add</button>
+}
