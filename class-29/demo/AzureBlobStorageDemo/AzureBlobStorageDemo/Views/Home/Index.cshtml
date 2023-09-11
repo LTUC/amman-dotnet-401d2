@@ -1,0 +1,32 @@
+﻿@model AzureBlobStorageDemo.Models.Document
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Uploading demo</h1>
+
+<form asp-controller="Home" asp-action="UploadFile" method="post" enctype="multipart/form-data">
+    <div>
+        <input type="text" name="name"/>
+        <input type="file" name="file"/>
+
+        <button>Upload the file</button>
+    </div>
+</form>
+
+@if(Model != null){
+    <div>Uploded file</div>
+
+    <ul>
+        <li>Name : @Model.Name</li>
+        <li>Type : @Model.Type</li>
+        <li>Size : @Model.Size</li>
+        <li>Url : @Model.Url</li>
+    </ul>
+
+    if (Model.Url != null)
+    {
+        <img src="@Model.Url" width="250" alt="Test"/>
+    }
+}
