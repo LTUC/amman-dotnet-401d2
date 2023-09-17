@@ -1,0 +1,19 @@
+﻿@page
+@model RazorPagesDemo.Pages.Accounts.IndexModel
+@{
+}
+
+
+<h1>
+    Index from Razor pages
+</h1>
+
+@if(Model.People != null){
+    foreach (var person in Model.People)
+    {
+        <div>
+            <a asp-page="/accounts/person" asp-route-id="@person.Id">@person.Name</a> 
+            is @person.Age years old
+        </div>
+    }
+}
