@@ -1,0 +1,14 @@
+﻿@page
+@model ViewComponentsDemo.Pages.Settings.IndexModel
+@{
+}
+
+<form method="post">
+    <div>
+        <label asp-for="Settings.Name"> User name:</label>
+        <input asp-for="Settings.Name" type="text">
+    </div>
+    <div>
+        <button>Save Settings</button>
+    </div>
+</form>
