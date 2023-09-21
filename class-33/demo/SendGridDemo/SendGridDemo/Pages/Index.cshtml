@@ -1,0 +1,41 @@
+﻿@page
+@model SendGridDemo.Pages.IndexModel
+@{
+}
+
+
+<h2>Emailing System</h2>
+
+<h3>
+    Add new Player
+</h3>
+
+<form method="post">
+    <div>
+        <label asp-for="@Model.Player.Name">Name:</label>
+        <input asp-for="@Model.Player.Name"/>
+    </div
+
+      <div>
+        <label asp-for="@Model.Player.Email">Email:</label>
+        <input asp-for="@Model.Player.Email"/>
+    </div>
+      <div>
+        <label asp-for="@Model.Player.Position">Position:</label>
+        <input asp-for="@Model.Player.Position"/>
+    </div>
+      <div>
+        <label asp-for="@Model.Player.Number">Number:</label>
+        <input asp-for="@Model.Player.Number"/>
+    </div>
+
+    <div>
+        <button>Save Player</button>
+    </div>
+</form>
+
+<div asp-validation-summary="All"></div>
+
+@if(Model.Message !=  null){
+    <h3>@Model.Message</h3>
+}
